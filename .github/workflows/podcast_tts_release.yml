@@ -91,15 +91,23 @@ jobs:
           KO_VOICE_NAME="${{ github.event.inputs.ko_voice_name }}"
           EN_VOICE_NAME="${{ github.event.inputs.en_voice_name }}"
 
-          # If explicit IDs are provided, use them and SKIP /v1/voices.
-          if [ -n "$KO_VOICE_ID_INPUT" ] && [ -n "$EN_VOICE_ID_INPUT" ]; then
-            echo "ko_voice_id=$KO_VOICE_ID_INPUT" >> $GITHUB_OUTPUT
-            echo "en_voice_id=$EN_VOICE_ID_INPUT" >> $GITHUB_OUTPUT
+          # Use explicit IDs when provided (independently). Only fetch /v1/voices for the missing ones.
+          if [ -n "$KO_VOICE_ID_INPUT" ]; then
+            KO_VOICE_ID="$KO_VOICE_ID_INPUT"
+          fi
+          if [ -n "$EN_VOICE_ID_INPUT" ]; then
+            EN_VOICE_ID="$EN_VOICE_ID_INPUT"
+          fi
+
+          # If both are set, we can skip /v1/voices entirely.
+          if [ -n "${KO_VOICE_ID:-}" ] && [ -n "${EN_VOICE_ID:-}" ]; then
+            echo "ko_voice_id=$KO_VOICE_ID" >> $GITHUB_OUTPUT
+            echo "en_voice_id=$EN_VOICE_ID" >> $GITHUB_OUTPUT
             echo "Using explicit voice IDs (skipping /v1/voices)."
             exit 0
           fi
 
-          # Otherwise, query voices and pick by name (fallback to first voice).
+          # Otherwise, query voices and pick by name (fallback to first voice) for whichever is missing.
           # NOTE: This requires the ElevenLabs API key permission: voices_read.
           set +e
           HTTP_CODE=$(curl -sS \
@@ -131,21 +139,25 @@ jobs:
             exit 5
           fi
 
-          KO_VOICE_ID=$(echo "$VOICES_JSON" | jq -r --arg n "$KO_VOICE_NAME" '.voices[]? | select(.name==$n) | .voice_id' | head -n 1)
-          if [ -z "$KO_VOICE_ID" ] || [ "$KO_VOICE_ID" = "null" ]; then
-            KO_VOICE_ID=$(echo "$VOICES_JSON" | jq -r '.voices[0].voice_id')
+          if [ -z "${KO_VOICE_ID:-}" ]; then
+            KO_VOICE_ID=$(echo "$VOICES_JSON" | jq -r --arg n "$KO_VOICE_NAME" '.voices[]? | select(.name==$n) | .voice_id' | head -n 1)
+            if [ -z "$KO_VOICE_ID" ] || [ "$KO_VOICE_ID" = "null" ]; then
+              KO_VOICE_ID=$(echo "$VOICES_JSON" | jq -r '.voices[0].voice_id')
+            fi
           fi
 
-          EN_VOICE_ID=$(echo "$VOICES_JSON" | jq -r --arg n "$EN_VOICE_NAME" '.voices[]? | select(.name==$n) | .voice_id' | head -n 1)
-          if [ -z "$EN_VOICE_ID" ] || [ "$EN_VOICE_ID" = "null" ]; then
-            EN_VOICE_ID=$(echo "$VOICES_JSON" | jq -r '.voices[0].voice_id')
+          if [ -z "${EN_VOICE_ID:-}" ]; then
+            EN_VOICE_ID=$(echo "$VOICES_JSON" | jq -r --arg n "$EN_VOICE_NAME" '.voices[]? | select(.name==$n) | .voice_id' | head -n 1)
+            if [ -z "$EN_VOICE_ID" ] || [ "$EN_VOICE_ID" = "null" ]; then
+              EN_VOICE_ID=$(echo "$VOICES_JSON" | jq -r '.voices[0].voice_id')
+            fi
           fi
 
           echo "ko_voice_id=$KO_VOICE_ID" >> $GITHUB_OUTPUT
           echo "en_voice_id=$EN_VOICE_ID" >> $GITHUB_OUTPUT
 
-          echo "Korean voice_id: $KO_VOICE_ID"
-          echo "English voice_id: $EN_VOICE_ID"
+          echo "Korean voice_id: $KO_VOICE_ID (name preference: $KO_VOICE_NAME)"
+          echo "English voice_id: $EN_VOICE_ID (name preference: $EN_VOICE_NAME)"
 
       - name: Generate Korean MP3
         if: ${{ github.event.inputs.generate_ko != 'false' }}
