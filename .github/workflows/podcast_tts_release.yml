@@ -89,17 +89,28 @@ jobs:
           fi
 
           # Otherwise, query voices and pick by name (fallback to first voice).
-          VOICES_JSON=$(curl -sS -H "xi-api-key: ${ELEVENLABS_API_KEY}" https://api.elevenlabs.io/v1/voices)
+          # Fetch available voices
+          VOICES_JSON=$(curl -sS --fail \
+            -H "xi-api-key: ${ELEVENLABS_API_KEY}" \
+            https://api.elevenlabs.io/v1/voices \
+          )
+
+          # Validate shape early to avoid confusing jq errors (usually means auth/plan/rate-limit error JSON)
+          if ! echo "$VOICES_JSON" | jq -e '.voices | type == "array"' > /dev/null; then
+            echo "Unexpected response from ElevenLabs /v1/voices:" >&2
+            echo "$VOICES_JSON" | jq -C . || echo "$VOICES_JSON" >&2
+            exit 5
+          fi
 
           if [ -z "${KO_VOICE_ID:-}" ]; then
-            KO_VOICE_ID=$(echo "$VOICES_JSON" | jq -r --arg n "$KO_VOICE_NAME" '.voices[] | select(.name==$n) | .voice_id' | head -n 1)
+            KO_VOICE_ID=$(echo "$VOICES_JSON" | jq -r --arg n "$KO_VOICE_NAME" '.voices[]? | select(.name==$n) | .voice_id' | head -n 1)
             if [ -z "$KO_VOICE_ID" ] || [ "$KO_VOICE_ID" = "null" ]; then
               KO_VOICE_ID=$(echo "$VOICES_JSON" | jq -r '.voices[0].voice_id')
             fi
           fi
 
           if [ -z "${EN_VOICE_ID:-}" ]; then
-            EN_VOICE_ID=$(echo "$VOICES_JSON" | jq -r --arg n "$EN_VOICE_NAME" '.voices[] | select(.name==$n) | .voice_id' | head -n 1)
+            EN_VOICE_ID=$(echo "$VOICES_JSON" | jq -r --arg n "$EN_VOICE_NAME" '.voices[]? | select(.name==$n) | .voice_id' | head -n 1)
             if [ -z "$EN_VOICE_ID" ] || [ "$EN_VOICE_ID" = "null" ]; then
               EN_VOICE_ID=$(echo "$VOICES_JSON" | jq -r '.voices[0].voice_id')
             fi
@@ -128,7 +139,8 @@ jobs:
             -H "Content-Type: application/json" \
             "https://api.elevenlabs.io/v1/text-to-speech/${{ steps.voices.outputs.ko_voice_id }}?output_format=${OUTPUT_FORMAT}" \
             -d "$(jq -n --arg text "$KO_TEXT" --arg model "$ELEVEN_MODEL" '{text:$text, model_id:$model, language_code:"ko", voice_settings:{stability:0.45, similarity_boost:0.75}}')" \
-            --output ep01_ko.mp3
+            --output ep01_ko.mp3 \
+            || { echo "ElevenLabs KO TTS request failed" >&2; exit 6; }
 
           ls -lah ep01_ko.mp3
 
@@ -148,7 +160,8 @@ jobs:
             -H "Content-Type: application/json" \
             "https://api.elevenlabs.io/v1/text-to-speech/${{ steps.voices.outputs.en_voice_id }}?output_format=${OUTPUT_FORMAT}" \
             -d "$(jq -n --arg text "$EN_TEXT" --arg model "$ELEVEN_MODEL" '{text:$text, model_id:$model, language_code:"en", voice_settings:{stability:0.35, similarity_boost:0.75}}')" \
-            --output ep01_en.mp3
+            --output ep01_en.mp3 \
+            || { echo "ElevenLabs EN TTS request failed" >&2; exit 7; }
 
           ls -lah ep01_en.mp3
 
