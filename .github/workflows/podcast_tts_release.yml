@@ -17,6 +17,14 @@ on:
         description: "Path to English script markdown"
         required: false
         default: "podcast/scripts/ep01_en_b2.md"
+      generate_ko:
+        description: "Generate Korean audio (true/false)"
+        required: false
+        default: "true"
+      generate_en:
+        description: "Generate English audio (true/false)"
+        required: false
+        default: "true"
       ko_voice_name:
         description: "Korean voice name preference (default: Adam)"
         required: false
@@ -140,6 +148,7 @@ jobs:
           echo "English voice_id: $EN_VOICE_ID"
 
       - name: Generate Korean MP3
+        if: ${{ github.event.inputs.generate_ko != 'false' }}
         run: |
           set -euo pipefail
           KO_SCRIPT="${{ github.event.inputs.ko_script }}"
@@ -162,6 +171,7 @@ jobs:
           ls -lah ep01_ko.mp3
 
       - name: Generate English MP3
+        if: ${{ github.event.inputs.generate_en != 'false' }}
         run: |
           set -euo pipefail
           EN_SCRIPT="${{ github.event.inputs.en_script }}"
@@ -186,6 +196,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: podcast-mp3
+          if-no-files-found: error
           path: |
             ep01_ko.mp3
             ep01_en.mp3
