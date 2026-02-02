@@ -83,16 +83,16 @@ jobs:
           KO_VOICE_NAME="${{ github.event.inputs.ko_voice_name }}"
           EN_VOICE_NAME="${{ github.event.inputs.en_voice_name }}"
 
-          # If explicit IDs are provided, use them.
-          if [ -n "$KO_VOICE_ID_INPUT" ]; then
-            KO_VOICE_ID="$KO_VOICE_ID_INPUT"
-          fi
-          if [ -n "$EN_VOICE_ID_INPUT" ]; then
-            EN_VOICE_ID="$EN_VOICE_ID_INPUT"
+          # If explicit IDs are provided, use them and SKIP /v1/voices.
+          if [ -n "$KO_VOICE_ID_INPUT" ] && [ -n "$EN_VOICE_ID_INPUT" ]; then
+            echo "ko_voice_id=$KO_VOICE_ID_INPUT" >> $GITHUB_OUTPUT
+            echo "en_voice_id=$EN_VOICE_ID_INPUT" >> $GITHUB_OUTPUT
+            echo "Using explicit voice IDs (skipping /v1/voices)."
+            exit 0
           fi
 
           # Otherwise, query voices and pick by name (fallback to first voice).
-          # Fetch available voices (capture body on error for easier debugging)
+          # NOTE: This requires the ElevenLabs API key permission: voices_read.
           set +e
           HTTP_CODE=$(curl -sS \
             -H "xi-api-key: ${ELEVENLABS_API_KEY}" \
@@ -111,30 +111,26 @@ jobs:
           if [ "$HTTP_CODE" -lt 200 ] || [ "$HTTP_CODE" -ge 300 ]; then
             echo "ElevenLabs /v1/voices returned HTTP $HTTP_CODE" >&2
             cat voices.json >&2 || true
+            echo "If you see missing_permissions for voices_read, either add that permission to the API key or provide ko_voice_id + en_voice_id when running the workflow." >&2
             exit 5
           fi
 
           VOICES_JSON=$(cat voices.json)
 
-          # Validate shape early to avoid confusing jq errors (usually means auth/plan/rate-limit error JSON)
           if ! echo "$VOICES_JSON" | jq -e '.voices | type == "array"' > /dev/null; then
             echo "Unexpected response from ElevenLabs /v1/voices:" >&2
             echo "$VOICES_JSON" | jq -C . || echo "$VOICES_JSON" >&2
             exit 5
           fi
 
-          if [ -z "${KO_VOICE_ID:-}" ]; then
-            KO_VOICE_ID=$(echo "$VOICES_JSON" | jq -r --arg n "$KO_VOICE_NAME" '.voices[]? | select(.name==$n) | .voice_id' | head -n 1)
-            if [ -z "$KO_VOICE_ID" ] || [ "$KO_VOICE_ID" = "null" ]; then
-              KO_VOICE_ID=$(echo "$VOICES_JSON" | jq -r '.voices[0].voice_id')
-            fi
+          KO_VOICE_ID=$(echo "$VOICES_JSON" | jq -r --arg n "$KO_VOICE_NAME" '.voices[]? | select(.name==$n) | .voice_id' | head -n 1)
+          if [ -z "$KO_VOICE_ID" ] || [ "$KO_VOICE_ID" = "null" ]; then
+            KO_VOICE_ID=$(echo "$VOICES_JSON" | jq -r '.voices[0].voice_id')
           fi
 
-          if [ -z "${EN_VOICE_ID:-}" ]; then
-            EN_VOICE_ID=$(echo "$VOICES_JSON" | jq -r --arg n "$EN_VOICE_NAME" '.voices[]? | select(.name==$n) | .voice_id' | head -n 1)
-            if [ -z "$EN_VOICE_ID" ] || [ "$EN_VOICE_ID" = "null" ]; then
-              EN_VOICE_ID=$(echo "$VOICES_JSON" | jq -r '.voices[0].voice_id')
-            fi
+          EN_VOICE_ID=$(echo "$VOICES_JSON" | jq -r --arg n "$EN_VOICE_NAME" '.voices[]? | select(.name==$n) | .voice_id' | head -n 1)
+          if [ -z "$EN_VOICE_ID" ] || [ "$EN_VOICE_ID" = "null" ]; then
+            EN_VOICE_ID=$(echo "$VOICES_JSON" | jq -r '.voices[0].voice_id')
           fi
 
           echo "ko_voice_id=$KO_VOICE_ID" >> $GITHUB_OUTPUT
