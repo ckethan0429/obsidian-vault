@@ -51,6 +51,9 @@ jobs:
             echo "Missing ELEVENLABS_API_KEY secret" >&2
             exit 1
           fi
+          # Don't print the key; just sanity-check it isn't obviously empty/whitespace.
+          KEY_LEN=$(printf "%s" "$ELEVENLABS_API_KEY" | wc -c | tr -d ' ')
+          echo "ELEVENLABS_API_KEY length: $KEY_LEN"
 
       - name: Install jq
         run: sudo apt-get update && sudo apt-get install -y jq
@@ -89,11 +92,29 @@ jobs:
           fi
 
           # Otherwise, query voices and pick by name (fallback to first voice).
-          # Fetch available voices
-          VOICES_JSON=$(curl -sS --fail \
+          # Fetch available voices (capture body on error for easier debugging)
+          set +e
+          HTTP_CODE=$(curl -sS \
             -H "xi-api-key: ${ELEVENLABS_API_KEY}" \
-            https://api.elevenlabs.io/v1/voices \
-          )
+            -o voices.json \
+            -w "%{http_code}" \
+            https://api.elevenlabs.io/v1/voices)
+          CURL_EXIT=$?
+          set -e
+
+          if [ "$CURL_EXIT" -ne 0 ]; then
+            echo "curl failed fetching voices (exit=$CURL_EXIT, http=$HTTP_CODE)" >&2
+            cat voices.json >&2 || true
+            exit 5
+          fi
+
+          if [ "$HTTP_CODE" -lt 200 ] || [ "$HTTP_CODE" -ge 300 ]; then
+            echo "ElevenLabs /v1/voices returned HTTP $HTTP_CODE" >&2
+            cat voices.json >&2 || true
+            exit 5
+          fi
+
+          VOICES_JSON=$(cat voices.json)
 
           # Validate shape early to avoid confusing jq errors (usually means auth/plan/rate-limit error JSON)
           if ! echo "$VOICES_JSON" | jq -e '.voices | type == "array"' > /dev/null; then
