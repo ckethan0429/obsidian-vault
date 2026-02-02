@@ -1,0 +1,176 @@
+name: Podcast TTS → Release
+
+on:
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: "Release tag (default: podcast-YYYYMMDD-HHMM)"
+        required: false
+      title:
+        description: "Release title (default: Podcast TTS YYYY-MM-DD HH:MM)"
+        required: false
+      ko_script:
+        description: "Path to Korean script markdown"
+        required: false
+        default: "podcast/scripts/ep01_ko.md"
+      en_script:
+        description: "Path to English script markdown"
+        required: false
+        default: "podcast/scripts/ep01_en_b2.md"
+      ko_voice_name:
+        description: "Korean voice name preference (default: Adam)"
+        required: false
+        default: "Adam"
+      en_voice_name:
+        description: "English voice name preference (default: Rachel)"
+        required: false
+        default: "Rachel"
+      ko_voice_id:
+        description: "Optional: explicit ElevenLabs voice_id for Korean"
+        required: false
+      en_voice_id:
+        description: "Optional: explicit ElevenLabs voice_id for English"
+        required: false
+
+permissions:
+  contents: write
+
+jobs:
+  tts_and_release:
+    runs-on: ubuntu-latest
+    env:
+      ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+      ELEVEN_MODEL: eleven_multilingual_v2
+      OUTPUT_FORMAT: mp3_44100_128
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Validate secret
+        run: |
+          if [ -z "${ELEVENLABS_API_KEY}" ]; then
+            echo "Missing ELEVENLABS_API_KEY secret" >&2
+            exit 1
+          fi
+
+      - name: Install jq
+        run: sudo apt-get update && sudo apt-get install -y jq
+
+      - name: Resolve release metadata
+        id: meta
+        run: |
+          NOW_TAG="podcast-$(date -u +%Y%m%d-%H%M)"
+          NOW_TITLE="Podcast TTS $(date -u +%Y-%m-%d\ %H:%M) UTC"
+
+          TAG_INPUT="${{ github.event.inputs.tag }}"
+          TITLE_INPUT="${{ github.event.inputs.title }}"
+
+          if [ -n "$TAG_INPUT" ]; then TAG="$TAG_INPUT"; else TAG="$NOW_TAG"; fi
+          if [ -n "$TITLE_INPUT" ]; then TITLE="$TITLE_INPUT"; else TITLE="$NOW_TITLE"; fi
+
+          echo "tag=$TAG" >> $GITHUB_OUTPUT
+          echo "title=$TITLE" >> $GITHUB_OUTPUT
+
+      - name: Resolve voice IDs
+        id: voices
+        run: |
+          set -euo pipefail
+
+          KO_VOICE_ID_INPUT="${{ github.event.inputs.ko_voice_id }}"
+          EN_VOICE_ID_INPUT="${{ github.event.inputs.en_voice_id }}"
+          KO_VOICE_NAME="${{ github.event.inputs.ko_voice_name }}"
+          EN_VOICE_NAME="${{ github.event.inputs.en_voice_name }}"
+
+          # If explicit IDs are provided, use them.
+          if [ -n "$KO_VOICE_ID_INPUT" ]; then
+            KO_VOICE_ID="$KO_VOICE_ID_INPUT"
+          fi
+          if [ -n "$EN_VOICE_ID_INPUT" ]; then
+            EN_VOICE_ID="$EN_VOICE_ID_INPUT"
+          fi
+
+          # Otherwise, query voices and pick by name (fallback to first voice).
+          VOICES_JSON=$(curl -sS -H "xi-api-key: ${ELEVENLABS_API_KEY}" https://api.elevenlabs.io/v1/voices)
+
+          if [ -z "${KO_VOICE_ID:-}" ]; then
+            KO_VOICE_ID=$(echo "$VOICES_JSON" | jq -r --arg n "$KO_VOICE_NAME" '.voices[] | select(.name==$n) | .voice_id' | head -n 1)
+            if [ -z "$KO_VOICE_ID" ] || [ "$KO_VOICE_ID" = "null" ]; then
+              KO_VOICE_ID=$(echo "$VOICES_JSON" | jq -r '.voices[0].voice_id')
+            fi
+          fi
+
+          if [ -z "${EN_VOICE_ID:-}" ]; then
+            EN_VOICE_ID=$(echo "$VOICES_JSON" | jq -r --arg n "$EN_VOICE_NAME" '.voices[] | select(.name==$n) | .voice_id' | head -n 1)
+            if [ -z "$EN_VOICE_ID" ] || [ "$EN_VOICE_ID" = "null" ]; then
+              EN_VOICE_ID=$(echo "$VOICES_JSON" | jq -r '.voices[0].voice_id')
+            fi
+          fi
+
+          echo "ko_voice_id=$KO_VOICE_ID" >> $GITHUB_OUTPUT
+          echo "en_voice_id=$EN_VOICE_ID" >> $GITHUB_OUTPUT
+
+          echo "Korean voice_id: $KO_VOICE_ID"
+          echo "English voice_id: $EN_VOICE_ID"
+
+      - name: Generate Korean MP3
+        run: |
+          set -euo pipefail
+          KO_SCRIPT="${{ github.event.inputs.ko_script }}"
+          if [ ! -f "$KO_SCRIPT" ]; then
+            echo "KO script not found: $KO_SCRIPT" >&2
+            exit 1
+          fi
+
+          # Strip markdown headers a bit: remove leading '# ' lines.
+          KO_TEXT=$(cat "$KO_SCRIPT" | sed '/^# /d' )
+
+          curl -sS --fail \
+            -H "xi-api-key: ${ELEVENLABS_API_KEY}" \
+            -H "Content-Type: application/json" \
+            "https://api.elevenlabs.io/v1/text-to-speech/${{ steps.voices.outputs.ko_voice_id }}?output_format=${OUTPUT_FORMAT}" \
+            -d "$(jq -n --arg text "$KO_TEXT" --arg model "$ELEVEN_MODEL" '{text:$text, model_id:$model, language_code:"ko", voice_settings:{stability:0.45, similarity_boost:0.75}}')" \
+            --output ep01_ko.mp3
+
+          ls -lah ep01_ko.mp3
+
+      - name: Generate English MP3
+        run: |
+          set -euo pipefail
+          EN_SCRIPT="${{ github.event.inputs.en_script }}"
+          if [ ! -f "$EN_SCRIPT" ]; then
+            echo "EN script not found: $EN_SCRIPT" >&2
+            exit 1
+          fi
+
+          EN_TEXT=$(cat "$EN_SCRIPT" | sed '/^# /d' )
+
+          curl -sS --fail \
+            -H "xi-api-key: ${ELEVENLABS_API_KEY}" \
+            -H "Content-Type: application/json" \
+            "https://api.elevenlabs.io/v1/text-to-speech/${{ steps.voices.outputs.en_voice_id }}?output_format=${OUTPUT_FORMAT}" \
+            -d "$(jq -n --arg text "$EN_TEXT" --arg model "$ELEVEN_MODEL" '{text:$text, model_id:$model, language_code:"en", voice_settings:{stability:0.35, similarity_boost:0.75}}')" \
+            --output ep01_en.mp3
+
+          ls -lah ep01_en.mp3
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: podcast-mp3
+          path: |
+            ep01_ko.mp3
+            ep01_en.mp3
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ steps.meta.outputs.tag }}
+          name: ${{ steps.meta.outputs.title }}
+          body: |
+            Auto-generated podcast audio via ElevenLabs TTS.
+
+            Scripts:
+            - KO: `${{ github.event.inputs.ko_script }}` (voice: `${{ github.event.inputs.ko_voice_name }}`)
+            - EN: `${{ github.event.inputs.en_script }}` (voice: `${{ github.event.inputs.en_voice_name }}`)
+          files: |
+            ep01_ko.mp3
+            ep01_en.mp3
