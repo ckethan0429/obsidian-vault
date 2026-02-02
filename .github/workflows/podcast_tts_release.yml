@@ -39,6 +39,14 @@ on:
       en_voice_id:
         description: "Optional: explicit ElevenLabs voice_id for English"
         required: false
+      eleven_model:
+        description: "ElevenLabs model_id (default: eleven_multilingual_v2)"
+        required: false
+        default: "eleven_multilingual_v2"
+      output_format:
+        description: "Output format (default: mp3_44100_128; try mp3_22050_32 if 402/plan limits)"
+        required: false
+        default: "mp3_44100_128"
 
 permissions:
   contents: write
@@ -48,8 +56,8 @@ jobs:
     runs-on: ubuntu-latest
     env:
       ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
-      ELEVEN_MODEL: eleven_multilingual_v2
-      OUTPUT_FORMAT: mp3_44100_128
+      ELEVEN_MODEL: ${{ github.event.inputs.eleven_model || 'eleven_multilingual_v2' }}
+      OUTPUT_FORMAT: ${{ github.event.inputs.output_format || 'mp3_44100_128' }}
     steps:
       - uses: actions/checkout@v4
 
@@ -187,13 +195,26 @@ jobs:
           # Strip markdown headers a bit: remove leading '# ' lines.
           KO_TEXT=$(cat "$KO_SCRIPT" | sed '/^# /d' )
 
-          curl -sS --fail \
+          # Generate and capture error body if it fails
+          set +e
+          KO_HTTP=$(curl -sS \
             -H "xi-api-key: ${ELEVENLABS_API_KEY}" \
             -H "Content-Type: application/json" \
+            -o ep01_ko.mp3 \
+            -w "%{http_code}" \
             "https://api.elevenlabs.io/v1/text-to-speech/${{ steps.voices.outputs.ko_voice_id }}?output_format=${OUTPUT_FORMAT}" \
-            -d "$(jq -n --arg text "$KO_TEXT" --arg model "$ELEVEN_MODEL" '{text:$text, model_id:$model, language_code:"ko", voice_settings:{stability:0.45, similarity_boost:0.75}}')" \
-            --output ep01_ko.mp3 \
-            || { echo "ElevenLabs KO TTS request failed" >&2; exit 6; }
+            -d "$(jq -n --arg text "$KO_TEXT" --arg model "$ELEVEN_MODEL" '{text:$text, model_id:$model, language_code:"ko", voice_settings:{stability:0.45, similarity_boost:0.75}}')")
+          KO_CURL_EXIT=$?
+          set -e
+
+          if [ "$KO_CURL_EXIT" -ne 0 ] || [ "$KO_HTTP" -lt 200 ] || [ "$KO_HTTP" -ge 300 ]; then
+            echo "ElevenLabs KO TTS failed (curl_exit=$KO_CURL_EXIT http=$KO_HTTP)" >&2
+            # If server returned JSON error, the mp3 file will actually contain that body.
+            head -c 2000 ep01_ko.mp3 >&2 || true
+            echo >&2
+            echo "Tip: 402 usually means credits/plan limit. Try output_format=mp3_22050_32 or check ElevenLabs usage/billing." >&2
+            exit 6
+          fi
 
           ls -lah ep01_ko.mp3
 
@@ -209,13 +230,25 @@ jobs:
 
           EN_TEXT=$(cat "$EN_SCRIPT" | sed '/^# /d' )
 
-          curl -sS --fail \
+          # Generate and capture error body if it fails
+          set +e
+          EN_HTTP=$(curl -sS \
             -H "xi-api-key: ${ELEVENLABS_API_KEY}" \
             -H "Content-Type: application/json" \
+            -o ep01_en.mp3 \
+            -w "%{http_code}" \
             "https://api.elevenlabs.io/v1/text-to-speech/${{ steps.voices.outputs.en_voice_id }}?output_format=${OUTPUT_FORMAT}" \
-            -d "$(jq -n --arg text "$EN_TEXT" --arg model "$ELEVEN_MODEL" '{text:$text, model_id:$model, language_code:"en", voice_settings:{stability:0.35, similarity_boost:0.75}}')" \
-            --output ep01_en.mp3 \
-            || { echo "ElevenLabs EN TTS request failed" >&2; exit 7; }
+            -d "$(jq -n --arg text "$EN_TEXT" --arg model "$ELEVEN_MODEL" '{text:$text, model_id:$model, language_code:"en", voice_settings:{stability:0.35, similarity_boost:0.75}}')")
+          EN_CURL_EXIT=$?
+          set -e
+
+          if [ "$EN_CURL_EXIT" -ne 0 ] || [ "$EN_HTTP" -lt 200 ] || [ "$EN_HTTP" -ge 300 ]; then
+            echo "ElevenLabs EN TTS failed (curl_exit=$EN_CURL_EXIT http=$EN_HTTP)" >&2
+            head -c 2000 ep01_en.mp3 >&2 || true
+            echo >&2
+            echo "Tip: 402 usually means credits/plan limit. Try output_format=mp3_22050_32 or check ElevenLabs usage/billing." >&2
+            exit 7
+          fi
 
           ls -lah ep01_en.mp3
 
