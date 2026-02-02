@@ -91,12 +91,27 @@ jobs:
           KO_VOICE_NAME="${{ github.event.inputs.ko_voice_name }}"
           EN_VOICE_NAME="${{ github.event.inputs.en_voice_name }}"
 
+          echo "Inputs: generate_ko=${{ github.event.inputs.generate_ko }}, generate_en=${{ github.event.inputs.generate_en }}"
+          echo "Inputs: ko_voice_id provided? $([ -n "$KO_VOICE_ID_INPUT" ] && echo yes || echo no)"
+          echo "Inputs: en_voice_id provided? $([ -n "$EN_VOICE_ID_INPUT" ] && echo yes || echo no)"
+          echo "Inputs: ko_voice_name='${KO_VOICE_NAME}', en_voice_name='${EN_VOICE_NAME}'"
+
           # Use explicit IDs when provided (independently). Only fetch /v1/voices for the missing ones.
           if [ -n "$KO_VOICE_ID_INPUT" ]; then
             KO_VOICE_ID="$KO_VOICE_ID_INPUT"
           fi
           if [ -n "$EN_VOICE_ID_INPUT" ]; then
             EN_VOICE_ID="$EN_VOICE_ID_INPUT"
+          fi
+
+          # If an explicit ID was provided, it MUST be honored.
+          if [ -n "$KO_VOICE_ID_INPUT" ] && [ -n "${KO_VOICE_ID:-}" ] && [ "$KO_VOICE_ID" != "$KO_VOICE_ID_INPUT" ]; then
+            echo "BUG: ko_voice_id input not honored" >&2
+            exit 5
+          fi
+          if [ -n "$EN_VOICE_ID_INPUT" ] && [ -n "${EN_VOICE_ID:-}" ] && [ "$EN_VOICE_ID" != "$EN_VOICE_ID_INPUT" ]; then
+            echo "BUG: en_voice_id input not honored" >&2
+            exit 5
           fi
 
           # If both are set, we can skip /v1/voices entirely.
