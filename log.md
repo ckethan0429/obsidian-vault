@@ -92,6 +92,7 @@
 
 ## [2026-04-15] update | Morning interest-signal test run
 - Changed the morning cron to 08:00 KST
-- Ran a live Chrome CDP test against X likes and YouTube subscriptions
-- Created `concepts/interest-signal-update-test-run.md`
+- Ran a live Chrome CDP test against X likes, Threads activity/reposts, and YouTube subscriptions
+- Confirmed the logged-in Threads session is reachable in Chrome CDP (`@ethan13917`)
+- Updated `concepts/interest-signal-update-test-run.md`
 - Updated `index.md` to include the test-run summary

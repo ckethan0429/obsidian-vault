@@ -13,6 +13,7 @@ This page records a live test of the morning interest-signal workflow through Ch
 
 ## Scope tested
 - X likes
+- Threads profile / reposts / activity feed
 - YouTube subscriptions
 - Sports / entertainment content filtered out
 
@@ -20,6 +21,16 @@ This page records a live test of the morning interest-signal workflow through Ch
 ### X likes
 - `hoeem` — article about extending Claude sessions / bypassing usage limits
 - `lucas` — Korean thread on hidden Claude Code features, quoting Boris Cherny
+
+### Threads
+Live Chrome CDP access worked on the logged-in Threads session (`@ethan13917`). Useful surfaces:
+- `@ethan13917/reposts` for reposted items
+- `activity` for recent activity / notifications context
+
+Relevant non-sports / non-entertainment items that surfaced in the test:
+- `softdaddy_o` — yfinance / stock-data tooling note
+- `dayum_gud` — Hermes write-up and prompt template sharing
+- `ddg.kang` — AI coding setup combining Hermes + Codex + OmX
 
 ### YouTube subscriptions
 Relevant non-sports items included:
