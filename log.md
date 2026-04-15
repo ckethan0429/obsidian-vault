@@ -109,3 +109,19 @@
 - Created `raw/transcripts/interest-signal-threads-test-run-2026-04-15.md` with copied excerpts from the live Threads session
 - Updated `concepts/interest-signal-update-test-run.md`
 - Updated `index.md` to include the test-run summary
+
+## [2026-04-15] ingest | Anthropic Managed Agents architecture
+- Saved raw source: `raw/articles/anthropic-managed-agents-2026-04-15.md`
+- Created `concepts/managed-agents-architecture.md`
+- Updated `index.md`
+
+## [2026-04-15] update | Managed Agents note enriched with supporting sources
+- Saved raw source: `raw/transcripts/managed-agents-codefactory-video-2026-04-15.md`
+- Saved raw source: `raw/articles/effective-harnesses-for-long-running-agents-2026-04-15.md`
+- Updated `concepts/managed-agents-architecture.md` with long-running harness patterns, incremental-progress scaffolding, UI/operator interpretation, and pricing notes
+- Updated `index.md`
+
+## [2026-04-15] ingest | Managed Agents practical summary
+- Created `concepts/managed-agents-practical-summary.md`
+- Updated `concepts/managed-agents-architecture.md` related pages
+- Updated `index.md`

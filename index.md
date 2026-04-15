@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with a one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-04-15 | Total pages: 23
+> Last updated: 2026-04-15 | Total pages: 25
 
 ## Entities
 <!-- Alphabetical within section -->
@@ -24,6 +24,8 @@
 - [[korean-digital-service-automation]] — Automating Korean digital services with agent-friendly tools and workflows.
 - [[korean-public-support-programs]] — Public-sector startup and SME support surfaces in Korea.
 - [[korean-startup-support-sites]] — Curated founder-oriented map of Korean startup support sites.
+- [[managed-agents-architecture]] — Anthropic’s pattern for decoupling session, harness, and sandbox, supplemented with practical harness and pricing notes.
+- [[managed-agents-practical-summary]] — Compact checklist-style summary of Managed Agents for implementation and ops use.
 - [[marketing-knowledge-transfer-gap]] — Claim that practical marketing frameworks often diffuse into Korea years after earlier overseas adoption.
 - [[overseas-marketing-gurus]] — User-curated list of foreign marketing figures worth studying directly.
 - [[obsidian-vault-integration]] — Canonical single-vault setup after merging the GitHub-backed Obsidian vault into `~/wiki`.
