@@ -94,5 +94,6 @@
 - Changed the morning cron to 08:00 KST
 - Ran a live Chrome CDP test against X likes, Threads activity/reposts, and YouTube subscriptions
 - Confirmed the logged-in Threads session is reachable in Chrome CDP (`@ethan13917`)
+- Created `raw/transcripts/interest-signal-threads-test-run-2026-04-15.md`
 - Updated `concepts/interest-signal-update-test-run.md`
 - Updated `index.md` to include the test-run summary

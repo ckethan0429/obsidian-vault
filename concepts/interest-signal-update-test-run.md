@@ -4,7 +4,7 @@ created: 2026-04-15
 updated: 2026-04-15
 type: summary
 tags: [personal-knowledge, automation, workflow]
-sources: [raw/transcripts/interest-signal-sources-preference-2026-04-15.md]
+sources: [raw/transcripts/interest-signal-sources-preference-2026-04-15.md, raw/transcripts/interest-signal-threads-test-run-2026-04-15.md]
 ---
 
 # Interest Signal Update Test Run
