@@ -2,10 +2,11 @@
 
 > Content catalog. Every wiki page listed under its type with a one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-04-15 | Total pages: 22
+> Last updated: 2026-04-15 | Total pages: 23
 
 ## Entities
 <!-- Alphabetical within section -->
+- [[claude-code-best-practice]] — Curated Claude Code best-practice corpus covering subagents, commands, skills, hooks, MCP, plugins, settings, and agentic workflows.
 - [[gstack]] — Garry Tan's AI-native software-factory workflow for founder-led product development.
 - [[k-skill]] — Korean-focused AI agent skill collection for practical local digital-service workflows.
 - [[papalevel]] — Dad-focused execution-trigger product concept built around milestone checklists.

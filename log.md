@@ -90,6 +90,13 @@
 - Added `concepts/obsidian-vault-integration.md`
 - Updated `index.md` to point at the integration note
 
+## [2026-04-15] ingest | Claude Code best-practice repo
+- Saved raw source: `raw/articles/claude-code-best-practice-2026-04-15.md`
+- Saved raw source: `raw/transcripts/github-star-tracking-preference-2026-04-15.md`
+- Created `entities/claude-code-best-practice.md`
+- Updated `concepts/interest-signal-sources.md` to include GitHub stars
+- Updated `index.md`
+
 ## [2026-04-15] ingest | ACP and ACPX notes from external docs
 - Saved raw source: `raw/articles/acp-and-acpx-2026-04-15.md`
 - Created `concepts/agent-client-protocol-and-acpx.md`
