@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with a one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-04-15 | Total pages: 21
+> Last updated: 2026-04-15 | Total pages: 22
 
 ## Entities
 <!-- Alphabetical within section -->
@@ -12,6 +12,7 @@
 
 ## Concepts
 <!-- Alphabetical within section -->
+- [[agent-client-protocol-and-acpx]] — ACP as the client-to-agent protocol, ACPX as the practical CLI/runtime layer, and OpenClaw’s ACP surface as the operator integration path.
 - [[b2b-sales-and-negotiation-strategy]] — Structured guide to B2B sales from lead generation through expansion.
 - [[chrome-cdp-login-status]] — CK's operating assumption for login-ready Chrome CDP sessions.
 - [[ck-investing-and-life-profile]] — CK's investing interests, language goals, lifestyle themes, and parenting context.

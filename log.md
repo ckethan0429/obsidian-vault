@@ -90,6 +90,11 @@
 - Added `concepts/obsidian-vault-integration.md`
 - Updated `index.md` to point at the integration note
 
+## [2026-04-15] ingest | ACP and ACPX notes from external docs
+- Saved raw source: `raw/articles/acp-and-acpx-2026-04-15.md`
+- Created `concepts/agent-client-protocol-and-acpx.md`
+- Updated `index.md`
+
 ## [2026-04-15] update | Morning interest-signal test run
 - Changed the morning cron to 08:00 KST
 - Ran a live Chrome CDP test against X likes, Threads activity/reposts, and YouTube subscriptions
