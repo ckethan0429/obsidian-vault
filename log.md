@@ -89,3 +89,9 @@
 - Merged `~/clawd/obsidian` into `~/wiki` so the wiki is now the single canonical vault
 - Added `concepts/obsidian-vault-integration.md`
 - Updated `index.md` to point at the integration note
+
+## [2026-04-15] update | Morning interest-signal test run
+- Changed the morning cron to 08:00 KST
+- Ran a live Chrome CDP test against X likes and YouTube subscriptions
+- Created `concepts/interest-signal-update-test-run.md`
+- Updated `index.md` to include the test-run summary

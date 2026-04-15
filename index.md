@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with a one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-04-15 | Total pages: 20
+> Last updated: 2026-04-15 | Total pages: 21
 
 ## Entities
 <!-- Alphabetical within section -->
@@ -17,6 +17,7 @@
 - [[ck-investing-and-life-profile]] — CK's investing interests, language goals, lifestyle themes, and parenting context.
 - [[ck-technology-engineering-profile]] — CK's infrastructure, DevOps, software, AI infra, IoT, and robotics profile.
 - [[interest-signal-sources]] — CK's preferred input sources for building an interest map across platforms.
+- [[interest-signal-update-test-run]] — Live Chrome CDP test run summarizing recent X likes and YouTube subscription signals.
 - [[korean-ai-agent-skills]] — Localized skill ecosystems for Korean AI-agent workflows.
 - [[korean-digital-service-automation]] — Automating Korean digital services with agent-friendly tools and workflows.
 - [[korean-public-support-programs]] — Public-sector startup and SME support surfaces in Korea.
