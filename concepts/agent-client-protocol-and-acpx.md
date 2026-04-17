@@ -1,15 +1,17 @@
 ---
 title: Agent Client Protocol and ACPX
 created: 2026-04-15
-updated: 2026-04-15
+updated: 2026-04-17
 type: concept
 tags: [agents, orchestration, protocols, devtools, automation]
-sources: [raw/articles/acp-and-acpx-2026-04-15.md]
+sources: [raw/articles/acp-and-acpx-2026-04-15.md, https://github.com/openclaw/acpx#readme]
 ---
 
 # Agent Client Protocol and ACPX
 
 ACP(Agent Client Protocol)는 **클라이언트가 코딩 에이전트를 표준 방식으로 제어하기 위한 프로토콜**이고, ACPX는 그 프로토콜을 실제 CLI 운영에 쓰기 쉽게 만든 **헤드리스 클라이언트/런타임 계층**이다.
+
+웹 확인 기준으로 `openclaw/acpx`는 README에서 **"Headless CLI client for stateful Agent Client Protocol (ACP) sessions"**라고 설명하고, **alpha 상태**라서 CLI/runtime 인터페이스가 바뀔 수 있다고 명시한다.
 
 이 조합은 CK가 관심 가질 만한 세 가지 축을 한 번에 건드린다:
 - 멀티 에이전트 오케스트레이션
