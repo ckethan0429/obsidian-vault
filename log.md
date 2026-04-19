@@ -163,3 +163,10 @@
 - Created `concepts/daily-push-tts-mbti-todo-list.md`
 - Updated `index.md`
 - Used the live Discord conversation as a one-shot end-to-end wiki validation source
+
+## [2026-04-20] ingest | Interest signal collection 08:00 run
+- Saved raw source: `raw/transcripts/interest-signal-collection-08-00-2026-04-20.md`
+- Saved delivery note: `raw/transcripts/interest-signal-note-08-00-2026-04-20.md`
+- Collected live Chrome/CDP evidence from YouTube, X, Threads activity/reposts/profile, GitHub stars, Google search history, ChatGPT, and Claude
+- Verified Discord target channel opened as `discord.com/login`, so direct browser delivery could not be completed
+- Filtered out sports/운동/엔터테인먼트 noise from the short note while preserving mixed raw evidence
