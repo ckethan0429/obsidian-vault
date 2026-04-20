@@ -170,3 +170,17 @@
 - Collected live Chrome/CDP evidence from YouTube, X, Threads activity/reposts/profile, GitHub stars, Google search history, ChatGPT, and Claude
 - Verified Discord target channel opened as `discord.com/login`, so direct browser delivery could not be completed
 - Filtered out sports/운동/엔터테인먼트 noise from the short note while preserving mixed raw evidence
+
+## [2026-04-20] ingest | Interest signal collection 19:00 run
+- Saved raw source: `raw/transcripts/interest-signal-collection-19-00-2026-04-20.md`
+- Saved delivery note: `raw/transcripts/interest-signal-note-19-00-2026-04-20.md`
+- Collected live Chrome/CDP evidence from YouTube, X, Threads activity/reposts/profile, GitHub stars, Google search history, ChatGPT, and Claude
+- Relative fresh signal vs earlier runs: Claude `Twenty CRM` as CRM/leadgen/ops layer and YouTube `The Routing Loop` / AI commerce / AI brand items; most other surfaces reinforced existing agent/infra themes
+- Verified Discord target channel opened as `discord.com/login`, so direct browser delivery could not be completed
+- Filtered out sports/운동/엔터테인먼트 noise from the short note while preserving mixed raw evidence
+
+## [2026-04-20] ingest | Virton B2B release strategy
+- Saved raw source: `raw/transcripts/virton-release-strategy-2026-04-20.md`
+- Created `02_Business/Strategy/virton-release-strategy.md`
+- Updated `concepts/virton-career-and-business-profile.md`, `concepts/b2b-sales-and-negotiation-strategy.md`, and `concepts/proposal-and-closing-strategy.md`
+- Updated `index.md`

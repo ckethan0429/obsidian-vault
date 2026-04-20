@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with a one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-04-20 | Total pages: 51
+> Last updated: 2026-04-20 | Total pages: 52
 
 ## Entities
 <!-- Alphabetical within section -->
@@ -39,6 +39,7 @@
 - [[sales-discovery-and-objection-handling]] — Questioning, discovery, and objection-response mechanics for B2B selling.
 - [[site-observation-archive]] — Workflow for capturing visited sites, preserving context, and promoting durable takeaways.
 - [[site-observation-archive-cdp-hook]] — CDP-driven intake flow for saving important page bodies before promoting durable notes.
+- [[virton-release-strategy]] — Quarterly Minor, monthly Patch, and hotfix operating model for Virton B2B package releases.
 - [[virton-career-and-business-profile]] — CK's current role, startup strategy, and business-model interests around Virton and GPU infra.
 
 ## Summaries
