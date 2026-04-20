@@ -184,3 +184,17 @@
 - Created `02_Business/Strategy/virton-release-strategy.md`
 - Updated `concepts/virton-career-and-business-profile.md`, `concepts/b2b-sales-and-negotiation-strategy.md`, and `concepts/proposal-and-closing-strategy.md`
 - Updated `index.md`
+
+## [2026-04-20] query | Threads curation draft — harness/runtime positioning
+- Read `SCHEMA.md`, `index.md`, and recent `log.md` for orientation
+- Reviewed recent raw sources: `raw/articles/anthropic-managed-agents-2026-04-15.md`, `raw/articles/effective-harnesses-for-long-running-agents-2026-04-15.md`, `raw/transcripts/interest-signal-note-19-00-2026-04-20.md`, `raw/transcripts/interest-signal-collection-19-00-2026-04-20.md`, and `raw/transcripts/virton-release-strategy-2026-04-20.md`
+- Read relevant concept pages: `concepts/managed-agents-architecture.md`, `concepts/managed-agents-practical-summary.md`, and `concepts/agent-client-protocol-and-acpx.md`
+- Filed today's curation output externally as a CK review draft (not stored as a wiki page)
+
+## [2026-04-20] update | Daily Push TTS + MBTI Todo List
+- Updated `concepts/daily-push-tts-mbti-todo-list.md` with a reusable MBTI-aware TTS template and first-step implementation shape
+
+## [2026-04-20] update | Managed Agents practical summary reinforced from 19:00 signals
+- Updated `concepts/managed-agents-practical-summary.md`
+- Added live-signal reinforcement from `raw/transcripts/interest-signal-collection-19-00-2026-04-20.md`
+- Captured the cross-source pattern that routing, runtime orchestration, and operations backends are converging into one agent-ops layer

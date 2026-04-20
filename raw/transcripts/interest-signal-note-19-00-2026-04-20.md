@@ -1,0 +1,7 @@
+# Interest Signal Note — 19:00 run (2026-04-20)
+
+- **Claude 쪽에서 오늘 가장 상대적으로 새롭게 보이는 강신호는 `Twenty CRM` 해석입니다.** 단순 CRM이 아니라 `커스텀 객체/워크플로우/API 메타데이터 프레임워크`로 읽고, `NestJS + React + Postgres + Redis + MinIO` 조합이 CK 스택과 잘 맞는다고 짚으면서 **Virton CRM / 리드젠 백엔드 / GPU 브로커리지 오퍼레이션 OS / Chrome CDP→Wiki의 관계 레이어**까지 확장했습니다.
+- **YouTube 피드는 여전히 `운영형 에이전트 + 인프라 설계` 축이 핵심입니다.** `System Design Course – APIs, Databases, Caching, CDNs, Load Balancing & Production Infra`, `Build AI Voice Agents with Gemini 3.1 Flash TTS`, `The Routing Loop - Ask Me Anything with Jamie and Matt`가 함께 보여서, 모델 자체보다 **routing / infra / voice I/O / distributed operations** 쪽 관심이 더 또렷합니다.
+- **X / Threads / GitHub는 신규보다 강화 신호였습니다.** X는 여전히 `Claude sessions`, `Claude Code hidden features`, `One(47,000 agentic actions)` 축이고, Threads는 `gemma 4 / H200 / vllm`, `덕테이프 테스트 노션공유`, `Hermes 회고`가 유지됐고, GitHub stars도 `claude-code-best-practice`, `hermes-workspace`, `oh-my-codex`, `claude-code-telegram` 등 기존 에이전트 운영 도구 축이 그대로였습니다.
+- **Google / ChatGPT는 `managed agents / harness / honcho / comet cdp / vllm` 축을 재강화했습니다.** Google 검색 기록에 `anthropic effective harness for long running agents`, `anthropic managed agent`, `honcho`, `comet cdp`, `vllm`이 보였고, ChatGPT는 계속 `하네스 = 프롬프트가 아니라 런타임/운영체제`, `모델 역할 분리`, `AI infra 커리어 포지셔닝`을 밀고 있습니다.
+- **전달 상태:** Discord 채널 `1490692905604481026` 는 이번에도 라이브 Chrome/CDP 세션에서 `discord.com/login` 으로 열려 직접 게시하지 못했습니다. 이 note는 로컬에 저장해 두었습니다.
