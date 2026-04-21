@@ -198,3 +198,31 @@
 - Updated `concepts/managed-agents-practical-summary.md`
 - Added live-signal reinforcement from `raw/transcripts/interest-signal-collection-19-00-2026-04-20.md`
 - Captured the cross-source pattern that routing, runtime orchestration, and operations backends are converging into one agent-ops layer
+
+## [2026-04-21] ingest | Interest signal collection 08:00 run
+- Saved raw source: `raw/transcripts/interest-signal-collection-08-00-2026-04-21.md`
+- Saved delivery note: `raw/transcripts/interest-signal-note-08-00-2026-04-21.md`
+- Collected live Chrome/CDP evidence from YouTube, X, Threads activity/reposts/profile, GitHub stars, Google search history, ChatGPT, and Claude
+- Relative fresh signals vs 2026-04-20 runs: GitHub stars expanded from 6 to 10 repos (`memory-bank`, `oh-my-agent`, `web-agent`, `pyturboquant`), Google history showed overnight `threads api` / Meta / `ngrok` activity, and YouTube/X reinforced agent runtime + local workspace + autoresearch patterns
+- Verified Discord target channel opened as `discord.com/login`, so direct browser delivery could not be completed
+- Filtered out politics/군대/스포츠/엔터테인먼트 noise from the short note while preserving mixed raw evidence
+
+## [2026-04-21] update | Interest signal collection 08:00 rerun (Threads API-only)
+- Saved raw source: `raw/transcripts/interest-signal-collection-08-00-2026-04-21-threads-api-rerun.md`
+- Saved delivery note: `raw/transcripts/interest-signal-note-08-00-2026-04-21-threads-api-rerun.md`
+- Refreshed the Threads long-lived token from `~/.config/threads-api/credentials.json` and confirmed `/v1.0/me` (`user_id=27173231028946699`, `@ethan13917`)
+- Collected Threads via the official API only (`/me`, `/threads`, `/replies`, `/mentions`, `keyword_search`) and kept non-Threads sources on live Chrome/CDP
+- Observed that Threads `mentions` and `keyword_search` were blocked by app access-tier permissions, and that likes are still not exposed as a direct API surface for this run
+- Verified Discord target channel still opened as `discord.com/login`, so direct browser delivery could not be completed and the short note was saved locally instead
+
+
+## [2026-04-21] ingest | freeCodeCamp beginner graph guide
+- Saved raw source: `raw/articles/freecodecamp-beginners-guide-to-graphs-2026-04-21.md`
+- Created `concepts/graphs.md`
+- Updated `SCHEMA.md` taxonomy with `algorithms`, `graph-theory`, and `traversal` tags
+- Updated `index.md`
+
+## [2026-04-21] ingest | Artem XTech LLM wiki vs NotebookLM article
+- Saved raw source: `raw/articles/artemxtech-llm-wiki-vs-notebooklm-2026-04-21.md`
+- Created `comparisons/llm-wiki-vs-notebooklm.md`
+- Updated `index.md`

@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with a one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-04-20 | Total pages: 52
+> Last updated: 2026-04-21 | Total pages: 54
 
 ## Entities
 <!-- Alphabetical within section -->
@@ -22,6 +22,7 @@
 - [[claude-code-subagents]] — Claude Code subagents for splitting work into specialized contexts.
 - [[ck-investing-and-life-profile]] — CK's investing interests, language goals, lifestyle themes, and parenting context.
 - [[ck-technology-engineering-profile]] — CK's infrastructure, DevOps, software, AI infra, IoT, and robotics profile.
+- [[graphs]] — Introductory graph-theory note covering nodes, edges, graph types, representations, and BFS/DFS as foundations for routing and dependency thinking.
 - [[honcho]] — Working name for the memory-routing layer that ranks signals before promotion into durable wiki knowledge.
 - [[interest-signal-sources]] — CK's preferred input sources for building an interest map across platforms.
 - [[interest-signal-update-test-run]] — Live Chrome CDP test run summarizing recent X likes and Threads activity/reposts, and YouTube subscriptions.
@@ -66,5 +67,8 @@
 - [[ep01_ko]] — Korean script for episode 01 on Claude Code core features.
 
 ## Comparisons
+<!-- Alphabetical within section -->
+- [[llm-wiki-vs-notebooklm]] — Comparison of wiki-style knowledge bases versus NotebookLM-style source notebooks for deep synthesis, speed, and maintenance trade-offs.
 
 ## Queries
+
