@@ -216,6 +216,22 @@
 - Verified Discord target channel still opened as `discord.com/login`, so direct browser delivery could not be completed and the short note was saved locally instead
 
 
+## [2026-04-21] ingest | Interest signal collection 19:00 run
+- Saved raw source: `raw/transcripts/interest-signal-collection-19-00-2026-04-21.md`
+- Saved delivery note: `raw/transcripts/interest-signal-note-19-00-2026-04-21.md`
+- Refreshed the Threads long-lived token from `~/.config/threads-api/credentials.json`, confirmed `/v1.0/me` (`user_id=27173231028946699`, `@ethan13917`), and kept token-store permissions at `0600`
+- Collected Threads via the official API only (`/me`, `/threads`, `/replies`, `/mentions`, `keyword_search`) while keeping YouTube, X, GitHub stars, Google search history, ChatGPT, and Claude on live Chrome/CDP
+- Relative fresh signals vs 2026-04-20 19:00 and 2026-04-21 08:00 runs: Threads own posts/replies shifted from generic Managed Agents framing into Boris-style parallel execution / worktree isolation / event-based notifications / CLAUDE.md rule accumulation / self-verification, while YouTube made subagents+skills+MCP and deep-research-agent workshops more explicit; X, GitHub, and Google mostly reinforced existing agent-runtime themes
+- Verified Discord target channel still opened as `discord.com/login`, so direct browser delivery could not be completed and the short note was saved locally instead
+
+## [2026-04-22] ingest | Interest signal collection 08:00 run
+- Saved raw source: `raw/transcripts/interest-signal-collection-08-00-2026-04-22.md`
+- Saved delivery note: `raw/transcripts/interest-signal-note-08-00-2026-04-22.md`
+- Refreshed the Threads long-lived token from `~/.config/threads-api/credentials.json`, confirmed `/v1.0/me` (`user_id=27173231028946699`, `@ethan13917`), and kept token-store permissions at `0600`
+- Collected Threads via the official API only (`/me`, `/threads`, `/replies`, `/mentions`, `keyword_search`) while keeping YouTube, X, GitHub stars, Google search history, ChatGPT, and Claude on live Chrome/CDP
+- Relative fresh signals vs 2026-04-21 19:00 and 2026-04-21 08:00 rerun: GitHub stars expanded from 10 to 11 with `k2-fsa/OmniVoice`, X likes pivoted toward DAG/orchestrator structure + LLM wiki critique + repo-based AI engineering + caching/token-efficiency, and YouTube surfaced Kimi K2.6 + Hermes/Gemma + Ceph + Claude Code/Aurora DSQL infra signals; Threads mostly reinforced the prior Boris-style parallel/worktree/verification pattern
+- Verified Discord target channel still opened as `discord.com/login`, so direct browser delivery could not be completed and the short note was saved locally instead
+
 ## [2026-04-21] ingest | freeCodeCamp beginner graph guide
 - Saved raw source: `raw/articles/freecodecamp-beginners-guide-to-graphs-2026-04-21.md`
 - Created `concepts/graphs.md`
@@ -226,3 +242,19 @@
 - Saved raw source: `raw/articles/artemxtech-llm-wiki-vs-notebooklm-2026-04-21.md`
 - Created `comparisons/llm-wiki-vs-notebooklm.md`
 - Updated `index.md`
+
+## [2026-04-22] update | Interest signal collection 08:00 rerun (Threads liked page)
+- Saved raw source: `raw/transcripts/interest-signal-collection-08-00-2026-04-22-threads-liked-rerun.md`
+- Saved delivery note: `raw/transcripts/interest-signal-note-08-00-2026-04-22-threads-liked-rerun.md`
+- Refreshed the Threads long-lived token from `~/.config/threads-api/credentials.json`, confirmed `/v1.0/me` (`user_id=27173231028946699`, `@ethan13917`), and kept token-store permissions at `0600`
+- Collected Threads via the official API plus a CDP-only check of `https://www.threads.com/liked`; the liked page opened successfully and showed fresh Anthropic/AWS/Claude and Kimi K2.6/A100/Hugging Face signals
+- Observed that Threads `mentions` returned an empty dataset rather than the earlier access-tier error, and `keyword_search(agent)` returned real hits while other selected queries remained empty
+- Re-collected YouTube, X, GitHub stars, Google search history, ChatGPT, and Claude on live Chrome/CDP for grounded rerun evidence
+- Verified Discord target channel still redirected to `discord.com/login`, so direct browser delivery could not be completed and the short note was saved locally instead
+
+## [2026-04-22] update | Threads curation draft approved and published
+- Approved source draft: Hermes cron output `gogunbuntu-curate-1530-discord` from `2026-04-22 15:34:13`
+- Published via Threads API using `/home/ck/threads/threads_api_uploader.py`
+- Refreshed token and reconfirmed `/v1.0/me` before publish (`user_id=27173231028946699`, `@ethan13917`)
+- Published post IDs: `17927998704090443`, `17881095474410119`, `17885069016507474`, `18434803993186078`, `18075885890193333`, `18034838102796039`, `17874234324597256`, `18043338536768394`
+- Observed that the publish-limit preflight returned only `data[0].quota_usage`, so `--check-limit` failed closed and the approved manual publish proceeded without quota preflight
