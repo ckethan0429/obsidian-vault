@@ -258,3 +258,35 @@
 - Refreshed token and reconfirmed `/v1.0/me` before publish (`user_id=27173231028946699`, `@ethan13917`)
 - Published post IDs: `17927998704090443`, `17881095474410119`, `17885069016507474`, `18434803993186078`, `18075885890193333`, `18034838102796039`, `17874234324597256`, `18043338536768394`
 - Observed that the publish-limit preflight returned only `data[0].quota_usage`, so `--check-limit` failed closed and the approved manual publish proceeded without quota preflight
+
+## [2026-04-22] ingest | Interest signal collection 19:00 run
+- Saved raw source: `raw/transcripts/interest-signal-collection-19-00-2026-04-22.md`
+- Saved delivery note: `raw/transcripts/interest-signal-note-19-00-2026-04-22.md`
+- Refreshed the Threads long-lived token from `~/.config/threads-api/credentials.json`, confirmed `/v1.0/me` (`user_id=27173231028946699`, `@ethan13917`), and kept token-store permissions at `0600`
+- Collected Threads via the official API plus a CDP-only check of `https://www.threads.com/liked`; the liked page opened successfully and showed fresh Kubernetes-as-AI-OS, Gemini Mac speed, Anthropic/AWS megadeal, and Codex-usage-reset signals
+- Observed that Threads `mentions` remained empty, while `keyword_search` returned real hits for `Claude Code`, `GPU`, `Proxmox`, `Ceph`, `agent`, and `memory`
+- Re-collected YouTube, X, GitHub stars, Google search history, ChatGPT, and Claude on live Chrome/CDP; the strongest new cross-source pattern shifted from generic agent/runtime interest into AI infra operating economics (GPU count, storage, cache, deployability, and distribution)
+- Created `concepts/ai-infra-operating-economics.md`
+- Updated `index.md`
+- Verified Discord target channel still redirected to `discord.com/login`, so direct browser delivery could not be completed and the short note was saved locally instead
+
+## [2026-04-22] update | 23:00 interest-signal refinement
+- Reviewed same-day raw sources only: `raw/transcripts/interest-signal-collection-08-00-2026-04-22.md`, `raw/transcripts/interest-signal-note-08-00-2026-04-22.md`, `raw/transcripts/interest-signal-collection-08-00-2026-04-22-threads-liked-rerun.md`, `raw/transcripts/interest-signal-note-08-00-2026-04-22-threads-liked-rerun.md`, `raw/transcripts/interest-signal-collection-19-00-2026-04-22.md`, `raw/transcripts/interest-signal-note-19-00-2026-04-22.md`
+- Kept raw evidence untouched and ran Honcho-style triage over repeated vs incidental signals
+- Appended durable same-day refinements to `concepts/managed-agents-practical-summary.md`, `concepts/agent-client-protocol-and-acpx.md`, `concepts/ai-infra-operating-economics.md`, and `concepts/virton-career-and-business-profile.md`
+- Updated `index.md` summaries for the refined concept pages
+- No new concept page was created during the 23:00 refinement; the day’s strongest signals reinforced and sharpened existing themes rather than producing a separate durable topic
+
+## [2026-04-23] ingest | Interest signal collection 08:00 run
+- Saved raw source: `raw/transcripts/interest-signal-collection-08-00-2026-04-23.md`
+- Saved delivery note: `raw/transcripts/interest-signal-note-08-00-2026-04-23.md`
+- Refreshed the Threads long-lived token from `~/.config/threads-api/credentials.json`, confirmed `/v1.0/me` (`user_id=27173231028946699`, `@ethan13917`), and kept token-store permissions at `0600`
+- Observed that the stored `access_token` field failed `/v1.0/me` with `Failed to decode`; used `long_lived_access_token` for refresh and rewrote the refreshed long-lived token back into the store
+- Collected Threads via the official API plus a CDP-only check of `https://www.threads.com/liked`; `mentions` stayed empty and `keyword_search` returned real hits for `Claude Code`, `agent`, `memory`, `GPU`, `Proxmox`, and `Ceph`
+- Re-collected YouTube, X, GitHub stars, Google search history, ChatGPT, and Claude on live Chrome/CDP; the relative fresh shifts vs 2026-04-22 19:00 were YouTube `Space Agent` / `AWS Lambda durable functions` / `Opus 4.7 vs GPT-5.4 vs Kimi K2.6`, X likes adding `freeCodeCamp graphs` above the DAG/orchestrator cluster, and Google activity surfacing `스마트스토어 판매자센터`, `천유닷컴`, `proxlb`, and `엠피씨플러스` business/vendor lookups
+- Verified Discord target channel still redirected to `discord.com/login`, so direct browser delivery could not be completed and the short note was saved locally instead
+
+## [2026-04-23] update | AI infra operating economics reinforced from 08:00 signals
+- Updated `concepts/ai-infra-operating-economics.md`
+- Appended a 2026-04-23 morning reinforcement section covering Kubernetes-as-AI-OS liked evidence, Space Agent/serverless/runtime YouTube signals, X graph/DAG/caching reinforcement, and Google business/vendor scouting
+- Updated `index.md` last-updated header

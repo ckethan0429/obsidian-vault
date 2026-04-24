@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Telegram + ACPX + Hermes Architecture</title>
+  <style>
+    :root{
+      --bg:#020617; --panel:#0f172a; --grid:#1e293b; --text:#e2e8f0; --muted:#94a3b8;
+      --cyan:#22d3ee; --emerald:#34d399; --amber:#fbbf24; --rose:#fb7185; --orange:#fb923c; --violet:#a78bfa;
+    }
+    html,body{height:100%; margin:0; background:var(--bg); color:var(--text); font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;}
+    .wrap{max-width:1240px; margin:0 auto; padding:28px 20px 40px;}
+    .header{display:flex; align-items:flex-end; justify-content:space-between; gap:24px; margin-bottom:18px;}
+    h1{margin:0; font-size:28px; letter-spacing:-0.02em;}
+    .sub{color:var(--muted); margin-top:8px; font-size:14px; line-height:1.5;}
+    .badge{display:inline-flex; align-items:center; gap:8px; color:var(--muted); font-size:12px;}
+    .dot{width:10px; height:10px; border-radius:50%; background:var(--cyan); box-shadow:0 0 16px var(--cyan); animation:pulse 2s ease-in-out infinite;}
+    @keyframes pulse{0%,100%{transform:scale(1); opacity:.9}50%{transform:scale(1.35); opacity:.45}}
+    .card{background:linear-gradient(180deg, rgba(15,23,42,.95), rgba(2,6,23,.95)); border:1px solid rgba(148,163,184,.18); border-radius:18px; box-shadow:0 20px 60px rgba(0,0,0,.35); overflow:hidden;}
+    .svgbox{padding:0;}
+    svg{display:block; width:100%; height:auto; background:var(--bg);}
+    .summary{display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:14px; margin-top:14px;}
+    .info{padding:16px 16px 14px;}
+    .info h3{margin:0 0 10px; font-size:14px; display:flex; align-items:center; gap:10px;}
+    .pill{width:10px; height:10px; border-radius:50%;}
+    .info ul{margin:0; padding-left:18px; color:var(--text); font-size:13px; line-height:1.65;}
+    .info li{margin:4px 0; color:#cbd5e1;}
+    .footer{margin-top:12px; color:var(--muted); font-size:12px;}
+    @media (max-width: 980px){ .summary{grid-template-columns:1fr;} .header{flex-direction:column; align-items:flex-start;} }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="header">
+      <div>
+        <div class="badge"><span class="dot"></span><span>추천 아키텍처: Telegram + ACPX + Hermes</span></div>
+        <h1>메신저를 조종석으로, 프로토콜을 실행면으로</h1>
+        <div class="sub">사람은 Telegram에서 명령/승인만 하고, 실제 작업은 구조화된 런타임이 처리합니다. tmux는 디버깅/비상구로 남깁니다.</div>
+      </div>
+      <div class="badge">Batch / Queue / Resume / Cancel 중심</div>
+    </div>
+
+    <div class="card svgbox">
+      <svg viewBox="0 0 1240 720" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Telegram + ACPX + Hermes architecture diagram">
+        <defs>
+          <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+            <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1e293b" stroke-width="0.6"/>
+          </pattern>
+          <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+            <path d="M0,0 L0,6 L9,3 z" fill="#94a3b8"/>
+          </marker>
+          <marker id="arrow-cyan" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+            <path d="M0,0 L0,6 L9,3 z" fill="#22d3ee"/>
+          </marker>
+          <marker id="arrow-emerald" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+            <path d="M0,0 L0,6 L9,3 z" fill="#34d399"/>
+          </marker>
+          <marker id="arrow-orange" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+            <path d="M0,0 L0,6 L9,3 z" fill="#fb923c"/>
+          </marker>
+        </defs>
+        <rect x="0" y="0" width="1240" height="720" fill="#020617"/>
+        <rect x="0" y="0" width="1240" height="720" fill="url(#grid)" opacity="0.9"/>
+
+        <!-- Telegram -->
+        <rect x="52" y="108" width="220" height="128" rx="14" fill="#0f172a" stroke="#22d3ee" stroke-width="2"/>
+        <rect x="52" y="108" width="220" height="128" rx="14" fill="rgba(8,51,68,0.38)" stroke="#22d3ee" stroke-width="2"/>
+        <text x="72" y="142" fill="#e2e8f0" font-size="18" font-weight="700">Telegram Bot</text>
+        <text x="72" y="170" fill="#94a3b8" font-size="12">• Human UI</text>
+        <text x="72" y="192" fill="#94a3b8" font-size="12">• Commands / approvals</text>
+        <text x="72" y="214" fill="#94a3b8" font-size="12">• Status / logs / alerts</text>
+
+        <!-- Router -->
+        <rect x="354" y="94" width="250" height="156" rx="14" fill="#0f172a" stroke="#fb923c" stroke-width="2"/>
+        <rect x="354" y="94" width="250" height="156" rx="14" fill="rgba(251,146,60,0.20)" stroke="#fb923c" stroke-width="2"/>
+        <text x="376" y="128" fill="#e2e8f0" font-size="18" font-weight="700">Router / Orchestrator</text>
+        <text x="376" y="156" fill="#94a3b8" font-size="12">• Parse intent</text>
+        <text x="376" y="178" fill="#94a3b8" font-size="12">• Dispatch tasks</text>
+        <text x="376" y="200" fill="#94a3b8" font-size="12">• Queue / retry / timeout</text>
+        <text x="376" y="222" fill="#94a3b8" font-size="12">• Policy + approvals</text>
+
+        <!-- ACPX -->
+        <rect x="686" y="78" width="270" height="188" rx="14" fill="#0f172a" stroke="#a78bfa" stroke-width="2"/>
+        <rect x="686" y="78" width="270" height="188" rx="14" fill="rgba(76,29,149,0.30)" stroke="#a78bfa" stroke-width="2"/>
+        <text x="708" y="112" fill="#e2e8f0" font-size="18" font-weight="700">ACPX / ACP Runtime</text>
+        <text x="708" y="140" fill="#94a3b8" font-size="12">• Persistent sessions</text>
+        <text x="708" y="162" fill="#94a3b8" font-size="12">• Prompt queueing</text>
+        <text x="708" y="184" fill="#94a3b8" font-size="12">• Cancel / resume / crash-reconnect</text>
+        <text x="708" y="206" fill="#94a3b8" font-size="12">• Structured events, not PTY scraping</text>
+        <text x="708" y="228" fill="#94a3b8" font-size="12">• Multi-agent / multi-vendor harness</text>
+
+        <!-- Worker layer -->
+        <rect x="310" y="354" width="176" height="122" rx="14" fill="#0f172a" stroke="#34d399" stroke-width="2"/>
+        <rect x="310" y="354" width="176" height="122" rx="14" fill="rgba(6,78,59,0.34)" stroke="#34d399" stroke-width="2"/>
+        <text x="330" y="388" fill="#e2e8f0" font-size="16" font-weight="700">Hermes Worker A</text>
+        <text x="330" y="414" fill="#94a3b8" font-size="12">• research</text>
+        <text x="330" y="436" fill="#94a3b8" font-size="12">• summarization</text>
+        <text x="330" y="458" fill="#94a3b8" font-size="12">• quick ops</text>
+
+        <rect x="518" y="354" width="176" height="122" rx="14" fill="#0f172a" stroke="#34d399" stroke-width="2"/>
+        <rect x="518" y="354" width="176" height="122" rx="14" fill="rgba(6,78,59,0.34)" stroke="#34d399" stroke-width="2"/>
+        <text x="538" y="388" fill="#e2e8f0" font-size="16" font-weight="700">Hermes Worker B</text>
+        <text x="538" y="414" fill="#94a3b8" font-size="12">• implementation</text>
+        <text x="538" y="436" fill="#94a3b8" font-size="12">• file edits</text>
+        <text x="538" y="458" fill="#94a3b8" font-size="12">• tests</text>
+
+        <rect x="726" y="354" width="176" height="122" rx="14" fill="#0f172a" stroke="#34d399" stroke-width="2"/>
+        <rect x="726" y="354" width="176" height="122" rx="14" fill="rgba(6,78,59,0.34)" stroke="#34d399" stroke-width="2"/>
+        <text x="746" y="388" fill="#e2e8f0" font-size="16" font-weight="700">Hermes Worker C</text>
+        <text x="746" y="414" fill="#94a3b8" font-size="12">• review</text>
+        <text x="746" y="436" fill="#94a3b8" font-size="12">• validation</text>
+        <text x="746" y="458" fill="#94a3b8" font-size="12">• report</text>
+
+        <!-- Fallback -->
+        <rect x="972" y="332" width="214" height="166" rx="14" fill="#0f172a" stroke="#fb7185" stroke-width="2"/>
+        <rect x="972" y="332" width="214" height="166" rx="14" fill="rgba(136,19,55,0.25)" stroke="#fb7185" stroke-width="2"/>
+        <text x="992" y="366" fill="#e2e8f0" font-size="17" font-weight="700">tmux Fallback</text>
+        <text x="992" y="394" fill="#94a3b8" font-size="12">• debugging only</text>
+        <text x="992" y="416" fill="#94a3b8" font-size="12">• edge-case rescue</text>
+        <text x="992" y="438" fill="#94a3b8" font-size="12">• interactive PTY tasks</text>
+        <text x="992" y="460" fill="#94a3b8" font-size="12">• not primary orchestration</text>
+
+        <!-- Arrows top row -->
+        <path d="M272 172 L350 172" stroke="#22d3ee" stroke-width="3" fill="none" marker-end="url(#arrow-cyan)"/>
+        <path d="M606 172 L682 172" stroke="#fb923c" stroke-width="3" fill="none" marker-end="url(#arrow-orange)"/>
+
+        <!-- Downstream fanout -->
+        <path d="M821 266 L821 324" stroke="#a78bfa" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+        <path d="M821 324 L398 324 L398 354" stroke="#a78bfa" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+        <path d="M821 324 L606 324 L606 354" stroke="#a78bfa" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+        <path d="M821 324 L814 324 L814 354" stroke="#a78bfa" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+
+        <!-- Approval / status loop -->
+        <path d="M598 210 C 640 210, 648 210, 686 210" stroke="#34d399" stroke-width="2.5" fill="none" stroke-dasharray="6 6" marker-end="url(#arrow-emerald)"/>
+        <path d="M406 246 C 406 294, 180 294, 180 236" stroke="#94a3b8" stroke-width="2.5" fill="none" stroke-dasharray="6 6" marker-end="url(#arrow)"/>
+
+        <!-- Notes -->
+        <text x="64" y="566" fill="#cbd5e1" font-size="14" font-weight="700">운영 원칙</text>
+        <text x="64" y="592" fill="#94a3b8" font-size="12">1) 사람 인터페이스는 Telegram</text>
+        <text x="64" y="614" fill="#94a3b8" font-size="12">2) 실행면은 ACPX / ACP</text>
+        <text x="64" y="636" fill="#94a3b8" font-size="12">3) 실제 작업은 Hermes worker pool</text>
+        <text x="64" y="658" fill="#94a3b8" font-size="12">4) tmux는 비상구와 디버깅만</text>
+
+        <text x="502" y="566" fill="#cbd5e1" font-size="14" font-weight="700">권장 흐름</text>
+        <text x="502" y="592" fill="#94a3b8" font-size="12">Telegram → Router → ACPX → Hermes workers → 결과/승인</text>
+        <text x="502" y="614" fill="#94a3b8" font-size="12">cancel / resume / queue 를 프로토콜 레벨에서 유지</text>
+        <text x="502" y="636" fill="#94a3b8" font-size="12">벤더 혼합이 필요하면 worker 쪽에 agent adapter 추가</text>
+        <text x="502" y="658" fill="#94a3b8" font-size="12">tmux는 fallback path 로만 남김</text>
+
+        <text x="940" y="566" fill="#cbd5e1" font-size="14" font-weight="700">왜 이 구조인가</text>
+        <text x="940" y="592" fill="#94a3b8" font-size="12">• 상태를 텍스트 파싱에 맡기지 않음</text>
+        <text x="940" y="614" fill="#94a3b8" font-size="12">• 세션/큐/재시도/취소가 안정적</text>
+        <text x="940" y="636" fill="#94a3b8" font-size="12">• 사람이 보기엔 채팅봇, 시스템은 런타임</text>
+        <text x="940" y="658" fill="#94a3b8" font-size="12">• 확장할수록 tmux보다 훨씬 덜 아픔</text>
+      </svg>
+    </div>
+
+    <div class="summary">
+      <div class="card info">
+        <h3><span class="pill" style="background:var(--cyan)"></span>Telegram Bot</h3>
+        <ul>
+          <li>사람이 직접 만지는 유일한 인터페이스</li>
+          <li>명령, 승인, 알림, 상태 확인 담당</li>
+        </ul>
+      </div>
+      <div class="card info">
+        <h3><span class="pill" style="background:var(--violet)"></span>ACPX / ACP</h3>
+        <ul>
+          <li>세션, 큐, 취소, 재개를 구조적으로 관리</li>
+          <li>PTY 스크래핑보다 안정적이고 확장성 높음</li>
+        </ul>
+      </div>
+      <div class="card info">
+        <h3><span class="pill" style="background:var(--emerald)"></span>Hermes Workers</h3>
+        <ul>
+          <li>실제 작업자 풀: 리서치, 수정, 테스트, 리뷰</li>
+          <li>tmux는 fallback으로만 유지</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer">저장 경로: /home/ck/wiki/diagrams/telegram-acpx-hermes-architecture.html</div>
+  </div>
+</body>
+</html>

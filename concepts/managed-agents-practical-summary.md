@@ -1,10 +1,10 @@
 ---
 title: Managed Agents practical summary
 created: 2026-04-15
-updated: 2026-04-20
+updated: 2026-04-22
 type: concept
 tags: [agents, orchestration, infrastructure, devtools, anthropic, checklist]
-sources: [raw/articles/anthropic-managed-agents-2026-04-15.md, raw/articles/effective-harnesses-for-long-running-agents-2026-04-15.md, raw/transcripts/managed-agents-codefactory-video-2026-04-15.md, raw/transcripts/interest-signal-collection-19-00-2026-04-20.md]
+sources: [raw/articles/anthropic-managed-agents-2026-04-15.md, raw/articles/effective-harnesses-for-long-running-agents-2026-04-15.md, raw/transcripts/managed-agents-codefactory-video-2026-04-15.md, raw/transcripts/interest-signal-collection-19-00-2026-04-20.md, raw/transcripts/interest-signal-collection-08-00-2026-04-22.md, raw/transcripts/interest-signal-collection-08-00-2026-04-22-threads-liked-rerun.md, raw/transcripts/interest-signal-collection-19-00-2026-04-22.md]
 ---
 
 # Managed Agents practical summary
@@ -109,10 +109,42 @@ A practical reading for CK is:
 2. keep [[site-observation-archive]] as the raw evidence layer,
 3. treat the managed-agent runtime as the place where routing, tool orchestration, and business operations start to meet.
 
+## 2026-04-22 live-signal refinement
+The 2026-04-22 raw runs did not overturn the thesis above. They made it more concrete.
+
+### What stayed repeated across the day
+From the 08:00 run, the Threads rerun, and the 19:00 run, the same operator pattern kept reappearing:
+- **parallel execution is a queue design problem**, not just "run more agents"
+- **worktree isolation beats collaborative overlap** when multiple agents touch one repo
+- **event-based notification** matters more than constant human supervision
+- **short shared rules** (for example `CLAUDE.md`) accumulate hard-won failure lessons
+- **self-verification loops** are the real quality multiplier
+
+### What became newly actionable by 19:00
+The evening run added a more practical routing rule on top of the earlier Boris-style pattern:
+- keep **small, linear work** on the native fast path
+- send **stateful / log-heavy / mutation-heavy zones** to a more isolated parallel path
+- decide **where** to parallelize, not merely **whether** to parallelize
+
+That is a more mature operational reading than generic "multi-agent is good." It implies a harness should classify work by collision cost, verification cost, and recovery cost before spawning more parallelism.
+
+### Updated checklist for CK
+If CK is evaluating or building an agent runtime now, the working checklist becomes:
+- [ ] Keep session history outside the model context window
+- [ ] Keep the harness restartable
+- [ ] Keep sandboxes or worktrees replaceable and isolated
+- [ ] Use event-based notification instead of constant tab watching
+- [ ] Maintain a short shared rule file that accumulates repeated mistakes
+- [ ] Build self-verification into browser/simulator/server loops
+- [ ] Parallelize by phase and collision cost, not by hype alone
+- [ ] Leave durable artifacts that let the next run resume cleanly
+
 ## One-sentence takeaway
-**Managed Agents is the design pattern of turning agent work into a durable, restartable service by separating session, harness, sandbox, and credentials into stable interfaces — and the latest live signals suggest the next frontier is routing plus operations, not prompt tricks alone.**
+**Managed Agents is the design pattern of turning agent work into a durable, restartable service by separating session, harness, sandbox, and credentials into stable interfaces — and the latest live signals sharpen that into a concrete operator playbook of worktree isolation, event-driven escalation, rule accumulation, and self-verifying phase-based parallelism.**
 
 ## Related pages
 - [[managed-agents-architecture]]
 - [[agent-client-protocol-and-acpx]]
+- [[honcho]]
+- [[ai-infra-operating-economics]]
 - [[claude-code-best-practice]]

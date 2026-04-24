@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with a one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-04-21 | Total pages: 54
+> Last updated: 2026-04-23 | Total pages: 55
 
 ## Entities
 <!-- Alphabetical within section -->
@@ -13,7 +13,8 @@
 
 ## Concepts
 <!-- Alphabetical within section -->
-- [[agent-client-protocol-and-acpx]] — ACP as the client-to-agent protocol, ACPX as the practical CLI/runtime layer, and OpenClaw’s ACP surface as the operator integration path.
+- [[agent-client-protocol-and-acpx]] — ACP as the client-to-agent protocol, ACPX as the session/control runtime layer, and external shared-memory wiring as the durability complement.
+- [[ai-infra-operating-economics]] — Cross-source pattern that CK’s current AI interest is hardening into GPU, storage, deployment, distribution, and operator-margin economics.
 - [[b2b-sales-and-negotiation-strategy]] — Structured guide to B2B sales from lead generation through expansion.
 - [[chrome-cdp-login-status]] — CK's operating assumption for login-ready Chrome CDP sessions.
 - [[claude-code-hooks]] — Claude Code hook events, matchers, and handler patterns.
@@ -31,7 +32,7 @@
 - [[korean-public-support-programs]] — Public-sector startup and SME support surfaces in Korea.
 - [[korean-startup-support-sites]] — Curated founder-oriented map of Korean startup support sites.
 - [[managed-agents-architecture]] — Anthropic’s pattern for decoupling session, harness, and sandbox, supplemented with practical harness and pricing notes.
-- [[managed-agents-practical-summary]] — Compact checklist-style summary of Managed Agents for implementation and ops use.
+- [[managed-agents-practical-summary]] — Compact operator checklist for Managed Agents, emphasizing worktree isolation, event-driven escalation, and self-verifying phase-based parallelism.
 - [[marketing-knowledge-transfer-gap]] — Claim that practical marketing frameworks often diffuse into Korea years after earlier overseas adoption.
 - [[obsidian-vault-integration]] — Canonical single-vault setup after merging the GitHub-backed Obsidian vault into `~/wiki`.
 - [[overseas-marketing-gurus]] — User-curated list of foreign marketing figures worth studying directly.
@@ -41,7 +42,7 @@
 - [[site-observation-archive]] — Workflow for capturing visited sites, preserving context, and promoting durable takeaways.
 - [[site-observation-archive-cdp-hook]] — CDP-driven intake flow for saving important page bodies before promoting durable notes.
 - [[virton-release-strategy]] — Quarterly Minor, monthly Patch, and hotfix operating model for Virton B2B package releases.
-- [[virton-career-and-business-profile]] — CK's current role, startup strategy, and business-model interests around Virton and GPU infra.
+- [[virton-career-and-business-profile]] — CK's current role, GPU-infra business strategy, and productization path toward AI distributions, managed workspaces, and platform revenue.
 
 ## Summaries
 <!-- Alphabetical within section -->
