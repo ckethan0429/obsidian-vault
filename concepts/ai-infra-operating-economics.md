@@ -1,10 +1,10 @@
 ---
 title: AI infra operating economics
 created: 2026-04-22
-updated: 2026-04-23
+updated: 2026-04-26
 type: concept
 tags: [infrastructure, gpu, storage, proxmox, agents, business, strategy]
-sources: [raw/transcripts/interest-signal-collection-08-00-2026-04-22.md, raw/transcripts/interest-signal-collection-08-00-2026-04-22-threads-liked-rerun.md, raw/transcripts/interest-signal-collection-19-00-2026-04-22.md, raw/transcripts/interest-signal-note-19-00-2026-04-22.md, raw/transcripts/interest-signal-collection-08-00-2026-04-23.md]
+sources: [raw/transcripts/interest-signal-collection-08-00-2026-04-22.md, raw/transcripts/interest-signal-collection-08-00-2026-04-22-threads-liked-rerun.md, raw/transcripts/interest-signal-collection-19-00-2026-04-22.md, raw/transcripts/interest-signal-note-19-00-2026-04-22.md, raw/transcripts/interest-signal-collection-08-00-2026-04-23.md, raw/transcripts/interest-signal-collection-08-00-2026-04-26.md]
 ---
 
 # AI infra operating economics
@@ -124,6 +124,23 @@ The infra-economic thesis is still the center, but the morning run suggests the 
 3. **commercialization / sourcing** — vendors, channels, and packaging paths around deployable AI infra
 
 That means the durable opportunity is not only “understand infra better,” but increasingly “package, route, and sell infra-shaped AI systems with operator-grade economics.”
+
+## 2026-04-26 morning reinforcement
+
+The 08:00 rerun did not change the thesis; it sharpened the operating layer again.
+
+### What stayed reinforced
+- Threads own posts kept pointing at the same stack: **harness / routing / triage / parallel execution / GPU ROI / Ceph / Proxmox**.
+- The freshest Threads liked rows added a clean deployment-substrate mix: **Kubernetes as AI OS**, **Gemini Mac prototyping speed**, **Anthropic/AWS compute scale**, and **Codex usage reset**.
+- Keyword search kept returning the same cluster: **Claude Code / agent / memory / GPU / Proxmox / Ceph**.
+- The other live surfaces stayed in lockstep: **YouTube** kept surfacing `Space Agent`, `durable functions`, and `OpenClaw`; **X** kept surfacing Claude sessions / cache hit-rate / coding agents; **GitHub stars** stayed on Hermes / memory-bank / oh-my-agent / web-agent / workspace; **Google** kept surfacing Threads API, harness, shared memory, and Claude Code searches; **ChatGPT** stayed on ACP / shared-memory agent infra; **Claude** stayed on GPU/Proxmox business + AI infra distribution.
+
+### What is actually new in this run
+- The newest own post is a direct **harness** framing, which makes the runtime layer more explicit instead of just implied.
+- `MCP`, `vLLM`, and `Threads API` came back empty in keyword search this time, so the attention is still concentrated on the more immediate operating-economic surface rather than those adjacent terms.
+
+### Updated reading
+The durable interpretation is unchanged: CK is still pulling toward **deployable AI infra with operator-grade economics**, but the current morning evidence adds a more explicit emphasis on **routing and triage inside the harness itself**.
 
 ## Related pages
 

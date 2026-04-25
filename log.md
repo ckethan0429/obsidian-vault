@@ -290,3 +290,12 @@
 - Updated `concepts/ai-infra-operating-economics.md`
 - Appended a 2026-04-23 morning reinforcement section covering Kubernetes-as-AI-OS liked evidence, Space Agent/serverless/runtime YouTube signals, X graph/DAG/caching reinforcement, and Google business/vendor scouting
 - Updated `index.md` last-updated header
+
+## [2026-04-26] ingest | Interest signal collection 08:00 run
+- Saved raw source: `raw/transcripts/interest-signal-collection-08-00-2026-04-26.md`
+- Threads API returned a fresh `REPOST_FACADE` on 2026-04-24 and a new 2026-04-23 harness post; own-post insights still centered on AI infra / agent / harness economics
+- Threads liked page CDP fallback stayed logged in and surfaced fresh high-signal likes for Kubernetes as AI OS, Gemini Mac speed, Anthropic/AWS compute scale, and Codex usage reset
+- YouTube, X, GitHub stars, Google search history, ChatGPT, and Claude all stayed on the same runtime / memory / harness / GPU / Proxmox / distribution axis
+- `mentions` stayed empty; `keyword_search` hit Claude Code, agent, memory, GPU, Proxmox, and Ceph, while MCP / vLLM / Threads API returned empty
+- Updated `concepts/ai-infra-operating-economics.md` and `index.md`
+- Discord target still redirected to login, so direct browser delivery could not be completed
