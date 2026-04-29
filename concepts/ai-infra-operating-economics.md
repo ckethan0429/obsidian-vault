@@ -4,7 +4,7 @@ created: 2026-04-22
 updated: 2026-04-29
 type: concept
 tags: [infrastructure, gpu, storage, proxmox, agents, business, strategy]
-sources: [raw/transcripts/interest-signal-collection-08-00-2026-04-22.md, raw/transcripts/interest-signal-collection-08-00-2026-04-22-threads-liked-rerun.md, raw/transcripts/interest-signal-collection-19-00-2026-04-22.md, raw/transcripts/interest-signal-note-19-00-2026-04-22.md, raw/transcripts/interest-signal-collection-08-00-2026-04-23.md, raw/transcripts/interest-signal-collection-08-00-2026-04-26.md, raw/transcripts/interest-signal-collection-19-00-2026-04-26.md, raw/transcripts/interest-signal-note-19-00-2026-04-26.md, raw/transcripts/interest-signal-collection-08-00-2026-04-27.md, raw/transcripts/interest-signal-note-08-00-2026-04-27.md, raw/transcripts/interest-signal-collection-19-00-2026-04-27.md, raw/transcripts/interest-signal-note-19-00-2026-04-27.md, raw/transcripts/interest-signal-collection-08-00-2026-04-28.md, raw/transcripts/interest-signal-note-08-00-2026-04-28.md, raw/transcripts/interest-signal-collection-19-00-2026-04-28.md, raw/transcripts/interest-signal-note-19-00-2026-04-28.md, raw/transcripts/interest-signal-collection-08-00-2026-04-29.md, raw/transcripts/interest-signal-note-08-00-2026-04-29.md]
+sources: [raw/transcripts/interest-signal-collection-08-00-2026-04-22.md, raw/transcripts/interest-signal-collection-08-00-2026-04-22-threads-liked-rerun.md, raw/transcripts/interest-signal-collection-19-00-2026-04-22.md, raw/transcripts/interest-signal-note-19-00-2026-04-22.md, raw/transcripts/interest-signal-collection-08-00-2026-04-23.md, raw/transcripts/interest-signal-collection-08-00-2026-04-26.md, raw/transcripts/interest-signal-collection-19-00-2026-04-26.md, raw/transcripts/interest-signal-note-19-00-2026-04-26.md, raw/transcripts/interest-signal-collection-08-00-2026-04-27.md, raw/transcripts/interest-signal-note-08-00-2026-04-27.md, raw/transcripts/interest-signal-collection-19-00-2026-04-27.md, raw/transcripts/interest-signal-note-19-00-2026-04-27.md, raw/transcripts/interest-signal-collection-08-00-2026-04-28.md, raw/transcripts/interest-signal-note-08-00-2026-04-28.md, raw/transcripts/interest-signal-collection-19-00-2026-04-28.md, raw/transcripts/interest-signal-note-19-00-2026-04-28.md, raw/transcripts/interest-signal-collection-08-00-2026-04-29.md, raw/transcripts/interest-signal-note-08-00-2026-04-29.md, raw/transcripts/interest-signal-collection-11-00-2026-04-29.md]
 ---
 
 # AI infra operating economics
@@ -231,6 +231,16 @@ The 08:00 run stayed on the same axis, but live CDP finally exposed more useful 
 
 ### Updated reading
 This remains **append_existing**. The signal set got sharper and more grounded, but it did not expand into a new durable topic.
+
+## 2026-04-29 new-target baseline
+
+The morning/new-target pass did not open a wholly different theme. It instead confirmed that external vendor surfaces are packaging the same core stack into official launches and platform primitives:
+
+- Anthropic is now shipping `Claude Opus 4.7` as a generally available coding-capable model and pairing `Claude for Creative Work` with connectors for Blender, Autodesk, Adobe, Ableton, and Splice.
+- Cloudflare’s `Agents Week 2026` framed the company as shipping an `agentic cloud`, with related posts on AI code review, agent readiness, and the agentic web.
+- GitHub Trending is still surfacing a concentrated cluster of Claude Code / skills / templates repos such as `awesome-codex-skills`, `claude-code-templates`, and `free-claude-code`.
+
+This is best treated as **append_existing**: it strengthens the same operating thesis rather than creating a new durable topic.
 
 ## Related pages
 

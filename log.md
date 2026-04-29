@@ -377,3 +377,8 @@
 - Created `concepts/virton-equity-negotiation-baseline.md`
 - Updated `concepts/virton-career-and-business-profile.md` to clarify that CK is not officially CTO, has 0% equity, and currently performs de facto CTO responsibilities for the Virton platform
 - Updated `index.md`
+
+## [2026-04-29] ingest | New-target blog/release baseline
+- Saved raw source: `raw/transcripts/interest-signal-collection-11-00-2026-04-29.md`
+- Appended `concepts/ai-infra-operating-economics.md` with a new-target baseline section covering Anthropic launch posts, Cloudflare's agentic cloud announcements, and GitHub Trending Claude Code / skills packaging
+- Treated the run as append_existing / baseline-seeding rather than a new durable topic
