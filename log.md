@@ -396,3 +396,15 @@
 - Anthropic News and Cloudflare RSS repeated the 11:00 baseline; no new durable launch item stood out on those surfaces
 - GitHub Trending shifted toward more agentic runtime/tooling repos (`warpdotdev/warp`, `1jehuang/jcode`, `obra/superpowers`, `lukilabs/craft-agents-oss`, `ZhuLinsen/daily_stock_analysis`)
 - Updated `concepts/ai-infra-operating-economics.md` and `index.md` with an append_existing read
+
+## [2026-04-29] update | Interest-signal 23:00 refinement
+- Reviewed the same-day 08:00, 11:00, 19:00, and 22:00 raw transcripts plus their delivery notes
+- Classified the day as reinforcement-only: the strongest repeated axis stayed Claude Code / agent workflows / harness routing / shared memory / AI infra economics / education-led packaging
+- No new durable concept page was promoted; raw evidence remained untouched
+
+## [2026-04-30] ingest | Interest signal collection 08:00 run
+- Saved raw source: `raw/transcripts/interest-signal-collection-08-00-2026-04-30.md`
+- Saved delivery note: `raw/transcripts/interest-signal-note-08-00-2026-04-30.md`
+- Threads / X / ChatGPT / Claude / Google / YouTube mostly reinforced the same Claude Code / agent / harness / OpenClaw / AI infra / education axis as the prior day
+- GitHub stars added a new visible quant-research signal: `jorgebmann / pyturboquant`
+- Updated `concepts/ck-investing-and-life-profile.md` with the quant-tooling signal
