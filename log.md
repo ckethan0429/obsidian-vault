@@ -382,3 +382,17 @@
 - Saved raw source: `raw/transcripts/interest-signal-collection-11-00-2026-04-29.md`
 - Appended `concepts/ai-infra-operating-economics.md` with a new-target baseline section covering Anthropic launch posts, Cloudflare's agentic cloud announcements, and GitHub Trending Claude Code / skills packaging
 - Treated the run as append_existing / baseline-seeding rather than a new durable topic
+
+## [2026-04-29] ingest | Interest signal collection 19:00 run
+- Saved raw source: `raw/transcripts/interest-signal-collection-19-00-2026-04-29.md`
+- Saved delivery note: `raw/transcripts/interest-signal-note-19-00-2026-04-29.md`
+- Live CDP exposed readable Threads activity/reposts, YouTube watch later/liked, GitHub stars, Google My Activity, ChatGPT, Claude, and X likes tabs even though the browser tool opened Threads login
+- New-ish signals relative to the morning run: Threads activity/reposts added an explicit native-vs-parallel / OMX split plus Hermes Agent and Claude Design packaging; YouTube watch later/liked added Harness Engineering, GPU pricing, AI skills, and Supabase MCP items; X likes shifted toward free AI resources and Claude Code workflow education
+- Appended `concepts/ai-infra-operating-economics.md` with an evening reinforcement section and updated `index.md` and source lists
+
+## [2026-04-29] ingest | New-target blog/release 22:00 run
+- Saved raw source: `raw/transcripts/interest-signal-collection-22-00-2026-04-29.md`
+- Saved delivery note: `raw/transcripts/interest-signal-note-22-00-2026-04-29.md`
+- Anthropic News and Cloudflare RSS repeated the 11:00 baseline; no new durable launch item stood out on those surfaces
+- GitHub Trending shifted toward more agentic runtime/tooling repos (`warpdotdev/warp`, `1jehuang/jcode`, `obra/superpowers`, `lukilabs/craft-agents-oss`, `ZhuLinsen/daily_stock_analysis`)
+- Updated `concepts/ai-infra-operating-economics.md` and `index.md` with an append_existing read

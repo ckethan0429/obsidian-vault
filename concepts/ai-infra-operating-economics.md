@@ -4,7 +4,7 @@ created: 2026-04-22
 updated: 2026-04-29
 type: concept
 tags: [infrastructure, gpu, storage, proxmox, agents, business, strategy]
-sources: [raw/transcripts/interest-signal-collection-08-00-2026-04-22.md, raw/transcripts/interest-signal-collection-08-00-2026-04-22-threads-liked-rerun.md, raw/transcripts/interest-signal-collection-19-00-2026-04-22.md, raw/transcripts/interest-signal-note-19-00-2026-04-22.md, raw/transcripts/interest-signal-collection-08-00-2026-04-23.md, raw/transcripts/interest-signal-collection-08-00-2026-04-26.md, raw/transcripts/interest-signal-collection-19-00-2026-04-26.md, raw/transcripts/interest-signal-note-19-00-2026-04-26.md, raw/transcripts/interest-signal-collection-08-00-2026-04-27.md, raw/transcripts/interest-signal-note-08-00-2026-04-27.md, raw/transcripts/interest-signal-collection-19-00-2026-04-27.md, raw/transcripts/interest-signal-note-19-00-2026-04-27.md, raw/transcripts/interest-signal-collection-08-00-2026-04-28.md, raw/transcripts/interest-signal-note-08-00-2026-04-28.md, raw/transcripts/interest-signal-collection-19-00-2026-04-28.md, raw/transcripts/interest-signal-note-19-00-2026-04-28.md, raw/transcripts/interest-signal-collection-08-00-2026-04-29.md, raw/transcripts/interest-signal-note-08-00-2026-04-29.md, raw/transcripts/interest-signal-collection-11-00-2026-04-29.md]
+sources: [raw/transcripts/interest-signal-collection-08-00-2026-04-22.md, raw/transcripts/interest-signal-collection-08-00-2026-04-22-threads-liked-rerun.md, raw/transcripts/interest-signal-collection-19-00-2026-04-22.md, raw/transcripts/interest-signal-note-19-00-2026-04-22.md, raw/transcripts/interest-signal-collection-08-00-2026-04-23.md, raw/transcripts/interest-signal-collection-08-00-2026-04-26.md, raw/transcripts/interest-signal-collection-19-00-2026-04-26.md, raw/transcripts/interest-signal-note-19-00-2026-04-26.md, raw/transcripts/interest-signal-collection-08-00-2026-04-27.md, raw/transcripts/interest-signal-note-08-00-2026-04-27.md, raw/transcripts/interest-signal-collection-19-00-2026-04-27.md, raw/transcripts/interest-signal-note-19-00-2026-04-27.md, raw/transcripts/interest-signal-collection-08-00-2026-04-28.md, raw/transcripts/interest-signal-note-08-00-2026-04-28.md, raw/transcripts/interest-signal-collection-19-00-2026-04-28.md, raw/transcripts/interest-signal-note-19-00-2026-04-28.md, raw/transcripts/interest-signal-collection-08-00-2026-04-29.md, raw/transcripts/interest-signal-note-08-00-2026-04-29.md, raw/transcripts/interest-signal-collection-11-00-2026-04-29.md, raw/transcripts/interest-signal-collection-19-00-2026-04-29.md, raw/transcripts/interest-signal-note-19-00-2026-04-29.md, raw/transcripts/interest-signal-collection-22-00-2026-04-29.md, raw/transcripts/interest-signal-note-22-00-2026-04-29.md]
 ---
 
 # AI infra operating economics
@@ -241,6 +241,39 @@ The morning/new-target pass did not open a wholly different theme. It instead co
 - GitHub Trending is still surfacing a concentrated cluster of Claude Code / skills / templates repos such as `awesome-codex-skills`, `claude-code-templates`, and `free-claude-code`.
 
 This is best treated as **append_existing**: it strengthens the same operating thesis rather than creating a new durable topic.
+
+## 2026-04-29 evening reinforcement
+
+The 19:00 scan stayed on the same axis, but it added a few clearer packaging and economics signals.
+
+### What stayed reinforced
+- **Threads likes** continued to emphasize Claude Code pricing, vibe-coding discipline, and code-ownership framing.
+- **GitHub stars**, **Google My Activity**, **ChatGPT**, and **Claude** all remained centered on Claude Code, agent workflows, memory/shared state, harnessing, GPU/Proxmox/Ceph, and education-led packaging.
+
+### What looked relatively fresher
+- **Threads activity/reposts** made the parallelization boundary more explicit: keep small linear tasks native, and push state/log/mutation-heavy work into OMX-style parallel execution.
+- The same Threads surfaces also surfaced packaging/branding signals around **Hermes Agent** and **Claude Design**, which fit the broader infra + workflow + distribution theme.
+- **YouTube watch later / liked** added clearer harness and economics hints: `Harness Engineering`, `Intel just CRUSHED Nvidia & AMD GPU pricing`, `The 8 AI Skills That Will Separate Winners From Losers in 2025`, and `Supabase MCP로 앱 찍어내는 방법`.
+- **X likes** shifted away from the earlier DAG/wiki/cache critique cluster toward free AI learning resources and a Claude Code workflow roundup.
+
+### Updated reading
+This is still **append_existing**. The run sharpened the same operating thesis around deployable AI infra, harness design, and the economics / education layer around Claude Code and agent tooling.
+
+## 2026-04-29 late-evening new-target pass
+
+The 22:00 new-target run did not open a new durable axis. It mostly refreshed the same operating thesis from a different surface family.
+
+### What stayed reinforced
+- **Anthropic News** still matched the morning baseline: `Claude for Creative Work`, `Claude Design`, and `Claude Opus 4.7` remained the visible high-signal items.
+- **Cloudflare RSS** also matched the baseline: the feed still centered on `agentic cloud`, `AI engineering stack`, `AI code review`, `Agent Readiness`, and adjacent infra posts.
+
+### What looked relatively fresher
+- **GitHub Trending** shifted away from template-only packaging toward more concrete runtime/tooling surfaces: `warp` as an agentic development environment, `jcode` as a coding agent harness, `superpowers` as an agentic skills framework, and `craft-agents-oss` as an agent-oriented OSS repo.
+- `daily_stock_analysis` also reinforced the pattern that agentic/LLM tooling is being wrapped into practical end-user workflows, not just demos.
+- The already-seen `skills`, `awesome-codex-skills`, `GitNexus`, `VibeVoice`, and `ds2api` rows were reinforcement rather than a new topic.
+
+### Updated reading
+This is still **append_existing**. The late-evening pass adds a slightly more productized agentic-development-environment angle, but it sits squarely inside the same AI infra operating economics pattern rather than creating a new durable concept.
 
 ## Related pages
 
