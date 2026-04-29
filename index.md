@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with a one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-04-26 | Total pages: 55
+> Last updated: 2026-04-29 | Total pages: 56
 
 ## Entities
 <!-- Alphabetical within section -->
@@ -14,7 +14,7 @@
 ## Concepts
 <!-- Alphabetical within section -->
 - [[agent-client-protocol-and-acpx]] — ACP as the client-to-agent protocol, ACPX as the session/control runtime layer, and external shared-memory wiring as the durability complement.
-- [[ai-infra-operating-economics]] — Cross-source pattern that CK’s current AI interest is hardening into harness routing, GPU, storage, deployment, distribution, and operator-margin economics.
+- [[ai-infra-operating-economics]] — Cross-source pattern that CK’s current AI interest is hardening into harness routing, GPU, storage, deployment, distribution, and operator-margin economics; reinforced again on 2026-04-29.
 - [[b2b-sales-and-negotiation-strategy]] — Structured guide to B2B sales from lead generation through expansion.
 - [[chrome-cdp-login-status]] — CK's operating assumption for login-ready Chrome CDP sessions.
 - [[claude-code-hooks]] — Claude Code hook events, matchers, and handler patterns.
@@ -41,8 +41,9 @@
 - [[sales-discovery-and-objection-handling]] — Questioning, discovery, and objection-response mechanics for B2B selling.
 - [[site-observation-archive]] — Workflow for capturing visited sites, preserving context, and promoting durable takeaways.
 - [[site-observation-archive-cdp-hook]] — CDP-driven intake flow for saving important page bodies before promoting durable notes.
+- [[virton-career-and-business-profile]] — CK's official role status, de facto CTO responsibilities, GPU-infra business strategy, and productization path.
+- [[virton-equity-negotiation-baseline]] — Equity negotiation baseline for CK as an early core Virton employee who grew into de facto CTO responsibilities.
 - [[virton-release-strategy]] — Quarterly Minor, monthly Patch, and hotfix operating model for Virton B2B package releases.
-- [[virton-career-and-business-profile]] — CK's current role, GPU-infra business strategy, and productization path toward AI distributions, managed workspaces, and platform revenue.
 
 ## Summaries
 <!-- Alphabetical within section -->
@@ -56,7 +57,7 @@
 - [[Clawdbot_브라우저_자동화_해결_정리_2026-01-29]] — Resolution notes for Clawdbot browser automation failures and CDP attachment.
 - [[daily-push-tts-mbti-todo-list]] — One-shot live validation of a voice-first daily push idea combined with an MBTI-framed todo list.
 - [[GPU_브로커리지_PLG_전략_단계별_설계_2026-03-05]] — Step-by-step PLG design for a GPU brokerage platform.
-- [[README]] — Podcast release workflow, TTS generation, and publishing notes.
+- [[README]] — Top-level wiki entry point covering storage layout, workflow, Honcho triage, and operational rules.
 - [[Threads_좋아요_리포스트_최근1개월_2026-01-29]] — Recent Threads likes and reposts collected over the last month.
 - [[VMware_이후의_세계_AI시대_가상화_운영_재설계_2026-02-11]] — Reframing virtualization operations for the AI era after VMware.
 - [[경사하강법_가중치업데이트_기초_2026-02-19]] — Basic gradient descent and weight-update notes.

@@ -28,23 +28,12 @@ const components: Components = {
     );
   },
   blockquote: ({ children }) => <blockquote className="wiki-blockquote">{children}</blockquote>,
-  code: ({ inline, className, children, ...props }: any) => {
-    if (inline) {
-      return (
-        <code className="wiki-inline-code" {...props}>
-          {children}
-        </code>
-      );
-    }
-
-    return (
-      <pre className="wiki-pre">
-        <code className={className} {...props}>
-          {children}
-        </code>
-      </pre>
-    );
-  },
+  code: ({ children, className, ...props }: any) => (
+    <code className={className ? `wiki-inline-code ${className}` : "wiki-inline-code"} {...props}>
+      {children}
+    </code>
+  ),
+  pre: ({ children }) => <pre className="wiki-pre">{children}</pre>,
   h1: ({ children }) => <h1 className="wiki-h1">{children}</h1>,
   h2: ({ children }) => <h2 className="wiki-h2">{children}</h2>,
   h3: ({ children }) => <h3 className="wiki-h3">{children}</h3>,

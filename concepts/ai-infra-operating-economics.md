@@ -1,13 +1,14 @@
 ---
 title: AI infra operating economics
 created: 2026-04-22
-updated: 2026-04-26
+updated: 2026-04-29
 type: concept
 tags: [infrastructure, gpu, storage, proxmox, agents, business, strategy]
-sources: [raw/transcripts/interest-signal-collection-08-00-2026-04-22.md, raw/transcripts/interest-signal-collection-08-00-2026-04-22-threads-liked-rerun.md, raw/transcripts/interest-signal-collection-19-00-2026-04-22.md, raw/transcripts/interest-signal-note-19-00-2026-04-22.md, raw/transcripts/interest-signal-collection-08-00-2026-04-23.md, raw/transcripts/interest-signal-collection-08-00-2026-04-26.md]
+sources: [raw/transcripts/interest-signal-collection-08-00-2026-04-22.md, raw/transcripts/interest-signal-collection-08-00-2026-04-22-threads-liked-rerun.md, raw/transcripts/interest-signal-collection-19-00-2026-04-22.md, raw/transcripts/interest-signal-note-19-00-2026-04-22.md, raw/transcripts/interest-signal-collection-08-00-2026-04-23.md, raw/transcripts/interest-signal-collection-08-00-2026-04-26.md, raw/transcripts/interest-signal-collection-19-00-2026-04-26.md, raw/transcripts/interest-signal-note-19-00-2026-04-26.md, raw/transcripts/interest-signal-collection-08-00-2026-04-27.md, raw/transcripts/interest-signal-note-08-00-2026-04-27.md, raw/transcripts/interest-signal-collection-19-00-2026-04-27.md, raw/transcripts/interest-signal-note-19-00-2026-04-27.md, raw/transcripts/interest-signal-collection-08-00-2026-04-28.md, raw/transcripts/interest-signal-note-08-00-2026-04-28.md, raw/transcripts/interest-signal-collection-19-00-2026-04-28.md, raw/transcripts/interest-signal-note-19-00-2026-04-28.md, raw/transcripts/interest-signal-collection-08-00-2026-04-29.md, raw/transcripts/interest-signal-note-08-00-2026-04-29.md]
 ---
 
 # AI infra operating economics
+
 
 CK's current signal set is no longer centered on generic "AI agents are interesting" takes. The stronger cross-source pattern is that agent interest is hardening into **AI infra operating economics** — the layer where model choice, storage, deployment, procurement, and productization all meet.
 
@@ -141,6 +142,95 @@ The 08:00 rerun did not change the thesis; it sharpened the operating layer agai
 
 ### Updated reading
 The durable interpretation is unchanged: CK is still pulling toward **deployable AI infra with operator-grade economics**, but the current morning evidence adds a more explicit emphasis on **routing and triage inside the harness itself**.
+
+## 2026-04-26 evening reinforcement
+
+The 19:00 run did not introduce a new durable axis; it mostly deepened the same operating thesis.
+
+### What stayed reinforced
+- **Threads liked** again surfaced deployment-substrate and compute-capital signals: `Kubernetes as AI OS`, `Gemini Mac` prototyping speed, `Anthropic/AWS` compute scale, and `Codex` usage reset chatter.
+- **Threads own posts** stayed centered on `harness`, `routing`, `triage`, `parallel execution`, `GPU ROI`, `Ceph`, and `Proxmox`.
+- **YouTube** kept mixing noisy content with a few durable AI titles: `Space Agent`, `ChatGPT Images 2.0`, `OpenClaude`, and `OpenClaw`.
+- **X likes**, **GitHub stars**, **Google history**, **ChatGPT**, and **Claude** all continued to reinforce the same runtime / memory / harness / distribution stack.
+
+### Updated reading
+The evening evidence reads as reinforcement rather than expansion: CK's attention is still consolidating around **deployable AI infra, routing/triage in the harness, and the economics of operating stacks**.
+
+## 2026-04-27 morning reinforcement
+
+The 08:00 rerun again reinforced the same thesis rather than opening a new one.
+
+### What stayed reinforced
+- **Threads liked** again centered on **Kubernetes as AI OS**, **Gemini Mac** speed, **Anthropic/AWS-scale compute**, and **Codex usage**.
+- **Threads own posts and keyword hits** stayed on the **harness / routing / triage / GPU ROI / Ceph / Proxmox** axis, with `mentions` still empty.
+- **X**, **Google**, **ChatGPT**, and **Claude** kept converging on **graphs / DAG / caching / shared memory / ACP / AI infra distribution / education-led SaaS**.
+- **YouTube** remained noisy overall, but the strongest AI items were still clearly runtime- and agent-oriented.
+
+### Updated reading
+This run is best treated as **append_existing**: the signal set is now clearly a consolidated pattern around **deployable AI infra with operator-grade economics**, not a new domain.
+
+## 2026-04-27 evening reinforcement
+
+The 19:00 rerun did not introduce a new durable axis; it just repeated the same operating thesis with slightly different emphasis.
+
+### What stayed reinforced
+- **Threads liked** again centered on **Kubernetes as AI OS**, **Gemini Mac** speed, **Anthropic/AWS-scale compute**, and **Codex usage**.
+- **Threads own posts and keyword hits** stayed on the **harness / routing / triage / GPU ROI / Ceph / Proxmox / memory** axis, with `mentions` still empty.
+- **X**, **Google**, **ChatGPT**, and **Claude** kept converging on **graphs / DAG / caching / shared memory / ACP / AI infra distribution / education-led SaaS**.
+- The strongest individual Threads post remained **"에이전트 생산성의 진실"**, which was still the most engaged item of the day.
+
+### Updated reading
+This run is best treated as **append_existing** and the low-signal surfaces stay **raw_only / discard**. The 2026-04-27 day as a whole is a reinforcement day, not a new topic day.
+
+## 2026-04-28 morning reinforcement
+
+The 08:00 run stayed on the same axis, but the browser-side coverage was weaker than the API-side evidence.
+
+### What stayed reinforced
+- Threads API own posts, replies, and keyword hits remained on the same **harness / routing / triage / agent ops / GPU / Ceph / Proxmox** axis.
+- `Claude Code`, `agent`, `memory`, `GPU`, `Proxmox`, and `Ceph` were still the only keyword hits from the small high-signal query set.
+- The strongest engagement remained on `에이전트 생산성의 진실` and `AI 인프라의 진짜 승부처`.
+
+### What was unavailable
+- Threads liked-page browser fallback redirected to login, so there was no fresh liked-page evidence this morning.
+- YouTube / X / GitHub / Google / ChatGPT / Claude were logged out or blocked in the browser session.
+
+### Updated reading
+This remains **append_existing**: the durable pattern is still AI infra operating economics, with this morning contributing mostly reinforcement and availability notes rather than a new topic.
+
+## 2026-04-28 evening reinforcement
+
+The 19:00 run did not change the thesis; it just confirmed that the same operating layer is still dominant.
+
+### What stayed reinforced
+- Threads API own posts, replies, and keyword hits stayed on the same **harness / routing / triage / agent ops / GPU / Ceph / Proxmox** axis.
+- `Claude Code`, `agent`, `memory`, `GPU`, `Proxmox`, and `Ceph` remained the only keyword hits from the small high-signal query set.
+- The strongest engagement still sat on `에이전트 생산성의 진실` and `AI 인프라의 진짜 승부처`.
+
+### What was unavailable
+- Threads liked-page browser fallback again redirected to login.
+- YouTube / X / GitHub / Google / ChatGPT / Claude were either logged out or blocked by browser/security checks.
+
+### Updated reading
+This is also **append_existing**. The full 2026-04-28 day is reinforcement-heavy rather than expansionary, and the strongest durable interpretation remains AI infra operating economics.
+
+## 2026-04-29 morning reinforcement
+
+The 08:00 run stayed on the same axis, but live CDP finally exposed more useful raw signals.
+
+### What stayed reinforced
+- Threads API stayed healthy: `mentions` remained empty, but `keyword_search` returned real hits for `Claude Code`, `agent`, `memory`, `GPU`, `Ceph`, and `Proxmox`.
+- Threads own posts continued to emphasize AI leadership, open-source support, and Codex/harness fatigue, while recent post insights stayed modest rather than breakout.
+- Threads liked page was now readable and pointed directly at Claude Code education, vibe-coding discipline, and code-ownership framing.
+- X, YouTube, GitHub stars, Google history, ChatGPT, and Claude all aligned around Claude Code, DAG/orchestration, memory/shared state, AI infra, Ceph/Proxmox/GPU, and education-led packaging.
+
+### What is fresher
+- GitHub stars are now an unusually clean evidence surface: `hermes-agent`, `memory-bank`, `oh-my-agent`, `web-agent`, `hermes-workspace`, `claude-code-best-practice`, and `not-claude-code-emulator` all point to the same runtime and harness stack.
+- Google search history showed direct research into Claude Code install/update, managed agents, shared memory, Kimi K2.6, and Threads API.
+- ChatGPT/Claude history made the memory-routing and education-plus-infra framing more explicit.
+
+### Updated reading
+This remains **append_existing**. The signal set got sharper and more grounded, but it did not expand into a new durable topic.
 
 ## Related pages
 

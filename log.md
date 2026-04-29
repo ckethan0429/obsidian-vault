@@ -79,6 +79,16 @@
 - Created `.obsidian/` in `/home/ck/wiki`
 - Set `OBSIDIAN_VAULT_PATH=/home/ck/wiki` in `~/.hermes/.env`
 
+## [2026-04-28] update | Wiki README written
+- Created/updated `/home/ck/wiki/README.md`
+- Described the canonical wiki layout, workflow, and Honcho triage layer
+- Updated `index.md` README summary to match the new root README
+
+## [2026-04-28] update | Collection run references README
+- Updated `/home/ck/wiki/README.md` with a collection-run operating guide
+- Updated the `interest-signal-wiki-ingest` skill to read the top-level README before collection runs
+- Made collection runs explicitly follow README for collection, triage, and storage
+
 ## [2026-04-15] ingest | Chrome CDP login status preference (user-submitted)
 - Saved raw source: `raw/transcripts/chrome-cdp-login-status-2026-04-15.md`
 - Created `concepts/chrome-cdp-login-status.md`
@@ -299,3 +309,71 @@
 - `mentions` stayed empty; `keyword_search` hit Claude Code, agent, memory, GPU, Proxmox, and Ceph, while MCP / vLLM / Threads API returned empty
 - Updated `concepts/ai-infra-operating-economics.md` and `index.md`
 - Discord target still redirected to login, so direct browser delivery could not be completed
+
+## [2026-04-26] ingest | Interest signal collection 19:00 run
+- Saved raw source: `raw/transcripts/interest-signal-collection-19-00-2026-04-26.md`
+- Saved delivery note: `raw/transcripts/interest-signal-note-19-00-2026-04-26.md`
+- Verified the live Chrome CDP session through `http://127.0.0.1:9222/json/list`; YouTube, X likes, GitHub stars, Google search history, Threads liked, ChatGPT, and Claude were all reachable as logged-in tabs even though the browser snapshot on YouTube looked logged out
+- Refreshed/validated the Threads long-lived token from `~/.config/threads-api/credentials.json` and confirmed `/v1.0/me` (`user_id=27173231028946699`, `@ethan13917`)
+- Threads API stayed on the same AI infra / agent / harness / GPU / Proxmox axis; `mentions` remained empty and `keyword_search` continued to hit Claude Code, agent, memory, GPU, Proxmox, and Ceph while MCP / vLLM / Threads API stayed empty
+- Threads liked page CDP fallback surfaced fresh Kubernetes-as-AI-OS, Gemini Mac speed, Anthropic/AWS megadeal, and Codex usage-reset likes
+- YouTube, X, GitHub stars, Google search history, ChatGPT, and Claude all reinforced the same runtime / memory / harness / GPU / distribution pattern
+- Discord target still redirected to login, so direct browser delivery could not be completed and the short note was saved locally
+
+## [2026-04-26] update | Interest signal refinement triage
+- No new durable topic emerged from the 08:00 + 19:00 runs; the day was reinforcement-heavy rather than expansionary
+- Updated `concepts/honcho.md` with an explicit raw_only / append_existing / promote_to_wiki / manual_review / discard routing policy
+- Updated `concepts/managed-agents-practical-summary.md` to make the harness-as-router reading explicit
+- Updated `concepts/ai-infra-operating-economics.md` sources to include the evening run and kept the thesis focused on AI infra operating economics
+- Left raw evidence untouched; low-signal YouTube sports/entertainment items remained raw_only / discard in the refinement reading
+
+## [2026-04-27] ingest | Interest signal collection 08:00 run
+- Saved raw source: `raw/transcripts/interest-signal-collection-08-00-2026-04-27.md`
+- Saved delivery note: `raw/transcripts/interest-signal-note-08-00-2026-04-27.md`
+- Validated the Threads app-scoped profile with `/v1.0/me` (`user_id=27173231028946699`, `@ethan13917`) and kept the long-lived token path working from `~/.config/threads-api/credentials.json`
+- Threads API own-posts / replies / keyword search stayed on the same AI infra / harness / routing / GPU ROI / Ceph / Proxmox axis; `mentions` remained empty and `MCP` / `vLLM` / `Threads API` keyword queries were empty
+- Threads liked page CDP fallback stayed live and again surfaced Kubernetes-as-AI-OS, Gemini Mac, Anthropic/AWS compute scale, and Codex usage-reset signals
+- Re-collected YouTube, X, GitHub stars, Google search history, ChatGPT, and Claude on live Chrome/CDP; the same runtime / memory / graphs / ACP / AI infra distribution / education-led SaaS pattern persisted
+- Updated `concepts/ai-infra-operating-economics.md` and `index.md`; the run read as reinforcement rather than a new durable topic
+
+## [2026-04-27] ingest | Interest signal collection 19:00 run
+- Saved raw source: `raw/transcripts/interest-signal-collection-19-00-2026-04-27.md`
+- Saved delivery note: `raw/transcripts/interest-signal-note-19-00-2026-04-27.md`
+- Refreshed the Threads long-lived token from `~/.config/threads-api/credentials.json` and confirmed `/v1.0/me` (`user_id=27173231028946699`, `@ethan13917`)
+- Collected Threads via the official API plus a CDP-only check of `https://www.threads.com/liked`; `mentions` remained empty and `keyword_search` returned real hits for `Claude Code`, `agent`, `GPU`, `Proxmox`, `Ceph`, `memory`, while `MCP` stayed empty
+- Re-collected YouTube, X, GitHub stars, Google search history, ChatGPT, and Claude on live Chrome/CDP; the same runtime / memory / graphs / ACP / AI infra distribution / education-led SaaS pattern persisted
+- Highest Threads post engagement remained on the `에이전트 생산성의 진실` post (`3195 views / 13 likes / 7 replies / 2 reposts / 1 quote`)
+- No new durable topic emerged; the run read as reinforcement rather than expansion
+
+## [2026-04-27] refine | Interest signal triage after 08:00 + 19:00 runs
+- Honcho-style triage outcome: `append_existing` for `concepts/ai-infra-operating-economics.md`; `raw_only` / `discard` for noisy surfaces; no new durable page was promoted
+- Updated `concepts/ai-infra-operating-economics.md` to add the 19:00 reinforcement and keep the day classified as reinforcement-only
+- Raw evidence under `raw/transcripts/` was left untouched
+
+## [2026-04-28] ingest | Interest signal collection 08:00 run
+- Saved raw source: `raw/transcripts/interest-signal-collection-08-00-2026-04-28.md`
+- Saved delivery note: `raw/transcripts/interest-signal-note-08-00-2026-04-28.md`
+- Validated the Threads app-scoped profile with `/v1.0/me` (`user_id=27173231028946699`, `@ethan13917`) using the long-lived token from `~/.config/threads-api/credentials.json`
+- Appended a 2026-04-28 morning reinforcement section to `concepts/ai-infra-operating-economics.md` and updated its source list
+- Threads API own-posts, replies, keyword search, and insights stayed on the same AI infra / harness / routing / GPU / Ceph / Proxmox axis; `mentions` remained empty and `Claude Code`, `agent`, `memory`, `GPU`, `Proxmox`, and `Ceph` were the only keyword hits
+- Threads liked page redirected to login in the browser session, and YouTube / X / GitHub / Google / ChatGPT / Claude were all unavailable or logged out in this session
+
+## [2026-04-28] refine | Interest signal triage after 08:00 + 19:00 runs
+- Reviewed same-day raw sources only: `raw/transcripts/interest-signal-collection-08-00-2026-04-28.md`, `raw/transcripts/interest-signal-note-08-00-2026-04-28.md`, `raw/transcripts/interest-signal-collection-19-00-2026-04-28.md`, `raw/transcripts/interest-signal-note-19-00-2026-04-28.md`
+- Honcho-style triage outcome: `append_existing` for `concepts/ai-infra-operating-economics.md`; `raw_only` for browser/login-blocked surfaces; `discard` for noisy or non-durable surfaces
+- Appended a 2026-04-28 evening reinforcement section to `concepts/ai-infra-operating-economics.md` and updated `index.md`
+- No new durable concept page was promoted; the day remained reinforcement-heavy rather than expansionary
+
+## [2026-04-29] ingest | Interest signal collection 08:00 run
+- Saved raw source: `raw/transcripts/interest-signal-collection-08-00-2026-04-29.md`
+- Saved delivery note: `raw/transcripts/interest-signal-note-08-00-2026-04-29.md`
+- Validated the Threads app-scoped profile with `/v1.0/me` (`user_id=27173231028946699`, `@ethan13917`) using the long-lived token from `~/.config/threads-api/credentials.json`
+- Threads API stayed healthy: `mentions` was empty, but `keyword_search` returned real hits for `Claude Code`, `agent`, `memory`, `GPU`, `Ceph`, and `Proxmox`
+- Threads liked page was readable via live CDP, and X / YouTube / GitHub stars / Google My Activity / ChatGPT / Claude all reinforced the same Claude Code / agent / memory / infra / education axis; GitHub stars required a fresh CDP target because the existing tab was blank
+- Appended a 2026-04-29 morning reinforcement section to `concepts/ai-infra-operating-economics.md` and updated `index.md` and its source list
+
+## [2026-04-29] ingest | Virton equity negotiation baseline
+- Saved raw source: `raw/transcripts/virton-equity-negotiation-baseline-2026-04-29.md`
+- Created `concepts/virton-equity-negotiation-baseline.md`
+- Updated `concepts/virton-career-and-business-profile.md` to clarify that CK is not officially CTO, has 0% equity, and currently performs de facto CTO responsibilities for the Virton platform
+- Updated `index.md`

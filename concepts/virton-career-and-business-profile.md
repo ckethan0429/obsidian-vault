@@ -1,10 +1,10 @@
 ---
 title: Virton Career and Business Profile
 created: 2026-04-14
-updated: 2026-04-22
+updated: 2026-04-29
 type: concept
 tags: [personal-knowledge, startup, infrastructure, private-cloud, career, product, gpu]
-sources: [raw/transcripts/ck-interest-map-business-life-2026-04-14.md, raw/transcripts/interest-signal-collection-08-00-2026-04-22.md, raw/transcripts/interest-signal-collection-08-00-2026-04-22-threads-liked-rerun.md, raw/transcripts/interest-signal-collection-19-00-2026-04-22.md]
+sources: [raw/transcripts/ck-interest-map-business-life-2026-04-14.md, raw/transcripts/interest-signal-collection-08-00-2026-04-22.md, raw/transcripts/interest-signal-collection-08-00-2026-04-22-threads-liked-rerun.md, raw/transcripts/interest-signal-collection-19-00-2026-04-22.md, raw/transcripts/virton-equity-negotiation-baseline-2026-04-29.md]
 ---
 
 # Virton Career and Business Profile
@@ -12,10 +12,13 @@ sources: [raw/transcripts/ck-interest-map-business-life-2026-04-14.md, raw/trans
 This page captures CK's current operating role, entrepreneurial strategy, and business-model interests.
 
 ## Current role
-- CTO at Virton
+- Official title: not formally CTO yet
+- Functional role: Virton new-platform PM + development + infrastructure lead + de facto CTO responsibilities
+- Joined from the company start, but initially as technical team lead / employee rather than cofounder
+- Initial role: led existing maintenance and technical-support work
 - Company size: 7 people
 - Development team size: 3 people
-- No equity
+- Equity: 0%
 - Background blend: backup/DR, virtualization, Node.js, and military communications experience
 - Academic background: Electronics Engineering BS, Kangwon National University (2016)
 
@@ -63,6 +66,10 @@ This sharpens the original business profile in three ways:
 - **AI server in 10 minutes** style installer/distribution positioning
 - **GPU hosting platform** framing instead of pure infra outsourcing
 
+## 2026-04-29 role and equity clarification
+
+CK's situation is now recorded as an **early core employee who grew into the de facto CTO role for Virton**, not as a formal cofounder or official CTO with equity. The negotiation baseline and recommended framing are split into [[virton-equity-negotiation-baseline]].
+
 ## Why this matters
 This profile links CK's infrastructure expertise to startup leverage: open source for top-of-funnel attention, consulting for near-term cash flow, and platform/product layers for long-term optionality.
 
@@ -71,4 +78,5 @@ This profile links CK's infrastructure expertise to startup leverage: open sourc
 - [[ck-investing-and-life-profile]]
 - [[ai-infra-operating-economics]]
 - [[gstack]]
+- [[virton-equity-negotiation-baseline]]
 - [[virton-release-strategy]]

@@ -1,10 +1,10 @@
 ---
 title: Honcho
 created: 2026-04-18
-updated: 2026-04-18
+updated: 2026-04-26
 type: concept
-tags: [agents, hermes, automation, assistant, workflows, protocols]
-sources: [raw/transcripts/interest-signal-collection-19-00-2026-04-17.md, raw/transcripts/interest-signal-note-19-00-2026-04-17.md]
+tags: [agents, hermes, automation, assistant, workflows, protocols, browser-automation]
+sources: [raw/transcripts/interest-signal-collection-19-00-2026-04-17.md, raw/transcripts/interest-signal-note-19-00-2026-04-17.md, raw/transcripts/interest-signal-collection-08-00-2026-04-26.md, raw/transcripts/interest-signal-collection-19-00-2026-04-26.md, raw/transcripts/interest-signal-note-19-00-2026-04-26.md]
 ---
 
 # Honcho
@@ -47,6 +47,20 @@ The cleanest architecture is:
 
 In other words, Honcho should be the **policy/routing layer** above raw capture and below durable storage.
 
+## Routing policy
+
+For capture-to-wiki work, Honcho should route each signal into one of five buckets:
+
+- **raw_only** — keep the evidence, but do not promote it
+- **append_existing** — the capture strengthens an existing durable page
+- **promote_to_wiki** — the capture clearly introduces a durable new concept
+- **manual_review** — the signal is plausible, but too ambiguous to promote safely
+- **discard** — the page is low-signal noise
+
+The default bias should be strict promotion. If several same-day captures repeat the same theme, `append_existing` is usually the right decision; novelty should be reserved for genuinely new durable concepts.
+
+Raw evidence should stay intact. The route decision belongs in the routing layer, not as a rewrite of the source artifact.
+
 ## Recommended architecture for CK
 
 For CK's stack, the most practical split is:
@@ -74,6 +88,8 @@ A Honcho layer helps preserve the distinction between:
 
 - [[interest-signal-sources]]
 - [[site-observation-archive]]
+- [[site-observation-archive-cdp-hook]]
 - [[managed-agents-architecture]]
 - [[agent-client-protocol-and-acpx]]
 - [[obsidian-vault-integration]]
+- [[ai-infra-operating-economics]]

@@ -1,10 +1,10 @@
 ---
 title: Managed Agents practical summary
 created: 2026-04-15
-updated: 2026-04-22
+updated: 2026-04-26
 type: concept
 tags: [agents, orchestration, infrastructure, devtools, anthropic, checklist]
-sources: [raw/articles/anthropic-managed-agents-2026-04-15.md, raw/articles/effective-harnesses-for-long-running-agents-2026-04-15.md, raw/transcripts/managed-agents-codefactory-video-2026-04-15.md, raw/transcripts/interest-signal-collection-19-00-2026-04-20.md, raw/transcripts/interest-signal-collection-08-00-2026-04-22.md, raw/transcripts/interest-signal-collection-08-00-2026-04-22-threads-liked-rerun.md, raw/transcripts/interest-signal-collection-19-00-2026-04-22.md]
+sources: [raw/articles/anthropic-managed-agents-2026-04-15.md, raw/articles/effective-harnesses-for-long-running-agents-2026-04-15.md, raw/transcripts/managed-agents-codefactory-video-2026-04-15.md, raw/transcripts/interest-signal-collection-19-00-2026-04-20.md, raw/transcripts/interest-signal-collection-08-00-2026-04-22.md, raw/transcripts/interest-signal-collection-08-00-2026-04-22-threads-liked-rerun.md, raw/transcripts/interest-signal-collection-19-00-2026-04-22.md, raw/transcripts/interest-signal-collection-08-00-2026-04-26.md, raw/transcripts/interest-signal-collection-19-00-2026-04-26.md, raw/transcripts/interest-signal-note-19-00-2026-04-26.md]
 ---
 
 # Managed Agents practical summary
@@ -138,6 +138,16 @@ If CK is evaluating or building an agent runtime now, the working checklist beco
 - [ ] Build self-verification into browser/simulator/server loops
 - [ ] Parallelize by phase and collision cost, not by hype alone
 - [ ] Leave durable artifacts that let the next run resume cleanly
+
+## 2026-04-26 refinement: the harness is also a router
+
+The same-day 2026-04-26 evidence did not add a new macro-axis. It clarified the harness boundary one step further:
+
+- CK's own Threads post now names the internal work directly as **harness / routing / triage** rather than treating routing as an implied side effect
+- the parallelism lesson stayed the same: classify work by collision cost and recovery cost before spawning more agents
+- raw capture and durable promotion should stay separated, with [[honcho]] handling routing and [[site-observation-archive]] preserving evidence
+
+In practice, that means the runtime is not just a session manager. It is a classifier that decides which work should stay linear, which should be isolated, and which should be promoted into durable knowledge.
 
 ## One-sentence takeaway
 **Managed Agents is the design pattern of turning agent work into a durable, restartable service by separating session, harness, sandbox, and credentials into stable interfaces — and the latest live signals sharpen that into a concrete operator playbook of worktree isolation, event-driven escalation, rule accumulation, and self-verifying phase-based parallelism.**
