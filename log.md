@@ -415,3 +415,11 @@
 - Cloudflare RSS surfaced a fresh launch post about agents creating Cloudflare accounts, buying domains, and deploying; Anthropic newsroom added `Claude is a space to think`
 - GitHub Trending shifted toward agentic dev environments and skills frameworks (`warp`, `jcode`, `VibeVoice`, `superpowers`, `craft-agents-oss`), while `skills` and `awesome-codex-skills` repeated as reinforcement
 - Appended `concepts/ai-infra-operating-economics.md` and updated `index.md` for the append_existing read
+
+## [2026-04-30] ingest | Interest signal collection 19:00 run
+- Saved raw source: `raw/transcripts/interest-signal-collection-19-00-2026-04-30.md`
+- Saved delivery note: `raw/transcripts/interest-signal-note-19-00-2026-04-30.md`
+- Threads liked/reposts added a new vibe-coding / language-choice nuance (`Dart/Flutter + Go`) and a local-AI VRAM-planning signal, while activity/profile/replies mostly reinforced the existing AI infra/operator axis
+- YouTube watch later rotated in new builder/operator items around `State of the Claw`, desk setup, Apple-integrated Claude Code, and vibe-coding design workflows
+- Google My Activity added a small market/business scouting pulse (`KRX:071050`, `Google 기능 업데이트`, `모두의 창업`); GitHub stars top slice was unchanged
+- Appended `concepts/ai-infra-operating-economics.md` for the append_existing read

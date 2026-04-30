@@ -4,7 +4,7 @@ created: 2026-04-22
 updated: 2026-04-30
 type: concept
 tags: [infrastructure, gpu, storage, proxmox, agents, business, strategy]
-sources: [raw/transcripts/interest-signal-collection-08-00-2026-04-22.md, raw/transcripts/interest-signal-collection-08-00-2026-04-22-threads-liked-rerun.md, raw/transcripts/interest-signal-collection-19-00-2026-04-22.md, raw/transcripts/interest-signal-note-19-00-2026-04-22.md, raw/transcripts/interest-signal-collection-08-00-2026-04-23.md, raw/transcripts/interest-signal-collection-08-00-2026-04-26.md, raw/transcripts/interest-signal-collection-19-00-2026-04-26.md, raw/transcripts/interest-signal-note-19-00-2026-04-26.md, raw/transcripts/interest-signal-collection-08-00-2026-04-27.md, raw/transcripts/interest-signal-note-08-00-2026-04-27.md, raw/transcripts/interest-signal-collection-19-00-2026-04-27.md, raw/transcripts/interest-signal-note-19-00-2026-04-27.md, raw/transcripts/interest-signal-collection-08-00-2026-04-28.md, raw/transcripts/interest-signal-note-08-00-2026-04-28.md, raw/transcripts/interest-signal-collection-19-00-2026-04-28.md, raw/transcripts/interest-signal-note-19-00-2026-04-28.md, raw/transcripts/interest-signal-collection-08-00-2026-04-29.md, raw/transcripts/interest-signal-note-08-00-2026-04-29.md, raw/transcripts/interest-signal-collection-11-00-2026-04-29.md, raw/transcripts/interest-signal-collection-19-00-2026-04-29.md, raw/transcripts/interest-signal-note-19-00-2026-04-29.md, raw/transcripts/interest-signal-collection-22-00-2026-04-29.md, raw/transcripts/interest-signal-note-22-00-2026-04-29.md, raw/transcripts/interest-signal-collection-11-00-2026-04-30.md, raw/transcripts/interest-signal-note-11-00-2026-04-30.md]
+sources: [raw/transcripts/interest-signal-collection-08-00-2026-04-22.md, raw/transcripts/interest-signal-collection-08-00-2026-04-22-threads-liked-rerun.md, raw/transcripts/interest-signal-collection-19-00-2026-04-22.md, raw/transcripts/interest-signal-note-19-00-2026-04-22.md, raw/transcripts/interest-signal-collection-08-00-2026-04-23.md, raw/transcripts/interest-signal-collection-08-00-2026-04-26.md, raw/transcripts/interest-signal-collection-19-00-2026-04-26.md, raw/transcripts/interest-signal-note-19-00-2026-04-26.md, raw/transcripts/interest-signal-collection-08-00-2026-04-27.md, raw/transcripts/interest-signal-note-08-00-2026-04-27.md, raw/transcripts/interest-signal-collection-19-00-2026-04-27.md, raw/transcripts/interest-signal-note-19-00-2026-04-27.md, raw/transcripts/interest-signal-collection-08-00-2026-04-28.md, raw/transcripts/interest-signal-note-08-00-2026-04-28.md, raw/transcripts/interest-signal-collection-19-00-2026-04-28.md, raw/transcripts/interest-signal-note-19-00-2026-04-28.md, raw/transcripts/interest-signal-collection-08-00-2026-04-29.md, raw/transcripts/interest-signal-note-08-00-2026-04-29.md, raw/transcripts/interest-signal-collection-11-00-2026-04-29.md, raw/transcripts/interest-signal-collection-19-00-2026-04-29.md, raw/transcripts/interest-signal-note-19-00-2026-04-29.md, raw/transcripts/interest-signal-collection-22-00-2026-04-29.md, raw/transcripts/interest-signal-note-22-00-2026-04-29.md, raw/transcripts/interest-signal-collection-11-00-2026-04-30.md, raw/transcripts/interest-signal-note-11-00-2026-04-30.md, raw/transcripts/interest-signal-collection-19-00-2026-04-30.md, raw/transcripts/interest-signal-note-19-00-2026-04-30.md]
 ---
 
 # AI infra operating economics
@@ -286,6 +286,20 @@ The 11:00 new-target pass did not expand the durable thesis; it added fresh vend
 
 ### Updated reading
 This is another **append_existing** pass. It strengthens the same operating thesis around deployable AI infra, agent tooling, and packaging/distribution, but it does not justify a new durable concept page.
+
+## 2026-04-30 evening reinforcement
+
+The 19:00 collection pass stayed inside the same operating thesis, but it added a slightly sharper execution-layer nuance.
+
+### What stayed reinforced
+- **Threads liked** surfaced a fresh vibe-coding / implementation-choice angle: `braincheck.co.kr` framed the stack as Dart (Flutter) on the front end and Go on the back end, while `korean.thiel` reframed VC as real risk capital rather than social-channel deal flow.
+- **Threads reposts** added a clean local-AI capacity-planning signal via a VRAM calculator post, which keeps the interest on practical operating constraints rather than model hype.
+- **YouTube watch later** rotated in `State of the Claw`, desk-setup optimization, Apple-integrated Claude Code, and vibe-coding design workflows, but the center of gravity remained builder/operator workflow economics.
+- **Google My Activity** added a small market/business scouting pulse (`KRX:071050`, `Google 기능 업데이트`, `모두의 창업`) without changing the broader thesis.
+- **GitHub stars** did not visibly change on the top slice; the recently starred order still looked the same as the morning run.
+
+### Updated reading
+This is still **append_existing**. The durable theme remains AI infra operating economics, but the evening pass shows the execution layer widening into language/runtime choice, local-capacity planning, and capital/operator framing.
 
 ## Related pages
 
