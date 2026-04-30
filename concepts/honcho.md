@@ -1,10 +1,10 @@
 ---
 title: Honcho
 created: 2026-04-18
-updated: 2026-04-26
+updated: 2026-04-30
 type: concept
 tags: [agents, hermes, automation, assistant, workflows, protocols, browser-automation]
-sources: [raw/transcripts/interest-signal-collection-19-00-2026-04-17.md, raw/transcripts/interest-signal-note-19-00-2026-04-17.md, raw/transcripts/interest-signal-collection-08-00-2026-04-26.md, raw/transcripts/interest-signal-collection-19-00-2026-04-26.md, raw/transcripts/interest-signal-note-19-00-2026-04-26.md]
+sources: [raw/transcripts/interest-signal-collection-19-00-2026-04-17.md, raw/transcripts/interest-signal-note-19-00-2026-04-17.md, raw/transcripts/interest-signal-collection-08-00-2026-04-26.md, raw/transcripts/interest-signal-collection-19-00-2026-04-26.md, raw/transcripts/interest-signal-note-19-00-2026-04-26.md, raw/transcripts/interest-signal-collection-08-00-2026-04-30.md, raw/transcripts/interest-signal-note-08-00-2026-04-30.md, raw/transcripts/interest-signal-collection-11-00-2026-04-30.md, raw/transcripts/interest-signal-note-11-00-2026-04-30.md, raw/transcripts/interest-signal-collection-19-00-2026-04-30.md, raw/transcripts/interest-signal-note-19-00-2026-04-30.md, raw/transcripts/interest-signal-collection-22-00-2026-04-30.md, raw/transcripts/interest-signal-note-22-00-2026-04-30.md]
 ---
 
 # Honcho
@@ -60,6 +60,20 @@ For capture-to-wiki work, Honcho should route each signal into one of five bucke
 The default bias should be strict promotion. If several same-day captures repeat the same theme, `append_existing` is usually the right decision; novelty should be reserved for genuinely new durable concepts.
 
 Raw evidence should stay intact. The route decision belongs in the routing layer, not as a rewrite of the source artifact.
+
+## 2026-04-30 refinement example
+
+The same-day 08:00 / 11:00 / 19:00 / 22:00 captures were a clean demonstration of routing discipline.
+
+### Routed as `append_existing`
+- Cloudflare agents creating accounts, Anthropic's Claude positioning, OpenAI Managed Agents on AWS, Symphony orchestration, and GitHub Copilot cloud-agent / billing updates all strengthened the existing [[ai-infra-operating-economics]] axis.
+- Threads / YouTube / Google / GitHub repeated the same harness, phase-parallelism, and operator-economics language rather than opening a new durable topic.
+
+### Kept as `raw_only` or `discard`
+- Login / hydration variance, repeated baseline rows, and unrelated social noise were preserved as evidence but not promoted.
+
+### Why this matters
+This is the practical Honcho loop: preserve raw evidence, apply strict triage, and promote only the reinforced durable axis.
 
 ## Recommended architecture for CK
 

@@ -32,7 +32,7 @@
 - [[korean-public-support-programs]] — Public-sector startup and SME support surfaces in Korea.
 - [[korean-startup-support-sites]] — Curated founder-oriented map of Korean startup support sites.
 - [[managed-agents-architecture]] — Anthropic’s pattern for decoupling session, harness, and sandbox, supplemented with practical harness and pricing notes.
-- [[managed-agents-practical-summary]] — Compact operator checklist for Managed Agents, emphasizing worktree isolation, event-driven escalation, and self-verifying phase-based parallelism.
+- [[managed-agents-practical-summary]] — Compact operator checklist for Managed Agents, emphasizing worktree isolation, event-driven escalation, self-verifying phase-based parallelism, and the rising skills/conversational-agent layer.
 - [[marketing-knowledge-transfer-gap]] — Claim that practical marketing frameworks often diffuse into Korea years after earlier overseas adoption.
 - [[obsidian-vault-integration]] — Canonical single-vault setup after merging the GitHub-backed Obsidian vault into `~/wiki`.
 - [[overseas-marketing-gurus]] — User-curated list of foreign marketing figures worth studying directly.

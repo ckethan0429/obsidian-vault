@@ -432,3 +432,17 @@
 - GitHub Changelog surfaced `Copilot cloud agent starts 20% faster with Actions custom images`, `GPT-5.5 is generally available for GitHub Copilot`, and `GitHub Copilot code review will start consuming GitHub Actions minutes`
 - GitHub Trending added `browserbase/skills` and `TradingAgents`
 - Appended `concepts/ai-infra-operating-economics.md` for the append_existing read
+
+## [2026-04-30] refinement | Same-day triage consolidation
+- Honcho-style triage kept the day's strongest repeated signal on the existing AI infra / managed-agents axis
+- Updated `concepts/honcho.md` with a 2026-04-30 routing example
+- Updated `concepts/managed-agents-practical-summary.md` with 2026-04-30 platformization reinforcement
+- No new durable concept page was warranted; the day was `append_existing`
+
+## [2026-05-01] ingest | Interest signal collection 08:00 run
+- Saved raw source: `raw/transcripts/interest-signal-collection-08-00-2026-05-01.md`
+- Saved delivery note: `raw/transcripts/interest-signal-note-08-00-2026-05-01.md`
+- YouTube subscriptions surfaced the only clearly fresh cluster: AI Engineer / skills / conversational-agent items (`Building Conversational Agents`, `LLM codegen fails and how to stop 'em`, `Replacing 12K LoC with a 200 LoC Skill`, `Redis: From Cache to AI Agent Backbone`)
+- Threads, GitHub stars, ChatGPT, Claude, and Google My Activity mostly reinforced the existing Claude Code / harness / memory / Proxmox / GPU / OpenClaw operator axis
+- Appended `concepts/managed-agents-practical-summary.md` for the append_existing read
+
