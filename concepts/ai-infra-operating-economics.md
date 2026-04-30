@@ -4,7 +4,7 @@ created: 2026-04-22
 updated: 2026-04-30
 type: concept
 tags: [infrastructure, gpu, storage, proxmox, agents, business, strategy]
-sources: [raw/transcripts/interest-signal-collection-08-00-2026-04-22.md, raw/transcripts/interest-signal-collection-08-00-2026-04-22-threads-liked-rerun.md, raw/transcripts/interest-signal-collection-19-00-2026-04-22.md, raw/transcripts/interest-signal-note-19-00-2026-04-22.md, raw/transcripts/interest-signal-collection-08-00-2026-04-23.md, raw/transcripts/interest-signal-collection-08-00-2026-04-26.md, raw/transcripts/interest-signal-collection-19-00-2026-04-26.md, raw/transcripts/interest-signal-note-19-00-2026-04-26.md, raw/transcripts/interest-signal-collection-08-00-2026-04-27.md, raw/transcripts/interest-signal-note-08-00-2026-04-27.md, raw/transcripts/interest-signal-collection-19-00-2026-04-27.md, raw/transcripts/interest-signal-note-19-00-2026-04-27.md, raw/transcripts/interest-signal-collection-08-00-2026-04-28.md, raw/transcripts/interest-signal-note-08-00-2026-04-28.md, raw/transcripts/interest-signal-collection-19-00-2026-04-28.md, raw/transcripts/interest-signal-note-19-00-2026-04-28.md, raw/transcripts/interest-signal-collection-08-00-2026-04-29.md, raw/transcripts/interest-signal-note-08-00-2026-04-29.md, raw/transcripts/interest-signal-collection-11-00-2026-04-29.md, raw/transcripts/interest-signal-collection-19-00-2026-04-29.md, raw/transcripts/interest-signal-note-19-00-2026-04-29.md, raw/transcripts/interest-signal-collection-22-00-2026-04-29.md, raw/transcripts/interest-signal-note-22-00-2026-04-29.md, raw/transcripts/interest-signal-collection-11-00-2026-04-30.md, raw/transcripts/interest-signal-note-11-00-2026-04-30.md, raw/transcripts/interest-signal-collection-19-00-2026-04-30.md, raw/transcripts/interest-signal-note-19-00-2026-04-30.md]
+sources: [raw/transcripts/interest-signal-collection-08-00-2026-04-22.md, raw/transcripts/interest-signal-collection-08-00-2026-04-22-threads-liked-rerun.md, raw/transcripts/interest-signal-collection-19-00-2026-04-22.md, raw/transcripts/interest-signal-note-19-00-2026-04-22.md, raw/transcripts/interest-signal-collection-08-00-2026-04-23.md, raw/transcripts/interest-signal-collection-08-00-2026-04-26.md, raw/transcripts/interest-signal-collection-19-00-2026-04-26.md, raw/transcripts/interest-signal-note-19-00-2026-04-26.md, raw/transcripts/interest-signal-collection-08-00-2026-04-27.md, raw/transcripts/interest-signal-note-08-00-2026-04-27.md, raw/transcripts/interest-signal-collection-19-00-2026-04-27.md, raw/transcripts/interest-signal-note-19-00-2026-04-27.md, raw/transcripts/interest-signal-collection-08-00-2026-04-28.md, raw/transcripts/interest-signal-note-08-00-2026-04-28.md, raw/transcripts/interest-signal-collection-19-00-2026-04-28.md, raw/transcripts/interest-signal-note-19-00-2026-04-28.md, raw/transcripts/interest-signal-collection-08-00-2026-04-29.md, raw/transcripts/interest-signal-note-08-00-2026-04-29.md, raw/transcripts/interest-signal-collection-11-00-2026-04-29.md, raw/transcripts/interest-signal-collection-19-00-2026-04-29.md, raw/transcripts/interest-signal-note-19-00-2026-04-29.md, raw/transcripts/interest-signal-collection-22-00-2026-04-29.md, raw/transcripts/interest-signal-note-22-00-2026-04-29.md, raw/transcripts/interest-signal-collection-11-00-2026-04-30.md, raw/transcripts/interest-signal-note-11-00-2026-04-30.md, raw/transcripts/interest-signal-collection-19-00-2026-04-30.md, raw/transcripts/interest-signal-note-19-00-2026-04-30.md, raw/transcripts/interest-signal-collection-22-00-2026-04-30.md, raw/transcripts/interest-signal-note-22-00-2026-04-30.md]
 ---
 
 # AI infra operating economics
@@ -300,6 +300,24 @@ The 19:00 collection pass stayed inside the same operating thesis, but it added 
 
 ### Updated reading
 This is still **append_existing**. The durable theme remains AI infra operating economics, but the evening pass shows the execution layer widening into language/runtime choice, local-capacity planning, and capital/operator framing.
+
+## 2026-04-30 late-night new-target reinforcement
+
+The 22:00 new-target pass did not create a new macro-axis, but it made the platformization layer more explicit.
+
+### What stayed reinforced
+- Cloudflare and Anthropic mostly repeated the 11:00 baseline, so those surfaces remain reinforcement rather than novelty.
+- GitHub Trending added `browserbase/skills` and `TradingAgents`, which are still in the agent-tooling / agent-adjacent lane.
+- The stronger new evidence came from OpenAI RSS and GitHub release notes, not from the trending page.
+
+### What became newly actionable
+- OpenAI's `OpenAI models, Codex, and Managed Agents come to AWS` shows models, Codex, and managed agents being sold as an AWS-deployable enterprise surface.
+- `An open-source spec for orchestration: Symphony` turns issue trackers into always-on agent systems, which is the orchestration layer becoming productizable.
+- GitHub Changelog's `Copilot cloud agent starts 20% faster with Actions custom images` and `GitHub Copilot code review will start consuming GitHub Actions minutes` make the runtime and billing surface concrete.
+- `GPT-5.5 is generally available for GitHub Copilot` adds another sign that agentic coding is moving into platformized distribution.
+
+### Updated reading
+This remains **append_existing**. The durable pattern is still AI infra operating economics, but the 22:00 pass sharpens the emphasis on **vendor platformization, cloud runtime, and usage billing** rather than raw model novelty.
 
 ## Related pages
 

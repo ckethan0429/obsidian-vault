@@ -423,3 +423,12 @@
 - YouTube watch later rotated in new builder/operator items around `State of the Claw`, desk setup, Apple-integrated Claude Code, and vibe-coding design workflows
 - Google My Activity added a small market/business scouting pulse (`KRX:071050`, `Google 기능 업데이트`, `모두의 창업`); GitHub stars top slice was unchanged
 - Appended `concepts/ai-infra-operating-economics.md` for the append_existing read
+
+## [2026-04-30] ingest | New-target blog/release 22:00 run
+- Saved raw source: `raw/transcripts/interest-signal-collection-22-00-2026-04-30.md`
+- Saved delivery note: `raw/transcripts/interest-signal-note-22-00-2026-04-30.md`
+- Cloudflare and Anthropic mostly repeated the 11:00 baseline; the stronger new evidence came from OpenAI RSS and GitHub release notes
+- OpenAI surfaced `OpenAI models, Codex, and Managed Agents come to AWS` plus `An open-source spec for orchestration: Symphony`
+- GitHub Changelog surfaced `Copilot cloud agent starts 20% faster with Actions custom images`, `GPT-5.5 is generally available for GitHub Copilot`, and `GitHub Copilot code review will start consuming GitHub Actions minutes`
+- GitHub Trending added `browserbase/skills` and `TradingAgents`
+- Appended `concepts/ai-infra-operating-economics.md` for the append_existing read
