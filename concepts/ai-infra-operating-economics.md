@@ -1,10 +1,10 @@
 ---
 title: AI infra operating economics
 created: 2026-04-22
-updated: 2026-04-30
+updated: 2026-05-01
 type: concept
 tags: [infrastructure, gpu, storage, proxmox, agents, business, strategy]
-sources: [raw/transcripts/interest-signal-collection-08-00-2026-04-22.md, raw/transcripts/interest-signal-collection-08-00-2026-04-22-threads-liked-rerun.md, raw/transcripts/interest-signal-collection-19-00-2026-04-22.md, raw/transcripts/interest-signal-note-19-00-2026-04-22.md, raw/transcripts/interest-signal-collection-08-00-2026-04-23.md, raw/transcripts/interest-signal-collection-08-00-2026-04-26.md, raw/transcripts/interest-signal-collection-19-00-2026-04-26.md, raw/transcripts/interest-signal-note-19-00-2026-04-26.md, raw/transcripts/interest-signal-collection-08-00-2026-04-27.md, raw/transcripts/interest-signal-note-08-00-2026-04-27.md, raw/transcripts/interest-signal-collection-19-00-2026-04-27.md, raw/transcripts/interest-signal-note-19-00-2026-04-27.md, raw/transcripts/interest-signal-collection-08-00-2026-04-28.md, raw/transcripts/interest-signal-note-08-00-2026-04-28.md, raw/transcripts/interest-signal-collection-19-00-2026-04-28.md, raw/transcripts/interest-signal-note-19-00-2026-04-28.md, raw/transcripts/interest-signal-collection-08-00-2026-04-29.md, raw/transcripts/interest-signal-note-08-00-2026-04-29.md, raw/transcripts/interest-signal-collection-11-00-2026-04-29.md, raw/transcripts/interest-signal-collection-19-00-2026-04-29.md, raw/transcripts/interest-signal-note-19-00-2026-04-29.md, raw/transcripts/interest-signal-collection-22-00-2026-04-29.md, raw/transcripts/interest-signal-note-22-00-2026-04-29.md, raw/transcripts/interest-signal-collection-11-00-2026-04-30.md, raw/transcripts/interest-signal-note-11-00-2026-04-30.md, raw/transcripts/interest-signal-collection-19-00-2026-04-30.md, raw/transcripts/interest-signal-note-19-00-2026-04-30.md, raw/transcripts/interest-signal-collection-22-00-2026-04-30.md, raw/transcripts/interest-signal-note-22-00-2026-04-30.md]
+sources: [raw/transcripts/interest-signal-collection-08-00-2026-04-22.md, raw/transcripts/interest-signal-collection-08-00-2026-04-22-threads-liked-rerun.md, raw/transcripts/interest-signal-collection-19-00-2026-04-22.md, raw/transcripts/interest-signal-note-19-00-2026-04-22.md, raw/transcripts/interest-signal-collection-08-00-2026-04-23.md, raw/transcripts/interest-signal-collection-08-00-2026-04-26.md, raw/transcripts/interest-signal-collection-19-00-2026-04-26.md, raw/transcripts/interest-signal-note-19-00-2026-04-26.md, raw/transcripts/interest-signal-collection-08-00-2026-04-27.md, raw/transcripts/interest-signal-note-08-00-2026-04-27.md, raw/transcripts/interest-signal-collection-19-00-2026-04-27.md, raw/transcripts/interest-signal-note-19-00-2026-04-27.md, raw/transcripts/interest-signal-collection-08-00-2026-04-28.md, raw/transcripts/interest-signal-note-08-00-2026-04-28.md, raw/transcripts/interest-signal-collection-19-00-2026-04-28.md, raw/transcripts/interest-signal-note-19-00-2026-04-28.md, raw/transcripts/interest-signal-collection-08-00-2026-04-29.md, raw/transcripts/interest-signal-note-08-00-2026-04-29.md, raw/transcripts/interest-signal-collection-11-00-2026-04-29.md, raw/transcripts/interest-signal-collection-19-00-2026-04-29.md, raw/transcripts/interest-signal-note-19-00-2026-04-29.md, raw/transcripts/interest-signal-collection-22-00-2026-04-29.md, raw/transcripts/interest-signal-note-22-00-2026-04-29.md, raw/transcripts/interest-signal-collection-11-00-2026-04-30.md, raw/transcripts/interest-signal-note-11-00-2026-04-30.md, raw/transcripts/interest-signal-collection-19-00-2026-04-30.md, raw/transcripts/interest-signal-note-19-00-2026-04-30.md, raw/transcripts/interest-signal-collection-22-00-2026-04-30.md, raw/transcripts/interest-signal-note-22-00-2026-04-30.md, raw/transcripts/interest-signal-collection-11-00-2026-05-01.md, raw/transcripts/interest-signal-note-11-00-2026-05-01.md]
 ---
 
 # AI infra operating economics
@@ -318,6 +318,20 @@ The 22:00 new-target pass did not create a new macro-axis, but it made the platf
 
 ### Updated reading
 This remains **append_existing**. The durable pattern is still AI infra operating economics, but the 22:00 pass sharpens the emphasis on **vendor platformization, cloud runtime, and usage billing** rather than raw model novelty.
+
+## 2026-05-01 new-target reinforcement
+
+The 11:00 pass stayed inside the same macro-axis, but it made the vendor/platform layer even more explicit.
+
+### What stayed reinforced
+- **Cloudflare** added a fresh infra-security signal with `Post-quantum encryption for Cloudflare IPsec is generally available`, while the older agent-deployment post stayed on the feed as reinforcement.
+- **Google** split into two useful surfaces: the AI blog reinforced TPU / agentic-era infrastructure, and the Developers blog pushed `Agents CLI`, `Gemini Embedding 2`, and production-ready agent tooling.
+- **AWS** deepened the same pattern with `Bedrock AgentCore`, `OBO token exchange`, `Neuron Agentic Development`, and GPU metrics for managed instances.
+- **OpenAI** reinforced both the compute and platformization story with `Advanced Account Security` and `OpenAI models, Codex, and Managed Agents come to AWS`.
+- **GitHub Trending** surfaced `TradingAgents` as the clearest new repo-level item; the other agentic repos remained reinforcement.
+
+### Updated reading
+This is still **append_existing**. The durable thesis is unchanged: CK is tracking the layer where AI becomes deployable, securable, billable, and operationally usable in production.
 
 ## Related pages
 

@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with a one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-04-30 | Total pages: 56
+> Last updated: 2026-05-01 | Total pages: 56
 
 ## Entities
 <!-- Alphabetical within section -->
@@ -14,7 +14,7 @@
 ## Concepts
 <!-- Alphabetical within section -->
 - [[agent-client-protocol-and-acpx]] — ACP as the client-to-agent protocol, ACPX as the session/control runtime layer, and external shared-memory wiring as the durability complement.
-- [[ai-infra-operating-economics]] — Cross-source pattern that CK’s current AI interest is hardening into harness routing, GPU, storage, deployment, distribution, and operator-margin economics; reinforced again on 2026-04-30 by Cloudflare agent deployment, OpenAI managed agents on AWS, GitHub Copilot release notes, Anthropic Claude positioning, and GitHub Trending agent-tooling repos.
+- [[ai-infra-operating-economics]] — Cross-source pattern that CK’s current AI interest is hardening into harness routing, GPU, storage, deployment, distribution, and operator-margin economics; reinforced again on 2026-05-01 by Cloudflare post-quantum IPsec, Google/AWS/OpenAI platform posts, and GitHub Trending’s `TradingAgents` repo.
 - [[b2b-sales-and-negotiation-strategy]] — Structured guide to B2B sales from lead generation through expansion.
 - [[chrome-cdp-login-status]] — CK's operating assumption for login-ready Chrome CDP sessions.
 - [[claude-code-hooks]] — Claude Code hook events, matchers, and handler patterns.

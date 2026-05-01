@@ -446,3 +446,10 @@
 - Threads, GitHub stars, ChatGPT, Claude, and Google My Activity mostly reinforced the existing Claude Code / harness / memory / Proxmox / GPU / OpenClaw operator axis
 - Appended `concepts/managed-agents-practical-summary.md` for the append_existing read
 
+## [2026-05-01] ingest | Interest signal collection 11:00 new-target pass
+- Saved raw source: `raw/transcripts/interest-signal-collection-11-00-2026-05-01.md`
+- Saved delivery note: `raw/transcripts/interest-signal-note-11-00-2026-05-01.md`
+- Collected live RSS / launch-post evidence from Cloudflare, Google AI, Google Developers, AWS What's New, OpenAI News, and GitHub Trending
+- Updated `concepts/ai-infra-operating-economics.md` with the 2026-05-01 vendor/platformization reinforcement
+- Updated `index.md`
+
