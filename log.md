@@ -453,3 +453,11 @@
 - Updated `concepts/ai-infra-operating-economics.md` with the 2026-05-01 vendor/platformization reinforcement
 - Updated `index.md`
 
+## [2026-05-01] ingest | Interest signal collection 19:00 run
+- Saved raw source: `raw/transcripts/interest-signal-collection-19-00-2026-05-01.md`
+- Saved delivery note: `raw/transcripts/interest-signal-note-19-00-2026-05-01.md`
+- The YouTube watch-later slice added a more concrete skills / MCP / local-stack cluster (`Spec Kit`, `MCP server`, `private AI mini-cluster`, `Proxmox 8.0`, `AI Stack`)
+- Threads, GitHub stars, Google My Activity, ChatGPT, and Claude were mostly reinforcement; Threads added one Codex-reset remark but no new durable branch
+- Updated `concepts/ai-infra-operating-economics.md` with the 2026-05-01 afternoon reinforcement
+- Updated `index.md`
+

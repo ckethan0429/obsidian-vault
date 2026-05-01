@@ -333,6 +333,15 @@ The 11:00 pass stayed inside the same macro-axis, but it made the vendor/platfor
 ### Updated reading
 This is still **append_existing**. The durable thesis is unchanged: CK is tracking the layer where AI becomes deployable, securable, billable, and operationally usable in production.
 
+## 2026-05-01 afternoon reinforcement
+
+The 19:00 run did not create a new macro-axis, but it made the YouTube slice more concrete:
+- `내가 사용해 본 가장 유용한 MCP 서버`, `Supabase MCP로 앱 찍어내는 방법`, `GitHub이 만든 AI 프레임워크 Spec Kit`, and `What Is an AI Stack? LLMs, RAG, & AI Hardware` made the skills / MCP / stack layer more visible
+- `I built a private AI mini-cluster with Framework Desktop` and `Proxmox 8.0 - PCIe Passthrough Tutorial` pulled the same infra interest down to local hardware and virtualization mechanics
+- Threads, GitHub stars, Google My Activity, ChatGPT, and Claude were mostly reinforcement, with one extra Threads remark about Codex resets but no new durable branch
+
+That still reads as append_existing: the stack is broadening from platformized agent-runtime economics into the concrete tooling and local-infra stack needed to operate it.
+
 ## Related pages
 
 - [[virton-career-and-business-profile]]
