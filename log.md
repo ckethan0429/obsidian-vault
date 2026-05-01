@@ -461,3 +461,11 @@
 - Updated `concepts/ai-infra-operating-economics.md` with the 2026-05-01 afternoon reinforcement
 - Updated `index.md`
 
+## [2026-05-01] ingest | Interest signal collection 22:00 new-target pass
+- Saved raw source: `raw/transcripts/interest-signal-collection-22-00-2026-05-01.md`
+- Saved delivery note: `raw/transcripts/interest-signal-note-22-00-2026-05-01.md`
+- Google Developers supplied the freshest durable items: `Speeding Up AI: Bringing Google Colossus to PyTorch via GCSFS and Rapid Bucket`, `Subagents have arrived in Gemini CLI`, `Building real-world on-device AI with LiteRT and NPU`, and `MaxText Expands Post-Training Capabilities: Introducing SFT and RL on Single-Host TPUs`
+- GitHub Changelog added `GitHub Copilot in Visual Studio — April update`; GitHub Trending added `simstudioai/sim`
+- AWS surfaced smaller infra/runtime updates; Google AI Blog and OpenAI/Cloudflare were mostly reinforcement or generic product/news
+- Updated `concepts/ai-infra-operating-economics.md` and `index.md`
+
