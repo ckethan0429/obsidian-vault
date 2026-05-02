@@ -490,3 +490,10 @@
 - Google Developers and Anthropic mostly reinforced the prior agent/tooling / product-news baseline; GitHub Trending stayed concentrated in agentic repos
 - Updated `concepts/ai-infra-operating-economics.md` and `index.md`
 
+## [2026-05-02] ingest | Interest signal collection 19:00 run
+- Saved raw source: `raw/transcripts/interest-signal-collection-19-00-2026-05-02.md`
+- Saved delivery note: `raw/transcripts/interest-signal-note-19-00-2026-05-02.md`
+- Live CDP surfaces were reachable for Threads, YouTube, GitHub stars, Google My Activity, ChatGPT, and Claude
+- The run was reinforcement-only: Threads, YouTube, GitHub stars, Google history, ChatGPT, and Claude repeated the existing agent/harness/infra/economics, memory/shared-state, and education-led packaging axes
+- No durable page edits were needed
+
