@@ -14,7 +14,7 @@
 ## Concepts
 <!-- Alphabetical within section -->
 - [[agent-client-protocol-and-acpx]] — ACP as the client-to-agent protocol, ACPX as the session/control runtime layer, and external shared-memory wiring as the durability complement.
-- [[ai-infra-operating-economics]] — Cross-source pattern that CK’s current AI interest is hardening into harness routing, GPU, storage, deployment, distribution, and operator-margin economics; reinforced again on 2026-05-01 by Cloudflare post-quantum IPsec, Google/GitHub/AWS platform and tooling posts, GitHub Trending’s `TradingAgents` and `simstudioai/sim`, and a YouTube skills/MCP/local-stack slice.
+- [[ai-infra-operating-economics]] — Cross-source pattern that CK’s current AI interest is hardening into harness routing, GPU, storage, deployment, distribution, and operator-margin economics; reinforced again on 2026-05-02 by Cloudflare Dynamic Workflows / Code Orange, AWS AgentCore São Paulo, GitHub Changelog’s GPT-5.2 / Codex deprecation, and repeated agentic GitHub Trending repos.
 - [[b2b-sales-and-negotiation-strategy]] — Structured guide to B2B sales from lead generation through expansion.
 - [[chrome-cdp-login-status]] — CK's operating assumption for login-ready Chrome CDP sessions.
 - [[claude-code-hooks]] — Claude Code hook events, matchers, and handler patterns.

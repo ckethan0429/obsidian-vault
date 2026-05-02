@@ -359,6 +359,23 @@ The 22:00 run did not open a new macro-axis, but it made the tooling/runtime lay
 ### Updated reading
 This is still **append_existing**: the durable pattern is moving deeper into subagents, training/data plumbing, IDE agents, and runtime updates, but not into a new concept page.
 
+## 2026-05-02 new-target reinforcement
+
+The 11:00 pass still sits on the same macro-axis, but the freshest signals shifted toward Cloudflare execution plumbing, GitHub Copilot model lifecycle management, and AWS regional rollout.
+
+### What looked fresh
+- **Cloudflare** added `Code Orange: Fail Small is complete. The result is a stronger Cloudflare network` and `Introducing Dynamic Workflows: durable execution that follows the tenant`. The first is infrastructure resilience work; the second is a clearer durable-execution primitive.
+- **GitHub Changelog** surfaced `Upcoming deprecation of GPT-5.2 and GPT-5.2-Codex`, which makes Copilot model lifecycle management part of the same agentic-coding operating layer.
+- **AWS** added `Amazon Bedrock AgentCore is now available in the South America (São Paulo) Region`, extending the agent platform geographically rather than adding a new model family.
+
+### What stayed reinforced
+- **Google Developers** repeated the prior agent/tooling lane: `Gemini Embedding 2`, `Speeding Up AI`, `LiteRT`, and `Agents CLI`.
+- **Anthropic** remained on general product/news positioning instead of a new durable branch.
+- **GitHub Trending** stayed concentrated in agentic tooling and workflow repos (`TradingAgents`, `warp`, `jcode`, `skills`, `sim`), with only weak non-core newcomers.
+
+### Updated reading
+This remains **append_existing**. The run adds more evidence that the tracked layer is now durable execution, model lifecycle, and regionalized agent infrastructure — not a separate new concept.
+
 ## Related pages
 
 - [[virton-career-and-business-profile]]

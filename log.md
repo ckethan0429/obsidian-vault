@@ -469,3 +469,24 @@
 - AWS surfaced smaller infra/runtime updates; Google AI Blog and OpenAI/Cloudflare were mostly reinforcement or generic product/news
 - Updated `concepts/ai-infra-operating-economics.md` and `index.md`
 
+## [2026-05-01] update | Interest signal 23:00 refinement
+- Reviewed the same-day 08:00, 11:00, 19:00, and 22:00 raw transcripts plus delivery notes
+- Honcho triage stayed reinforcement-heavy: 08:00 aligned with `append_existing` for `managed-agents-practical-summary`, while 11:00 / 19:00 / 22:00 aligned with `append_existing` for `ai-infra-operating-economics`
+- Other surfaces remained `raw_only`, `discard`, or low-signal reinforcement; no `promote_to_wiki` item emerged
+- No additional durable page edits were needed beyond the ingest-stage updates already logged
+
+## [2026-05-02] ingest | Interest signal collection 08:00 run
+- Saved raw source: `raw/transcripts/interest-signal-collection-08-00-2026-05-02.md`
+- Saved delivery note: `raw/transcripts/interest-signal-note-08-00-2026-05-02.md`
+- Live CDP surfaces were reachable for YouTube, Threads, GitHub stars, Google My Activity, ChatGPT, and Claude
+- The run was reinforcement-only against the 2026-05-01 baseline: agent harness / routing / triage, AI infra economics, education-led packaging, shared-memory agents, and Proxmox / GPU / OpenClaw / OMO-OMX repeated without a new durable branch
+- No durable page edits were needed
+
+## [2026-05-02] ingest | Interest signal collection 11:00 new-target pass
+- Saved raw source: `raw/transcripts/interest-signal-collection-11-00-2026-05-02.md`
+- Saved delivery note: `raw/transcripts/interest-signal-note-11-00-2026-05-02.md`
+- Collected live RSS / launch-post evidence from Cloudflare, Google AI, Google Developers, AWS What's New, OpenAI News, Anthropic News, GitHub Changelog, and GitHub Trending
+- Cloudflare added `Dynamic Workflows` and `Code Orange`; GitHub Changelog added `Upcoming deprecation of GPT-5.2 and GPT-5.2-Codex`; AWS added AgentCore's São Paulo region rollout
+- Google Developers and Anthropic mostly reinforced the prior agent/tooling / product-news baseline; GitHub Trending stayed concentrated in agentic repos
+- Updated `concepts/ai-infra-operating-economics.md` and `index.md`
+
