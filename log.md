@@ -497,3 +497,11 @@
 - The run was reinforcement-only: Threads, YouTube, GitHub stars, Google history, ChatGPT, and Claude repeated the existing agent/harness/infra/economics, memory/shared-state, and education-led packaging axes
 - No durable page edits were needed
 
+## [2026-05-02] ingest | Interest signal collection 22:00 new-target pass
+- Saved raw source: `raw/transcripts/interest-signal-collection-22-00-2026-05-02.md`
+- Saved delivery note: `raw/transcripts/interest-signal-note-22-00-2026-05-02.md`
+- Collected live RSS / launch-post evidence from Cloudflare, Google AI, Google Developers, AWS What's New, OpenAI News, Anthropic News, GitHub Changelog, and GitHub Trending
+- Fresh signals vs the 11:00 baseline: Anthropic `Claude for Creative Work`, GitHub Trending `ruvnet/ruflo`, and the weaker Cloudflare Q1 2026 internet-disruption review
+- Repeated surfaces mostly stayed on the earlier baseline rows; GitHub Trending also repeated `TradingAgents`, `browserbase/skills`, `maigret`, and `jcode`
+- Appended `concepts/ai-infra-operating-economics.md` and updated `index.md`
+
