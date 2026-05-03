@@ -516,3 +516,15 @@
 - Freshest capture-to-capture delta: Anthropic `Anthropic expands partnership with Google and Broadcom for multiple gigawatts of next-generation compute`; Anthropic board/governance and Australia MOU rows stayed raw-only context
 - Appended `concepts/ai-infra-operating-economics.md` and updated `index.md`
 
+## [2026-05-03] ingest | Interest signal collection 19:00 run
+- Saved raw source: `raw/transcripts/interest-signal-collection-19-00-2026-05-03.md`
+- Live CDP surfaces were reachable for Threads, YouTube, GitHub stars, Google My Activity, ChatGPT, and Claude
+- The run was reinforcement-heavy; a few newly surfaced details (Threads harness engineering / phase-based parallel work, GitHub stars `web-agent` / `TurboQuant`, Google `GPT-5.5` / `Kimi AI`) still fit existing axes
+- No durable page edits were needed
+
+## [2026-05-03] ingest | Interest signal collection 22:00 new-target run
+- Saved raw source: `raw/transcripts/interest-signal-collection-22-00-2026-05-03.md`
+- Anthropic, Cloudflare, Google AI, Google Developers, AWS, OpenAI, and GitHub Changelog repeated the 11:00 new-target baseline
+- GitHub Trending surfaced fresh Claude/MCP/tooling repos (`n8n-mcp`, `DeepSeek-TUI`) while `Pixelle-Video` and `openwrt` stayed lower-signal or generic
+- Appended the new Trending reinforcement to `concepts/ai-infra-operating-economics.md`
+
