@@ -1,10 +1,10 @@
 ---
 title: Honcho
 created: 2026-04-18
-updated: 2026-04-30
+updated: 2026-05-02
 type: concept
 tags: [agents, hermes, automation, assistant, workflows, protocols, browser-automation]
-sources: [raw/transcripts/interest-signal-collection-19-00-2026-04-17.md, raw/transcripts/interest-signal-note-19-00-2026-04-17.md, raw/transcripts/interest-signal-collection-08-00-2026-04-26.md, raw/transcripts/interest-signal-collection-19-00-2026-04-26.md, raw/transcripts/interest-signal-note-19-00-2026-04-26.md, raw/transcripts/interest-signal-collection-08-00-2026-04-30.md, raw/transcripts/interest-signal-note-08-00-2026-04-30.md, raw/transcripts/interest-signal-collection-11-00-2026-04-30.md, raw/transcripts/interest-signal-note-11-00-2026-04-30.md, raw/transcripts/interest-signal-collection-19-00-2026-04-30.md, raw/transcripts/interest-signal-note-19-00-2026-04-30.md, raw/transcripts/interest-signal-collection-22-00-2026-04-30.md, raw/transcripts/interest-signal-note-22-00-2026-04-30.md]
+sources: [raw/transcripts/interest-signal-collection-19-00-2026-04-17.md, raw/transcripts/interest-signal-note-19-00-2026-04-17.md, raw/transcripts/interest-signal-collection-08-00-2026-04-26.md, raw/transcripts/interest-signal-collection-19-00-2026-04-26.md, raw/transcripts/interest-signal-note-19-00-2026-04-26.md, raw/transcripts/interest-signal-collection-08-00-2026-04-30.md, raw/transcripts/interest-signal-note-08-00-2026-04-30.md, raw/transcripts/interest-signal-collection-11-00-2026-04-30.md, raw/transcripts/interest-signal-note-11-00-2026-04-30.md, raw/transcripts/interest-signal-collection-19-00-2026-04-30.md, raw/transcripts/interest-signal-note-19-00-2026-04-30.md, raw/transcripts/interest-signal-collection-22-00-2026-04-30.md, raw/transcripts/interest-signal-note-22-00-2026-04-30.md, raw/transcripts/interest-signal-collection-08-00-2026-05-02.md, raw/transcripts/interest-signal-note-08-00-2026-05-02.md, raw/transcripts/interest-signal-collection-11-00-2026-05-02.md, raw/transcripts/interest-signal-note-11-00-2026-05-02.md, raw/transcripts/interest-signal-collection-19-00-2026-05-02.md, raw/transcripts/interest-signal-note-19-00-2026-05-02.md, raw/transcripts/interest-signal-collection-22-00-2026-05-02.md, raw/transcripts/interest-signal-note-22-00-2026-05-02.md]
 ---
 
 # Honcho
@@ -97,6 +97,24 @@ A Honcho layer helps preserve the distinction between:
 - **signal**
 - **memory**
 - **wiki knowledge**
+
+## 2026-05-02 same-day refinement example
+
+The day split cleanly into reinforcement first, then a narrower packaging/orchestration edge late in the day.
+
+### Routed as `raw_only`
+- 08:00 and 19:00 were reinforcement-heavy: they repeated the existing AI infra / shared-memory / operator-economics axis without a fresh durable branch, so they stayed raw evidence plus triage notes.
+- No new durable concept page was justified from the early-day browser surfaces.
+
+### Routed as `append_existing`
+- 11:00 strengthened [[ai-infra-operating-economics]] with Cloudflare `Dynamic Workflows`, GitHub Changelog's GPT-5.2 / Codex deprecation, and AWS AgentCore São Paulo.
+- 22:00 also strengthened [[ai-infra-operating-economics]] by adding Anthropic `Claude for Creative Work` and GitHub Trending's `ruvnet/ruflo`.
+
+### Kept as `discard`
+- Noise-heavy YouTube rows and repeated baseline launch/news items that did not change the thesis stayed out of durable promotion.
+
+### Why this matters
+The same-day pattern is now explicit: early runs stayed `raw_only`, while the later new-target runs reinforced the existing durable axis instead of justifying a new concept page.
 
 ## Related pages
 

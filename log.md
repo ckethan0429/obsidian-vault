@@ -505,3 +505,14 @@
 - Repeated surfaces mostly stayed on the earlier baseline rows; GitHub Trending also repeated `TradingAgents`, `browserbase/skills`, `maigret`, and `jcode`
 - Appended `concepts/ai-infra-operating-economics.md` and updated `index.md`
 
+## [2026-05-02] update | Interest signal 23:00 refinement
+- Reviewed same-day 08:00, 11:00, 19:00, and 22:00 raw transcripts plus delivery notes
+- Honcho triage stayed reinforcement-heavy: 08:00 and 19:00 were `raw_only`; 11:00 and 22:00 were `append_existing` to `ai-infra-operating-economics`; no `promote_to_wiki` item emerged
+- Updated `concepts/honcho.md` with the day-level routing example
+
+## [2026-05-03] ingest | Interest signal collection 11:00 new-target pass
+- Saved raw source: `raw/transcripts/interest-signal-collection-11-00-2026-05-03.md`
+- Collected live RSS / launch-post evidence from Anthropic News, Cloudflare, Google AI, Google Developers, AWS What's New, OpenAI News, GitHub Changelog, and GitHub Trending
+- Freshest capture-to-capture delta: Anthropic `Anthropic expands partnership with Google and Broadcom for multiple gigawatts of next-generation compute`; Anthropic board/governance and Australia MOU rows stayed raw-only context
+- Appended `concepts/ai-infra-operating-economics.md` and updated `index.md`
+

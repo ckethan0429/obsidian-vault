@@ -1,10 +1,10 @@
 ---
 title: AI infra operating economics
 created: 2026-04-22
-updated: 2026-05-02
+updated: 2026-05-03
 type: concept
 tags: [infrastructure, gpu, storage, proxmox, agents, business, strategy]
-sources: [raw/transcripts/interest-signal-collection-08-00-2026-04-22.md, raw/transcripts/interest-signal-collection-08-00-2026-04-22-threads-liked-rerun.md, raw/transcripts/interest-signal-collection-19-00-2026-04-22.md, raw/transcripts/interest-signal-note-19-00-2026-04-22.md, raw/transcripts/interest-signal-collection-08-00-2026-04-23.md, raw/transcripts/interest-signal-collection-08-00-2026-04-26.md, raw/transcripts/interest-signal-collection-19-00-2026-04-26.md, raw/transcripts/interest-signal-note-19-00-2026-04-26.md, raw/transcripts/interest-signal-collection-08-00-2026-04-27.md, raw/transcripts/interest-signal-note-08-00-2026-04-27.md, raw/transcripts/interest-signal-collection-19-00-2026-04-27.md, raw/transcripts/interest-signal-note-19-00-2026-04-27.md, raw/transcripts/interest-signal-collection-08-00-2026-04-28.md, raw/transcripts/interest-signal-note-08-00-2026-04-28.md, raw/transcripts/interest-signal-collection-19-00-2026-04-28.md, raw/transcripts/interest-signal-note-19-00-2026-04-28.md, raw/transcripts/interest-signal-collection-08-00-2026-04-29.md, raw/transcripts/interest-signal-note-08-00-2026-04-29.md, raw/transcripts/interest-signal-collection-11-00-2026-04-29.md, raw/transcripts/interest-signal-collection-19-00-2026-04-29.md, raw/transcripts/interest-signal-note-19-00-2026-04-29.md, raw/transcripts/interest-signal-collection-22-00-2026-04-29.md, raw/transcripts/interest-signal-note-22-00-2026-04-29.md, raw/transcripts/interest-signal-collection-11-00-2026-04-30.md, raw/transcripts/interest-signal-note-11-00-2026-04-30.md, raw/transcripts/interest-signal-collection-19-00-2026-04-30.md, raw/transcripts/interest-signal-note-19-00-2026-04-30.md, raw/transcripts/interest-signal-collection-22-00-2026-04-30.md, raw/transcripts/interest-signal-note-22-00-2026-04-30.md, raw/transcripts/interest-signal-collection-11-00-2026-05-01.md, raw/transcripts/interest-signal-note-11-00-2026-05-01.md, raw/transcripts/interest-signal-collection-22-00-2026-05-01.md, raw/transcripts/interest-signal-note-22-00-2026-05-01.md, raw/transcripts/interest-signal-collection-22-00-2026-05-02.md, raw/transcripts/interest-signal-note-22-00-2026-05-02.md]
+sources: [raw/transcripts/interest-signal-collection-08-00-2026-04-22.md, raw/transcripts/interest-signal-collection-08-00-2026-04-22-threads-liked-rerun.md, raw/transcripts/interest-signal-collection-19-00-2026-04-22.md, raw/transcripts/interest-signal-note-19-00-2026-04-22.md, raw/transcripts/interest-signal-collection-08-00-2026-04-23.md, raw/transcripts/interest-signal-collection-08-00-2026-04-26.md, raw/transcripts/interest-signal-collection-19-00-2026-04-26.md, raw/transcripts/interest-signal-note-19-00-2026-04-26.md, raw/transcripts/interest-signal-collection-08-00-2026-04-27.md, raw/transcripts/interest-signal-note-08-00-2026-04-27.md, raw/transcripts/interest-signal-collection-19-00-2026-04-27.md, raw/transcripts/interest-signal-note-19-00-2026-04-27.md, raw/transcripts/interest-signal-collection-08-00-2026-04-28.md, raw/transcripts/interest-signal-note-08-00-2026-04-28.md, raw/transcripts/interest-signal-collection-19-00-2026-04-28.md, raw/transcripts/interest-signal-note-19-00-2026-04-28.md, raw/transcripts/interest-signal-collection-08-00-2026-04-29.md, raw/transcripts/interest-signal-note-08-00-2026-04-29.md, raw/transcripts/interest-signal-collection-11-00-2026-04-29.md, raw/transcripts/interest-signal-collection-19-00-2026-04-29.md, raw/transcripts/interest-signal-note-19-00-2026-04-29.md, raw/transcripts/interest-signal-collection-22-00-2026-04-29.md, raw/transcripts/interest-signal-note-22-00-2026-04-29.md, raw/transcripts/interest-signal-collection-11-00-2026-04-30.md, raw/transcripts/interest-signal-note-11-00-2026-04-30.md, raw/transcripts/interest-signal-collection-19-00-2026-04-30.md, raw/transcripts/interest-signal-note-19-00-2026-04-30.md, raw/transcripts/interest-signal-collection-22-00-2026-04-30.md, raw/transcripts/interest-signal-note-22-00-2026-04-30.md, raw/transcripts/interest-signal-collection-11-00-2026-05-01.md, raw/transcripts/interest-signal-note-11-00-2026-05-01.md, raw/transcripts/interest-signal-collection-22-00-2026-05-01.md, raw/transcripts/interest-signal-note-22-00-2026-05-01.md, raw/transcripts/interest-signal-collection-22-00-2026-05-02.md, raw/transcripts/interest-signal-note-22-00-2026-05-02.md, raw/transcripts/interest-signal-collection-11-00-2026-05-03.md]
 ---
 
 # AI infra operating economics
@@ -392,6 +392,18 @@ The 22:00 pass stayed inside the same macro-axis, but it added a narrower Claude
 
 ### Updated reading
 This is still **append_existing**. The durable thesis remains AI infra operating economics, but the late-evening pass adds a bit more emphasis on Claude-centered creative packaging and agent orchestration surfaces.
+
+## 2026-05-03 new-target reinforcement
+
+The 11:00 pass stayed inside the same macro-axis, but Anthropic exposed one durable compute-scale item that had not been carried forward in the prior capture.
+
+### What looked fresh
+- **Anthropic** surfaced `Anthropic expands partnership with Google and Broadcom for multiple gigawatts of next-generation compute`, which extends the same compute-capital / partner-scaling story already present in the page.
+- The other newly visible Anthropic rows — `Anthropic’s Long-Term Benefit Trust appoints Vas Narasimhan to Board of Directors` and `Australian government and Anthropic sign MOU for AI safety and research` — were preserved as raw context, but they do not look strong enough to become their own durable branch.
+- **Cloudflare**, **Google AI**, **Google Developers**, **AWS**, **OpenAI**, **GitHub Changelog**, and **GitHub Trending** mostly repeated the prior new-target baseline.
+
+### Updated reading
+This is still **append_existing**. The pass adds one more concrete data point that the AI infra thesis now includes larger compute partnerships and capital-scale coordination, but it does not justify a new durable concept page.
 
 ## Related pages
 
