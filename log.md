@@ -558,3 +558,15 @@
 - Cloudflare, Google AI/Developers, AWS, OpenAI, Anthropic, and GitHub Changelog stayed baseline-heavy; GitHub Trending added `agency-agents`, `dexter`, and `cocoindex` as the only fresh agent/tooling delta
 - Appended the new reinforcement to `concepts/managed-agents-practical-summary.md`
 - No index change was needed because no new pages were promoted
+
+## [2026-05-04] update | Interest signal 23:00 refinement
+- Reviewed the same-day 08:00, 11:00, 19:00, and 22:00 raw transcripts as a Honcho-style refinement pass
+- Routed 08:00 as `raw_only`; 11:00 and 22:00 as `append_existing`; 19:00 split into profile-page reinforcement plus targeted profile updates
+- Updated `concepts/honcho.md` with the day's routing record
+- No index change was needed because no new pages were promoted
+
+## [2026-05-05] ingest | Interest signal collection 08:00 run
+- Saved raw source: `raw/transcripts/interest-signal-collection-08-00-2026-05-05.md`
+- Compared with the 2026-05-04 08:00 baseline, Threads and GitHub were mostly reinforcement while YouTube, ChatGPT, and Claude added fresh operator / skills examples
+- Updated `concepts/managed-agents-practical-summary.md` as an `append_existing` reinforcement of the managed-agent / harness / workflow axis
+- Updated `index.md` and `log.md` so the durable summary remains navigable

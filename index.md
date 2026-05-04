@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with a one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-05-04 | Total pages: 56
+> Last updated: 2026-05-05 | Total pages: 56
 
 ## Entities
 <!-- Alphabetical within section -->
@@ -32,7 +32,7 @@
 - [[korean-public-support-programs]] — Public-sector startup and SME support surfaces in Korea.
 - [[korean-startup-support-sites]] — Curated founder-oriented map of Korean startup support sites.
 - [[managed-agents-architecture]] — Anthropic’s pattern for decoupling session, harness, and sandbox, supplemented with practical harness and pricing notes.
-- [[managed-agents-practical-summary]] — Compact operator checklist for Managed Agents, emphasizing worktree isolation, event-driven escalation, self-verifying phase-based parallelism, and the rising skills/conversational-agent layer; reinforced again on 2026-05-04 by Cloudflare’s agentic-cloud launches, Google subagents, OpenAI’s Managed Agents on AWS, GitHub Copilot agent mode, and n8n-mcp.
+- [[managed-agents-practical-summary]] — Compact operator checklist for Managed Agents, emphasizing worktree isolation, event-driven escalation, self-verifying phase-based parallelism, and the rising skills/conversational-agent layer; reinforced again on 2026-05-04 by Cloudflare’s agentic-cloud launches, Google subagents, OpenAI’s Managed Agents on AWS, GitHub Copilot agent mode, and n8n-mcp; reinforced again on 2026-05-05 by YouTube conversational-agent / skills videos plus ChatGPT/Claude operator recents.
 - [[marketing-knowledge-transfer-gap]] — Claim that practical marketing frameworks often diffuse into Korea years after earlier overseas adoption.
 - [[obsidian-vault-integration]] — Canonical single-vault setup after merging the GitHub-backed Obsidian vault into `~/wiki`.
 - [[overseas-marketing-gurus]] — User-curated list of foreign marketing figures worth studying directly.
