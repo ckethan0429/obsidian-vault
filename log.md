@@ -552,3 +552,9 @@
 - Updated `concepts/ck-technology-engineering-profile.md` with new operator topics (Proxmox Keepalived, headless login, GitHub PRs, knowledge-base organization, open-source model selection)
 - Updated `concepts/ck-investing-and-life-profile.md` with the fresh KRX / quant-trading signal
 - No index change was needed because no new pages were promoted
+
+## [2026-05-04] ingest | Interest signal collection 22:00 new-target run
+- Saved raw source: `raw/transcripts/interest-signal-collection-22-00-2026-05-04.md`
+- Cloudflare, Google AI/Developers, AWS, OpenAI, Anthropic, and GitHub Changelog stayed baseline-heavy; GitHub Trending added `agency-agents`, `dexter`, and `cocoindex` as the only fresh agent/tooling delta
+- Appended the new reinforcement to `concepts/managed-agents-practical-summary.md`
+- No index change was needed because no new pages were promoted
