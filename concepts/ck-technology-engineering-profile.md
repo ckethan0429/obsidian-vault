@@ -1,7 +1,7 @@
 ---
 title: CK Technology and Engineering Profile
 created: 2026-04-14
-updated: 2026-04-14
+updated: 2026-05-04
 type: concept
 tags: [personal-knowledge, infrastructure, robotics, virtualization, storage, networking, backup-dr, ci-cd, monitoring, mlops]
 sources: [raw/transcripts/ck-interest-map-technology-engineering-2026-04-14.md]
@@ -23,6 +23,7 @@ This page summarizes CK's core technical interests, operating experience, and ar
 - GPU infrastructure interest from bare-metal provisioning to production AI server automation
 - InfraLens mentioned as a hackathon-winning agent idea
 - CI/CD stack interest: GitHub Actions, Ansible, K3s on Proxmox
+- Recent prompt/history topics: Proxmox Keepalived, headless login/auth flows, GitHub PR management, project / knowledge-base organization, and open-source model selection
 - Monitoring stack: InfluxDB 2, Grafana, Chart.js
 
 ## Software stack

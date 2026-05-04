@@ -546,3 +546,9 @@
 - Appended reinforcement to `concepts/ai-infra-operating-economics.md` and `concepts/managed-agents-practical-summary.md`
 - Updated `index.md`
 
+## [2026-05-04] ingest | Interest signal collection 19:00 run
+- Saved raw source: `raw/transcripts/interest-signal-collection-19-00-2026-05-04.md`
+- Threads, YouTube, and GitHub were reinforcement-heavy versus the morning baseline; the new delta came from Google My Activity plus ChatGPT / Claude recent lists
+- Updated `concepts/ck-technology-engineering-profile.md` with new operator topics (Proxmox Keepalived, headless login, GitHub PRs, knowledge-base organization, open-source model selection)
+- Updated `concepts/ck-investing-and-life-profile.md` with the fresh KRX / quant-trading signal
+- No index change was needed because no new pages were promoted

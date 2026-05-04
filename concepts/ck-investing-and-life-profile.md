@@ -1,7 +1,7 @@
 ---
 title: CK Investing and Life Profile
 created: 2026-04-14
-updated: 2026-04-30
+updated: 2026-05-04
 type: concept
 tags: [personal-knowledge, quant, market-research, finance, language-learning, parenting, travel, interior-design]
 sources: [raw/transcripts/ck-interest-map-business-life-2026-04-14.md, raw/transcripts/interest-signal-collection-08-00-2026-04-30.md]
@@ -13,6 +13,7 @@ This page captures CK's investing interests, language goals, self-development st
 
 ## Investing and finance
 - Korean equities: quantitative screening via pykrx and FinanceDataReader
+- Recent search/history: KRX:071050 plus renewed quant-trading curiosity surfaced in Google and assistant history
 - GitHub / research tooling: starred quant code such as `pyturboquant`, reinforcing interest in backtesting and research workflows
 - Korean strategy interest: value screening with PBR/PER and counter-trend trading using RSI + 120-day EMA
 - US assets: ETFs as main listed holdings
