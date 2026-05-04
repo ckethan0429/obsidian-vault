@@ -1,10 +1,10 @@
 ---
 title: Honcho
 created: 2026-04-18
-updated: 2026-05-02
+updated: 2026-05-03
 type: concept
 tags: [agents, hermes, automation, assistant, workflows, protocols, browser-automation]
-sources: [raw/transcripts/interest-signal-collection-19-00-2026-04-17.md, raw/transcripts/interest-signal-note-19-00-2026-04-17.md, raw/transcripts/interest-signal-collection-08-00-2026-04-26.md, raw/transcripts/interest-signal-collection-19-00-2026-04-26.md, raw/transcripts/interest-signal-note-19-00-2026-04-26.md, raw/transcripts/interest-signal-collection-08-00-2026-04-30.md, raw/transcripts/interest-signal-note-08-00-2026-04-30.md, raw/transcripts/interest-signal-collection-11-00-2026-04-30.md, raw/transcripts/interest-signal-note-11-00-2026-04-30.md, raw/transcripts/interest-signal-collection-19-00-2026-04-30.md, raw/transcripts/interest-signal-note-19-00-2026-04-30.md, raw/transcripts/interest-signal-collection-22-00-2026-04-30.md, raw/transcripts/interest-signal-note-22-00-2026-04-30.md, raw/transcripts/interest-signal-collection-08-00-2026-05-02.md, raw/transcripts/interest-signal-note-08-00-2026-05-02.md, raw/transcripts/interest-signal-collection-11-00-2026-05-02.md, raw/transcripts/interest-signal-note-11-00-2026-05-02.md, raw/transcripts/interest-signal-collection-19-00-2026-05-02.md, raw/transcripts/interest-signal-note-19-00-2026-05-02.md, raw/transcripts/interest-signal-collection-22-00-2026-05-02.md, raw/transcripts/interest-signal-note-22-00-2026-05-02.md]
+sources: [raw/transcripts/interest-signal-collection-19-00-2026-04-17.md, raw/transcripts/interest-signal-note-19-00-2026-04-17.md, raw/transcripts/interest-signal-collection-08-00-2026-04-26.md, raw/transcripts/interest-signal-collection-19-00-2026-04-26.md, raw/transcripts/interest-signal-note-19-00-2026-04-26.md, raw/transcripts/interest-signal-collection-08-00-2026-04-30.md, raw/transcripts/interest-signal-note-08-00-2026-04-30.md, raw/transcripts/interest-signal-collection-11-00-2026-04-30.md, raw/transcripts/interest-signal-note-11-00-2026-04-30.md, raw/transcripts/interest-signal-collection-19-00-2026-04-30.md, raw/transcripts/interest-signal-note-19-00-2026-04-30.md, raw/transcripts/interest-signal-collection-22-00-2026-04-30.md, raw/transcripts/interest-signal-note-22-00-2026-04-30.md, raw/transcripts/interest-signal-collection-08-00-2026-05-02.md, raw/transcripts/interest-signal-note-08-00-2026-05-02.md, raw/transcripts/interest-signal-collection-11-00-2026-05-02.md, raw/transcripts/interest-signal-note-11-00-2026-05-02.md, raw/transcripts/interest-signal-collection-19-00-2026-05-02.md, raw/transcripts/interest-signal-note-19-00-2026-05-02.md, raw/transcripts/interest-signal-collection-22-00-2026-05-02.md, raw/transcripts/interest-signal-note-22-00-2026-05-02.md, raw/transcripts/interest-signal-collection-08-00-2026-05-03.md, raw/transcripts/interest-signal-collection-11-00-2026-05-03.md, raw/transcripts/interest-signal-collection-19-00-2026-05-03.md, raw/transcripts/interest-signal-collection-22-00-2026-05-03.md]
 ---
 
 # Honcho
@@ -115,6 +115,21 @@ The day split cleanly into reinforcement first, then a narrower packaging/orches
 
 ### Why this matters
 The same-day pattern is now explicit: early runs stayed `raw_only`, while the later new-target runs reinforced the existing durable axis instead of justifying a new concept page.
+
+## 2026-05-03 same-day refinement example
+
+The day again split cleanly between early reinforcement and later append_existing signals.
+
+### Routed as `raw_only`
+- 08:00 and 19:00 stayed reinforcement-heavy across Threads, YouTube, GitHub stars, Google My Activity, ChatGPT, and Claude.
+- The new details — phase-based parallel work, harness engineering, `web-agent`, `TurboQuant`, `GPT-5.5`, `Kimi AI`, `OpenClaw Ready Box`, and `OMO/OMX Ready Workspace` — still fit existing axes rather than opening a new durable branch.
+
+### Routed as `append_existing`
+- 11:00 strengthened [[ai-infra-operating-economics]] with Anthropic's Google/Broadcom compute partnership.
+- 22:00 also strengthened [[ai-infra-operating-economics]] by adding `n8n-mcp` and `DeepSeek-TUI` on top of the same Claude/MCP/tooling lane.
+
+### Why this matters
+The day shows the intended Honcho behavior: keep raw evidence intact, let repetition drive `append_existing`, and reserve `promote_to_wiki` for genuinely new branches.
 
 ## Related pages
 

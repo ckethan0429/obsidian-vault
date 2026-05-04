@@ -528,3 +528,21 @@
 - GitHub Trending surfaced fresh Claude/MCP/tooling repos (`n8n-mcp`, `DeepSeek-TUI`) while `Pixelle-Video` and `openwrt` stayed lower-signal or generic
 - Appended the new Trending reinforcement to `concepts/ai-infra-operating-economics.md`
 
+## [2026-05-03] update | Interest signal 23:00 refinement
+- Reviewed the 2026-05-03 08:00, 11:00, 19:00, and 22:00 raw transcripts as a Honcho-style refinement pass
+- Routed 08:00 and 19:00 as `raw_only`; 11:00 and 22:00 remained `append_existing`
+- Updated `concepts/honcho.md` and `concepts/managed-agents-practical-summary.md`
+- No index change was needed because no new pages were promoted
+
+## [2026-05-04] ingest | Interest signal collection 08:00 run
+- Saved raw source: `raw/transcripts/interest-signal-collection-08-00-2026-05-04.md`
+- Live CDP surfaces were reachable for Threads, YouTube, GitHub stars, Google My Activity, ChatGPT, and Claude
+- The run was routed `raw_only`; the only new items were a Threads frontier-model / technical-leadership post, a new YouTube Claude Code market video, and fresh Google queries around GPT-5.5, Kimi, Anthropic harnesses, and OpenClaw
+- No durable page edits were needed
+
+## [2026-05-04] ingest | Interest signal collection 11:00 new-target run
+- Saved raw source: `raw/transcripts/interest-signal-collection-11-00-2026-05-04.md`
+- Most new-target feeds repeated the 2026-05-03 baseline; the fresh delta clustered around agent-platformization launches in Cloudflare, Google, OpenAI, GitHub Copilot, and GitHub Trending’s `n8n-mcp`
+- Appended reinforcement to `concepts/ai-infra-operating-economics.md` and `concepts/managed-agents-practical-summary.md`
+- Updated `index.md`
+

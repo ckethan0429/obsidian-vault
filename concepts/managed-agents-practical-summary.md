@@ -1,10 +1,10 @@
 ---
 title: Managed Agents practical summary
 created: 2026-04-15
-updated: 2026-05-01
+updated: 2026-05-03
 type: concept
 tags: [agents, orchestration, infrastructure, devtools, anthropic, checklist]
-sources: [raw/articles/anthropic-managed-agents-2026-04-15.md, raw/articles/effective-harnesses-for-long-running-agents-2026-04-15.md, raw/transcripts/managed-agents-codefactory-video-2026-04-15.md, raw/transcripts/interest-signal-collection-19-00-2026-04-20.md, raw/transcripts/interest-signal-collection-08-00-2026-04-22.md, raw/transcripts/interest-signal-collection-08-00-2026-04-22-threads-liked-rerun.md, raw/transcripts/interest-signal-collection-19-00-2026-04-22.md, raw/transcripts/interest-signal-collection-08-00-2026-04-26.md, raw/transcripts/interest-signal-collection-19-00-2026-04-26.md, raw/transcripts/interest-signal-note-19-00-2026-04-26.md, raw/transcripts/interest-signal-collection-08-00-2026-04-30.md, raw/transcripts/interest-signal-note-08-00-2026-04-30.md, raw/transcripts/interest-signal-collection-11-00-2026-04-30.md, raw/transcripts/interest-signal-note-11-00-2026-04-30.md, raw/transcripts/interest-signal-collection-19-00-2026-04-30.md, raw/transcripts/interest-signal-note-19-00-2026-04-30.md, raw/transcripts/interest-signal-collection-22-00-2026-04-30.md, raw/transcripts/interest-signal-note-22-00-2026-04-30.md, raw/transcripts/interest-signal-collection-08-00-2026-05-01.md, raw/transcripts/interest-signal-note-08-00-2026-05-01.md]
+sources: [raw/articles/anthropic-managed-agents-2026-04-15.md, raw/articles/effective-harnesses-for-long-running-agents-2026-04-15.md, raw/transcripts/managed-agents-codefactory-video-2026-04-15.md, raw/transcripts/interest-signal-collection-19-00-2026-04-20.md, raw/transcripts/interest-signal-collection-08-00-2026-04-22.md, raw/transcripts/interest-signal-collection-08-00-2026-04-22-threads-liked-rerun.md, raw/transcripts/interest-signal-collection-19-00-2026-04-22.md, raw/transcripts/interest-signal-collection-08-00-2026-04-26.md, raw/transcripts/interest-signal-collection-19-00-2026-04-26.md, raw/transcripts/interest-signal-note-19-00-2026-04-26.md, raw/transcripts/interest-signal-collection-08-00-2026-04-30.md, raw/transcripts/interest-signal-note-08-00-2026-04-30.md, raw/transcripts/interest-signal-collection-11-00-2026-04-30.md, raw/transcripts/interest-signal-note-11-00-2026-04-30.md, raw/transcripts/interest-signal-collection-19-00-2026-04-30.md, raw/transcripts/interest-signal-note-19-00-2026-04-30.md, raw/transcripts/interest-signal-collection-22-00-2026-04-30.md, raw/transcripts/interest-signal-note-22-00-2026-04-30.md, raw/transcripts/interest-signal-collection-08-00-2026-05-01.md, raw/transcripts/interest-signal-note-08-00-2026-05-01.md, raw/transcripts/interest-signal-collection-08-00-2026-05-03.md, raw/transcripts/interest-signal-collection-11-00-2026-05-03.md, raw/transcripts/interest-signal-collection-19-00-2026-05-03.md, raw/transcripts/interest-signal-collection-22-00-2026-05-03.md]
 ---
 
 # Managed Agents practical summary
@@ -169,6 +169,33 @@ The 2026-05-01 08:00 live surfaces did not change the macro thesis, but they did
 - Threads, GitHub, ChatGPT, and Claude continued to reinforce the same harness / memory / Proxmox / GPU / OpenClaw / operator-axis language already present in earlier runs
 
 This is still an append_existing read, not a new concept branch: the signal strengthens the managed-agent thesis by showing the skills layer becoming more visible in live operator media.
+
+## 2026-05-03 live-signal reinforcement
+
+The 05-03 raw set did not change the macro thesis, but it made the operating layer more explicit across several surfaces:
+
+### What stayed reinforced
+- **Threads** surfaced `harness engineering`, `phase-based parallel work`, and the same `Ceph / Proxmox / GPU` operating stack, which is exactly the kind of collision-cost reasoning this page is about.
+- **YouTube** kept the same agent/tooling lane visible with `Building Conversational Agents`, `LLM codegen fails and how to stop 'em'`, `Replacing 12K LoC with a 200 LoC Skill`, `Claude Code is now FREE`, `Lobster Father: New Telegram AI Agent is INSANE!`, `State of the Claw`, `Claude Code: Build Your Full AI Marketing Team`, `Spec Kit`, and `Supabase MCP`.
+- **GitHub stars** added `web-agent` and `TurboQuant`, but both still sit inside the agent / infra / quant cluster already tracked here.
+- **Google My Activity**, **ChatGPT**, and **Claude** continued to reinforce shared memory, `Claude Code` maintenance, `OpenClaw`, `mem0`, and `OMO/OMX` style packaging.
+
+### Updated reading
+This remains **append_existing**. The day strengthens the same managed-agent thesis: restartable workflows, phase-aware parallelism, shared memory wiring, and productized workspace packaging are the real durable axis.
+
+## 2026-05-04 new-target reinforcement
+
+The 11:00 new-target pass broadened the managed-agent thesis without changing it.
+
+### What looked fresh
+- **Cloudflare** shipped the strongest external packaging signal: `building the agentic cloud`, `AI engineering stack`, and `AI Code Review at scale` all point to a production runtime, not just a model demo.
+- **Google** made `subagents` explicit inside Gemini CLI and kept pushing `Agents CLI in Agent Platform`, which is the same harness logic in a different vendor wrapper.
+- **OpenAI** made the control-plane angle explicit with `Managed Agents come to AWS` and the orchestration spec `Symphony`.
+- **GitHub** moved Copilot further into agent mode with `GPT-5.5`, `inline agent mode`, and PR chat improvements.
+- **GitHub Trending** added `n8n-mcp`, which is a direct workflow-bridge signal, plus `DeepSeek-TUI` as a terminal harness surface.
+
+### Updated reading
+This is still **append_existing**. The new-target pass shows the managed-agent layer becoming a cross-vendor product surface: more subagents, more orchestration, more agent-mode IDE behavior, and more workflow bridges.
 
 ## One-sentence takeaway
 **Managed Agents is the design pattern of turning agent work into a durable, restartable service by separating session, harness, sandbox, and credentials into stable interfaces — and the latest live signals sharpen that into a concrete operator playbook of worktree isolation, event-driven escalation, rule accumulation, self-verifying phase-based parallelism, and reusable skills/conversational-agent tooling.**

@@ -421,6 +421,20 @@ The 22:00 pass stayed on the same macro-axis. GitHub Trending was the only surfa
 ### Updated reading
 This is still **append_existing**. The new repo-level evidence strengthens the same agent-tooling / workflow-packaging thesis without opening a separate branch.
 
+## 2026-05-04 new-target reinforcement
+
+The 11:00 pass did not add a new macro-axis, but it made agent-platformization more explicit across vendors.
+
+### What looked fresh
+- **Cloudflare** framed the launch set as an `agentic cloud`, then paired it with an internal `AI engineering stack` post and `AI Code Review at scale`.
+- **Google** made the agent layer concrete with `specialized TPUs for the agentic era`, `Agents CLI in Agent Platform`, and `Subagents have arrived in Gemini CLI`.
+- **OpenAI** pushed the same stack into enterprise packaging with `OpenAI models, Codex, and Managed Agents come to AWS` plus `An open-source spec for orchestration: Symphony`.
+- **GitHub** added `GPT-5.5 is generally available for GitHub Copilot`, `Inline agent mode in preview`, and PR chat improvements.
+- **GitHub Trending** added `n8n-mcp` and `DeepSeek-TUI`, which are workflow / harness / terminal-agent surfaces rather than generic novelty.
+
+### Updated reading
+This is still **append_existing**. The fresh vendor evidence strengthens the existing AI infra operating economics thesis by showing that agent orchestration, deployment, and workflow automation are being packaged as platform primitives across the stack.
+
 ## Related pages
 
 - [[virton-career-and-business-profile]]
