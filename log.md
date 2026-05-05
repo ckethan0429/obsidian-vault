@@ -582,3 +582,9 @@
 - The strongest fresh items were YouTube’s agent / skills / MCP / Proxmox titles and Google search history around Claude Code, Threads API, managed agents, and harness terminology; Threads, GitHub stars, ChatGPT, and Claude mostly reinforced the existing managed-agent / harness / workflow axis
 - Updated `concepts/managed-agents-practical-summary.md` as `append_existing` reinforcement of the managed-agent / harness / workflow axis
 - No index change was needed because no new durable branch was promoted
+
+## [2026-05-05] ingest | Interest signal collection 22:00 new-target pass
+- Saved raw source: `raw/transcripts/interest-signal-collection-22-00-2026-05-05.md`
+- Strongest fresh delta came from Google Developers’ agent-skill / ADK / Gemma 4 posts and GitHub Trending’s `context-mode` / `local-deep-research` / `andrej-karpathy-skills` / `cocoindex` repos; the other new-target feeds were mostly reinforcement or lower-signal deltas
+- Updated `concepts/managed-agents-practical-summary.md` as `append_existing` reinforcement of the managed-agent / skills / harness axis
+- No index change was needed because no new durable branch was promoted
