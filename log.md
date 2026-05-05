@@ -570,3 +570,9 @@
 - Compared with the 2026-05-04 08:00 baseline, Threads and GitHub were mostly reinforcement while YouTube, ChatGPT, and Claude added fresh operator / skills examples
 - Updated `concepts/managed-agents-practical-summary.md` as an `append_existing` reinforcement of the managed-agent / harness / workflow axis
 - Updated `index.md` and `log.md` so the durable summary remains navigable
+
+## [2026-05-05] ingest | Interest signal collection 11:00 new-target pass
+- Saved raw source: `raw/transcripts/interest-signal-collection-11-00-2026-05-05.md`
+- Most new-target surfaces were reinforcement, but OpenAI voice latency, Google Gemini API webhooks, Google TPU inference speedups, AWS observability / agent surfaces, and GitHub Trending’s `agency-agents` / `dexter` were the clearest fresh items
+- Updated `concepts/ai-infra-operating-economics.md` and `concepts/managed-agents-practical-summary.md` as `append_existing` reinforcement of the existing AI infra / managed-agents axis
+- No index change was needed because no new durable branch was promoted

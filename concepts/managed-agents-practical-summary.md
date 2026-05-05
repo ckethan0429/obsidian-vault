@@ -216,6 +216,20 @@ The morning pass was still append-existing, but it added a few concrete examples
 
 This is still **append_existing**: the managed-agent thesis is getting more concrete, but not branching into a separate durable concept.
 
+## 2026-05-05 new-target reinforcement
+
+The 11:00 pass did not change the macro thesis, but it added several platformized control-plane examples that fit the same runtime pattern.
+
+### What looked fresh
+- **Google AI** surfaced `Webhooks in Gemini API`, which is a durable-execution / event-driven-job hint for agent runtimes.
+- **Google Developers** repeated the agent layer explicitly with `Agents CLI in Agent Platform`, `Subagents have arrived in Gemini CLI`, and `Production-Ready AI Agents`.
+- **AWS** added `Amazon SageMaker AI launches AI agent experience for model customization`, which is an unusually direct agent-runtime surface from a major cloud vendor.
+- **OpenAI**’s `How OpenAI delivers low-latency voice AI at scale` is not a harness note by itself, but it reinforces the need for durable, production-grade runtime behavior around latency-sensitive agent use.
+- **GitHub Trending** kept surfacing harness and workflow packages such as `browserbase/skills`, `n8n-mcp`, `jcode`, `agency-agents`, and `dexter`.
+
+### Updated reading
+This remains **append_existing**. The same managed-agent pattern is still the center, but the new-target pass makes it clearer that the control plane is becoming productized as webhooks, subagents, agent experiences, and workflow bridges.
+
 ## One-sentence takeaway
 **Managed Agents is the design pattern of turning agent work into a durable, restartable service by separating session, harness, sandbox, and credentials into stable interfaces — and the latest live signals sharpen that into a concrete operator playbook of worktree isolation, event-driven escalation, rule accumulation, self-verifying phase-based parallelism, and reusable skills/conversational-agent tooling.**
 

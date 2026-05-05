@@ -1,7 +1,7 @@
 ---
 title: AI infra operating economics
 created: 2026-04-22
-updated: 2026-05-03
+updated: 2026-05-05
 type: concept
 tags: [infrastructure, gpu, storage, proxmox, agents, business, strategy]
 sources: [raw/transcripts/interest-signal-collection-08-00-2026-04-22.md, raw/transcripts/interest-signal-collection-08-00-2026-04-22-threads-liked-rerun.md, raw/transcripts/interest-signal-collection-19-00-2026-04-22.md, raw/transcripts/interest-signal-note-19-00-2026-04-22.md, raw/transcripts/interest-signal-collection-08-00-2026-04-23.md, raw/transcripts/interest-signal-collection-08-00-2026-04-26.md, raw/transcripts/interest-signal-collection-19-00-2026-04-26.md, raw/transcripts/interest-signal-note-19-00-2026-04-26.md, raw/transcripts/interest-signal-collection-08-00-2026-04-27.md, raw/transcripts/interest-signal-note-08-00-2026-04-27.md, raw/transcripts/interest-signal-collection-19-00-2026-04-27.md, raw/transcripts/interest-signal-note-19-00-2026-04-27.md, raw/transcripts/interest-signal-collection-08-00-2026-04-28.md, raw/transcripts/interest-signal-note-08-00-2026-04-28.md, raw/transcripts/interest-signal-collection-19-00-2026-04-28.md, raw/transcripts/interest-signal-note-19-00-2026-04-28.md, raw/transcripts/interest-signal-collection-08-00-2026-04-29.md, raw/transcripts/interest-signal-note-08-00-2026-04-29.md, raw/transcripts/interest-signal-collection-11-00-2026-04-29.md, raw/transcripts/interest-signal-collection-19-00-2026-04-29.md, raw/transcripts/interest-signal-note-19-00-2026-04-29.md, raw/transcripts/interest-signal-collection-22-00-2026-04-29.md, raw/transcripts/interest-signal-note-22-00-2026-04-29.md, raw/transcripts/interest-signal-collection-11-00-2026-04-30.md, raw/transcripts/interest-signal-note-11-00-2026-04-30.md, raw/transcripts/interest-signal-collection-19-00-2026-04-30.md, raw/transcripts/interest-signal-note-19-00-2026-04-30.md, raw/transcripts/interest-signal-collection-22-00-2026-04-30.md, raw/transcripts/interest-signal-note-22-00-2026-04-30.md, raw/transcripts/interest-signal-collection-11-00-2026-05-01.md, raw/transcripts/interest-signal-note-11-00-2026-05-01.md, raw/transcripts/interest-signal-collection-22-00-2026-05-01.md, raw/transcripts/interest-signal-note-22-00-2026-05-01.md, raw/transcripts/interest-signal-collection-22-00-2026-05-02.md, raw/transcripts/interest-signal-note-22-00-2026-05-02.md, raw/transcripts/interest-signal-collection-11-00-2026-05-03.md]
@@ -434,6 +434,20 @@ The 11:00 pass did not add a new macro-axis, but it made agent-platformization m
 
 ### Updated reading
 This is still **append_existing**. The fresh vendor evidence strengthens the existing AI infra operating economics thesis by showing that agent orchestration, deployment, and workflow automation are being packaged as platform primitives across the stack.
+
+## 2026-05-05 new-target reinforcement
+
+The 11:00 pass stayed inside the same macro-axis, but it added a few concrete operational surfaces that make the thesis more practical.
+
+### What looked fresh
+- **OpenAI** added `How OpenAI delivers low-latency voice AI at scale`, which pushes the stack from model/news framing into latency-sensitive production delivery.
+- **Google AI** surfaced `Reduce friction and latency for long-running jobs with Webhooks in Gemini API`, which is a clean event-driven execution signal.
+- **Google Developers** surfaced `Supercharging LLM inference on Google TPUs: Achieving 3X speedups with diffusion-style speculative decoding`, which is a direct inference-efficiency / operating-margin item.
+- **AWS** added `CloudWatch Logs Insights supports querying by log group tags`, `Amazon Quick generates dashboards from natural language prompts`, and `Amazon SageMaker AI launches AI agent experience for model customization`, which together point at observability, natural-language analytics, and agentified model operations.
+- **GitHub Trending** rotated in `agency-agents` and `dexter`, both of which stay in the agent-tooling / workflow / autonomous-research lane.
+
+### Updated reading
+This is still **append_existing**. The new-target pass is reinforcing the same thesis, but with a more concrete emphasis on operational surfaces: latency, hooks, observability, inference efficiency, and agent-ready platform UX.
 
 ## Related pages
 
