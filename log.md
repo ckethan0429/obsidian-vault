@@ -576,3 +576,9 @@
 - Most new-target surfaces were reinforcement, but OpenAI voice latency, Google Gemini API webhooks, Google TPU inference speedups, AWS observability / agent surfaces, and GitHub Trending’s `agency-agents` / `dexter` were the clearest fresh items
 - Updated `concepts/ai-infra-operating-economics.md` and `concepts/managed-agents-practical-summary.md` as `append_existing` reinforcement of the existing AI infra / managed-agents axis
 - No index change was needed because no new durable branch was promoted
+
+## [2026-05-05] ingest | Interest signal collection 19:00 run
+- Saved raw source: `raw/transcripts/interest-signal-collection-19-00-2026-05-05.md`
+- The strongest fresh items were YouTube’s agent / skills / MCP / Proxmox titles and Google search history around Claude Code, Threads API, managed agents, and harness terminology; Threads, GitHub stars, ChatGPT, and Claude mostly reinforced the existing managed-agent / harness / workflow axis
+- Updated `concepts/managed-agents-practical-summary.md` as `append_existing` reinforcement of the managed-agent / harness / workflow axis
+- No index change was needed because no new durable branch was promoted
