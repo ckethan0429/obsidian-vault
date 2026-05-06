@@ -462,6 +462,18 @@ The latest new-target pass reinforced the same operating-economics thesis with m
 ### Updated reading
 This is still **append_existing**. The signal is not a new branch; it is further evidence that the economic moat is shifting toward operable, observable, and securable AI infrastructure.
 
+## 2026-05-06 late-evening new-target reinforcement
+
+The 22:00 pass added one cleaner infra delta and a few agentic repos that still fit the operating-economics story.
+
+### What looked fresh
+- **OpenAI**'s `Unlocking large scale AI training networks with MRC (Multipath Reliable Connection)` pushes deeper into production-scale networking for large model training.
+- **GitHub Trending** added `InsForge` and `bytedance/deer-flow`, which show agent-facing backends and long-horizon harnesses being packaged as usable infrastructure.
+- `agent-skills` and `anthropics/financial-services` are ecosystem reinforcement, but they still point to the same move from demoware toward operable systems.
+
+### Updated reading
+This is still **append_existing**. The pass adds another infrastructure data point and reinforces that the moat is still shifting toward operable, observable, and securable AI infrastructure.
+
 ## Related pages
 
 - [[virton-career-and-business-profile]]

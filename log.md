@@ -607,3 +607,15 @@
 - Updated `concepts/ai-infra-operating-economics.md` and `concepts/managed-agents-practical-summary.md` as `append_existing` reinforcement of the existing AI infra / managed-agents axis
 - No index change was needed because no new durable branch was promoted
 
+## [2026-05-06] ingest | Interest signal collection 22:00 new-target pass
+- Saved raw source: `raw/transcripts/interest-signal-collection-22-00-2026-05-06.md`
+- OpenAI's MRC networking post was the clearest fresh infra delta; GitHub Trending rotated in `agent-skills`, `deer-flow`, `InsForge`, and `financial-services` as the main new agent/tooling repos
+- Updated `concepts/ai-infra-operating-economics.md` and `concepts/managed-agents-practical-summary.md` as `append_existing` reinforcement of the existing AI infra / managed-agents axis
+- Updated `index.md` to reflect the latest 2026-05-06 reinforcement in the relevant concept summaries
+
+## [2026-05-06] update | Interest signal 22:00 refinement
+- Reviewed the 2026-05-06 11:00 and 22:00 raw transcripts as a Honcho-style same-day refinement pass
+- Routed the day as `append_existing`; no new durable concept page was promoted
+- Kept raw evidence intact and only refreshed the durable pages that absorbed the new infra / skills deltas
+- No further index change was needed beyond the 22:00 summary refresh
+

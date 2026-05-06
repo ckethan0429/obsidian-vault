@@ -269,6 +269,18 @@ The latest new-target pass did not open a new macro-axis, but it made the contro
 ### Updated reading
 This is still **append_existing**. The fresh evidence suggests managed agents are moving deeper into enterprise ops, security, and billing surfaces rather than splitting into a separate concept branch.
 
+## 2026-05-06 late-evening new-target reinforcement
+
+The 22:00 new-target pass added a cleaner repo-level skills signal without changing the macro thesis.
+
+### What looked fresh
+- GitHub Trending rotated in `addyosmani/agent-skills`, `bytedance/deer-flow`, and `InsForge`, which make the skills layer, long-horizon harnessing, and agent-ready backends feel more productized.
+- `anthropics/financial-services` was visible too, but it reads more like ecosystem reinforcement than a separate branch.
+- OpenAI's MRC networking post is better absorbed by [[ai-infra-operating-economics]] than by this page.
+
+### Updated reading
+This is still **append_existing**. The pass sharpens the managed-agent thesis by showing the tooling layer continuing to move toward explicit skills, harnesses, and backend surfaces built for agent work.
+
 ## One-sentence takeaway
 **Managed Agents is the design pattern of turning agent work into a durable, restartable service by separating session, harness, sandbox, and credentials into stable interfaces — and the latest live signals sharpen that into a concrete operator playbook of worktree isolation, event-driven escalation, rule accumulation, self-verifying phase-based parallelism, and reusable skills/conversational-agent tooling.**
 
