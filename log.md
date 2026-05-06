@@ -588,3 +588,22 @@
 - Strongest fresh delta came from Google Developers’ agent-skill / ADK / Gemma 4 posts and GitHub Trending’s `context-mode` / `local-deep-research` / `andrej-karpathy-skills` / `cocoindex` repos; the other new-target feeds were mostly reinforcement or lower-signal deltas
 - Updated `concepts/managed-agents-practical-summary.md` as `append_existing` reinforcement of the managed-agent / skills / harness axis
 - No index change was needed because no new durable branch was promoted
+
+## [2026-05-05] update | Interest signal 23:00 refinement
+- Reviewed the same-day 08:00, 11:00, 19:00, and 22:00 raw transcripts as a Honcho-style refinement pass
+- Routed the day as `append_existing` across the board; no new durable concept was promoted
+- Updated `concepts/honcho.md` with the day's routing record and same-day refinement summary
+- No index change was needed because the durable pages already captured the day's reinforced axis
+
+## [2026-05-06] ingest | Interest signal collection 08:00 run
+- Saved raw source: `raw/transcripts/interest-signal-collection-08-00-2026-05-06.md`
+- The live surfaces were reinforcement-heavy across Threads, YouTube, GitHub stars, Google My Activity, ChatGPT, and Claude
+- No durable concept page was updated from this pass because the run did not surface a new branch beyond the existing managed-agent / harness / AI infra axis
+- No index change was needed because the run remained raw-only
+
+## [2026-05-06] ingest | Interest signal collection 11:00 new-target pass
+- Saved raw source: `raw/transcripts/interest-signal-collection-11-00-2026-05-06.md`
+- Strongest fresh deltas came from AWS WorkSpaces AI agents, Bedrock AgentCore in GovCloud, Quick + New Relic, OpenAI GPT-5.5 Instant, GitHub MCP Server scanning, and Anthropic's financial-services agents; Google Developers and GitHub Trending were mostly reinforcement
+- Updated `concepts/ai-infra-operating-economics.md` and `concepts/managed-agents-practical-summary.md` as `append_existing` reinforcement of the existing AI infra / managed-agents axis
+- No index change was needed because no new durable branch was promoted
+

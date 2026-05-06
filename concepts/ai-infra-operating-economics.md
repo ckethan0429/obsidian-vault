@@ -1,7 +1,7 @@
 ---
 title: AI infra operating economics
 created: 2026-04-22
-updated: 2026-05-05
+updated: 2026-05-06
 type: concept
 tags: [infrastructure, gpu, storage, proxmox, agents, business, strategy]
 sources: [raw/transcripts/interest-signal-collection-08-00-2026-04-22.md, raw/transcripts/interest-signal-collection-08-00-2026-04-22-threads-liked-rerun.md, raw/transcripts/interest-signal-collection-19-00-2026-04-22.md, raw/transcripts/interest-signal-note-19-00-2026-04-22.md, raw/transcripts/interest-signal-collection-08-00-2026-04-23.md, raw/transcripts/interest-signal-collection-08-00-2026-04-26.md, raw/transcripts/interest-signal-collection-19-00-2026-04-26.md, raw/transcripts/interest-signal-note-19-00-2026-04-26.md, raw/transcripts/interest-signal-collection-08-00-2026-04-27.md, raw/transcripts/interest-signal-note-08-00-2026-04-27.md, raw/transcripts/interest-signal-collection-19-00-2026-04-27.md, raw/transcripts/interest-signal-note-19-00-2026-04-27.md, raw/transcripts/interest-signal-collection-08-00-2026-04-28.md, raw/transcripts/interest-signal-note-08-00-2026-04-28.md, raw/transcripts/interest-signal-collection-19-00-2026-04-28.md, raw/transcripts/interest-signal-note-19-00-2026-04-28.md, raw/transcripts/interest-signal-collection-08-00-2026-04-29.md, raw/transcripts/interest-signal-note-08-00-2026-04-29.md, raw/transcripts/interest-signal-collection-11-00-2026-04-29.md, raw/transcripts/interest-signal-collection-19-00-2026-04-29.md, raw/transcripts/interest-signal-note-19-00-2026-04-29.md, raw/transcripts/interest-signal-collection-22-00-2026-04-29.md, raw/transcripts/interest-signal-note-22-00-2026-04-29.md, raw/transcripts/interest-signal-collection-11-00-2026-04-30.md, raw/transcripts/interest-signal-note-11-00-2026-04-30.md, raw/transcripts/interest-signal-collection-19-00-2026-04-30.md, raw/transcripts/interest-signal-note-19-00-2026-04-30.md, raw/transcripts/interest-signal-collection-22-00-2026-04-30.md, raw/transcripts/interest-signal-note-22-00-2026-04-30.md, raw/transcripts/interest-signal-collection-11-00-2026-05-01.md, raw/transcripts/interest-signal-note-11-00-2026-05-01.md, raw/transcripts/interest-signal-collection-22-00-2026-05-01.md, raw/transcripts/interest-signal-note-22-00-2026-05-01.md, raw/transcripts/interest-signal-collection-22-00-2026-05-02.md, raw/transcripts/interest-signal-note-22-00-2026-05-02.md, raw/transcripts/interest-signal-collection-11-00-2026-05-03.md]
@@ -448,6 +448,19 @@ The 11:00 pass stayed inside the same macro-axis, but it added a few concrete op
 
 ### Updated reading
 This is still **append_existing**. The new-target pass is reinforcing the same thesis, but with a more concrete emphasis on operational surfaces: latency, hooks, observability, inference efficiency, and agent-ready platform UX.
+
+## 2026-05-06 new-target reinforcement
+
+The latest new-target pass reinforced the same operating-economics thesis with more explicit enterprise surfaces.
+
+### What looked fresh
+- **AWS**'s `Amazon WorkSpaces now lets AI agents operate desktop applications (Preview)`, `Amazon Bedrock AgentCore is now available in AWS GovCloud (US-West)`, and `Amazon Quick now integrates with New Relic for observability-driven AI agents` point to agent runtime becoming a deployable, observable cloud service.
+- **OpenAI**'s `GPT-5.5 Instant` and `New ways to buy ChatGPT ads` reinforce productization and monetization at the runtime layer.
+- **Anthropic**'s `Agents for financial services` adds a regulated-enterprise adoption signal.
+- **GitHub**'s MCP Server scanning items show agent tooling touching security and compliance workflows.
+
+### Updated reading
+This is still **append_existing**. The signal is not a new branch; it is further evidence that the economic moat is shifting toward operable, observable, and securable AI infrastructure.
 
 ## Related pages
 
