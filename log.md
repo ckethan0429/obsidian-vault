@@ -625,3 +625,9 @@
 - Updated `concepts/ai-infra-operating-economics.md` as `append_existing` reinforcement of the existing AI infra / managed-agents / control-plane axis
 - Updated `index.md` and `log.md` to keep the durable catalog aligned with the new 2026-05-07 reinforcement
 
+## [2026-05-07] ingest | Interest signal collection 22:00 new-target pass
+- Saved raw source: `raw/transcripts/interest-signal-collection-22-00-2026-05-07.md`
+- Strongest fresh deltas came from Anthropic Claude Design / Amazon compute / NEC workforce, AWS Agreements API / Neptune CloudShell, OpenAI Parloa service agents, Google TPU / on-device / agent-runtime updates, and GitHub Trending’s open-agents / PageIndex / dflash repos
+- Updated `concepts/ai-infra-operating-economics.md` as `append_existing` reinforcement of the existing AI infra / managed-agents / control-plane axis
+- Updated `index.md` and `log.md` to keep the durable catalog aligned with the late-evening 2026-05-07 reinforcement
+

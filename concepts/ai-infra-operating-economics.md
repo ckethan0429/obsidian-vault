@@ -488,6 +488,20 @@ The 11:00 pass stayed in the same macro-axis, but it sharpened the control-plane
 ### Updated reading
 This is still **append_existing**. The latest feed set makes the platform-control-plane story more concrete: agent models are getting more reliable, agent runtimes are gaining memory and MCP access, and enterprise CLI tooling is being packaged with admin-managed plugins.
 
+## 2026-05-07 late-evening new-target reinforcement
+
+The 22:00 pass widened the same macro-axis with a stronger mix of design packaging, compute scale, procurement plumbing, service-agent adoption, and runtime efficiency.
+
+### What looked fresh
+- **Anthropic** added `Introducing Claude Design by Anthropic Labs`, `Anthropic and Amazon expand collaboration for up to 5 gigawatts of new compute`, and `Anthropic and NEC collaborate to build Japan’s largest AI engineering workforce`, which broaden the story from coding/runtime into design tooling, compute scaling, and enterprise workforce enablement.
+- **AWS** added `AWS Marketplace now supports programmatic procurement with Agreements API` and `Amazon Neptune now supports 1-click connect with CloudShell`, pushing procurement and operational surface area deeper into the control plane.
+- **OpenAI**'s `Parloa builds service agents customers want to talk to` is a clean service-agent adoption signal, even if it still reads as packaging rather than a new branch.
+- **Google Developers** added `Speeding Up AI: Bringing Google Colossus to PyTorch via GCSFS and Rapid Bucket`, `Building real-world on-device AI with LiteRT and NPU`, `Production-Ready AI Agents: 5 Lessons from Refactoring a Monolith`, and `MaxText Expands Post-Training Capabilities: Introducing SFT and RL on Single-Host TPUs`, which reinforce the runtime, efficiency, and agent-workflow layers.
+- **GitHub Trending** rotated in `vercel-labs/open-agents`, `VectifyAI/PageIndex`, and `z-lab/dflash`, but the repo cluster still sits in the same agent/tooling lane.
+
+### Updated reading
+This is still **append_existing**. The new-target pass adds more evidence that CK’s interest is converging on the economics of operating AI systems — design surface, compute access, procurement plumbing, service-agent packaging, and runtime efficiency — rather than opening a separate durable branch.
+
 ## Related pages
 
 - [[virton-career-and-business-profile]]
