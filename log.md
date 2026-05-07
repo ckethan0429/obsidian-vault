@@ -619,3 +619,9 @@
 - Kept raw evidence intact and only refreshed the durable pages that absorbed the new infra / skills deltas
 - No further index change was needed beyond the 22:00 summary refresh
 
+## [2026-05-07] ingest | Interest signal collection 11:00 new-target pass
+- Saved raw source: `raw/transcripts/interest-signal-collection-11-00-2026-05-07.md`
+- Strongest fresh deltas came from Anthropic Opus 4.7 / SpaceX compute, AWS Agent Toolkit / AWS MCP Server / AgentCore Memory metadata, and GitHub Copilot CLI enterprise-managed plugins; OpenAI added productization/adoption items, while Cloudflare, Google, and GitHub Trending were mostly reinforcement or noise
+- Updated `concepts/ai-infra-operating-economics.md` as `append_existing` reinforcement of the existing AI infra / managed-agents / control-plane axis
+- Updated `index.md` and `log.md` to keep the durable catalog aligned with the new 2026-05-07 reinforcement
+

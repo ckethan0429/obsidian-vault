@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with a one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-05-06 | Total pages: 56
+> Last updated: 2026-05-07 | Total pages: 56
 
 ## Entities
 <!-- Alphabetical within section -->
@@ -14,7 +14,7 @@
 ## Concepts
 <!-- Alphabetical within section -->
 - [[agent-client-protocol-and-acpx]] — ACP as the client-to-agent protocol, ACPX as the session/control runtime layer, and external shared-memory wiring as the durability complement.
-- [[ai-infra-operating-economics]] — Cross-source pattern that CK’s current AI interest is hardening into harness routing, GPU, storage, deployment, distribution, and operator-margin economics; reinforced again on 2026-05-02 by Cloudflare Dynamic Workflows / Code Orange, AWS AgentCore São Paulo, Anthropic’s Claude for Creative Work, GitHub Changelog’s GPT-5.2 / Codex deprecation, and Claude-oriented GitHub Trending repos; reinforced again on 2026-05-03 by Anthropic’s Google/Broadcom compute partnership; reinforced again on 2026-05-04 by Cloudflare’s agentic-cloud launches, Google’s agentic-era TPUs, OpenAI’s Managed Agents on AWS, GitHub Copilot agent-mode updates, and n8n-mcp; reinforced again on 2026-05-06 by OpenAI’s MRC networking post and new GitHub Trending agent/infra repos like InsForge and deer-flow.
+- [[ai-infra-operating-economics]] — Cross-source pattern that CK’s current AI interest is hardening into harness routing, GPU, storage, deployment, distribution, and operator-margin economics; reinforced again on 2026-05-02 by Cloudflare Dynamic Workflows / Code Orange, AWS AgentCore São Paulo, Anthropic’s Claude for Creative Work, GitHub Changelog’s GPT-5.2 / Codex deprecation, and Claude-oriented GitHub Trending repos; reinforced again on 2026-05-03 by Anthropic’s Google/Broadcom compute partnership; reinforced again on 2026-05-04 by Cloudflare’s agentic-cloud launches, Google’s agentic-era TPUs, OpenAI’s Managed Agents on AWS, GitHub Copilot agent-mode updates, and n8n-mcp; reinforced again on 2026-05-06 by OpenAI’s MRC networking post and new GitHub Trending agent/infra repos like InsForge and deer-flow; reinforced again on 2026-05-07 by Anthropic Opus 4.7 / SpaceX compute, AWS Agent Toolkit / AWS MCP Server / AgentCore Memory metadata, and GitHub Copilot CLI enterprise-managed plugins.
 - [[b2b-sales-and-negotiation-strategy]] — Structured guide to B2B sales from lead generation through expansion.
 - [[chrome-cdp-login-status]] — CK's operating assumption for login-ready Chrome CDP sessions.
 - [[claude-code-hooks]] — Claude Code hook events, matchers, and handler patterns.

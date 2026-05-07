@@ -1,7 +1,7 @@
 ---
 title: AI infra operating economics
 created: 2026-04-22
-updated: 2026-05-06
+updated: 2026-05-07
 type: concept
 tags: [infrastructure, gpu, storage, proxmox, agents, business, strategy]
 sources: [raw/transcripts/interest-signal-collection-08-00-2026-04-22.md, raw/transcripts/interest-signal-collection-08-00-2026-04-22-threads-liked-rerun.md, raw/transcripts/interest-signal-collection-19-00-2026-04-22.md, raw/transcripts/interest-signal-note-19-00-2026-04-22.md, raw/transcripts/interest-signal-collection-08-00-2026-04-23.md, raw/transcripts/interest-signal-collection-08-00-2026-04-26.md, raw/transcripts/interest-signal-collection-19-00-2026-04-26.md, raw/transcripts/interest-signal-note-19-00-2026-04-26.md, raw/transcripts/interest-signal-collection-08-00-2026-04-27.md, raw/transcripts/interest-signal-note-08-00-2026-04-27.md, raw/transcripts/interest-signal-collection-19-00-2026-04-27.md, raw/transcripts/interest-signal-note-19-00-2026-04-27.md, raw/transcripts/interest-signal-collection-08-00-2026-04-28.md, raw/transcripts/interest-signal-note-08-00-2026-04-28.md, raw/transcripts/interest-signal-collection-19-00-2026-04-28.md, raw/transcripts/interest-signal-note-19-00-2026-04-28.md, raw/transcripts/interest-signal-collection-08-00-2026-04-29.md, raw/transcripts/interest-signal-note-08-00-2026-04-29.md, raw/transcripts/interest-signal-collection-11-00-2026-04-29.md, raw/transcripts/interest-signal-collection-19-00-2026-04-29.md, raw/transcripts/interest-signal-note-19-00-2026-04-29.md, raw/transcripts/interest-signal-collection-22-00-2026-04-29.md, raw/transcripts/interest-signal-note-22-00-2026-04-29.md, raw/transcripts/interest-signal-collection-11-00-2026-04-30.md, raw/transcripts/interest-signal-note-11-00-2026-04-30.md, raw/transcripts/interest-signal-collection-19-00-2026-04-30.md, raw/transcripts/interest-signal-note-19-00-2026-04-30.md, raw/transcripts/interest-signal-collection-22-00-2026-04-30.md, raw/transcripts/interest-signal-note-22-00-2026-04-30.md, raw/transcripts/interest-signal-collection-11-00-2026-05-01.md, raw/transcripts/interest-signal-note-11-00-2026-05-01.md, raw/transcripts/interest-signal-collection-22-00-2026-05-01.md, raw/transcripts/interest-signal-note-22-00-2026-05-01.md, raw/transcripts/interest-signal-collection-22-00-2026-05-02.md, raw/transcripts/interest-signal-note-22-00-2026-05-02.md, raw/transcripts/interest-signal-collection-11-00-2026-05-03.md]
@@ -473,6 +473,20 @@ The 22:00 pass added one cleaner infra delta and a few agentic repos that still 
 
 ### Updated reading
 This is still **append_existing**. The pass adds another infrastructure data point and reinforces that the moat is still shifting toward operable, observable, and securable AI infrastructure.
+
+## 2026-05-07 new-target reinforcement
+
+The 11:00 pass stayed in the same macro-axis, but it sharpened the control-plane layer around agent runtimes, skills, plugins, and memory.
+
+### What looked fresh
+- **Anthropic**'s `Claude Opus 4.7` plus the `Higher usage limits for Claude and a compute deal with SpaceX` post push the model/runtime layer further into long-running, self-verifying coding work and larger-scale deployment.
+- **AWS** added `Agent Toolkit for AWS`, `AWS MCP Server` GA, and `AgentCore Memory metadata`, making agent tooling, secure service access, and structured memory first-class cloud primitives.
+- **GitHub Changelog**'s `Enterprise-managed plugins in GitHub Copilot CLI` extends governance and distribution into the CLI agent layer.
+- **OpenAI**'s new feed items are real productization and adoption signals, but they read as packaging rather than a new branch.
+- **Cloudflare**, **Google AI**, **Google Developers**, and **GitHub Trending** were mostly reinforcement or peripheral noise relative to the existing macro-axis.
+
+### Updated reading
+This is still **append_existing**. The latest feed set makes the platform-control-plane story more concrete: agent models are getting more reliable, agent runtimes are gaining memory and MCP access, and enterprise CLI tooling is being packaged with admin-managed plugins.
 
 ## Related pages
 
