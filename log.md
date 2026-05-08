@@ -648,3 +648,9 @@
 - Strongest new items: Anthropic Opus 4.7 / SpaceX compute, OpenAI GPT-5.5-Cyber / voice / trusted-contact updates, AWS AgentCore Payments / WorkSpaces desktop agents, Google Gemini CLI subagents, GitHub Copilot CLI multi-model routing / model deprecations
 - Cloudflare and Google AI remained peripheral; GitHub Trending stayed in the same agent/tooling cluster
 
+## [2026-05-08] ingest | Interest signal collection 19:00 run
+- Saved raw source: `raw/transcripts/interest-signal-collection-19-00-2026-05-08.md`
+- Live CDP surfaces stayed usable; the afternoon pass produced fresh examples on Threads activity, YouTube subscriptions / watch later, Google My Activity, and the current Claude / ChatGPT conversations
+- Threads likes and GitHub stars were reinforcement-only, and no durable concept page was promoted
+- The new items reinforced the same Claude Code / managed-agents / Proxmox / GPU / memory-routing axis rather than opening a new branch
+
