@@ -654,3 +654,9 @@
 - Threads likes and GitHub stars were reinforcement-only, and no durable concept page was promoted
 - The new items reinforced the same Claude Code / managed-agents / Proxmox / GPU / memory-routing axis rather than opening a new branch
 
+## [2026-05-08] update | Interest signal collection 22:00 new-target pass
+- Saved raw source: `raw/transcripts/interest-signal-collection-22-00-2026-05-08.md`
+- Appended durable reinforcement to `concepts/ai-infra-operating-economics.md`, `concepts/managed-agents-practical-summary.md`, and `concepts/honcho.md`
+- Strongest new items: Google agent skills / ADK Go / Gemma 4 / TPU, OpenAI GPT-5.5 Instant / MRC / ads / PwC, AWS control-plane and infra updates, GitHub Trending agent-harness repos, and GitHub Changelog CodeQL support / model deprecations
+- Anthropic and Cloudflare were checked but remained peripheral
+

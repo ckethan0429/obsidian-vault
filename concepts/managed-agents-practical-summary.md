@@ -313,6 +313,19 @@ The 11:00 new-target pass stayed on the same managed-agent axis, but it made the
 ### Updated reading
 This is still **append_existing**. The newest signal is not a new concept branch; it is the managed-agent stack becoming more explicit about isolated subagents, model-family routing, and enterprise control planes.
 
+## 2026-05-08 late-evening new-target reinforcement
+
+The 22:00 pass stayed on the same managed-agent axis, but it made the skills / productization / tooling layer more concrete.
+
+### What looked fresh
+- **Google Developers** moved from generic agent talk into `Build Better AI Agents`, `Gemma 4`, `Developer’s Guide to Building ADK Agents with Skills`, and `ADK Go 1.0`, which is a clean signal for skills-based, production-ready agent packaging.
+- **OpenAI** added `GPT-5.5 Instant`, `MRC`, voice scaling, ads, and PwC/CFO automation, which keeps the runtime and enterprise adoption layers front and center.
+- **GitHub Trending** surfaced `aidlc-workflows`, `lobehub`, `9router`, and `hello-agents`, which are all agent workflow / harness / multi-agent packaging signals.
+- **AWS** and **GitHub Changelog** stayed in the same control-plane lane with EC2 / regional notifications / CodeQL / model deprecations.
+
+### Updated reading
+This is still **append_existing**. The signal set is getting sharper, but it is not branching away from managed agents into a new concept.
+
 ## Related pages
 - [[managed-agents-architecture]]
 - [[agent-client-protocol-and-acpx]]

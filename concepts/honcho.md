@@ -192,7 +192,20 @@ The 11:00 new-target pass is another strict-routing case.
 - GitHub Trending remained in the same agent/tooling cluster rather than creating a new repo-level branch.
 
 ### Why this matters
-This run preserves the intended Honcho split: keep the raw evidence intact, append the durable operator-control signals, and avoid promoting feed rotation into a new wiki branch.
+This run preserves the intended Honcho split: keep raw evidence intact, append the durable operator-control signals, and avoid promoting feed rotation into a new wiki branch.
+
+## 2026-05-08 late-evening refinement example
+
+The 22:00 new-target pass is another strict-routing case.
+
+### Routed as `append_existing`
+- Google Developers’ agent skills / ADK Go / Gemma 4 cluster, OpenAI’s GPT-5.5 Instant / MRC / ads / PwC items, AWS’s control-plane updates, and GitHub Trending’s agent-harness repos all strengthened the existing [[ai-infra-operating-economics]] / [[managed-agents-practical-summary]] axis.
+
+### Kept as `raw_only`
+- Anthropic and Cloudflare were checked, but they remained holdover / peripheral relative to the main story.
+
+### Why this matters
+This run preserves the intended Honcho split: keep raw evidence intact, append the durable operator-control signals, and avoid promoting feed rotation into a new wiki branch.
 
 ## Related pages
 

@@ -514,7 +514,20 @@ The 11:00 new-target pass stayed inside the same macro-axis, but it added a few 
 - **GitHub Changelog** rotated into model deprecation and multi-model routing for Copilot CLI, reinforcing the same operating layer from the tooling side.
 
 ### Updated reading
-This is still **append_existing**. The new-target pass makes the thesis more concrete: the market is moving deeper into agent runtime economics, model lifecycle management, and enterprise control-plane plumbing, not into a separate durable topic.
+This remains **append_existing**. The new-target pass makes the thesis more concrete: the market is moving deeper into agent runtime economics, model lifecycle management, and enterprise control-plane plumbing, not into a separate durable topic.
+
+## 2026-05-08 late-evening new-target reinforcement
+
+The 22:00 pass did not change the macro thesis, but it broadened the control-plane / productization evidence.
+
+### What looked fresh
+- **Google Developers** pushed `Build Better AI Agents`, `Gemma 4`, `Developer’s Guide to Building ADK Agents with Skills`, and `ADK Go 1.0`, which makes skills, subagents, and production packaging more explicit.
+- **OpenAI** added `GPT-5.5 Instant`, `MRC`, voice scaling, ads, and PwC/CFO workflow packaging, reinforcing the model/runtime + enterprise adoption layer.
+- **AWS** surfaced control-plane / infra items like EC2 G6/X8i, availability notifications, Resource Explorer in GovCloud, and JDBC client-side encryption.
+- **GitHub Trending** added `aidlc-workflows`, `lobehub`, `9router`, and `CloakBrowser`, which keeps the agent / harness / browser tooling cluster visible.
+
+### Updated reading
+This is still **append_existing**. The latest feed set makes the operating-economics story more concrete: skills, model lifecycle, deployment/region plumbing, and agent workflow packaging are becoming explicit vendor surfaces, not a new branch.
 
 ## Related pages
 
