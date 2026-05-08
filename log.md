@@ -631,3 +631,20 @@
 - Updated `concepts/ai-infra-operating-economics.md` as `append_existing` reinforcement of the existing AI infra / managed-agents / control-plane axis
 - Updated `index.md` and `log.md` to keep the durable catalog aligned with the late-evening 2026-05-07 reinforcement
 
+## [2026-05-07] update | 23:00 post-collection refinement pass
+- Reviewed raw/transcripts/interest-signal-collection-08-00-2026-05-07.md, raw/transcripts/interest-signal-collection-11-00-2026-05-07.md, raw/transcripts/interest-signal-collection-19-00-2026-05-07.md, and raw/transcripts/interest-signal-collection-22-00-2026-05-07.md as the same-day evidence set
+- Routed 08:00 and 19:00 as `raw_only`; routed 11:00 and 22:00 as `append_existing`
+- Updated `concepts/honcho.md` and `concepts/managed-agents-practical-summary.md` with 2026-05-07 refinement notes, and updated `index.md` to reflect the latest reinforcement
+
+## [2026-05-08] ingest | Interest signal collection 08:00 run
+- Saved raw source: `raw/transcripts/interest-signal-collection-08-00-2026-05-08.md`
+- Live CDP surfaces were usable, but most of the day’s activity was reinforcement of the existing Claude Code / agent workflow / AI infra / operator-economics axis
+- The only clearly new raw items were a Threads post about Claude Code setup tips + plugins and a new GitHub star (`blader / humanizer`)
+- No durable concept page was promoted; the run remained raw-only
+
+## [2026-05-08] update | Interest signal collection 11:00 new-target pass
+- Saved raw source: `raw/transcripts/interest-signal-collection-11-00-2026-05-08.md`
+- Appended durable reinforcement to `concepts/ai-infra-operating-economics.md`, `concepts/managed-agents-practical-summary.md`, and `concepts/honcho.md`
+- Strongest new items: Anthropic Opus 4.7 / SpaceX compute, OpenAI GPT-5.5-Cyber / voice / trusted-contact updates, AWS AgentCore Payments / WorkSpaces desktop agents, Google Gemini CLI subagents, GitHub Copilot CLI multi-model routing / model deprecations
+- Cloudflare and Google AI remained peripheral; GitHub Trending stayed in the same agent/tooling cluster
+

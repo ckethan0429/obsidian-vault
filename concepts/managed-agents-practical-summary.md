@@ -1,10 +1,10 @@
 ---
 title: Managed Agents practical summary
 created: 2026-04-15
-updated: 2026-05-06
+updated: 2026-05-08
 type: concept
 tags: [agents, orchestration, infrastructure, devtools, anthropic, checklist]
-sources: [raw/articles/anthropic-managed-agents-2026-04-15.md, raw/articles/effective-harnesses-for-long-running-agents-2026-04-15.md, raw/transcripts/managed-agents-codefactory-video-2026-04-15.md, raw/transcripts/interest-signal-collection-19-00-2026-04-20.md, raw/transcripts/interest-signal-collection-08-00-2026-04-22.md, raw/transcripts/interest-signal-collection-08-00-2026-04-22-threads-liked-rerun.md, raw/transcripts/interest-signal-collection-19-00-2026-04-22.md, raw/transcripts/interest-signal-collection-08-00-2026-04-26.md, raw/transcripts/interest-signal-collection-19-00-2026-04-26.md, raw/transcripts/interest-signal-note-19-00-2026-04-26.md, raw/transcripts/interest-signal-collection-08-00-2026-04-30.md, raw/transcripts/interest-signal-note-08-00-2026-04-30.md, raw/transcripts/interest-signal-collection-11-00-2026-04-30.md, raw/transcripts/interest-signal-note-11-00-2026-04-30.md, raw/transcripts/interest-signal-collection-19-00-2026-04-30.md, raw/transcripts/interest-signal-note-19-00-2026-04-30.md, raw/transcripts/interest-signal-collection-22-00-2026-04-30.md, raw/transcripts/interest-signal-note-22-00-2026-04-30.md, raw/transcripts/interest-signal-collection-08-00-2026-05-01.md, raw/transcripts/interest-signal-note-08-00-2026-05-01.md, raw/transcripts/interest-signal-collection-08-00-2026-05-03.md, raw/transcripts/interest-signal-collection-11-00-2026-05-03.md, raw/transcripts/interest-signal-collection-19-00-2026-05-03.md, raw/transcripts/interest-signal-collection-22-00-2026-05-03.md, raw/transcripts/interest-signal-collection-22-00-2026-05-04.md, raw/transcripts/interest-signal-collection-08-00-2026-05-05.md, raw/transcripts/interest-signal-collection-19-00-2026-05-05.md, raw/transcripts/interest-signal-collection-22-00-2026-05-05.md, raw/transcripts/interest-signal-collection-11-00-2026-05-06.md]
+sources: [raw/articles/anthropic-managed-agents-2026-04-15.md, raw/articles/effective-harnesses-for-long-running-agents-2026-04-15.md, raw/transcripts/managed-agents-codefactory-video-2026-04-15.md, raw/transcripts/interest-signal-collection-19-00-2026-04-20.md, raw/transcripts/interest-signal-collection-08-00-2026-04-22.md, raw/transcripts/interest-signal-collection-08-00-2026-04-22-threads-liked-rerun.md, raw/transcripts/interest-signal-collection-19-00-2026-04-22.md, raw/transcripts/interest-signal-collection-08-00-2026-04-26.md, raw/transcripts/interest-signal-collection-19-00-2026-04-26.md, raw/transcripts/interest-signal-note-19-00-2026-04-26.md, raw/transcripts/interest-signal-collection-08-00-2026-04-30.md, raw/transcripts/interest-signal-note-08-00-2026-04-30.md, raw/transcripts/interest-signal-collection-11-00-2026-04-30.md, raw/transcripts/interest-signal-note-11-00-2026-04-30.md, raw/transcripts/interest-signal-collection-19-00-2026-04-30.md, raw/transcripts/interest-signal-note-19-00-2026-04-30.md, raw/transcripts/interest-signal-collection-22-00-2026-04-30.md, raw/transcripts/interest-signal-note-22-00-2026-04-30.md, raw/transcripts/interest-signal-collection-08-00-2026-05-01.md, raw/transcripts/interest-signal-note-08-00-2026-05-01.md, raw/transcripts/interest-signal-collection-08-00-2026-05-03.md, raw/transcripts/interest-signal-collection-11-00-2026-05-03.md, raw/transcripts/interest-signal-collection-19-00-2026-05-03.md, raw/transcripts/interest-signal-collection-22-00-2026-05-03.md, raw/transcripts/interest-signal-collection-22-00-2026-05-04.md, raw/transcripts/interest-signal-collection-08-00-2026-05-05.md, raw/transcripts/interest-signal-collection-19-00-2026-05-05.md, raw/transcripts/interest-signal-collection-22-00-2026-05-05.md, raw/transcripts/interest-signal-collection-11-00-2026-05-06.md, raw/transcripts/interest-signal-collection-08-00-2026-05-07.md, raw/transcripts/interest-signal-collection-19-00-2026-05-07.md, raw/transcripts/interest-signal-collection-11-00-2026-05-07.md, raw/transcripts/interest-signal-collection-22-00-2026-05-07.md, raw/transcripts/interest-signal-collection-11-00-2026-05-08.md]
 ---
 
 # Managed Agents practical summary
@@ -281,8 +281,37 @@ The 22:00 new-target pass added a cleaner repo-level skills signal without chang
 ### Updated reading
 This is still **append_existing**. The pass sharpens the managed-agent thesis by showing the tooling layer continuing to move toward explicit skills, harnesses, and backend surfaces built for agent work.
 
+## 2026-05-07 same-day refinement
+
+The 2026-05-07 raw set stayed on the same managed-agent axis, but the day made the control plane more concrete across social and new-target surfaces.
+
+### What stayed reinforced
+- The 08:00 and 19:00 social runs repeated the same harness / routing / triage / phase-parallelism / shared-memory / education-led packaging language.
+- GitHub stars, ChatGPT, and Claude all pointed at the same runtime / workspace / memory / agent-ops cluster rather than a new branch.
+
+### What looked fresher
+- The 11:00 and 22:00 new-target passes added control-plane primitives: AWS Agent Toolkit, AWS MCP Server GA, AgentCore Memory metadata, enterprise-managed Copilot CLI plugins, and Claude Opus 4.7.
+- Anthropic's compute / design / workforce posts and OpenAI's service-agent adoption post reinforced that agent runtimes are becoming productized enterprise surfaces.
+- Google Developers kept the same runtime / efficiency / agent workflow thread visible.
+
+### Updated reading
+This is still **append_existing**. The day sharpens the thesis that managed agents are moving from architecture and harness patterns into concrete cloud control planes, memory surfaces, and enterprise distribution.
+
 ## One-sentence takeaway
 **Managed Agents is the design pattern of turning agent work into a durable, restartable service by separating session, harness, sandbox, and credentials into stable interfaces — and the latest live signals sharpen that into a concrete operator playbook of worktree isolation, event-driven escalation, rule accumulation, self-verifying phase-based parallelism, and reusable skills/conversational-agent tooling.**
+
+## 2026-05-08 new-target reinforcement
+
+The 11:00 new-target pass stayed on the same managed-agent axis, but it made the subagent / multi-model / control-plane layer more explicit across vendors.
+
+### What looked fresh
+- **Google Developers** made `Subagents have arrived in Gemini CLI` explicit: isolated context windows, parallel execution, and `@agent` delegation are now a first-class vendor primitive.
+- **GitHub Changelog** rotated into `Rubber Duck in GitHub Copilot CLI now supports more models`, plus model deprecations for GPT-4.1 and Claude Sonnet 4, which reinforces multi-model routing and lifecycle management in the agent harness.
+- **AWS** added `AgentCore payments` and `WorkSpaces now lets AI agents operate desktop applications`, which are concrete platform primitives for agents that act, transact, and operate legacy desktop workflows.
+- **Anthropic**'s Opus 4.7 / SpaceX compute update reinforces the same long-running, higher-capability runtime expectations from the model side.
+
+### Updated reading
+This is still **append_existing**. The newest signal is not a new concept branch; it is the managed-agent stack becoming more explicit about isolated subagents, model-family routing, and enterprise control planes.
 
 ## Related pages
 - [[managed-agents-architecture]]
