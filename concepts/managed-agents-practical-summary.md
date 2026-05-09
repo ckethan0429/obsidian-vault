@@ -349,6 +349,19 @@ The 11:00 new-target pass didn't change the macro thesis; it sharpened the contr
 ### Updated reading
 This is still **append_existing**. The new-target evidence strengthens the managed-agent view at the runtime boundary: sandbox policy, secrets plumbing, lifecycle control, and workflow steering are becoming the real product surfaces.
 
+## 2026-05-09 afternoon social reinforcement
+
+The 19:00 live pass stayed on the same axis, but it made the operator workflow even more concrete.
+
+### What looked fresh
+- **Threads** repeated `Restartable cattle`, `Brain / Hands / Memory`, `event-based notification`, `worktree isolation`, and `CLAUDE.md` rule accumulation. The same surface also kept the native-vs-parallel split visible: small linear work stays native; state/log/mutation-heavy work moves to a parallel path.
+- **GitHub stars** finally exposed a real agent / harness / memory cluster: `memory-bank`, `oh-my-agent`, `web-agent`, `claude-code-best-practice`, `atomic-hermes`, `hermes-agent`.
+- **YouTube watch later** added `State of the Claw`, `Claude Code: Build Your Full AI Marketing Team (Agents + Claude Skills)`, `AI 에이전트 100개를 한 번에 관리하는 1인 유니콘 개발자`, `랭체인 Ver.1`, `What Is an AI Stack?`, and `LiteParse`, which keeps the skills / conversational-agent layer visible.
+- **ChatGPT** and **Claude** stayed in the shared-memory / operator-workflow lane rather than branching away.
+
+### Updated reading
+This remains **append_existing**. The afternoon pass does not open a new branch; it sharpens the harness by showing repeated worktree isolation, event-driven escalation, and skills/tooling packaging across live surfaces.
+
 ## Related pages
 - [[managed-agents-architecture]]
 

@@ -679,3 +679,9 @@
 - Appended durable reinforcement to `concepts/ai-infra-operating-economics.md` and `concepts/managed-agents-practical-summary.md`
 - Anthropic, AWS, and Cloudflare were checked but stayed mostly peripheral or operational relative to the main axis
 
+## [2026-05-09] ingest | Interest signal collection 19:00 live pass
+- Saved raw source: `raw/transcripts/interest-signal-collection-19-00-2026-05-09.md`
+- Strongest new items: GitHub stars finally exposed a real repo cluster around `memory-bank`, `oh-my-agent`, `web-agent`, `claude-code-best-practice`, `atomic-hermes`, and `hermes-agent`; YouTube watch later added `State of the Claw`, `Claude Code: Build Your Full AI Marketing Team`, `AI 에이전트 100개를 한 번에 관리하는 1인 유니콘 개발자`, `Inside the Data Center Boom`, and `What Is an AI Stack?`
+- Appended durable reinforcement to `concepts/managed-agents-practical-summary.md` and `concepts/ai-infra-operating-economics.md`
+- Threads activity/replies, Google My Activity, ChatGPT, and Claude were mostly reinforcement; YouTube subscriptions stayed heavily sports/noise-skewed
+
