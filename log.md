@@ -691,3 +691,8 @@
 - Appended durable reinforcement to `concepts/ai-infra-operating-economics.md`, `concepts/managed-agents-practical-summary.md`, and `concepts/honcho.md`
 - OpenAI, Anthropic, AWS, and Cloudflare were checked but stayed mostly repetition or operational context relative to the established axis
 
+
+## [2026-05-09] update | Interest signal collection 23:00 same-day refinement
+- Read the day's four raw transcript files and ran a Honcho-style triage over the already-collected evidence
+- Honcho outcome stayed reinforcement-only: repeated social/noise items were kept raw_only, while the durable managed-agents / AI-infra / browser-control / memory cluster was treated as append_existing; nothing crossed into promote_to_wiki
+- Updated `concepts/honcho.md` with the same-day refinement summary; no new concept page was created and no raw file was touched
