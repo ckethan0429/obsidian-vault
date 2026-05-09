@@ -685,3 +685,9 @@
 - Appended durable reinforcement to `concepts/managed-agents-practical-summary.md` and `concepts/ai-infra-operating-economics.md`
 - Threads activity/replies, Google My Activity, ChatGPT, and Claude were mostly reinforcement; YouTube subscriptions stayed heavily sports/noise-skewed
 
+## [2026-05-09] ingest | Interest signal collection 22:00 new-target pass
+- Saved raw source: `raw/transcripts/interest-signal-collection-22-00-2026-05-09.md`
+- Strongest new items: Google Developers’ Gemini Embedding 2 / Production-Ready AI Agents / A2UI v0.9 / MaxText / Gemini CLI subagents cluster, GitHub Trending’s chrome-devtools-mcp / agentmemory / agent-skills / rowboat / UI-TARS-desktop cluster, and smaller GitHub Changelog governance updates
+- Appended durable reinforcement to `concepts/ai-infra-operating-economics.md`, `concepts/managed-agents-practical-summary.md`, and `concepts/honcho.md`
+- OpenAI, Anthropic, AWS, and Cloudflare were checked but stayed mostly repetition or operational context relative to the established axis
+

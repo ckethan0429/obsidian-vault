@@ -362,6 +362,19 @@ The 19:00 live pass stayed on the same axis, but it made the operator workflow e
 ### Updated reading
 This remains **append_existing**. The afternoon pass does not open a new branch; it sharpens the harness by showing repeated worktree isolation, event-driven escalation, and skills/tooling packaging across live surfaces.
 
+## 2026-05-09 late-evening new-target reinforcement
+
+The 22:00 new-target pass stayed on the same managed-agent axis, but it made the browser / memory / skills control plane more concrete.
+
+### What looked fresh
+- **Google Developers** made `Subagents have arrived in Gemini CLI`, `Production-Ready AI Agents`, and `Building with Gemini Embedding 2` explicit. That combination ties isolated subagents, production packaging, and retrieval-heavy multimodal workflows to the same runtime story.
+- **GitHub Trending** rotated in `ChromeDevTools/chrome-devtools-mcp`, `rohitg00/agentmemory`, `rowboatlabs/rowboat`, `addyosmani/agent-skills`, and `bytedance/UI-TARS-desktop`, which keeps the agent harness / memory / browser-control stack visible in a more productized form.
+- **GitHub Changelog** added repo-policy and governance updates, which are control-plane details rather than a new model story.
+- **OpenAI / Anthropic / AWS / Cloudflare** stayed baseline-heavy or operational relative to the main managed-agent lane.
+
+### Updated reading
+This is still **append_existing**. The late-evening pass strengthens the managed-agent thesis by showing the tooling layer continuing to move toward explicit subagents, skills, memory, and browser-control surfaces.
+
 ## Related pages
 - [[managed-agents-architecture]]
 
