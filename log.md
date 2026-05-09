@@ -660,3 +660,22 @@
 - Strongest new items: Google agent skills / ADK Go / Gemma 4 / TPU, OpenAI GPT-5.5 Instant / MRC / ads / PwC, AWS control-plane and infra updates, GitHub Trending agent-harness repos, and GitHub Changelog CodeQL support / model deprecations
 - Anthropic and Cloudflare were checked but remained peripheral
 
+## [2026-05-08] update | 23:00 post-collection refinement
+- Reviewed the same-day 08:00, 11:00, 19:00, and 22:00 raw transcripts as a Honcho-style refinement pass
+- Routed 08:00 and 19:00 as `raw_only`; routed 11:00 and 22:00 as `append_existing`
+- Updated `concepts/honcho.md` with the day-level refinement summary, corrected 2026-05-08 source references, and refreshed the index summary for Honcho
+- Corrected 2026-05-08 source references in `concepts/ai-infra-operating-economics.md` and `concepts/managed-agents-practical-summary.md`
+- No new concept page was promoted; the day remained reinforcement-only
+
+## [2026-05-09] ingest | Interest signal collection 08:00 run
+- Saved raw source: `raw/transcripts/interest-signal-collection-08-00-2026-05-09.md`
+- Live CDP surfaces were usable across Threads, YouTube, GitHub, Google, ChatGPT, and Claude
+- Strongest new examples: Threads `Managed Agents` / `Brain / Hands / Memory`, YouTube watch-later agent backbone / MCP / browser-use items, and Google/ChatGPT shared-memory agent stack queries
+- Appended durable reinforcement to `concepts/managed-agents-practical-summary.md`; GitHub stars remained reinforcement-only
+
+## [2026-05-09] ingest | Interest signal collection 11:00 new-target pass
+- Saved raw source: `raw/transcripts/interest-signal-collection-11-00-2026-05-09.md`
+- Strongest new items: OpenAI `Running Codex safely at OpenAI`, Google TPU / Colossus / LiteRT infrastructure posts, GitHub Copilot cloud-agent controls, and GitHub Trending's agent/tooling cluster
+- Appended durable reinforcement to `concepts/ai-infra-operating-economics.md` and `concepts/managed-agents-practical-summary.md`
+- Anthropic, AWS, and Cloudflare were checked but stayed mostly peripheral or operational relative to the main axis
+
