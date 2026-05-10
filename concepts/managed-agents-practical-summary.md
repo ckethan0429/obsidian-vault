@@ -401,6 +401,18 @@ The 11:00 new-target pass stayed on the same managed-agent axis, but it made the
 ### Updated reading
 This remains **append_existing**. The latest evidence strengthens the managed-agent thesis at the control-plane boundary: subagents, memory, browser automation, secrets, and governance are all becoming explicit surfaces.
 
+## 2026-05-10 late-evening new-target reinforcement
+
+The 22:00 new-target pass stayed on the same managed-agent axis, but the repo rotation added a newer harness / agent trio.
+
+### What looked fresh
+- **GitHub Trending** rotated in `lsdefine/GenericAgent`, `jundot/omlx`, and `affaan-m/everything-claude-code`. `GenericAgent` is the clearest new managed-agent signal: a self-evolving skill tree / full-system-control repo. `everything-claude-code` is the clearest harness/performance signal. `omlx` is more infra than agent, but it still sits adjacent to the same operator stack.
+- **GitHub Trending** also kept `CloakBrowser`, `AI-Trader`, `agent-skills`, `UI-TARS-desktop`, and `chrome-devtools-mcp` in the background as reinforcement rather than novelty.
+- **OpenAI / Google / AWS / Cloudflare / GitHub Changelog** did not materially change the managed-agent reading relative to the earlier 11:00 baseline.
+
+### Updated reading
+This remains **append_existing**. The new repo trio strengthens the same harness / memory / skills / browser-control lane, with `GenericAgent` and `everything-claude-code` the most useful additions.
+
 ## Related pages
 - [[managed-agents-architecture]]
 

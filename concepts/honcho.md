@@ -253,6 +253,16 @@ The full day stayed inside one durable axis: managed agents / AI infra / browser
 ### Why this matters
 - Honcho behaved as intended: preserve the raw evidence, let the durable pages absorb only reinforcement, and avoid promoting feed rotation into a separate branch.
 
+## 2026-05-10 late-evening new-target routing
+
+### Routed as `append_existing`
+- GitHub Trending’s `GenericAgent`, `omlx`, and `everything-claude-code` were the only clearly new signals; they strengthen [[managed-agents-practical-summary]] and [[ai-infra-operating-economics]] rather than opening a new branch.
+- AWS’s `AWS Marketplace introduces Tax management portal for sellers` stayed operational/raw_only.
+- Google, OpenAI, Anthropic, Cloudflare, and GitHub Changelog were mostly baseline repetition relative to the existing new-target track.
+
+### Why this matters
+The 22:00 pass is another clean example of strict routing: keep the raw evidence intact, append the durable operator-control signals, and avoid promoting feed rotation into a separate wiki branch.
+
 ## Related pages
 
 - [[interest-signal-sources]]

@@ -716,3 +716,9 @@
 - Strongest new items: Threads liked-page Claude Code setup/plugins post, YouTube conversational-agent / codegen / 200 LoC skill items, ChatGPT's shared-memory / AI infra / Proxmox recent-chat cluster, Claude's software+education business-model discussion, and a Meta Threads API explorer error with token-generation context
 - GitHub stars and Google My Activity were reinforcement-only
 - No new durable branch was promoted
+
+## [2026-05-10] ingest | Interest signal collection 22:00 new-target run
+- Saved raw source: `raw/transcripts/interest-signal-collection-22-00-2026-05-10.md`
+- Strongest new items: GitHub Trending's `GenericAgent`, `omlx`, and `everything-claude-code` repos; AWS's `AWS Marketplace introduces Tax management portal for sellers` was new but operational only
+- Appended durable reinforcement to `concepts/ai-infra-operating-economics.md`, `concepts/managed-agents-practical-summary.md`, and `concepts/honcho.md`
+- Google, OpenAI, Anthropic, Cloudflare, and GitHub Changelog were mostly baseline repetition relative to the prior new-target track
