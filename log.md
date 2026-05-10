@@ -710,3 +710,9 @@
 - Freshest deltas: OpenAI cyber/service-agent/voice packaging, Google Gemini Embedding 2 and production-ready agents, GitHub Copilot cloud-agent controls, and GitHub Trending's agentmemory / chrome-devtools-mcp / rowboat cluster
 - Appended durable reinforcement to `concepts/ai-infra-operating-economics.md` and `concepts/managed-agents-practical-summary.md`
 - Anthropic, AWS, and Cloudflare stayed useful as raw-only operational context; no new durable branch was promoted
+
+## [2026-05-10] ingest | Interest signal collection 19:00 live pass
+- Saved raw source: `raw/transcripts/interest-signal-collection-19-00-2026-05-10.md`
+- Strongest new items: Threads liked-page Claude Code setup/plugins post, YouTube conversational-agent / codegen / 200 LoC skill items, ChatGPT's shared-memory / AI infra / Proxmox recent-chat cluster, Claude's software+education business-model discussion, and a Meta Threads API explorer error with token-generation context
+- GitHub stars and Google My Activity were reinforcement-only
+- No new durable branch was promoted
