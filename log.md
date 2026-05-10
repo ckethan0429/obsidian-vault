@@ -696,3 +696,17 @@
 - Read the day's four raw transcript files and ran a Honcho-style triage over the already-collected evidence
 - Honcho outcome stayed reinforcement-only: repeated social/noise items were kept raw_only, while the durable managed-agents / AI-infra / browser-control / memory cluster was treated as append_existing; nothing crossed into promote_to_wiki
 - Updated `concepts/honcho.md` with the same-day refinement summary; no new concept page was created and no raw file was touched
+
+## [2026-05-10] ingest | Interest signal collection 08:00 run
+- Saved raw source: `raw/transcripts/interest-signal-collection-08-00-2026-05-10.md`
+- Live CDP surfaces were usable across Threads, YouTube, GitHub, Google, ChatGPT, and Claude
+- Strongest new items: GitHub stars moved from baseline-heavy to a concrete agent-tooling cluster, YouTube watch-later surfaced new AI/productization examples, and Google/ChatGPT/Claude stayed in the same operator / infra lane
+- Appended durable reinforcement to `concepts/ai-infra-operating-economics.md` and `concepts/managed-agents-practical-summary.md`
+- Threads was mostly reinforcement; no new durable branch was promoted
+
+## [2026-05-10] ingest | Interest signal collection 11:00 new-target run
+- Saved raw source: `raw/transcripts/interest-signal-collection-11-00-2026-05-10.md`
+- Collected live evidence from OpenAI News, Google Developers Blog, AWS What's New, Cloudflare Blog, GitHub Changelog, Anthropic News, and GitHub Trending
+- Freshest deltas: OpenAI cyber/service-agent/voice packaging, Google Gemini Embedding 2 and production-ready agents, GitHub Copilot cloud-agent controls, and GitHub Trending's agentmemory / chrome-devtools-mcp / rowboat cluster
+- Appended durable reinforcement to `concepts/ai-infra-operating-economics.md` and `concepts/managed-agents-practical-summary.md`
+- Anthropic, AWS, and Cloudflare stayed useful as raw-only operational context; no new durable branch was promoted

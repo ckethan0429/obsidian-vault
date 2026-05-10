@@ -1,10 +1,10 @@
 ---
 title: AI infra operating economics
 created: 2026-04-22
-updated: 2026-05-09
+updated: 2026-05-10
 type: concept
 tags: [infrastructure, gpu, storage, proxmox, agents, business, strategy]
-sources: [raw/transcripts/interest-signal-collection-08-00-2026-04-22.md, raw/transcripts/interest-signal-collection-08-00-2026-04-22-threads-liked-rerun.md, raw/transcripts/interest-signal-collection-19-00-2026-04-22.md, raw/transcripts/interest-signal-note-19-00-2026-04-22.md, raw/transcripts/interest-signal-collection-08-00-2026-04-23.md, raw/transcripts/interest-signal-collection-08-00-2026-04-26.md, raw/transcripts/interest-signal-collection-19-00-2026-04-26.md, raw/transcripts/interest-signal-note-19-00-2026-04-26.md, raw/transcripts/interest-signal-collection-08-00-2026-04-27.md, raw/transcripts/interest-signal-note-08-00-2026-04-27.md, raw/transcripts/interest-signal-collection-19-00-2026-04-27.md, raw/transcripts/interest-signal-note-19-00-2026-04-27.md, raw/transcripts/interest-signal-collection-08-00-2026-04-28.md, raw/transcripts/interest-signal-note-08-00-2026-04-28.md, raw/transcripts/interest-signal-collection-19-00-2026-04-28.md, raw/transcripts/interest-signal-note-19-00-2026-04-28.md, raw/transcripts/interest-signal-collection-08-00-2026-04-29.md, raw/transcripts/interest-signal-note-08-00-2026-04-29.md, raw/transcripts/interest-signal-collection-11-00-2026-04-29.md, raw/transcripts/interest-signal-collection-19-00-2026-04-29.md, raw/transcripts/interest-signal-note-19-00-2026-04-29.md, raw/transcripts/interest-signal-collection-22-00-2026-04-29.md, raw/transcripts/interest-signal-note-22-00-2026-04-29.md, raw/transcripts/interest-signal-collection-11-00-2026-04-30.md, raw/transcripts/interest-signal-note-11-00-2026-04-30.md, raw/transcripts/interest-signal-collection-19-00-2026-04-30.md, raw/transcripts/interest-signal-note-19-00-2026-04-30.md, raw/transcripts/interest-signal-collection-22-00-2026-04-30.md, raw/transcripts/interest-signal-note-22-00-2026-04-30.md, raw/transcripts/interest-signal-collection-11-00-2026-05-01.md, raw/transcripts/interest-signal-note-11-00-2026-05-01.md, raw/transcripts/interest-signal-collection-22-00-2026-05-01.md, raw/transcripts/interest-signal-note-22-00-2026-05-01.md, raw/transcripts/interest-signal-collection-22-00-2026-05-02.md, raw/transcripts/interest-signal-note-22-00-2026-05-02.md, raw/transcripts/interest-signal-collection-11-00-2026-05-03.md, raw/transcripts/interest-signal-collection-11-00-2026-05-08.md, raw/transcripts/interest-signal-collection-22-00-2026-05-08.md, raw/transcripts/interest-signal-collection-11-00-2026-05-09.md]
+sources: [raw/transcripts/interest-signal-collection-08-00-2026-04-22.md, raw/transcripts/interest-signal-collection-08-00-2026-04-22-threads-liked-rerun.md, raw/transcripts/interest-signal-collection-19-00-2026-04-22.md, raw/transcripts/interest-signal-note-19-00-2026-04-22.md, raw/transcripts/interest-signal-collection-08-00-2026-04-23.md, raw/transcripts/interest-signal-collection-08-00-2026-04-26.md, raw/transcripts/interest-signal-collection-19-00-2026-04-26.md, raw/transcripts/interest-signal-note-19-00-2026-04-26.md, raw/transcripts/interest-signal-collection-08-00-2026-04-27.md, raw/transcripts/interest-signal-note-08-00-2026-04-27.md, raw/transcripts/interest-signal-collection-19-00-2026-04-27.md, raw/transcripts/interest-signal-note-19-00-2026-04-27.md, raw/transcripts/interest-signal-collection-08-00-2026-04-28.md, raw/transcripts/interest-signal-note-08-00-2026-04-28.md, raw/transcripts/interest-signal-collection-19-00-2026-04-28.md, raw/transcripts/interest-signal-note-19-00-2026-04-28.md, raw/transcripts/interest-signal-collection-08-00-2026-04-29.md, raw/transcripts/interest-signal-note-08-00-2026-04-29.md, raw/transcripts/interest-signal-collection-11-00-2026-04-29.md, raw/transcripts/interest-signal-collection-19-00-2026-04-29.md, raw/transcripts/interest-signal-note-19-00-2026-04-29.md, raw/transcripts/interest-signal-collection-22-00-2026-04-29.md, raw/transcripts/interest-signal-note-22-00-2026-04-29.md, raw/transcripts/interest-signal-collection-11-00-2026-04-30.md, raw/transcripts/interest-signal-note-11-00-2026-04-30.md, raw/transcripts/interest-signal-collection-19-00-2026-04-30.md, raw/transcripts/interest-signal-note-19-00-2026-04-30.md, raw/transcripts/interest-signal-collection-22-00-2026-04-30.md, raw/transcripts/interest-signal-note-22-00-2026-04-30.md, raw/transcripts/interest-signal-collection-11-00-2026-05-01.md, raw/transcripts/interest-signal-note-11-00-2026-05-01.md, raw/transcripts/interest-signal-collection-22-00-2026-05-01.md, raw/transcripts/interest-signal-note-22-00-2026-05-01.md, raw/transcripts/interest-signal-collection-22-00-2026-05-02.md, raw/transcripts/interest-signal-note-22-00-2026-05-02.md, raw/transcripts/interest-signal-collection-11-00-2026-05-03.md, raw/transcripts/interest-signal-collection-11-00-2026-05-08.md, raw/transcripts/interest-signal-collection-22-00-2026-05-08.md, raw/transcripts/interest-signal-collection-11-00-2026-05-09.md, raw/transcripts/interest-signal-collection-11-00-2026-05-10.md]
 ---
 
 # AI infra operating economics
@@ -567,6 +567,33 @@ The 22:00 new-target pass did not open a new macro-axis, but it sharpened the to
 
 ### Updated reading
 This is still **append_existing**. The late-evening pass reinforces the same thesis with more explicit agent packaging, multimodal retrieval, skills, memory, and browser-control surfaces.
+
+## 2026-05-10 morning social reinforcement
+
+The 08:00 live pass did not change the macro thesis, but it added one clearer GitHub-stars cluster and a few fresh AI/infra/productization examples.
+
+### What looked fresh
+- **GitHub stars** moved from baseline-heavy to a concrete cluster: `humanizer`, `not-claude-code-emulator`, `atomic-hermes`, `hermes-agent`, `memory-bank`, `oh-my-agent`, `web-agent`, `OmniVoice`, `pyturboquant`, and `claude-code-best-practice`.
+- **YouTube watch later** added `State of the Claw`, `Claude Code: Build Your Full AI Marketing Team`, `LiteParse`, `I built a private AI mini-cluster with Framework Desktop`, `Inside the Data Center Boom`, and `What Is an AI Stack?`, which all sit in the infra / tooling / commercialization lane.
+- **YouTube subscriptions** surfaced `OpenAI x 코드팩토리 Codex로 모노레포 멀티 플랫폼 서비스 만들기` and `클로드 디자인` as fresh productization examples.
+- **Google My Activity** kept the operator trail visible with `Claude Code + Telegram agent + mem0 + Qdrant + Ollama`, `Claude Code와 Hermes 활용`, `Proxmox API 클러스터 인증`, and `Cloudflare vs 가비아 비교`.
+- **ChatGPT** and **Claude** recents stayed in the same operating-economics lane rather than opening a new branch.
+
+### Updated reading
+This remains **append_existing**. The new evidence reinforces the existing thesis that CK’s AI interest is hardening into harness routing, compute access, deployment plumbing, distribution, and operator-margin economics.
+
+## 2026-05-10 new-target reinforcement
+
+The 11:00 new-target pass stayed on the same macro-axis, but it made the runtime / productization / browser-control layer more explicit.
+
+### What looked fresh
+- **OpenAI** added `Scaling Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber`, `Parloa builds service agents customers want to talk to`, `Advancing voice intelligence with new models in the API`, and `Testing ads in ChatGPT`, which keeps the emphasis on deployable product surfaces rather than raw model novelty.
+- **Google Developers** added `Building with Gemini Embedding 2` and `Production-Ready AI Agents`, reinforcing multimodal retrieval plus production agent packaging.
+- **GitHub Changelog** added `More flexible secrets and variables for Copilot cloud agent`, `Disable commit comments on the user level`, and `Upcoming deprecation of GPT-4.1`, which keeps the control-plane, governance, and lifecycle layer visible.
+- **GitHub Trending** rotated into `agentmemory`, `hello-agents`, `rowboat`, `chrome-devtools-mcp`, and `UI-TARS-desktop`, making the browser / memory / MCP tooling stack unusually concrete.
+
+### Updated reading
+This is still **append_existing**. The day is reinforcing the same thesis: AI infra is becoming a productized control plane across runtime, embeddings, governance, and browser / memory tooling.
 
 ## Related pages
 
