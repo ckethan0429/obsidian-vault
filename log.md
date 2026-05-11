@@ -722,3 +722,16 @@
 - Strongest new items: GitHub Trending's `GenericAgent`, `omlx`, and `everything-claude-code` repos; AWS's `AWS Marketplace introduces Tax management portal for sellers` was new but operational only
 - Appended durable reinforcement to `concepts/ai-infra-operating-economics.md`, `concepts/managed-agents-practical-summary.md`, and `concepts/honcho.md`
 - Google, OpenAI, Anthropic, Cloudflare, and GitHub Changelog were mostly baseline repetition relative to the prior new-target track
+
+## [2026-05-10] update | Interest signal collection 23:00 same-day refinement
+- Read the day's four raw transcript files and ran a Honcho-style triage over the already-collected evidence
+- Honcho outcome stayed reinforcement-only: repeated social/noise items were kept raw_only, while the durable managed-agents / AI-infra / browser-control / shared-memory / education-packaging cluster was treated as append_existing; nothing crossed into promote_to_wiki
+- Updated `concepts/honcho.md` with the same-day refinement summary; no new concept page was created and no raw file was touched
+- No index change was needed because the durable pages already captured the day's reinforced axis
+
+## [2026-05-11] ingest | Interest signal collection 11:00 new-target run
+- Saved raw source: `raw/transcripts/interest-signal-collection-11-00-2026-05-11.md`
+- Collected live evidence from OpenAI News, Google Developers Blog, AWS What's New, Cloudflare Blog, GitHub Changelog, Anthropic News, and GitHub Trending
+- Freshest deltas: Google's TPU inference / LiteRT / Agents CLI / A2UI / MaxText wave, Cloudflare's Dynamic Workflows and agent provisioning, GitHub Changelog's Claude Sonnet 4 deprecation and Enterprise Live Migrations, and GitHub Trending's agent-skills / GenericAgent / CloakBrowser / 9router rotation
+- Appended durable reinforcement to `concepts/ai-infra-operating-economics.md` and `concepts/managed-agents-practical-summary.md`
+- OpenAI added a smaller Codex productization delta; Anthropic and most AWS items stayed baseline or operational context

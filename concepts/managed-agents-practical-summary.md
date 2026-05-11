@@ -1,7 +1,7 @@
 ---
 title: Managed Agents practical summary
 created: 2026-04-15
-updated: 2026-05-10
+updated: 2026-05-11
 type: concept
 tags: [agents, orchestration, infrastructure, devtools, anthropic, checklist]
 sources: [raw/articles/anthropic-managed-agents-2026-04-15.md, raw/articles/effective-harnesses-for-long-running-agents-2026-04-15.md, raw/transcripts/managed-agents-codefactory-video-2026-04-15.md, raw/transcripts/interest-signal-collection-19-00-2026-04-20.md, raw/transcripts/interest-signal-collection-08-00-2026-04-22.md, raw/transcripts/interest-signal-collection-08-00-2026-04-22-threads-liked-rerun.md, raw/transcripts/interest-signal-collection-19-00-2026-04-22.md, raw/transcripts/interest-signal-collection-08-00-2026-04-26.md, raw/transcripts/interest-signal-collection-19-00-2026-04-26.md, raw/transcripts/interest-signal-note-19-00-2026-04-26.md, raw/transcripts/interest-signal-collection-08-00-2026-04-30.md, raw/transcripts/interest-signal-note-08-00-2026-04-30.md, raw/transcripts/interest-signal-collection-11-00-2026-04-30.md, raw/transcripts/interest-signal-note-11-00-2026-04-30.md, raw/transcripts/interest-signal-collection-19-00-2026-04-30.md, raw/transcripts/interest-signal-note-19-00-2026-04-30.md, raw/transcripts/interest-signal-collection-22-00-2026-04-30.md, raw/transcripts/interest-signal-note-22-00-2026-04-30.md, raw/transcripts/interest-signal-collection-08-00-2026-05-01.md, raw/transcripts/interest-signal-note-08-00-2026-05-01.md, raw/transcripts/interest-signal-collection-08-00-2026-05-03.md, raw/transcripts/interest-signal-collection-11-00-2026-05-03.md, raw/transcripts/interest-signal-collection-19-00-2026-05-03.md, raw/transcripts/interest-signal-collection-22-00-2026-05-03.md, raw/transcripts/interest-signal-collection-22-00-2026-05-04.md, raw/transcripts/interest-signal-collection-08-00-2026-05-05.md, raw/transcripts/interest-signal-collection-19-00-2026-05-05.md, raw/transcripts/interest-signal-collection-22-00-2026-05-05.md, raw/transcripts/interest-signal-collection-11-00-2026-05-06.md, raw/transcripts/interest-signal-collection-08-00-2026-05-07.md, raw/transcripts/interest-signal-collection-19-00-2026-05-07.md, raw/transcripts/interest-signal-collection-11-00-2026-05-07.md, raw/transcripts/interest-signal-collection-22-00-2026-05-07.md, raw/transcripts/interest-signal-collection-11-00-2026-05-08.md, raw/transcripts/interest-signal-collection-22-00-2026-05-08.md, raw/transcripts/interest-signal-collection-08-00-2026-05-09.md, raw/transcripts/interest-signal-collection-11-00-2026-05-09.md, raw/transcripts/interest-signal-collection-11-00-2026-05-10.md]
@@ -413,9 +413,23 @@ The 22:00 new-target pass stayed on the same managed-agent axis, but the repo ro
 ### Updated reading
 This remains **append_existing**. The new repo trio strengthens the same harness / memory / skills / browser-control lane, with `GenericAgent` and `everything-claude-code` the most useful additions.
 
-## Related pages
-- [[managed-agents-architecture]]
+## 2026-05-11 new-target reinforcement
 
+The 11:00 pass kept the same managed-agent thesis visible, but today's strongest new signals were more explicit about packaging, browser control, and durable execution.
+
+### What looked fresh
+- **Google**'s `Agents CLI in Agent Platform`, `A2UI v0.9`, and `Production-Ready AI Agents` keep the harness / subagent / UI-generation layer concrete.
+- **Cloudflare**'s `Dynamic Workflows` and `Agents can now create Cloudflare accounts, buy domains, and deploy` are strong hosted-runtime signals: durable execution plus agent-owned provisioning.
+- **GitHub Trending** added `agent-skills`, `GenericAgent`, `CloakBrowser`, and `9router`, which point at skills packaging, self-evolving agents, browser automation, and provider-routing.
+- **GitHub Changelog**'s `Enterprise Live Migrations` and `Claude Sonnet 4 deprecated` are control-plane / lifecycle reminders that still fit the managed-runtime layer.
+- **OpenAI**'s `Simplex rethinks software development with Codex` is a smaller productization signal, but it still sits on the agent-runtime path.
+
+### Updated reading
+This remains **append_existing**. The agent stack is still moving toward explicit harnesses, skills, browser control, and provisionable runtimes.
+
+## Related pages
+
+- [[managed-agents-architecture]]
 - [[honcho]]
 - [[ai-infra-operating-economics]]
 - [[claude-code-best-practice]]

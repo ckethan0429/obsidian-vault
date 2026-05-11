@@ -263,6 +263,24 @@ The full day stayed inside one durable axis: managed agents / AI infra / browser
 ### Why this matters
 The 22:00 pass is another clean example of strict routing: keep the raw evidence intact, append the durable operator-control signals, and avoid promoting feed rotation into a separate wiki branch.
 
+## 2026-05-10 same-day refinement summary
+
+The full day stayed inside the same durable axis: managed agents / AI infra / browser-control / shared-memory / education packaging. No new concept crossed the promotion threshold.
+
+### Routed as `raw_only`
+- Repeated social-feed noise stayed raw-only when it did not add durable meaning, including noisy YouTube sports/Shorts/live items and overlapping Threads / Google / GitHub repeat slices.
+- The Meta Threads API explorer error and other operational troubleshooting stayed raw-only as control-plane context.
+
+### Routed as `append_existing`
+- The 08:00 and 19:00 live social passes reinforced the managed-agents / Claude Code / AI-infra / browser-control / shared-memory axis with concrete examples rather than new themes.
+- The 11:00 and 22:00 new-target passes strengthened the same stack with Codex safety, Gemini Embedding 2, production agents, Copilot cloud-agent governance, browser/MCP tooling, and the `GenericAgent` / `omlx` / `everything-claude-code` trio.
+
+### Not routed as `promote_to_wiki`
+- No stable new durable concept emerged beyond the existing managed-agent and AI-infra branches.
+
+### Why this matters
+- Honcho behaved as intended: preserve the raw evidence, let the durable pages absorb only reinforcement, and avoid promoting feed rotation into a separate wiki branch.
+
 ## Related pages
 
 - [[interest-signal-sources]]

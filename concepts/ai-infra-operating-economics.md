@@ -1,7 +1,7 @@
 ---
 title: AI infra operating economics
 created: 2026-04-22
-updated: 2026-05-10
+updated: 2026-05-11
 type: concept
 tags: [infrastructure, gpu, storage, proxmox, agents, business, strategy]
 sources: [raw/transcripts/interest-signal-collection-08-00-2026-04-22.md, raw/transcripts/interest-signal-collection-08-00-2026-04-22-threads-liked-rerun.md, raw/transcripts/interest-signal-collection-19-00-2026-04-22.md, raw/transcripts/interest-signal-note-19-00-2026-04-22.md, raw/transcripts/interest-signal-collection-08-00-2026-04-23.md, raw/transcripts/interest-signal-collection-08-00-2026-04-26.md, raw/transcripts/interest-signal-collection-19-00-2026-04-26.md, raw/transcripts/interest-signal-note-19-00-2026-04-26.md, raw/transcripts/interest-signal-collection-08-00-2026-04-27.md, raw/transcripts/interest-signal-note-08-00-2026-04-27.md, raw/transcripts/interest-signal-collection-19-00-2026-04-27.md, raw/transcripts/interest-signal-note-19-00-2026-04-27.md, raw/transcripts/interest-signal-collection-08-00-2026-04-28.md, raw/transcripts/interest-signal-note-08-00-2026-04-28.md, raw/transcripts/interest-signal-collection-19-00-2026-04-28.md, raw/transcripts/interest-signal-note-19-00-2026-04-28.md, raw/transcripts/interest-signal-collection-08-00-2026-04-29.md, raw/transcripts/interest-signal-note-08-00-2026-04-29.md, raw/transcripts/interest-signal-collection-11-00-2026-04-29.md, raw/transcripts/interest-signal-collection-19-00-2026-04-29.md, raw/transcripts/interest-signal-note-19-00-2026-04-29.md, raw/transcripts/interest-signal-collection-22-00-2026-04-29.md, raw/transcripts/interest-signal-note-22-00-2026-04-29.md, raw/transcripts/interest-signal-collection-11-00-2026-04-30.md, raw/transcripts/interest-signal-note-11-00-2026-04-30.md, raw/transcripts/interest-signal-collection-19-00-2026-04-30.md, raw/transcripts/interest-signal-note-19-00-2026-04-30.md, raw/transcripts/interest-signal-collection-22-00-2026-04-30.md, raw/transcripts/interest-signal-note-22-00-2026-04-30.md, raw/transcripts/interest-signal-collection-11-00-2026-05-01.md, raw/transcripts/interest-signal-note-11-00-2026-05-01.md, raw/transcripts/interest-signal-collection-22-00-2026-05-01.md, raw/transcripts/interest-signal-note-22-00-2026-05-01.md, raw/transcripts/interest-signal-collection-22-00-2026-05-02.md, raw/transcripts/interest-signal-note-22-00-2026-05-02.md, raw/transcripts/interest-signal-collection-11-00-2026-05-03.md, raw/transcripts/interest-signal-collection-11-00-2026-05-08.md, raw/transcripts/interest-signal-collection-22-00-2026-05-08.md, raw/transcripts/interest-signal-collection-11-00-2026-05-09.md, raw/transcripts/interest-signal-collection-11-00-2026-05-10.md]
@@ -606,6 +606,20 @@ The 22:00 new-target pass stayed on the same macro-axis. The only clearly new it
 
 ### Updated reading
 This is still **append_existing**. The late-evening pass reinforces the same AI infra / operator economics pattern with a slightly fresher repo rotation and one more AWS admin-control note.
+
+## 2026-05-11 new-target reinforcement
+
+The 11:00 pass stayed on the same operating-economics axis, but it made the production runtime and control-plane layer even more explicit.
+
+### What looked fresh
+- **Google** added `Supercharging LLM inference on Google TPUs`, `Building real-world on-device AI with LiteRT and NPU`, `Agents CLI in Agent Platform`, `A2UI v0.9`, and `MaxText Expands Post-Training Capabilities`, which keeps pushing the stack toward inference economics, on-device deployment, agent packaging, and TPU post-training.
+- **Cloudflare** added `Dynamic Workflows` and `Agents can now create Cloudflare accounts, buy domains, and deploy`, which reinforces the tenant-routed execution / agentic-cloud story.
+- **GitHub Changelog** added `Claude Sonnet 4 deprecated` and `Enterprise Live Migrations`, which are useful lifecycle and migration-control signals for the same platform layer.
+- **GitHub Trending** rotated into `agent-skills`, `GenericAgent`, `CloakBrowser`, `omlx`, and `9router`, keeping the agent harness / browser control / inference-server cluster alive.
+- **OpenAI** added `Simplex rethinks software development with Codex`, which is a smaller but still relevant productization signal.
+
+### Updated reading
+This remains **append_existing**. The new-target track is still converging on deployable AI infra, control planes, and operating economics rather than a new macro branch.
 
 ## Related pages
 
