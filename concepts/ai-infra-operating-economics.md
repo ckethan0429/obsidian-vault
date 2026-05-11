@@ -621,6 +621,20 @@ The 11:00 pass stayed on the same operating-economics axis, but it made the prod
 ### Updated reading
 This remains **append_existing**. The new-target track is still converging on deployable AI infra, control planes, and operating economics rather than a new macro branch.
 
+## 2026-05-11 late-evening new-target reinforcement
+
+The 22:00 pass stayed on the same macro-axis. It added a few new official launches and repo rotations, but they still land inside deployable AI infra, control-plane automation, and harness/memory tooling.
+
+### What looked fresh
+- **Google** added `Speeding Up AI: Bringing Google Colossus to PyTorch via GCSFS and Rapid Bucket`, which makes storage fabric and training throughput the explicit lever.
+- **OpenAI** added `How enterprises are scaling AI`, `OpenAI launches DeployCo`, `Advancing voice intelligence with new models in the API`, and `Testing ads in ChatGPT`, which reads as enterprise packaging, API-surface expansion, and monetization maturity rather than a new macro branch.
+- **AWS** added `Route 53 Global Resolver`, `IAM Policy Autopilot`, and IPv6 Resolver endpoint updates, reinforcing the control-plane and policy-automation layer.
+- **GitHub Changelog** added `Upcoming deprecation of GPT-4.1` and `CodeQL 2.25.3 adds Swift 6.3 support`, which keeps lifecycle and developer-tooling signals visible.
+- **GitHub Trending** rotated into `NousResearch/hermes-agent` and `agentmemory`, with `react-doctor` as a smaller agent-quality signal.
+
+### Updated reading
+This is still **append_existing**. The new-target track remains anchored on deployable AI infra, control planes, and operator economics; the 22:00 pass adds fresher examples, not a new branch.
+
 ## Related pages
 
 - [[virton-career-and-business-profile]]

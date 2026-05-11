@@ -735,3 +735,16 @@
 - Freshest deltas: Google's TPU inference / LiteRT / Agents CLI / A2UI / MaxText wave, Cloudflare's Dynamic Workflows and agent provisioning, GitHub Changelog's Claude Sonnet 4 deprecation and Enterprise Live Migrations, and GitHub Trending's agent-skills / GenericAgent / CloakBrowser / 9router rotation
 - Appended durable reinforcement to `concepts/ai-infra-operating-economics.md` and `concepts/managed-agents-practical-summary.md`
 - OpenAI added a smaller Codex productization delta; Anthropic and most AWS items stayed baseline or operational context
+
+## [2026-05-11] ingest | Interest signal collection 19:00 live pass
+- Saved raw source: `raw/transcripts/interest-signal-collection-19-00-2026-05-11.md`
+- Live CDP surfaces were usable across Threads, YouTube, GitHub stars, Google My Activity, ChatGPT, and Claude
+- Strongest fresh items were YouTube's `Redis: From Cache to AI Agent Backbone`, `NEW Google Browser Use AI Agent is INSANE!`, `Lobster Father: New Telegram AI Agent is INSANE!`, and `변호사가 앱으로 시장을 바꾼다 (Claude Code)` plus Google My Activity's `GPT-5.5` / OpenAI browsing context
+- Threads, GitHub stars, ChatGPT, and Claude were mostly reinforcement; no durable concept page was promoted
+
+## [2026-05-11] ingest | Interest signal collection 22:00 new-target run
+- Saved raw source: `raw/transcripts/interest-signal-collection-22-00-2026-05-11.md`
+- Compared against the 2026-05-11 11:00 new-target baseline plus the 2026-05-10 late-evening track
+- Freshest deltas: Google's Colossus-to-PyTorch storage/training-path update, OpenAI's enterprise scaling / DeployCo / voice-intelligence / ads-testing posts, AWS Route 53 / IAM Policy Autopilot control-plane updates, GitHub Changelog's GPT-4.1 deprecation, and GitHub Trending's `hermes-agent` / `agentmemory` rotation
+- Appended durable reinforcement to `concepts/ai-infra-operating-economics.md`
+- Cloudflare and Anthropic stayed baseline-heavy; no new durable branch was promoted
