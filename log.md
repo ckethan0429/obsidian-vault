@@ -748,3 +748,22 @@
 - Freshest deltas: Google's Colossus-to-PyTorch storage/training-path update, OpenAI's enterprise scaling / DeployCo / voice-intelligence / ads-testing posts, AWS Route 53 / IAM Policy Autopilot control-plane updates, GitHub Changelog's GPT-4.1 deprecation, and GitHub Trending's `hermes-agent` / `agentmemory` rotation
 - Appended durable reinforcement to `concepts/ai-infra-operating-economics.md`
 - Cloudflare and Anthropic stayed baseline-heavy; no new durable branch was promoted
+
+## [2026-05-11] update | Post-collection refinement — reinforcement only
+- Reviewed the same-day `raw/transcripts/interest-signal-collection-08-00-2026-05-11.md`, `raw/transcripts/interest-signal-collection-11-00-2026-05-11.md`, `raw/transcripts/interest-signal-collection-19-00-2026-05-11.md`, and `raw/transcripts/interest-signal-collection-22-00-2026-05-11.md` evidence set
+- Recorded the triage outcome in `concepts/honcho.md` as `raw_only` for 08:00 / 19:00 and `append_existing` for 11:00 / 22:00, with no `promote_to_wiki` branch
+- No index update was needed because the day produced reinforcement only and did not add a new durable page
+
+## [2026-05-12] ingest | Interest signal collection 08:00 run
+- Saved raw source: `raw/transcripts/interest-signal-collection-08-00-2026-05-12.md`
+- Live CDP surfaces were usable across Threads, YouTube, GitHub stars, Google My Activity, ChatGPT, and Claude
+- Freshest items were YouTube's `Redis: From Cache to AI Agent Backbone`, `NEW Google Browser Use AI Agent is INSANE!`, `Lobster Father: New Telegram AI Agent is INSANE!`, and the watch-later expansion around `What Is an AI Stack?`, `private AI mini-cluster`, and `Spec Kit`
+- Threads, GitHub stars, and most of Google/ChatGPT/Claude were reinforcement-heavy; no durable concept page was promoted
+- The run was treated as raw-only, so no index change was needed
+
+## [2026-05-12] ingest | Interest signal collection 11:00 new-target run
+- Saved raw source: `raw/transcripts/interest-signal-collection-11-00-2026-05-12.md`
+- Compared against the 2026-05-11 22:00 new-target baseline plus the 2026-05-11 11:00 track
+- Freshest deltas were OpenAI's ChatGPT adoption report, AWS's P6-B200 / G6e / G6 / Aurora DSQL region-capacity expansions, GitHub Changelog's GitHub Mobile repo-creation post, and GitHub Trending's `AiToEarn` rotation
+- Google stayed unchanged; Cloudflare and the rest of GitHub Trending were mostly reinforcement
+- The pass was routed raw-only, so no durable concept page was promoted and no index update was needed
