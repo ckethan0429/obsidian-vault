@@ -767,3 +767,17 @@
 - Freshest deltas were OpenAI's ChatGPT adoption report, AWS's P6-B200 / G6e / G6 / Aurora DSQL region-capacity expansions, GitHub Changelog's GitHub Mobile repo-creation post, and GitHub Trending's `AiToEarn` rotation
 - Google stayed unchanged; Cloudflare and the rest of GitHub Trending were mostly reinforcement
 - The pass was routed raw-only, so no durable concept page was promoted and no index update was needed
+
+## [2026-05-12] ingest | Interest signal collection 19:00 live pass
+- Saved raw source: `raw/transcripts/interest-signal-collection-19-00-2026-05-12.md`
+- Compared against the 2026-05-12 08:00 raw baseline and the 2026-05-12 11:00 new-target baseline
+- Freshest visible deltas were the `calmtiger_` Claude Code setup/plugins post on Threads, a lower-fold YouTube rotation with `Inside the Data Center Boom`, `Inside OpenAI's Stargate Megafactory`, `State of the Claw`, and other Claude Code / AI-agent / packaging titles, plus new ChatGPT and Claude recent-sidebar items
+- Threads liked/activity/profile/reposts/replies, GitHub Stars, and Google My Activity were reinforcement-heavy
+- The pass was routed raw-only, so no durable concept page was promoted and no index update was needed
+
+## [2026-05-12] ingest | Interest signal collection 22:00 new-target run
+- Saved raw source: `raw/transcripts/interest-signal-collection-22-00-2026-05-12.md`
+- Compared against the 2026-05-12 11:00 new-target baseline plus prior new-target evidence
+- Freshest new-target items were Microsoft DevBlogs' `Securing MCP: A Control Plane for Agent Tool Execution`, Docker's sandboxing and coding-agent-fleet posts, Hugging Face's `vLLM V0 to V1` / AWS inference substrate items, and Kubernetes v1.36 release notes
+- Routed append_existing into `concepts/ai-infra-operating-economics.md` because the signal sharpened the existing AI infra / control-plane / sandboxing thesis rather than opening a separate durable branch
+- No index change was needed; the update stayed within existing durable pages

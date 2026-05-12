@@ -1,7 +1,7 @@
 ---
 title: AI infra operating economics
 created: 2026-04-22
-updated: 2026-05-11
+updated: 2026-05-12
 type: concept
 tags: [infrastructure, gpu, storage, proxmox, agents, business, strategy]
 sources: [raw/transcripts/interest-signal-collection-08-00-2026-04-22.md, raw/transcripts/interest-signal-collection-08-00-2026-04-22-threads-liked-rerun.md, raw/transcripts/interest-signal-collection-19-00-2026-04-22.md, raw/transcripts/interest-signal-note-19-00-2026-04-22.md, raw/transcripts/interest-signal-collection-08-00-2026-04-23.md, raw/transcripts/interest-signal-collection-08-00-2026-04-26.md, raw/transcripts/interest-signal-collection-19-00-2026-04-26.md, raw/transcripts/interest-signal-note-19-00-2026-04-26.md, raw/transcripts/interest-signal-collection-08-00-2026-04-27.md, raw/transcripts/interest-signal-note-08-00-2026-04-27.md, raw/transcripts/interest-signal-collection-19-00-2026-04-27.md, raw/transcripts/interest-signal-note-19-00-2026-04-27.md, raw/transcripts/interest-signal-collection-08-00-2026-04-28.md, raw/transcripts/interest-signal-note-08-00-2026-04-28.md, raw/transcripts/interest-signal-collection-19-00-2026-04-28.md, raw/transcripts/interest-signal-note-19-00-2026-04-28.md, raw/transcripts/interest-signal-collection-08-00-2026-04-29.md, raw/transcripts/interest-signal-note-08-00-2026-04-29.md, raw/transcripts/interest-signal-collection-11-00-2026-04-29.md, raw/transcripts/interest-signal-collection-19-00-2026-04-29.md, raw/transcripts/interest-signal-note-19-00-2026-04-29.md, raw/transcripts/interest-signal-collection-22-00-2026-04-29.md, raw/transcripts/interest-signal-note-22-00-2026-04-29.md, raw/transcripts/interest-signal-collection-11-00-2026-04-30.md, raw/transcripts/interest-signal-note-11-00-2026-04-30.md, raw/transcripts/interest-signal-collection-19-00-2026-04-30.md, raw/transcripts/interest-signal-note-19-00-2026-04-30.md, raw/transcripts/interest-signal-collection-22-00-2026-04-30.md, raw/transcripts/interest-signal-note-22-00-2026-04-30.md, raw/transcripts/interest-signal-collection-11-00-2026-05-01.md, raw/transcripts/interest-signal-note-11-00-2026-05-01.md, raw/transcripts/interest-signal-collection-22-00-2026-05-01.md, raw/transcripts/interest-signal-note-22-00-2026-05-01.md, raw/transcripts/interest-signal-collection-22-00-2026-05-02.md, raw/transcripts/interest-signal-note-22-00-2026-05-02.md, raw/transcripts/interest-signal-collection-11-00-2026-05-03.md, raw/transcripts/interest-signal-collection-11-00-2026-05-08.md, raw/transcripts/interest-signal-collection-22-00-2026-05-08.md, raw/transcripts/interest-signal-collection-11-00-2026-05-09.md, raw/transcripts/interest-signal-collection-11-00-2026-05-10.md]
@@ -634,6 +634,19 @@ The 22:00 pass stayed on the same macro-axis. It added a few new official launch
 
 ### Updated reading
 This is still **append_existing**. The new-target track remains anchored on deployable AI infra, control planes, and operator economics; the 22:00 pass adds fresher examples, not a new branch.
+
+## 2026-05-12 new-target reinforcement
+
+The 22:00 pass added a cleaner control-plane and sandboxing edge, while still landing inside the existing AI infra economics thesis.
+
+### What looked fresh
+- **Microsoft DevBlogs** added `Securing MCP: A Control Plane for Agent Tool Execution`, which makes the agent-tool boundary more explicit: MCP is becoming the execution surface, but the security/control plane still has to be designed around it.
+- **Docker** added `Comparing Different Approaches to Sandboxing` and `A Virtual Agent team at Docker`, which turns isolated coding-agent fleets into a concrete product/runtime pattern.
+- **Hugging Face** added `vLLM V0 to V1: Correctness Before Corrections in RL` and `Building Blocks for Foundation Model Training and Inference on AWS`, which keep the inference/training substrate story visible.
+- **Kubernetes** v1.36 release notes added stronger cluster-control primitives: DRA maturity, sharded list/watch, declarative validation GA, and volume group snapshots GA.
+
+### Updated reading
+This is still **append_existing**. The new-target pass strengthens the same durable thesis, but with a sharper emphasis on agent tool security, sandbox isolation, and Kubernetes substrate maturity.
 
 ## Related pages
 
