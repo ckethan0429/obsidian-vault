@@ -793,3 +793,17 @@
 - Routed append_existing into `concepts/ai-infra-operating-economics.md` because the signal sharpened the existing AI infra / managed-agent / control-plane thesis rather than opening a separate durable branch
 - No index change was needed; the update stayed within existing durable pages
 
+## [2026-05-13] ingest | Interest signal collection 19:00 live pass
+- Saved raw source: `raw/transcripts/interest-signal-collection-19-00-2026-05-13.md`
+- Compared against the 2026-05-13 08:00 raw baseline and the 2026-05-13 11:00 new-target baseline
+- Freshest visible deltas were GitHub stars (`blader/humanizer`, `k2-fsa/OmniVoice`), a Google My Activity trail around Threads API / pricing / long-running agents, and fresh YouTube items about conversational agents, skills, agent backbones, and browser-use agents
+- Threads, ChatGPT, and Claude remained reinforcement-heavy on the same Claude Code / agent / infra / education / business-model axis
+- The pass was routed raw-only, so no durable concept page was promoted and no index change was needed
+
+## [2026-05-13] ingest | Interest signal collection 22:00 new-target run
+- Saved raw source: `raw/transcripts/interest-signal-collection-22-00-2026-05-13.md`
+- Compared against the 2026-05-13 11:00 new-target baseline plus prior new-target evidence
+- Freshest new-target items were AWS Security Agent full repository code reviews, Kubernetes v1.36 Pod-Level Resource Managers / Memory QoS / pod-level vertical scaling / admission control, Docker microVM sandbox architecture, GitHub CodeQL / Copilot governance, and new GitHub Trending agent / infra / browser-control repos
+- Routed append_existing into `concepts/ai-infra-operating-economics.md` because the signal sharpened the existing AI infra / control-plane thesis rather than opening a separate durable branch
+- No index change was needed; the update stayed within existing durable pages
+
