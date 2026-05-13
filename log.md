@@ -781,3 +781,15 @@
 - Freshest new-target items were Microsoft DevBlogs' `Securing MCP: A Control Plane for Agent Tool Execution`, Docker's sandboxing and coding-agent-fleet posts, Hugging Face's `vLLM V0 to V1` / AWS inference substrate items, and Kubernetes v1.36 release notes
 - Routed append_existing into `concepts/ai-infra-operating-economics.md` because the signal sharpened the existing AI infra / control-plane / sandboxing thesis rather than opening a separate durable branch
 - No index change was needed; the update stayed within existing durable pages
+## [2026-05-12] update | Daily refinement pass
+- Updated `concepts/honcho.md`
+- Updated `concepts/managed-agents-practical-summary.md`
+- Updated `index.md`
+
+## [2026-05-13] ingest | Interest signal collection 11:00 new-target run
+- Saved raw source: `raw/transcripts/interest-signal-collection-11-00-2026-05-13.md`
+- Compared against the 2026-05-12 new-target baseline plus prior new-target evidence
+- Freshest new-target items were Google's long-running ADK agent post, OpenAI's Codex-in-workflow examples, Docker's AI governance / sandboxing posts, AWS Lambda Managed Instances / EventBridge Scheduler / Karpenter control-plane updates, Cloudflare's infra-security hardening, and new GitHub Trending agent/tooling repos
+- Routed append_existing into `concepts/ai-infra-operating-economics.md` because the signal sharpened the existing AI infra / managed-agent / control-plane thesis rather than opening a separate durable branch
+- No index change was needed; the update stayed within existing durable pages
+
