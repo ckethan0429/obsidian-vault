@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with a one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-05-12 | Total pages: 56
+> Last updated: 2026-05-14 | Total pages: 56
 
 ## Entities
 <!-- Alphabetical within section -->
@@ -24,7 +24,7 @@
 - [[ck-investing-and-life-profile]] — CK's investing interests, language goals, lifestyle themes, and parenting context.
 - [[ck-technology-engineering-profile]] — CK's infrastructure, DevOps, software, AI infra, IoT, and robotics profile.
 - [[graphs]] — Introductory graph-theory note covering nodes, edges, graph types, representations, and BFS/DFS as foundations for routing and dependency thinking.
-- [[honcho]] — Working name for the memory-routing layer that ranks signals before promotion into durable wiki knowledge; reinforced again on 2026-05-08 as the strict raw_only vs append_existing router for the new-target pass, plus a late-evening 22:00 example and a same-day 23:00 refinement summary that kept Anthropic/Cloudflare raw_only and appended Google/OpenAI/AWS/GitHub signals; reinforced again on 2026-05-09 by a late-evening 22:00 routing example that kept Google/GitHub Trending append_existing and left OpenAI/Anthropic/AWS/Cloudflare raw_only; reinforced again on 2026-05-10 by a late-evening new-target routing example that kept GenericAgent / omlx / everything-claude-code append_existing and AWS Marketplace tax-management raw_only.
+- [[honcho]] — Working name for the memory-routing layer that ranks signals before promotion into durable wiki knowledge; reinforced again on 2026-05-08 as the strict raw_only vs append_existing router for the new-target pass, plus a late-evening 22:00 example and a same-day 23:00 refinement summary that kept Anthropic/Cloudflare raw_only and appended Google/OpenAI/AWS/GitHub signals; reinforced again on 2026-05-09 by a late-evening 22:00 routing example that kept Google/GitHub Trending append_existing and left OpenAI/Anthropic/AWS/Cloudflare raw_only; reinforced again on 2026-05-10 by a late-evening new-target routing example that kept GenericAgent / omlx / everything-claude-code append_existing and AWS Marketplace tax-management raw_only; reinforced again on 2026-05-14 by a same-day refinement summary that kept fresh GitHub-star and Google-search rows raw_only while leaving the durable agent-runtime / sandbox / control-plane signals absorbed by existing pages.
 - [[interest-signal-sources]] — CK's preferred input sources for building an interest map across platforms.
 - [[interest-signal-update-test-run]] — Live Chrome CDP test run summarizing recent X likes and Threads activity/reposts, and YouTube subscriptions.
 - [[korean-ai-agent-skills]] — Localized skill ecosystems for Korean AI-agent workflows.

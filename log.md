@@ -806,4 +806,39 @@
 - Freshest new-target items were AWS Security Agent full repository code reviews, Kubernetes v1.36 Pod-Level Resource Managers / Memory QoS / pod-level vertical scaling / admission control, Docker microVM sandbox architecture, GitHub CodeQL / Copilot governance, and new GitHub Trending agent / infra / browser-control repos
 - Routed append_existing into `concepts/ai-infra-operating-economics.md` because the signal sharpened the existing AI infra / control-plane thesis rather than opening a separate durable branch
 - No index change was needed; the update stayed within existing durable pages
+## [2026-05-13] update | Daily refinement pass
+- Updated `concepts/honcho.md`
+- Updated `concepts/managed-agents-practical-summary.md`
+- Updated `index.md`
+- Same-day raw evidence stayed reinforcement-only; 08:00/19:00 were raw_only and 11:00/22:00 were append_existing
 
+## [2026-05-14] ingest | Interest signal collection 08:00 run
+- Saved raw source: `raw/transcripts/interest-signal-collection-08-00-2026-05-14.md`
+- Compared against the 2026-05-13 baseline
+- Freshest visible deltas were new GitHub stars, a few rotated YouTube AI items, new Google My Activity entries, and refreshed ChatGPT / Claude recent-sidebar items
+- Routed raw_only because the run stayed inside the existing Claude Code / agent / infra / wiki-ops / education axis
+- No durable concept page was promoted and no index change was needed
+
+## [2026-05-14] ingest | Interest signal collection 11:00 run
+- Saved raw source: `raw/transcripts/interest-signal-collection-11-00-2026-05-14.md`
+- Compared against the 2026-05-13 22:00 new-target baseline
+- Freshest visible deltas were Google long-running agents / TPU / Gemini Embedding 2, OpenAI Codex Windows sandboxing, Cloudflare Browser Run on Containers, Microsoft Securing MCP, Kubernetes workload-aware scheduling, and GitHub Copilot cloud-agent REST control
+- Routed append_existing because the run broadened the same agent-runtime / sandbox / control-plane / infra-economics thesis
+- Updated `concepts/managed-agents-practical-summary.md` and `concepts/ai-infra-operating-economics.md`
+- No new concept page or index change was needed
+
+## [2026-05-14] ingest | Interest signal collection 19:00 run
+- Saved raw source: `raw/transcripts/interest-signal-collection-19-00-2026-05-14.md`
+- Compared against the 2026-05-14 08:00 and 11:00 baselines
+- Freshest visible deltas were new GitHub stars around memory / harness / Claude Code tooling, fresh Google My Activity rows (`KRX:071050`, `박동빈`), and rotated Threads / YouTube / ChatGPT / Claude rows that stayed inside the existing operator-economics and agent-runtime axis
+- Routed raw_only because the pass remained reinforcement-only rather than a new durable branch
+- Updated `concepts/honcho.md`
+- No concept page or index change was needed
+
+## [2026-05-14] ingest | Interest signal collection 22:00 new-target pass
+- Saved raw source: `raw/transcripts/interest-signal-collection-22-00-2026-05-14.md`
+- Compared against the 2026-05-14 11:00 new-target baseline plus prior new-target evidence
+- Freshest visible deltas were Cloudflare Dynamic Workflows, Google LiteRT / NPU on-device AI, OpenAI Codex adoption / supply-chain response, Kubernetes volume snapshots / DRA maturity, GitHub Changelog Copilot review / billing updates, and GitHub Trending's agent-memory / skills rotation
+- Routed append_existing because the new items deepen the same AI infra / managed-agents thesis rather than opening a new durable branch
+- Updated `concepts/ai-infra-operating-economics.md` and `concepts/managed-agents-practical-summary.md`
+- No index change was needed

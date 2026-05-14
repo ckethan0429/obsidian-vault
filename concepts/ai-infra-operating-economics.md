@@ -1,7 +1,7 @@
 ---
 title: AI infra operating economics
 created: 2026-04-22
-updated: 2026-05-13
+updated: 2026-05-14
 type: concept
 tags: [infrastructure, gpu, storage, proxmox, agents, business, strategy]
 sources: [raw/transcripts/interest-signal-collection-11-00-2026-05-13.md, raw/transcripts/interest-signal-collection-22-00-2026-05-13.md, raw/transcripts/interest-signal-collection-08-00-2026-04-22.md, raw/transcripts/interest-signal-collection-08-00-2026-04-22-threads-liked-rerun.md, raw/transcripts/interest-signal-collection-19-00-2026-04-22.md, raw/transcripts/interest-signal-note-19-00-2026-04-22.md, raw/transcripts/interest-signal-collection-08-00-2026-04-23.md, raw/transcripts/interest-signal-collection-08-00-2026-04-26.md, raw/transcripts/interest-signal-collection-19-00-2026-04-26.md, raw/transcripts/interest-signal-note-19-00-2026-04-26.md, raw/transcripts/interest-signal-collection-08-00-2026-04-27.md, raw/transcripts/interest-signal-note-08-00-2026-04-27.md, raw/transcripts/interest-signal-collection-19-00-2026-04-27.md, raw/transcripts/interest-signal-note-19-00-2026-04-27.md, raw/transcripts/interest-signal-collection-08-00-2026-04-28.md, raw/transcripts/interest-signal-note-08-00-2026-04-28.md, raw/transcripts/interest-signal-collection-19-00-2026-04-28.md, raw/transcripts/interest-signal-note-19-00-2026-04-28.md, raw/transcripts/interest-signal-collection-08-00-2026-04-29.md, raw/transcripts/interest-signal-note-08-00-2026-04-29.md, raw/transcripts/interest-signal-collection-11-00-2026-04-29.md, raw/transcripts/interest-signal-collection-19-00-2026-04-29.md, raw/transcripts/interest-signal-note-19-00-2026-04-29.md, raw/transcripts/interest-signal-collection-22-00-2026-04-29.md, raw/transcripts/interest-signal-note-22-00-2026-04-29.md, raw/transcripts/interest-signal-collection-11-00-2026-04-30.md, raw/transcripts/interest-signal-note-11-00-2026-04-30.md, raw/transcripts/interest-signal-collection-19-00-2026-04-30.md, raw/transcripts/interest-signal-note-19-00-2026-04-30.md, raw/transcripts/interest-signal-collection-22-00-2026-04-30.md, raw/transcripts/interest-signal-note-22-00-2026-04-30.md, raw/transcripts/interest-signal-collection-11-00-2026-05-01.md, raw/transcripts/interest-signal-note-11-00-2026-05-01.md, raw/transcripts/interest-signal-collection-22-00-2026-05-01.md, ... [truncated]
@@ -676,6 +676,33 @@ The 22:00 pass stayed inside the same macro-axis, but the freshest rows were the
 
 ### Updated reading
 This is still **append_existing**. The 22:00 pass sharpens the same AI infra / control-plane thesis with security review, sandboxing, pod-level isolation, and repo/tooling rotations rather than introducing a new durable branch.
+
+## 2026-05-14 new-target reinforcement
+
+The 11:00 new-target pass broadened the substrate story without changing the macro thesis.
+
+### What looked fresh
+- **AWS** added `Amazon SageMaker Data Agent now available for IAM Identity Center domains`, `Amazon FSx for OpenZFS now supports creating Multi-AZ file systems in shared VPCs`, and `AWS Lambda supports scheduled scaling for functions on Lambda Managed Instances`, which all point at more productized operational surfaces.
+- **Kubernetes**'s `Advancing Workload-Aware Scheduling`, `PSI Metrics for Kubernetes Graduates to GA`, and `Server-Side Sharded List and Watch` sharpen the control-plane economics around scale, saturation, and controller fan-out.
+- **Cloudflare**'s `Browser Run: now running on Cloudflare Containers` makes browser/runtime packaging look like a sellable infrastructure primitive.
+- **Google**'s TPU, embedding, and Colossus-to-PyTorch posts reinforce the same deployment/economics thread from the model and training side.
+
+### Updated reading
+This remains **append_existing**. The day adds more evidence that infra value is moving toward scheduling, isolation, execution policy, and packaging around agentic workloads.
+
+## 2026-05-14 late-evening new-target reinforcement
+
+The 22:00 pass stayed in the same macro-axis, but it made the runtime / packaging layer more concrete.
+
+### What looked fresh
+- **Cloudflare**'s `Introducing Dynamic Workflows: durable execution that follows the tenant` is a clean durable-execution primitive: tenant-provided code, near-zero idle cost, and platform-scale workflows.
+- **Google**'s `Building real-world on-device AI with LiteRT and NPU` extends the economics story down to the edge: NPUs, battery constraints, and local inference packaging.
+- **OpenAI**'s `How finance teams use Codex`, `How NVIDIA engineers and researchers build with Codex`, and `AutoScout24 scales engineering with AI-powered workflows` show Codex moving deeper into repeatable enterprise workflows rather than isolated demos.
+- **Kubernetes**'s `Moving Volume Group Snapshots to GA` and `More Drivers, New Features, and the Next Era of DRA` reinforce the substrate / control-plane side of the same operating story.
+- **GitHub Changelog**'s Copilot review UX and usage-based billing posts make governance and monetization more explicit, while **GitHub Trending** rotated toward `agentmemory`, `superpowers`, and `scientific-agent-skills`.
+
+### Updated reading
+This is still **append_existing**. The pass adds more proof that the durable layer is operational economics: execution, packaging, memory, skills, billing, and substrate maturity.
 
 ## Related pages
 
