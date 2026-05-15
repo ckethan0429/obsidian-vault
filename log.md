@@ -842,3 +842,22 @@
 - Routed append_existing because the new items deepen the same AI infra / managed-agents thesis rather than opening a new durable branch
 - Updated `concepts/ai-infra-operating-economics.md` and `concepts/managed-agents-practical-summary.md`
 - No index change was needed
+
+## [2026-05-14] update | Same-day refinement summary finalized
+- Refined the full 2026-05-14 interest-signal day as reinforcement-only
+- Updated `concepts/honcho.md` with the final 23:00 Honcho triage summary
+- No index change was needed
+
+## [2026-05-15] ingest | Interest signal collection 08:00 run
+- Saved raw source: `raw/transcripts/interest-signal-collection-08-00-2026-05-15.md`
+- Compared against the 2026-05-14 baseline
+- Freshest visible deltas were the Claude/ChatGPT business + shared-memory conversations, especially the education + SaaS + hosted-workspace framing around Proxmox / OpenClaw / ready boxes; YouTube, Threads, GitHub stars, and Google My Activity were mostly reinforcement-heavy
+- Routed append_existing into `concepts/virton-career-and-business-profile.md`; the rest of the run stayed raw_only as evidence
+- No index change was needed because the update stayed inside an existing durable page
+
+## [2026-05-15] ingest | Interest signal collection 11:00 new-target pass
+- Saved raw source: `raw/transcripts/interest-signal-collection-11-00-2026-05-15.md`
+- Compared against the 2026-05-14 22:00 new-target baseline; fresh deltas came from Google Genkit / AI Edge, OpenAI Codex mobile, AWS CloudFront mTLS / Bedrock prompt optimization / Qwen3.6 customization, Cloudflare ClickHouse billing analysis, GitHub Copilot agent surfaces, Kubernetes Service ExternalIPs deprecation / DRA maturity, and Hugging Face embeddings / batching
+- GitHub Trending repeated the prior agent-memory / skills cluster, so it stayed reinforcement-only
+- Appended `concepts/ai-infra-operating-economics.md` and updated `index.md`
+- No new durable page was promoted

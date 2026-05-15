@@ -1,10 +1,10 @@
 ---
 title: Virton Career and Business Profile
 created: 2026-04-14
-updated: 2026-04-29
+updated: 2026-05-15
 type: concept
 tags: [personal-knowledge, startup, infrastructure, private-cloud, career, product, gpu]
-sources: [raw/transcripts/ck-interest-map-business-life-2026-04-14.md, raw/transcripts/interest-signal-collection-08-00-2026-04-22.md, raw/transcripts/interest-signal-collection-08-00-2026-04-22-threads-liked-rerun.md, raw/transcripts/interest-signal-collection-19-00-2026-04-22.md, raw/transcripts/virton-equity-negotiation-baseline-2026-04-29.md]
+sources: [raw/transcripts/ck-interest-map-business-life-2026-04-14.md, raw/transcripts/interest-signal-collection-08-00-2026-04-22.md, raw/transcripts/interest-signal-collection-08-00-2026-04-22-threads-liked-rerun.md, raw/transcripts/interest-signal-collection-19-00-2026-04-22.md, raw/transcripts/virton-equity-negotiation-baseline-2026-04-29.md, raw/transcripts/interest-signal-collection-08-00-2026-05-15.md]
 ---
 
 # Virton Career and Business Profile
@@ -72,6 +72,23 @@ CK's situation is now recorded as an **early core employee who grew into the de 
 
 ## Why this matters
 This profile links CK's infrastructure expertise to startup leverage: open source for top-of-funnel attention, consulting for near-term cash flow, and platform/product layers for long-term optionality.
+
+## 2026-05-15 morning reinforcement
+The 2026-05-15 live surfaces did not change the macro thesis, but they made the education + SaaS + hosted-workspace packaging shape more explicit again.
+
+### What stayed reinforced
+- The current Claude conversation kept returning to the same Korean-market insight: **education is easier to budget than pure SaaS**, so the product surface should look like training, onboarding, or an implementation package first.
+- The practical commercial shape stayed the same: **Proxmox / VM setup → OpenClaw or similar ready workspace → hosting period / support / conversion**.
+- ChatGPT, Google My Activity, and the Threads / YouTube surfaces kept the same operator stack visible: Claude Code, mem0, Qdrant, Ollama, Proxmox, OpenClaw, shared memory, and agent workflow packaging.
+
+### Concrete product shapes still reinforced
+- **Education-Led SaaS**: training is the entry point, software is the lock-in.
+- **SaaS-as-Curriculum**: the tool becomes the course material.
+- **OpenClaw Ready Box**: a preconfigured VM or managed environment delivered as a paid onboarding product.
+- **원클릭 프로비저닝 + 세팅 등급제**: setup complexity becomes the pricing ladder, not a cost center.
+
+### Updated reading
+This remains **append_existing**. The new evidence sharpens the same business thesis: package infra capability as education + setup + hosted workspace, then convert to recurring revenue.
 
 ## Related pages
 - [[ck-technology-engineering-profile]]

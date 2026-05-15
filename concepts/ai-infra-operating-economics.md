@@ -1,10 +1,10 @@
 ---
 title: AI infra operating economics
 created: 2026-04-22
-updated: 2026-05-14
+updated: 2026-05-15
 type: concept
 tags: [infrastructure, gpu, storage, proxmox, agents, business, strategy]
-sources: [raw/transcripts/interest-signal-collection-11-00-2026-05-13.md, raw/transcripts/interest-signal-collection-22-00-2026-05-13.md, raw/transcripts/interest-signal-collection-08-00-2026-04-22.md, raw/transcripts/interest-signal-collection-08-00-2026-04-22-threads-liked-rerun.md, raw/transcripts/interest-signal-collection-19-00-2026-04-22.md, raw/transcripts/interest-signal-note-19-00-2026-04-22.md, raw/transcripts/interest-signal-collection-08-00-2026-04-23.md, raw/transcripts/interest-signal-collection-08-00-2026-04-26.md, raw/transcripts/interest-signal-collection-19-00-2026-04-26.md, raw/transcripts/interest-signal-note-19-00-2026-04-26.md, raw/transcripts/interest-signal-collection-08-00-2026-04-27.md, raw/transcripts/interest-signal-note-08-00-2026-04-27.md, raw/transcripts/interest-signal-collection-19-00-2026-04-27.md, raw/transcripts/interest-signal-note-19-00-2026-04-27.md, raw/transcripts/interest-signal-collection-08-00-2026-04-28.md, raw/transcripts/interest-signal-note-08-00-2026-04-28.md, raw/transcripts/interest-signal-collection-19-00-2026-04-28.md, raw/transcripts/interest-signal-note-19-00-2026-04-28.md, raw/transcripts/interest-signal-collection-08-00-2026-04-29.md, raw/transcripts/interest-signal-note-08-00-2026-04-29.md, raw/transcripts/interest-signal-collection-11-00-2026-04-29.md, raw/transcripts/interest-signal-collection-19-00-2026-04-29.md, raw/transcripts/interest-signal-note-19-00-2026-04-29.md, raw/transcripts/interest-signal-collection-22-00-2026-04-29.md, raw/transcripts/interest-signal-note-22-00-2026-04-29.md, raw/transcripts/interest-signal-collection-11-00-2026-04-30.md, raw/transcripts/interest-signal-note-11-00-2026-04-30.md, raw/transcripts/interest-signal-collection-19-00-2026-04-30.md, raw/transcripts/interest-signal-note-19-00-2026-04-30.md, raw/transcripts/interest-signal-collection-22-00-2026-04-30.md, raw/transcripts/interest-signal-note-22-00-2026-04-30.md, raw/transcripts/interest-signal-collection-11-00-2026-05-01.md, raw/transcripts/interest-signal-note-11-00-2026-05-01.md, raw/transcripts/interest-signal-collection-22-00-2026-05-01.md, ... [truncated]
+sources: [raw/transcripts/interest-signal-collection-11-00-2026-05-15.md, raw/transcripts/interest-signal-collection-11-00-2026-05-13.md, raw/transcripts/interest-signal-collection-22-00-2026-05-13.md, raw/transcripts/interest-signal-collection-08-00-2026-04-22.md, raw/transcripts/interest-signal-collection-08-00-2026-04-22-threads-liked-rerun.md, raw/transcripts/interest-signal-collection-19-00-2026-04-22.md, raw/transcripts/interest-signal-note-19-00-2026-04-22.md, raw/transcripts/interest-signal-collection-08-00-2026-04-23.md, raw/transcripts/interest-signal-collection-08-00-2026-04-26.md, raw/transcripts/interest-signal-collection-19-00-2026-04-26.md, raw/transcripts/interest-signal-note-19-00-2026-04-26.md, raw/transcripts/interest-signal-collection-08-00-2026-04-27.md, raw/transcripts/interest-signal-note-08-00-2026-04-27.md, raw/transcripts/interest-signal-collection-19-00-2026-04-27.md, raw/transcripts/interest-signal-note-19-00-2026-04-27.md, raw/transcripts/interest-signal-collection-08-00-2026-04-28.md, raw/transcripts/interest-signal-note-08-00-2026-04-28.md, raw/transcripts/interest-signal-collection-19-00-2026-04-28.md, raw/transcripts/interest-signal-note-19-00-2026-04-28.md, raw/transcripts/interest-signal-collection-08-00-2026-04-29.md, raw/transcripts/interest-signal-note-08-00-2026-04-29.md, raw/transcripts/interest-signal-collection-11-00-2026-04-29.md, raw/transcripts/interest-signal-collection-19-00-2026-04-29.md, raw/transcripts/interest-signal-note-19-00-2026-04-29.md, raw/transcripts/interest-signal-collection-22-00-2026-04-29.md, raw/transcripts/interest-signal-note-22-00-2026-04-29.md, raw/transcripts/interest-signal-collection-11-00-2026-04-30.md, raw/transcripts/interest-signal-note-11-00-2026-04-30.md, raw/transcripts/interest-signal-collection-19-00-2026-04-30.md, raw/transcripts/interest-signal-note-19-00-2026-04-30.md, raw/transcripts/interest-signal-collection-22-00-2026-04-30.md, raw/transcripts/interest-signal-note-22-00-2026-04-30.md, raw/transcripts/interest-signal-collection-11-00-2026-05-01.md, raw/transcripts/interest-signal-note-11-00-2026-05-01.md, raw/transcripts/interest-signal-collection-22-00-2026-05-01.md, ... [truncated]
 ---
 
 # AI infra operating economics
@@ -703,6 +703,22 @@ The 22:00 pass stayed in the same macro-axis, but it made the runtime / packagin
 
 ### Updated reading
 This is still **append_existing**. The pass adds more proof that the durable layer is operational economics: execution, packaging, memory, skills, billing, and substrate maturity.
+
+## 2026-05-15 new-target reinforcement
+
+The 11:00 pass added fresh evidence around agent middleware, edge acceleration, prompt optimization, mTLS, Copilot agent productization, Kubernetes cleanup / DRA maturity, and embedding / batching infrastructure.
+
+### What looked fresh
+- **Google** added `Announcing Genkit Middleware` and `Accelerating on-device AI`, which push production agent hooks and edge inference packaging.
+- **OpenAI** added `Work with Codex from anywhere`, which keeps Codex productization and mobile steering visible.
+- **AWS** added CloudFront mTLS passthrough / OCSP revocation, Bedrock prompt optimization, EC2 M3 Ultra Mac instances, and SageMaker Qwen3.6 serverless customization, extending the deployment and model-ops layer.
+- **Cloudflare**'s ClickHouse billing bottleneck post makes infra observability and query-planner contention concrete.
+- **GitHub Changelog** added Copilot app preview, cloud-agent auto model selection, team-level usage metrics, and the JetBrains unified sessions view, which is a strong productization move.
+- **Kubernetes** added Service ExternalIPs deprecation/removal, volume group snapshots GA, and newer DRA capabilities.
+- **Hugging Face** added Granite Embedding Multilingual R2 and continuous batching work, which reinforces retrieval and inference plumbing.
+
+### Updated reading
+This is still **append_existing**. The pass sharpens the same deployable-AI-infra thesis around control surfaces, edge acceleration, and agent runtime packaging rather than opening a new durable branch.
 
 ## Related pages
 

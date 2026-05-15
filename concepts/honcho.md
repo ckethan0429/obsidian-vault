@@ -318,7 +318,7 @@ The day remained reinforcement-only.
 
 ## 2026-05-14 same-day refinement summary
 
-The day remained reinforcement-only.
+The 23:00 refinement over the full day’s evidence remained reinforcement-only.
 
 ### Routed as `raw_only`
 - The 08:00 and 19:00 social passes stayed inside the established Claude Code / agent / infra / memory / education lanes.
@@ -326,13 +326,13 @@ The day remained reinforcement-only.
 - Threads, YouTube, ChatGPT, and Claude mostly repeated the existing managed-agents / operator-economics / browser-control language with a few new examples.
 
 ### Routed as `append_existing`
-- 11:00 had already appended the day’s durable agent-runtime / sandbox / control-plane / infra-economics signals to `[[managed-agents-practical-summary]]` and `[[ai-infra-operating-economics]]`, so the 19:00 refinement stayed conservative instead of duplicating reinforcement.
+- 11:00 and 22:00 had already appended the day’s durable agent-runtime / sandbox / control-plane / infra-economics signals to `[[managed-agents-practical-summary]]` and `[[ai-infra-operating-economics]]`, so the 23:00 refinement stayed conservative instead of duplicating reinforcement.
 
 ### Not routed as `promote_to_wiki`
 - No stable new concept emerged today.
 
 ### Why this matters
-- Same-day repetition should stay `raw_only` unless a signal survives across surfaces and justifies a durable append; 19:00 was reinforcement with a few fresh examples, not a new branch.
+- Same-day repetition should stay `raw_only` unless a signal survives across surfaces and justifies a durable append; by end of day the correct reading is still reinforcement-only.
 
 ## Related pages
 
