@@ -718,7 +718,20 @@ The 11:00 pass added fresh evidence around agent middleware, edge acceleration, 
 - **Hugging Face** added Granite Embedding Multilingual R2 and continuous batching work, which reinforces retrieval and inference plumbing.
 
 ### Updated reading
-This is still **append_existing**. The pass sharpens the same deployable-AI-infra thesis around control surfaces, edge acceleration, and agent runtime packaging rather than opening a new durable branch.
+This is still **append_existing**. The 22:00 pass sharpens the same deployable-AI-infra thesis around control surfaces, edge acceleration, and agent runtime packaging rather than opening a new durable branch.
+
+## 2026-05-15 late-evening new-target reinforcement
+
+The 22:00 pass stayed on the same macro-axis, but the freshest rows were the MCP / skills / agent-builder ones.
+
+### What looked fresh
+- **OpenAI**'s `Sea's View on the Future of Agentic Software Development with Codex` shows Codex moving into a concrete enterprise rollout at Sea Limited.
+- **AWS**'s `AWS Transform introduces the agent builder toolkit Kiro power for building customized transformation agents` and `AWS Transform agents now available in Kiro, Claude, Cursor, and Codex` make the agent-builder and agent-distribution surfaces concrete.
+- **Docker**'s `Custom MCP Catalogs and Profiles: Advancing Enterprise MCP Adoption` turns MCP server packaging and curation into a first-class product surface.
+- **GitHub Trending** rotated in `anthropics/skills`, `NVIDIA-AI-Blueprints/video-search-and-summarization`, and `qiaomu-anything-to-notebooklm`, which keeps the skills / tool-distribution / NotebookLM-adjacent layer visible.
+
+### Updated reading
+This is still **append_existing**. The 22:00 pass extends the same thesis with more explicit MCP, skills, and agent-distribution surfaces rather than a new durable branch.
 
 ## Related pages
 

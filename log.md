@@ -868,3 +868,11 @@
 - The afternoon pass was reinforcement-only: Threads, YouTube, Google, Claude, and the API / Coolify side surfaces repeated the Claude Code / agent / Proxmox / OpenClaw / shared-memory axis; GitHub stars timed out
 - Routed `raw_only`; no durable page was promoted or appended
 - No index change was needed
+
+## [2026-05-15] ingest | Interest signal collection 22:00 new-target pass
+- Saved raw source: `raw/transcripts/interest-signal-collection-22-00-2026-05-15.md`
+- Saved delivery note: `raw/transcripts/interest-signal-note-22-00-2026-05-15.md`
+- Compared against the 2026-05-15 11:00 new-target baseline plus prior new-target evidence
+- Fresh deltas came from OpenAI's Sea Limited Codex rollout, AWS Transform's Kiro-based agent builder / MCP distribution, Docker's GA MCP catalogs and profiles, and GitHub Trending's new skills / NotebookLM / video-agent repos
+- Appended `concepts/ai-infra-operating-economics.md` and updated `index.md`
+- Routed `append_existing`; no new durable page was promoted
