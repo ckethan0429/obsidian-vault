@@ -334,6 +334,25 @@ The 23:00 refinement over the full day’s evidence remained reinforcement-only.
 ### Why this matters
 - Same-day repetition should stay `raw_only` unless a signal survives across surfaces and justifies a durable append; by end of day the correct reading is still reinforcement-only.
 
+## 2026-05-15 same-day refinement summary
+
+The 19:00 afternoon pass was reinforcement-only.
+
+### Routed as `raw_only`
+- Threads likes/activity/reposts/replies and YouTube subscriptions/watch-later repeated the established Claude Code / agent / infra / Proxmox / OpenClaw axis.
+- Google My Activity today only surfaced `KRX:071050` and `박동빈`; the rest of the history page was carry-over.
+- GitHub stars timed out in this run, and the Meta Threads API explorer only returned an unsupported `help` request error, so there was no fresh durable delta there.
+- The Claude / shared-memory / OpenClaw packaging conversation stayed within the same education + hosted-workspace + agent-orchestration lane.
+
+### Not routed as `append_existing`
+- No durable append was justified beyond the existing same-day pages updated earlier.
+
+### Not routed as `promote_to_wiki`
+- No new stable branch emerged.
+
+### Why this matters
+- Same-day repetition should stay raw unless it survives across surfaces and clearly deepens an existing page.
+
 ## Related pages
 
 - [[interest-signal-sources]]

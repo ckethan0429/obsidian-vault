@@ -861,3 +861,10 @@
 - GitHub Trending repeated the prior agent-memory / skills cluster, so it stayed reinforcement-only
 - Appended `concepts/ai-infra-operating-economics.md` and updated `index.md`
 - No new durable page was promoted
+
+## [2026-05-15] ingest | Interest signal collection 19:00 refinement pass
+- Saved raw source: `raw/transcripts/interest-signal-collection-19-00-2026-05-15.md`
+- Compared against the 2026-05-15 08:00 / 11:00 same-day baseline plus the prior completed output for this job
+- The afternoon pass was reinforcement-only: Threads, YouTube, Google, Claude, and the API / Coolify side surfaces repeated the Claude Code / agent / Proxmox / OpenClaw / shared-memory axis; GitHub stars timed out
+- Routed `raw_only`; no durable page was promoted or appended
+- No index change was needed

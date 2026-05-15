@@ -1,2 +1,5 @@
 # Obsidian
 .obsidian/
+
+# Generated collection cache
+.cache/
