@@ -897,3 +897,19 @@
 - GitHub Trending stayed on the same agent/tooling cluster but added new MCP / skills / workflow repos
 - Appended `concepts/managed-agents-practical-summary.md`; no index change was needed
 - No new durable page was promoted
+
+## [2026-05-16] ingest | Interest signal collection 19:00 social pass
+- Saved raw source: `raw/transcripts/interest-signal-collection-19-00-2026-05-16.md`
+- Compared against the 2026-05-16 08:00 and 11:00 baselines
+- Freshest visible deltas were a few new YouTube conversational-agent / skills rows (`Building Conversational Agents`, `LLM codegen fails and how to stop 'em`, `Replacing 12K LoC with a 200 LoC Skill`) plus a couple of new Threads liked rows; Google / Claude / ChatGPT stayed reinforcement-only and GitHub stars did not yield readable new evidence
+- Appended `concepts/managed-agents-practical-summary.md`
+- No index change was needed
+- No new durable page was promoted
+
+## [2026-05-16] ingest | Interest signal collection 22:00 new-target pass
+- Saved raw source: `raw/transcripts/interest-signal-collection-22-00-2026-05-16.md`
+- Compared against the 2026-05-16 11:00 new-target baseline plus prior new-target evidence
+- Freshest new-target items were Google Genkit middleware / Gemini Embedding 2 / Colossus-to-PyTorch speedups, Cloudflare ClickHouse billing bottleneck / QUIC bug analysis, Docker sandboxing / coding-agent-fleet posts, GitHub Copilot usage metrics / token-header updates, Kubernetes Mixed Version Proxy / PSI telemetry release notes, Hugging Face embedding / batching posts, and GitHub Trending's `codegraph`
+- Appended `concepts/ai-infra-operating-economics.md`
+- No index change was needed
+- No new durable page was promoted
