@@ -876,3 +876,24 @@
 - Fresh deltas came from OpenAI's Sea Limited Codex rollout, AWS Transform's Kiro-based agent builder / MCP distribution, Docker's GA MCP catalogs and profiles, and GitHub Trending's new skills / NotebookLM / video-agent repos
 - Appended `concepts/ai-infra-operating-economics.md` and updated `index.md`
 - Routed `append_existing`; no new durable page was promoted
+
+## [2026-05-15] update | Same-day refinement summary finalized
+- Reviewed the full day's raw transcripts (08:00, 11:00, 19:00, 22:00) and the 22:00 delivery note
+- Updated `concepts/honcho.md` with the final Honcho triage summary
+- No index change was needed
+
+## [2026-05-16] ingest | Interest signal collection 08:00 run
+- Saved raw source: `raw/transcripts/interest-signal-collection-08-00-2026-05-16.md`
+- Compared against the 2026-05-15 baseline
+- Freshest visible deltas were Threads activity/likes around operator economics and vibe coding, four new YouTube agent-backbone items, and a new GitHub star for `outsourc-e/hermes-workspace`
+- Appended `concepts/ai-infra-operating-economics.md`
+- Created `entities/hermes-workspace.md`
+- Updated `index.md`
+
+## [2026-05-16] ingest | Interest signal collection 11:00 new-target pass
+- Saved raw source: `raw/transcripts/interest-signal-collection-11-00-2026-05-16.md`
+- Compared against the 2026-05-15 11:00 new-target baseline plus prior new-target evidence
+- Fresh deltas came from Google long-running agents / Gemini CLI subagents, OpenAI Databricks GPT-5.5 / Codex Windows sandbox, AWS Transform agents / OCI interconnect, Cloudflare Dynamic Workflows / agent-owned provisioning, Docker MCP catalogs / AI governance, GitHub Copilot Memory / cloud-agent task APIs, Kubernetes workload-aware scheduling, and Hugging Face inference-provider / multimodal-agent packaging
+- GitHub Trending stayed on the same agent/tooling cluster but added new MCP / skills / workflow repos
+- Appended `concepts/managed-agents-practical-summary.md`; no index change was needed
+- No new durable page was promoted
