@@ -913,3 +913,25 @@
 - Appended `concepts/ai-infra-operating-economics.md`
 - No index change was needed
 - No new durable page was promoted
+
+## [2026-05-16] update | Same-day refinement summary finalized
+- Reviewed the 2026-05-16 raw transcripts (08:00, 11:00, 19:00, 22:00) and the same-day ingest outputs
+- Updated `concepts/honcho.md` with the end-of-day Honcho triage summary
+- No index change was needed; the day remained reinforcement-only with no new durable page
+
+## [2026-05-17] ingest | Interest signal collection 08:00 run
+- Saved raw source: `raw/transcripts/interest-signal-collection-08-00-2026-05-17.md`
+- Compared against the 2026-05-16 baseline
+- Freshest visible deltas were Threads liked rows around VC / vibe-coding and Threads activity/replies that kept the AI infra / parallelism / memory-bank / Proxmox / Ceph stack explicit; YouTube subscriptions surfaced `Building Conversational Agents`, `Replacing 12K LoC with a 200 LoC Skill`, and `Claude Code is now FREE`; GitHub stars again exposed `memory-bank` alongside the existing agent stack
+- Google / Claude / ChatGPT stayed reinforcement-heavy
+- No index change was needed
+- No new durable page was promoted
+
+## [2026-05-17] ingest | Interest signal collection 11:00 new-target run
+- Saved raw source: `raw/transcripts/interest-signal-collection-11-00-2026-05-17.md`
+- Compared against the 2026-05-16 22:00 new-target baseline and earlier same-cluster repeats
+- Freshest new items were Google’s on-device AI / long-running agents / TPU inference posts, Docker’s `Docker AI Governance`, Microsoft’s `Securing MCP`, Kubernetes route-sync / ExternalIPs release notes, Cloudflare Browser Run on Containers, AWS query-limit / EMR Serverless updates, and Hugging Face training/inference packaging
+- GitHub Trending looked reinforcement-heavy; the visible agent/skills repos were mostly repeats, so no new repo branch was promoted
+- Appended `concepts/ai-infra-operating-economics.md`
+- No index change was needed
+- No new durable page was promoted

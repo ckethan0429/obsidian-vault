@@ -1,7 +1,7 @@
 ---
 title: AI infra operating economics
 created: 2026-04-22
-updated: 2026-05-16
+updated: 2026-05-17
 type: concept
 tags: [infrastructure, gpu, storage, proxmox, agents, business, strategy]
 sources: [raw/transcripts/interest-signal-collection-08-00-2026-05-16.md, raw/transcripts/interest-signal-collection-22-00-2026-05-16.md, raw/transcripts/interest-signal-collection-11-00-2026-05-15.md, raw/transcripts/interest-signal-collection-11-00-2026-05-13.md, raw/transcripts/interest-signal-collection-22-00-2026-05-13.md, raw/transcripts/interest-signal-collection-08-00-2026-04-22.md, raw/transcripts/interest-signal-collection-08-00-2026-04-22-threads-liked-rerun.md, raw/transcripts/interest-signal-collection-19-00-2026-04-22.md, raw/transcripts/interest-signal-note-19-00-2026-04-22.md, raw/transcripts/interest-signal-collection-08-00-2026-04-23.md, raw/transcripts/interest-signal-collection-08-00-2026-04-26.md, raw/transcripts/interest-signal-collection-19-00-2026-04-26.md, raw/transcripts/interest-signal-note-19-00-2026-04-26.md, raw/transcripts/interest-signal-collection-08-00-2026-04-27.md, raw/transcripts/interest-signal-note-08-00-2026-04-27.md, raw/transcripts/interest-signal-collection-19-00-2026-04-27.md, raw/transcripts/interest-signal-note-19-00-2026-04-27.md, raw/transcripts/interest-signal-collection-08-00-2026-04-28.md, raw/transcripts/interest-signal-note-08-00-2026-04-28.md, raw/transcripts/interest-signal-collection-19-00-2026-04-28.md, raw/transcripts/interest-signal-note-19-00-2026-04-28.md, raw/transcripts/interest-signal-collection-08-00-2026-04-29.md, raw/transcripts/interest-signal-note-08-00-2026-04-29.md, raw/transcripts/interest-signal-collection-11-00-2026-04-29.md, raw/transcripts/interest-signal-collection-19-00-2026-04-29.md, raw/transcripts/interest-signal-note-19-00-2026-04-29.md, raw/transcripts/interest-signal-collection-22-00-2026-04-29.md, raw/transcripts/interest-signal-note-22-00-2026-04-29.md, raw/transcripts/interest-signal-collection-11-00-2026-04-30.md, raw/transcripts/interest-signal-note-11-00-2026-04-30.md, raw/transcripts/interest-signal-collection-19-00-2026-04-30.md, raw/transcripts/interest-signal-note-19-00-2026-04-30.md, raw/transcripts/interest-signal-collection-22-00-2026-04-30.md, raw/transcripts/interest-signal-note-22-00-2026-04-30.md, raw/transcripts/interest-signal-collection-11-00-2026-05-01.md, raw/transcripts/interest-signal-note-11-00-2026-05-01.md, raw/transcripts/interest-signal-collection-22-00-2026-05-01.md, ... [truncated]
@@ -758,6 +758,22 @@ The 22:00 pass stayed on the same macro-axis, but it added more explicit control
 
 ### Updated reading
 This is still **append_existing**. The evening run sharpened the same AI infra / managed-agent / control-plane thesis with more concrete packaging, isolation, and production-ops examples.
+
+## 2026-05-17 morning reinforcement
+
+The 11:00 new-target pass did not change the macro-axis. It added a new day's worth of official evidence that the same stack is still being productized.
+
+### What looked fresh
+- **Google Developers** added `Accelerating on-device AI: A look at Arm and Google AI Edge optimization`, `Build Long-running AI agents that pause, resume, and never lose context with ADK`, and `Supercharging LLM inference on Google TPUs`.
+- **Docker** pushed the control surface further with `Docker AI Governance: Unlock Agent Autonomy, Safely`, which makes network reach, credentials, and MCP tool access explicit policy knobs.
+- **Microsoft** sharpened the MCP lane with `Securing MCP: A Control Plane for Agent Tool Execution` and the companion `Microsoft Agent Framework / Foundry / Aspire` example.
+- **Kubernetes** added another control-plane/safety layer through route-sync metrics and `Service ExternalIPs` removal.
+- **AWS** and **Cloudflare** both stayed on operational packaging: query-result limits, EMR Serverless expansion, and `Browser Run` moving onto Cloudflare Containers.
+- **Hugging Face** kept the training/inference packaging story alive with AWS-oriented foundation-model building blocks and continued batching / vLLM movement.
+- **GitHub Trending** looked reinforcement-heavy; the visible repos were mostly repeats from earlier new-target evidence, so there was no new durable repo branch to absorb.
+
+### Updated reading
+This is still **append_existing**. The new-target pass reinforces the same thesis: deployable AI infra is getting more explicit about routing, policy, control planes, runtime packaging, and inference economics.
 
 ## Related pages
 
