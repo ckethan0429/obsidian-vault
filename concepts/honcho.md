@@ -1,7 +1,7 @@
 ---
 title: Honcho
 created: 2026-04-18
-updated: 2026-05-16
+updated: 2026-05-17
 type: concept
 tags: [agents, hermes, automation, assistant, workflows, protocols, browser-automation]
 sources: [raw/transcripts/interest-signal-collection-19-00-2026-04-17.md, raw/transcripts/interest-signal-note-19-00-2026-04-17.md, raw/transcripts/interest-signal-collection-08-00-2026-04-26.md, raw/transcripts/interest-signal-collection-19-00-2026-04-26.md, raw/transcripts/interest-signal-note-19-00-2026-04-26.md, raw/transcripts/interest-signal-collection-08-00-2026-04-30.md, raw/transcripts/interest-signal-note-08-00-2026-04-30.md, raw/transcripts/interest-signal-collection-11-00-2026-04-30.md, raw/transcripts/interest-signal-note-11-00-2026-04-30.md, raw/transcripts/interest-signal-collection-19-00-2026-04-30.md, raw/transcripts/interest-signal-note-19-00-2026-04-30.md, raw/transcripts/interest-signal-collection-22-00-2026-04-30.md, raw/transcripts/interest-signal-note-22-00-2026-04-30.md, raw/transcripts/interest-signal-collection-08-00-2026-05-02.md, raw/transcripts/interest-signal-note-08-00-2026-05-02.md, raw/transcripts/interest-signal-collection-11-00-2026-05-02.md, raw/transcripts/interest-signal-note-11-00-2026-05-02.md, raw/transcripts/interest-signal-collection-19-00-2026-05-02.md, raw/transcripts/interest-signal-note-19-00-2026-05-02.md, raw/transcripts/interest-signal-collection-22-00-2026-05-02.md, raw/transcripts/interest-signal-note-22-00-2026-05-02.md, raw/transcripts/interest-signal-collection-08-00-2026-05-03.md, raw/transcripts/interest-signal-collection-11-00-2026-05-03.md, raw/transcripts/interest-signal-collection-19-00-2026-05-03.md, raw/transcripts/interest-signal-collection-22-00-2026-05-03.md, raw/transcripts/interest-signal-collection-08-00-2026-05-04.md, raw/transcripts/interest-signal-collection-11-00-2026-05-04.md, raw/transcripts/interest-signal-collection-19-00-2026-05-04.md, raw/transcripts/interest-signal-collection-22-00-2026-05-04.md, raw/transcripts/interest-signal-collection-08-00-2026-05-05.md, raw/transcripts/interest-signal-collection-11-00-2026-05-05.md, raw/transcripts/interest-signal-collection-19-00-2026-05-05.md, raw/transcripts/interest-signal-collection-22-00-2026-05-05.md, raw/transcripts/interest-signal-collection-08-00-2026-05-07.md, raw/transcripts/interest-signal-collection-19-00-2026-05-07.md, raw/transcripts/interest-signal-collection-11-00-2026-05-07.md, raw/transcripts/interest-signal-collection-22-00-2026-05-07.md, raw/transcripts/interest-signal-collection-08-00-2026-05-08.md, raw/transcripts/interest-signal-collection-11-00-2026-05-08.md, raw/transcripts/interest-signal-collection-19-00-2026-05-08.md, raw/transcripts/interest-signal-collection-22-00-2026-05-08.md, raw/transcripts/interest-signal-collection-22-00-2026-05-09.md, raw/transcripts/interest-signal-collection-08-00-2026-05-09.md, raw/transcripts/interest-signal-collection-11-00-2026-05-09.md, raw/transcripts/interest-signal-collection-19-00-2026-05-09.md, raw/transcripts/interest-signal-collection-08-00-2026-05-11.md, raw/transcripts/interest-signal-collection-11-00-2026-05-11.md, raw/transcripts/interest-signal-collection-19-00-2026-05-11.md, raw/transcripts/interest-signal-collection-22-00-2026-05-11.md, raw/transcripts/interest-signal-collection-08-00-2026-05-12.md, raw/transcripts/interest-signal-collection-11-00-2026-05-12.md, raw/transcripts/interest-signal-collection-19-00-2026-05-12.md, raw/transcripts/interest-signal-collection-22-00-2026-05-12.md, raw/transcripts/interest-signal-collection-08-00-2026-05-13.md, raw/transcripts/interest-signal-collection-11-00-2026-05-13.md, raw/transcripts/interest-signal-collection-19-00-2026-05-13.md, raw/transcripts/interest-signal-collection-22-00-2026-05-13.md, raw/transcripts/interest-signal-collection-08-00-2026-05-15.md, raw/transcripts/interest-signal-collection-11-00-2026-05-15.md, raw/transcripts/interest-signal-collection-19-00-2026-05-15.md, raw/transcripts/interest-signal-collection-22-00-2026-05-15.md, raw/transcripts/interest-signal-note-22-00-2026-05-15.md, raw/transcripts/interest-signal-collection-08-00-2026-05-16.md, raw/transcripts/interest-signal-collection-11-00-2026-05-16.md, raw/transcripts/interest-signal-collection-19-00-2026-05-16.md, raw/transcripts/interest-signal-collection-22-00-2026-05-16.md]
@@ -371,6 +371,20 @@ The 2026-05-16 day also finished as reinforcement-only. The earlier ingest passe
 
 ### Why this matters
 - The right end-of-day reading is still reinforcement-only: preserve the raw evidence, let the earlier ingest passes absorb the durable signals, and avoid duplicating the same-day reinforcement sections in the concept pages again.
+
+## 2026-05-17 same-day afternoon refinement
+
+### Routed as `append_existing`
+- The 19:00 social pass stayed inside the same managed-agent / AI-infra / memory-routing / education-led packaging cluster that the earlier runs had already established.
+- Threads added fresh concrete chatter around `vllm`, `H200`, `Terminus`, `AI 인프라의 진짜 승부처`, and `에이전트 생산성의 진실`, but the underlying theme was still operator economics and agent workflow hygiene.
+- YouTube, GitHub stars, Google My Activity, Claude, and ChatGPT all reinforced the same cross-surface stack: AI agents, MCP / skills / subagents, Proxmox / GPU / hosted workspace packaging, and shared-memory / orchestration questions.
+
+### Kept as `raw_only`
+- Blank or low-signal surface states such as the YouTube liked shell and downloads empty page stayed in raw evidence only.
+- Sports / entertainment noise was preserved in raw capture but not promoted.
+
+### Why this matters
+- This pass sharpened the existing durable axis without crossing the threshold into a new wiki branch, so the right move is still strict triage and append_existing rather than promotion.
 
 ## Related pages
 

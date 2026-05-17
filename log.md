@@ -935,3 +935,21 @@
 - Appended `concepts/ai-infra-operating-economics.md`
 - No index change was needed
 - No new durable page was promoted
+
+## [2026-05-17] ingest | Interest signal collection 19:00 run
+- Saved raw source: `raw/transcripts/interest-signal-collection-19-00-2026-05-17.md`
+- Compared against the 2026-05-17 08:00 / 11:00 baselines and suppressed repeats
+- Freshest concrete deltas were GitHub stars `kubernetes-the-hard-way` and `humanizer`, YouTube backlog items around `State of the Claw`, Apple-integrated Claude Code, `AI 에이전트 100`, `Supabase MCP`, and Threads replies mentioning `vllm` / `H200` / `Terminus`
+- Claude reinforced the education + SaaS + hosted-workspace packaging thesis, especially around OpenClaw and OMO/OMX monetization
+- Updated `concepts/honcho.md` with a same-day strict-routing example
+- Updated `concepts/virton-career-and-business-profile.md` with the education-led packaging reinforcement
+- No index change was needed
+- No new durable page was promoted
+
+## [2026-05-17] ingest | Interest signal collection 22:00 new-target pass
+- Saved raw source: `raw/transcripts/interest-signal-collection-22-00-2026-05-17.md`
+- Compared against the 2026-05-17 11:00 new-target baseline plus earlier new-target evidence
+- Freshest new items were Google Genkit Middleware / Google Colossus to PyTorch / LiteRT / Agents CLI, Cloudflare's ClickHouse billing bottleneck, Docker's Custom MCP Catalogs and Profiles / coding-agent sandboxes, GitHub Copilot app preview / cloud-agent auto model selection / memory / token updates, Kubernetes mixed-version proxy / workload-aware scheduling / PSI / DRA, Hugging Face embeddings / continuous batching, and GitHub Trending's new agent-tooling rotation
+- Appended `concepts/ai-infra-operating-economics.md`
+- No index change was needed
+- No new durable page was promoted

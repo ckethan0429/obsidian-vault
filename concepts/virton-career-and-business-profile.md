@@ -1,7 +1,7 @@
 ---
 title: Virton Career and Business Profile
 created: 2026-04-14
-updated: 2026-05-15
+updated: 2026-05-17
 type: concept
 tags: [personal-knowledge, startup, infrastructure, private-cloud, career, product, gpu]
 sources: [raw/transcripts/ck-interest-map-business-life-2026-04-14.md, raw/transcripts/interest-signal-collection-08-00-2026-04-22.md, raw/transcripts/interest-signal-collection-08-00-2026-04-22-threads-liked-rerun.md, raw/transcripts/interest-signal-collection-19-00-2026-04-22.md, raw/transcripts/virton-equity-negotiation-baseline-2026-04-29.md, raw/transcripts/interest-signal-collection-08-00-2026-05-15.md]
@@ -89,6 +89,24 @@ The 2026-05-15 live surfaces did not change the macro thesis, but they made the 
 
 ### Updated reading
 This remains **append_existing**. The new evidence sharpens the same business thesis: package infra capability as education + setup + hosted workspace, then convert to recurring revenue.
+
+## 2026-05-17 afternoon reinforcement
+The 19:00 live surfaces made the packaging thesis more concrete, but not more novel.
+
+### What stayed reinforced
+- Claude kept circling the same Korean-market insight: **education / onboarding / implementation packages are easier to budget than pure SaaS**.
+- The OpenClaw discussion became more specific: a **Linux server with OpenClaw preinstalled**, optionally rented on a cheap VPS, then paired with **live online education** and guided provisioning.
+- The monetization question widened from OpenClaw to the surrounding ecosystem: **OMO / OMX** and other open-source agent orchestrators were discussed as potentially monetizable through hosting, onboarding, training, or managed support.
+- ChatGPT continued to reinforce the same shared-memory / agent-ops stack: Claude Code, Telegram agent, mem0, Qdrant, and Ollama.
+
+### Concrete product shapes still reinforced
+- **Education-Led SaaS**: training remains the entry point, software is the lock-in.
+- **SaaS-as-Curriculum**: the tool becomes the course material.
+- **OpenClaw / agent-ready Linux workspace**: preconfigured environment plus live instruction.
+- **원클릭 프로비저닝 + 세팅 등급제**: setup complexity becomes the pricing ladder, not a cost center.
+
+### Why this matters
+- This is still **append_existing** rather than a new business branch: the core strategy remains infra capability wrapped as education, setup, and hosted workspace delivery.
 
 ## Related pages
 - [[ck-technology-engineering-profile]]

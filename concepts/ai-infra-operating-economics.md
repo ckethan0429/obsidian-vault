@@ -775,6 +775,21 @@ The 11:00 new-target pass did not change the macro-axis. It added a new day's wo
 ### Updated reading
 This is still **append_existing**. The new-target pass reinforces the same thesis: deployable AI infra is getting more explicit about routing, policy, control planes, runtime packaging, and inference economics.
 
+## 2026-05-17 late-evening new-target reinforcement
+
+The 22:00 new-target pass stayed on the same macro-axis, but it added fresh official-blog examples of the same deployable infra story.
+
+### What looked fresh
+- **Google Developers** added `Genkit Middleware`, `Speeding Up AI: Bringing Google Colossus to PyTorch via GCSFS and Rapid Bucket`, `Building real-world on-device AI with LiteRT and NPU`, and `Agents CLI in Agent Platform`, which makes middleware, storage-path efficiency, on-device inference, and deployment packaging more explicit.
+- **Cloudflare** added a real ClickHouse billing-pipeline bottleneck story, which keeps the infra-ops / observability side of the thesis grounded.
+- **Docker** pushed MCP governance and coding-agent sandboxes further with `Custom MCP Catalogs and Profiles` and the sandbox-team post.
+- **GitHub Changelog** added Copilot app preview, cloud-agent auto model selection, memory preferences, and token-format changes.
+- **Kubernetes** added mixed-version proxy, workload-aware scheduling, PSI, and DRA maturity updates.
+- **Hugging Face** added embedding and continuous-batching items, while **GitHub Trending** rotated toward fresh agent/tooling repos like `CLI-Anything`, `agent-skills`, `agents-towards-production`, and `dograh`.
+
+### Updated reading
+This is still **append_existing**. The late-evening pass deepens the same thesis: deployable AI infra is being productized through middleware, control planes, sandboxing, scheduling, and inference packaging rather than through a new conceptual branch.
+
 ## Related pages
 
 - [[virton-career-and-business-profile]]
