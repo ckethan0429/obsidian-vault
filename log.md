@@ -953,3 +953,25 @@
 - Appended `concepts/ai-infra-operating-economics.md`
 - No index change was needed
 - No new durable page was promoted
+
+
+## [2026-05-17] update | End-of-day refinement triage
+- Reviewed the same-day 08:00, 11:00, 19:00, and 22:00 raw transcript files
+- Recorded the reinforcement-only 23:00 triage in `concepts/honcho.md`
+- No index change was needed
+- No new durable page was promoted
+
+## [2026-05-18] ingest | Interest signal collection 08:00 run
+- Saved raw source: `raw/transcripts/interest-signal-collection-08-00-2026-05-18.md`
+- Compared against the 2026-05-17 08:00 / 11:00 / 19:00 / 22:00 baselines
+- Threads liked/activity/reposts/replies repeated the same Claude Code / vibe coding / AI infra / agent-ops axis; GitHub stars repeated the familiar Hermes / agent / memory-bank / Claude Code stack; YouTube subscriptions and Watch Later rotated in the same AI engineer / MCP / agent / infra backlog; Google My Activity repeated Claude Code / Codex / GPT-5.5 / agent-search behavior with a few surface-variance searches
+- No index change was needed
+- No new durable page was promoted
+
+## [2026-05-18] ingest | Interest signal collection 11:00 new-target pass
+- Saved raw source: `raw/transcripts/interest-signal-collection-11-00-2026-05-18.md`
+- Compared against the 2026-05-17 11:00 new-target baseline and earlier new-target evidence
+- Freshest items came from Google Genkit Middleware / Gemini Embedding 2 / Colossus-to-PyTorch / LiteRT, AWS Partner Central agents / Connect Cases, Docker Custom MCP Catalogs and Profiles / sandboxing, Kubernetes Mixed Version Proxy / PSI, Hugging Face embeddings / continuous batching, and GitHub Trending's CLI-Anything / agent-skills / cal.diy / dograh rotation
+- Appended `concepts/ai-infra-operating-economics.md`
+- No index change was needed
+- No new durable page was promoted

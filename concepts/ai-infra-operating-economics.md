@@ -1,7 +1,7 @@
 ---
 title: AI infra operating economics
 created: 2026-04-22
-updated: 2026-05-17
+updated: 2026-05-18
 type: concept
 tags: [infrastructure, gpu, storage, proxmox, agents, business, strategy]
 sources: [raw/transcripts/interest-signal-collection-08-00-2026-05-16.md, raw/transcripts/interest-signal-collection-22-00-2026-05-16.md, raw/transcripts/interest-signal-collection-11-00-2026-05-15.md, raw/transcripts/interest-signal-collection-11-00-2026-05-13.md, raw/transcripts/interest-signal-collection-22-00-2026-05-13.md, raw/transcripts/interest-signal-collection-08-00-2026-04-22.md, raw/transcripts/interest-signal-collection-08-00-2026-04-22-threads-liked-rerun.md, raw/transcripts/interest-signal-collection-19-00-2026-04-22.md, raw/transcripts/interest-signal-note-19-00-2026-04-22.md, raw/transcripts/interest-signal-collection-08-00-2026-04-23.md, raw/transcripts/interest-signal-collection-08-00-2026-04-26.md, raw/transcripts/interest-signal-collection-19-00-2026-04-26.md, raw/transcripts/interest-signal-note-19-00-2026-04-26.md, raw/transcripts/interest-signal-collection-08-00-2026-04-27.md, raw/transcripts/interest-signal-note-08-00-2026-04-27.md, raw/transcripts/interest-signal-collection-19-00-2026-04-27.md, raw/transcripts/interest-signal-note-19-00-2026-04-27.md, raw/transcripts/interest-signal-collection-08-00-2026-04-28.md, raw/transcripts/interest-signal-note-08-00-2026-04-28.md, raw/transcripts/interest-signal-collection-19-00-2026-04-28.md, raw/transcripts/interest-signal-note-19-00-2026-04-28.md, raw/transcripts/interest-signal-collection-08-00-2026-04-29.md, raw/transcripts/interest-signal-note-08-00-2026-04-29.md, raw/transcripts/interest-signal-collection-11-00-2026-04-29.md, raw/transcripts/interest-signal-collection-19-00-2026-04-29.md, raw/transcripts/interest-signal-note-19-00-2026-04-29.md, raw/transcripts/interest-signal-collection-22-00-2026-04-29.md, raw/transcripts/interest-signal-note-22-00-2026-04-29.md, raw/transcripts/interest-signal-collection-11-00-2026-04-30.md, raw/transcripts/interest-signal-note-11-00-2026-04-30.md, raw/transcripts/interest-signal-collection-19-00-2026-04-30.md, raw/transcripts/interest-signal-note-19-00-2026-04-30.md, raw/transcripts/interest-signal-collection-22-00-2026-04-30.md, raw/transcripts/interest-signal-note-22-00-2026-04-30.md, raw/transcripts/interest-signal-collection-11-00-2026-05-01.md, raw/transcripts/interest-signal-note-11-00-2026-05-01.md, raw/transcripts/interest-signal-collection-22-00-2026-05-01.md, ... [truncated]
@@ -789,6 +789,21 @@ The 22:00 new-target pass stayed on the same macro-axis, but it added fresh offi
 
 ### Updated reading
 This is still **append_existing**. The late-evening pass deepens the same thesis: deployable AI infra is being productized through middleware, control planes, sandboxing, scheduling, and inference packaging rather than through a new conceptual branch.
+
+## 2026-05-18 new-target reinforcement
+
+The 11:00 pass did not open a new durable axis. It mostly deepened the same deployable AI infra / managed-agent / control-plane story with a fresh round of official launches.
+
+### What looked fresh
+- **Google** added `Genkit Middleware`, `Gemini Embedding 2`, and a Colossus-to-PyTorch storage-path speedup, plus a renewed push toward on-device inference (`LiteRT` / NPU).
+- **AWS** moved a little closer to agentic operations in `Partner Central` and `Connect Cases`, while the rest of the feed stayed on maintenance / versioning updates.
+- **Docker** kept MCP packaging and sandboxing explicit with `Custom MCP Catalogs and Profiles` and a sandbox-comparison post.
+- **Kubernetes** continued graduation work around `Mixed Version Proxy` and `PSI` telemetry.
+- **Hugging Face** kept pushing embedding and batching primitives.
+- **GitHub Trending** rotated to `CLI-Anything`, `agent-skills`, `cal.diy`, and `dograh`, which are still agent-native or workflow-infrastructure repos rather than a new branch.
+
+### Updated reading
+This is still **append_existing**. The new-target pass reinforces the same thesis: deployable AI infra is being productized through middleware, control planes, MCP governance, scheduling maturity, and inference packaging rather than through a new concept.
 
 ## Related pages
 
