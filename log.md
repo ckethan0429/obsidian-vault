@@ -975,3 +975,11 @@
 - Appended `concepts/ai-infra-operating-economics.md`
 - No index change was needed
 - No new durable page was promoted
+
+## [2026-05-18] ingest | Interest signal collection 19:00 social pass
+- Saved raw source: `raw/transcripts/interest-signal-collection-19-00-2026-05-18.md`
+- Compared against the 2026-05-18 08:00 / 11:00 baselines and suppressed repeats
+- Freshest visible deltas came from Threads activity (Ceph·Proxmox·GPU / parallel-work / operator economics comments), YouTube subscriptions and Watch Later (State of the Claw, Claude Code / MCP / AI agent backlog items, AI mini-cluster / GitHub Copilot / Supabase MCP rows), and Google My Activity (KRX:071050, Google 기능 업데이트, 박동빈)
+- GitHub stars, Claude, and ChatGPT stayed reinforcement-only
+- No index change was needed
+- No new durable page was promoted
