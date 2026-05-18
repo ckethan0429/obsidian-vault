@@ -991,3 +991,20 @@
 - Routed the pass as `raw_only` because the same deployable AI infra / managed-agent / control-plane axis had already been absorbed in the earlier 11:00 append
 - No index change was needed
 - No new durable page was promoted
+
+## [2026-05-18] update | Same-day interest-signal refinement
+- Honcho triage over the full day ended reinforcement-only at the durable layer
+- `concepts/honcho.md` was updated with a same-day refinement summary and its raw source references were refreshed for the 2026-05-18 collection files
+- The 11:00 new-target pass remained the only append_existing event, already absorbed into `concepts/ai-infra-operating-economics.md`
+- `concepts/ai-infra-operating-economics.md` had its source references refreshed for the 11:00 2026-05-18 raw transcript
+- The 08:00, 19:00, and 22:00 passes stayed `raw_only`
+- No index change was needed
+- No new durable page was promoted
+## [2026-05-19] ingest | Interest signal collection 08:00 run
+- Saved raw source: `raw/transcripts/interest-signal-collection-08-00-2026-05-19.md`
+- Compared against the 2026-05-18 baseline and suppressed repeats across Threads, GitHub, Google, Claude, and ChatGPT
+- Freshest visible delta came from YouTube subscriptions / Watch Later: `Building Conversational Agents — Thor Schaeff and Philipp Schmid, Google DeepMind`, `LiteParse - The Local Document Parser`, `Inside OpenAI's Stargate Megafactory with Sam Altman | The Circuit`, and `Inside the Data Center Boom: Understanding the Massive Infrastructure That Supports AI`
+- Appended `concepts/ai-infra-operating-economics.md` and recorded the triage note in `concepts/honcho.md`
+- No index change was needed
+- No new durable page was promoted
+
