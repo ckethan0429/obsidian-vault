@@ -983,3 +983,11 @@
 - GitHub stars, Claude, and ChatGPT stayed reinforcement-only
 - No index change was needed
 - No new durable page was promoted
+
+## [2026-05-18] ingest | Interest signal collection 22:00 new-target pass
+- Saved raw source: `raw/transcripts/interest-signal-collection-22-00-2026-05-18.md`
+- Compared against the 2026-05-18 11:00 new-target baseline and earlier new-target evidence
+- Freshest rows came from Google long-running agents / Agent Platform CLI / Gemini CLI subagents / TPU inference, Docker’s coding-agent security series, GitHub Changelog’s GPT-5.3-Codex base-model update, Kubernetes route-sync telemetry, and GitHub Trending’s `academic-research-skills`, `CloakBrowser`, and `12-factor-agents`
+- Routed the pass as `raw_only` because the same deployable AI infra / managed-agent / control-plane axis had already been absorbed in the earlier 11:00 append
+- No index change was needed
+- No new durable page was promoted
