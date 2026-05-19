@@ -439,6 +439,34 @@ The 11:00 new-target pass stayed **append_existing**, not `promote_to_wiki`.
 - Google, Microsoft, Kubernetes, and most of GitHub Trending were repetition-heavy compared with the most recent new-target baseline.
 - No stable new durable branch emerged.
 
+## 2026-05-19 evening collection note
+
+The 19:00 pass also stayed **append_existing**, not `promote_to_wiki`.
+
+### Routed as `append_existing`
+- Threads added a `Dart` / `Go` vibecoding row and a phase-based parallel-work / event-based intervention thread, but those still fit the existing agent-workflow discipline axis.
+- YouTube added `LLM codegen fails and how to stop 'em`, `Replacing 12K LoC with a 200 LoC Skill`, and watch-later rows like `State of the Claw` and the Claude Code / AI stack items.
+- GitHub stars added `memory-bank`, `oh-my-agent`, `firecrawl/web-agent`, and `pyturboquant`, which remain inside the same harness / runtime / quant-adjacent lane.
+
+### Why not `promote_to_wiki`
+- The pass sharpened the same durable cluster rather than opening a new one.
+- Google and the chat surfaces stayed in the same shared-memory / AI-infra / OpenClaw / Proxmox lane.
+- This was reinforcement, so the right move is to preserve the raw evidence and let the existing concept pages absorb the delta.
+
+## 2026-05-19 late-night new-target routing
+
+### Routed as `append_existing`
+- Google’s `Announcing Genkit Middleware` and `Building with Gemini Embedding 2` strengthen [[ai-infra-operating-economics]] by making agentic middleware, multimodal retrieval, and production packaging more explicit.
+- Docker’s `Docker AI Governance` and GitHub Changelog’s `Audit repository Copilot cloud agent configuration via the REST API` strengthen [[ai-infra-operating-economics]] by turning agent autonomy and cloud-agent configuration into explicit control-plane surfaces.
+- GitHub Trending’s `anthropics/claude-plugins-official`, `rohitg00/agentmemory`, `colbymchenry/codegraph`, `multica-ai/andrej-karpathy-skills`, `obra/superpowers`, `Alishahryar1/free-claude-code`, and `msitarzewski/agency-agents` strengthen [[managed-agents-practical-summary]] and [[claude-code-plugins]] by making plugins, memory, skills, and code-graph packaging concrete.
+
+### Routed as `raw_only`
+- OpenAI, AWS, Cloudflare, Microsoft, Kubernetes, and the remaining GitHub Trending rows mostly stayed in the same infrastructure-plumbing or generic packaging lane.
+
+### Why this matters
+- The late-night pass still lands inside the same deployable AI infra / managed-agent / skills lane.
+- The new rows are useful evidence, but they deepen the existing branch rather than opening a new durable one.
+
 ## Related pages
 
 - [[interest-signal-sources]]

@@ -1015,3 +1015,22 @@
 - No index change was needed
 - No new durable page was promoted
 
+## [2026-05-19] ingest | Interest signal collection 19:00 run
+- Saved raw source: `raw/transcripts/interest-signal-collection-19-00-2026-05-19.md`
+- Appended `concepts/ai-infra-operating-economics.md` with the evening reinforcement note
+- Recorded the routing decision in `concepts/honcho.md`
+- Evening pass reinforced the established AI infra / agent workflow / memory-routing axis across Threads, YouTube, GitHub stars, Claude, and ChatGPT
+- Google My Activity stayed unchanged from the morning baseline
+- No index change was needed
+- No new durable page was promoted
+
+## [2026-05-19] ingest | Interest signal collection 22:00 run
+- Saved raw source: `raw/transcripts/interest-signal-collection-22-00-2026-05-19.md`
+- Appended `concepts/ai-infra-operating-economics.md` with the late-night new-target reinforcement note
+- Appended `concepts/managed-agents-practical-summary.md` with the late-night plugin / memory / skills reinforcement note
+- Updated `concepts/honcho.md` with the late-night routing decision
+- Updated `03_AI/LLM/claude-code-plugins.md` to reflect the Anthropic-managed official directory signal
+- Updated `index.md` to surface the official Claude Code plugin directory as a reinforced packaging signal
+- Late-night new-target rows centered on Genkit Middleware, Docker AI Governance, Copilot cloud-agent auditability, the Open Agent Leaderboard, and GitHub Trending’s plugins / memory / skills / code-graph cluster
+- No new durable page was promoted
+

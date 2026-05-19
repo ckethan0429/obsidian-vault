@@ -510,6 +510,15 @@ The 19:00 social pass stayed inside the same managed-agent lane, but it made the
 ### Updated reading
 Still **append_existing**; the managed-agent thesis is now being reinforced by execution durability, memory, skills, and platform governance, with the afternoon run making the skills/conversational-agent slice more visible.
 
+## 2026-05-19 late-night new-target reinforcement
+
+### What looked fresh
+- **GitHub Trending** rotated in `anthropics/claude-plugins-official`, `rohitg00/agentmemory`, `obra/superpowers`, `colbymchenry/codegraph`, `multica-ai/andrej-karpathy-skills`, `Alishahryar1/free-claude-code`, and `msitarzewski/agency-agents`, which make plugins, memory, skills, and code-graph packaging explicit.
+- **Microsoft** added `Awesome GitHub Copilot just got a website, and a learning hub, and plugins!`, which reinforces the same packaging surface around customization and distribution.
+
+### Updated reading
+This is still **append_existing**. The late-night new-target pass sharpens the managed-agent thesis by showing the ecosystem coalescing around explicit plugins, memory, skills, and code-knowledge packaging rather than a new durable branch.
+
 ## Related pages
 
 - [[managed-agents-architecture]]

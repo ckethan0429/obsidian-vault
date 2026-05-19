@@ -19,7 +19,7 @@
 - [[b2b-sales-and-negotiation-strategy]] — Structured guide to B2B sales from lead generation through expansion.
 - [[chrome-cdp-login-status]] — CK's operating assumption for login-ready Chrome CDP sessions.
 - [[claude-code-hooks]] — Claude Code hook events, matchers, and handler patterns.
-- [[claude-code-plugins]] — Claude Code plugins as reusable packaging and distribution units.
+- [[claude-code-plugins]] — Claude Code plugins as reusable packaging and distribution units, reinforced by the Anthropic-managed official directory surfaced on 2026-05-19.
 - [[claude-code-skills]] — Claude Code Skills structure, scope, and preprocessing rules.
 - [[claude-code-subagents]] — Claude Code subagents for splitting work into specialized contexts.
 - [[ck-investing-and-life-profile]] — CK's investing interests, language goals, lifestyle themes, and parenting context.

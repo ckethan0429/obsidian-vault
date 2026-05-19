@@ -828,6 +828,29 @@ This is still **append_existing**. The new morning rows sharpen the theme toward
 ### Updated reading
 This is still **append_existing**. The 11:00 pass deepens the same deployable AI infra / managed-agent / control-plane thesis through enterprise Codex placement, Copilot cloud-agent automation, agent evaluation packaging, and platform plumbing rather than a new conceptual branch.
 
+## 2026-05-19 evening collection
+
+### What looked fresh
+- **Threads** added a practical vibe-coding row (`Dart` + `Go`) and a phase-based parallelization / event-based intervention thread, which sharpened the agent-workflow discipline rather than changing the macro-axis.
+- **YouTube** added `LLM codegen fails and how to stop 'em`, `Replacing 12K LoC with a 200 LoC Skill`, and watch-later rows like `State of the Claw`, `바이브코딩 디자인 풀코스`, and the Claude Code / AI stack items.
+- **GitHub stars** added `memory-bank`, `oh-my-agent`, `firecrawl/web-agent`, and `pyturboquant`, which still sit in the same agent-harness / runtime / quant-research cluster already tracked here.
+- **Claude** and **ChatGPT** stayed on the shared-memory / OpenClaw / Proxmox / AI infra / agent-orchestration axis, with no new durable branch.
+
+### Updated reading
+This is still **append_existing**. The evening social pass adds more concrete runtime and workflow examples, but the durable reading remains the same deployable AI infra / managed-agent / operator-economics thesis.
+
+## 2026-05-19 late-night new-target reinforcement
+
+### What looked fresh
+- **Google** added `Announcing Genkit Middleware: Intercept, extend, and harden your agentic apps` and `Building with Gemini Embedding 2: Agentic multimodal RAG and beyond`, which make agentic middleware and multimodal retrieval feel like first-class stack components.
+- **Docker** added `Docker AI Governance: Unlock Agent Autonomy, Safely`, which pushes agent permissions, network reach, credentials, and MCP tool access into an explicit governance layer.
+- **GitHub Changelog** added `Audit repository Copilot cloud agent configuration via the REST API`, which makes cloud-agent policy and configuration auditable as an API surface.
+- **Hugging Face** added `The Open Agent Leaderboard`, `Granite Embedding Multilingual R2`, and `Unlocking asynchronicity in continuous batching`, which keep evaluation, retrieval, and inference packaging in the same operational lane.
+- **OpenAI** added the personal-finance ChatGPT experience and Codex sales/ops examples, which are productization signals but still fit the same deployment / workflow axis.
+
+### Updated reading
+This is still **append_existing**. The late-night new-target pass reinforces the same deployable AI infra / control-plane / inference-packaging thesis rather than opening a new branch.
+
 ## Related pages
 
 - [[virton-career-and-business-profile]]
