@@ -1007,4 +1007,11 @@
 - Appended `concepts/ai-infra-operating-economics.md` and recorded the triage note in `concepts/honcho.md`
 - No index change was needed
 - No new durable page was promoted
+## [2026-05-19] ingest | Interest signal collection 11:00 run
+- Saved raw source: `raw/transcripts/interest-signal-collection-11-00-2026-05-19.md`
+- Compared against the 2026-05-18 and 2026-05-17 new-target baselines
+- Fresh new items came from OpenAI Dell Codex enterprise/on-prem, AWS region-selector / Glue / Lightsail plumbing, Cloudflare Project Glasswing, GitHub Copilot cloud-agent updates, and Hugging Face's Open Agent Leaderboard / OCR / Cosmos posts
+- Appended `concepts/ai-infra-operating-economics.md` and recorded the triage note in `concepts/honcho.md`
+- No index change was needed
+- No new durable page was promoted
 
