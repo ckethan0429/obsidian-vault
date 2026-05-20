@@ -467,6 +467,27 @@ The 19:00 pass also stayed **append_existing**, not `promote_to_wiki`.
 - The late-night pass still lands inside the same deployable AI infra / managed-agent / skills lane.
 - The new rows are useful evidence, but they deepen the existing branch rather than opening a new durable one.
 
+## 2026-05-19 same-day refinement summary
+
+The full day stayed **reinforcement-only** at the durable layer.
+
+### Routed as `raw_only`
+- Threads liked rows, Google My Activity, and the remaining social repeats mostly reinforced prior operator-economics and workflow themes.
+- X did not appear in the page-target list for this day.
+- Low-signal or repetitive surface noise stayed in raw evidence rather than being promoted.
+
+### Routed as `append_existing`
+- The 08:00 pass reinforced [[ai-infra-operating-economics]] with conversational agents, AI stack assembly, data-center buildout, and local document parsing.
+- The 11:00 new-target pass reinforced the same axis with Codex, Copilot cloud agent, the Open Agent Leaderboard, and infrastructure plumbing.
+- The 19:00 pass reinforced the workflow / memory-routing lane with vibe-coding language choices, phase-based parallel work, and agent-tooling stars.
+- The 22:00 pass reinforced [[ai-infra-operating-economics]], [[managed-agents-practical-summary]], and [[claude-code-plugins]] with agentic middleware, governance, plugins, memory, skills, and code-graph packaging.
+
+### Not routed as `promote_to_wiki`
+- No stable new durable branch emerged.
+
+### Why this matters
+- Preserve the raw evidence, absorb only the reinforced durable axes, and avoid duplicating same-day rotation into a new wiki branch.
+
 ## Related pages
 
 - [[interest-signal-sources]]

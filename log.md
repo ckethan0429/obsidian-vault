@@ -1034,3 +1034,23 @@
 - Late-night new-target rows centered on Genkit Middleware, Docker AI Governance, Copilot cloud-agent auditability, the Open Agent Leaderboard, and GitHub Trending’s plugins / memory / skills / code-graph cluster
 - No new durable page was promoted
 
+## [2026-05-19] update | Same-day interest-signal refinement
+- Honcho triage over the full day ended reinforcement-only at the durable layer
+- Updated `concepts/honcho.md` with a same-day refinement summary
+- Raw transcripts were left untouched
+- No index change was needed
+- No new durable page was promoted
+
+## [2026-05-20] ingest | Interest signal collection 08:00 run
+- Saved raw source: `raw/transcripts/interest-signal-collection-08-00-2026-05-20.md`
+- Compared against the 2026-05-19 baselines and suppressed repeats across Threads, YouTube, GitHub, Google, Claude, and ChatGPT
+- Freshest visible rotations were small Threads like/recent-chat changes plus Claude / ChatGPT recent-title shifts, but they still sat inside the existing AI infra / agent / memory-routing lane
+- No index change was needed
+- No new durable page was promoted
+
+## [2026-05-20] ingest | Interest signal collection 11:00 new-target run
+- Saved raw source: `raw/transcripts/interest-signal-collection-11-00-2026-05-20.md`
+- Compared against the 2026-05-19 new-target baseline and kept the day in `append_existing`
+- Appended `concepts/ai-infra-operating-economics.md` with the new vendor wave: OpenAI content provenance, Cloudflare Claude Managed Agents, GitHub Copilot cloud agent, Docker Gordon, Google LiteRT/edge inference, and the current GitHub Trending rotation
+- No index change was needed
+
