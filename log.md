@@ -1054,3 +1054,14 @@
 - Appended `concepts/ai-infra-operating-economics.md` with the new vendor wave: OpenAI content provenance, Cloudflare Claude Managed Agents, GitHub Copilot cloud agent, Docker Gordon, Google LiteRT/edge inference, and the current GitHub Trending rotation
 - No index change was needed
 
+## [2026-05-20] ingest | Interest signal collection 19:00 run
+- Saved raw source: `raw/transcripts/interest-signal-collection-19-00-2026-05-20.md`
+- Compared against the same-day 08:00 and 11:00 runs; the pass was reinforcement-only across Threads, YouTube, GitHub stars, Google, Claude, and ChatGPT
+- No index change was needed
+
+## [2026-05-20] ingest | Interest signal collection 22:00 new-target run
+- Saved raw source: `raw/transcripts/interest-signal-collection-22-00-2026-05-20.md`
+- Compared against the 2026-05-20 11:00 new-target baseline and the 2026-05-19 evidence; the pass stayed in `raw_only`
+- Freshest rows came from OpenAI News RSS, AWS What's New, and GitHub Trending, but they only reinforced the existing AI infra / agent tooling lane
+- No index change was needed
+
