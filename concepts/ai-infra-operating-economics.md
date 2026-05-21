@@ -1,7 +1,7 @@
 ---
 title: AI infra operating economics
 created: 2026-04-22
-updated: 2026-05-20
+updated: 2026-05-21
 type: concept
 tags: [infrastructure, gpu, storage, proxmox, agents, business, strategy]
 sources: [raw/transcripts/interest-signal-collection-08-00-2026-05-16.md, raw/transcripts/interest-signal-collection-22-00-2026-05-16.md, raw/transcripts/interest-signal-collection-11-00-2026-05-20.md, raw/transcripts/interest-signal-collection-11-00-2026-05-19.md, raw/transcripts/interest-signal-collection-11-00-2026-05-15.md, raw/transcripts/interest-signal-collection-11-00-2026-05-13.md, raw/transcripts/interest-signal-collection-22-00-2026-05-13.md, raw/transcripts/interest-signal-collection-08-00-2026-04-22.md, raw/transcripts/interest-signal-collection-08-00-2026-04-22-threads-liked-rerun.md, raw/transcripts/interest-signal-collection-19-00-2026-04-22.md, raw/transcripts/interest-signal-note-19-00-2026-04-22.md, raw/transcripts/interest-signal-collection-08-00-2026-04-23.md, raw/transcripts/interest-signal-collection-08-00-2026-04-26.md, raw/transcripts/interest-signal-collection-19-00-2026-04-26.md, raw/transcripts/interest-signal-note-19-00-2026-04-26.md, raw/transcripts/interest-signal-collection-08-00-2026-04-27.md, raw/transcripts/interest-signal-note-08-00-2026-04-27.md, raw/transcripts/interest-signal-collection-19-00-2026-04-27.md, raw/transcripts/interest-signal-note-19-00-2026-04-27.md, raw/transcripts/interest-signal-collection-08-00-2026-04-28.md, raw/transcripts/interest-signal-note-08-00-2026-04-28.md, raw/transcripts/interest-signal-collection-19-00-2026-04-28.md, raw/transcripts/interest-signal-note-19-00-2026-04-28.md, raw/transcripts/interest-signal-collection-08-00-2026-04-29.md, raw/transcripts/interest-signal-note-08-00-2026-04-29.md, raw/transcripts/interest-signal-collection-11-00-2026-04-29.md, raw/transcripts/interest-signal-collection-19-00-2026-04-29.md, raw/transcripts/interest-signal-note-19-00-2026-04-29.md, raw/transcripts/interest-signal-collection-22-00-2026-04-29.md, raw/transcripts/interest-signal-note-22-00-2026-04-29.md, raw/transcripts/interest-signal-collection-11-00-2026-04-30.md, raw/transcripts/interest-signal-note-11-00-2026-04-30.md, raw/transcripts/interest-signal-collection-19-00-2026-04-30.md, raw/transcripts/interest-signal-note-19-00-202... [truncated, raw/transcripts/interest-signal-collection-11-00-2026-05-18.md, raw/transcripts/interest-signal-collection-08-00-2026-05-19.md]
@@ -865,6 +865,20 @@ The 11:00 new-target pass again reinforced the same macro-axis, but today’s st
 
 ### Updated reading
 This is still **append_existing**. The day adds new vendor examples, but the durable thesis remains AI infra operating economics: deployable agent platforms, control-plane automation, trust/provenance, and workflow packaging.
+
+## 2026-05-21 new-target reinforcement
+
+The 11:00 new-target pass kept the same macro-axis intact, but the freshest rows leaned harder into agent control-plane, governance, model-routing, and deployment packaging.
+
+### What looked fresh
+- **OpenAI** added `An OpenAI model has disproved a central conjecture in discrete geometry` and `How Ramp engineers accelerate code review with Codex`, which are strong signals for frontier capability feeding directly into coding workflows.
+- **AWS** added `AWS Security Hub now uncovers identity risks from unused access`, `AWS announces ExtendDB, an open source DynamoDB-compatible adapter`, and `ECS supports native integration with Amazon EBS volumes in GovCloud Regions`, which keeps security, storage, and deployability in view.
+- **Google Developers** added `All the news from the Google I/O 2026 Developer keynote` plus `A Smarter Google AI Edge Gallery: MCP integration, notifications, and session continuity`, which makes agent-first development and edge MCP coordination explicit.
+- **GitHub Changelog** added `Auto model selection now routes based on your task in VS Code`, `Semantic issue search in Copilot Chat`, and `Easily apply Copilot code review feedback with Copilot cloud agent`, reinforcing model-routing and workflow automation.
+- **Docker** added `Docker AI Governance: Unlock Agent Autonomy, Safely`, which pushes policy, network reach, credentials, and MCP access into an explicit governance layer.
+
+### Updated reading
+This is still **append_existing**. The durable reading remains deployable AI infra / control-plane / governance / model-routing, with a little more emphasis on security and execution policy than the prior baseline.
 
 ## Related pages
 

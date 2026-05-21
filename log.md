@@ -1070,3 +1070,16 @@
 - Concluded the day was reinforcement-only at the durable layer: 08:00, 19:00, and 22:00 remained raw_only, while the 11:00 new-target pass had already been absorbed into `[[ai-infra-operating-economics]]`
 - Updated `concepts/honcho.md` with the same-day refinement summary
 - No index change was needed
+
+## [2026-05-21] ingest | Interest signal collection 08:00 run
+- Saved raw source: `raw/transcripts/interest-signal-collection-08-00-2026-05-21.md`
+- Compared against the 2026-05-20 baselines and suppressed repeats across Threads, YouTube, GitHub, Claude, and ChatGPT
+- Google My Activity had the clearest fresh rotation (`claude code install`, `how to update claude code`, `threads api`, `openclaw cloud`, `openclaw pass`, `m365 graph api`, `xterm.js`, `ngrok`), but the overall reading still stayed in the existing agent / infra / education-packaging lane
+- No index change was needed
+- No new durable page was promoted
+
+## [2026-05-21] ingest | Interest signal collection 11:00 new-target run
+- Saved raw source: `raw/transcripts/interest-signal-collection-11-00-2026-05-21.md`
+- Compared against the 2026-05-20 new-target baseline and found the strongest fresh delta in agent control-plane, MCP governance, model-routing, and deployment-packaging updates
+- Appended `[[ai-infra-operating-economics]]`, `[[managed-agents-practical-summary]]`, and `[[honcho]]` with the new-target reinforcement summary
+- No index change was needed
