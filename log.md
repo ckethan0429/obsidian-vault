@@ -1083,3 +1083,15 @@
 - Compared against the 2026-05-20 new-target baseline and found the strongest fresh delta in agent control-plane, MCP governance, model-routing, and deployment-packaging updates
 - Appended `[[ai-infra-operating-economics]]`, `[[managed-agents-practical-summary]]`, and `[[honcho]]` with the new-target reinforcement summary
 - No index change was needed
+
+## [2026-05-21] ingest | Interest signal collection 19:00 run
+- Saved raw source: `raw/transcripts/interest-signal-collection-19-00-2026-05-21.md`
+- Compared against the 2026-05-21 08:00 baseline and found a few newly surfaced lower-feed rows on YouTube plus deeper Threads activity rows, but they still stayed inside the existing AI agent / infra / managed-agents axis
+- GitHub stars, Google My Activity, Claude, and ChatGPT were reinforcement-only in this pass
+- No durable page or index change was needed
+
+## [2026-05-21] ingest | Interest signal collection 22:00 new-target run
+- Saved raw source: `raw/transcripts/interest-signal-collection-22-00-2026-05-21.md`
+- Compared against the 2026-05-21 11:00 new-target baseline and the 2026-05-20 new-target evidence; the pass stayed in `append_existing`
+- Appended `concepts/ai-infra-operating-economics.md` with the new provenance / embedding / batching / agent-tooling rotation from OpenAI, Hugging Face, and GitHub Trending
+- No index change was needed
