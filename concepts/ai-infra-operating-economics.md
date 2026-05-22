@@ -1,7 +1,7 @@
 ---
 title: AI infra operating economics
 created: 2026-04-22
-updated: 2026-05-21
+updated: 2026-05-22
 type: concept
 tags: [infrastructure, gpu, storage, proxmox, agents, business, strategy]
 sources: [raw/transcripts/interest-signal-collection-08-00-2026-05-16.md, raw/transcripts/interest-signal-collection-22-00-2026-05-16.md, raw/transcripts/interest-signal-collection-11-00-2026-05-20.md, raw/transcripts/interest-signal-collection-22-00-2026-05-21.md, raw/transcripts/interest-signal-collection-11-00-2026-05-19.md, raw/transcripts/interest-signal-collection-11-00-2026-05-15.md, raw/transcripts/interest-signal-collection-11-00-2026-05-13.md, raw/transcripts/interest-signal-collection-22-00-2026-05-13.md, raw/transcripts/interest-signal-collection-08-00-2026-04-22.md, raw/transcripts/interest-signal-collection-08-00-2026-04-22-threads-liked-rerun.md, raw/transcripts/interest-signal-collection-19-00-2026-04-22.md, raw/transcripts/interest-signal-note-19-00-2026-04-22.md, raw/transcripts/interest-signal-collection-08-00-2026-04-23.md, raw/transcripts/interest-signal-collection-08-00-2026-04-26.md, raw/transcripts/interest-signal-collection-19-00-2026-04-26.md, raw/transcripts/interest-signal-note-19-00-2026-04-26.md, raw/transcripts/interest-signal-collection-08-00-2026-04-27.md, raw/transcripts/interest-signal-note-08-00-2026-04-27.md, raw/transcripts/interest-signal-collection-19-00-2026-04-27.md, raw/transcripts/interest-signal-note-19-00-2026-04-27.md, raw/transcripts/interest-signal-collection-08-00-2026-04-28.md, raw/transcripts/interest-signal-note-08-00-2026-04-28.md, raw/transcripts/interest-signal-collection-19-00-2026-04-28.md, raw/transcripts/interest-signal-note-19-00-2026-04-28.md, raw/transcripts/interest-signal-collection-08-00-2026-04-29.md, raw/transcripts/interest-signal-note-08-00-2026-04-29.md, raw/transcripts/interest-signal-collection-11-00-2026-04-29.md, raw/transcripts/interest-signal-collection-19-00-2026-04-29.md, raw/transcripts/interest-signal-note-19-00-2026-04-29.md, raw/transcripts/interest-signal-collection-22-00-2026-04-29.md, raw/transcripts/interest-signal-note-22-00-2026-04-29.md, raw/transcripts/interest-signal-collection-11-00-2026-04-30.md, raw/transcripts/interest-signal-note-11-00-2026-04-30.md, raw/transcripts/interest-signal-collection-19-00-2026-04-30.md, raw/transcripts/interest-signal-note-19-00-202... [truncated, raw/transcripts/interest-signal-collection-11-00-2026-05-18.md, raw/transcripts/interest-signal-collection-08-00-2026-05-19.md]
@@ -891,6 +891,22 @@ The 22:00 pass stayed in the same lane, but it added a fresher wave of provenanc
 
 ### Updated reading
 This is still **append_existing**. The late-evening pass adds new examples of provenance, embeddings, batching, and agent-tooling packaging, but it does not cross into a new durable branch.
+
+## 2026-05-22 new-target reinforcement
+
+The 11:00 new-target pass stayed in the same macro-axis, but the freshest rows leaned harder into enterprise governance, OpenAI-compatible inference endpoints, and officially supported tooling surfaces.
+
+### What looked fresh
+- **OpenAI** added `AdventHealth advances whole-person care with OpenAI`, which is a clean enterprise-deployment / workflow-packaging signal.
+- **AWS** added `Amazon SageMaker AI now supports OpenAI-compatible APIs for inference endpoints`, making model access more interoperable for agent and tool stacks.
+- **Cloudflare** added `Announcing Claude Compliance API support with Cloudflare CASB`, which turns Claude oversight into a security / governance surface.
+- **Google Developers** added `Announcing ADK for Kotlin and ADK for Android 0.1.0` and `A Smarter Google AI Edge Gallery: MCP integration, notifications, and session continuity`, pushing agent packaging into mobile and edge surfaces.
+- **Docker** added `Meet Gordon: Docker’s AI Agent For Your Entire Container Workflow`, `Custom MCP Catalogs and Profiles: Advancing Enterprise MCP Adoption`, and `Docker AI Governance: Unlock Agent Autonomy, Safely`.
+- **GitHub Changelog** added `GitHub Copilot for Eclipse is open source`, `Updates to available models in Copilot on web`, and `Auto model selection now routes based on your task in VS Code`.
+- **GitHub Trending** rotated to `anthropics/claude-plugins-official`, `colbymchenry/codegraph`, `ChromeDevTools/chrome-devtools-mcp`, `teng-lin/notebooklm-py`, and `multica-ai/multica`, which are still inside the same agent/tooling cluster.
+
+### Updated reading
+This is still **append_existing**. The durable pattern remains deployable AI infra: agent platforms, governance, inference compatibility, and workflow packaging.
 
 ## Related pages
 

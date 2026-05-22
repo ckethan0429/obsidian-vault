@@ -1,7 +1,7 @@
 ---
 title: Managed Agents practical summary
 created: 2026-04-15
-updated: 2026-05-21
+updated: 2026-05-22
 type: concept
 tags: [agents, orchestration, infrastructure, devtools, anthropic, checklist]
 sources: [raw/articles/anthropic-managed-agents-2026-04-15.md, raw/articles/effective-harnesses-for-long-running-agents-2026-04-15.md, raw/transcripts/interest-signal-collection-11-00-2026-05-16.md, raw/transcripts/interest-signal-collection-19-00-2026-05-16.md, raw/transcripts/managed-agents-codefactory-video-2026-04-15.md, raw/transcripts/interest-signal-collection-19-00-2026-04-20.md, raw/transcripts/interest-signal-collection-08-00-2026-04-22.md, raw/transcripts/interest-signal-collection-08-00-2026-04-22-threads-liked-rerun.md, raw/transcripts/interest-signal-collection-19-00-2026-04-22.md, raw/transcripts/interest-signal-collection-08-00-2026-04-26.md, raw/transcripts/interest-signal-collection-19-00-2026-04-26.md, raw/transcripts/interest-signal-note-19-00-2026-04-26.md, raw/transcripts/interest-signal-collection-08-00-2026-04-30.md, raw/transcripts/interest-signal-note-08-00-2026-04-30.md, raw/transcripts/interest-signal-collection-11-00-2026-04-30.md, raw/transcripts/interest-signal-note-11-00-2026-04-30.md, raw/transcripts/interest-signal-collection-19-00-2026-04-30.md, raw/transcripts/interest-signal-note-19-00-2026-04-30.md, raw/transcripts/interest-signal-collection-22-00-2026-04-30.md, raw/transcripts/interest-signal-note-22-00-2026-04-30.md, raw/transcripts/interest-signal-collection-08-00-2026-05-01.md, raw/transcripts/interest-signal-note-08-00-2026-05-01.md, raw/transcripts/interest-signal-collection-08-00-2026-05-03.md, raw/transcripts/interest-signal-collection-11-00-2026-05-03.md, raw/transcripts/interest-signal-collection-19-00-2026-05-03.md, raw/transcripts/interest-signal-collection-22-00-2026-05-03.md, raw/transcripts/interest-signal-collection-22-00-2026-05-04.md, raw/transcripts/interest-signal-collection-08-00-2026-05-05.md, raw/transcripts/interest-signal-collection-19-00-2026-05-05.md, raw/transcripts/interest-signal-collection-22-00-2026-05-05.md, raw/transcripts/interest-signal-collection-11-00-2026-05-06.md, raw/transcripts/interest-signal-collection-08-00-2026-05-07.md, raw/transcripts/interest-signal-collection-19-00-2026-05-07.md, raw/transcripts/interest-signal-collection-11-00-2026-05-07.md, raw/transcripts/interest-signal-collection-22-00-2026-05-07.md, raw/transcripts/interest-signal-collection-11-00-2026-05-08.md, raw/transcripts/interest-signal-collection-22-00-2026-05-08.md, raw/transcripts/interest-signal-collection-08-00-2026-05-09.md, raw/transcripts/interest-signal-collection-11-00-2026-05-09.md, raw/transcripts/interest-signal-collection-11-00-2026-05-10.md, raw/transcripts/interest-signal-collection-08-00-2026-05-12.md, raw/transcripts/interest-signal-collection-11-00-2026-05-12.md, raw/transcripts/interest-signal-collection-19-00-2026-05-12.md, raw/transcripts/interest-signal-collection-22-00-2026-05-12.md, raw/transcripts/interest-signal-collection-08-00-2026-05-13.md, raw/transcripts/interest-signal-collection-11-00-2026-05-13.md, raw/transcripts/interest-signal-collection-19-00-2026-05-13.md, raw/transcripts/interest-signal-collection-22-00-2026-05-13.md]
@@ -532,6 +532,20 @@ The 11:00 new-target pass made the control plane more explicit without opening a
 
 ### Updated reading
 This is still **append_existing**. The managed-agent thesis is now even more clearly about governable tool execution, model routing, and packaging surfaces that survive across sessions.
+
+## 2026-05-22 new-target reinforcement
+
+The 11:00 new-target pass did not open a new macro-axis, but it made the runtime / governance layer more concrete.
+
+### What looked fresh
+- **Docker** added `Meet Gordon: Docker’s AI Agent For Your Entire Container Workflow`, `Custom MCP Catalogs and Profiles: Advancing Enterprise MCP Adoption`, and `Docker AI Governance: Unlock Agent Autonomy, Safely`, which together make the agent runtime and policy boundary explicit.
+- **Google Developers** added `Announcing ADK for Kotlin and ADK for Android 0.1.0` and `A Smarter Google AI Edge Gallery: MCP integration, notifications, and session continuity`, pushing agent packaging into mobile and edge surfaces.
+- **Cloudflare** added `Announcing Claude Compliance API support with Cloudflare CASB`, which turns Claude oversight into a security / control-plane integration.
+- **GitHub Changelog** added `GitHub Copilot for Eclipse is open source`, `Updates to available models in Copilot on web`, and `Auto model selection now routes based on your task in VS Code`, keeping the IDE-agent control plane visible.
+- **GitHub Trending** rotated in `anthropics/claude-plugins-official`, `ChromeDevTools/chrome-devtools-mcp`, `colbymchenry/codegraph`, `multica-ai/andrej-karpathy-skills`, `teng-lin/notebooklm-py`, and `multica-ai/multica`, which make the plugin / browser / memory / skills layer concrete.
+
+### Updated reading
+This is still **append_existing**. The managed-agent thesis is unchanged: the runtime is becoming more governable, more modular, and more distribution-aware, but not yet a new concept branch.
 
 ## Related pages
 

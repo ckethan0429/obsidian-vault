@@ -1095,3 +1095,20 @@
 - Compared against the 2026-05-21 11:00 new-target baseline and the 2026-05-20 new-target evidence; the pass stayed in `append_existing`
 - Appended `concepts/ai-infra-operating-economics.md` with the new provenance / embedding / batching / agent-tooling rotation from OpenAI, Hugging Face, and GitHub Trending
 - No index change was needed
+
+## [2026-05-21] update | 23:00 same-day refinement summary
+- Reviewed the 2026-05-21 raw transcripts from 08:00, 11:00, 19:00, and 22:00 without recollecting sources
+- Classified the day as reinforcement-only at the durable layer; the only durable update added in this pass was the Honcho routing summary
+- Left `index.md` unchanged because no new page was created
+
+## [2026-05-22] ingest | Interest signal collection 08:00 run
+- Saved raw source: `raw/transcripts/interest-signal-collection-08-00-2026-05-22.md`
+- Compared against the 2026-05-21 baseline and suppressed repeats across Threads, GitHub stars, YouTube watch later, and ChatGPT
+- Freshest visible deltas came from YouTube lower-feed AI items (`Redis: From Cache to AI Agent Backbone`, `NEW Google Browser Use AI Agent is INSANE!`, `Lobster Father: New Telegram AI Agent is INSANE!`), Google My Activity’s `KRX:071050 / Google 기능 업데이트 / 박동빈` rotation, and Claude’s new recent titles (`Opus 4.7 가격 안내`, `에이전트 생성 방식 차이`)
+- The pass stayed in `raw_only`; no index change and no durable page promotion were needed
+
+## [2026-05-22] ingest | Interest signal collection 11:00 new-target run
+- Saved raw source: `raw/transcripts/interest-signal-collection-11-00-2026-05-22.md`
+- Compared against the 2026-05-21 new-target baseline and found the freshest delta in vendor governance, OpenAI-compatible inference, agent packaging, and official plugin / skills surfaces
+- Appended `concepts/ai-infra-operating-economics.md`, `concepts/managed-agents-practical-summary.md`, and `concepts/honcho.md` with the new-target reinforcement summary
+- No index change was needed
