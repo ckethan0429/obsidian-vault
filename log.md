@@ -1112,3 +1112,13 @@
 - Compared against the 2026-05-21 new-target baseline and found the freshest delta in vendor governance, OpenAI-compatible inference, agent packaging, and official plugin / skills surfaces
 - Appended `concepts/ai-infra-operating-economics.md`, `concepts/managed-agents-practical-summary.md`, and `concepts/honcho.md` with the new-target reinforcement summary
 - No index change was needed
+
+## [2026-05-22] ingest | Interest signal collection 19:00 run
+- Saved raw source: `raw/transcripts/interest-signal-collection-19-00-2026-05-22.md`
+- Compared against the same-day 08:00 / 11:00 baselines and found only reinforcement; the freshest rows were Threads activity reactions around phase-based parallelism, memory-bank / oh-my-agent, Ceph·Proxmox·GPU economics, and git checkout/worktree isolation
+- Updated `concepts/honcho.md` with the reinforcement-only social refinement summary
+## [2026-05-22] ingest | Interest signal collection 22:00 new-target run
+- Saved raw source: `raw/transcripts/interest-signal-collection-22-00-2026-05-22.md`
+- Compared against the 2026-05-22 11:00 new-target baseline plus earlier 2026-05-21 new-target evidence; Microsoft DevBlogs rotated in the new `The AX stack` head item and GitHub Trending rotated to `ruvnet/RuView` plus a few generic repos, but the durable reading stayed inside the existing agent / infra / control-plane lane
+- No durable page or index change was needed; raw evidence only
+- Left `index.md` and the durable concept pages unchanged
