@@ -1,7 +1,7 @@
 ---
 title: Managed Agents practical summary
 created: 2026-04-15
-updated: 2026-05-22
+updated: 2026-05-23
 type: concept
 tags: [agents, orchestration, infrastructure, devtools, anthropic, checklist]
 sources: [raw/articles/anthropic-managed-agents-2026-04-15.md, raw/articles/effective-harnesses-for-long-running-agents-2026-04-15.md, raw/transcripts/interest-signal-collection-11-00-2026-05-16.md, raw/transcripts/interest-signal-collection-19-00-2026-05-16.md, raw/transcripts/managed-agents-codefactory-video-2026-04-15.md, raw/transcripts/interest-signal-collection-19-00-2026-04-20.md, raw/transcripts/interest-signal-collection-08-00-2026-04-22.md, raw/transcripts/interest-signal-collection-08-00-2026-04-22-threads-liked-rerun.md, raw/transcripts/interest-signal-collection-19-00-2026-04-22.md, raw/transcripts/interest-signal-collection-08-00-2026-04-26.md, raw/transcripts/interest-signal-collection-19-00-2026-04-26.md, raw/transcripts/interest-signal-note-19-00-2026-04-26.md, raw/transcripts/interest-signal-collection-08-00-2026-04-30.md, raw/transcripts/interest-signal-note-08-00-2026-04-30.md, raw/transcripts/interest-signal-collection-11-00-2026-04-30.md, raw/transcripts/interest-signal-note-11-00-2026-04-30.md, raw/transcripts/interest-signal-collection-19-00-2026-04-30.md, raw/transcripts/interest-signal-note-19-00-2026-04-30.md, raw/transcripts/interest-signal-collection-22-00-2026-04-30.md, raw/transcripts/interest-signal-note-22-00-2026-04-30.md, raw/transcripts/interest-signal-collection-08-00-2026-05-01.md, raw/transcripts/interest-signal-note-08-00-2026-05-01.md, raw/transcripts/interest-signal-collection-08-00-2026-05-03.md, raw/transcripts/interest-signal-collection-11-00-2026-05-03.md, raw/transcripts/interest-signal-collection-19-00-2026-05-03.md, raw/transcripts/interest-signal-collection-22-00-2026-05-03.md, raw/transcripts/interest-signal-collection-22-00-2026-05-04.md, raw/transcripts/interest-signal-collection-08-00-2026-05-05.md, raw/transcripts/interest-signal-collection-19-00-2026-05-05.md, raw/transcripts/interest-signal-collection-22-00-2026-05-05.md, raw/transcripts/interest-signal-collection-11-00-2026-05-06.md, raw/transcripts/interest-signal-collection-08-00-2026-05-07.md, raw/transcripts/interest-signal-collection-19-00-2026-05-07.md, raw/transcripts/interest-signal-collection-11-00-2026-05-07.md, raw/transcripts/interest-signal-collection-22-00-2026-05-07.md, raw/transcripts/interest-signal-collection-11-00-2026-05-08.md, raw/transcripts/interest-signal-collection-22-00-2026-05-08.md, raw/transcripts/interest-signal-collection-08-00-2026-05-09.md, raw/transcripts/interest-signal-collection-11-00-2026-05-09.md, raw/transcripts/interest-signal-collection-11-00-2026-05-10.md, raw/transcripts/interest-signal-collection-08-00-2026-05-12.md, raw/transcripts/interest-signal-collection-11-00-2026-05-12.md, raw/transcripts/interest-signal-collection-19-00-2026-05-12.md, raw/transcripts/interest-signal-collection-22-00-2026-05-12.md, raw/transcripts/interest-signal-collection-08-00-2026-05-13.md, raw/transcripts/interest-signal-collection-11-00-2026-05-13.md, raw/transcripts/interest-signal-collection-19-00-2026-05-13.md, raw/transcripts/interest-signal-collection-22-00-2026-05-13.md]
@@ -546,6 +546,20 @@ The 11:00 new-target pass did not open a new macro-axis, but it made the runtime
 
 ### Updated reading
 This is still **append_existing**. The managed-agent thesis is unchanged: the runtime is becoming more governable, more modular, and more distribution-aware, but not yet a new concept branch.
+
+## 2026-05-23 new-target reinforcement
+
+The 11:00 new-target pass did not change the harness thesis, but it made the distinction between better prompting and better systems much sharper.
+
+### What looked fresh
+- **Microsoft**'s `The AX stack: what’s fixed, where you can win` and `Agentic-Agile: Why Agent Development Needs Agile (Not Just Prompts)` make the operational argument explicit: agent development breaks on systems quality, SDK drift, and process discipline.
+- **Anthropic**'s KPMG / Stainless / PwC rows show Claude moving deeper into enterprise rollout and API/tooling infrastructure rather than remaining a lab/demo artifact.
+- **OpenAI**'s Gartner leader item and Virgin Atlantic Codex example show the same shift on the product side: enterprise coding agents are being judged by delivery outcomes.
+- **AWS**'s agentic migration assessment and AWS Security Agent verification scripts reinforce that managed agents need a measurable control plane around migration and security.
+- **GitHub Changelog**'s npm staged publishing / install-time controls are another reminder that the harness extends into supply-chain policy.
+
+### Updated reading
+This remains **append_existing**. The latest evidence strengthens the view that managed agents require a governed runtime, not just better prompts.
 
 ## Related pages
 

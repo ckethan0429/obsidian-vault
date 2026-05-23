@@ -1,7 +1,7 @@
 ---
 title: Honcho
 created: 2026-04-18
-updated: 2026-05-22
+updated: 2026-05-23
 type: concept
 tags: [agents, hermes, automation, assistant, workflows, protocols, browser-automation]
 sources: [raw/transcripts/interest-signal-collection-19-00-2026-04-17.md, raw/transcripts/interest-signal-note-19-00-2026-04-17.md, raw/transcripts/interest-signal-collection-08-00-2026-04-26.md, raw/transcripts/interest-signal-collection-11-00-2026-05-19.md, raw/transcripts/interest-signal-collection-19-00-2026-04-26.md, raw/transcripts/interest-signal-note-19-00-2026-04-26.md, raw/transcripts/interest-signal-collection-08-00-2026-04-30.md, raw/transcripts/interest-signal-note-08-00-2026-04-30.md, raw/transcripts/interest-signal-collection-11-00-2026-04-30.md, raw/transcripts/interest-signal-note-11-00-2026-04-30.md, raw/transcripts/interest-signal-collection-19-00-2026-04-30.md, raw/transcripts/interest-signal-note-19-00-2026-04-30.md, raw/transcripts/interest-signal-collection-22-00-2026-04-30.md, raw/transcripts/interest-signal-note-22-00-2026-04-30.md, raw/transcripts/interest-signal-collection-08-00-2026-05-02.md, raw/transcripts/interest-signal-note-08-00-2026-05-02.md, raw/transcripts/interest-signal-collection-11-00-2026-05-02.md, raw/transcripts/interest-signal-note-11-00-2026-05-02.md, raw/transcripts/interest-signal-collection-19-00-2026-05-02.md, raw/transcripts/interest-signal-note-19-00-2026-05-02.md, raw/transcripts/interest-signal-collection-22-00-2026-05-02.md, raw/transcripts/interest-signal-note-22-00-2026-05-02.md, raw/transcripts/interest-signal-collection-08-00-2026-05-03.md, raw/transcripts/interest-signal-collection-11-00-2026-05-03.md, raw/transcripts/interest-signal-collection-19-00-2026-05-03.md, raw/transcripts/interest-signal-collection-22-00-2026-05-03.md, raw/transcripts/interest-signal-collection-08-00-2026-05-04.md, raw/transcripts/interest-signal-collection-11-00-2026-05-04.md, raw/transcripts/interest-signal-collection-19-00-2026-05-04.md, raw/transcripts/interest-signal-collection-22-00-2026-05-04.md, raw/transcripts/interest-signal-collection-08-00-2026-05-05.md, raw/transcripts/interest-signal-collection-11-00-2026-05-05.md, raw/transcripts/interest-signal-collection-19-00-2026-05-05.md, ra... [truncated, raw/transcripts/interest-signal-collection-08-00-2026-05-18.md, raw/transcripts/interest-signal-collection-11-00-2026-05-18.md, raw/transcripts/interest-signal-collection-19-00-2026-05-18.md, raw/transcripts/interest-signal-collection-22-00-2026-05-18.md, raw/transcripts/interest-signal-collection-08-00-2026-05-19.md, raw/transcripts/interest-signal-collection-08-00-2026-05-20.md, raw/transcripts/interest-signal-collection-11-00-2026-05-20.md, raw/transcripts/interest-signal-collection-19-00-2026-05-20.md, raw/transcripts/interest-signal-collection-22-00-2026-05-20.md]
@@ -556,6 +556,52 @@ The 11:00 official-feed pass stayed inside the established durable lane, but it 
 
 ### Why this matters
 - Preserve the feed evidence, absorb the durable control-plane delta into the existing concept pages, and keep the routing layer strict about novelty.
+
+## 2026-05-22 late-evening social refinement summary
+
+The 19:00 social pass stayed reinforcement-only.
+
+### Routed as `raw_only`
+- Threads likes, profile, reposts, replies, YouTube subscriptions / watch later / downloads, GitHub stars, Google My Activity, Claude, and ChatGPT all stayed inside the existing AI infra / managed agents / memory-routing lane.
+- The freshest-looking rows were in Threads activity: `phase마다 나눠서 병렬 작업합니다`, `memory-bank, oh-my-agent`, `Ceph·Proxmox·GPU 인프라`, `AI 인프라의 진짜 승부처`, and `git checkout/worktree` isolation. They still reinforced existing pages instead of justifying a new branch.
+
+### Not routed as `append_existing`
+- No page received a materially new durable delta from the 19:00 pass.
+- This run should remain an auditable raw capture plus a single Honcho note.
+
+### Why this matters
+- Reinforcement-only social passes should keep the wiki stable: preserve the evidence, avoid duplicating durable sections, and log the routing decision once.
+
+## 2026-05-22 final same-day refinement summary
+
+The 23:00 refinement pass confirms the whole day as reinforcement-only at the durable layer.
+
+### Routed as `raw_only`
+- 08:00 social surfaces repeated the established Threads / YouTube / GitHub stars / Google My Activity / Claude / ChatGPT lane.
+- 19:00 added fresher Threads activity rows around phase-based parallelism, memory-bank / oh-my-agent, and Ceph·Proxmox·GPU economics, but they still reinforced existing pages.
+- 22:00 rotated Microsoft DevBlogs’ `AX stack` and GitHub Trending’s `RuView` / control-plane repos, but they remained inside the same deployable AI infra / agent-tooling axis and did not justify another durable delta.
+
+### Not routed as `append_existing`
+- No concept page received a new durable delta from the final refinement pass.
+- The day’s substantive durable updates were already absorbed by the earlier 11:00 new-target pass.
+
+### Why this matters
+- Preserve the raw evidence, avoid restamping the same-day reinforcement into concept pages, and keep the wiki stable.
+
+## 2026-05-23 new-target refinement summary
+
+The 11:00 official-feed pass stayed inside the established durable lane, but it made the enterprise coding-agent, governance, and supply-chain layers more explicit.
+
+### Routed as `append_existing`
+- Anthropic, OpenAI, AWS, Microsoft, GitHub Changelog, and Hugging Face all reinforced the same deployable AI infra / managed-agent / control-plane axis.
+- The strongest fresh rows were the ones that turned agent work into explicit enterprise surfaces: enterprise coding-agent recognition, Claude partnerships/acquisition, AWS SageMaker domain governance, agentic migration assessment, and npm supply-chain controls.
+
+### Kept as `raw_only`
+- Cloudflare, Google Developers, Docker, Google AI Blog, and most of Kubernetes mostly repeated the prior baseline.
+- GitHub Trending stayed in the same agent-tooling cluster, with `RuView` as the only clearly new oddball repo.
+
+### Why this matters
+- Preserve the raw evidence, absorb the durable delta into the existing concept pages, and keep the routing layer strict about novelty.
 
 ## Related pages
 

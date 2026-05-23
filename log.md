@@ -1122,3 +1122,19 @@
 - Compared against the 2026-05-22 11:00 new-target baseline plus earlier 2026-05-21 new-target evidence; Microsoft DevBlogs rotated in the new `The AX stack` head item and GitHub Trending rotated to `ruvnet/RuView` plus a few generic repos, but the durable reading stayed inside the existing agent / infra / control-plane lane
 - No durable page or index change was needed; raw evidence only
 - Left `index.md` and the durable concept pages unchanged
+
+## [2026-05-22] update | 23:00 same-day refinement summary
+- Reviewed the 2026-05-22 raw transcripts from 08:00, 11:00, 19:00, and 22:00 without recollecting sources
+- Classified the day as reinforcement-only at the durable layer; the only durable update added in this pass was the Honcho routing summary in `concepts/honcho.md`
+- Left `index.md` unchanged because no new page was created
+
+## [2026-05-23] ingest | Interest signal collection 08:00 run
+- Saved raw source: `raw/transcripts/interest-signal-collection-08-00-2026-05-23.md`
+- Compared against the 2026-05-22 baseline and found the same overall AI infra / managed-agents / memory-routing lane, with fresh surface rotations in Threads, YouTube, GitHub stars, Google My Activity, Claude, and ChatGPT
+- The pass stayed `raw_only`; no durable page or index change was needed
+
+## [2026-05-23] ingest | Interest signal collection 11:00 new-target run
+- Saved raw source: `raw/transcripts/interest-signal-collection-11-00-2026-05-23.md`
+- Compared against the 2026-05-22 new-target baseline and found the freshest delta in Anthropic’s enterprise/partnership rows, OpenAI’s enterprise coding-agent recognition, AWS SageMaker / Transform governance, Microsoft’s AX stack / Agentic-Agile framing, GitHub Changelog’s npm supply-chain controls, and Hugging Face’s Nemotron-Labs diffusion post
+- Appended `concepts/ai-infra-operating-economics.md`, `concepts/managed-agents-practical-summary.md`, and `concepts/honcho.md` with the new-target reinforcement summary
+- Left `index.md` unchanged because no new durable page was created

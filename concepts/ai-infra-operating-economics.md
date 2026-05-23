@@ -1,7 +1,7 @@
 ---
 title: AI infra operating economics
 created: 2026-04-22
-updated: 2026-05-22
+updated: 2026-05-23
 type: concept
 tags: [infrastructure, gpu, storage, proxmox, agents, business, strategy]
 sources: [raw/transcripts/interest-signal-collection-08-00-2026-05-16.md, raw/transcripts/interest-signal-collection-22-00-2026-05-16.md, raw/transcripts/interest-signal-collection-11-00-2026-05-20.md, raw/transcripts/interest-signal-collection-22-00-2026-05-21.md, raw/transcripts/interest-signal-collection-11-00-2026-05-19.md, raw/transcripts/interest-signal-collection-11-00-2026-05-15.md, raw/transcripts/interest-signal-collection-11-00-2026-05-13.md, raw/transcripts/interest-signal-collection-22-00-2026-05-13.md, raw/transcripts/interest-signal-collection-08-00-2026-04-22.md, raw/transcripts/interest-signal-collection-08-00-2026-04-22-threads-liked-rerun.md, raw/transcripts/interest-signal-collection-19-00-2026-04-22.md, raw/transcripts/interest-signal-note-19-00-2026-04-22.md, raw/transcripts/interest-signal-collection-08-00-2026-04-23.md, raw/transcripts/interest-signal-collection-08-00-2026-04-26.md, raw/transcripts/interest-signal-collection-19-00-2026-04-26.md, raw/transcripts/interest-signal-note-19-00-2026-04-26.md, raw/transcripts/interest-signal-collection-08-00-2026-04-27.md, raw/transcripts/interest-signal-note-08-00-2026-04-27.md, raw/transcripts/interest-signal-collection-19-00-2026-04-27.md, raw/transcripts/interest-signal-note-19-00-2026-04-27.md, raw/transcripts/interest-signal-collection-08-00-2026-04-28.md, raw/transcripts/interest-signal-note-08-00-2026-04-28.md, raw/transcripts/interest-signal-collection-19-00-2026-04-28.md, raw/transcripts/interest-signal-note-19-00-2026-04-28.md, raw/transcripts/interest-signal-collection-08-00-2026-04-29.md, raw/transcripts/interest-signal-note-08-00-2026-04-29.md, raw/transcripts/interest-signal-collection-11-00-2026-04-29.md, raw/transcripts/interest-signal-collection-19-00-2026-04-29.md, raw/transcripts/interest-signal-note-19-00-2026-04-29.md, raw/transcripts/interest-signal-collection-22-00-2026-04-29.md, raw/transcripts/interest-signal-note-22-00-2026-04-29.md, raw/transcripts/interest-signal-collection-11-00-2026-04-30.md, raw/transcripts/interest-signal-note-11-00-2026-04-30.md, raw/transcripts/interest-signal-collection-19-00-2026-04-30.md, raw/transcripts/interest-signal-note-19-00-202... [truncated, raw/transcripts/interest-signal-collection-11-00-2026-05-18.md, raw/transcripts/interest-signal-collection-08-00-2026-05-19.md]
@@ -907,6 +907,23 @@ The 11:00 new-target pass stayed in the same macro-axis, but the freshest rows l
 
 ### Updated reading
 This is still **append_existing**. The durable pattern remains deployable AI infra: agent platforms, governance, inference compatibility, and workflow packaging.
+
+## 2026-05-23 new-target reinforcement
+
+The 11:00 new-target pass stayed inside the same deployable-AI-infra macro-axis, but it added a clearer split between enterprise coding-agent quality, enterprise rollout, and governance / supply-chain controls.
+
+### What looked fresh
+- **Anthropic** added `Widening the conversation on frontier AI`, `KPMG integrates Claude across its core business and workforce of more than 276,000 in strategic alliance`, and `Anthropic acquires Stainless`, which strengthens the enterprise rollout and API/tooling ecosystem around Claude.
+- **OpenAI** added `OpenAI named a Leader in enterprise coding agents by Gartner` and `How Virgin Atlantic ships faster with Codex`, which makes enterprise coding-agent adoption and delivery outcomes concrete.
+- **AWS** added SageMaker domain management, agentic migration assessment, and AWS Security Agent verification scripts, which pushes the control-plane / governance / migration angle.
+- **Microsoft DevBlogs** added `The AX stack: what’s fixed, where you can win` and `Agentic-Agile: Why Agent Development Needs Agile (Not Just Prompts)`, which says the agent problem is systems-heavy, not just prompt-heavy.
+- **GitHub Changelog** added staged publishing and install-time controls for npm, giving supply-chain security another explicit platform surface.
+- **Hugging Face** added the Nemotron-Labs diffusion text-generation post, reinforcing inference-speed economics.
+- **Kubernetes** added `Deprecation and removal of Service ExternalIPs`, a small but explicit control-plane cleanup.
+- **GitHub Trending** stayed agent-tooling heavy, with `RuView` as the only visibly new oddball; the rest of the page remained the same tooling cluster.
+
+### Updated reading
+This is still **append_existing**. The new-target pass sharpens the same thesis around enterprise coding agents, governance, supply-chain controls, and packaging, but it does not open a new durable branch.
 
 ## Related pages
 
