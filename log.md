@@ -1138,3 +1138,8 @@
 - Compared against the 2026-05-22 new-target baseline and found the freshest delta in Anthropic’s enterprise/partnership rows, OpenAI’s enterprise coding-agent recognition, AWS SageMaker / Transform governance, Microsoft’s AX stack / Agentic-Agile framing, GitHub Changelog’s npm supply-chain controls, and Hugging Face’s Nemotron-Labs diffusion post
 - Appended `concepts/ai-infra-operating-economics.md`, `concepts/managed-agents-practical-summary.md`, and `concepts/honcho.md` with the new-target reinforcement summary
 - Left `index.md` unchanged because no new durable page was created
+
+## [2026-05-23] ingest | Interest signal collection 19:00 run
+- Saved raw source: `raw/transcripts/interest-signal-collection-19-00-2026-05-23.md`
+- Compared against the 08:00 / 11:00 same-day baselines and found fresh rotation mainly in Threads activity/reposts, the YouTube watch-later list, one new GitHub star (`memory-bank`), and a few new Claude / ChatGPT recent items
+- The durable reading stayed inside the existing AI infra / agent / memory-routing / education-packaging lane; no new page or index change was needed
