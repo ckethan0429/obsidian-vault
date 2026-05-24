@@ -1,7 +1,7 @@
 ---
 title: Honcho
 created: 2026-04-18
-updated: 2026-05-23
+updated: 2026-05-24
 type: concept
 tags: [agents, hermes, automation, assistant, workflows, protocols, browser-automation]
 sources: [raw/transcripts/interest-signal-collection-19-00-2026-04-17.md, raw/transcripts/interest-signal-note-19-00-2026-04-17.md, raw/transcripts/interest-signal-collection-08-00-2026-04-26.md, raw/transcripts/interest-signal-collection-11-00-2026-05-19.md, raw/transcripts/interest-signal-collection-19-00-2026-04-26.md, raw/transcripts/interest-signal-note-19-00-2026-04-26.md, raw/transcripts/interest-signal-collection-08-00-2026-04-30.md, raw/transcripts/interest-signal-note-08-00-2026-04-30.md, raw/transcripts/interest-signal-collection-11-00-2026-04-30.md, raw/transcripts/interest-signal-note-11-00-2026-04-30.md, raw/transcripts/interest-signal-collection-19-00-2026-04-30.md, raw/transcripts/interest-signal-note-19-00-2026-04-30.md, raw/transcripts/interest-signal-collection-22-00-2026-04-30.md, raw/transcripts/interest-signal-note-22-00-2026-04-30.md, raw/transcripts/interest-signal-collection-08-00-2026-05-02.md, raw/transcripts/interest-signal-note-08-00-2026-05-02.md, raw/transcripts/interest-signal-collection-11-00-2026-05-02.md, raw/transcripts/interest-signal-note-11-00-2026-05-02.md, raw/transcripts/interest-signal-collection-19-00-2026-05-02.md, raw/transcripts/interest-signal-note-19-00-2026-05-02.md, raw/transcripts/interest-signal-collection-22-00-2026-05-02.md, raw/transcripts/interest-signal-note-22-00-2026-05-02.md, raw/transcripts/interest-signal-collection-08-00-2026-05-03.md, raw/transcripts/interest-signal-collection-11-00-2026-05-03.md, raw/transcripts/interest-signal-collection-19-00-2026-05-03.md, raw/transcripts/interest-signal-collection-22-00-2026-05-03.md, raw/transcripts/interest-signal-collection-08-00-2026-05-04.md, raw/transcripts/interest-signal-collection-11-00-2026-05-04.md, raw/transcripts/interest-signal-collection-19-00-2026-05-04.md, raw/transcripts/interest-signal-collection-22-00-2026-05-04.md, raw/transcripts/interest-signal-collection-08-00-2026-05-05.md, raw/transcripts/interest-signal-collection-11-00-2026-05-05.md, raw/transcripts/interest-signal-collection-19-00-2026-05-05.md, ra... [truncated, raw/transcripts/interest-signal-collection-08-00-2026-05-18.md, raw/transcripts/interest-signal-collection-11-00-2026-05-18.md, raw/transcripts/interest-signal-collection-19-00-2026-05-18.md, raw/transcripts/interest-signal-collection-22-00-2026-05-18.md, raw/transcripts/interest-signal-collection-08-00-2026-05-19.md, raw/transcripts/interest-signal-collection-08-00-2026-05-20.md, raw/transcripts/interest-signal-collection-11-00-2026-05-20.md, raw/transcripts/interest-signal-collection-19-00-2026-05-20.md, raw/transcripts/interest-signal-collection-22-00-2026-05-20.md]
@@ -602,6 +602,34 @@ The 11:00 official-feed pass stayed inside the established durable lane, but it 
 
 ### Why this matters
 - Preserve the raw evidence, absorb the durable delta into the existing concept pages, and keep the routing layer strict about novelty.
+
+## 2026-05-23 same-day refinement summary
+
+The full day stayed on the same durable axis, and the earlier ingest-stage runs already absorbed the meaningful 11:00 / 22:00 deltas. By the time of the 23:00 refinement pass, the right call was to preserve raw evidence and avoid restamping the same reinforcement into concept pages.
+
+### Routed as `raw_only`
+- The 08:00 and 19:00 social surfaces (Threads, YouTube, GitHub stars, Google My Activity, Claude, ChatGPT) rotated fresh rows, but they still stayed inside the existing AI infra / managed-agents / memory-routing lane.
+- The 23:00 refinement pass did not need to promote any new branch; the earlier same-day durable updates had already absorbed the only meaningful deltas.
+
+### Kept out of duplicate durable promotion
+- The 11:00 and 22:00 new-target deltas were already absorbed earlier in the day by the existing concept pages, so the refinement pass intentionally did not repeat them.
+- No new durable page or index change was justified from the evening pass.
+
+### Why this matters
+- Preserve the raw evidence, keep same-day repetition from bloating durable pages, and treat the day as reinforcement-only at the 23:00 refinement layer.
+
+## 2026-05-24 morning collection summary
+
+The 08:00 pass stayed reinforcement-only at the durable layer.
+
+### Routed as `raw_only`
+- Threads liked/activity/profile/reposts/replies stayed in the same AI tooling / operator-economics / memory-routing lane.
+- YouTube remained dominated by AI agent, infra, and coding-workflow videos with the same recurring authors and topics.
+- GitHub stars, Google My Activity, Claude, and ChatGPT all repeated the same core themes instead of opening a new durable branch.
+
+### Why this matters
+- Morning repeats should stay raw-only unless the signal survives across surfaces and becomes durable enough to append existing pages.
+- Preserve the evidence, avoid duplicating the same-day reinforcement into concept pages, and keep the wiki stable.
 
 ## Related pages
 

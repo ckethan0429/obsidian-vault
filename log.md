@@ -1164,3 +1164,14 @@
 - Saved raw source: `raw/transcripts/interest-signal-collection-11-00-2026-05-24.md`
 - Compared against the 2026-05-23 new-target baseline; Anthropic, OpenAI, AWS, Microsoft, GitHub Changelog, Hugging Face, Kubernetes, Cloudflare, Google, and Docker were mostly reinforcement, while GitHub Trending rotated a few adjacent skills / agent repos without opening a new durable branch
 - The pass stayed `raw_only`; no durable page or index change was needed
+
+## [2026-05-24] ingest | Interest signal collection 19:00 run
+- Saved raw source: `raw/transcripts/interest-signal-collection-19-00-2026-05-24.md`
+- Compared against the morning 08:00 raw transcript and the 11:00 new-target pass; Threads, YouTube, GitHub stars, Google My Activity, Claude, and ChatGPT largely reinforced the existing AI infra / agent / memory-routing lane
+- A few rows rotated on Threads activity, YouTube watch later, and Claude recent items, but they still landed inside the same operator / workflow cluster
+- The pass stayed `raw_only`; no durable page or index change was needed
+
+## [2026-05-24] ingest | Interest signal collection 22:00 new-target run
+- Saved raw source: `raw/transcripts/interest-signal-collection-22-00-2026-05-24.md`
+- Compared against the 2026-05-24 11:00 new-target pass and the 2026-05-23 late-night new-target reinforcement; official feeds stayed reinforcement-only, while GitHub Trending rotated in `anthropics/knowledge-work-plugins`, `earendil-works/pi`, and `manaflow-ai/cmux`
+- The pass was routed `append_existing`; updated `concepts/managed-agents-practical-summary.md` and left `index.md` unchanged
