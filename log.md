@@ -1148,3 +1148,19 @@
 - Saved raw source: `raw/transcripts/interest-signal-collection-22-00-2026-05-23.md`
 - Compared against the 2026-05-23 11:00 baseline and prior new-target evidence; most feeds repeated, but AWS WorkSpaces Linux migration and GitHub Trending’s Anthropic-Cybersecurity-Skills / presenton rows were new enough to append existing infra/agent pages
 - Updated `concepts/ai-infra-operating-economics.md` and `index.md`; Google I/O / product posts stayed raw_only
+
+## [2026-05-23] update | 23:00 same-day refinement summary
+- Reviewed the 2026-05-23 raw transcripts from 08:00, 11:00, 19:00, and 22:00 without recollecting sources
+- Classified the day as reinforcement-only at the durable layer; the earlier ingest-stage updates had already absorbed the meaningful deltas
+- Updated `concepts/honcho.md` with the same-day refinement summary
+- Left `index.md` unchanged because no new page was created
+
+## [2026-05-24] ingest | Interest signal collection 08:00 run
+- Saved raw source: `raw/transcripts/interest-signal-collection-08-00-2026-05-24.md`
+- Compared against the 2026-05-23 08:00 baseline; Threads, YouTube, GitHub stars, Google My Activity, Claude, and ChatGPT stayed in the same AI infra / agent / memory-routing / education lane
+- The pass stayed `raw_only`; no durable page or index change was needed
+
+## [2026-05-24] ingest | Interest signal collection 11:00 new-target run
+- Saved raw source: `raw/transcripts/interest-signal-collection-11-00-2026-05-24.md`
+- Compared against the 2026-05-23 new-target baseline; Anthropic, OpenAI, AWS, Microsoft, GitHub Changelog, Hugging Face, Kubernetes, Cloudflare, Google, and Docker were mostly reinforcement, while GitHub Trending rotated a few adjacent skills / agent repos without opening a new durable branch
+- The pass stayed `raw_only`; no durable page or index change was needed
