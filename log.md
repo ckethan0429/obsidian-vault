@@ -1192,3 +1192,9 @@
 - Compared against the 2026-05-24 new-target baseline before judging novelty
 - Most official feeds repeated the prior baseline; AWS added a new SageMaker business metadata/governance row, and GitHub Trending rotated in several fresh Claude Code / agent-tooling repos
 - The run stayed `raw_only`; no durable page or index change was needed
+
+## [2026-05-25] ingest | Interest signal collection 19:00 run
+- Saved raw source: `raw/transcripts/interest-signal-collection-19-00-2026-05-25.md`
+- Compared against the 2026-05-25 08:00 raw transcript and the 11:00 new-target run before judging novelty
+- Threads, YouTube, GitHub stars, Claude, and ChatGPT all reinforced the same AI infra / agent / memory-routing / education lane; Google My Activity was present but not stable enough to treat as new evidence in this pass
+- The run stayed `raw_only`; no durable page or index change was needed
