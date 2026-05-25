@@ -1175,3 +1175,20 @@
 - Saved raw source: `raw/transcripts/interest-signal-collection-22-00-2026-05-24.md`
 - Compared against the 2026-05-24 11:00 new-target pass and the 2026-05-23 late-night new-target reinforcement; official feeds stayed reinforcement-only, while GitHub Trending rotated in `anthropics/knowledge-work-plugins`, `earendil-works/pi`, and `manaflow-ai/cmux`
 - The pass was routed `append_existing`; updated `concepts/managed-agents-practical-summary.md` and left `index.md` unchanged
+
+## [2026-05-24] update | Interest signal collection 23:00 refinement summary
+- Reviewed the same-day raw transcripts from 08:00, 11:00, 19:00, and 22:00 before final triage
+- The day remained reinforcement-only at the durable layer; the only durable delta had already been absorbed by the earlier 22:00 append_existing update
+- Updated `concepts/honcho.md`; no new concept page or index change was justified
+
+## [2026-05-25] ingest | Interest signal collection 08:00 run
+- Saved raw source: `raw/transcripts/interest-signal-collection-08-00-2026-05-25.md`
+- Compared against the 2026-05-24 raw transcript set and the recent log baselines; Threads, YouTube, GitHub stars, and Google My Activity remained in the same AI infra / agent / memory-routing / education lane
+- Google My Activity briefly rotated `KRX:071050` again, but that row had already surfaced in the 2026-05-22 history rotation and did not open a new durable branch
+- The pass stayed `raw_only`; no durable page or index change was needed
+
+## [2026-05-25] ingest | Interest signal collection 11:00 new-target run
+- Saved raw source: `raw/transcripts/interest-signal-collection-11-00-2026-05-25.md`
+- Compared against the 2026-05-24 new-target baseline before judging novelty
+- Most official feeds repeated the prior baseline; AWS added a new SageMaker business metadata/governance row, and GitHub Trending rotated in several fresh Claude Code / agent-tooling repos
+- The run stayed `raw_only`; no durable page or index change was needed

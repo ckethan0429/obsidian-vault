@@ -631,6 +631,22 @@ The 08:00 pass stayed reinforcement-only at the durable layer.
 - Morning repeats should stay raw-only unless the signal survives across surfaces and becomes durable enough to append existing pages.
 - Preserve the evidence, avoid duplicating the same-day reinforcement into concept pages, and keep the wiki stable.
 
+## 2026-05-24 same-day refinement summary
+
+The full day still sat on the same durable axis. The earlier ingest-stage passes had already absorbed the only meaningful durable delta, so the 23:00 refinement layer should preserve the raw evidence and avoid restamping the same reinforcement into concept pages.
+
+### Routed as `raw_only`
+- The 08:00 and 19:00 social surfaces (Threads, YouTube, GitHub stars, Google My Activity, Claude, ChatGPT) rotated fresh rows, but they stayed inside the existing AI infra / managed-agents / memory-routing lane.
+- The 11:00 new-target pass was reinforcement-only, and the 22:00 new-target pass had already absorbed the only durable delta by appending the managed-agents summary.
+
+### Kept out of duplicate durable promotion
+- No new concept page was justified, and `index.md` did not need a change.
+- The refinement layer's job was limited to recording the triage decision in Honcho and appending the log entry.
+
+### Why this matters
+- Keep same-day repetition from bloating durable pages and treat the day as reinforcement-only at the 23:00 layer.
+- Preserve the raw transcript trail so later sessions can compare the repeated axes without re-promoting them.
+
 ## Related pages
 
 - [[interest-signal-sources]]
