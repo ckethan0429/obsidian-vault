@@ -1,7 +1,7 @@
 ---
 title: Honcho
 created: 2026-04-18
-updated: 2026-05-24
+updated: 2026-05-25
 type: concept
 tags: [agents, hermes, automation, assistant, workflows, protocols, browser-automation]
 sources: [raw/transcripts/interest-signal-collection-19-00-2026-04-17.md, raw/transcripts/interest-signal-note-19-00-2026-04-17.md, raw/transcripts/interest-signal-collection-08-00-2026-04-26.md, raw/transcripts/interest-signal-collection-11-00-2026-05-19.md, raw/transcripts/interest-signal-collection-19-00-2026-04-26.md, raw/transcripts/interest-signal-note-19-00-2026-04-26.md, raw/transcripts/interest-signal-collection-08-00-2026-04-30.md, raw/transcripts/interest-signal-note-08-00-2026-04-30.md, raw/transcripts/interest-signal-collection-11-00-2026-04-30.md, raw/transcripts/interest-signal-note-11-00-2026-04-30.md, raw/transcripts/interest-signal-collection-19-00-2026-04-30.md, raw/transcripts/interest-signal-note-19-00-2026-04-30.md, raw/transcripts/interest-signal-collection-22-00-2026-04-30.md, raw/transcripts/interest-signal-note-22-00-2026-04-30.md, raw/transcripts/interest-signal-collection-08-00-2026-05-02.md, raw/transcripts/interest-signal-note-08-00-2026-05-02.md, raw/transcripts/interest-signal-collection-11-00-2026-05-02.md, raw/transcripts/interest-signal-note-11-00-2026-05-02.md, raw/transcripts/interest-signal-collection-19-00-2026-05-02.md, raw/transcripts/interest-signal-note-19-00-2026-05-02.md, raw/transcripts/interest-signal-collection-22-00-2026-05-02.md, raw/transcripts/interest-signal-note-22-00-2026-05-02.md, raw/transcripts/interest-signal-collection-08-00-2026-05-03.md, raw/transcripts/interest-signal-collection-11-00-2026-05-03.md, raw/transcripts/interest-signal-collection-19-00-2026-05-03.md, raw/transcripts/interest-signal-collection-22-00-2026-05-03.md, raw/transcripts/interest-signal-collection-08-00-2026-05-04.md, raw/transcripts/interest-signal-collection-11-00-2026-05-04.md, raw/transcripts/interest-signal-collection-19-00-2026-05-04.md, raw/transcripts/interest-signal-collection-22-00-2026-05-04.md, raw/transcripts/interest-signal-collection-08-00-2026-05-05.md, raw/transcripts/interest-signal-collection-11-00-2026-05-05.md, raw/transcripts/interest-signal-collection-19-00-2026-05-05.md, ra... [truncated, raw/transcripts/interest-signal-collection-08-00-2026-05-18.md, raw/transcripts/interest-signal-collection-11-00-2026-05-18.md, raw/transcripts/interest-signal-collection-19-00-2026-05-18.md, raw/transcripts/interest-signal-collection-22-00-2026-05-18.md, raw/transcripts/interest-signal-collection-08-00-2026-05-19.md, raw/transcripts/interest-signal-collection-08-00-2026-05-20.md, raw/transcripts/interest-signal-collection-11-00-2026-05-20.md, raw/transcripts/interest-signal-collection-19-00-2026-05-20.md, raw/transcripts/interest-signal-collection-22-00-2026-05-20.md]
@@ -646,6 +646,18 @@ The full day still sat on the same durable axis. The earlier ingest-stage passes
 ### Why this matters
 - Keep same-day repetition from bloating durable pages and treat the day as reinforcement-only at the 23:00 layer.
 - Preserve the raw transcript trail so later sessions can compare the repeated axes without re-promoting them.
+
+## 2026-05-25 new-target routing
+
+### Routed as `append_existing`
+- AWS Security Agent's verification-script launch, Docker AI Governance, Microsoft's `Securing MCP`, and GitHub Trending's Claude workspace / cookbook repos all strengthened [[managed-agents-practical-summary]] and [[ai-infra-operating-economics]] rather than opening a new branch.
+- GitHub Changelog's Copilot metrics / model-selection updates were supporting control-plane evidence, not a separate concept.
+
+### Routed as `raw_only`
+- Cloudflare, Google, Hugging Face, Kubernetes, and most of the remaining feed rows were either reinforcement or adjacent infrastructure noise.
+
+### Why this matters
+- The correct triage is to preserve the raw evidence, absorb the governance/control-plane delta into existing pages, and avoid promoting feed rotation into a new wiki branch.
 
 ## Related pages
 

@@ -1198,3 +1198,10 @@
 - Compared against the 2026-05-25 08:00 raw transcript and the 11:00 new-target run before judging novelty
 - Threads, YouTube, GitHub stars, Claude, and ChatGPT all reinforced the same AI infra / agent / memory-routing / education lane; Google My Activity was present but not stable enough to treat as new evidence in this pass
 - The run stayed `raw_only`; no durable page or index change was needed
+
+## [2026-05-25] ingest | Interest signal collection 22:00 new-target run
+- Saved raw source: `raw/transcripts/interest-signal-collection-22-00-2026-05-25.md`
+- Compared against the 2026-05-25 11:00 new-target baseline and the 2026-05-24 late baseline before judging novelty
+- AWS Security Agent verification scripts, Docker AI Governance, Microsoft `Securing MCP`, and GitHub Trending's `apps/claude` / `anthropics/claude-cookbooks` cluster were the clearest new rows
+- Updated `concepts/managed-agents-practical-summary.md` and `concepts/honcho.md`; `index.md` was unchanged because no new durable page was created
+- The run was routed `append_existing`

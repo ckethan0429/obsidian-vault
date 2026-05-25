@@ -1,7 +1,7 @@
 ---
 title: Managed Agents practical summary
 created: 2026-04-15
-updated: 2026-05-24
+updated: 2026-05-25
 type: concept
 tags: [agents, orchestration, infrastructure, devtools, anthropic, checklist]
 sources: [raw/articles/anthropic-managed-agents-2026-04-15.md, raw/articles/effective-harnesses-for-long-running-agents-2026-04-15.md, raw/transcripts/interest-signal-collection-11-00-2026-05-16.md, raw/transcripts/interest-signal-collection-19-00-2026-05-16.md, raw/transcripts/managed-agents-codefactory-video-2026-04-15.md, raw/transcripts/interest-signal-collection-19-00-2026-04-20.md, raw/transcripts/interest-signal-collection-08-00-2026-04-22.md, raw/transcripts/interest-signal-collection-08-00-2026-04-22-threads-liked-rerun.md, raw/transcripts/interest-signal-collection-19-00-2026-04-22.md, raw/transcripts/interest-signal-collection-08-00-2026-04-26.md, raw/transcripts/interest-signal-collection-19-00-2026-04-26.md, raw/transcripts/interest-signal-note-19-00-2026-04-26.md, raw/transcripts/interest-signal-collection-08-00-2026-04-30.md, raw/transcripts/interest-signal-note-08-00-2026-04-30.md, raw/transcripts/interest-signal-collection-11-00-2026-04-30.md, raw/transcripts/interest-signal-note-11-00-2026-04-30.md, raw/transcripts/interest-signal-collection-19-00-2026-04-30.md, raw/transcripts/interest-signal-note-19-00-2026-04-30.md, raw/transcripts/interest-signal-collection-22-00-2026-04-30.md, raw/transcripts/interest-signal-note-22-00-2026-04-30.md, raw/transcripts/interest-signal-collection-08-00-2026-05-01.md, raw/transcripts/interest-signal-note-08-00-2026-05-01.md, raw/transcripts/interest-signal-collection-08-00-2026-05-03.md, raw/transcripts/interest-signal-collection-11-00-2026-05-03.md, raw/transcripts/interest-signal-collection-19-00-2026-05-03.md, raw/transcripts/interest-signal-collection-22-00-2026-05-03.md, raw/transcripts/interest-signal-collection-22-00-2026-05-04.md, raw/transcripts/interest-signal-collection-08-00-2026-05-05.md, raw/transcripts/interest-signal-collection-19-00-2026-05-05.md, raw/transcripts/interest-signal-collection-22-00-2026-05-05.md, raw/transcripts/interest-signal-collection-11-00-2026-05-06.md, raw/transcripts/interest-signal-collection-08-00-2026-05-07.md, raw/transcripts/interest-signal-collection-19-00-2026-05-07.md, raw/transcripts/interest-signal-collection-11-00-2026-05-07.md, raw/transcripts/interest-signal-collection-22-00-2026-05-07.md, raw/transcripts/interest-signal-collection-11-00-2026-05-08.md, raw/transcripts/interest-signal-collection-22-00-2026-05-08.md, raw/transcripts/interest-signal-collection-08-00-2026-05-09.md, raw/transcripts/interest-signal-collection-11-00-2026-05-09.md, raw/transcripts/interest-signal-collection-11-00-2026-05-10.md, raw/transcripts/interest-signal-collection-08-00-2026-05-12.md, raw/transcripts/interest-signal-collection-11-00-2026-05-12.md, raw/transcripts/interest-signal-collection-19-00-2026-05-12.md, raw/transcripts/interest-signal-collection-22-00-2026-05-12.md, raw/transcripts/interest-signal-collection-08-00-2026-05-13.md, raw/transcripts/interest-signal-collection-11-00-2026-05-13.md, raw/transcripts/interest-signal-collection-19-00-2026-05-13.md, raw/transcripts/interest-signal-collection-22-00-2026-05-13.md]
@@ -572,6 +572,20 @@ The 22:00 new-target pass stayed inside the same managed-agent / packaging axis,
 
 ### Updated reading
 This is still **append_existing**. The day’s new-target pass extends the existing plugin / agent-tooling / packaging branch, but it does not justify a separate durable page.
+
+## 2026-05-25 new-target reinforcement
+
+The latest new-target pass did not open a new macro-axis, but it made the control-plane / governance boundary even more explicit.
+
+### What looked fresh
+- **AWS** added `AWS Security Agent adds verification scripts for pentest findings`, which pushes security review into a first-class runtime action.
+- **Docker** added `Docker AI Governance: Unlock Agent Autonomy, Safely`, which frames agent autonomy as a policy problem around network reach, credentials, and MCP tool access.
+- **Microsoft** added `Securing MCP: A Control Plane for Agent Tool Execution`, which makes tool execution itself a governable control surface rather than an implementation detail.
+- **GitHub Trending** rotated in `apps/claude`, `anthropics/claude-cookbooks`, `garrytan/gstack`, and `hardikpandya/stop-slop`, which strengthen the Claude Code / local workspace / recipe / prose-hygiene packaging lane.
+- **GitHub Changelog** added Copilot metrics download-url and model-selection updates, which reinforce the operational and governance boundary around agent products.
+
+### Updated reading
+This is still **append_existing**. The new-target evidence deepens the managed-agent thesis by showing that governance, verification, and tool-execution policy are now a visible vendor surface, not just an inferred concern.
 
 ## Related pages
 
