@@ -598,6 +598,11 @@ The latest new-target pass stayed on the same managed-agent / control-plane axis
 - **Docker** added `Meet Gordon`, `Coding Agent Horror Stories`, `Custom MCP Catalogs and Profiles`, and `NIST Narrows the NVD`, which keep agent autonomy, tool policy, and container security coupled together.
 - **GitHub Trending** rotated in `anthropics/knowledge-work-plugins`, `affaan-m/ECC`, `mukul975/Anthropic-Cybersecurity-Skills`, `colbymchenry/codegraph`, `multica-ai/andrej-karpathy-skills`, `Leonxlnx/taste-skill`, `moeru-ai/airi`, and `manaflow-ai/cmux`, which together reinforce the same skills / harness / workspace packaging lane.
 
+### Late 22:00 follow-up
+- **GitHub Trending** added `Lum1104/Understand-Anything` and `thedotmack/claude-mem`, which extend the code-graph / persistent-context lane already visible in the repo/workspace tooling cluster.
+- **Docker** added `The Untrusted Autonomous Workload: How AI Coding Agents Reshape What Isolation Has to Do`, which sharpens the agent-isolation / sandboxing thread.
+- **GitHub Changelog** added `Code coverage on pull requests is now in public preview`, a smaller but still useful code-quality primitive for agent-generated changes.
+
 ### Updated reading
 This is still **append_existing**. The new evidence does not create a new branch; it strengthens the view that managed agents are being operationalized through governed control planes, workload-aware scheduling, and reusable repo/package surfaces.
 

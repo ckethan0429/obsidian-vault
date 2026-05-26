@@ -676,6 +676,28 @@ The full day stayed reinforcement-only at the durable layer. The earlier ingest-
 ### Why this matters
 This keeps the audit trail explicit: preserve the raw transcripts, let ingest-stage updates absorb any durable delta once, and keep the 23:00 refinement pass from duplicating same-day reinforcement across durable pages.
 
+## 2026-05-26 19:00 reinforcement summary
+
+The afternoon pass stayed `raw_only` at the durable layer.
+
+### Routed as `raw_only`
+- GitHub Stars rotated through `not-claude-code-emulator`, `atomic-hermes`, `web-agent`, `pyturboquant`, `claude-code-best-practice`, and `hermes-workspace`, but those repos were still inside the existing Claude Code / agent harness / shared-memory lane.
+- Threads likes and activity repeated VC, vibe-coding, phase-based parallel work, memory-bank / oh-my-agent, Ceph·Proxmox·GPU, and AI-infra economics themes.
+- YouTube subscriptions and watch-later rotated fresh AI agent / Claude Code / skill / MCP / data-center rows, but the feed still stayed on the same operator-economics axis.
+- Google My Activity, ChatGPT, and Claude reinforced the same memory-routing, OpenClaw, Proxmox/GPU, and education-led packaging themes.
+
+### Why this matters
+- This pass adds evidence but not a new durable branch; preserve the raw transcript, avoid duplicating same-day reinforcement into concept pages, and leave `index.md` unchanged.
+
+## 2026-05-26 22:00 new-target routing
+
+### Routed as `append_existing`
+- GitHub Trending added `Lum1104/Understand-Anything` and `thedotmack/claude-mem`, which reinforce the code-graph and persistent-context lanes already visible in the agent/workspace cluster.
+- Docker added `The Untrusted Autonomous Workload: How AI Coding Agents Reshape What Isolation Has to Do`, and GitHub Changelog added `Code coverage on pull requests is now in public preview`; both are durable control-plane / quality-control signals rather than a new macro-axis.
+
+### Why this matters
+- The pass still sits inside the managed-agent / control-plane axis, so the right action is a minimal append to existing pages rather than a new concept page.
+
 ## Related pages
 
 - [[interest-signal-sources]]

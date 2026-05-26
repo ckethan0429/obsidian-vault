@@ -1222,3 +1222,15 @@
 - Compared against the 2026-05-25 22:00 new-target baseline before judging novelty
 - AWS, Cloudflare, Kubernetes, Docker, Microsoft, and GitHub Trending all rotated fresh control-plane / scheduling / packaging rows; OpenAI and Anthropic were fresh but adjacent
 - Updated `concepts/managed-agents-practical-summary.md` and `index.md`; the run was routed `append_existing`
+
+## [2026-05-26] ingest | Interest signal collection 19:00 run
+- Saved raw source: `raw/transcripts/interest-signal-collection-19-00-2026-05-26.md`
+- Compared against the 2026-05-25 baseline and the same-day 08:00 / 11:00 runs before judging novelty
+- GitHub Stars rotated fresh views, but the visible repos stayed inside the agent/tooling / harness / memory lane; Threads, YouTube, Google, ChatGPT, and Claude were reinforcement-heavy
+- Routed `raw_only`; no durable page or index change was needed
+
+## [2026-05-26] ingest | Interest signal collection 22:00 new-target run
+- Saved raw source: `raw/transcripts/interest-signal-collection-22-00-2026-05-26.md`
+- Compared against the 2026-05-26 11:00 new-target baseline and the 2026-05-25 22:00 baseline before judging novelty
+- GitHub Trending surfaced new `Understand-Anything` and `claude-mem` repos; Docker added an isolation-oriented autonomous-workload essay; GitHub Changelog added code coverage on PRs
+- Updated `concepts/managed-agents-practical-summary.md` and `concepts/honcho.md`; the run was routed `append_existing`
