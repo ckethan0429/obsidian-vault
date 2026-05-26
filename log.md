@@ -1205,3 +1205,20 @@
 - AWS Security Agent verification scripts, Docker AI Governance, Microsoft `Securing MCP`, and GitHub Trending's `apps/claude` / `anthropics/claude-cookbooks` cluster were the clearest new rows
 - Updated `concepts/managed-agents-practical-summary.md` and `concepts/honcho.md`; `index.md` was unchanged because no new durable page was created
 - The run was routed `append_existing`
+
+## [2026-05-25] update | Interest signal collection 23:00 refinement summary
+- Reviewed the same-day raw transcripts from 08:00, 11:00, 19:00, and 22:00 before final triage
+- The day stayed reinforcement-only at the durable layer; the 22:00 durable delta had already been absorbed by the earlier ingest-stage updates
+- Updated `concepts/honcho.md`; no new concept page or index change was justified
+
+## [2026-05-26] ingest | Interest signal collection 08:00 run
+- Saved raw source: `raw/transcripts/interest-signal-collection-08-00-2026-05-26.md`
+- Compared against the 2026-05-25 baseline before judging novelty
+- GitHub Stars surfaced one new repo candidate, `smithersai / claude-p`; Threads, Google My Activity, and YouTube were reinforcement-only
+- The run stayed `raw_only`; no durable page or index change was needed
+
+## [2026-05-26] ingest | Interest signal collection 11:00 new-target run
+- Saved raw source: `raw/transcripts/interest-signal-collection-11-00-2026-05-26.md`
+- Compared against the 2026-05-25 22:00 new-target baseline before judging novelty
+- AWS, Cloudflare, Kubernetes, Docker, Microsoft, and GitHub Trending all rotated fresh control-plane / scheduling / packaging rows; OpenAI and Anthropic were fresh but adjacent
+- Updated `concepts/managed-agents-practical-summary.md` and `index.md`; the run was routed `append_existing`

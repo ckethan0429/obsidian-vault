@@ -1,7 +1,7 @@
 ---
 title: Managed Agents practical summary
 created: 2026-04-15
-updated: 2026-05-25
+updated: 2026-05-26
 type: concept
 tags: [agents, orchestration, infrastructure, devtools, anthropic, checklist]
 sources: [raw/articles/anthropic-managed-agents-2026-04-15.md, raw/articles/effective-harnesses-for-long-running-agents-2026-04-15.md, raw/transcripts/interest-signal-collection-11-00-2026-05-16.md, raw/transcripts/interest-signal-collection-19-00-2026-05-16.md, raw/transcripts/managed-agents-codefactory-video-2026-04-15.md, raw/transcripts/interest-signal-collection-19-00-2026-04-20.md, raw/transcripts/interest-signal-collection-08-00-2026-04-22.md, raw/transcripts/interest-signal-collection-08-00-2026-04-22-threads-liked-rerun.md, raw/transcripts/interest-signal-collection-19-00-2026-04-22.md, raw/transcripts/interest-signal-collection-08-00-2026-04-26.md, raw/transcripts/interest-signal-collection-19-00-2026-04-26.md, raw/transcripts/interest-signal-note-19-00-2026-04-26.md, raw/transcripts/interest-signal-collection-08-00-2026-04-30.md, raw/transcripts/interest-signal-note-08-00-2026-04-30.md, raw/transcripts/interest-signal-collection-11-00-2026-04-30.md, raw/transcripts/interest-signal-note-11-00-2026-04-30.md, raw/transcripts/interest-signal-collection-19-00-2026-04-30.md, raw/transcripts/interest-signal-note-19-00-2026-04-30.md, raw/transcripts/interest-signal-collection-22-00-2026-04-30.md, raw/transcripts/interest-signal-note-22-00-2026-04-30.md, raw/transcripts/interest-signal-collection-08-00-2026-05-01.md, raw/transcripts/interest-signal-note-08-00-2026-05-01.md, raw/transcripts/interest-signal-collection-08-00-2026-05-03.md, raw/transcripts/interest-signal-collection-11-00-2026-05-03.md, raw/transcripts/interest-signal-collection-19-00-2026-05-03.md, raw/transcripts/interest-signal-collection-22-00-2026-05-03.md, raw/transcripts/interest-signal-collection-22-00-2026-05-04.md, raw/transcripts/interest-signal-collection-08-00-2026-05-05.md, raw/transcripts/interest-signal-collection-19-00-2026-05-05.md, raw/transcripts/interest-signal-collection-22-00-2026-05-05.md, raw/transcripts/interest-signal-collection-11-00-2026-05-06.md, raw/transcripts/interest-signal-collection-08-00-2026-05-07.md, raw/transcripts/interest-signal-collection-19-00-2026-05-07.md, raw/transcripts/interest-signal-collection-11-00-2026-05-07.md, raw/transcripts/interest-signal-collection-22-00-2026-05-07.md, raw/transcripts/interest-signal-collection-11-00-2026-05-08.md, raw/transcripts/interest-signal-collection-22-00-2026-05-08.md, raw/transcripts/interest-signal-collection-08-00-2026-05-09.md, raw/transcripts/interest-signal-collection-11-00-2026-05-09.md, raw/transcripts/interest-signal-collection-11-00-2026-05-10.md, raw/transcripts/interest-signal-collection-08-00-2026-05-12.md, raw/transcripts/interest-signal-collection-11-00-2026-05-12.md, raw/transcripts/interest-signal-collection-19-00-2026-05-12.md, raw/transcripts/interest-signal-collection-22-00-2026-05-12.md, raw/transcripts/interest-signal-collection-08-00-2026-05-13.md, raw/transcripts/interest-signal-collection-11-00-2026-05-13.md, raw/transcripts/interest-signal-collection-19-00-2026-05-13.md, raw/transcripts/interest-signal-collection-22-00-2026-05-13.md]
@@ -586,6 +586,20 @@ The latest new-target pass did not open a new macro-axis, but it made the contro
 
 ### Updated reading
 This is still **append_existing**. The new-target evidence deepens the managed-agent thesis by showing that governance, verification, and tool-execution policy are now a visible vendor surface, not just an inferred concern.
+
+## 2026-05-26 new-target reinforcement
+
+The latest new-target pass stayed on the same managed-agent / control-plane axis, but it widened the evidence into infra scheduling, packaging, and repo-level ecosystem signals.
+
+### What looked fresh
+- **AWS** added `Amazon SageMaker expands domain management across domain types`, `New agentic migration assessment capabilities now available with AWS Transform`, and `Amazon SageMaker adds business metadata and governance in IAM-based domains`, which turn infra admin into more explicit operating surfaces.
+- **Cloudflare** added `Browser Run: now running on Cloudflare Containers, it’s faster and more scalable` and a billing-pipeline / ClickHouse bottleneck post; the Browser Run item is the clearest productization signal.
+- **Kubernetes** added `Kubernetes v1.36: Advancing Workload-Aware Scheduling` and `Kubernetes v1.36: Deprecation and removal of Service ExternalIPs`, reinforcing that scheduling and trust boundaries are still evolving in the infra layer.
+- **Docker** added `Meet Gordon`, `Coding Agent Horror Stories`, `Custom MCP Catalogs and Profiles`, and `NIST Narrows the NVD`, which keep agent autonomy, tool policy, and container security coupled together.
+- **GitHub Trending** rotated in `anthropics/knowledge-work-plugins`, `affaan-m/ECC`, `mukul975/Anthropic-Cybersecurity-Skills`, `colbymchenry/codegraph`, `multica-ai/andrej-karpathy-skills`, `Leonxlnx/taste-skill`, `moeru-ai/airi`, and `manaflow-ai/cmux`, which together reinforce the same skills / harness / workspace packaging lane.
+
+### Updated reading
+This is still **append_existing**. The new evidence does not create a new branch; it strengthens the view that managed agents are being operationalized through governed control planes, workload-aware scheduling, and reusable repo/package surfaces.
 
 ## Related pages
 
