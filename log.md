@@ -1234,3 +1234,21 @@
 - Compared against the 2026-05-26 11:00 new-target baseline and the 2026-05-25 22:00 baseline before judging novelty
 - GitHub Trending surfaced new `Understand-Anything` and `claude-mem` repos; Docker added an isolation-oriented autonomous-workload essay; GitHub Changelog added code coverage on PRs
 - Updated `concepts/managed-agents-practical-summary.md` and `concepts/honcho.md`; the run was routed `append_existing`
+
+## [2026-05-26] update | Interest signal 23:00 refinement summary
+- Reviewed the same-day 08:00, 11:00, 19:00, and 22:00 raw transcripts before final triage
+- Classified the day as reinforcement-only at the durable layer; the only durable deltas had already been absorbed during the 11:00 and 22:00 ingest-stage updates
+- Appended a same-day refinement audit note to `concepts/honcho.md`
+- Left `index.md` unchanged and did not create or update any other concept page
+
+## [2026-05-27] ingest | Interest signal collection 08:00 run
+- Saved raw source: `raw/transcripts/interest-signal-collection-08-00-2026-05-27.md`
+- Threads likes surfaced fresh AI/education rows (`choi.openai`, `unclejobs.ai`), but GitHub Stars, YouTube, Google My Activity, ChatGPT, and Claude were reinforcement-only
+- Routed `raw_only`; no durable page or index change was needed
+
+## [2026-05-28] ingest | Interest signal collection 11:00 new-target run
+- Saved raw source: `raw/transcripts/interest-signal-collection-11-00-2026-05-28.md`
+- Compared against the 2026-05-26 22:00 new-target baseline before judging novelty
+- Strongest fresh rows came from OpenAI Codex enterprise/self-improving-agent posts, AWS SageMaker GPU and Bedrock quota updates, GitHub Copilot Memory/model/code-quality controls, Google Pay UCP/MCP agentic-commerce support, Microsoft's agent-consumer framing, and Hugging Face ITBench-AA
+- Routed `append_existing`; updated `concepts/managed-agents-practical-summary.md`, `concepts/ai-infra-operating-economics.md`, and `concepts/honcho.md`
+- Left `index.md` unchanged because no new durable page was created

@@ -1,7 +1,7 @@
 ---
 title: Honcho
 created: 2026-04-18
-updated: 2026-05-26
+updated: 2026-05-28
 type: concept
 tags: [agents, hermes, automation, assistant, workflows, protocols, browser-automation]
 sources: [raw/transcripts/interest-signal-collection-19-00-2026-04-17.md, raw/transcripts/interest-signal-note-19-00-2026-04-17.md, raw/transcripts/interest-signal-collection-08-00-2026-04-26.md, raw/transcripts/interest-signal-collection-11-00-2026-05-19.md, raw/transcripts/interest-signal-collection-19-00-2026-04-26.md, raw/transcripts/interest-signal-note-19-00-2026-04-26.md, raw/transcripts/interest-signal-collection-08-00-2026-04-30.md, raw/transcripts/interest-signal-note-08-00-2026-04-30.md, raw/transcripts/interest-signal-collection-11-00-2026-04-30.md, raw/transcripts/interest-signal-note-11-00-2026-04-30.md, raw/transcripts/interest-signal-collection-19-00-2026-04-30.md, raw/transcripts/interest-signal-note-19-00-2026-04-30.md, raw/transcripts/interest-signal-collection-22-00-2026-04-30.md, raw/transcripts/interest-signal-note-22-00-2026-04-30.md, raw/transcripts/interest-signal-collection-08-00-2026-05-02.md, raw/transcripts/interest-signal-note-08-00-2026-05-02.md, raw/transcripts/interest-signal-collection-11-00-2026-05-02.md, raw/transcripts/interest-signal-note-11-00-2026-05-02.md, raw/transcripts/interest-signal-collection-19-00-2026-05-02.md, raw/transcripts/interest-signal-note-19-00-2026-05-02.md, raw/transcripts/interest-signal-collection-22-00-2026-05-02.md, raw/transcripts/interest-signal-note-22-00-2026-05-02.md, raw/transcripts/interest-signal-collection-08-00-2026-05-03.md, raw/transcripts/interest-signal-collection-11-00-2026-05-03.md, raw/transcripts/interest-signal-collection-19-00-2026-05-03.md, raw/transcripts/interest-signal-collection-22-00-2026-05-03.md, raw/transcripts/interest-signal-collection-08-00-2026-05-04.md, raw/transcripts/interest-signal-collection-11-00-2026-05-04.md, raw/transcripts/interest-signal-collection-19-00-2026-05-04.md, raw/transcripts/interest-signal-collection-22-00-2026-05-04.md, raw/transcripts/interest-signal-collection-08-00-2026-05-05.md, raw/transcripts/interest-signal-collection-11-00-2026-05-05.md, raw/transcripts/interest-signal-collection-19-00-2026-05-05.md, ra... [truncated, raw/transcripts/interest-signal-collection-08-00-2026-05-18.md, raw/transcripts/interest-signal-collection-11-00-2026-05-18.md, raw/transcripts/interest-signal-collection-19-00-2026-05-18.md, raw/transcripts/interest-signal-collection-22-00-2026-05-18.md, raw/transcripts/interest-signal-collection-08-00-2026-05-19.md, raw/transcripts/interest-signal-collection-08-00-2026-05-20.md, raw/transcripts/interest-signal-collection-11-00-2026-05-20.md, raw/transcripts/interest-signal-collection-19-00-2026-05-20.md, raw/transcripts/interest-signal-collection-22-00-2026-05-20.md, raw/transcripts/interest-signal-collection-08-00-2026-05-25.md, raw/transcripts/interest-signal-collection-11-00-2026-05-25.md, raw/transcripts/interest-signal-collection-19-00-2026-05-25.md, raw/transcripts/interest-signal-collection-22-00-2026-05-25.md]
@@ -697,6 +697,42 @@ The afternoon pass stayed `raw_only` at the durable layer.
 
 ### Why this matters
 - The pass still sits inside the managed-agent / control-plane axis, so the right action is a minimal append to existing pages rather than a new concept page.
+
+## 2026-05-26 23:00 same-day refinement summary
+
+The full day remained reinforcement-only at the durable layer. Earlier ingest-stage updates had already absorbed the durable 11:00 and 22:00 deltas, so the 23:00 refinement kept raw evidence intact and did not restamp the same signal into concept pages.
+
+### Routed as `raw_only`
+- 08:00 had one fresh GitHub Stars candidate (`smithersai/claude-p`), but Threads, Google My Activity, and YouTube stayed reinforcement-only.
+- 19:00 repeated the same Threads / YouTube / GitHub Stars / Google / ChatGPT / Claude lane without opening a new branch.
+
+### Routed as `append_existing`
+- 11:00 and 22:00 had already been absorbed into `[[managed-agents-practical-summary]]` as control-plane, governance, packaging, code-graph, persistent-context, isolation, and code-quality reinforcement.
+- Because that durable change was already applied earlier in the day, the 23:00 refinement did not need to touch concept pages again.
+
+### Not routed as `promote_to_wiki`
+- No new durable concept emerged from the 23:00 review.
+- `index.md` remained unchanged.
+
+### Why this matters
+- Preserve raw evidence, let ingest-stage updates absorb durable deltas once, and avoid duplicating same-day reinforcement across the wiki.
+
+## 2026-05-28 new-target routing
+
+### Routed as `append_existing`
+- The 11:00 official-feed pass added fresh durable reinforcement from OpenAI Codex enterprise/self-improving-agent rows, GitHub Copilot Memory/model/code-quality controls, Google Pay UCP/MCP agentic-commerce support, AWS SageMaker GPU/Bedrock quota surfaces, Microsoft agent-consumer framing, and Hugging Face ITBench-AA.
+- Those rows are strong enough to append [[managed-agents-practical-summary]] and [[ai-infra-operating-economics]], but they still sit inside the existing managed-agent / AI-infra control-plane axis.
+
+### Kept as `raw_only`
+- Cloudflare Claude Compliance / Managed Agents and Docker autonomous-workload isolation were useful but mostly repeated recent baselines.
+- GitHub Trending rotated several agent/tooling repos, but most remained in the already-tracked Claude Code / harness / skills / code-graph lane.
+
+### Not routed as `promote_to_wiki`
+- No new durable concept branch emerged; strict routing favored `append_existing` plus raw preservation.
+- `index.md` did not need a change because no new page was created.
+
+### Why this matters
+- The routing decision preserves the evidence while keeping durable wiki updates focused on the existing pages that already own the concept.
 
 ## Related pages
 

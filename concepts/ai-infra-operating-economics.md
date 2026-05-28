@@ -1,7 +1,7 @@
 ---
 title: AI infra operating economics
 created: 2026-04-22
-updated: 2026-05-23
+updated: 2026-05-28
 type: concept
 tags: [infrastructure, gpu, storage, proxmox, agents, business, strategy]
 sources: [raw/transcripts/interest-signal-collection-08-00-2026-05-16.md, raw/transcripts/interest-signal-collection-22-00-2026-05-16.md, raw/transcripts/interest-signal-collection-11-00-2026-05-20.md, raw/transcripts/interest-signal-collection-22-00-2026-05-21.md, raw/transcripts/interest-signal-collection-11-00-2026-05-19.md, raw/transcripts/interest-signal-collection-11-00-2026-05-15.md, raw/transcripts/interest-signal-collection-11-00-2026-05-13.md, raw/transcripts/interest-signal-collection-22-00-2026-05-13.md, raw/transcripts/interest-signal-collection-08-00-2026-04-22.md, raw/transcripts/interest-signal-collection-08-00-2026-04-22-threads-liked-rerun.md, raw/transcripts/interest-signal-collection-19-00-2026-04-22.md, raw/transcripts/interest-signal-note-19-00-2026-04-22.md, raw/transcripts/interest-signal-collection-08-00-2026-04-23.md, raw/transcripts/interest-signal-collection-08-00-2026-04-26.md, raw/transcripts/interest-signal-collection-19-00-2026-04-26.md, raw/transcripts/interest-signal-note-19-00-2026-04-26.md, raw/transcripts/interest-signal-collection-08-00-2026-04-27.md, raw/transcripts/interest-signal-note-08-00-2026-04-27.md, raw/transcripts/interest-signal-collection-19-00-2026-04-27.md, raw/transcripts/interest-signal-note-19-00-2026-04-27.md, raw/transcripts/interest-signal-collection-08-00-2026-04-28.md, raw/transcripts/interest-signal-note-08-00-2026-04-28.md, raw/transcripts/interest-signal-collection-19-00-2026-04-28.md, raw/transcripts/interest-signal-note-19-00-2026-04-28.md, raw/transcripts/interest-signal-collection-08-00-2026-04-29.md, raw/transcripts/interest-signal-note-08-00-2026-04-29.md, raw/transcripts/interest-signal-collection-11-00-2026-04-29.md, raw/transcripts/interest-signal-collection-19-00-2026-04-29.md, raw/transcripts/interest-signal-note-19-00-2026-04-29.md, raw/transcripts/interest-signal-collection-22-00-2026-04-29.md, raw/transcripts/interest-signal-note-22-00-2026-04-29.md, raw/transcripts/interest-signal-collection-11-00-2026-04-30.md, raw/transcripts/interest-signal-note-11-00-2026-04-30.md, raw/transcripts/interest-signal-collection-19-00-2026-04-30.md, raw/transcripts/interest-signal-note-19-00-202... [truncated, raw/transcripts/interest-signal-collection-11-00-2026-05-18.md, raw/transcripts/interest-signal-collection-08-00-2026-05-19.md]
@@ -937,6 +937,20 @@ The 22:00 pass stayed on the same macro-axis, but it added two more concrete ope
 
 ### Updated reading
 This is still **append_existing**. The late-evening pass reinforces the same infrastructure / tooling story, with a small extension into Linux desktop migration and new skills-packaging examples, but it still does not justify a separate durable concept page.
+
+## 2026-05-28 new-target reinforcement
+
+The latest new-target pass stayed on the deployable AI infra axis, but the strongest new rows shifted toward enterprise agent capacity, quota/governance controls, and agent-facing commerce/tooling protocols.
+
+### What looked fresh
+- **AWS** added P6-B200 SageMaker Notebook regional expansion, P5 / P5en SageMaker Notebook support, and Bedrock Service Quotas expansion, reinforcing GPU capacity and quota management as operator-facing primitives.
+- **OpenAI** added Cisco Codex, self-improving tax agents, and Warp GPT-5.5 coding-agent workflows, all of which make agentic development look more like production operating infrastructure than one-off assistant use.
+- **GitHub Changelog** added Copilot Memory scope/deletion/CLI controls, Code Quality repository enablement APIs, and targeted Copilot model rules, making memory, code quality, and model availability governable at org/repo scope.
+- **Google Developers** added UCP/MCP for Google Pay agentic commerce, tying payments/integrations to agent-operable protocols.
+- **Microsoft** and **Hugging Face** both made the evaluation gap explicit: agents consume SDKs/APIs differently from humans, and enterprise IT agents still benchmark poorly enough that runtime scaffolding remains economically important.
+
+### Updated reading
+This is still **append_existing**. The run strengthens the existing AI infra operating-economics thesis: CK should keep tracking the layer where GPU availability, quotas, memory controls, model routing, code quality, and agent-consumable APIs become the real operational moat.
 
 ## Related pages
 

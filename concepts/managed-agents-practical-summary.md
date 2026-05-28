@@ -1,7 +1,7 @@
 ---
 title: Managed Agents practical summary
 created: 2026-04-15
-updated: 2026-05-26
+updated: 2026-05-28
 type: concept
 tags: [agents, orchestration, infrastructure, devtools, anthropic, checklist]
 sources: [raw/articles/anthropic-managed-agents-2026-04-15.md, raw/articles/effective-harnesses-for-long-running-agents-2026-04-15.md, raw/transcripts/interest-signal-collection-11-00-2026-05-16.md, raw/transcripts/interest-signal-collection-19-00-2026-05-16.md, raw/transcripts/managed-agents-codefactory-video-2026-04-15.md, raw/transcripts/interest-signal-collection-19-00-2026-04-20.md, raw/transcripts/interest-signal-collection-08-00-2026-04-22.md, raw/transcripts/interest-signal-collection-08-00-2026-04-22-threads-liked-rerun.md, raw/transcripts/interest-signal-collection-19-00-2026-04-22.md, raw/transcripts/interest-signal-collection-08-00-2026-04-26.md, raw/transcripts/interest-signal-collection-19-00-2026-04-26.md, raw/transcripts/interest-signal-note-19-00-2026-04-26.md, raw/transcripts/interest-signal-collection-08-00-2026-04-30.md, raw/transcripts/interest-signal-note-08-00-2026-04-30.md, raw/transcripts/interest-signal-collection-11-00-2026-04-30.md, raw/transcripts/interest-signal-note-11-00-2026-04-30.md, raw/transcripts/interest-signal-collection-19-00-2026-04-30.md, raw/transcripts/interest-signal-note-19-00-2026-04-30.md, raw/transcripts/interest-signal-collection-22-00-2026-04-30.md, raw/transcripts/interest-signal-note-22-00-2026-04-30.md, raw/transcripts/interest-signal-collection-08-00-2026-05-01.md, raw/transcripts/interest-signal-note-08-00-2026-05-01.md, raw/transcripts/interest-signal-collection-08-00-2026-05-03.md, raw/transcripts/interest-signal-collection-11-00-2026-05-03.md, raw/transcripts/interest-signal-collection-19-00-2026-05-03.md, raw/transcripts/interest-signal-collection-22-00-2026-05-03.md, raw/transcripts/interest-signal-collection-22-00-2026-05-04.md, raw/transcripts/interest-signal-collection-08-00-2026-05-05.md, raw/transcripts/interest-signal-collection-19-00-2026-05-05.md, raw/transcripts/interest-signal-collection-22-00-2026-05-05.md, raw/transcripts/interest-signal-collection-11-00-2026-05-06.md, raw/transcripts/interest-signal-collection-08-00-2026-05-07.md, raw/transcripts/interest-signal-collection-19-00-2026-05-07.md, raw/transcripts/interest-signal-collection-11-00-2026-05-07.md, raw/transcripts/interest-signal-collection-22-00-2026-05-07.md, raw/transcripts/interest-signal-collection-11-00-2026-05-08.md, raw/transcripts/interest-signal-collection-22-00-2026-05-08.md, raw/transcripts/interest-signal-collection-08-00-2026-05-09.md, raw/transcripts/interest-signal-collection-11-00-2026-05-09.md, raw/transcripts/interest-signal-collection-11-00-2026-05-10.md, raw/transcripts/interest-signal-collection-08-00-2026-05-12.md, raw/transcripts/interest-signal-collection-11-00-2026-05-12.md, raw/transcripts/interest-signal-collection-19-00-2026-05-12.md, raw/transcripts/interest-signal-collection-22-00-2026-05-12.md, raw/transcripts/interest-signal-collection-08-00-2026-05-13.md, raw/transcripts/interest-signal-collection-11-00-2026-05-13.md, raw/transcripts/interest-signal-collection-19-00-2026-05-13.md, raw/transcripts/interest-signal-collection-22-00-2026-05-13.md]
@@ -605,6 +605,20 @@ The latest new-target pass stayed on the same managed-agent / control-plane axis
 
 ### Updated reading
 This is still **append_existing**. The new evidence does not create a new branch; it strengthens the view that managed agents are being operationalized through governed control planes, workload-aware scheduling, and reusable repo/package surfaces.
+
+## 2026-05-28 new-target reinforcement
+
+The 11:00 new-target pass added a cleaner external confirmation that the managed-agent layer is becoming an explicit enterprise control surface rather than a loose coding-agent trend.
+
+### What looked fresh
+- **OpenAI** added Codex deployment cases around Cisco enterprise engineering, self-improving tax agents, and Warp coordinating coding agents across local, cloud, and open-source workflows.
+- **GitHub Changelog** added Copilot Memory deletion/scope/CLI controls, repository-level Code Quality enablement, and organization-targeted model rules, which turns memory, model choice, and quality gates into admin surfaces.
+- **Google Developers** added Google Pay's Universal Commerce Protocol and MCP server for agentic commerce, plus ADK for Kotlin / Android, extending agent workflows into payments and mobile/edge packaging.
+- **Microsoft DevBlogs** added `How AI coding agents actually use your technology`, making the vendor-facing side explicit: SDKs, CLIs, docs, and APIs now need to be designed for agent consumers, not only human developers.
+- **Hugging Face** surfaced ITBench-AA, where frontier models score below 50% on agentic enterprise IT tasks, reinforcing that harness/evaluation quality is still a bottleneck.
+
+### Updated reading
+This remains **append_existing**. The new-target evidence strengthens the managed-agent thesis: durable value is shifting toward memory controls, model routing, evaluation, commerce/tool protocols, and agent-readable platform surfaces rather than a new standalone topic.
 
 ## Related pages
 
