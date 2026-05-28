@@ -767,6 +767,30 @@ The late new-target pass stayed `raw_only` after comparison with the same-day 11
 ### Why this matters
 - Preserve the official-feed and GitHub Trending evidence, but avoid restamping same-day reinforcement into concept pages after the earlier append.
 
+## 2026-05-28 23:00 same-day refinement summary
+
+The full 2026-05-28 refinement stayed reinforcement-only at the durable layer. The 11:00 new-target run already absorbed the only durable append into [[managed-agents-practical-summary]] and [[ai-infra-operating-economics]], while the 08:00, 19:00, and 22:00 runs preserved additional evidence without requiring another concept-page update.
+
+### Routed as `append_existing`
+- 11:00 official/new-target evidence: OpenAI Codex enterprise and self-improving agent workflows, GitHub Copilot Memory / model / code-quality controls, Google Pay UCP/MCP agentic commerce, AWS SageMaker GPU and Bedrock quota surfaces, Microsoft agent-consumer framing, and Hugging Face ITBench-AA.
+- This append had already been applied during the ingest-stage update, so the refinement pass did not duplicate the same content elsewhere.
+
+### Routed as `raw_only`
+- 08:00 social/browser evidence around Anthropic Korea, AgentOps, MCP/OpenClaw/LangSmith, private-cloud/on-demand semantics, DeepX/MCP searches, and Proxmox/Ceph/AIOps recents.
+- 19:00 social/browser/API evidence around Codex vs Claude Code, HBM/AI semiconductors, AI security, Hermes/Agent OS, Antigravity, Minimax M3, plus repeated Threads API and Google/Claude surfaces.
+- 22:00 official-feed/GitHub Trending evidence where official feeds mostly repeated 11:00 and new `taste-skill`, `stop-slop`, `superpowers`, and `revfactory/harness` rows stayed inside the existing agent-skill / meta-harness lane.
+
+### Routed as `discard`
+- Sports, politics, generic lifestyle, running, and low-signal social chatter were kept in raw evidence where captured but not promoted into durable pages.
+
+### Not routed as `promote_to_wiki` or `manual_review`
+- No genuinely new durable concept branch emerged after deduplication across the 08:00, 11:00, 19:00, and 22:00 transcripts.
+- No ambiguous high-value item required manual review; the uncertain or noisy rows were either raw-only reinforcement or discard-level social noise.
+- `index.md` remained unchanged because no new wiki page was created.
+
+### Why this matters
+- The day confirms the same operating thesis: CK's signal is concentrating around managed-agent control planes, AI-infra economics, agent skills/meta-harnesses, and private-cloud/operator practice. The correct durable action was one earlier append plus this Honcho audit trail, not another promotion.
+
 ## Related pages
 
 - [[interest-signal-sources]]
