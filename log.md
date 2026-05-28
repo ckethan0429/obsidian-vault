@@ -1265,3 +1265,9 @@
 - Newly surfaced examples were mostly YouTube rotations around Codex vs Claude Code, Claude Code, HBM/AI semiconductors, AI security, Hermes/Agent OS, Antigravity, and Minimax M3; ChatGPT added a tactical `React forwardRef 타입오류` recent title
 - Threads CDP/API, GitHub Stars, Google My Activity, Watch Later, Liked videos, and Claude were reinforcement-only or unchanged at the durable layer
 - Routed `raw_only`; appended a Honcho audit note and left `index.md` plus other durable concept pages unchanged
+
+## [2026-05-28] ingest | Interest signal collection 22:00 new-target run
+- Saved raw source: `raw/transcripts/interest-signal-collection-22-00-2026-05-28.md`
+- Compared against the same-day 11:00 new-target baseline and current-day log before judging novelty
+- Official feeds mostly repeated the 11:00 durable rows; GitHub Trending was the only clearly changed surface, adding `taste-skill`, `stop-slop`, `superpowers`, and `revfactory/harness` to the agent-skill / meta-harness lane
+- Routed `raw_only`; appended a Honcho audit note and left `index.md` plus non-Honcho durable concept pages unchanged

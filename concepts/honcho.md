@@ -751,6 +751,22 @@ The afternoon social/browser pass stayed `raw_only` at the durable layer after c
 ### Why this matters
 - Preserve the 19:00 raw transcript and audit trail, but avoid duplicating same-day reinforcement across concept pages.
 
+## 2026-05-28 22:00 new-target routing
+
+The late new-target pass stayed `raw_only` after comparison with the same-day 11:00 official-feed baseline.
+
+### Routed as `raw_only`
+- OpenAI, AWS, GitHub Changelog, Google Developers, Microsoft DevBlogs, Hugging Face, Cloudflare, Docker, and Kubernetes mostly repeated the 11:00 new-target evidence or older new-target baselines.
+- GitHub Trending was the only clearly changed high-signal surface: `Leonxlnx/taste-skill`, `hardikpandya/stop-slop`, `obra/superpowers`, and `revfactory/harness` made the agent-skill / meta-harness packaging lane more visible.
+
+### Not routed as `append_existing` or `promote_to_wiki`
+- The strongest durable deltas for 2026-05-28 had already been absorbed by the 11:00 new-target update.
+- The 22:00 rows added useful evidence but did not materially change the managed-agent / AI-infra control-plane thesis.
+- `index.md` and the non-Honcho durable concept pages were left unchanged.
+
+### Why this matters
+- Preserve the official-feed and GitHub Trending evidence, but avoid restamping same-day reinforcement into concept pages after the earlier append.
+
 ## Related pages
 
 - [[interest-signal-sources]]
