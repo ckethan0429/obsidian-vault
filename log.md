@@ -1258,3 +1258,10 @@
 - Strongest fresh rows came from OpenAI Codex enterprise/self-improving-agent posts, AWS SageMaker GPU and Bedrock quota updates, GitHub Copilot Memory/model/code-quality controls, Google Pay UCP/MCP agentic-commerce support, Microsoft's agent-consumer framing, and Hugging Face ITBench-AA
 - Routed `append_existing`; updated `concepts/managed-agents-practical-summary.md`, `concepts/ai-infra-operating-economics.md`, and `concepts/honcho.md`
 - Left `index.md` unchanged because no new durable page was created
+
+## [2026-05-28] ingest | Interest signal collection 19:00 run
+- Saved raw source: `raw/transcripts/interest-signal-collection-19-00-2026-05-28.md`
+- Compared against the same-day 08:00 social run, 11:00 new-target run, and current-day log entries before judging novelty
+- Newly surfaced examples were mostly YouTube rotations around Codex vs Claude Code, Claude Code, HBM/AI semiconductors, AI security, Hermes/Agent OS, Antigravity, and Minimax M3; ChatGPT added a tactical `React forwardRef 타입오류` recent title
+- Threads CDP/API, GitHub Stars, Google My Activity, Watch Later, Liked videos, and Claude were reinforcement-only or unchanged at the durable layer
+- Routed `raw_only`; appended a Honcho audit note and left `index.md` plus other durable concept pages unchanged

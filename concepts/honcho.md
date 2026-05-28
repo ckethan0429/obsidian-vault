@@ -734,6 +734,23 @@ The full day remained reinforcement-only at the durable layer. Earlier ingest-st
 ### Why this matters
 - The routing decision preserves the evidence while keeping durable wiki updates focused on the existing pages that already own the concept.
 
+## 2026-05-28 19:00 social routing
+
+The afternoon social/browser pass stayed `raw_only` at the durable layer after comparison with the same-day 08:00 social run and 11:00 new-target ingest.
+
+### Routed as `raw_only`
+- YouTube subscriptions rotated useful but non-branching examples: Codex vs Claude Code, `Claude Code FREE`, HBM/AI semiconductor coverage, AI security, Hermes/Agent OS, Antigravity, and Minimax M3.
+- Threads CDP/API mostly repeated Anthropic Korea, AgentOps, private-infra semantics, and older CK-authored managed-agent/runtime rows; API mentions were empty.
+- GitHub Stars, Google My Activity, Watch Later, Liked videos, and Claude were unchanged or reinforcement-only; ChatGPT added only the tactical `React forwardRef 타입오류` recent title.
+
+### Not routed as `append_existing` or `promote_to_wiki`
+- The strongest durable 2026-05-28 deltas had already been absorbed by the 11:00 new-target run.
+- The 19:00 pass added evidence and examples, not a new durable concept or a materially sharper thesis.
+- `index.md` and other durable concept pages were left unchanged.
+
+### Why this matters
+- Preserve the 19:00 raw transcript and audit trail, but avoid duplicating same-day reinforcement across concept pages.
+
 ## Related pages
 
 - [[interest-signal-sources]]
