@@ -1246,6 +1246,12 @@
 - Threads likes surfaced fresh AI/education rows (`choi.openai`, `unclejobs.ai`), but GitHub Stars, YouTube, Google My Activity, ChatGPT, and Claude were reinforcement-only
 - Routed `raw_only`; no durable page or index change was needed
 
+## [2026-05-28] ingest | Interest signal collection 08:00 run
+- Saved raw source: `raw/transcripts/interest-signal-collection-08-00-2026-05-28.md`
+- Compared against the 2026-05-27 08:00 baseline before judging novelty
+- Threads and YouTube surfaced fresh examples around Anthropic Korea, AgentOps/agentic engineering, MCP/OpenClaw/LangSmith, and private-cloud/on-demand semantics; Google/ChatGPT/Claude reinforced DeepX/MCP/Ceph/Proxmox/AIOps/private-cloud work
+- Routed `raw_only`; no durable page or index change was needed
+
 ## [2026-05-28] ingest | Interest signal collection 11:00 new-target run
 - Saved raw source: `raw/transcripts/interest-signal-collection-11-00-2026-05-28.md`
 - Compared against the 2026-05-26 22:00 new-target baseline before judging novelty
