@@ -1277,3 +1277,11 @@
 - Classified the day as reinforcement-only at the durable layer; the 11:00 `append_existing` update had already absorbed the only durable delta into `concepts/managed-agents-practical-summary.md` and `concepts/ai-infra-operating-economics.md`
 - Appended a same-day refinement audit note to `concepts/honcho.md`
 - Left `index.md` unchanged and did not create or update any other durable concept page
+
+## [2026-05-29] ingest | Interest signal collection 08:00 run
+- Saved raw source: `raw/transcripts/interest-signal-collection-08-00-2026-05-29.md`
+- Compared against the 2026-05-28 08:00 / 19:00 / 22:00 raw transcripts and the 23:00 refinement baseline before judging novelty
+- Fresh browser-visible rows came from Threads liked (`dante_ailab` Hermes Agent `NoneType` fix guidance), YouTube subscriptions (Opus 4.8 + Claude Code long-running tasks, agent observability, ontology/context-graph/data-modeling, enterprise agentic-project failure modes, OpenClaw/Hermes OS), and Google My Activity (`성과 관리`)
+- GitHub Stars, Watch Later, Liked videos, ChatGPT, Claude, Threads API keyword hits, and X were unchanged/reinforcement-only or unavailable at the durable layer
+- Routed `raw_only`; no durable concept page or index change was needed
+
