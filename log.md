@@ -1312,3 +1312,9 @@
 - Appended a whole-day Honcho refinement summary to `concepts/honcho.md`, including `raw_only`, `append_existing`, `manual_review`, `discard`, and `promote_to_wiki` decisions
 - Left `index.md` unchanged and did not create or update any other durable concept page
 
+## [2026-05-30] ingest | Interest signal collection 08:00 run
+- Saved raw source: `raw/transcripts/interest-signal-collection-08-00-2026-05-30.md`
+- Compared against the 2026-05-29 08:00 / 19:00 / 22:00 raw transcripts, the 22:00 note, and the 23:00 Honcho refinement before judging novelty
+- Freshly visible YouTube rows included AWS FSI `How Coinbase Powers Stablecoins, Wallets, and Agentic Commerce on AWS`, `Securely Connecting VS Code to a Remote Self-Hosted LLM`, LangChain agent deployment, AWS industrial/physical agentic AI, and CrowdStrike `Charlotte AI AgentWorks`; these stayed inside existing managed-agent / AI-infra / security / finance-automation lanes
+- Threads, GitHub Stars, Google My Activity, ChatGPT, Claude, Watch Later, Liked videos, Threads API, and X were unchanged, reinforcement-only, or unusable at the durable layer
+- Routed `raw_only`; appended a Honcho audit note and left `index.md` plus non-Honcho durable concept pages unchanged
