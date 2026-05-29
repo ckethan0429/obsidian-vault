@@ -1285,3 +1285,10 @@
 - GitHub Stars, Watch Later, Liked videos, ChatGPT, Claude, Threads API keyword hits, and X were unchanged/reinforcement-only or unavailable at the durable layer
 - Routed `raw_only`; no durable concept page or index change was needed
 
+## [2026-05-29] ingest | Interest signal collection 11:00 new-target run
+- Saved raw source: `raw/transcripts/interest-signal-collection-11-00-2026-05-29.md`
+- Compared against the 2026-05-28 22:00 new-target baseline, same-day 08:00 social transcript, and current log before judging novelty
+- Fresh official-feed rows came from OpenAI Endava Codex organization-building / Frontier Governance Framework, Claude Opus 4.8 across Anthropic/AWS/GitHub, Microsoft Learn MCP, Google Pay & Wallet Developer MCP, Cloudflare Town Lake + Skipper, and AWS/GitHub budget/security/resilience controls
+- Routed `append_existing`; updated `concepts/managed-agents-practical-summary.md`, `concepts/ai-infra-operating-economics.md`, and `concepts/honcho.md`
+- Left `index.md` unchanged because no new durable page was created
+

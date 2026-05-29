@@ -1,7 +1,7 @@
 ---
 title: AI infra operating economics
 created: 2026-04-22
-updated: 2026-05-28
+updated: 2026-05-29
 type: concept
 tags: [infrastructure, gpu, storage, proxmox, agents, business, strategy]
 sources: [raw/transcripts/interest-signal-collection-08-00-2026-05-16.md, raw/transcripts/interest-signal-collection-22-00-2026-05-16.md, raw/transcripts/interest-signal-collection-11-00-2026-05-20.md, raw/transcripts/interest-signal-collection-22-00-2026-05-21.md, raw/transcripts/interest-signal-collection-11-00-2026-05-19.md, raw/transcripts/interest-signal-collection-11-00-2026-05-15.md, raw/transcripts/interest-signal-collection-11-00-2026-05-13.md, raw/transcripts/interest-signal-collection-22-00-2026-05-13.md, raw/transcripts/interest-signal-collection-08-00-2026-04-22.md, raw/transcripts/interest-signal-collection-08-00-2026-04-22-threads-liked-rerun.md, raw/transcripts/interest-signal-collection-19-00-2026-04-22.md, raw/transcripts/interest-signal-note-19-00-2026-04-22.md, raw/transcripts/interest-signal-collection-08-00-2026-04-23.md, raw/transcripts/interest-signal-collection-08-00-2026-04-26.md, raw/transcripts/interest-signal-collection-19-00-2026-04-26.md, raw/transcripts/interest-signal-note-19-00-2026-04-26.md, raw/transcripts/interest-signal-collection-08-00-2026-04-27.md, raw/transcripts/interest-signal-note-08-00-2026-04-27.md, raw/transcripts/interest-signal-collection-19-00-2026-04-27.md, raw/transcripts/interest-signal-note-19-00-2026-04-27.md, raw/transcripts/interest-signal-collection-08-00-2026-04-28.md, raw/transcripts/interest-signal-note-08-00-2026-04-28.md, raw/transcripts/interest-signal-collection-19-00-2026-04-28.md, raw/transcripts/interest-signal-note-19-00-2026-04-28.md, raw/transcripts/interest-signal-collection-08-00-2026-04-29.md, raw/transcripts/interest-signal-note-08-00-2026-04-29.md, raw/transcripts/interest-signal-collection-11-00-2026-04-29.md, raw/transcripts/interest-signal-collection-19-00-2026-04-29.md, raw/transcripts/interest-signal-note-19-00-2026-04-29.md, raw/transcripts/interest-signal-collection-22-00-2026-04-29.md, raw/transcripts/interest-signal-note-22-00-2026-04-29.md, raw/transcripts/interest-signal-collection-11-00-2026-04-30.md, raw/transcripts/interest-signal-note-11-00-2026-04-30.md, raw/transcripts/interest-signal-collection-19-00-2026-04-30.md, raw/transcripts/interest-signal-note-19-00-202... [truncated, raw/transcripts/interest-signal-collection-11-00-2026-05-18.md, raw/transcripts/interest-signal-collection-08-00-2026-05-19.md]
@@ -951,6 +951,22 @@ The latest new-target pass stayed on the deployable AI infra axis, but the stron
 
 ### Updated reading
 This is still **append_existing**. The run strengthens the existing AI infra operating-economics thesis: CK should keep tracking the layer where GPU availability, quotas, memory controls, model routing, code quality, and agent-consumable APIs become the real operational moat.
+
+## 2026-05-29 new-target reinforcement
+
+Source: `raw/transcripts/interest-signal-collection-11-00-2026-05-29.md`
+
+The 11:00 new-target pass stayed on the same deployable AI infra axis, but it added a fresher official-feed cluster around **model availability, budget/security controls, and agent-readable platform surfaces**.
+
+### What looked fresh
+- **OpenAI** added Endava’s Codex organization-building case and a Frontier Governance Framework row, tying agentic software delivery to enterprise process and safety governance.
+- **Anthropic / AWS / GitHub** all surfaced `Claude Opus 4.8`: Anthropic framed it as stronger for coding, agentic tasks, professional work, and long-running work; AWS made it available through Bedrock / Claude Platform on AWS; GitHub made it available in Copilot.
+- **AWS** added budget dashboard widgets, Organizations membership CloudTrail events, next-generation Resilience Hub, and Korean-language Amazon Connect AI summaries, making cost, security, resilience, and support automation more console-native.
+- **GitHub Changelog** added GHAS hard budget limits, CodeQL query-accuracy improvements for Actions, and Copilot access to Claude Opus 4.8.
+- **Google / Microsoft / Cloudflare** added agent-facing infrastructure primitives: Google Pay & Wallet Developer MCP, Microsoft Learn MCP grounding, and Cloudflare’s Town Lake data platform with the Skipper internal AI agent on top.
+
+### Updated reading
+This is still **append_existing**. The durable thesis remains AI infra operating economics: model upgrades matter most when they are exposed through governed enterprise surfaces, billing/security controls, MCP/docs grounding, and data-platform-backed agent runtimes.
 
 ## Related pages
 

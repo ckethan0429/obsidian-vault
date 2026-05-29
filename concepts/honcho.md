@@ -1,7 +1,7 @@
 ---
 title: Honcho
 created: 2026-04-18
-updated: 2026-05-28
+updated: 2026-05-29
 type: concept
 tags: [agents, hermes, automation, assistant, workflows, protocols, browser-automation]
 sources: [raw/transcripts/interest-signal-collection-19-00-2026-04-17.md, raw/transcripts/interest-signal-note-19-00-2026-04-17.md, raw/transcripts/interest-signal-collection-08-00-2026-04-26.md, raw/transcripts/interest-signal-collection-11-00-2026-05-19.md, raw/transcripts/interest-signal-collection-19-00-2026-04-26.md, raw/transcripts/interest-signal-note-19-00-2026-04-26.md, raw/transcripts/interest-signal-collection-08-00-2026-04-30.md, raw/transcripts/interest-signal-note-08-00-2026-04-30.md, raw/transcripts/interest-signal-collection-11-00-2026-04-30.md, raw/transcripts/interest-signal-note-11-00-2026-04-30.md, raw/transcripts/interest-signal-collection-19-00-2026-04-30.md, raw/transcripts/interest-signal-note-19-00-2026-04-30.md, raw/transcripts/interest-signal-collection-22-00-2026-04-30.md, raw/transcripts/interest-signal-note-22-00-2026-04-30.md, raw/transcripts/interest-signal-collection-08-00-2026-05-02.md, raw/transcripts/interest-signal-note-08-00-2026-05-02.md, raw/transcripts/interest-signal-collection-11-00-2026-05-02.md, raw/transcripts/interest-signal-note-11-00-2026-05-02.md, raw/transcripts/interest-signal-collection-19-00-2026-05-02.md, raw/transcripts/interest-signal-note-19-00-2026-05-02.md, raw/transcripts/interest-signal-collection-22-00-2026-05-02.md, raw/transcripts/interest-signal-note-22-00-2026-05-02.md, raw/transcripts/interest-signal-collection-08-00-2026-05-03.md, raw/transcripts/interest-signal-collection-11-00-2026-05-03.md, raw/transcripts/interest-signal-collection-19-00-2026-05-03.md, raw/transcripts/interest-signal-collection-22-00-2026-05-03.md, raw/transcripts/interest-signal-collection-08-00-2026-05-04.md, raw/transcripts/interest-signal-collection-11-00-2026-05-04.md, raw/transcripts/interest-signal-collection-19-00-2026-05-04.md, raw/transcripts/interest-signal-collection-22-00-2026-05-04.md, raw/transcripts/interest-signal-collection-08-00-2026-05-05.md, raw/transcripts/interest-signal-collection-11-00-2026-05-05.md, raw/transcripts/interest-signal-collection-19-00-2026-05-05.md, ra... [truncated, raw/transcripts/interest-signal-collection-08-00-2026-05-18.md, raw/transcripts/interest-signal-collection-11-00-2026-05-18.md, raw/transcripts/interest-signal-collection-19-00-2026-05-18.md, raw/transcripts/interest-signal-collection-22-00-2026-05-18.md, raw/transcripts/interest-signal-collection-08-00-2026-05-19.md, raw/transcripts/interest-signal-collection-08-00-2026-05-20.md, raw/transcripts/interest-signal-collection-11-00-2026-05-20.md, raw/transcripts/interest-signal-collection-19-00-2026-05-20.md, raw/transcripts/interest-signal-collection-22-00-2026-05-20.md, raw/transcripts/interest-signal-collection-08-00-2026-05-25.md, raw/transcripts/interest-signal-collection-11-00-2026-05-25.md, raw/transcripts/interest-signal-collection-19-00-2026-05-25.md, raw/transcripts/interest-signal-collection-22-00-2026-05-25.md]
@@ -790,6 +790,28 @@ The full 2026-05-28 refinement stayed reinforcement-only at the durable layer. T
 
 ### Why this matters
 - The day confirms the same operating thesis: CK's signal is concentrating around managed-agent control planes, AI-infra economics, agent skills/meta-harnesses, and private-cloud/operator practice. The correct durable action was one earlier append plus this Honcho audit trail, not another promotion.
+
+## 2026-05-29 11:00 new-target routing
+
+The 11:00 official/new-target pass was routed as `append_existing` after comparison with the 2026-05-28 22:00 new-target baseline and the same-day 08:00 social transcript.
+
+### Routed as `append_existing`
+- OpenAI added Endava Codex organization-building and Frontier Governance Framework rows.
+- Anthropic, AWS, and GitHub all surfaced `Claude Opus 4.8` as a coding / agentic-task / long-running-work model upgrade.
+- Microsoft Learn MCP and Google Pay & Wallet Developer MCP made official, agent-readable docs/API context more explicit.
+- Cloudflare added Town Lake plus Skipper, an internal AI agent running on a unified analytics platform.
+- AWS and GitHub added budget, security, resilience, CodeQL, and GHAS controls that strengthen the managed-agent / AI-infra control-plane axis.
+
+### Kept as `raw_only`
+- Docker, Hugging Face, Kubernetes, and older Cloudflare rows were mostly repeated or adjacent to recent baselines.
+- GitHub Trending was preserved but not promoted as the route driver because most high-signal agent-skill / harness rows repeated the 2026-05-28 22:00 rotation.
+
+### Not routed as `promote_to_wiki`
+- No new durable concept branch emerged; the right durable action was a minimal append to [[managed-agents-practical-summary]] and [[ai-infra-operating-economics]].
+- `index.md` remained unchanged because no new wiki page was created.
+
+### Why this matters
+- This is a clean Honcho case: official-feed novelty was strong enough for `append_existing`, but strict routing kept raw evidence, concept updates, and promotion boundaries separate.
 
 ## Related pages
 
