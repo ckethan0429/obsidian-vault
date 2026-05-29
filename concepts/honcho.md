@@ -832,6 +832,24 @@ The afternoon social/browser pass stayed `raw_only` after comparison with the sa
 ### Why this matters
 - Preserve the raw 19:00 evidence and audit trail, but avoid duplicating same-day reinforcement across concept pages after the earlier append.
 
+## 2026-05-29 22:00 new-target routing
+
+The late new-target pass stayed `raw_only` after comparison with the same-day 11:00 official-feed append, the 19:00 social/browser pass, and the 2026-05-28 new-target baseline.
+
+### Routed as `raw_only`
+- OpenAI added `Strengthening societal resilience with Rosalind Biodefense` and `MUFG aims to become AI-native with OpenAI`; both are useful official-feed evidence, but they do not change the existing managed-agent / AI-infra thesis tonight.
+- AWS added `The next generation of Amazon OpenSearch Serverless is now generally available`, explicitly described as a search/vector engine for customers building agents and unpredictable agentic workflows. This is strong substrate evidence, but still same-axis reinforcement after the 11:00 append.
+- Hugging Face added `Profiling in PyTorch (Part 1): A Beginner's Guide to torch.profiler`; Google AI added a Futures Lab prototype row. Both were preserved as raw evidence rather than promoted.
+- GitHub Trending changed most clearly with `EveryInc/compound-engineering-plugin`, `anthropics/claude-code`, `cursor/plugins`, `run-llama/liteparse`, `stable-worldmodel`, and `project-nomad`. These reinforce plugin packaging, official agent tooling, document parsing, and offline/edge AI packaging, but remain inside the existing CK axis.
+
+### Not routed as `append_existing` or `promote_to_wiki`
+- The strongest durable 2026-05-29 official-feed delta had already been absorbed during the 11:00 new-target update into [[managed-agents-practical-summary]] and [[ai-infra-operating-economics]].
+- The 22:00 items add useful evidence and URLs, but not a materially sharper thesis or a new durable concept branch.
+- `index.md` and non-Honcho durable concept pages were left unchanged.
+
+### Why this matters
+- This keeps the strict Honcho split intact: save the evidence, report the fresh rows, but avoid restamping same-day reinforcement into concept pages after an earlier append.
+
 ## Related pages
 
 - [[interest-signal-sources]]

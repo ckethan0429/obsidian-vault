@@ -1299,3 +1299,10 @@
 - GitHub Stars, Google My Activity, Watch Later, Liked videos, ChatGPT, Claude, and X were unchanged or reinforcement-only at the durable layer
 - Routed `raw_only`; appended a Honcho audit note and left `index.md` plus other durable concept pages unchanged
 
+## [2026-05-29] ingest | Interest signal collection 22:00 new-target run
+- Saved raw source: `raw/transcripts/interest-signal-collection-22-00-2026-05-29.md`
+- Saved delivery note: `raw/transcripts/interest-signal-note-22-00-2026-05-29.md`
+- Compared against the same-day 11:00 new-target append, 19:00 social/browser pass, 2026-05-28 22:00 new-target baseline, and current-day log before judging novelty
+- Fresh new-target rows appeared on OpenAI Rosalind Biodefense / MUFG AI-native organization, AWS next-generation OpenSearch Serverless for agents, Hugging Face `torch.profiler`, Google AI Futures Lab prototypes, and GitHub Trending's plugin/parser/runtime rotation (`compound-engineering-plugin`, `anthropics/claude-code`, `cursor/plugins`, `liteparse`)
+- Routed `raw_only`; appended a Honcho audit note and left `index.md` plus non-Honcho durable concept pages unchanged
+
