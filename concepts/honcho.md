@@ -813,6 +813,25 @@ The 11:00 official/new-target pass was routed as `append_existing` after compari
 ### Why this matters
 - This is a clean Honcho case: official-feed novelty was strong enough for `append_existing`, but strict routing kept raw evidence, concept updates, and promotion boundaries separate.
 
+
+## 2026-05-29 19:00 social routing
+
+The afternoon social/browser pass stayed `raw_only` after comparison with the same-day 08:00 social run and the 11:00 new-target append.
+
+### Routed as `raw_only`
+- Threads liked added fresh examples around Opus 4.8 / Claude Code `Ultracode` / OmO / Lazy Codex and ClaudeCode-assisted `rhwp` HWP tooling, but these are still examples inside the existing agent-workflow / tooling lane.
+- Threads API replies surfaced CK's 2026-05-29 robotics/AI/legacy-environment reply, which reinforces the practical-product and operator-market axis without opening a new concept page.
+- YouTube subscriptions rotated `NotebookLM + Agent OS`, IBM `Agent control planes`, a Hermes Agent setup/operations video, Claude Code reverse-engineering, AI-agent investing, and semiconductor rows; these add evidence but remain inside the managed-agent / AI-infra / operator-control lane.
+- GitHub Stars, Google My Activity, Watch Later, Liked videos, ChatGPT, Claude, and X were unchanged or reinforcement-only at the durable layer.
+
+### Not routed as `append_existing` or `promote_to_wiki`
+- The strongest durable 2026-05-29 delta had already been absorbed by the 11:00 new-target update into [[managed-agents-practical-summary]] and [[ai-infra-operating-economics]].
+- The 19:00 pass added social/feed evidence, not a materially sharper thesis or a new durable branch.
+- `index.md` and other durable concept pages were left unchanged.
+
+### Why this matters
+- Preserve the raw 19:00 evidence and audit trail, but avoid duplicating same-day reinforcement across concept pages after the earlier append.
+
 ## Related pages
 
 - [[interest-signal-sources]]

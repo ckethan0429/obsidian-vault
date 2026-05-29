@@ -1292,3 +1292,10 @@
 - Routed `append_existing`; updated `concepts/managed-agents-practical-summary.md`, `concepts/ai-infra-operating-economics.md`, and `concepts/honcho.md`
 - Left `index.md` unchanged because no new durable page was created
 
+## [2026-05-29] ingest | Interest signal collection 19:00 run
+- Saved raw source: `raw/transcripts/interest-signal-collection-19-00-2026-05-29.md`
+- Compared against the same-day 08:00 social/browser transcript, 11:00 new-target append, 2026-05-28 19:00 social baseline, and current-day log before judging novelty
+- Newly surfaced examples came from Threads liked/API replies and YouTube subscriptions: Opus 4.8 / Ultracode / Lazy Codex, ClaudeCode-assisted `rhwp` HWP tooling, CK's robotics/AI legacy-environment reply, Agent OS/control-plane/Hermes/Claude Code video rows, and AI-semiconductor/investing rotations
+- GitHub Stars, Google My Activity, Watch Later, Liked videos, ChatGPT, Claude, and X were unchanged or reinforcement-only at the durable layer
+- Routed `raw_only`; appended a Honcho audit note and left `index.md` plus other durable concept pages unchanged
+
