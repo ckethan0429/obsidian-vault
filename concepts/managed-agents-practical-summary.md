@@ -1,7 +1,7 @@
 ---
 title: Managed Agents practical summary
 created: 2026-04-15
-updated: 2026-05-29
+updated: 2026-05-30
 type: concept
 tags: [agents, orchestration, infrastructure, devtools, anthropic, checklist]
 sources: [raw/articles/anthropic-managed-agents-2026-04-15.md, raw/articles/effective-harnesses-for-long-running-agents-2026-04-15.md, raw/transcripts/interest-signal-collection-11-00-2026-05-16.md, raw/transcripts/interest-signal-collection-19-00-2026-05-16.md, raw/transcripts/managed-agents-codefactory-video-2026-04-15.md, raw/transcripts/interest-signal-collection-19-00-2026-04-20.md, raw/transcripts/interest-signal-collection-08-00-2026-04-22.md, raw/transcripts/interest-signal-collection-08-00-2026-04-22-threads-liked-rerun.md, raw/transcripts/interest-signal-collection-19-00-2026-04-22.md, raw/transcripts/interest-signal-collection-08-00-2026-04-26.md, raw/transcripts/interest-signal-collection-19-00-2026-04-26.md, raw/transcripts/interest-signal-note-19-00-2026-04-26.md, raw/transcripts/interest-signal-collection-08-00-2026-04-30.md, raw/transcripts/interest-signal-note-08-00-2026-04-30.md, raw/transcripts/interest-signal-collection-11-00-2026-04-30.md, raw/transcripts/interest-signal-note-11-00-2026-04-30.md, raw/transcripts/interest-signal-collection-19-00-2026-04-30.md, raw/transcripts/interest-signal-note-19-00-2026-04-30.md, raw/transcripts/interest-signal-collection-22-00-2026-04-30.md, raw/transcripts/interest-signal-note-22-00-2026-04-30.md, raw/transcripts/interest-signal-collection-08-00-2026-05-01.md, raw/transcripts/interest-signal-note-08-00-2026-05-01.md, raw/transcripts/interest-signal-collection-08-00-2026-05-03.md, raw/transcripts/interest-signal-collection-11-00-2026-05-03.md, raw/transcripts/interest-signal-collection-19-00-2026-05-03.md, raw/transcripts/interest-signal-collection-22-00-2026-05-03.md, raw/transcripts/interest-signal-collection-22-00-2026-05-04.md, raw/transcripts/interest-signal-collection-08-00-2026-05-05.md, raw/transcripts/interest-signal-collection-19-00-2026-05-05.md, raw/transcripts/interest-signal-collection-22-00-2026-05-05.md, raw/transcripts/interest-signal-collection-11-00-2026-05-06.md, raw/transcripts/interest-signal-collection-08-00-2026-05-07.md, raw/transcripts/interest-signal-collection-19-00-2026-05-07.md, raw/transcripts/interest-signal-collection-11-00-2026-05-07.md, raw/transcripts/interest-signal-collection-22-00-2026-05-07.md, raw/transcripts/interest-signal-collection-11-00-2026-05-08.md, raw/transcripts/interest-signal-collection-22-00-2026-05-08.md, raw/transcripts/interest-signal-collection-08-00-2026-05-09.md, raw/transcripts/interest-signal-collection-11-00-2026-05-09.md, raw/transcripts/interest-signal-collection-11-00-2026-05-10.md, raw/transcripts/interest-signal-collection-08-00-2026-05-12.md, raw/transcripts/interest-signal-collection-11-00-2026-05-12.md, raw/transcripts/interest-signal-collection-19-00-2026-05-12.md, raw/transcripts/interest-signal-collection-22-00-2026-05-12.md, raw/transcripts/interest-signal-collection-08-00-2026-05-13.md, raw/transcripts/interest-signal-collection-11-00-2026-05-13.md, raw/transcripts/interest-signal-collection-19-00-2026-05-13.md, raw/transcripts/interest-signal-collection-22-00-2026-05-13.md]
@@ -635,6 +635,21 @@ The 11:00 new-target pass strengthened the managed-agent thesis from the officia
 
 ### Updated reading
 This remains **append_existing**. The managed-agent stack is getting less abstract: the durable layer is now model access + official context + data substrate + cost/security/reliability controls, not just better prompting or a standalone coding assistant.
+
+## 2026-05-30 new-target reinforcement
+
+Source: `raw/transcripts/interest-signal-collection-11-00-2026-05-30.md`
+
+The 11:00 new-target pass added a smaller but still durable official-feed delta after the 2026-05-29 baseline.
+
+### What looked fresh
+- **OpenAI / Braintrust** showed Codex moving from generic code generation into customer-request-to-code workflow: engineers use Codex with GPT-5.5 to run experiments and code faster from product feedback.
+- **GitHub Changelog** added Copilot usage-metrics cohorts, turning AI adoption into an admin/measurability surface rather than only a seat-count or activity metric.
+- **AWS Connect** added 90-day task scheduling with routing and context, which is adjacent evidence for long-running operational work becoming API/workspace managed.
+- **AWS Shield / Interconnect / SES** added DDoS attack flow logs, multicloud private-connectivity access, and deliverability/blocklist monitoring, reinforcing that managed-agent products need observable, governable infrastructure around them.
+
+### Updated reading
+This remains **append_existing**. The durable change is not a new concept page; it is another confirmation that managed-agent value is hardening around measurable adoption, product-feedback-to-code loops, long-running task routing, and the operator controls that make those systems safe to run.
 
 ## Related pages
 

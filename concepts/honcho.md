@@ -900,6 +900,24 @@ The morning social/browser pass stayed `raw_only` after comparison with the 2026
 ### Why this matters
 - This is a conservative morning capture: preserve the raw evidence and report the new feed rows, but avoid promoting a same-axis rotation into another durable page update.
 
+## 2026-05-30 11:00 new-target routing
+
+The 11:00 official/new-target pass was routed as `append_existing` after comparison with the 2026-05-29 22:00 new-target raw, the 2026-05-29 23:00 refinement summary, and the 2026-05-30 08:00 social/browser run.
+
+### Routed as `append_existing`
+- OpenAI added `How Braintrust turns customer requests into code with Codex`, a fresh product-feedback-to-code workflow row for the managed-agent / AI-assisted engineering lane.
+- GitHub Changelog added `Copilot usage metrics API adds cohorts for AI adoption`, making Copilot adoption measurable as an enterprise control-plane surface.
+- AWS added operator-control rows around Shield Advanced DDoS attack flow logs, Interconnect multicloud free tier, Amazon Connect 90-day task scheduling, and SES deliverability/blocklist monitoring.
+
+### Routed as `raw_only`
+- OpenAI healthcare, biodefense, and third-party-evaluation rows were preserved as official evidence but did not fit CK's strongest active branch closely enough to promote.
+- Google Developers, Google AI, Cloudflare, Microsoft, Docker, Hugging Face, Kubernetes, and Anthropic mostly repeated the recent new-target baseline or stayed lower-signal for this pass.
+- GitHub Trending repeated the 2026-05-29 plugin / Claude Code / Cursor / parser rotation; `twentyhq/twenty` stayed on the manual-review/raw-only boundary as a weak business-agent candidate.
+
+### Not routed as `promote_to_wiki`
+- No genuinely new durable concept branch emerged. The right durable action was a minimal append to [[managed-agents-practical-summary]] and [[ai-infra-operating-economics]].
+- `index.md` remained unchanged because no new wiki page was created.
+
 ## Related pages
 
 - [[interest-signal-sources]]

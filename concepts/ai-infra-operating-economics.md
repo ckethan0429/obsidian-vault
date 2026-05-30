@@ -1,7 +1,7 @@
 ---
 title: AI infra operating economics
 created: 2026-04-22
-updated: 2026-05-29
+updated: 2026-05-30
 type: concept
 tags: [infrastructure, gpu, storage, proxmox, agents, business, strategy]
 sources: [raw/transcripts/interest-signal-collection-08-00-2026-05-16.md, raw/transcripts/interest-signal-collection-22-00-2026-05-16.md, raw/transcripts/interest-signal-collection-11-00-2026-05-20.md, raw/transcripts/interest-signal-collection-22-00-2026-05-21.md, raw/transcripts/interest-signal-collection-11-00-2026-05-19.md, raw/transcripts/interest-signal-collection-11-00-2026-05-15.md, raw/transcripts/interest-signal-collection-11-00-2026-05-13.md, raw/transcripts/interest-signal-collection-22-00-2026-05-13.md, raw/transcripts/interest-signal-collection-08-00-2026-04-22.md, raw/transcripts/interest-signal-collection-08-00-2026-04-22-threads-liked-rerun.md, raw/transcripts/interest-signal-collection-19-00-2026-04-22.md, raw/transcripts/interest-signal-note-19-00-2026-04-22.md, raw/transcripts/interest-signal-collection-08-00-2026-04-23.md, raw/transcripts/interest-signal-collection-08-00-2026-04-26.md, raw/transcripts/interest-signal-collection-19-00-2026-04-26.md, raw/transcripts/interest-signal-note-19-00-2026-04-26.md, raw/transcripts/interest-signal-collection-08-00-2026-04-27.md, raw/transcripts/interest-signal-note-08-00-2026-04-27.md, raw/transcripts/interest-signal-collection-19-00-2026-04-27.md, raw/transcripts/interest-signal-note-19-00-2026-04-27.md, raw/transcripts/interest-signal-collection-08-00-2026-04-28.md, raw/transcripts/interest-signal-note-08-00-2026-04-28.md, raw/transcripts/interest-signal-collection-19-00-2026-04-28.md, raw/transcripts/interest-signal-note-19-00-2026-04-28.md, raw/transcripts/interest-signal-collection-08-00-2026-04-29.md, raw/transcripts/interest-signal-note-08-00-2026-04-29.md, raw/transcripts/interest-signal-collection-11-00-2026-04-29.md, raw/transcripts/interest-signal-collection-19-00-2026-04-29.md, raw/transcripts/interest-signal-note-19-00-2026-04-29.md, raw/transcripts/interest-signal-collection-22-00-2026-04-29.md, raw/transcripts/interest-signal-note-22-00-2026-04-29.md, raw/transcripts/interest-signal-collection-11-00-2026-04-30.md, raw/transcripts/interest-signal-note-11-00-2026-04-30.md, raw/transcripts/interest-signal-collection-19-00-2026-04-30.md, raw/transcripts/interest-signal-note-19-00-202... [truncated, raw/transcripts/interest-signal-collection-11-00-2026-05-18.md, raw/transcripts/interest-signal-collection-08-00-2026-05-19.md]
@@ -967,6 +967,21 @@ The 11:00 new-target pass stayed on the same deployable AI infra axis, but it ad
 
 ### Updated reading
 This is still **append_existing**. The durable thesis remains AI infra operating economics: model upgrades matter most when they are exposed through governed enterprise surfaces, billing/security controls, MCP/docs grounding, and data-platform-backed agent runtimes.
+
+## 2026-05-30 new-target reinforcement
+
+Source: `raw/transcripts/interest-signal-collection-11-00-2026-05-30.md`
+
+The 11:00 pass stayed on the same deployable-AI-infra axis, but the freshest rows shifted from model availability toward **measurement, security observability, and multicloud/operator plumbing**.
+
+### What looked fresh
+- **GitHub Copilot usage-metrics cohorts** make AI adoption an operational measurement problem: enterprises can see not only who is active, but how users are adopting Copilot.
+- **AWS Shield Advanced DDoS attack flow logs** add packet-level forensic evidence for protected resources, pushing resilience/security observability deeper into the managed-cloud control plane.
+- **AWS Interconnect - multicloud free tier** lowers the activation cost for private multicloud connectivity, which is relevant to CK's recurring private-cloud / hybrid / operator-economics lane.
+- **OpenAI Braintrust Codex** reinforces the software-delivery side: customer requests are being converted into code experiments through Codex, which ties product feedback loops to AI-assisted engineering throughput.
+
+### Updated reading
+This is still **append_existing**. The point is not a new branch; the same AI-infra economics thesis is becoming more measurable and operational: adoption cohorts, forensic logs, multicloud connectivity, task routing, and Codex-backed product iteration are the layer that turns agent demos into production systems.
 
 ## Related pages
 

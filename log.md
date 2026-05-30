@@ -1318,3 +1318,10 @@
 - Freshly visible YouTube rows included AWS FSI `How Coinbase Powers Stablecoins, Wallets, and Agentic Commerce on AWS`, `Securely Connecting VS Code to a Remote Self-Hosted LLM`, LangChain agent deployment, AWS industrial/physical agentic AI, and CrowdStrike `Charlotte AI AgentWorks`; these stayed inside existing managed-agent / AI-infra / security / finance-automation lanes
 - Threads, GitHub Stars, Google My Activity, ChatGPT, Claude, Watch Later, Liked videos, Threads API, and X were unchanged, reinforcement-only, or unusable at the durable layer
 - Routed `raw_only`; appended a Honcho audit note and left `index.md` plus non-Honcho durable concept pages unchanged
+
+## [2026-05-30] ingest | Interest signal collection 11:00 new-target run
+- Saved raw source: `raw/transcripts/interest-signal-collection-11-00-2026-05-30.md`
+- Compared against the 2026-05-29 22:00 new-target raw, 2026-05-29 23:00 refinement summary, and the 2026-05-30 08:00 social/browser run before judging novelty
+- Fresh official-feed rows came from OpenAI Braintrust Codex customer-request-to-code workflow, GitHub Copilot usage-metrics cohorts, and AWS Shield / Interconnect / Connect / SES operator-control updates
+- Routed `append_existing`; updated `concepts/managed-agents-practical-summary.md`, `concepts/ai-infra-operating-economics.md`, and `concepts/honcho.md`
+- Left `index.md` unchanged because no new durable page was created
