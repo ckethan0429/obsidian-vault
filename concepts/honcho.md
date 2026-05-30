@@ -918,6 +918,24 @@ The 11:00 official/new-target pass was routed as `append_existing` after compari
 - No genuinely new durable concept branch emerged. The right durable action was a minimal append to [[managed-agents-practical-summary]] and [[ai-infra-operating-economics]].
 - `index.md` remained unchanged because no new wiki page was created.
 
+## 2026-05-30 19:00 social/browser routing
+
+The afternoon social/browser pass stayed `raw_only` after comparison with the same-day 08:00 social run and the 11:00 new-target append.
+
+### Routed as `raw_only`
+- Threads liked added fresh examples around Anthropic Korea / Claude usage, agentic engineering as software engineering, and Hermes Agent `NoneType` bug-fix operations, but these are evidence inside existing Claude / agentic-engineering / Hermes operations lanes.
+- YouTube subscriptions rotated WorkOS support-skill reduction, Zed edit-prediction model training, Google DeepMind agent-building difficulty, Hermes Agent / Agent OS videos, Ruflo Agent Swarms, and AWS agentic-cloud security/operations rows; these reinforce the managed-agent / AI-infra / operator-control axis without opening a new branch.
+- Google My Activity added `commvault korea`, which is useful enterprise-backup/data-resilience evidence but too thin for promotion and stayed on the `raw_only` / `manual_review` boundary.
+- GitHub Stars, Watch Later, Liked videos, ChatGPT, Claude, and X were unchanged, repeated, or unusable at the durable layer.
+
+### Not routed as `append_existing` or `promote_to_wiki`
+- The strongest durable same-day delta had already been absorbed by the 11:00 new-target update into [[managed-agents-practical-summary]] and [[ai-infra-operating-economics]].
+- The 19:00 pass added fresh feed/social examples, not a materially sharper thesis or a new durable concept page.
+- `index.md` and non-Honcho durable concept pages were left unchanged.
+
+### Why this matters
+- This keeps the strict Honcho split intact: save the raw afternoon evidence, report only the fresh rows, and avoid restamping same-day reinforcement into durable pages after the earlier append.
+
 ## Related pages
 
 - [[interest-signal-sources]]

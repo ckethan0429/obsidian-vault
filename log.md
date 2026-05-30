@@ -1325,3 +1325,10 @@
 - Fresh official-feed rows came from OpenAI Braintrust Codex customer-request-to-code workflow, GitHub Copilot usage-metrics cohorts, and AWS Shield / Interconnect / Connect / SES operator-control updates
 - Routed `append_existing`; updated `concepts/managed-agents-practical-summary.md`, `concepts/ai-infra-operating-economics.md`, and `concepts/honcho.md`
 - Left `index.md` unchanged because no new durable page was created
+
+## [2026-05-30] ingest | Interest signal collection 19:00 run
+- Saved raw source: `raw/transcripts/interest-signal-collection-19-00-2026-05-30.md`
+- Compared against the 2026-05-30 08:00 social run, 2026-05-30 11:00 new-target append, and 2026-05-29 19:00 social baseline before judging novelty
+- Freshly visible Threads liked rows included Anthropic Korea / Claude usage, agentic engineering as software engineering, and Hermes Agent `NoneType` fix guidance; YouTube added WorkOS skill reduction, Zed edit-prediction, DeepMind agent-building difficulty, Hermes/Agent OS, Ruflo Agent Swarms, and AWS agentic-cloud security rows
+- Google My Activity added `commvault korea` as weak enterprise-backup/data-resilience evidence; GitHub Stars, Watch Later, Liked videos, ChatGPT, Claude, and X were unchanged, reinforcement-only, or unusable
+- Routed `raw_only`; appended a Honcho audit note and left `index.md` plus non-Honcho durable concept pages unchanged
