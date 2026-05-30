@@ -1346,3 +1346,11 @@
 - Classified the day as reinforcement-only at the 23:00 durable layer: the 11:00 `append_existing` delta had already updated `concepts/managed-agents-practical-summary.md` and `concepts/ai-infra-operating-economics.md`; 08:00, 19:00, and 22:00 evidence stayed `raw_only`
 - Manual-review boundary items: `commvault korea` as weak enterprise-backup/data-resilience evidence and `twentyhq/twenty` as weak business-agent/CRM evidence; neither was promoted
 - Updated `concepts/honcho.md` with the whole-day triage summary; left `index.md` and non-Honcho concept pages unchanged because no new durable page or additional append was justified
+
+## [2026-05-31] ingest | Interest signal collection 08:00 run
+- Saved raw source: `raw/transcripts/interest-signal-collection-08-00-2026-05-31.md`
+- Compared against the 2026-05-30 08:00 / 19:00 social runs, the 11:00 / 22:00 new-target runs, and the 23:00 Honcho refinement before judging novelty
+- Freshly visible rows came mainly from YouTube subscriptions: Claude Opus 4.8 long-running tasks, agent observability, enterprise-agent failure modes, one-person AI business workflows with Claude, fine-tuning, GitHub Project Pods, and AI/package-manager tooling
+- Threads liked added/repeated Opus 4.8 / `ultracode`, OmO / Lazy Codex / `ulw-loop`, and ClaudeCode-assisted `rhwp`; Google My Activity showed same-day `성과 관리` plus recent MCP/DeepX/Cursor/ESP32 context
+- GitHub Stars, Watch Later, Liked videos, Claude, ChatGPT, Threads API keyword hits, and X were unchanged, reinforcement-only, or unusable at the durable layer
+- Routed `raw_only`; appended a Honcho audit note and left `index.md` plus non-Honcho durable concept pages unchanged
