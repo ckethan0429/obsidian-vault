@@ -954,6 +954,37 @@ The late new-target pass stayed `raw_only` after comparison with the same-day 11
 ### Why this matters
 - This preserves the raw 22:00 evidence while preventing the same MCP / governance / agent-harness axis from being restamped into durable concept pages multiple times in one day.
 
+## 2026-05-30 23:00 same-day refinement summary
+
+Reviewed files: `raw/transcripts/interest-signal-collection-08-00-2026-05-30.md`, `raw/transcripts/interest-signal-collection-11-00-2026-05-30.md`, `raw/transcripts/interest-signal-collection-19-00-2026-05-30.md`, `raw/transcripts/interest-signal-collection-22-00-2026-05-30.md`, and `raw/transcripts/interest-signal-note-22-00-2026-05-30.md`.
+
+The full day is **reinforcement-only at the 23:00 durable layer**. The only clear `append_existing` delta was already absorbed during the 11:00 new-target run into [[managed-agents-practical-summary]] and [[ai-infra-operating-economics]]. The 08:00, 19:00, and 22:00 captures added useful evidence and URLs, but did not open a new durable concept branch.
+
+### Routed as `append_existing`
+- The 11:00 official/new-target cluster had already appended the durable signal: OpenAI / Braintrust Codex customer-request-to-code workflow, GitHub Copilot usage-metrics cohorts, AWS Shield Advanced DDoS attack flow logs, AWS Interconnect multicloud free tier, Amazon Connect 90-day task scheduling, and SES deliverability/blocklist monitoring.
+- These appended items had grounded source URLs in the raw transcript, so no promoted/appended signal depended on a URL-missing excerpt.
+- Because those durable updates were already applied earlier in the day, this refinement pass intentionally did not restamp the same evidence into the concept pages.
+
+### Routed as `raw_only`
+- 08:00 social/browser evidence: YouTube rows around Coinbase stablecoins / agentic commerce on AWS, remote self-hosted LLM access, LangChain agent deployment, AWS industrial/physical agentic AI, and CrowdStrike `Charlotte AI AgentWorks`; Threads, ChatGPT, Claude, GitHub Stars, Google, Watch Later, and Liked videos mostly repeated existing Claude Code / agent / infra / operator lanes.
+- 19:00 social/browser evidence: Threads liked rows around Anthropic Korea / Claude usage, agentic engineering as software engineering, and Hermes Agent `NoneType` fix guidance; YouTube rows around WorkOS skill reduction, Zed edit-prediction models, DeepMind agent-building difficulty, Hermes Agent / Agent OS, Ruflo Agent Swarms, and AWS agentic-cloud security.
+- 22:00 new-target evidence: OpenAI Cisco Codex, Google ADK Kotlin/Android and Gemini for Home, GitHub Copilot organization model rules, Microsoft `Securing MCP` / LangChain.js course rotation, Docker MCP Catalogs / AI Governance, Cloudflare Browser Run / Project Glasswing, Hugging Face agent glossary, Kubernetes v1.36 workload/PSI/ExternalIPs rows, and GitHub Trending `affaan-m/ECC` / `hardikpandya/stop-slop`.
+
+### Routed as `manual_review`
+- `commvault korea` from Google My Activity stayed on the `raw_only` / `manual_review` boundary as weak enterprise-backup / data-resilience evidence; it is not strong enough to update the AI-infra page without another source.
+- `twentyhq/twenty` from the 11:00 GitHub Trending boundary stayed weak business-agent / CRM evidence and was not promoted.
+
+### Routed as `discard`
+- Politics, social-dynamics commentary, sports, entertainment, generic lifestyle/feed noise, and repeated low-signal rows remain preserved only where they appeared in raw captures or caches.
+- X produced no usable durable signal in the social/browser passes, so no X inference was made.
+
+### Not routed as `promote_to_wiki`
+- No genuinely new durable concept emerged after deduplication across the 08:00, 11:00, 19:00, 22:00, and 22:00-note files.
+- `index.md` remains unchanged because no new wiki page was created and no catalog summary needed to change.
+
+### Why this matters
+- The day confirms the same CK operating axis: managed-agent control planes, AI-infra operating economics, agent-readable/MCP-governed surfaces, Hermes/Claude Code operations, and practical operator infrastructure. The correct 23:00 action is this Honcho audit trail plus a log entry, not another concept-page append.
+
 ## Related pages
 
 - [[interest-signal-sources]]
