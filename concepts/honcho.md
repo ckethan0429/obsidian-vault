@@ -936,6 +936,24 @@ The afternoon social/browser pass stayed `raw_only` after comparison with the sa
 ### Why this matters
 - This keeps the strict Honcho split intact: save the raw afternoon evidence, report only the fresh rows, and avoid restamping same-day reinforcement into durable pages after the earlier append.
 
+## 2026-05-30 22:00 new-target routing
+
+The late new-target pass stayed `raw_only` after comparison with the same-day 11:00 new-target append, the 19:00 social/browser run, and older new-target baselines.
+
+### Routed as `raw_only`
+- OpenAI surfaced `Cisco and OpenAI redefine enterprise engineering with Codex`, but the Cisco/Codex enterprise-engineering row had already been represented in the prior new-target track, so it was kept as reinforcement evidence.
+- Google / Docker / Microsoft / Cloudflare rotated strong but already-familiar control-plane rows: ADK Kotlin/Android, Gemini for Home, Docker MCP Catalogs / Docker AI Governance, Microsoft `Securing MCP`, Cloudflare Browser Run on Containers, and Project Glasswing.
+- GitHub Changelog added organization-targeted Copilot model rules and Dependabot sbt support; these are useful control-plane / supply-chain context, but not a new branch after the 11:00 append.
+- GitHub Trending added `affaan-m/ECC` and `hardikpandya/stop-slop` at the tail; both fit the same agent-harness / skill-writing lane and remained single-surface evidence.
+
+### Not routed as `append_existing` or `promote_to_wiki`
+- The strongest durable same-day delta had already been absorbed during the 11:00 new-target update into [[managed-agents-practical-summary]] and [[ai-infra-operating-economics]].
+- Most high-signal 22:00 rows were older new-target reinforcement; the genuinely fresh rows were lower-durability feed rotation.
+- `index.md` and non-Honcho durable concept pages were left unchanged.
+
+### Why this matters
+- This preserves the raw 22:00 evidence while preventing the same MCP / governance / agent-harness axis from being restamped into durable concept pages multiple times in one day.
+
 ## Related pages
 
 - [[interest-signal-sources]]

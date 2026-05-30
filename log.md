@@ -1332,3 +1332,11 @@
 - Freshly visible Threads liked rows included Anthropic Korea / Claude usage, agentic engineering as software engineering, and Hermes Agent `NoneType` fix guidance; YouTube added WorkOS skill reduction, Zed edit-prediction, DeepMind agent-building difficulty, Hermes/Agent OS, Ruflo Agent Swarms, and AWS agentic-cloud security rows
 - Google My Activity added `commvault korea` as weak enterprise-backup/data-resilience evidence; GitHub Stars, Watch Later, Liked videos, ChatGPT, Claude, and X were unchanged, reinforcement-only, or unusable
 - Routed `raw_only`; appended a Honcho audit note and left `index.md` plus non-Honcho durable concept pages unchanged
+
+## [2026-05-30] ingest | Interest signal collection 22:00 new-target run
+- Saved raw source: `raw/transcripts/interest-signal-collection-22-00-2026-05-30.md`
+- Saved delivery note: `raw/transcripts/interest-signal-note-22-00-2026-05-30.md`
+- Compared against the same-day 11:00 new-target append, the 19:00 social/browser pass, the 2026-05-29 22:00 new-target baseline, prior new-target evidence, and current-day Honcho/log entries before judging novelty
+- Strong rows included OpenAI Cisco Codex, Google ADK Kotlin/Android and Gemini for Home, GitHub Copilot organization model rules, Microsoft `Securing MCP` / LangChain.js course rotation, Docker MCP Catalogs / AI Governance, Cloudflare Browser Run / Project Glasswing, Hugging Face agent glossary, Kubernetes v1.36 workload/PSI/ExternalIPs rows, and GitHub Trending `affaan-m/ECC` / `hardikpandya/stop-slop`
+- Routed `raw_only`; most high-signal rows were older new-target reinforcement and the fresh lower-signal rows did not justify another durable concept-page update
+- Appended a Honcho audit note and left `index.md` plus non-Honcho durable concept pages unchanged
