@@ -1374,3 +1374,10 @@
 - Threads API added one new low-durability own reply; Threads CDP, GitHub Stars, Google My Activity, ChatGPT, Claude, Watch Later, Liked videos, and X were unchanged, reinforcement-only, or unusable at the durable layer
 - Routed `raw_only`; appended a Honcho audit note and left `index.md` plus non-Honcho durable concept pages unchanged
 
+## [2026-05-31] ingest | Interest signal collection 22:00 new-target run
+- Saved raw source: `raw/transcripts/interest-signal-collection-22-00-2026-05-31.md`
+- Saved delivery note: `raw/transcripts/interest-signal-note-22-00-2026-05-31.md`
+- Compared against the same-day 11:00 new-target append, 19:00 social/browser pass, 2026-05-30 22:00 new-target raw, and 2026-05-30 23:00 Honcho refinement before judging novelty
+- Freshest new-target rows came from Vercel Sandbox / Conductor cloud coding-agent execution, GitHub Trending `supermemory`, `pi-subagents`, and `hermes-webui`, plus newly observed PlanetScale Postgres Traffic Control / DB-ops rows
+- Routed `raw_only`; appended a Honcho audit note and left `index.md` plus non-Honcho durable concept pages unchanged because the 11:00 append had already absorbed the day's durable new-target delta
+

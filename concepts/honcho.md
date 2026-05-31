@@ -1037,6 +1037,23 @@ The afternoon social/browser pass stayed `raw_only` after comparison with the sa
 - The pass produced feed-rotation examples, not a materially new durable thesis beyond the 08:00 social run and the 11:00 LangChain/LlamaIndex append.
 - `index.md` and non-Honcho durable concept pages were left unchanged.
 
+## 2026-05-31 22:00 new-target routing
+
+The late new-target pass stayed `raw_only` after comparison with the same-day 11:00 LangChain/LlamaIndex append, the 19:00 social/browser run, and the 2026-05-30 22:00 / 23:00 new-target baselines.
+
+### Routed as `raw_only`
+- Vercel surfaced `Run Docker containers inside Vercel Sandbox` and the Conductor case study on moving parallel coding agents from a laptop into Vercel Sandbox. These are strong cloud-sandbox / agent-runtime evidence, but they reinforce the existing managed-agent axis already updated at 11:00.
+- GitHub Trending rotated in `supermemoryai/supermemory`, `nicobailon/pi-subagents`, and `nesquena/hermes-webui`. These are useful memory / subagent / Hermes UI rows, but remain single-surface evidence rather than a new durable branch.
+- PlanetScale's Postgres tenancy, queue-health, memory-usage, benchmarking, and Traffic Control rows were newly observed infrastructure-blog evidence, but were kept on the `raw_only` / `manual_review` boundary until another source ties them more directly to CK's AI-infra operating thesis.
+
+### Not routed as `append_existing` or `promote_to_wiki`
+- The strongest durable same-day new-target delta had already been absorbed during the 11:00 append into [[managed-agents-practical-summary]] and [[ai-infra-operating-economics]].
+- The 22:00 pass added useful URLs and ecosystem evidence, but not a materially sharper thesis or a new concept page.
+- `index.md` and non-Honcho durable concept pages were left unchanged.
+
+### Why this matters
+- This preserves the raw official/feed evidence while preventing same-day same-axis reinforcement from being restamped into durable concept pages after the earlier append.
+
 ## Related pages
 
 - [[interest-signal-sources]]
