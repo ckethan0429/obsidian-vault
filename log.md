@@ -1354,3 +1354,11 @@
 - Threads liked added/repeated Opus 4.8 / `ultracode`, OmO / Lazy Codex / `ulw-loop`, and ClaudeCode-assisted `rhwp`; Google My Activity showed same-day `성과 관리` plus recent MCP/DeepX/Cursor/ESP32 context
 - GitHub Stars, Watch Later, Liked videos, Claude, ChatGPT, Threads API keyword hits, and X were unchanged, reinforcement-only, or unusable at the durable layer
 - Routed `raw_only`; appended a Honcho audit note and left `index.md` plus non-Honcho durable concept pages unchanged
+
+## [2026-05-31] ingest | Interest signal collection 11:00 new-target run
+- Saved raw source: `raw/transcripts/interest-signal-collection-11-00-2026-05-31.md`
+- Compared against the 2026-05-30 22:00 new-target baseline, the 2026-05-30 23:00 refinement, the 2026-05-30 11:00 append, and the same-day 08:00 social/browser run before judging novelty
+- Freshest new-target rows came from LangChain / LlamaIndex: LangSmith Engine, SmithDB, Interpreter Skills, production-agent failure repair, Mission Control / Auth Proxy for LangSmith, ParseBench, LiteParse v2.0, and grep/RAG search strategy for agents
+- Routed `append_existing`; updated `concepts/managed-agents-practical-summary.md`, `concepts/ai-infra-operating-economics.md`, and `concepts/honcho.md`
+- Left `index.md` unchanged because no new durable page was created
+

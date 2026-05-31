@@ -1006,6 +1006,23 @@ The morning social/browser pass stayed `raw_only` after comparison with the 2026
 ### Why this matters
 - This preserves the 2026-05-31 08:00 evidence while avoiding another same-axis durable update before the new-target track has a chance to add independent confirmation.
 
+## 2026-05-31 11:00 new-target routing
+
+The 11:00 official/new-target pass was routed as `append_existing` after comparison with the 2026-05-30 22:00 new-target baseline, the 2026-05-30 23:00 refinement summary, and the same-day 08:00 social/browser pass.
+
+### Routed as `append_existing`
+- LangChain's `LangSmith Engine`, `SmithDB`, `Interpreter Skills`, newsletter recap, Lyft platform case, and Mission Control / Auth Proxy rows sharpened the managed-agent production-operations lane.
+- LlamaIndex's `ParseBench`, `LiteParse v2.0`, and grep/RAG search-strategy rows sharpened the document-agent evaluation / parsing / retrieval lane.
+- These were appended to [[managed-agents-practical-summary]] and [[ai-infra-operating-economics]] because they strengthen existing pages rather than justify a new concept page.
+
+### Kept as `raw_only`
+- OpenAI, AWS, GitHub Changelog, Google Developers / AI, Cloudflare, Docker, Kubernetes, Microsoft, Hugging Face, Anthropic, Simon Willison, and GitHub Trending were preserved in the raw transcript but mostly repeated the recent 2026-05-29/30 new-target baseline.
+- GitHub Trending rows such as `revfactory/harness` and `OpenBMB/VoxCPM` were useful context but stayed single-surface evidence.
+
+### Not routed as `promote_to_wiki`
+- No genuinely new durable branch emerged; the fresh evidence deepens production observability, sandboxing, document parsing, and runtime-portability inside the existing managed-agent / AI-infra axis.
+- `index.md` remains unchanged because no new page was created.
+
 ## Related pages
 
 - [[interest-signal-sources]]
