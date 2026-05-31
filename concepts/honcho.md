@@ -1023,6 +1023,20 @@ The 11:00 official/new-target pass was routed as `append_existing` after compari
 - No genuinely new durable branch emerged; the fresh evidence deepens production observability, sandboxing, document parsing, and runtime-portability inside the existing managed-agent / AI-infra axis.
 - `index.md` remains unchanged because no new page was created.
 
+## 2026-05-31 19:00 social/browser routing
+
+The afternoon social/browser pass stayed `raw_only` after comparison with the same-day 08:00 social/browser transcript, 11:00 new-target append, and current-day log entries.
+
+### Routed as `raw_only`
+- YouTube subscriptions rotated in fresh rows around OpenAI `Build Hour: Agents SDK`, Antigravity CLI updates, Claude model red-team/breaking workflow, Syntax `Opus 4.8` / Herdr / tmux discussion, and AWS FSI NYC enterprise-AI examples for Nasdaq, Nubank, Gemini, Transamerica, Deloitte, Altruist, Itaú, TCS/Anthropic/CardWorks, and Fifth Third Bank.
+- These rows are useful evidence for the existing managed-agent / AI-infra / operator-control lanes, but the stronger same-day durable production-agent delta had already been absorbed during the 11:00 new-target append.
+- Threads CDP surfaces mostly repeated the morning Opus 4.8 / Ultracode / Lazy Codex / ClaudeCode-assisted tooling cluster; Threads API added one new low-durability own reply unrelated to the durable AI/infra axis.
+- GitHub Stars, Google My Activity, ChatGPT, Claude, Watch Later, Liked videos, and X were unchanged, reinforcement-only, or unusable at the durable layer.
+
+### Not routed as `append_existing` or `promote_to_wiki`
+- The pass produced feed-rotation examples, not a materially new durable thesis beyond the 08:00 social run and the 11:00 LangChain/LlamaIndex append.
+- `index.md` and non-Honcho durable concept pages were left unchanged.
+
 ## Related pages
 
 - [[interest-signal-sources]]

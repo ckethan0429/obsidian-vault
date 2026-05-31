@@ -1362,3 +1362,15 @@
 - Routed `append_existing`; updated `concepts/managed-agents-practical-summary.md`, `concepts/ai-infra-operating-economics.md`, and `concepts/honcho.md`
 - Left `index.md` unchanged because no new durable page was created
 
+## [2026-05-31] query | Threads curation draft — agent operations loop
+- Oriented with README, SCHEMA, index, and recent log
+- Reviewed same-day raw sources and updated concept pages for the 2026-05-31 LangChain / LlamaIndex new-target cluster
+- Prepared one Korean Threads draft for approval; no durable page or index change needed
+
+## [2026-05-31] ingest | Interest signal collection 19:00 run
+- Saved raw source: `raw/transcripts/interest-signal-collection-19-00-2026-05-31.md`
+- Compared against the same-day 08:00 social/browser transcript, 11:00 new-target append, 2026-05-30 23:00 refinement, and current-day log entries before judging novelty
+- Freshest afternoon rows came from YouTube subscriptions: OpenAI `Build Hour: Agents SDK`, Antigravity CLI, Claude model red-team/breaking workflow, Syntax `Opus 4.8` / Herdr / tmux discussion, and AWS FSI enterprise-AI examples for financial workflows
+- Threads API added one new low-durability own reply; Threads CDP, GitHub Stars, Google My Activity, ChatGPT, Claude, Watch Later, Liked videos, and X were unchanged, reinforcement-only, or unusable at the durable layer
+- Routed `raw_only`; appended a Honcho audit note and left `index.md` plus non-Honcho durable concept pages unchanged
+
