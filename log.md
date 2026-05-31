@@ -1381,3 +1381,9 @@
 - Freshest new-target rows came from Vercel Sandbox / Conductor cloud coding-agent execution, GitHub Trending `supermemory`, `pi-subagents`, and `hermes-webui`, plus newly observed PlanetScale Postgres Traffic Control / DB-ops rows
 - Routed `raw_only`; appended a Honcho audit note and left `index.md` plus non-Honcho durable concept pages unchanged because the 11:00 append had already absorbed the day's durable new-target delta
 
+## [2026-05-31] refine | 23:00 same-day interest-signal triage
+- Reviewed same-day raw inputs: `raw/transcripts/interest-signal-collection-08-00-2026-05-31.md`, `raw/transcripts/interest-signal-collection-11-00-2026-05-31.md`, `raw/transcripts/interest-signal-collection-19-00-2026-05-31.md`, `raw/transcripts/interest-signal-collection-22-00-2026-05-31.md`, and `raw/transcripts/interest-signal-note-22-00-2026-05-31.md`
+- Classified the day as reinforcement-only at the 23:00 durable layer: the 11:00 `append_existing` delta had already updated `concepts/managed-agents-practical-summary.md` and `concepts/ai-infra-operating-economics.md`; 08:00, 19:00, and 22:00 evidence stayed `raw_only`
+- Manual-review boundary item: PlanetScale Postgres Traffic Control / tenancy / queue-health / memory-usage / benchmarking rows as weak DB-ops / AI-infra operating-economics evidence; not promoted without a second source
+- Updated `concepts/honcho.md` with the whole-day triage summary; left `index.md` and non-Honcho concept pages unchanged because no new durable page or additional append was justified
+
