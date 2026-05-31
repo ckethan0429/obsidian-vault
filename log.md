@@ -1387,3 +1387,10 @@
 - Manual-review boundary item: PlanetScale Postgres Traffic Control / tenancy / queue-health / memory-usage / benchmarking rows as weak DB-ops / AI-infra operating-economics evidence; not promoted without a second source
 - Updated `concepts/honcho.md` with the whole-day triage summary; left `index.md` and non-Honcho concept pages unchanged because no new durable page or additional append was justified
 
+## [2026-06-01] ingest | Interest signal collection 08:00 run
+- Saved raw source: `raw/transcripts/interest-signal-collection-08-00-2026-06-01.md`
+- Compared against the 2026-05-31 08:00 / 19:00 social runs, the 22:00 new-target run, and the 23:00 Honcho refinement before judging novelty
+- Freshly visible rows came mainly from Threads liked: OpenDataLoader PDF / veraPDF licensing, Claude Code `/tui fullscreen`, HWP Chrome-extension utility, AI-infra engineering business ideas, RISC-V learning, full-stack AI-orchestrator job breadth, and open-source Codex CLI with Ollama
+- YouTube, GitHub Stars, Google My Activity, ChatGPT, Claude, Threads API/reposts/activity, Watch Later, Liked videos, and X were unchanged, reinforcement-only, low-durability, or unusable at the durable layer
+- Routed `raw_only`; appended a Honcho audit note and left `index.md` plus non-Honcho durable concept pages unchanged
+
