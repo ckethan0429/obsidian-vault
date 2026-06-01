@@ -1400,3 +1400,15 @@
 - Fresh/newly observed rows were modest: Simon Willison `The solution might be cancelling my AI subscription`, Vercel `MiniMax M3 on AI Gateway`, PlanetScale `PlanetScale for Postgres is now GA`, plus GitHub Engineering `Agent-driven development in Copilot Applied Science` as baseline seeding
 - Routed `raw_only` overall, with Simon/PlanetScale on `manual_review`; appended a Honcho audit note and left `index.md` plus non-Honcho durable concept pages unchanged
 
+## [2026-06-01] query | Threads curation draft — Korean document-reality AI
+- Oriented with README, SCHEMA, index, and recent log
+- Reviewed same-day 08:00 / 11:00 raw sources and avoided the previous agent-operations-loop draft angle
+- Prepared one Korean Threads draft for approval from the 2026-06-01 Threads-liked Korean document-parser / HWP utility cluster; no durable page or index change needed
+
+## [2026-06-01] ingest | Interest signal collection 19:00 run
+- Saved raw source: `raw/transcripts/interest-signal-collection-19-00-2026-06-01.md`
+- Compared against the same-day 08:00 social/browser transcript, 11:00 new-target Honcho/log entry, and current-day log entries before judging novelty
+- Newly surfaced item: Threads API returned two same-day replies after the morning run, including one equity-negotiation/process-context reply; this was useful raw business-context evidence but low durability
+- Threads liked, YouTube, GitHub Stars, Google My Activity, ChatGPT, Claude, Watch Later, Liked videos, Threads activity/reposts, and X were unchanged, reinforcement-only, low-durability, or unusable at the durable layer
+- Routed `raw_only`; appended a Honcho audit note and left `index.md` plus non-Honcho durable concept pages unchanged
+

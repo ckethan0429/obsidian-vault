@@ -1116,6 +1116,20 @@ The 11:00 new-target pass stayed `raw_only` after comparison with the 2026-05-31
 - The strongest items either repeated the existing managed-agent / AI-infra operating axis, stayed on the DB-ops manual-review boundary, or represented baseline seeding rather than fresh news.
 - `index.md` and non-Honcho durable concept pages were left unchanged.
 
+## 2026-06-01 19:00 social/browser routing
+
+The afternoon social/browser pass stayed `raw_only` after comparison with the same-day 08:00 social/browser transcript, the 11:00 new-target Honcho/log entry, and current-day log entries.
+
+### Routed as `raw_only`
+- Threads API added two same-day replies after the morning run, including one about being in an equity-negotiation process and relating to a similar position. This is useful business/context evidence, but not durable enough to update a concept page by itself.
+- Threads liked mostly repeated the 08:00 OpenDataLoader PDF / Claude Code `/tui fullscreen` / HWP utility / AI-infra business-idea / full-stack AI-orchestrator / open-source Codex CLI cluster, with one lower-signal software-engineering fundamentals row.
+- YouTube subscriptions repeated the recent Opus 4.8 / Claude Code / agent observability / one-person AI business / fine-tuning / enterprise-agent failure lane.
+- GitHub Stars, Google My Activity, ChatGPT, Claude, Watch Later, Liked videos, and Threads activity/reposts were unchanged or same-axis reinforcement; X remained unusable for extraction.
+
+### Not routed as `append_existing` or `promote_to_wiki`
+- The run produced evidence-level feed rotation plus low-durability replies, not a materially sharper thesis beyond the 08:00 social run and 11:00 new-target triage.
+- `index.md` and non-Honcho durable concept pages were left unchanged; the raw transcript plus this audit note are sufficient for the afternoon pass.
+
 ## Related pages
 
 - [[interest-signal-sources]]
