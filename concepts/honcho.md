@@ -1148,6 +1148,41 @@ The late new-target pass was routed as `append_existing` after comparison with t
 - No new durable concept branch emerged; the correct action was a minimal append to existing managed-agent / AI-infra pages plus this Honcho audit note.
 - `index.md` was left unchanged because no new page was created.
 
+## 2026-06-01 23:00 same-day refinement summary
+
+Reviewed files: `raw/transcripts/interest-signal-collection-08-00-2026-06-01.md`, `raw/transcripts/interest-signal-collection-11-00-2026-06-01.md`, `raw/transcripts/interest-signal-collection-19-00-2026-06-01.md`, and `raw/transcripts/interest-signal-collection-22-00-2026-06-01.md`.
+
+The full day is **reinforcement-only at the 23:00 durable layer**. The only same-day `append_existing` decision that deserved durable concept-page changes was already applied during the 22:00 new-target run to [[managed-agents-practical-summary]], [[ai-infra-operating-economics]], and this Honcho page. The 23:00 pass therefore keeps raw evidence untouched, avoids re-stamping the same signals into concept pages, and records the whole-day routing audit here plus in `log.md`.
+
+### Routed as `append_existing`
+- 22:00 new-target evidence had the strongest durable signal: Docker’s `Coding Agent Horror Stories: The rm -rf ~/ Incident`, GitHub Trending `can1357/oh-my-pi`, and GitHub Trending `TauricResearch/TradingAgents`.
+- Docker and `oh-my-pi` sharpened the existing managed-agent / AI-infra thesis around workspace-scoped isolation, terminal harnesses, hash-anchored edits, LSP/browser/tool integration, Python support, and subagents.
+- `TradingAgents` was kept as quant-adjacent reinforcement for multi-agent financial automation, not as a standalone new page.
+- These rows had usable URLs in the raw transcript, so the durable append did not depend on URL-missing evidence.
+
+### Routed as `raw_only`
+- 08:00 social/browser evidence: Threads-liked OpenDataLoader PDF / veraPDF licensing, Claude Code `/tui fullscreen`, HWP Chrome-extension utility, AI-infra business ideas, RISC-V learning, full-stack AI-orchestrator breadth, and local Codex CLI/Ollama; YouTube/GitHub/Google/ChatGPT/Claude mostly repeated existing lanes.
+- 11:00 new-target evidence: Vercel `MiniMax M3 on AI Gateway`, GitHub Engineering `Agent-driven development in Copilot Applied Science`, and repeated official-feed/vendor rows; useful as source material, but insufficient for another durable append.
+- 19:00 social/browser evidence: repeated Threads-liked / YouTube / GitHub Stars / Google / ChatGPT / Claude rows plus two same-day Threads API replies; useful raw business/social context, but too thin for a concept update.
+
+### Routed as `manual_review`
+- Simon Willison’s `The solution might be cancelling my AI subscription` remains a useful warning about coding-agent attention drift and scope creep, but it is single-commentary evidence rather than a platform primitive.
+- PlanetScale `PlanetScale for Postgres is now GA` remains a DB-ops / productization boundary item after prior PlanetScale traffic-control evidence; relevant to infra operating economics, but still single-vendor and not promoted.
+- GitHub Engineering’s post-quantum SSH row from the 22:00 pass is old/backfill context and not part of the active novelty window.
+
+### Routed as `discard`
+- Sports, entertainment, politics, generic lifestyle/feed rows, stale vendor backfill, and low-signal social chatter remain preserved only where they already appear in raw captures or disposable caches.
+- X again produced no usable durable signal, so no X inference was made.
+
+### Not routed as `promote_to_wiki`
+- No genuinely new durable concept emerged after deduplicating the 08:00, 11:00, 19:00, and 22:00 files.
+- `index.md` remains unchanged because no new wiki page was created and no catalog summary needed to change.
+- Non-Honcho concept pages were left unchanged in this 23:00 refinement because the 22:00 ingest-stage append had already absorbed the only durable same-day delta.
+
+### Why this matters
+- The day confirms CK’s current operating axis: agent value is moving toward safe execution boundaries, terminal/tool harnesses, observable/disposable sandboxes, and quant-adjacent multi-agent automation, while social/browser feed rotation mostly stays raw evidence.
+- The correct refinement action is a whole-day Honcho audit plus log entry, not another concept-page rewrite.
+
 ## Related pages
 
 - [[interest-signal-sources]]
