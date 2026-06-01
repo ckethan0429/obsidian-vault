@@ -1394,3 +1394,9 @@
 - YouTube, GitHub Stars, Google My Activity, ChatGPT, Claude, Threads API/reposts/activity, Watch Later, Liked videos, and X were unchanged, reinforcement-only, low-durability, or unusable at the durable layer
 - Routed `raw_only`; appended a Honcho audit note and left `index.md` plus non-Honcho durable concept pages unchanged
 
+## [2026-06-01] ingest | Interest signal collection 11:00 new-target run
+- Saved raw source: `raw/transcripts/interest-signal-collection-11-00-2026-06-01.md`
+- Compared against the 2026-05-31 22:00 new-target raw, 2026-05-31 23:00 refinement summary, 2026-05-31 11:00 new-target append, and the 2026-06-01 08:00 social/browser run before judging novelty
+- Fresh/newly observed rows were modest: Simon Willison `The solution might be cancelling my AI subscription`, Vercel `MiniMax M3 on AI Gateway`, PlanetScale `PlanetScale for Postgres is now GA`, plus GitHub Engineering `Agent-driven development in Copilot Applied Science` as baseline seeding
+- Routed `raw_only` overall, with Simon/PlanetScale on `manual_review`; appended a Honcho audit note and left `index.md` plus non-Honcho durable concept pages unchanged
+

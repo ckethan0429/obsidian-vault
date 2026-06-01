@@ -1098,6 +1098,24 @@ The morning social/browser pass stayed `raw_only` after comparison with the 2026
 - No cross-surface durable novelty exceeded the existing managed-agent / document-parser / AI-infra operating thesis.
 - `index.md` and non-Honcho durable concept pages were left unchanged; the raw transcript plus this audit note are sufficient for the morning pass.
 
+## 2026-06-01 11:00 new-target routing
+
+The 11:00 new-target pass stayed `raw_only` after comparison with the 2026-05-31 22:00 new-target raw, the 2026-05-31 23:00 refinement summary, and the 2026-06-01 08:00 social/browser baseline.
+
+### Routed as `manual_review`
+- Simon Willison's `The solution might be cancelling my AI subscription` is a useful warning about coding-agent attention drift and poorly bounded AI-generated side projects. It is relevant to CK's agent-operator discipline, but it is a single commentary item rather than a platform primitive.
+- PlanetScale's `PlanetScale for Postgres is now GA` extends the prior PlanetScale DB-ops cluster, but it remains a single-vendor infrastructure/productization signal until another source ties it more directly to AI-infra operating economics.
+
+### Routed as `raw_only`
+- Vercel `MiniMax M3 on AI Gateway` is a newly observed provider/model row on Vercel's gateway surface, but it is low-durability by itself and mostly reinforces the existing AI gateway/platform lane.
+- GitHub Engineering's `Agent-driven development in Copilot Applied Science` was newly captured because the collector included GitHub Engineering as baseline seeding, but the article is older and should not be treated as fresh durable novelty.
+- Most official/vendor feeds repeated the 2026-05-31 22:00 baseline: OpenAI, AWS, GitHub Changelog, Anthropic, Cloudflare, Docker, Kubernetes, Hugging Face, LangChain, LlamaIndex, GitHub Trending, and Vercel Sandbox rows were preserved as raw evidence only.
+
+### Not routed as `append_existing` or `promote_to_wiki`
+- No new durable concept page was justified.
+- The strongest items either repeated the existing managed-agent / AI-infra operating axis, stayed on the DB-ops manual-review boundary, or represented baseline seeding rather than fresh news.
+- `index.md` and non-Honcho durable concept pages were left unchanged.
+
 ## Related pages
 
 - [[interest-signal-sources]]
