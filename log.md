@@ -1425,3 +1425,9 @@
 - Manual-review boundary items: Simon Willison on coding-agent attention drift, PlanetScale Postgres GA as DB-ops/productization context, and the old GitHub post-quantum SSH backfill; none were promoted
 - Updated `concepts/honcho.md` with the whole-day triage summary; left `index.md` and non-Honcho concept pages unchanged because no new durable page or additional append was justified
 
+## [2026-06-02] ingest | Interest signal collection 08:00 run
+- Saved raw source: `raw/transcripts/interest-signal-collection-08-00-2026-06-02.md`
+- Compared against the 2026-06-01 08:00 / 19:00 social runs, the 22:00 new-target append, the 23:00 Honcho refinement, and current log context before judging novelty
+- Freshly visible rows came from Threads liked (startup/product credibility critique, OSS maintainer ChatGPT Pro benefit, Ubuntu Korea / Qt Group infrastructure sponsorship, Toss Payments setup-cost friction) and YouTube subscriptions (Hermes Agent Web UI, token-cost reduction, AWS agentic orchestration, Claude Opus 4.8 Dynamic Workflows, AWS DevOps Agents, NVIDIA / AI-biology / AI-investing rows)
+- Threads API, GitHub Stars, Google My Activity, ChatGPT, Claude, YouTube Watch Later/Liked videos, and Threads activity/reposts/profile were unchanged, reinforcement-only, low-durability, or unusable at the durable layer; X remained unusable for extraction
+- Routed `raw_only`; appended a Honcho audit note and left `index.md` plus non-Honcho durable concept pages unchanged

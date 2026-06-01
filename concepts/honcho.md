@@ -1,7 +1,7 @@
 ---
 title: Honcho
 created: 2026-04-18
-updated: 2026-06-01
+updated: 2026-06-02
 type: concept
 tags: [agents, hermes, automation, assistant, workflows, protocols, browser-automation]
 sources: [raw/transcripts/interest-signal-collection-19-00-2026-04-17.md, raw/transcripts/interest-signal-note-19-00-2026-04-17.md, raw/transcripts/interest-signal-collection-08-00-2026-04-26.md, raw/transcripts/interest-signal-collection-11-00-2026-05-19.md, raw/transcripts/interest-signal-collection-19-00-2026-04-26.md, raw/transcripts/interest-signal-note-19-00-2026-04-26.md, raw/transcripts/interest-signal-collection-08-00-2026-04-30.md, raw/transcripts/interest-signal-note-08-00-2026-04-30.md, raw/transcripts/interest-signal-collection-11-00-2026-04-30.md, raw/transcripts/interest-signal-note-11-00-2026-04-30.md, raw/transcripts/interest-signal-collection-19-00-2026-04-30.md, raw/transcripts/interest-signal-note-19-00-2026-04-30.md, raw/transcripts/interest-signal-collection-22-00-2026-04-30.md, raw/transcripts/interest-signal-note-22-00-2026-04-30.md, raw/transcripts/interest-signal-collection-08-00-2026-05-02.md, raw/transcripts/interest-signal-note-08-00-2026-05-02.md, raw/transcripts/interest-signal-collection-11-00-2026-05-02.md, raw/transcripts/interest-signal-note-11-00-2026-05-02.md, raw/transcripts/interest-signal-collection-19-00-2026-05-02.md, raw/transcripts/interest-signal-note-19-00-2026-05-02.md, raw/transcripts/interest-signal-collection-22-00-2026-05-02.md, raw/transcripts/interest-signal-note-22-00-2026-05-02.md, raw/transcripts/interest-signal-collection-08-00-2026-05-03.md, raw/transcripts/interest-signal-collection-11-00-2026-05-03.md, raw/transcripts/interest-signal-collection-19-00-2026-05-03.md, raw/transcripts/interest-signal-collection-22-00-2026-05-03.md, raw/transcripts/interest-signal-collection-08-00-2026-05-04.md, raw/transcripts/interest-signal-collection-11-00-2026-05-04.md, raw/transcripts/interest-signal-collection-19-00-2026-05-04.md, raw/transcripts/interest-signal-collection-22-00-2026-05-04.md, raw/transcripts/interest-signal-collection-08-00-2026-05-05.md, raw/transcripts/interest-signal-collection-11-00-2026-05-05.md, raw/transcripts/interest-signal-collection-19-00-2026-05-05.md, ra... [truncated, raw/transcripts/interest-signal-collection-08-00-2026-05-18.md, raw/transcripts/interest-signal-collection-11-00-2026-05-18.md, raw/transcripts/interest-signal-collection-19-00-2026-05-18.md, raw/transcripts/interest-signal-collection-22-00-2026-05-18.md, raw/transcripts/interest-signal-collection-08-00-2026-05-19.md, raw/transcripts/interest-signal-collection-08-00-2026-05-20.md, raw/transcripts/interest-signal-collection-11-00-2026-05-20.md, raw/transcripts/interest-signal-collection-19-00-2026-05-20.md, raw/transcripts/interest-signal-collection-22-00-2026-05-20.md, raw/transcripts/interest-signal-collection-08-00-2026-05-25.md, raw/transcripts/interest-signal-collection-11-00-2026-05-25.md, raw/transcripts/interest-signal-collection-19-00-2026-05-25.md, raw/transcripts/interest-signal-collection-22-00-2026-05-25.md, raw/transcripts/interest-signal-collection-08-00-2026-05-29.md, raw/transcripts/interest-signal-collection-11-00-2026-05-29.md, raw/transcripts/interest-signal-collection-19-00-2026-05-29.md, raw/transcripts/interest-signal-collection-22-00-2026-05-29.md, raw/transcripts/interest-signal-note-22-00-2026-05-29.md, raw/transcripts/interest-signal-collection-08-00-2026-05-31.md, raw/transcripts/interest-signal-collection-11-00-2026-05-31.md, raw/transcripts/interest-signal-collection-19-00-2026-05-31.md, raw/transcripts/interest-signal-collection-22-00-2026-05-31.md, raw/transcripts/interest-signal-note-22-00-2026-05-31.md, raw/transcripts/interest-signal-collection-08-00-2026-06-01.md]
@@ -1182,6 +1182,25 @@ The full day is **reinforcement-only at the 23:00 durable layer**. The only same
 ### Why this matters
 - The day confirms CK’s current operating axis: agent value is moving toward safe execution boundaries, terminal/tool harnesses, observable/disposable sandboxes, and quant-adjacent multi-agent automation, while social/browser feed rotation mostly stays raw evidence.
 - The correct refinement action is a whole-day Honcho audit plus log entry, not another concept-page rewrite.
+
+## 2026-06-02 08:00 social/browser routing
+
+The morning social/browser pass was routed as `raw_only` after comparison with the 2026-06-01 08:00 and 19:00 social runs, the 2026-06-01 22:00 new-target append, and the 2026-06-01 23:00 refinement summary.
+
+### Routed as `raw_only`
+- Threads liked rotated to fresh but evidence-level rows: startup/product credibility critique, open-source maintainer ChatGPT Pro benefit, Ubuntu Korea / Qt Group community-infrastructure sponsorship, and 1-person-commerce Toss Payments setup cost.
+- YouTube subscriptions surfaced new managed-agent / AI-infra examples: Hermes Agent Web UI, token-cost reduction, AWS agentic orchestration, Claude Opus 4.8 Dynamic Workflows, AWS DevOps Agents, and NVIDIA / AI-biology / AI-investing rows.
+- Google My Activity added prior-day `redhat RHEL` and `proxmox guest agent install`; these reinforce the infra-operator lane but are low-durability as standalone evidence.
+- ChatGPT and Claude recent sidebars reinforced business, AI-infra, Proxmox/Ceph, token usage, and SaaS/backend lanes.
+
+### Unchanged, unavailable, or reinforcement-only
+- Threads API returned no new own post or reply beyond the 2026-06-01 19:00 baseline; mentions were empty and keyword search returned old CK-authored posts or no rows.
+- GitHub Stars, YouTube liked videos, Watch Later, Threads activity/reposts/profile, and Claude/ChatGPT sidebars did not materially change the existing thesis.
+- X again exposed an unusable/profile-missing state from the live target, so no X signal was inferred.
+
+### Not routed as `append_existing` or `promote_to_wiki`
+- The strongest new rows are useful feed-rotation evidence, but the 2026-06-01 22:00 new-target append had already updated the durable managed-agent / AI-infra pages with the stronger sandbox/harness delta.
+- No new concept page or index change was justified; the raw transcript plus this Honcho audit note are sufficient for the morning pass.
 
 ## Related pages
 
