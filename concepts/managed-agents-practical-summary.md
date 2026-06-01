@@ -1,7 +1,7 @@
 ---
 title: Managed Agents practical summary
 created: 2026-04-15
-updated: 2026-05-31
+updated: 2026-06-01
 type: concept
 tags: [agents, orchestration, infrastructure, devtools, anthropic, checklist]
 sources: [raw/transcripts/interest-signal-collection-11-00-2026-05-31.md, raw/articles/anthropic-managed-agents-2026-04-15.md, raw/articles/effective-harnesses-for-long-running-agents-2026-04-15.md, raw/transcripts/interest-signal-collection-11-00-2026-05-16.md, raw/transcripts/interest-signal-collection-19-00-2026-05-16.md, raw/transcripts/managed-agents-codefactory-video-2026-04-15.md, raw/transcripts/interest-signal-collection-19-00-2026-04-20.md, raw/transcripts/interest-signal-collection-08-00-2026-04-22.md, raw/transcripts/interest-signal-collection-08-00-2026-04-22-threads-liked-rerun.md, raw/transcripts/interest-signal-collection-19-00-2026-04-22.md, raw/transcripts/interest-signal-collection-08-00-2026-04-26.md, raw/transcripts/interest-signal-collection-19-00-2026-04-26.md, raw/transcripts/interest-signal-note-19-00-2026-04-26.md, raw/transcripts/interest-signal-collection-08-00-2026-04-30.md, raw/transcripts/interest-signal-note-08-00-2026-04-30.md, raw/transcripts/interest-signal-collection-11-00-2026-04-30.md, raw/transcripts/interest-signal-note-11-00-2026-04-30.md, raw/transcripts/interest-signal-collection-19-00-2026-04-30.md, raw/transcripts/interest-signal-note-19-00-2026-04-30.md, raw/transcripts/interest-signal-collection-22-00-2026-04-30.md, raw/transcripts/interest-signal-note-22-00-2026-04-30.md, raw/transcripts/interest-signal-collection-08-00-2026-05-01.md, raw/transcripts/interest-signal-note-08-00-2026-05-01.md, raw/transcripts/interest-signal-collection-08-00-2026-05-03.md, raw/transcripts/interest-signal-collection-11-00-2026-05-03.md, raw/transcripts/interest-signal-collection-19-00-2026-05-03.md, raw/transcripts/interest-signal-collection-22-00-2026-05-03.md, raw/transcripts/interest-signal-collection-22-00-2026-05-04.md, raw/transcripts/interest-signal-collection-08-00-2026-05-05.md, raw/transcripts/interest-signal-collection-19-00-2026-05-05.md, raw/transcripts/interest-signal-collection-22-00-2026-05-05.md, raw/transcripts/interest-signal-collection-11-00-2026-05-06.md, raw/transcripts/interest-signal-collection-08-00-2026-05-07.md, raw/transcripts/interest-signal-collection-19-00-2026-05-07.md, raw/transcripts/interest-signal-collection-11-00-2026-05-07.md, raw/transcripts/interest-signal-collection-22-00-2026-05-07.md, raw/transcripts/interest-signal-collection-11-00-2026-05-08.md, raw/transcripts/interest-signal-collection-22-00-2026-05-08.md, raw/transcripts/interest-signal-collection-08-00-2026-05-09.md, raw/transcripts/interest-signal-collection-11-00-2026-05-09.md, raw/transcripts/interest-signal-collection-11-00-2026-05-10.md, raw/transcripts/interest-signal-collection-08-00-2026-05-12.md, raw/transcripts/interest-signal-collection-11-00-2026-05-12.md, raw/transcripts/interest-signal-collection-19-00-2026-05-12.md, raw/transcripts/interest-signal-collection-22-00-2026-05-12.md, raw/transcripts/interest-signal-collection-08-00-2026-05-13.md, raw/transcripts/interest-signal-collection-11-00-2026-05-13.md, raw/transcripts/interest-signal-collection-19-00-2026-05-13.md, raw/transcripts/interest-signal-collection-22-00-2026-05-13.md]
@@ -665,6 +665,20 @@ The 11:00 new-target pass stayed inside the existing managed-agent thesis, but i
 
 ### Updated reading
 This is **append_existing**, not `promote_to_wiki`. The durable signal is that managed-agent systems are now building their own production operations stack: traces, failure clusters, eval backfill, observability databases, secure interpreters/sandboxes, and document-parsing benchmarks.
+
+## 2026-06-01 late new-target reinforcement
+
+Source: `raw/transcripts/interest-signal-collection-22-00-2026-06-01.md`
+
+The 22:00 new-target pass added a fresher, more operational example after the same-day 11:00 pass stayed raw-only.
+
+### What looked fresh
+- **Docker** published a concrete coding-agent incident around a destructive home-directory operation and framed Docker Sandboxes as workspace-scoped isolation that contains execution-layer failures.
+- **GitHub Trending** surfaced `can1357/oh-my-pi`, a terminal coding-agent harness with hash-anchored edits, LSP, browser tooling, Python support, and subagents.
+- **GitHub Trending** also surfaced `TauricResearch/TradingAgents`, a multi-agent LLM financial-trading framework. This is quant-adjacent rather than a new managed-agent branch, but it shows the agent-team pattern moving into financial automation examples.
+
+### Updated reading
+This is **append_existing**, not `promote_to_wiki`. The durable lesson is narrower and practical: as coding agents get more autonomous, the valuable layer is the harness plus isolation boundary — terminal tools, edit anchoring, browser/LSP integration, subagents, and disposable sandboxes that limit blast radius when the agent makes a dangerous filesystem move.
 
 ## Related pages
 

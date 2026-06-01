@@ -1130,6 +1130,24 @@ The afternoon social/browser pass stayed `raw_only` after comparison with the sa
 - The run produced evidence-level feed rotation plus low-durability replies, not a materially sharper thesis beyond the 08:00 social run and 11:00 new-target triage.
 - `index.md` and non-Honcho durable concept pages were left unchanged; the raw transcript plus this audit note are sufficient for the afternoon pass.
 
+## 2026-06-01 22:00 new-target routing
+
+The late new-target pass was routed as `append_existing` after comparison with the same-day 11:00 new-target raw-only pass, the 19:00 social/browser pass, and the 2026-05-31 new-target baseline.
+
+### Routed as `append_existing`
+- Docker’s `Coding Agent Horror Stories: The rm -rf ~/ Incident` added fresh official evidence for workspace-scoped sandbox isolation as a coding-agent failure-containment primitive.
+- GitHub Trending’s `can1357/oh-my-pi` added a strong terminal coding-agent harness row: hash-anchored edits, optimized tool harness, LSP, browser support, Python, and subagents.
+- GitHub Trending’s `TauricResearch/TradingAgents` was treated as quant-adjacent reinforcement: useful evidence for multi-agent financial automation, but still single-source and not a new page.
+
+### Routed as `raw_only` / `manual_review` / `discard`
+- Simon Willison’s May newsletter mention of Datasette Agent stayed `raw_only` because it is newsletter-style reinforcement, not a durable platform primitive.
+- GitHub Engineering’s post-quantum SSH row stayed `manual_review` / backfill context because it is older than the active novelty window.
+- Repeated OpenAI, Anthropic, AWS, Google, Cloudflare, Vercel, Kubernetes, LangChain, LlamaIndex, and prior GitHub Trending rows stayed raw-only or discard depending on signal strength.
+
+### Not routed as `promote_to_wiki`
+- No new durable concept branch emerged; the correct action was a minimal append to existing managed-agent / AI-infra pages plus this Honcho audit note.
+- `index.md` was left unchanged because no new page was created.
+
 ## Related pages
 
 - [[interest-signal-sources]]

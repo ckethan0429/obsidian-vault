@@ -1,7 +1,7 @@
 ---
 title: AI infra operating economics
 created: 2026-04-22
-updated: 2026-05-31
+updated: 2026-06-01
 type: concept
 tags: [infrastructure, gpu, storage, proxmox, agents, business, strategy]
 sources: [raw/transcripts/interest-signal-collection-11-00-2026-05-31.md, raw/transcripts/interest-signal-collection-08-00-2026-05-16.md, raw/transcripts/interest-signal-collection-22-00-2026-05-16.md, raw/transcripts/interest-signal-collection-11-00-2026-05-20.md, raw/transcripts/interest-signal-collection-22-00-2026-05-21.md, raw/transcripts/interest-signal-collection-11-00-2026-05-19.md, raw/transcripts/interest-signal-collection-11-00-2026-05-15.md, raw/transcripts/interest-signal-collection-11-00-2026-05-13.md, raw/transcripts/interest-signal-collection-22-00-2026-05-13.md, raw/transcripts/interest-signal-collection-08-00-2026-04-22.md, raw/transcripts/interest-signal-collection-08-00-2026-04-22-threads-liked-rerun.md, raw/transcripts/interest-signal-collection-19-00-2026-04-22.md, raw/transcripts/interest-signal-note-19-00-2026-04-22.md, raw/transcripts/interest-signal-collection-08-00-2026-04-23.md, raw/transcripts/interest-signal-collection-08-00-2026-04-26.md, raw/transcripts/interest-signal-collection-19-00-2026-04-26.md, raw/transcripts/interest-signal-note-19-00-2026-04-26.md, raw/transcripts/interest-signal-collection-08-00-2026-04-27.md, raw/transcripts/interest-signal-note-08-00-2026-04-27.md, raw/transcripts/interest-signal-collection-19-00-2026-04-27.md, raw/transcripts/interest-signal-note-19-00-2026-04-27.md, raw/transcripts/interest-signal-collection-08-00-2026-04-28.md, raw/transcripts/interest-signal-note-08-00-2026-04-28.md, raw/transcripts/interest-signal-collection-19-00-2026-04-28.md, raw/transcripts/interest-signal-note-19-00-2026-04-28.md, raw/transcripts/interest-signal-collection-08-00-2026-04-29.md, raw/transcripts/interest-signal-note-08-00-2026-04-29.md, raw/transcripts/interest-signal-collection-11-00-2026-04-29.md, raw/transcripts/interest-signal-collection-19-00-2026-04-29.md, raw/transcripts/interest-signal-note-19-00-2026-04-29.md, raw/transcripts/interest-signal-collection-22-00-2026-04-29.md, raw/transcripts/interest-signal-note-22-00-2026-04-29.md, raw/transcripts/interest-signal-collection-11-00-2026-04-30.md, raw/transcripts/interest-signal-note-11-00-2026-04-30.md, raw/transcripts/interest-signal-collection-19-00-2026-04-30.md, raw/transcripts/interest-signal-note-19-00-202... [truncated, raw/transcripts/interest-signal-collection-11-00-2026-05-18.md, raw/transcripts/interest-signal-collection-08-00-2026-05-19.md]
@@ -997,6 +997,20 @@ The 11:00 new-target pass did not open a new concept branch. It strengthened the
 
 ### Updated reading
 This is still **append_existing**. CK's durable axis remains deployable AI infra: once agents leave demos, the moat shifts to observability stores, failure repair loops, sandbox/egress controls, document-parsing benchmarks, and runtime portability.
+
+## 2026-06-01 late new-target reinforcement
+
+Source: `raw/transcripts/interest-signal-collection-22-00-2026-06-01.md`
+
+The late new-target pass reinforced the AI-infra economics thesis from the failure-containment and tooling-productization side.
+
+### What looked fresh
+- **Docker** turned coding-agent safety from an abstract governance issue into an execution-economics problem: the official incident write-up argues for workspace-scoped sandboxes that contain destructive agent actions at the execution layer.
+- **`can1357/oh-my-pi`** added a compact terminal-harness example: hash-anchored edits, optimized tools, LSP, browser support, Python, and subagents bundled as a coding-agent runtime surface.
+- **`TauricResearch/TradingAgents`** is a single GitHub Trending quant/automation row, but it fits CK’s recurring interest in financial automation and multi-agent workflows enough to keep as supporting evidence rather than discard.
+
+### Updated reading
+This is still **append_existing**. The new evidence does not change the macro thesis, but it sharpens the operating-economics layer: agent products need cheap, disposable, observable execution boundaries and reliable edit/tool harnesses, because one bad action can convert AI productivity into recovery cost.
 
 ## Related pages
 

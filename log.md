@@ -1412,3 +1412,10 @@
 - Threads liked, YouTube, GitHub Stars, Google My Activity, ChatGPT, Claude, Watch Later, Liked videos, Threads activity/reposts, and X were unchanged, reinforcement-only, low-durability, or unusable at the durable layer
 - Routed `raw_only`; appended a Honcho audit note and left `index.md` plus non-Honcho durable concept pages unchanged
 
+## [2026-06-01] ingest | Interest signal collection 22:00 new-target run
+- Saved raw source: `raw/transcripts/interest-signal-collection-22-00-2026-06-01.md`
+- Compared against the same-day 11:00 new-target raw-only baseline, the 19:00 social/browser pass, and the 2026-05-31 new-target baseline before judging novelty
+- Freshest new-target rows came from Docker’s coding-agent sandbox incident, GitHub Trending `can1357/oh-my-pi`, and GitHub Trending `TauricResearch/TradingAgents`
+- Routed `append_existing`; updated `concepts/managed-agents-practical-summary.md`, `concepts/ai-infra-operating-economics.md`, and `concepts/honcho.md`
+- Left `index.md` unchanged because no new durable page was created
+
