@@ -695,6 +695,21 @@ The 11:00 official/new-target pass strengthened the managed-agent thesis with a 
 ### Updated reading
 This is **append_existing**, not `promote_to_wiki`. The durable signal is that managed agents are converging on the same production shape: governed model access, private tool connectivity, GPU-operator diagnostics, and sandbox boundaries that are explicit enough to audit, reproduce, and contain.
 
+## 2026-06-02 late new-target reinforcement
+
+Source: `raw/transcripts/interest-signal-collection-22-00-2026-06-02.md`
+
+The 22:00 new-target pass strengthened the same managed-agent thesis from the AWS AgentCore operations side rather than opening a new page.
+
+### What looked fresh
+- **AWS Machine Learning Blog** added a concentrated AgentCore cluster: MCP support for AgentCore Gateway, AgentOps for production agents, Policy and Lambda interceptors for deterministic/dynamic access control, and customer-owned Secrets Manager integration for AgentCore Identity.
+- These rows make the production control plane more explicit: tool access, credentials, observability, policy enforcement, team-level use, and exfiltration boundaries are becoming managed service primitives.
+- **GitHub Trending** added `mksglu/context-mode` and `awslabs/aidlc-workflows`, which reinforce the same harness lane through context-window optimization, tool-output sandboxing, and adaptive workflow steering for AI coding agents.
+- The OpenAI/Codex-on-Bedrock launch-blog row was kept as reinforcement of the same-day 11:00 append rather than a separate new branch.
+
+### Updated reading
+This is **append_existing**, not `promote_to_wiki`. The durable signal is that managed agents are shifting from isolated coding assistants into governed production systems: MCP gateways, policy interceptors, secrets ownership, AgentOps observability, and context/workflow steering are now the control surfaces CK should track.
+
 ## Related pages
 
 - [[managed-agents-architecture]]

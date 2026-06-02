@@ -1450,3 +1450,11 @@
 - Newly surfaced rows came from Threads liked/reposts (Hermes skill-set bloat critique, LazyCodex autonomous QA, Meta AI account-recovery security failure, Codex Python SDK, token-cost framing, and AI-native organization loops) plus Google/ChatGPT operator-intent rows (`claude sdk`, `hermes providers`, `open code claude subscription`, `lazy codex`, `Hermes 여러 모델 사용법`, `Claude SDK와 구독 사용`)
 - YouTube subscriptions hydrated only a blank navigation shell in this run; GitHub Stars, YouTube playlists, Threads activity/replies/API, Claude, and X were unchanged, reinforcement-only, low-durability, or unusable at the durable layer
 - Routed `raw_only`; appended a Honcho audit note and left `index.md` plus non-Honcho durable concept pages unchanged
+
+## [2026-06-02] ingest | Interest signal collection 22:00 new-target run
+- Saved raw source: `raw/transcripts/interest-signal-collection-22-00-2026-06-02.md`
+- Saved delivery note: `raw/transcripts/interest-signal-note-22-00-2026-06-02.md`
+- Compared against the same-day 11:00 new-target append, the 19:00 social/browser raw-only pass, recent new-target caches, and current-day log entries before judging novelty
+- Fresh official/new-target rows came from AWS Machine Learning Blog: Bedrock AgentCore Gateway MCP support, AgentOps, Policy/Lambda interceptors, AgentCore Identity customer-managed secrets, OpenAI/Codex on Bedrock launch-blog detail, and GPUDirect/FSx/TurboQuant infra economics; GitHub Trending added `mksglu/context-mode` and `awslabs/aidlc-workflows`
+- Routed `append_existing`; updated `concepts/managed-agents-practical-summary.md`, `concepts/ai-infra-operating-economics.md`, and `concepts/honcho.md`
+- Left `index.md` unchanged because no new durable page was created

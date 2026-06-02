@@ -1239,6 +1239,24 @@ The afternoon social/browser pass was routed as `raw_only` after comparison with
 - The 11:00 new-target pass already applied the durable append around governed OpenAI/AWS/Codex access, private MCP, Docker sandbox-security, LangSmith Sandboxes, and AI-infra controls.
 - The 19:00 pass therefore preserves useful raw evidence and adds this Honcho audit note only; `index.md` and non-Honcho durable concept pages remain unchanged.
 
+## 2026-06-02 22:00 new-target routing
+
+The 22:00 new-target pass was routed as `append_existing` after comparison with the same-day 11:00 new-target append, the 19:00 social/browser raw-only pass, recent new-target caches, and current-day log entries.
+
+### Routed as `append_existing`
+- AWS Machine Learning Blog surfaced fresh AgentCore production-control rows that were not in the 11:00 raw baseline: `Extending MCP support for Amazon Bedrock AgentCore Gateway`, `AgentOps: Operationalize agentic AI at scale with Amazon Bedrock AgentCore`, `Secure AI agents with Policy and Lambda interceptors in Amazon Bedrock AgentCore gateway`, and `Reference your own AWS Secrets Manager secrets in Amazon Bedrock AgentCore Identity`.
+- The durable delta is not a new concept branch; it sharpens the existing [[managed-agents-practical-summary]] and [[ai-infra-operating-economics]] thesis around MCP gateways, credential ownership, observability, policy enforcement, exfiltration boundaries, and production-agent operations.
+- GitHub Trending rows `mksglu/context-mode` and `awslabs/aidlc-workflows` were used as supporting evidence for context-window/tool-output management and coding-agent workflow steering.
+
+### Kept as `raw_only` / `manual_review` / `discard`
+- The OpenAI/Codex-on-Bedrock launch-blog row was high-signal but mostly reinforced the 11:00 append, so it was not treated as a separate durable branch.
+- GPUDirect / FSx / TurboQuant, HealthOmics Nextflow, and lower-score official-feed rows were preserved in raw evidence as adjacent infra/workflow context.
+- Broad product/news, stale backfill, and generic low-signal rows stayed `discard` or raw evidence only.
+
+### Not routed as `promote_to_wiki`
+- No new durable page was justified after deduplicating against the same-day 11:00 append and prior new-target baselines.
+- `index.md` remains unchanged because this was an append to existing pages, not a new catalog entry.
+
 ## Related pages
 
 - [[interest-signal-sources]]

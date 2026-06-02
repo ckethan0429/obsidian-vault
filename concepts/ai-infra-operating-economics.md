@@ -1027,6 +1027,21 @@ The 11:00 new-target pass added a fresh official-feed cluster around **cloud pro
 ### Updated reading
 This remains **append_existing**. The macro thesis is unchanged, but the latest evidence makes the operating layer sharper: CK should track where agent products gain margin and reliability through governed cloud access, private MCP plumbing, cluster-diagnostic skills, and sandboxed execution rather than through raw model capability alone.
 
+## 2026-06-02 late new-target reinforcement
+
+Source: `raw/transcripts/interest-signal-collection-22-00-2026-06-02.md`
+
+The 22:00 pass reinforced the AI-infra operating-economics thesis by moving from model/procurement access into the cost and risk controls around production agents.
+
+### What looked fresh
+- **Bedrock AgentCore Gateway MCP support** makes private/internal tool access an infrastructure product: credential management, observability, access control, and exfiltration prevention sit between MCP servers and agent clients.
+- **AgentOps on Bedrock AgentCore** frames agent production as an operations discipline where costs, non-deterministic failures, debugging, and continuous improvement become the economic bottleneck.
+- **Policy/Lambda interceptors** and **bring-your-own Secrets Manager secrets** turn governance into an execution primitive: deterministic access control, dynamic validation, encryption/rotation/tagging policies, and third-party secret connectors become part of the agent stack rather than separate compliance paperwork.
+- **GPUDirect + FSx for Lustre + TurboQuant** is supporting infra evidence: longer context windows and faster model loading are still operating-margin questions, not only model-quality questions.
+
+### Updated reading
+This remains **append_existing**. CK's durable axis is now sharper: agent products win when model access, MCP/tool gateways, credentials, observability, policy checks, and GPU/model-loading economics are controllable enough to reduce blast radius and operating cost.
+
 ## Related pages
 
 - [[virton-career-and-business-profile]]
