@@ -1,7 +1,7 @@
 ---
 title: Managed Agents practical summary
 created: 2026-04-15
-updated: 2026-06-01
+updated: 2026-06-02
 type: concept
 tags: [agents, orchestration, infrastructure, devtools, anthropic, checklist]
 sources: [raw/transcripts/interest-signal-collection-11-00-2026-05-31.md, raw/articles/anthropic-managed-agents-2026-04-15.md, raw/articles/effective-harnesses-for-long-running-agents-2026-04-15.md, raw/transcripts/interest-signal-collection-11-00-2026-05-16.md, raw/transcripts/interest-signal-collection-19-00-2026-05-16.md, raw/transcripts/managed-agents-codefactory-video-2026-04-15.md, raw/transcripts/interest-signal-collection-19-00-2026-04-20.md, raw/transcripts/interest-signal-collection-08-00-2026-04-22.md, raw/transcripts/interest-signal-collection-08-00-2026-04-22-threads-liked-rerun.md, raw/transcripts/interest-signal-collection-19-00-2026-04-22.md, raw/transcripts/interest-signal-collection-08-00-2026-04-26.md, raw/transcripts/interest-signal-collection-19-00-2026-04-26.md, raw/transcripts/interest-signal-note-19-00-2026-04-26.md, raw/transcripts/interest-signal-collection-08-00-2026-04-30.md, raw/transcripts/interest-signal-note-08-00-2026-04-30.md, raw/transcripts/interest-signal-collection-11-00-2026-04-30.md, raw/transcripts/interest-signal-note-11-00-2026-04-30.md, raw/transcripts/interest-signal-collection-19-00-2026-04-30.md, raw/transcripts/interest-signal-note-19-00-2026-04-30.md, raw/transcripts/interest-signal-collection-22-00-2026-04-30.md, raw/transcripts/interest-signal-note-22-00-2026-04-30.md, raw/transcripts/interest-signal-collection-08-00-2026-05-01.md, raw/transcripts/interest-signal-note-08-00-2026-05-01.md, raw/transcripts/interest-signal-collection-08-00-2026-05-03.md, raw/transcripts/interest-signal-collection-11-00-2026-05-03.md, raw/transcripts/interest-signal-collection-19-00-2026-05-03.md, raw/transcripts/interest-signal-collection-22-00-2026-05-03.md, raw/transcripts/interest-signal-collection-22-00-2026-05-04.md, raw/transcripts/interest-signal-collection-08-00-2026-05-05.md, raw/transcripts/interest-signal-collection-19-00-2026-05-05.md, raw/transcripts/interest-signal-collection-22-00-2026-05-05.md, raw/transcripts/interest-signal-collection-11-00-2026-05-06.md, raw/transcripts/interest-signal-collection-08-00-2026-05-07.md, raw/transcripts/interest-signal-collection-19-00-2026-05-07.md, raw/transcripts/interest-signal-collection-11-00-2026-05-07.md, raw/transcripts/interest-signal-collection-22-00-2026-05-07.md, raw/transcripts/interest-signal-collection-11-00-2026-05-08.md, raw/transcripts/interest-signal-collection-22-00-2026-05-08.md, raw/transcripts/interest-signal-collection-08-00-2026-05-09.md, raw/transcripts/interest-signal-collection-11-00-2026-05-09.md, raw/transcripts/interest-signal-collection-11-00-2026-05-10.md, raw/transcripts/interest-signal-collection-08-00-2026-05-12.md, raw/transcripts/interest-signal-collection-11-00-2026-05-12.md, raw/transcripts/interest-signal-collection-19-00-2026-05-12.md, raw/transcripts/interest-signal-collection-22-00-2026-05-12.md, raw/transcripts/interest-signal-collection-08-00-2026-05-13.md, raw/transcripts/interest-signal-collection-11-00-2026-05-13.md, raw/transcripts/interest-signal-collection-19-00-2026-05-13.md, raw/transcripts/interest-signal-collection-22-00-2026-05-13.md]
@@ -679,6 +679,21 @@ The 22:00 new-target pass added a fresher, more operational example after the sa
 
 ### Updated reading
 This is **append_existing**, not `promote_to_wiki`. The durable lesson is narrower and practical: as coding agents get more autonomous, the valuable layer is the harness plus isolation boundary — terminal tools, edit anchoring, browser/LSP integration, subagents, and disposable sandboxes that limit blast radius when the agent makes a dangerous filesystem move.
+
+## 2026-06-02 new-target reinforcement
+
+Source: `raw/transcripts/interest-signal-collection-11-00-2026-06-02.md`
+
+The 11:00 official/new-target pass strengthened the managed-agent thesis with a cleaner cross-vendor control-plane cluster.
+
+### What looked fresh
+- **OpenAI / AWS Bedrock** made frontier OpenAI models and Codex generally available through AWS, including Bedrock inference, Codex App / CLI / IDE paths, governance controls, procurement, and usage-commitment alignment.
+- **Amazon Quick VPC MCP** moved MCP from public connector demos into private-network enterprise plumbing: internal MCP servers can be reached through VPC connectivity without exposing proprietary tools to the public internet.
+- **SageMaker HyperPod troubleshooting skills** pushed agent assistance into GPU / distributed-training operations: Claude Code, Cursor, and Kiro can use skills for NCCL, GPU hardware faults, performance bottlenecks, and cluster diagnostics.
+- **LangSmith Sandboxes GA** and **Docker sandbox security** reinforced the execution layer: kernel-isolated microVMs, snapshots, parallel forks, auth proxies, service URLs, and policy enforcement are becoming standard primitives for coding agents and CI/data-pipeline agents.
+
+### Updated reading
+This is **append_existing**, not `promote_to_wiki`. The durable signal is that managed agents are converging on the same production shape: governed model access, private tool connectivity, GPU-operator diagnostics, and sandbox boundaries that are explicit enough to audit, reproduce, and contain.
 
 ## Related pages
 

@@ -1,7 +1,7 @@
 ---
 title: AI infra operating economics
 created: 2026-04-22
-updated: 2026-06-01
+updated: 2026-06-02
 type: concept
 tags: [infrastructure, gpu, storage, proxmox, agents, business, strategy]
 sources: [raw/transcripts/interest-signal-collection-11-00-2026-05-31.md, raw/transcripts/interest-signal-collection-08-00-2026-05-16.md, raw/transcripts/interest-signal-collection-22-00-2026-05-16.md, raw/transcripts/interest-signal-collection-11-00-2026-05-20.md, raw/transcripts/interest-signal-collection-22-00-2026-05-21.md, raw/transcripts/interest-signal-collection-11-00-2026-05-19.md, raw/transcripts/interest-signal-collection-11-00-2026-05-15.md, raw/transcripts/interest-signal-collection-11-00-2026-05-13.md, raw/transcripts/interest-signal-collection-22-00-2026-05-13.md, raw/transcripts/interest-signal-collection-08-00-2026-04-22.md, raw/transcripts/interest-signal-collection-08-00-2026-04-22-threads-liked-rerun.md, raw/transcripts/interest-signal-collection-19-00-2026-04-22.md, raw/transcripts/interest-signal-note-19-00-2026-04-22.md, raw/transcripts/interest-signal-collection-08-00-2026-04-23.md, raw/transcripts/interest-signal-collection-08-00-2026-04-26.md, raw/transcripts/interest-signal-collection-19-00-2026-04-26.md, raw/transcripts/interest-signal-note-19-00-2026-04-26.md, raw/transcripts/interest-signal-collection-08-00-2026-04-27.md, raw/transcripts/interest-signal-note-08-00-2026-04-27.md, raw/transcripts/interest-signal-collection-19-00-2026-04-27.md, raw/transcripts/interest-signal-note-19-00-2026-04-27.md, raw/transcripts/interest-signal-collection-08-00-2026-04-28.md, raw/transcripts/interest-signal-note-08-00-2026-04-28.md, raw/transcripts/interest-signal-collection-19-00-2026-04-28.md, raw/transcripts/interest-signal-note-19-00-2026-04-28.md, raw/transcripts/interest-signal-collection-08-00-2026-04-29.md, raw/transcripts/interest-signal-note-08-00-2026-04-29.md, raw/transcripts/interest-signal-collection-11-00-2026-04-29.md, raw/transcripts/interest-signal-collection-19-00-2026-04-29.md, raw/transcripts/interest-signal-note-19-00-2026-04-29.md, raw/transcripts/interest-signal-collection-22-00-2026-04-29.md, raw/transcripts/interest-signal-note-22-00-2026-04-29.md, raw/transcripts/interest-signal-collection-11-00-2026-04-30.md, raw/transcripts/interest-signal-note-11-00-2026-04-30.md, raw/transcripts/interest-signal-collection-19-00-2026-04-30.md, raw/transcripts/interest-signal-note-19-00-202... [truncated, raw/transcripts/interest-signal-collection-11-00-2026-05-18.md, raw/transcripts/interest-signal-collection-08-00-2026-05-19.md]
@@ -1011,6 +1011,21 @@ The late new-target pass reinforced the AI-infra economics thesis from the failu
 
 ### Updated reading
 This is still **append_existing**. The new evidence does not change the macro thesis, but it sharpens the operating-economics layer: agent products need cheap, disposable, observable execution boundaries and reliable edit/tool harnesses, because one bad action can convert AI productivity into recovery cost.
+
+## 2026-06-02 new-target reinforcement
+
+Source: `raw/transcripts/interest-signal-collection-11-00-2026-06-02.md`
+
+The 11:00 new-target pass added a fresh official-feed cluster around **cloud procurement, private connectors, AI-cluster operations, and sandbox economics**.
+
+### What looked fresh
+- **OpenAI frontier models and Codex on AWS / Bedrock** make enterprise AI usage less about model access alone and more about procurement, governance, inference routing, existing AWS commitments, and production controls.
+- **Amazon Quick VPC connectivity for MCP** is a clear operator-economics signal: valuable internal tools and data sources can be exposed to AI workflows without making private MCP servers public.
+- **Amazon SageMaker HyperPod troubleshooting skills** put AI assistants directly into large-scale cluster diagnosis, tying GPU hardware faults, NCCL communication, distributed training, and inference infrastructure to a skills/control-plane layer.
+- **Docker sandbox security** and **LangSmith Sandboxes GA** turn isolation into an economic primitive: microVMs, snapshots, auth proxies, and policy-enforced boundaries reduce blast radius and make agent execution more repeatable.
+
+### Updated reading
+This remains **append_existing**. The macro thesis is unchanged, but the latest evidence makes the operating layer sharper: CK should track where agent products gain margin and reliability through governed cloud access, private MCP plumbing, cluster-diagnostic skills, and sandboxed execution rather than through raw model capability alone.
 
 ## Related pages
 

@@ -1202,6 +1202,26 @@ The morning social/browser pass was routed as `raw_only` after comparison with t
 - The strongest new rows are useful feed-rotation evidence, but the 2026-06-01 22:00 new-target append had already updated the durable managed-agent / AI-infra pages with the stronger sandbox/harness delta.
 - No new concept page or index change was justified; the raw transcript plus this Honcho audit note are sufficient for the morning pass.
 
+## 2026-06-02 11:00 new-target routing
+
+The 11:00 official/new-target pass was routed as `append_existing` after comparison with the 2026-06-01 22:00 new-target append, the 2026-06-01 23:00 refinement summary, and the same-day 08:00 social/browser pass.
+
+### Routed as `append_existing`
+- AWS / OpenAI made OpenAI frontier models and Codex generally available through AWS Bedrock, with Bedrock inference, Codex App / CLI / IDE paths, governance controls, procurement, and existing AWS commitments all named in the source evidence.
+- Amazon Quick added VPC connectivity for MCP connections, making private internal MCP servers reachable by AI workflows without exposing them to the public internet.
+- SageMaker HyperPod added troubleshooting skills for AI coding assistants, extending CK's AI-infra operating lane into GPU / NCCL / distributed-training diagnostics.
+- Docker's sandbox-security post and LangSmith Sandboxes GA strengthened the same execution-boundary thesis with policy enforcement, microVM isolation, snapshots, auth proxies, and service URLs.
+- These were appended to [[managed-agents-practical-summary]] and [[ai-infra-operating-economics]] because they sharpen existing pages rather than justify a new concept page.
+
+### Kept as `raw_only` / `manual_review` / `discard`
+- Microsoft Foundry hosted-agent rows were preserved as useful baseline/backfill because the feed was newly included in the collector, but the main durable delta came from fresher June 1 AWS/OpenAI/Docker/LangChain evidence.
+- GitHub Changelog, Hugging Face, Simon Willison, GitHub Trending, Vercel, PlanetScale, Kubernetes, Cloudflare, Google, and repeated OpenAI/Anthropic rows were retained in the raw transcript when useful but did not exceed the official AWS/OpenAI/Docker/LangChain cluster.
+- Low-signal feed/navigation rows and stale backfill stayed `discard`.
+
+### Not routed as `promote_to_wiki`
+- No new durable branch emerged after deduplicating against the prior new-target track.
+- `index.md` remains unchanged because no new page was created.
+
 ## Related pages
 
 - [[interest-signal-sources]]

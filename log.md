@@ -1431,3 +1431,10 @@
 - Freshly visible rows came from Threads liked (startup/product credibility critique, OSS maintainer ChatGPT Pro benefit, Ubuntu Korea / Qt Group infrastructure sponsorship, Toss Payments setup-cost friction) and YouTube subscriptions (Hermes Agent Web UI, token-cost reduction, AWS agentic orchestration, Claude Opus 4.8 Dynamic Workflows, AWS DevOps Agents, NVIDIA / AI-biology / AI-investing rows)
 - Threads API, GitHub Stars, Google My Activity, ChatGPT, Claude, YouTube Watch Later/Liked videos, and Threads activity/reposts/profile were unchanged, reinforcement-only, low-durability, or unusable at the durable layer; X remained unusable for extraction
 - Routed `raw_only`; appended a Honcho audit note and left `index.md` plus non-Honcho durable concept pages unchanged
+
+## [2026-06-02] ingest | Interest signal collection 11:00 new-target run
+- Saved raw source: `raw/transcripts/interest-signal-collection-11-00-2026-06-02.md`
+- Compared against the 2026-06-01 22:00 new-target append, the 2026-06-01 23:00 refinement summary, and the same-day 08:00 social/browser run before judging novelty
+- Fresh official-feed rows came from OpenAI frontier models and Codex on AWS / Bedrock, Amazon Quick VPC connectivity for MCP, SageMaker HyperPod troubleshooting skills, Docker sandbox-security guidance, and LangSmith Sandboxes GA
+- Routed `append_existing`; updated `concepts/managed-agents-practical-summary.md`, `concepts/ai-infra-operating-economics.md`, and `concepts/honcho.md`
+- Left `index.md` unchanged because no new durable page was created
