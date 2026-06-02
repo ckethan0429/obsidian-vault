@@ -1222,6 +1222,23 @@ The 11:00 official/new-target pass was routed as `append_existing` after compari
 - No new durable branch emerged after deduplicating against the prior new-target track.
 - `index.md` remains unchanged because no new page was created.
 
+## 2026-06-02 19:00 social/browser routing
+
+The afternoon social/browser pass was routed as `raw_only` after comparison with the same-day 08:00 social/browser transcript, the 11:00 new-target append, and current same-day log entries.
+
+### Routed as `raw_only`
+- Threads liked/reposts added fresh but same-axis rows: Hermes skill-set bloat / default-skill hygiene, LazyCodex autonomous QA, Meta account-recovery AI security failure, OpenAI Codex Python SDK, token-cost framing, and AI-native organization loops.
+- Google My Activity and ChatGPT recent titles converged on `claude sdk`, `hermes providers`, `open code claude subscription`, `lazy codex`, `Hermes 여러 모델 사용법`, and `Claude SDK와 구독 사용`; these are operator-intent signals, not a new concept branch.
+- Threads API showed one same-day `REPOST_FACADE` and no new replies/mentions beyond the morning baseline; keyword search returned old CK-authored posts or empty sets.
+
+### Unchanged, unavailable, or reinforcement-only
+- YouTube subscriptions hydrated only a blank navigation shell in this run, so no feed item was inferred from that surface.
+- YouTube liked videos / Watch Later, GitHub Stars, Threads activity/replies, Claude recent titles, and X were unchanged, low-durability, or unusable at the durable layer.
+
+### Not routed as `append_existing` or `promote_to_wiki`
+- The 11:00 new-target pass already applied the durable append around governed OpenAI/AWS/Codex access, private MCP, Docker sandbox-security, LangSmith Sandboxes, and AI-infra controls.
+- The 19:00 pass therefore preserves useful raw evidence and adds this Honcho audit note only; `index.md` and non-Honcho durable concept pages remain unchanged.
+
 ## Related pages
 
 - [[interest-signal-sources]]

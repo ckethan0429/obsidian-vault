@@ -1438,3 +1438,15 @@
 - Fresh official-feed rows came from OpenAI frontier models and Codex on AWS / Bedrock, Amazon Quick VPC connectivity for MCP, SageMaker HyperPod troubleshooting skills, Docker sandbox-security guidance, and LangSmith Sandboxes GA
 - Routed `append_existing`; updated `concepts/managed-agents-practical-summary.md`, `concepts/ai-infra-operating-economics.md`, and `concepts/honcho.md`
 - Left `index.md` unchanged because no new durable page was created
+
+## [2026-06-02] query | Threads curation draft — governed agent runtime economics
+- Oriented with README, SCHEMA, index, and recent log
+- Reviewed same-day 08:00 social/browser raw source, 11:00 new-target raw source, and updated managed-agent / AI-infra concept pages
+- Prepared one Korean Threads draft for approval from the OpenAI/AWS governed model access plus private MCP / sandbox-control cluster; no durable page or index change needed
+
+## [2026-06-02] ingest | Interest signal collection 19:00 run
+- Saved raw source: `raw/transcripts/interest-signal-collection-19-00-2026-06-02.md`
+- Compared against the same-day 08:00 social/browser transcript, 11:00 new-target append, and current-day log entries before judging novelty
+- Newly surfaced rows came from Threads liked/reposts (Hermes skill-set bloat critique, LazyCodex autonomous QA, Meta AI account-recovery security failure, Codex Python SDK, token-cost framing, and AI-native organization loops) plus Google/ChatGPT operator-intent rows (`claude sdk`, `hermes providers`, `open code claude subscription`, `lazy codex`, `Hermes 여러 모델 사용법`, `Claude SDK와 구독 사용`)
+- YouTube subscriptions hydrated only a blank navigation shell in this run; GitHub Stars, YouTube playlists, Threads activity/replies/API, Claude, and X were unchanged, reinforcement-only, low-durability, or unusable at the durable layer
+- Routed `raw_only`; appended a Honcho audit note and left `index.md` plus non-Honcho durable concept pages unchanged
