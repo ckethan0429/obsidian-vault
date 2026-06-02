@@ -1464,3 +1464,10 @@
 - Classified the day as reinforcement-only at the 23:00 durable layer: the 11:00 and 22:00 `append_existing` deltas had already updated `concepts/managed-agents-practical-summary.md`, `concepts/ai-infra-operating-economics.md`, and `concepts/honcho.md`; 08:00 and 19:00 social/browser evidence stayed `raw_only`
 - Manual-review boundary items included HealthOmics workflow pinning, Foundry monthly agent updates, IBM agent-logic commentary, Meta AI account-recovery security commentary, and LangChain agent lifecycle; none were promoted
 - Updated `concepts/honcho.md` with the whole-day triage summary; left `index.md` and non-Honcho concept pages unchanged because no new durable page or additional append was justified
+
+## [2026-06-03] ingest | Interest signal collection 08:00 run
+- Saved raw source: `raw/transcripts/interest-signal-collection-08-00-2026-06-03.md`
+- Compared against the 2026-06-02 08:00 / 19:00 / 22:00 raw transcripts, the 23:00 Honcho refinement, and current log context before judging novelty
+- Newly visible rows were small operator-intent signals from ChatGPT recents: `깃 워크트리 사용법`, `Accountable harness 해석`, and `업비트에서 바이낸스로 전송`; these reinforce developer-workflow / agent-harness / crypto-ops lanes rather than opening a new durable branch
+- Threads, GitHub Stars, Google My Activity, Claude, YouTube playlists, and Threads API were unchanged or reinforcement-only; YouTube subscriptions/downloads and X were unavailable/blank from the exposed session
+- Routed `raw_only`; appended a Honcho audit note and left `index.md` plus non-Honcho durable concept pages unchanged

@@ -1,7 +1,7 @@
 ---
 title: Honcho
 created: 2026-04-18
-updated: 2026-06-02
+updated: 2026-06-03
 type: concept
 tags: [agents, hermes, automation, assistant, workflows, protocols, browser-automation]
 sources: [raw/transcripts/interest-signal-collection-19-00-2026-04-17.md, raw/transcripts/interest-signal-note-19-00-2026-04-17.md, raw/transcripts/interest-signal-collection-08-00-2026-04-26.md, raw/transcripts/interest-signal-collection-11-00-2026-05-19.md, raw/transcripts/interest-signal-collection-19-00-2026-04-26.md, raw/transcripts/interest-signal-note-19-00-2026-04-26.md, raw/transcripts/interest-signal-collection-08-00-2026-04-30.md, raw/transcripts/interest-signal-note-08-00-2026-04-30.md, raw/transcripts/interest-signal-collection-11-00-2026-04-30.md, raw/transcripts/interest-signal-note-11-00-2026-04-30.md, raw/transcripts/interest-signal-collection-19-00-2026-04-30.md, raw/transcripts/interest-signal-note-19-00-2026-04-30.md, raw/transcripts/interest-signal-collection-22-00-2026-04-30.md, raw/transcripts/interest-signal-note-22-00-2026-04-30.md, raw/transcripts/interest-signal-collection-08-00-2026-05-02.md, raw/transcripts/interest-signal-note-08-00-2026-05-02.md, raw/transcripts/interest-signal-collection-11-00-2026-05-02.md, raw/transcripts/interest-signal-note-11-00-2026-05-02.md, raw/transcripts/interest-signal-collection-19-00-2026-05-02.md, raw/transcripts/interest-signal-note-19-00-2026-05-02.md, raw/transcripts/interest-signal-collection-22-00-2026-05-02.md, raw/transcripts/interest-signal-note-22-00-2026-05-02.md, raw/transcripts/interest-signal-collection-08-00-2026-05-03.md, raw/transcripts/interest-signal-collection-11-00-2026-05-03.md, raw/transcripts/interest-signal-collection-19-00-2026-05-03.md, raw/transcripts/interest-signal-collection-22-00-2026-05-03.md, raw/transcripts/interest-signal-collection-08-00-2026-05-04.md, raw/transcripts/interest-signal-collection-11-00-2026-05-04.md, raw/transcripts/interest-signal-collection-19-00-2026-05-04.md, raw/transcripts/interest-signal-collection-22-00-2026-05-04.md, raw/transcripts/interest-signal-collection-08-00-2026-05-05.md, raw/transcripts/interest-signal-collection-11-00-2026-05-05.md, raw/transcripts/interest-signal-collection-19-00-2026-05-05.md, ra... [truncated, raw/transcripts/interest-signal-collection-08-00-2026-05-18.md, raw/transcripts/interest-signal-collection-11-00-2026-05-18.md, raw/transcripts/interest-signal-collection-19-00-2026-05-18.md, raw/transcripts/interest-signal-collection-22-00-2026-05-18.md, raw/transcripts/interest-signal-collection-08-00-2026-05-19.md, raw/transcripts/interest-signal-collection-08-00-2026-05-20.md, raw/transcripts/interest-signal-collection-11-00-2026-05-20.md, raw/transcripts/interest-signal-collection-19-00-2026-05-20.md, raw/transcripts/interest-signal-collection-22-00-2026-05-20.md, raw/transcripts/interest-signal-collection-08-00-2026-05-25.md, raw/transcripts/interest-signal-collection-11-00-2026-05-25.md, raw/transcripts/interest-signal-collection-19-00-2026-05-25.md, raw/transcripts/interest-signal-collection-22-00-2026-05-25.md, raw/transcripts/interest-signal-collection-08-00-2026-05-29.md, raw/transcripts/interest-signal-collection-11-00-2026-05-29.md, raw/transcripts/interest-signal-collection-19-00-2026-05-29.md, raw/transcripts/interest-signal-collection-22-00-2026-05-29.md, raw/transcripts/interest-signal-note-22-00-2026-05-29.md, raw/transcripts/interest-signal-collection-08-00-2026-05-31.md, raw/transcripts/interest-signal-collection-11-00-2026-05-31.md, raw/transcripts/interest-signal-collection-19-00-2026-05-31.md, raw/transcripts/interest-signal-collection-22-00-2026-05-31.md, raw/transcripts/interest-signal-note-22-00-2026-05-31.md, raw/transcripts/interest-signal-collection-08-00-2026-06-01.md]
@@ -1290,6 +1290,24 @@ The full day is **reinforcement-only at the 23:00 durable layer**. The same-day 
 ### Why this matters
 - The day converged on one existing axis: governed production agents now depend on model/procurement routing, private MCP/tool gateways, credential ownership, observability, policy enforcement, sandbox boundaries, context management, and AI-infra cost controls.
 - The social/browser material was useful as evidence of CK's operator intent around Hermes/Codex/LazyCodex/provider usage, but it did not justify an additional durable page update.
+
+## 2026-06-03 08:00 social/browser routing
+
+The morning social/browser pass was routed as `raw_only` after comparison with the 2026-06-02 08:00, 19:00, 22:00 raw transcripts, the 2026-06-02 23:00 same-day refinement, and current log context.
+
+### Routed as `raw_only`
+- ChatGPT recent titles added small operator-intent rows around `깃 워크트리 사용법`, `Accountable harness 해석`, and `업비트에서 바이낸스로 전송`. The first two strengthen CK's developer workflow / agent-harness lane; the third is personal-finance/crypto operations context.
+- Threads liked/reposts/activity repeated the same Hermes skill-set bloat, LazyCodex autonomous QA, Meta AI account-recovery security failure, Codex Python SDK, AI-native organization loop, equity/alignment, and cloud/on-demand rows already captured during the 2026-06-02 social runs.
+- YouTube liked and Watch Later preserved a mixed playlist refresh: sports/music/parenting rows plus repeated Karpathy, Cloudflare Queues, Claude Code, Harness Engineering, CLI-vs-MCP, KV Cache, State of the Claw, and LiteParse rows.
+
+### Unchanged, unavailable, or reinforcement-only
+- YouTube subscriptions again hydrated only a navigation shell, and downloads were blank; these were recorded as unavailable rather than negative evidence.
+- GitHub Stars remained the same agent-tooling list (`agent-skills`, `claude-p`, `humanizer`, `not-claude-code-emulator`, `atomic-hermes`, `hermes-agent`, `oh-my-agent`, etc.).
+- Google My Activity repeated the 2026-06-02 provider/subscription queries; Claude recents repeated career/equity/AI-infra/B2B rows; X likes exposed a non-usable account page.
+
+### Not routed as `append_existing` or `promote_to_wiki`
+- The only newly visible rows were useful raw intent evidence, but they do not change the already-durable managed-agent, AI-infra, developer-workflow, or operator-economics pages.
+- The correct action set is raw transcript plus Honcho/log audit only; `index.md` and non-Honcho durable concept pages remain unchanged.
 
 ## Related pages
 
