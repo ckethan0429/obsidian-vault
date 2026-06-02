@@ -1257,6 +1257,40 @@ The 22:00 new-target pass was routed as `append_existing` after comparison with 
 - No new durable page was justified after deduplicating against the same-day 11:00 append and prior new-target baselines.
 - `index.md` remains unchanged because this was an append to existing pages, not a new catalog entry.
 
+## 2026-06-02 23:00 same-day refinement summary
+
+Reviewed files: `raw/transcripts/interest-signal-collection-08-00-2026-06-02.md`, `raw/transcripts/interest-signal-collection-11-00-2026-06-02.md`, `raw/transcripts/interest-signal-collection-19-00-2026-06-02.md`, `raw/transcripts/interest-signal-collection-22-00-2026-06-02.md`, and `raw/transcripts/interest-signal-note-22-00-2026-06-02.md`.
+
+The full day is **reinforcement-only at the 23:00 durable layer**. The same-day 11:00 and 22:00 new-target passes already applied the justified `append_existing` updates to [[managed-agents-practical-summary]], [[ai-infra-operating-economics]], and this Honcho page. The 23:00 pass therefore keeps raw evidence untouched, avoids duplicating those same signals into concept pages again, and records only this whole-day routing audit plus `log.md`.
+
+### Routed as `append_existing`
+- 11:00 official/new-target evidence: OpenAI/Codex on AWS Bedrock, Amazon Quick VPC MCP, SageMaker HyperPod troubleshooting skills, Docker sandbox security, and LangSmith Sandboxes GA.
+- 22:00 official/new-target evidence: Bedrock AgentCore Gateway MCP support, AgentOps, Policy/Lambda interceptors, customer-managed AgentCore secrets, OpenAI/Codex on Bedrock launch-blog detail, GPUDirect/FSx/TurboQuant infra economics, plus GitHub Trending `mksglu/context-mode` and `awslabs/aidlc-workflows`.
+- These rows had usable source URLs in the raw transcripts and were already appended to existing durable pages during ingest-stage runs.
+
+### Routed as `raw_only`
+- 08:00 social/browser evidence: Threads startup/product-credibility critique, OSS maintainer ChatGPT Pro benefit, Ubuntu Korea / Qt Group community-infrastructure sponsorship, Toss Payments setup-cost friction, and YouTube Hermes Web UI / token-cost / AWS orchestration rows.
+- 19:00 social/browser evidence: Hermes skill-set bloat, LazyCodex autonomous QA, Meta account-recovery AI security failure, Codex Python SDK, token-cost framing, AI-native organization loops, and Google/ChatGPT operator-intent rows around Claude SDK, Hermes providers, OpenCode subscription, and LazyCodex.
+- GitHub Stars, YouTube playlists, ChatGPT/Claude sidebars, Threads API, and Google My Activity mostly reinforced existing lanes or stayed low-durability as standalone evidence.
+- YouTube subscriptions at 19:00 were blank/unavailable and were not treated as negative evidence.
+
+### Routed as `manual_review`
+- AWS / Microsoft / Hugging Face / Simon Willison / LangChain boundary rows such as HealthOmics workflow pinning, Foundry monthly agent updates, IBM agent-logic commentary, Meta AI account-recovery security commentary, and LangChain agent lifecycle were preserved where captured but did not exceed the already-applied AWS/OpenAI/Docker/LangSmith/AgentCore cluster.
+- Lower-score infra rows such as EC2 M8i/M8azn and Bedrock/GitHub observability or billing updates remain useful background, not independent durable branches.
+
+### Routed as `discard`
+- Sports, entertainment, politics, generic lifestyle/feed rotation, stale vendor backfill, navigation-shell captures, and broad product/news rows remain excluded from durable interpretation.
+- X again produced no usable extraction evidence, so no X inference was made.
+
+### Not routed as `promote_to_wiki`
+- No genuinely new durable concept emerged after deduplicating the 08:00, 11:00, 19:00, and 22:00 files.
+- `index.md` remains unchanged because no new page was created and no catalog summary needed to change.
+- Non-Honcho concept pages remain unchanged in this 23:00 refinement because the 11:00 and 22:00 ingest-stage updates already absorbed the day's durable deltas.
+
+### Why this matters
+- The day converged on one existing axis: governed production agents now depend on model/procurement routing, private MCP/tool gateways, credential ownership, observability, policy enforcement, sandbox boundaries, context management, and AI-infra cost controls.
+- The social/browser material was useful as evidence of CK's operator intent around Hermes/Codex/LazyCodex/provider usage, but it did not justify an additional durable page update.
+
 ## Related pages
 
 - [[interest-signal-sources]]

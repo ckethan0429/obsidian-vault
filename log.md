@@ -1458,3 +1458,9 @@
 - Fresh official/new-target rows came from AWS Machine Learning Blog: Bedrock AgentCore Gateway MCP support, AgentOps, Policy/Lambda interceptors, AgentCore Identity customer-managed secrets, OpenAI/Codex on Bedrock launch-blog detail, and GPUDirect/FSx/TurboQuant infra economics; GitHub Trending added `mksglu/context-mode` and `awslabs/aidlc-workflows`
 - Routed `append_existing`; updated `concepts/managed-agents-practical-summary.md`, `concepts/ai-infra-operating-economics.md`, and `concepts/honcho.md`
 - Left `index.md` unchanged because no new durable page was created
+
+## [2026-06-02] refine | 23:00 same-day interest-signal triage
+- Reviewed same-day raw inputs: `raw/transcripts/interest-signal-collection-08-00-2026-06-02.md`, `raw/transcripts/interest-signal-collection-11-00-2026-06-02.md`, `raw/transcripts/interest-signal-collection-19-00-2026-06-02.md`, `raw/transcripts/interest-signal-collection-22-00-2026-06-02.md`, and `raw/transcripts/interest-signal-note-22-00-2026-06-02.md`
+- Classified the day as reinforcement-only at the 23:00 durable layer: the 11:00 and 22:00 `append_existing` deltas had already updated `concepts/managed-agents-practical-summary.md`, `concepts/ai-infra-operating-economics.md`, and `concepts/honcho.md`; 08:00 and 19:00 social/browser evidence stayed `raw_only`
+- Manual-review boundary items included HealthOmics workflow pinning, Foundry monthly agent updates, IBM agent-logic commentary, Meta AI account-recovery security commentary, and LangChain agent lifecycle; none were promoted
+- Updated `concepts/honcho.md` with the whole-day triage summary; left `index.md` and non-Honcho concept pages unchanged because no new durable page or additional append was justified
