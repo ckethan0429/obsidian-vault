@@ -1327,6 +1327,28 @@ The 11:00 official/new-target pass was routed as `append_existing` after compari
 - No new durable concept branch emerged after deduplicating against the recent new-target track.
 - `index.md` remains unchanged because no new page was created.
 
+## 2026-06-03 19:00 social/browser routing
+
+The afternoon social/browser pass was routed as `raw_only` after comparison with the same-day 08:00 social/browser transcript, the same-day 11:00 official/new-target append, the 2026-06-02 23:00 refinement, and current log context.
+
+Reviewed file: `raw/transcripts/interest-signal-collection-19-00-2026-06-03.md`.
+
+### Routed as `raw_only`
+- Threads liked surfaced a fresh `choi.openai` post on Codex role-specific plugins / job-function agents (`https://www.threads.com/@choi.openai/post/DZGeZZ_gXut`). This is a useful social confirmation of the Codex-for-roles lane, but the same official product direction was already captured in the 11:00 new-target pass.
+- YouTube Watch Later hydrated deeper Claude Code / skills / MCP / AI-agent / AI-infra rows, including `Claude Code: Build Your Full AI Marketing Team`, `65줄의 스킬...`, `LangChain Ver.1`, `AI 에이전트 100개...`, and `I built a private AI mini-cluster...`. These strengthen existing axes rather than opening a new durable branch.
+- Google My Activity added a fresh 19:00 `앤트로픽` search/click plus same-day `claude sdk`, `hermes providers`, `open code claude subscription`, and `lazy codex` rows. This is operator-intent evidence only.
+
+### Unchanged, unavailable, or reinforcement-only
+- Threads API `/threads`, `/replies`, `/mentions`, and keyword searches returned successful but older/repeated rows; mentions returned zero rows.
+- GitHub Stars remained the same agent-tooling list (`agent-skills`, `claude-p`, `humanizer`, `not-claude-code-emulator`, `atomic-hermes`, `hermes-agent`, `oh-my-agent`, etc.).
+- ChatGPT and Claude sidebars stayed in the existing developer-workflow, AI-infra, career/equity, and B2B-product lanes.
+- YouTube subscriptions/downloads hydrated as blank or navigation-only shells, so they were recorded as unavailable rather than negative evidence.
+- X likes still exposed a non-usable account page.
+
+### Not routed as `append_existing` or `promote_to_wiki`
+- After deduplicating against the 08:00 and 11:00 same-day files, the pass produced useful raw evidence but no new durable concept-page delta.
+- The correct action set is raw transcript plus this Honcho/log audit only; `index.md` and non-Honcho durable concept pages remain unchanged.
+
 ## Related pages
 
 - [[interest-signal-sources]]

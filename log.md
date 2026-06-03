@@ -1478,3 +1478,15 @@
 - Freshest official-feed rows came from Microsoft Foundry trust/eval/control-standard posts, AWS `Evaluating Deep Agents using LangSmith on AWS`, LangChain Auth Proxy for agent sandboxes, and GitHub Copilot code review with Agent skills / MCP
 - Routed `append_existing`; updated `concepts/managed-agents-practical-summary.md`, `concepts/ai-infra-operating-economics.md`, and `concepts/honcho.md`
 - Left `index.md` unchanged because no new durable page was created
+
+## [2026-06-03] query | Threads curation draft — agent trust and eval infrastructure
+- Oriented with README, SCHEMA, index, recent log, and prior curation-draft context
+- Selected the Microsoft Foundry / AWS LangSmith / LangChain Auth Proxy cluster as today's strongest wiki-backed topic, with a materially different angle from the 2026-06-02 execution-control draft
+- Prepared one Korean Threads draft for approval; no durable page or index change needed
+
+## [2026-06-03] ingest | Interest signal collection 19:00 social/browser run
+- Saved raw source: `raw/transcripts/interest-signal-collection-19-00-2026-06-03.md`
+- Compared against the same-day 08:00 social/browser transcript, same-day 11:00 new-target append, the 2026-06-02 23:00 refinement, `concepts/honcho.md`, and current log context before judging novelty
+- Freshest social/browser signal was the Threads liked `choi.openai` Codex role-plugin / job-function-agent post; YouTube Watch Later also hydrated deeper Claude Code / skills / MCP / AI-agent / private mini-cluster rows, and Google My Activity added a 19:00 `앤트로픽` query/click
+- Routed `raw_only`; updated `concepts/honcho.md` with the routing audit only
+- Left `index.md` and non-Honcho durable concept pages unchanged because the run reinforced existing managed-agent, AI-infra, developer-workflow, and operator-intent lanes rather than creating a new durable branch
