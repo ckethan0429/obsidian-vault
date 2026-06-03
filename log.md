@@ -1471,3 +1471,10 @@
 - Newly visible rows were small operator-intent signals from ChatGPT recents: `깃 워크트리 사용법`, `Accountable harness 해석`, and `업비트에서 바이낸스로 전송`; these reinforce developer-workflow / agent-harness / crypto-ops lanes rather than opening a new durable branch
 - Threads, GitHub Stars, Google My Activity, Claude, YouTube playlists, and Threads API were unchanged or reinforcement-only; YouTube subscriptions/downloads and X were unavailable/blank from the exposed session
 - Routed `raw_only`; appended a Honcho audit note and left `index.md` plus non-Honcho durable concept pages unchanged
+
+## [2026-06-03] ingest | Interest signal collection 11:00 new-target run
+- Saved raw source: `raw/transcripts/interest-signal-collection-11-00-2026-06-03.md`
+- Compared against the 2026-06-02 22:00 and 11:00 new-target baselines, 2026-06-01 new-target caches, and the same-day 08:00 social/browser transcript before judging novelty
+- Freshest official-feed rows came from Microsoft Foundry trust/eval/control-standard posts, AWS `Evaluating Deep Agents using LangSmith on AWS`, LangChain Auth Proxy for agent sandboxes, and GitHub Copilot code review with Agent skills / MCP
+- Routed `append_existing`; updated `concepts/managed-agents-practical-summary.md`, `concepts/ai-infra-operating-economics.md`, and `concepts/honcho.md`
+- Left `index.md` unchanged because no new durable page was created

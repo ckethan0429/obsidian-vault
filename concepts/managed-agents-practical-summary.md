@@ -1,7 +1,7 @@
 ---
 title: Managed Agents practical summary
 created: 2026-04-15
-updated: 2026-06-02
+updated: 2026-06-03
 type: concept
 tags: [agents, orchestration, infrastructure, devtools, anthropic, checklist]
 sources: [raw/transcripts/interest-signal-collection-11-00-2026-05-31.md, raw/articles/anthropic-managed-agents-2026-04-15.md, raw/articles/effective-harnesses-for-long-running-agents-2026-04-15.md, raw/transcripts/interest-signal-collection-11-00-2026-05-16.md, raw/transcripts/interest-signal-collection-19-00-2026-05-16.md, raw/transcripts/managed-agents-codefactory-video-2026-04-15.md, raw/transcripts/interest-signal-collection-19-00-2026-04-20.md, raw/transcripts/interest-signal-collection-08-00-2026-04-22.md, raw/transcripts/interest-signal-collection-08-00-2026-04-22-threads-liked-rerun.md, raw/transcripts/interest-signal-collection-19-00-2026-04-22.md, raw/transcripts/interest-signal-collection-08-00-2026-04-26.md, raw/transcripts/interest-signal-collection-19-00-2026-04-26.md, raw/transcripts/interest-signal-note-19-00-2026-04-26.md, raw/transcripts/interest-signal-collection-08-00-2026-04-30.md, raw/transcripts/interest-signal-note-08-00-2026-04-30.md, raw/transcripts/interest-signal-collection-11-00-2026-04-30.md, raw/transcripts/interest-signal-note-11-00-2026-04-30.md, raw/transcripts/interest-signal-collection-19-00-2026-04-30.md, raw/transcripts/interest-signal-note-19-00-2026-04-30.md, raw/transcripts/interest-signal-collection-22-00-2026-04-30.md, raw/transcripts/interest-signal-note-22-00-2026-04-30.md, raw/transcripts/interest-signal-collection-08-00-2026-05-01.md, raw/transcripts/interest-signal-note-08-00-2026-05-01.md, raw/transcripts/interest-signal-collection-08-00-2026-05-03.md, raw/transcripts/interest-signal-collection-11-00-2026-05-03.md, raw/transcripts/interest-signal-collection-19-00-2026-05-03.md, raw/transcripts/interest-signal-collection-22-00-2026-05-03.md, raw/transcripts/interest-signal-collection-22-00-2026-05-04.md, raw/transcripts/interest-signal-collection-08-00-2026-05-05.md, raw/transcripts/interest-signal-collection-19-00-2026-05-05.md, raw/transcripts/interest-signal-collection-22-00-2026-05-05.md, raw/transcripts/interest-signal-collection-11-00-2026-05-06.md, raw/transcripts/interest-signal-collection-08-00-2026-05-07.md, raw/transcripts/interest-signal-collection-19-00-2026-05-07.md, raw/transcripts/interest-signal-collection-11-00-2026-05-07.md, raw/transcripts/interest-signal-collection-22-00-2026-05-07.md, raw/transcripts/interest-signal-collection-11-00-2026-05-08.md, raw/transcripts/interest-signal-collection-22-00-2026-05-08.md, raw/transcripts/interest-signal-collection-08-00-2026-05-09.md, raw/transcripts/interest-signal-collection-11-00-2026-05-09.md, raw/transcripts/interest-signal-collection-11-00-2026-05-10.md, raw/transcripts/interest-signal-collection-08-00-2026-05-12.md, raw/transcripts/interest-signal-collection-11-00-2026-05-12.md, raw/transcripts/interest-signal-collection-19-00-2026-05-12.md, raw/transcripts/interest-signal-collection-22-00-2026-05-12.md, raw/transcripts/interest-signal-collection-08-00-2026-05-13.md, raw/transcripts/interest-signal-collection-11-00-2026-05-13.md, raw/transcripts/interest-signal-collection-19-00-2026-05-13.md, raw/transcripts/interest-signal-collection-22-00-2026-05-13.md]
@@ -709,6 +709,21 @@ The 22:00 new-target pass strengthened the same managed-agent thesis from the AW
 
 ### Updated reading
 This is **append_existing**, not `promote_to_wiki`. The durable signal is that managed agents are shifting from isolated coding assistants into governed production systems: MCP gateways, policy interceptors, secrets ownership, AgentOps observability, and context/workflow steering are now the control surfaces CK should track.
+
+## 2026-06-03 new-target reinforcement
+
+Source: `raw/transcripts/interest-signal-collection-11-00-2026-06-03.md`
+
+The 11:00 new-target pass stayed inside the existing managed-agent thesis, but shifted the freshest durable evidence from yesterday's AgentCore / Codex / private-MCP control plane toward **trust, evaluation, and framework-portable agent controls**.
+
+### What looked fresh
+- **Microsoft Foundry** published an open trust-stack / control-standard cluster: open evals, portable runtime controls, production observability, security workflows, hosted runtimes, Toolboxes, memory, Foundry IQ, and serverless retrieval for grounded agents.
+- **AWS Machine Learning Blog** added `Evaluating Deep Agents using LangSmith on AWS`, tying deep-agent evaluation patterns, `pytest` offline evals, LangSmith monitoring, Amazon Bedrock, and text-to-SQL agent lifecycle into one production workflow.
+- **LangChain Auth Proxy** reinforced the sandbox boundary: credentials and network access are useful only when secrets stay out of agent runtimes, egress is constrained, and teams keep infrastructure-level control over external service access.
+- **GitHub Changelog** added Copilot code-review shaping with Agent skills and MCP, making team standards, tools, and review behavior more agent-readable.
+
+### Updated reading
+This is **append_existing**, not `promote_to_wiki`. The durable signal is that managed agents are maturing from "run this agent" into a trustable operating surface: evals, observability, memory/retrieval, security workflows, agent skills, MCP, and credential/egress controls are the pieces CK should track when judging whether an agent platform is production-grade.
 
 ## Related pages
 

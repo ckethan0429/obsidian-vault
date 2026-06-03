@@ -1309,6 +1309,24 @@ The morning social/browser pass was routed as `raw_only` after comparison with t
 - The only newly visible rows were useful raw intent evidence, but they do not change the already-durable managed-agent, AI-infra, developer-workflow, or operator-economics pages.
 - The correct action set is raw transcript plus Honcho/log audit only; `index.md` and non-Honcho durable concept pages remain unchanged.
 
+## 2026-06-03 11:00 new-target routing
+
+The 11:00 official/new-target pass was routed as `append_existing` after comparison with the 2026-06-02 22:00 and 11:00 new-target baselines, the 2026-06-01 new-target caches, and the same-day 08:00 social/browser transcript.
+
+### Routed as `append_existing`
+- Microsoft Foundry's trust-stack cluster (`Build agents you can trust across any framework`, `What's new in Microsoft Foundry | Build Edition`, and `Foundry IQ`) strengthened [[managed-agents-practical-summary]] and [[ai-infra-operating-economics]] with open evals, portable controls, observability, security workflows, hosted runtimes, memory, and serverless retrieval.
+- AWS Machine Learning Blog's `Evaluating Deep Agents using LangSmith on AWS` added concrete eval/monitoring lifecycle evidence: deep-agent eval patterns, `pytest` offline evals, LangSmith monitoring, Bedrock, and production text-to-SQL agents.
+- LangChain's Auth Proxy for LangSmith agent sandboxes and GitHub Changelog's Copilot code-review Agent skills / MCP row strengthened the same credential-boundary, egress-control, team-standard, and official-tooling lane.
+
+### Kept as `raw_only` / `manual_review` / `discard`
+- Repeated OpenAI/Codex-on-AWS, AWS AgentCore, Docker sandbox, and LangSmith Sandbox rows from 2026-06-02 were preserved as reinforcement rather than treated as fresh novelty.
+- GitHub Trending and lower-score official-feed rows were retained in the raw transcript when useful, but they did not exceed the Microsoft/AWS/LangChain/GitHub-control cluster.
+- Broad product/news, stale backfill, and generic low-signal rows stayed raw-only or discard.
+
+### Not routed as `promote_to_wiki`
+- No new durable concept branch emerged after deduplicating against the recent new-target track.
+- `index.md` remains unchanged because no new page was created.
+
 ## Related pages
 
 - [[interest-signal-sources]]

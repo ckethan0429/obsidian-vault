@@ -1,7 +1,7 @@
 ---
 title: AI infra operating economics
 created: 2026-04-22
-updated: 2026-06-02
+updated: 2026-06-03
 type: concept
 tags: [infrastructure, gpu, storage, proxmox, agents, business, strategy]
 sources: [raw/transcripts/interest-signal-collection-11-00-2026-05-31.md, raw/transcripts/interest-signal-collection-08-00-2026-05-16.md, raw/transcripts/interest-signal-collection-22-00-2026-05-16.md, raw/transcripts/interest-signal-collection-11-00-2026-05-20.md, raw/transcripts/interest-signal-collection-22-00-2026-05-21.md, raw/transcripts/interest-signal-collection-11-00-2026-05-19.md, raw/transcripts/interest-signal-collection-11-00-2026-05-15.md, raw/transcripts/interest-signal-collection-11-00-2026-05-13.md, raw/transcripts/interest-signal-collection-22-00-2026-05-13.md, raw/transcripts/interest-signal-collection-08-00-2026-04-22.md, raw/transcripts/interest-signal-collection-08-00-2026-04-22-threads-liked-rerun.md, raw/transcripts/interest-signal-collection-19-00-2026-04-22.md, raw/transcripts/interest-signal-note-19-00-2026-04-22.md, raw/transcripts/interest-signal-collection-08-00-2026-04-23.md, raw/transcripts/interest-signal-collection-08-00-2026-04-26.md, raw/transcripts/interest-signal-collection-19-00-2026-04-26.md, raw/transcripts/interest-signal-note-19-00-2026-04-26.md, raw/transcripts/interest-signal-collection-08-00-2026-04-27.md, raw/transcripts/interest-signal-note-08-00-2026-04-27.md, raw/transcripts/interest-signal-collection-19-00-2026-04-27.md, raw/transcripts/interest-signal-note-19-00-2026-04-27.md, raw/transcripts/interest-signal-collection-08-00-2026-04-28.md, raw/transcripts/interest-signal-note-08-00-2026-04-28.md, raw/transcripts/interest-signal-collection-19-00-2026-04-28.md, raw/transcripts/interest-signal-note-19-00-2026-04-28.md, raw/transcripts/interest-signal-collection-08-00-2026-04-29.md, raw/transcripts/interest-signal-note-08-00-2026-04-29.md, raw/transcripts/interest-signal-collection-11-00-2026-04-29.md, raw/transcripts/interest-signal-collection-19-00-2026-04-29.md, raw/transcripts/interest-signal-note-19-00-2026-04-29.md, raw/transcripts/interest-signal-collection-22-00-2026-04-29.md, raw/transcripts/interest-signal-note-22-00-2026-04-29.md, raw/transcripts/interest-signal-collection-11-00-2026-04-30.md, raw/transcripts/interest-signal-note-11-00-2026-04-30.md, raw/transcripts/interest-signal-collection-19-00-2026-04-30.md, raw/transcripts/interest-signal-note-19-00-202... [truncated, raw/transcripts/interest-signal-collection-11-00-2026-05-18.md, raw/transcripts/interest-signal-collection-08-00-2026-05-19.md]
@@ -1041,6 +1041,21 @@ The 22:00 pass reinforced the AI-infra operating-economics thesis by moving from
 
 ### Updated reading
 This remains **append_existing**. CK's durable axis is now sharper: agent products win when model access, MCP/tool gateways, credentials, observability, policy checks, and GPU/model-loading economics are controllable enough to reduce blast radius and operating cost.
+
+## 2026-06-03 new-target reinforcement
+
+Source: `raw/transcripts/interest-signal-collection-11-00-2026-06-03.md`
+
+The 11:00 pass reinforced the AI-infra operating-economics thesis by making **agent trust and eval infrastructure** the fresh cost/control layer after the prior day's AWS AgentCore and Codex-on-Bedrock append.
+
+### What looked fresh
+- **Microsoft Foundry** moved the economic bottleneck toward trust operations: open evals, runtime controls, observability, security workflows, hosted runtimes, Toolboxes, memory, and Foundry IQ / serverless retrieval are all control-plane primitives rather than model-only features.
+- **AWS + LangSmith** made production-agent evaluation concrete: deep-agent eval patterns, `pytest` offline tests, online monitoring, Amazon Bedrock, and text-to-SQL lifecycle work turn agent quality into measurable infrastructure work.
+- **LangChain Auth Proxy** sharpened the sandbox economics: secrets, egress, network access, and service boundaries determine whether useful agents are safe enough to operate repeatedly.
+- **GitHub Copilot code review** added Agent skills and MCP as team-standard carriers, pushing code-review quality and tool context into governed agent workflows.
+
+### Updated reading
+This remains **append_existing**. CK's durable axis is unchanged, but the cost center is sharper: production-agent value now depends on how cheaply and reliably teams can evaluate, observe, constrain, and ground agents across frameworks, not merely on whether they can call a strong model.
 
 ## Related pages
 
