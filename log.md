@@ -1503,3 +1503,9 @@
 - Classified the day as reinforcement-only at the 23:00 durable layer: the 11:00 and 22:00 `append_existing` deltas had already updated `concepts/managed-agents-practical-summary.md`, `concepts/ai-infra-operating-economics.md`, and `concepts/honcho.md`; 08:00 and 19:00 social/browser evidence stayed `raw_only`
 - Manual-review boundary items included Codex role-plugin social confirmation, AWS Nova object detection, Anthropic AI-enabled cyber-threat mapping, EKS / AWS Config governance rows, Google LiteRT/on-device rows, Typeless voice-input chatter, and crypto / equity / career side-surface rows; none were promoted
 - Updated `concepts/honcho.md` with the whole-day triage summary; left `index.md` and non-Honcho concept pages unchanged because no new durable page or additional append was justified
+
+## [2026-06-04] ingest | Interest signal collection 08:00 run
+- Saved raw source: `raw/transcripts/interest-signal-collection-08-00-2026-06-04.md`
+- Compared against the 2026-06-03 08:00 / 19:00 / 22:00 raw transcripts, the 2026-06-03 23:00 Honcho refinement, and current log context before judging novelty
+- Freshly visible item was limited to Claude recent-title/operator context: `지분 획득 시 CTO의 역할과 준비`; Threads, YouTube, GitHub Stars, Google My Activity, ChatGPT, Threads API, and X were repeated, reinforcement-only, navigation-only, or unusable at the durable layer
+- Routed `raw_only`; appended a Honcho audit note and left `index.md` plus non-Honcho durable concept pages unchanged
