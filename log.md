@@ -1490,3 +1490,10 @@
 - Freshest social/browser signal was the Threads liked `choi.openai` Codex role-plugin / job-function-agent post; YouTube Watch Later also hydrated deeper Claude Code / skills / MCP / AI-agent / private mini-cluster rows, and Google My Activity added a 19:00 `앤트로픽` query/click
 - Routed `raw_only`; updated `concepts/honcho.md` with the routing audit only
 - Left `index.md` and non-Honcho durable concept pages unchanged because the run reinforced existing managed-agent, AI-infra, developer-workflow, and operator-intent lanes rather than creating a new durable branch
+
+## [2026-06-03] ingest | Interest signal collection 22:00 new-target run
+- Saved raw source: `raw/transcripts/interest-signal-collection-22-00-2026-06-03.md`
+- Compared against the same-day 11:00 new-target cache, recent 22:00 / 11:00 new-target baselines, and prior raw transcript URLs/titles before judging novelty
+- Freshest durable row was Simon Willison / Bloomberg: `Uber Caps Usage of AI Tools Like Claude Code to Manage Costs`, reporting Uber's `$1,500` monthly token-spend cap per AI coding tool for agentic coding software such as Cursor or Claude Code
+- Routed `append_existing`; updated `concepts/ai-infra-operating-economics.md` and `concepts/honcho.md`
+- Left `index.md` unchanged because no new durable page was created; repeated AWS/Vercel/LangChain/GitHub Trending rows stayed raw-only reinforcement
