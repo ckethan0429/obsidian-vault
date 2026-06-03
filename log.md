@@ -1497,3 +1497,9 @@
 - Freshest durable row was Simon Willison / Bloomberg: `Uber Caps Usage of AI Tools Like Claude Code to Manage Costs`, reporting Uber's `$1,500` monthly token-spend cap per AI coding tool for agentic coding software such as Cursor or Claude Code
 - Routed `append_existing`; updated `concepts/ai-infra-operating-economics.md` and `concepts/honcho.md`
 - Left `index.md` unchanged because no new durable page was created; repeated AWS/Vercel/LangChain/GitHub Trending rows stayed raw-only reinforcement
+
+## [2026-06-03] refine | 23:00 same-day interest-signal triage
+- Reviewed same-day raw inputs: `raw/transcripts/interest-signal-collection-08-00-2026-06-03.md`, `raw/transcripts/interest-signal-collection-11-00-2026-06-03.md`, `raw/transcripts/interest-signal-collection-19-00-2026-06-03.md`, and `raw/transcripts/interest-signal-collection-22-00-2026-06-03.md`
+- Classified the day as reinforcement-only at the 23:00 durable layer: the 11:00 and 22:00 `append_existing` deltas had already updated `concepts/managed-agents-practical-summary.md`, `concepts/ai-infra-operating-economics.md`, and `concepts/honcho.md`; 08:00 and 19:00 social/browser evidence stayed `raw_only`
+- Manual-review boundary items included Codex role-plugin social confirmation, AWS Nova object detection, Anthropic AI-enabled cyber-threat mapping, EKS / AWS Config governance rows, Google LiteRT/on-device rows, Typeless voice-input chatter, and crypto / equity / career side-surface rows; none were promoted
+- Updated `concepts/honcho.md` with the whole-day triage summary; left `index.md` and non-Honcho concept pages unchanged because no new durable page or additional append was justified
