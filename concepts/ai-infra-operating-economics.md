@@ -1,10 +1,10 @@
 ---
 title: AI infra operating economics
 created: 2026-04-22
-updated: 2026-06-03
+updated: 2026-06-04
 type: concept
 tags: [infrastructure, gpu, storage, proxmox, agents, business, strategy]
-sources: [raw/transcripts/interest-signal-collection-22-00-2026-06-03.md, raw/transcripts/interest-signal-collection-11-00-2026-05-31.md, raw/transcripts/interest-signal-collection-08-00-2026-05-16.md, raw/transcripts/interest-signal-collection-22-00-2026-05-16.md, raw/transcripts/interest-signal-collection-11-00-2026-05-20.md, raw/transcripts/interest-signal-collection-22-00-2026-05-21.md, raw/transcripts/interest-signal-collection-11-00-2026-05-19.md, raw/transcripts/interest-signal-collection-11-00-2026-05-15.md, raw/transcripts/interest-signal-collection-11-00-2026-05-13.md, raw/transcripts/interest-signal-collection-22-00-2026-05-13.md, raw/transcripts/interest-signal-collection-08-00-2026-04-22.md, raw/transcripts/interest-signal-collection-08-00-2026-04-22-threads-liked-rerun.md, raw/transcripts/interest-signal-collection-19-00-2026-04-22.md, raw/transcripts/interest-signal-note-19-00-2026-04-22.md, raw/transcripts/interest-signal-collection-08-00-2026-04-23.md, raw/transcripts/interest-signal-collection-08-00-2026-04-26.md, raw/transcripts/interest-signal-collection-19-00-2026-04-26.md, raw/transcripts/interest-signal-note-19-00-2026-04-26.md, raw/transcripts/interest-signal-collection-08-00-2026-04-27.md, raw/transcripts/interest-signal-note-08-00-2026-04-27.md, raw/transcripts/interest-signal-collection-19-00-2026-04-27.md, raw/transcripts/interest-signal-note-19-00-2026-04-27.md, raw/transcripts/interest-signal-collection-08-00-2026-04-28.md, raw/transcripts/interest-signal-note-08-00-2026-04-28.md, raw/transcripts/interest-signal-collection-19-00-2026-04-28.md, raw/transcripts/interest-signal-note-19-00-2026-04-28.md, raw/transcripts/interest-signal-collection-08-00-2026-04-29.md, raw/transcripts/interest-signal-note-08-00-2026-04-29.md, raw/transcripts/interest-signal-collection-11-00-2026-04-29.md, raw/transcripts/interest-signal-collection-19-00-2026-04-29.md, raw/transcripts/interest-signal-note-19-00-2026-04-29.md, raw/transcripts/interest-signal-collection-22-00-2026-04-29.md, raw/transcripts/interest-signal-note-22-00-2026-04-29.md, raw/transcripts/interest-signal-collection-11-00-2026-04-30.md, raw/transcripts/interest-signal-note-11-00-2026-04-30.md, raw/transcripts/interest-signal-collection-19-00-2026-04-30.md, raw/transcripts/interest-signal-note-19-00-202... [truncated, raw/transcripts/interest-signal-collection-11-00-2026-05-18.md, raw/transcripts/interest-signal-collection-08-00-2026-05-19.md]
+sources: [raw/transcripts/interest-signal-collection-11-00-2026-06-04.md, raw/transcripts/interest-signal-collection-22-00-2026-06-03.md, raw/transcripts/interest-signal-collection-11-00-2026-06-03.md, raw/transcripts/interest-signal-collection-22-00-2026-06-02.md, raw/transcripts/interest-signal-collection-11-00-2026-06-02.md, raw/transcripts/interest-signal-collection-22-00-2026-06-01.md, raw/transcripts/interest-signal-collection-11-00-2026-05-31.md, raw/transcripts/interest-signal-collection-22-00-2026-05-31.md, raw/transcripts/interest-signal-collection-08-00-2026-04-22.md, raw/transcripts/interest-signal-collection-19-00-2026-04-22.md]
 ---
 
 # AI infra operating economics
@@ -1070,6 +1070,22 @@ The 22:00 new-target pass was mostly reinforcement after comparing against the s
 
 ### Updated reading
 This remains **append_existing**. CK's durable thesis is sharper: production AI infra needs not only sandboxes, evals, MCP gateways, and credential boundaries, but also explicit spend governance for token-burning coding agents as they move from individual experimentation into enterprise-wide use.
+
+## 2026-06-04 new-target reinforcement
+
+Source: `raw/transcripts/interest-signal-collection-11-00-2026-06-04.md`
+
+The 11:00 pass reinforced the AI-infra operating-economics thesis by turning yesterday's trust/eval/spend-control axis into a broader **agent data-access and orchestration economics** axis.
+
+### What looked fresh
+- **Google Cloud Storage MCP Servers** make unstructured object storage an agent-ready context layer, which moves storage from passive archive to billable reasoning substrate.
+- **AlloyDB Remote MCP Server GA** does the same for operational databases: secure MCP access to live enterprise data becomes an infrastructure product rather than an ad hoc connector.
+- **AWS Step Functions AgentCore reasoning step** makes agent calls part of auditable workflow orchestration with execution history, approval points, and parallel/sequential decisions.
+- **SageMaker multi-turn RL** and **AWS Config support for Bedrock AgentCore resources** point to the next operating layer: cheaper task-specialized agent models plus resource inventory/governance for deployed agent surfaces.
+- **TPU / GKE Managed DRANET / Multi-cluster Inference Gateway** stayed supporting infra evidence for inference routing and availability economics.
+
+### Updated reading
+This remains **append_existing**. CK's durable thesis is sharper: production AI infra is not just model access or sandbox safety; it is the ability to turn storage, databases, workflow engines, local runtimes, model customization, resource inventory, and inference gateways into controllable agent operating surfaces.
 
 ## Related pages
 

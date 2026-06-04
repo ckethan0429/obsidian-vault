@@ -1509,3 +1509,10 @@
 - Compared against the 2026-06-03 08:00 / 19:00 / 22:00 raw transcripts, the 2026-06-03 23:00 Honcho refinement, and current log context before judging novelty
 - Freshly visible item was limited to Claude recent-title/operator context: `지분 획득 시 CTO의 역할과 준비`; Threads, YouTube, GitHub Stars, Google My Activity, ChatGPT, Threads API, and X were repeated, reinforcement-only, navigation-only, or unusable at the durable layer
 - Routed `raw_only`; appended a Honcho audit note and left `index.md` plus non-Honcho durable concept pages unchanged
+
+## [2026-06-04] ingest | Interest signal collection 11:00 new-target run
+- Saved raw source: `raw/transcripts/interest-signal-collection-11-00-2026-06-04.md`
+- Compared against the 2026-06-03 22:00/11:00 and 2026-06-02/06-01/05-31 new-target baselines before judging novelty; social-signal surfaces were intentionally excluded
+- Freshest official/new-target rows came from Google Cloud Storage MCP Servers, AWS Step Functions AgentCore-powered reasoning, Google AI Edge local Gemma agentic workflows, AlloyDB Remote MCP Server GA, SageMaker multi-turn RL, GitHub Copilot VS Code agents, and TPU/GKE inference-gateway infra
+- Routed `append_existing`; updated `concepts/managed-agents-practical-summary.md`, `concepts/ai-infra-operating-economics.md`, and `concepts/honcho.md`
+- Left `index.md` unchanged because no new durable page was created
