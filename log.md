@@ -1516,3 +1516,10 @@
 - Freshest official/new-target rows came from Google Cloud Storage MCP Servers, AWS Step Functions AgentCore-powered reasoning, Google AI Edge local Gemma agentic workflows, AlloyDB Remote MCP Server GA, SageMaker multi-turn RL, GitHub Copilot VS Code agents, and TPU/GKE inference-gateway infra
 - Routed `append_existing`; updated `concepts/managed-agents-practical-summary.md`, `concepts/ai-infra-operating-economics.md`, and `concepts/honcho.md`
 - Left `index.md` unchanged because no new durable page was created
+
+## [2026-06-04] ingest | Interest signal collection 19:00 run
+- Saved raw source: `raw/transcripts/interest-signal-collection-19-00-2026-06-04.md`
+- Compared against the same-day 08:00 social raw, same-day 11:00 new-target append, 2026-06-03 19:00 social raw, and current Honcho/log context before judging novelty
+- Newly grounded rows were limited to two low-durability Threads API own replies: `진짜 한마디해라 트윗날리라고` and `꿈의 도시다 입성하기를 학수고대하며..`
+- Threads liked/reposts/activity, YouTube liked/Watch Later, GitHub Stars, Google My Activity, ChatGPT, Claude, Threads API keyword searches, and X were repeated, same-axis reinforcement, navigation-only, or unusable at the durable layer
+- Routed `raw_only`; updated `concepts/honcho.md` with the routing audit only and left `index.md` plus non-Honcho durable concept pages unchanged

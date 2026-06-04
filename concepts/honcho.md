@@ -1441,6 +1441,26 @@ Reviewed file: `raw/transcripts/interest-signal-collection-11-00-2026-06-04.md`.
 - No genuinely new durable concept emerged; the fresh rows strengthen existing managed-agent and AI-infra pages.
 - `index.md` remains unchanged because no new page was created.
 
+## 2026-06-04 19:00 social/browser routing
+
+The afternoon social/browser pass was routed as `raw_only` after comparison with the same-day 08:00 social raw, the same-day 11:00 new-target append, the 2026-06-03 19:00 social raw, and current log context.
+
+Reviewed file: `raw/transcripts/interest-signal-collection-19-00-2026-06-04.md`.
+
+### Routed as `raw_only`
+- Threads API surfaced two same-day own replies after the morning run: `https://www.threads.com/@ethan13917/post/DZJ3Nrhk_T7` (`진짜 한마디해라 트윗날리라고`) and `https://www.threads.com/@ethan13917/post/DZJjR5REzLX` (`꿈의 도시다 입성하기를 학수고대하며..`). These are grounded and new, but low-durability social/context rows.
+- Threads liked/reposts/activity repeated the Codex role-plugin, Codex Python SDK, AI Native, crypto/김프, equity/alignment, Claude Code context-memory, and cloud/on-demand rows already preserved in the morning and prior-day social raws.
+- YouTube liked and Watch Later preserved useful Claude Code / MCP / harness / AI-infra rows, but the playlist axis stayed the same; subscriptions and downloads were navigation-only shells.
+
+### Unchanged, unavailable, or reinforcement-only
+- GitHub Stars remained the same agent-tooling list (`agent-skills`, `claude-p`, `humanizer`, `not-claude-code-emulator`, `atomic-hermes`, `hermes-agent`, etc.).
+- Google My Activity repeated the morning `claude sdk`, `hermes providers`, `open code claude subscription`, and `lazy codex` rows; ChatGPT and Claude recents remained in the same developer-workflow / equity / AI-infra lanes.
+- Threads API mentions returned zero rows and keyword searches returned older CK-authored rows; X likes still exposed a `This account doesn’t exist` page plus recommendation sidebar and was not treated as interest evidence.
+
+### Not routed as `append_existing` or `promote_to_wiki`
+- The only newly grounded rows were low-durability Threads replies, while every high-signal AI/agent/infra row reinforced existing lanes already updated by the 11:00 official/new-target run.
+- The correct durable action set is raw transcript plus this Honcho/log audit only; `index.md` and non-Honcho durable concept pages remain unchanged.
+
 ## Related pages
 
 - [[interest-signal-sources]]
