@@ -1531,3 +1531,9 @@
 - Freshest late rows came from OpenAI Endava agent-based software delivery, LangChain model-neutrality / harness lock-in, Harmonic Scout deep agents with LangSmith, GitHub Copilot SDK, and GitHub Trending agent-workflow / secure-agent repo rotation
 - Routed `append_existing`; updated `concepts/managed-agents-practical-summary.md` and `concepts/honcho.md`
 - Left `index.md` unchanged because no new durable page was created
+
+## [2026-06-04] refine | 23:00 same-day interest-signal triage
+- Reviewed same-day raw inputs: `raw/transcripts/interest-signal-collection-08-00-2026-06-04.md`, `raw/transcripts/interest-signal-collection-11-00-2026-06-04.md`, `raw/transcripts/interest-signal-collection-19-00-2026-06-04.md`, `raw/transcripts/interest-signal-collection-22-00-2026-06-04.md`, and `raw/transcripts/interest-signal-note-22-00-2026-06-04.md`
+- Classified the day as reinforcement-only at the 23:00 durable layer: the 11:00 and 22:00 `append_existing` deltas had already updated `concepts/managed-agents-practical-summary.md`, `concepts/ai-infra-operating-economics.md`, and `concepts/honcho.md`; 08:00 and 19:00 social/browser evidence stayed `raw_only`
+- Manual-review boundary items included Google Cloud `AI in SRE`, `mvanhorn/last30days-skill`, `fathah/hermes-desktop`, `aquasecurity/trivy`, GitHub Trending agent-workflow/security rows, and the Claude CTO/equity sidebar row; none were promoted
+- Updated `concepts/honcho.md` with the whole-day triage summary; left `index.md` and non-Honcho concept pages unchanged because no new durable page or additional append was justified
