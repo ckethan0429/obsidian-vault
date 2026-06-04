@@ -1,10 +1,10 @@
 ---
 title: Honcho
 created: 2026-04-18
-updated: 2026-06-04
+updated: 2026-06-05
 type: concept
 tags: [agents, hermes, automation, assistant, workflows, protocols, browser-automation]
-sources: [raw/transcripts/interest-signal-collection-22-00-2026-06-04.md, raw/transcripts/interest-signal-note-22-00-2026-06-04.md, raw/transcripts/interest-signal-collection-19-00-2026-06-04.md, raw/transcripts/interest-signal-collection-11-00-2026-06-04.md, raw/transcripts/interest-signal-collection-08-00-2026-06-04.md, raw/transcripts/interest-signal-collection-22-00-2026-06-03.md, raw/transcripts/interest-signal-collection-19-00-2026-06-03.md, raw/transcripts/interest-signal-collection-11-00-2026-06-03.md, raw/transcripts/interest-signal-collection-08-00-2026-06-03.md, raw/transcripts/interest-signal-collection-22-00-2026-06-02.md, raw/transcripts/interest-signal-collection-11-00-2026-06-02.md, raw/transcripts/interest-signal-collection-08-00-2026-06-02.md, raw/transcripts/interest-signal-collection-11-00-2026-05-31.md, raw/transcripts/interest-signal-collection-22-00-2026-05-31.md]
+sources: [raw/transcripts/interest-signal-collection-08-00-2026-06-05.md, raw/transcripts/interest-signal-collection-22-00-2026-06-04.md, raw/transcripts/interest-signal-note-22-00-2026-06-04.md, raw/transcripts/interest-signal-collection-19-00-2026-06-04.md, raw/transcripts/interest-signal-collection-11-00-2026-06-04.md, raw/transcripts/interest-signal-collection-08-00-2026-06-04.md, raw/transcripts/interest-signal-collection-22-00-2026-06-03.md, raw/transcripts/interest-signal-collection-19-00-2026-06-03.md, raw/transcripts/interest-signal-collection-11-00-2026-06-03.md, raw/transcripts/interest-signal-collection-08-00-2026-06-03.md, raw/transcripts/interest-signal-collection-22-00-2026-06-02.md, raw/transcripts/interest-signal-collection-11-00-2026-06-02.md, raw/transcripts/interest-signal-collection-08-00-2026-06-02.md, raw/transcripts/interest-signal-collection-11-00-2026-05-31.md, raw/transcripts/interest-signal-collection-22-00-2026-05-31.md]
 ---
 
 # Honcho
@@ -1511,6 +1511,27 @@ The full day is **reinforcement-only at the 23:00 durable layer**. The 11:00 and
 ### Why this matters
 - The day converged on one existing thesis: production agents are becoming enterprise delivery systems that need managed context connectors, workflow orchestration, local/offline runtime options, governance/resource tracking, neutral harness design, eval/observability, and SDK/product packaging.
 - The social/browser evidence confirms CK's ongoing operator interest in Codex roles, Claude Code, MCP, Hermes/providers, private clusters, equity/CTO framing, and infrastructure economics, but it remains reinforcement evidence rather than a new wiki branch.
+
+## 2026-06-05 08:00 social/browser routing
+
+Reviewed file: `raw/transcripts/interest-signal-collection-08-00-2026-06-05.md`.
+
+The morning run is **raw-only reinforcement**. It preserved fresh evidence from live CDP and Threads API, but did not create a durable concept-page update or index change.
+
+### Routed as `raw_only`
+- Threads liked surfaced one relevant AI-productization row: `junyoung.ai` on a GitHub/Claude monetization prompt-pack (`https://www.threads.com/@junyoung.ai/post/DZJpFE5Chbm`). This is useful evidence for prompt-pack/productized-agent interest, but as a single social liked row it is not durable enough to promote.
+- YouTube Watch Later rehydrated LLM-fundamentals and developer-workflow rows such as attention/3Blue1Brown (`https://www.youtube.com/watch?v=_Z3rXeJahMs&list=WL&index=3&t=36s&pp=iAQBsAgC`), CLI vs MCP, KV cache, Claude Code, LiteParse, and data-center-boom videos. These reinforce existing MCP / Claude Code / AI-infra lanes.
+- Google My Activity added a bundled search topic row around `데이터 센터`, `젠슨 황`, and `카카오벤처스`; this strengthens AI-infra + investing attention but remains single-surface evidence.
+- GitHub Stars, ChatGPT recents, Claude recents, Threads API keyword searches, and Threads reposts/replies repeated existing agent-tooling, career/equity, private-cloud, and developer-workflow lanes.
+
+### Routed as `discard` or unavailable
+- Threads liked was dominated by 2026 지방선거 / 부정선거 political rotation; this was preserved in raw but excluded from durable interpretation.
+- YouTube liked top rows were mostly sports/music/lifestyle rotation before the repeated AI rows.
+- X still showed an unusable “This account doesn’t exist” shell from the exposed session and was not treated as negative evidence.
+
+### Not routed as `append_existing` or `promote_to_wiki`
+- No source added a new platform primitive, repo/entity, or cross-surface pattern strong enough to update non-Honcho durable pages.
+- `index.md` remains unchanged because no new page was created.
 
 ## Related pages
 

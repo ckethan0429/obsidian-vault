@@ -1537,3 +1537,10 @@
 - Classified the day as reinforcement-only at the 23:00 durable layer: the 11:00 and 22:00 `append_existing` deltas had already updated `concepts/managed-agents-practical-summary.md`, `concepts/ai-infra-operating-economics.md`, and `concepts/honcho.md`; 08:00 and 19:00 social/browser evidence stayed `raw_only`
 - Manual-review boundary items included Google Cloud `AI in SRE`, `mvanhorn/last30days-skill`, `fathah/hermes-desktop`, `aquasecurity/trivy`, GitHub Trending agent-workflow/security rows, and the Claude CTO/equity sidebar row; none were promoted
 - Updated `concepts/honcho.md` with the whole-day triage summary; left `index.md` and non-Honcho concept pages unchanged because no new durable page or additional append was justified
+
+## [2026-06-05] ingest | Interest signal collection 08:00 run
+- Saved raw source: `raw/transcripts/interest-signal-collection-08-00-2026-06-05.md`
+- Compared against the 2026-06-04 08:00 / 19:00 / 22:00 raw transcripts, the 23:00 Honcho refinement, and current log context before judging novelty
+- Newly visible high-signal rows were limited to a Threads liked `junyoung.ai` Claude monetization prompt-pack post, YouTube Watch Later LLM-fundamentals / IT-vibe-coding rows, and Google My Activity topics around `데이터 센터`, `젠슨 황`, and `카카오벤처스`
+- Threads API, GitHub Stars, ChatGPT, Claude, and X were repeated, reinforcement-only, or unusable at the durable layer
+- Routed `raw_only`; updated `concepts/honcho.md` with the routing audit only and left `index.md` plus non-Honcho durable concept pages unchanged
