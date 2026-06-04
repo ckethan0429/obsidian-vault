@@ -4,7 +4,7 @@ created: 2026-04-18
 updated: 2026-06-04
 type: concept
 tags: [agents, hermes, automation, assistant, workflows, protocols, browser-automation]
-sources: [raw/transcripts/interest-signal-collection-11-00-2026-06-04.md, raw/transcripts/interest-signal-collection-08-00-2026-06-04.md, raw/transcripts/interest-signal-collection-22-00-2026-06-03.md, raw/transcripts/interest-signal-collection-19-00-2026-06-03.md, raw/transcripts/interest-signal-collection-11-00-2026-06-03.md, raw/transcripts/interest-signal-collection-08-00-2026-06-03.md, raw/transcripts/interest-signal-collection-22-00-2026-06-02.md, raw/transcripts/interest-signal-collection-11-00-2026-06-02.md, raw/transcripts/interest-signal-collection-08-00-2026-06-02.md, raw/transcripts/interest-signal-collection-11-00-2026-05-31.md, raw/transcripts/interest-signal-collection-22-00-2026-05-31.md]
+sources: [raw/transcripts/interest-signal-collection-22-00-2026-06-04.md, raw/transcripts/interest-signal-collection-11-00-2026-06-04.md, raw/transcripts/interest-signal-collection-08-00-2026-06-04.md, raw/transcripts/interest-signal-collection-22-00-2026-06-03.md, raw/transcripts/interest-signal-collection-19-00-2026-06-03.md, raw/transcripts/interest-signal-collection-11-00-2026-06-03.md, raw/transcripts/interest-signal-collection-08-00-2026-06-03.md, raw/transcripts/interest-signal-collection-22-00-2026-06-02.md, raw/transcripts/interest-signal-collection-11-00-2026-06-02.md, raw/transcripts/interest-signal-collection-08-00-2026-06-02.md, raw/transcripts/interest-signal-collection-11-00-2026-05-31.md, raw/transcripts/interest-signal-collection-22-00-2026-05-31.md]
 ---
 
 # Honcho
@@ -1460,6 +1460,25 @@ Reviewed file: `raw/transcripts/interest-signal-collection-19-00-2026-06-04.md`.
 ### Not routed as `append_existing` or `promote_to_wiki`
 - The only newly grounded rows were low-durability Threads replies, while every high-signal AI/agent/infra row reinforced existing lanes already updated by the 11:00 official/new-target run.
 - The correct durable action set is raw transcript plus this Honcho/log audit only; `index.md` and non-Honcho durable concept pages remain unchanged.
+
+## 2026-06-04 22:00 new-target routing
+
+The late official/new-target pass was routed as `append_existing` after comparison with the same-day 11:00 new-target append, recent 22:00 / 11:00 new-target caches, and prior raw transcript URLs/titles.
+
+Reviewed file: `raw/transcripts/interest-signal-collection-22-00-2026-06-04.md`.
+
+### Routed as `append_existing`
+- OpenAI's `How Endava is redesigning software delivery around AI agents` (`https://openai.com/index/endava-frontiers`) was the cleanest fresh late item: it makes agents, ChatGPT Enterprise, and Codex part of organization-level software delivery redesign rather than a narrow developer-tool update.
+- LangChain's `Model Neutrality: Why Avoiding AI Vendor Lock-In Matters` (`https://www.langchain.com/blog/model-neutrality`) sharpened [[managed-agents-practical-summary]] by naming the harness layer as the real lock-in surface.
+- LangChain / Harmonic's Scout deep-agent case (`https://www.langchain.com/blog/how-harmonic-rebuilt-scout-on-deep-agents-and-4xd-retention-with-langsmith`) and `github/copilot-sdk` (`https://github.com/github/copilot-sdk`) reinforced the same observable/evaluable agent-loop and SDK packaging lane.
+
+### Kept as `raw_only` / `manual_review` / `discard`
+- GitHub Trending rows such as `langgenius/dify`, `NVIDIA/NemoClaw`, `datawhalechina/hello-agents`, `mvanhorn/last30days-skill`, `anomalyco/opencode`, and `fathah/hermes-desktop` were preserved as ecosystem evidence but mostly stayed raw-only or manual-review because trend rotation alone is not durable enough for promotion.
+- Google Cloud `AI in SRE`, `Nano Banana` agentic creative workflows, older Kubernetes v1.36 security backfill, and generic Vercel/domain or low-signal product rows were kept as supporting raw context or discard.
+
+### Not routed as `promote_to_wiki`
+- No genuinely new durable concept emerged after the same-day 11:00 append had already absorbed the official MCP / AgentCore / AI Edge delta.
+- `index.md` remains unchanged because no new page was created.
 
 ## Related pages
 

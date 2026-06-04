@@ -1523,3 +1523,11 @@
 - Newly grounded rows were limited to two low-durability Threads API own replies: `진짜 한마디해라 트윗날리라고` and `꿈의 도시다 입성하기를 학수고대하며..`
 - Threads liked/reposts/activity, YouTube liked/Watch Later, GitHub Stars, Google My Activity, ChatGPT, Claude, Threads API keyword searches, and X were repeated, same-axis reinforcement, navigation-only, or unusable at the durable layer
 - Routed `raw_only`; updated `concepts/honcho.md` with the routing audit only and left `index.md` plus non-Honcho durable concept pages unchanged
+
+## [2026-06-04] ingest | Interest signal collection 22:00 new-target run
+- Saved raw source: `raw/transcripts/interest-signal-collection-22-00-2026-06-04.md`
+- Saved delivery note: `raw/transcripts/interest-signal-note-22-00-2026-06-04.md`
+- Compared against the same-day 11:00 new-target append, recent 22:00 / 11:00 new-target caches, and prior raw transcript URLs/titles before judging novelty; social-signal surfaces were intentionally excluded
+- Freshest late rows came from OpenAI Endava agent-based software delivery, LangChain model-neutrality / harness lock-in, Harmonic Scout deep agents with LangSmith, GitHub Copilot SDK, and GitHub Trending agent-workflow / secure-agent repo rotation
+- Routed `append_existing`; updated `concepts/managed-agents-practical-summary.md` and `concepts/honcho.md`
+- Left `index.md` unchanged because no new durable page was created
