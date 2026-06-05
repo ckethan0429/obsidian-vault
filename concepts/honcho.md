@@ -1,10 +1,10 @@
 ---
 title: Honcho
 created: 2026-04-18
-updated: 2026-06-05
+updated: 2026-06-06
 type: concept
 tags: [agents, hermes, automation, assistant, workflows, protocols, browser-automation]
-sources: [raw/transcripts/interest-signal-collection-22-00-2026-06-05.md, raw/transcripts/interest-signal-note-22-00-2026-06-05.md, raw/transcripts/interest-signal-collection-19-00-2026-06-05.md, raw/transcripts/interest-signal-collection-11-00-2026-06-05.md, raw/transcripts/interest-signal-collection-08-00-2026-06-05.md, raw/transcripts/interest-signal-collection-22-00-2026-06-04.md, raw/transcripts/interest-signal-note-22-00-2026-06-04.md, raw/transcripts/interest-signal-collection-19-00-2026-06-04.md, raw/transcripts/interest-signal-collection-11-00-2026-06-04.md, raw/transcripts/interest-signal-collection-08-00-2026-06-04.md, raw/transcripts/interest-signal-collection-22-00-2026-06-03.md, raw/transcripts/interest-signal-collection-19-00-2026-06-03.md, raw/transcripts/interest-signal-collection-11-00-2026-06-03.md, raw/transcripts/interest-signal-collection-08-00-2026-06-03.md, raw/transcripts/interest-signal-collection-22-00-2026-06-02.md, raw/transcripts/interest-signal-collection-11-00-2026-06-02.md, raw/transcripts/interest-signal-collection-08-00-2026-06-02.md, raw/transcripts/interest-signal-collection-11-00-2026-05-31.md, raw/transcripts/interest-signal-collection-22-00-2026-05-31.md]
+sources: [raw/transcripts/interest-signal-collection-08-00-2026-06-06.md, raw/transcripts/interest-signal-collection-22-00-2026-06-05.md, raw/transcripts/interest-signal-note-22-00-2026-06-05.md, raw/transcripts/interest-signal-collection-19-00-2026-06-05.md, raw/transcripts/interest-signal-collection-11-00-2026-06-05.md, raw/transcripts/interest-signal-collection-08-00-2026-06-05.md, raw/transcripts/interest-signal-collection-22-00-2026-06-04.md, raw/transcripts/interest-signal-note-22-00-2026-06-04.md, raw/transcripts/interest-signal-collection-19-00-2026-06-04.md, raw/transcripts/interest-signal-collection-11-00-2026-06-04.md, raw/transcripts/interest-signal-collection-08-00-2026-06-04.md, raw/transcripts/interest-signal-collection-22-00-2026-06-03.md, raw/transcripts/interest-signal-collection-19-00-2026-06-03.md, raw/transcripts/interest-signal-collection-11-00-2026-06-03.md, raw/transcripts/interest-signal-collection-08-00-2026-06-03.md, raw/transcripts/interest-signal-collection-22-00-2026-06-02.md, raw/transcripts/interest-signal-collection-11-00-2026-06-02.md, raw/transcripts/interest-signal-collection-08-00-2026-06-02.md, raw/transcripts/interest-signal-collection-11-00-2026-05-31.md, raw/transcripts/interest-signal-collection-22-00-2026-05-31.md]
 ---
 
 # Honcho
@@ -1624,6 +1624,25 @@ The full day is **reinforcement-only at the 23:00 durable layer**. The 11:00 and
 ### Why this matters
 - The day converged on the same durable thesis: production agents are becoming managed runtime systems with explicit substrate, gateway policy, release/versioning, UI/human-control surfaces, and plan-review loops.
 - The social/browser material confirms CK's continuing operator interest in Claude Code, prompt-pack monetization, LLM fundamentals, AI-infra economics, investing context, and career/equity side lanes, but it remains raw evidence rather than a new wiki branch.
+
+## 2026-06-06 08:00 social/browser routing
+
+Reviewed file: `raw/transcripts/interest-signal-collection-08-00-2026-06-06.md`.
+
+The morning social/browser run is **raw-only reinforcement**. It surfaced newly visible Threads-liked rows, but after comparison with the 2026-06-05 morning/evening raw transcripts and the same-day 23:00 refinement, no non-Honcho concept-page or index update was justified.
+
+### Routed as `raw_only`
+- Threads liked added fresh visible rows around Codex role plugins (`https://www.threads.com/@choi.openai/post/DZGeZZ_gXut`), Hermes skill-bloat critique (`https://www.threads.com/@roach_log/post/DZEFS4FAW7T`), LazyCodex operator feedback (`https://www.threads.com/@yeon.gyu.kim/post/DZE0cy-Es_4`), Meta AI account-recovery security failure (`https://www.threads.com/@choi.openai/post/DZEq0ZBDMBH`), AI-native Korean organizations (`https://www.threads.com/@dy1.mag/post/DZD893NAVl2`), Typeless voice input, and Kimchi-premium crypto context. These are useful social evidence but remain single-surface/feed-rotation examples inside existing lanes.
+- YouTube Liked/Watch Later repeated Claude Code, MCP, harness engineering, LLM fundamentals, AI-infra/data-center, and agent-skills rows already captured on 2026-06-05.
+- GitHub Stars repeated the same agent-skills / Claude Code / Hermes / oh-my-agent star set; Google My Activity added only a MacBook Pro product row plus repeated data-center/Jensen/Kakao Ventures context; ChatGPT and Claude recents stayed operator-life/career/infrastructure side evidence.
+
+### Routed as `discard` or unavailable
+- YouTube subscriptions/downloads hydrated as navigation-only shells; X still exposed a `This account doesn’t exist` shell and was not treated as negative evidence.
+- Sports/music/lifestyle rows and generic political/social noise stayed out of durable interpretation.
+
+### Not routed as `append_existing` or `promote_to_wiki`
+- No source added a new platform primitive, repository/entity, or cross-surface pattern strong enough to update non-Honcho durable pages.
+- `index.md` remains unchanged because no new page was created.
 
 ## Related pages
 

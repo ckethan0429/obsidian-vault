@@ -1571,3 +1571,10 @@
 - Classified the day as reinforcement-only at the 23:00 durable layer: 08:00 and 19:00 social/browser evidence stayed `raw_only`; 11:00 and 22:00 new-target evidence remained `append_existing` but had already been absorbed during ingest-stage updates
 - Added the whole-day routing audit to `concepts/honcho.md`, including `append_existing`, `raw_only`, `manual_review`, `discard`, and no-`promote_to_wiki` decisions
 - Left raw evidence untouched and left `index.md` plus non-Honcho concept pages unchanged because no new durable page or duplicate concept-page append was justified
+
+## [2026-06-06] ingest | Interest signal collection 08:00 social/browser run
+- Saved raw source: `raw/transcripts/interest-signal-collection-08-00-2026-06-06.md`
+- Compared against the 2026-06-05 08:00 / 19:00 / 22:00 raw transcripts, the 2026-06-05 23:00 Honcho refinement, current log context, and `concepts/honcho.md` before judging novelty
+- Newly visible rows were concentrated in Threads liked: Codex role plugins, Hermes skill-bloat critique, LazyCodex operator feedback, Meta AI account-recovery security failure, AI-native organization notes, Typeless voice input, and Kimchi-premium crypto context
+- YouTube, GitHub Stars, Google My Activity, ChatGPT, Claude, Threads API, and X were repeated, side-surface, navigation-only, or unavailable at the durable layer
+- Routed `raw_only`; updated `concepts/honcho.md` with the routing audit only and left `index.md` plus non-Honcho durable concept pages unchanged
