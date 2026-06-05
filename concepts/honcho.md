@@ -4,7 +4,7 @@ created: 2026-04-18
 updated: 2026-06-05
 type: concept
 tags: [agents, hermes, automation, assistant, workflows, protocols, browser-automation]
-sources: [raw/transcripts/interest-signal-collection-22-00-2026-06-05.md, raw/transcripts/interest-signal-collection-11-00-2026-06-05.md, raw/transcripts/interest-signal-collection-08-00-2026-06-05.md, raw/transcripts/interest-signal-collection-22-00-2026-06-04.md, raw/transcripts/interest-signal-note-22-00-2026-06-04.md, raw/transcripts/interest-signal-collection-19-00-2026-06-04.md, raw/transcripts/interest-signal-collection-11-00-2026-06-04.md, raw/transcripts/interest-signal-collection-08-00-2026-06-04.md, raw/transcripts/interest-signal-collection-22-00-2026-06-03.md, raw/transcripts/interest-signal-collection-19-00-2026-06-03.md, raw/transcripts/interest-signal-collection-11-00-2026-06-03.md, raw/transcripts/interest-signal-collection-08-00-2026-06-03.md, raw/transcripts/interest-signal-collection-22-00-2026-06-02.md, raw/transcripts/interest-signal-collection-11-00-2026-06-02.md, raw/transcripts/interest-signal-collection-08-00-2026-06-02.md, raw/transcripts/interest-signal-collection-11-00-2026-05-31.md, raw/transcripts/interest-signal-collection-22-00-2026-05-31.md]
+sources: [raw/transcripts/interest-signal-collection-22-00-2026-06-05.md, raw/transcripts/interest-signal-note-22-00-2026-06-05.md, raw/transcripts/interest-signal-collection-19-00-2026-06-05.md, raw/transcripts/interest-signal-collection-11-00-2026-06-05.md, raw/transcripts/interest-signal-collection-08-00-2026-06-05.md, raw/transcripts/interest-signal-collection-22-00-2026-06-04.md, raw/transcripts/interest-signal-note-22-00-2026-06-04.md, raw/transcripts/interest-signal-collection-19-00-2026-06-04.md, raw/transcripts/interest-signal-collection-11-00-2026-06-04.md, raw/transcripts/interest-signal-collection-08-00-2026-06-04.md, raw/transcripts/interest-signal-collection-22-00-2026-06-03.md, raw/transcripts/interest-signal-collection-19-00-2026-06-03.md, raw/transcripts/interest-signal-collection-11-00-2026-06-03.md, raw/transcripts/interest-signal-collection-08-00-2026-06-03.md, raw/transcripts/interest-signal-collection-22-00-2026-06-02.md, raw/transcripts/interest-signal-collection-11-00-2026-06-02.md, raw/transcripts/interest-signal-collection-08-00-2026-06-02.md, raw/transcripts/interest-signal-collection-11-00-2026-05-31.md, raw/transcripts/interest-signal-collection-22-00-2026-05-31.md]
 ---
 
 # Honcho
@@ -1591,6 +1591,39 @@ The late new-target run is **append_existing** after comparison with the same-da
 ### Not routed as `promote_to_wiki`
 - No new concept page was justified. The late pass sharpened human/operator control surfaces around agents, so the durable action is a scoped append to [[managed-agents-practical-summary]] plus this Honcho/log audit.
 - `index.md` remains unchanged because no new page was created.
+
+## 2026-06-05 23:00 same-day refinement summary
+
+Reviewed files: `raw/transcripts/interest-signal-collection-08-00-2026-06-05.md`, `raw/transcripts/interest-signal-collection-11-00-2026-06-05.md`, `raw/transcripts/interest-signal-collection-19-00-2026-06-05.md`, `raw/transcripts/interest-signal-collection-22-00-2026-06-05.md`, and `raw/transcripts/interest-signal-note-22-00-2026-06-05.md`.
+
+The full day is **reinforcement-only at the 23:00 durable layer**. The 11:00 and 22:00 new-target passes already applied the justified `append_existing` updates to [[managed-agents-practical-summary]], [[ai-infra-operating-economics]], and this Honcho page. The social/browser passes added useful raw evidence, but after deduplication they stayed inside existing agent-workflow, managed-agent, AI-infra, investing, and career/equity lanes.
+
+### Routed as `append_existing`
+- 11:00 official/new-target evidence: Google Cloud ADK on GKE Autopilot (`https://cloud.google.com/blog/topics/developers-practitioners/scaling-ai-agents-a-step-by-step-guide-to-deploying-adk-on-gke-autopilot/`), AWS PCS production-ready DLAMI (`https://aws.amazon.com/about-aws/whats-new/2026/06/aws-pcs-deep-learning-ami/`), Kubernetes Agent Sandbox (`https://kubernetes.io/blog/2026/03/20/running-agents-on-kubernetes-with-agent-sandbox/`), Kubernetes AI Gateway WG (`https://kubernetes.io/blog/2026/03/09/announcing-ai-gateway-wg/`), LangChain Managed Deep Agents (`https://www.langchain.com/blog/introducing-managed-deep-agents`), Google Data Cloud, and AWS HealthOmics. These sharpened the production-substrate / gateway-policy / workflow-observability side of managed agents and AI infra.
+- 22:00 official/new-target evidence: `microsoft/agent-framework` (`https://github.com/microsoft/agent-framework`, release `https://github.com/microsoft/agent-framework/releases/tag/python-1.8.0`), `CopilotKit/CopilotKit` (`https://github.com/CopilotKit/CopilotKit`, release `https://github.com/CopilotKit/CopilotKit/releases/tag/v1.59.5`), `agentscope-ai/agentscope` (`https://github.com/agentscope-ai/agentscope`, release `https://github.com/agentscope-ai/agentscope/releases/tag/v2.0.1`), and `backnotprop/plannotator` (`https://github.com/backnotprop/plannotator`, release `https://github.com/backnotprop/plannotator/releases/tag/v0.19.27`). These strengthen the existing framework / generative-UI / trust-readable-agents / plan-review lane.
+- Both appendable clusters preserved usable source URLs in the raw transcripts and were already absorbed during ingest-stage updates, so the 23:00 refinement does not re-append them into non-Honcho pages.
+
+### Routed as `raw_only`
+- 08:00 social/browser evidence: Threads liked `junyoung.ai` Claude monetization prompt-pack (`https://www.threads.com/@junyoung.ai/post/DZJpFE5Chbm`), YouTube Watch Later LLM fundamentals / Claude Code / MCP / KV-cache rows, Google My Activity data-center / Jensen Huang / Kakao Ventures search bundle, and repeated GitHub Stars / ChatGPT / Claude / Threads API rows. These are useful interest evidence but not enough for a durable page update.
+- 19:00 social/browser evidence: Threads API `REPOST_FACADE` (`https://www.threads.com/@ethan13917/post/DZMCey6k0Ah`), Threads political/repost rotation, YouTube Watch Later rows around `State of the Claw`, Apple-integrated Claude Code, skills, AI-infra, and investing, plus a Google My Activity MacBook Pro M1 row. The high-signal items reinforced the same existing lanes; the fresh social rows were low-durability.
+- URL gaps were kept explicit: Google My Activity and some navigation/playlist surfaces do not provide stable item permalinks in the raw notes, so URL-bearing official/GitHub/Threads evidence was preferred for durable decisions.
+
+### Routed as `manual_review`
+- `microsoft/BitNet`, `vllm-project/vllm-omni`, OpenAI `How sales teams use Codex`, Simon Willison / Ladybird AI-generated-code governance, and `Panniantong/Agent-Reach` remain plausible adjacent signals, but each is either single-surface, trend-driven, or weaker than the already-appended managed-agent framework/UI/review cluster.
+- The MacBook / product-search and career/equity side rows remain operator-context evidence, not standalone durable concepts.
+
+### Routed as `discard`
+- 2026 지방선거 / 부정선거 political rotation, sports/music/lifestyle YouTube noise, generic product/marketing/cloud-region rows, stale feed backfill, blank or navigation-only YouTube surfaces, and unusable X shells were excluded from durable interpretation.
+- Unavailable or blank surfaces were treated as availability notes only, not as negative evidence.
+
+### Not routed as `promote_to_wiki`
+- No genuinely new durable concept emerged after deduplicating the 08:00, 11:00, 19:00, and 22:00 files.
+- `index.md` remains unchanged because no new page was created and no catalog summary needed to change.
+- Non-Honcho concept pages remain unchanged in this 23:00 refinement because the earlier ingest-stage updates already absorbed the day’s appendable deltas.
+
+### Why this matters
+- The day converged on the same durable thesis: production agents are becoming managed runtime systems with explicit substrate, gateway policy, release/versioning, UI/human-control surfaces, and plan-review loops.
+- The social/browser material confirms CK's continuing operator interest in Claude Code, prompt-pack monetization, LLM fundamentals, AI-infra economics, investing context, and career/equity side lanes, but it remains raw evidence rather than a new wiki branch.
 
 ## Related pages
 
