@@ -1557,3 +1557,11 @@
 - Compared against the same-day 08:00 social/browser transcript, same-day 11:00 new-target append, current log context, and `concepts/honcho.md` before judging novelty
 - Newly grounded rows were limited to low-durability Threads liked/repost political rotation plus a Threads API `REPOST_FACADE`, YouTube Watch Later rotations around `State of the Claw` / Apple-integrated Claude Code / skills / AI-infra, and a Google My Activity MacBook Pro M1 topic
 - Routed `raw_only`; updated `concepts/honcho.md` with the routing audit only and left `index.md` plus non-Honcho durable concept pages unchanged
+
+## [2026-06-05] ingest | Interest signal collection 22:00 new-target run
+- Saved raw source: `raw/transcripts/interest-signal-collection-22-00-2026-06-05.md`
+- Saved delivery note: `raw/transcripts/interest-signal-note-22-00-2026-06-05.md`
+- Compared against the same-day 11:00 new-target append, recent 22:00 / 11:00 new-target caches, and prior raw transcript text before judging novelty; social-signal surfaces were intentionally excluded
+- Freshest late rows came from GitHub Trending plus release confirmation: `microsoft/agent-framework`, `CopilotKit/CopilotKit`, `agentscope-ai/agentscope`, and `backnotprop/plannotator`
+- Routed `append_existing`; updated `concepts/managed-agents-practical-summary.md` and `concepts/honcho.md`
+- Left `index.md` unchanged because no new durable page was created

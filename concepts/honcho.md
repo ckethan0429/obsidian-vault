@@ -4,7 +4,7 @@ created: 2026-04-18
 updated: 2026-06-05
 type: concept
 tags: [agents, hermes, automation, assistant, workflows, protocols, browser-automation]
-sources: [raw/transcripts/interest-signal-collection-11-00-2026-06-05.md, raw/transcripts/interest-signal-collection-08-00-2026-06-05.md, raw/transcripts/interest-signal-collection-22-00-2026-06-04.md, raw/transcripts/interest-signal-note-22-00-2026-06-04.md, raw/transcripts/interest-signal-collection-19-00-2026-06-04.md, raw/transcripts/interest-signal-collection-11-00-2026-06-04.md, raw/transcripts/interest-signal-collection-08-00-2026-06-04.md, raw/transcripts/interest-signal-collection-22-00-2026-06-03.md, raw/transcripts/interest-signal-collection-19-00-2026-06-03.md, raw/transcripts/interest-signal-collection-11-00-2026-06-03.md, raw/transcripts/interest-signal-collection-08-00-2026-06-03.md, raw/transcripts/interest-signal-collection-22-00-2026-06-02.md, raw/transcripts/interest-signal-collection-11-00-2026-06-02.md, raw/transcripts/interest-signal-collection-08-00-2026-06-02.md, raw/transcripts/interest-signal-collection-11-00-2026-05-31.md, raw/transcripts/interest-signal-collection-22-00-2026-05-31.md]
+sources: [raw/transcripts/interest-signal-collection-22-00-2026-06-05.md, raw/transcripts/interest-signal-collection-11-00-2026-06-05.md, raw/transcripts/interest-signal-collection-08-00-2026-06-05.md, raw/transcripts/interest-signal-collection-22-00-2026-06-04.md, raw/transcripts/interest-signal-note-22-00-2026-06-04.md, raw/transcripts/interest-signal-collection-19-00-2026-06-04.md, raw/transcripts/interest-signal-collection-11-00-2026-06-04.md, raw/transcripts/interest-signal-collection-08-00-2026-06-04.md, raw/transcripts/interest-signal-collection-22-00-2026-06-03.md, raw/transcripts/interest-signal-collection-19-00-2026-06-03.md, raw/transcripts/interest-signal-collection-11-00-2026-06-03.md, raw/transcripts/interest-signal-collection-08-00-2026-06-03.md, raw/transcripts/interest-signal-collection-22-00-2026-06-02.md, raw/transcripts/interest-signal-collection-11-00-2026-06-02.md, raw/transcripts/interest-signal-collection-08-00-2026-06-02.md, raw/transcripts/interest-signal-collection-11-00-2026-05-31.md, raw/transcripts/interest-signal-collection-22-00-2026-05-31.md]
 ---
 
 # Honcho
@@ -1572,6 +1572,25 @@ The afternoon social/browser run is **raw-only reinforcement** after comparison 
 - The only fresh rows were single-surface rotations or low-durability context.
 - The 11:00 new-target run had already applied the day’s durable managed-agent / AI-infra append; this 19:00 pass adds only raw evidence plus this audit trail.
 - `index.md` and non-Honcho durable concept pages remain unchanged.
+
+## 2026-06-05 22:00 new-target routing
+
+Reviewed file: `raw/transcripts/interest-signal-collection-22-00-2026-06-05.md`.
+
+The late new-target run is **append_existing** after comparison with the same-day 11:00 new-target append, recent 22:00/11:00 baselines, and raw transcript text. It produced a fresh GitHub Trending + release-confirmed cluster, but the cluster belongs to the existing managed-agent lane rather than a new durable page.
+
+### Routed as `append_existing`
+- `microsoft/agent-framework` (`https://github.com/microsoft/agent-framework`) with same-week release evidence (`https://github.com/microsoft/agent-framework/releases/tag/python-1.8.0`) strengthens the multi-agent orchestration/framework side of [[managed-agents-practical-summary]].
+- `CopilotKit/CopilotKit` (`https://github.com/CopilotKit/CopilotKit`, release `https://github.com/CopilotKit/CopilotKit/releases/tag/v1.59.5`) strengthens the agent frontend / AG-UI packaging surface.
+- `agentscope-ai/agentscope` (`https://github.com/agentscope-ai/agentscope`, release `https://github.com/agentscope-ai/agentscope/releases/tag/v2.0.1`) and `backnotprop/plannotator` (`https://github.com/backnotprop/plannotator`, release `https://github.com/backnotprop/plannotator/releases/tag/v0.19.27`) add trust/readability and agent-plan review controls.
+
+### Routed as `raw_only` / `manual_review`
+- `microsoft/BitNet`, `vllm-project/vllm-omni`, OpenAI `How sales teams use Codex`, Simon Willison / Ladybird AI-generated-code governance, and `Panniantong/Agent-Reach` were preserved as useful evidence but did not add enough durable shape beyond the stronger framework/UI/review cluster.
+- Repeated Google Cloud, Kubernetes, LangChain, AWS, OpenAI, and older GitHub rows stayed reinforcement after the same-day 11:00 append had already absorbed the production-substrate delta.
+
+### Not routed as `promote_to_wiki`
+- No new concept page was justified. The late pass sharpened human/operator control surfaces around agents, so the durable action is a scoped append to [[managed-agents-practical-summary]] plus this Honcho/log audit.
+- `index.md` remains unchanged because no new page was created.
 
 ## Related pages
 
