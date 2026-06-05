@@ -1551,3 +1551,9 @@
 - Freshest official/new-target rows came from Google Cloud ADK on GKE Autopilot, AWS PCS production-ready DLAMI, Kubernetes Agent Sandbox / AI Gateway backfill, LangChain Managed Deep Agents, Google Data Cloud agent/database rows, and AWS HealthOmics Nextflow agent logging
 - Routed `append_existing`; updated `concepts/managed-agents-practical-summary.md`, `concepts/ai-infra-operating-economics.md`, and `concepts/honcho.md`
 - Left `index.md` unchanged because no new durable page was created
+
+## [2026-06-05] ingest | Interest signal collection 19:00 social/browser run
+- Saved raw source: `raw/transcripts/interest-signal-collection-19-00-2026-06-05.md`
+- Compared against the same-day 08:00 social/browser transcript, same-day 11:00 new-target append, current log context, and `concepts/honcho.md` before judging novelty
+- Newly grounded rows were limited to low-durability Threads liked/repost political rotation plus a Threads API `REPOST_FACADE`, YouTube Watch Later rotations around `State of the Claw` / Apple-integrated Claude Code / skills / AI-infra, and a Google My Activity MacBook Pro M1 topic
+- Routed `raw_only`; updated `concepts/honcho.md` with the routing audit only and left `index.md` plus non-Honcho durable concept pages unchanged

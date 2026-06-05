@@ -1553,6 +1553,26 @@ Reviewed file: `raw/transcripts/interest-signal-collection-11-00-2026-06-05.md`.
 - No genuinely new durable concept emerged. The pass deepened existing [[managed-agents-practical-summary]] and [[ai-infra-operating-economics]] pages rather than creating a new page.
 - `index.md` remains unchanged because no new page was created.
 
+## 2026-06-05 19:00 social/browser routing
+
+Reviewed file: `raw/transcripts/interest-signal-collection-19-00-2026-06-05.md`.
+
+The afternoon social/browser run is **raw-only reinforcement** after comparison with the same-day 08:00 social transcript, 11:00 new-target append, current log context, and this Honcho page. It preserved fresh evidence but did not justify a non-Honcho concept-page or index update.
+
+### Routed as `raw_only`
+- Threads API added one same-day `REPOST_FACADE` (`https://www.threads.com/@ethan13917/post/DZMCey6k0Ah`) without text exposed by the API, while Threads liked/reposts rotated into mostly election/political rows such as `https://www.threads.com/@onn.u/post/DZL4jMdgbFF`; these are grounded but low-durability.
+- YouTube Watch Later surfaced useful Claude Code / Claw / skills / AI-infra rows such as `State of the Claw` (`https://www.youtube.com/watch?v=zgNvts_2TUE&list=WL&index=7&t=65s&pp=iAQB0gcJCTgLAYcqIYzvsAgC`), Apple-integrated Claude Code (`https://www.youtube.com/watch?v=gYkAAiA1W7g&list=WL&index=9&pp=iAQBsAgC`), and a 65-line skills case (`https://www.youtube.com/watch?v=tcDoacn64Lo&list=WL&index=21&t=62s&pp=iAQBsAgC`), but the axis stayed the same as the morning and 11:00 durable lanes.
+- Google My Activity added a same-day MacBook Pro M1 product/search topic, while GitHub Stars, ChatGPT recents, Claude recents, and Threads API keyword searches repeated existing agent-tooling, developer-workflow, investing, and career/equity lanes.
+
+### Routed as `discard` or unavailable
+- Threads liked was dominated by 2026 지방선거 / 부정선거 political rotation and was preserved only as raw evidence.
+- YouTube subscriptions and downloads hydrated as navigation-only shells; X still exposed a `This account doesn’t exist` shell and was not treated as negative evidence.
+
+### Not routed as `append_existing` or `promote_to_wiki`
+- The only fresh rows were single-surface rotations or low-durability context.
+- The 11:00 new-target run had already applied the day’s durable managed-agent / AI-infra append; this 19:00 pass adds only raw evidence plus this audit trail.
+- `index.md` and non-Honcho durable concept pages remain unchanged.
+
 ## Related pages
 
 - [[interest-signal-sources]]
