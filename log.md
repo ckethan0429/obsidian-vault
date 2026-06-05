@@ -1544,3 +1544,10 @@
 - Newly visible high-signal rows were limited to a Threads liked `junyoung.ai` Claude monetization prompt-pack post, YouTube Watch Later LLM-fundamentals / IT-vibe-coding rows, and Google My Activity topics around `데이터 센터`, `젠슨 황`, and `카카오벤처스`
 - Threads API, GitHub Stars, ChatGPT, Claude, and X were repeated, reinforcement-only, or unusable at the durable layer
 - Routed `raw_only`; updated `concepts/honcho.md` with the routing audit only and left `index.md` plus non-Honcho durable concept pages unchanged
+
+## [2026-06-05] ingest | Interest signal collection 11:00 new-target run
+- Saved raw source: `raw/transcripts/interest-signal-collection-11-00-2026-06-05.md`
+- Compared against recent 11:00/22:00 new-target caches, especially the 2026-06-04 22:00 and 11:00 baselines; social-signal surfaces were intentionally excluded
+- Freshest official/new-target rows came from Google Cloud ADK on GKE Autopilot, AWS PCS production-ready DLAMI, Kubernetes Agent Sandbox / AI Gateway backfill, LangChain Managed Deep Agents, Google Data Cloud agent/database rows, and AWS HealthOmics Nextflow agent logging
+- Routed `append_existing`; updated `concepts/managed-agents-practical-summary.md`, `concepts/ai-infra-operating-economics.md`, and `concepts/honcho.md`
+- Left `index.md` unchanged because no new durable page was created

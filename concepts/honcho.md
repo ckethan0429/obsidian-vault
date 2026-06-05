@@ -4,7 +4,7 @@ created: 2026-04-18
 updated: 2026-06-05
 type: concept
 tags: [agents, hermes, automation, assistant, workflows, protocols, browser-automation]
-sources: [raw/transcripts/interest-signal-collection-08-00-2026-06-05.md, raw/transcripts/interest-signal-collection-22-00-2026-06-04.md, raw/transcripts/interest-signal-note-22-00-2026-06-04.md, raw/transcripts/interest-signal-collection-19-00-2026-06-04.md, raw/transcripts/interest-signal-collection-11-00-2026-06-04.md, raw/transcripts/interest-signal-collection-08-00-2026-06-04.md, raw/transcripts/interest-signal-collection-22-00-2026-06-03.md, raw/transcripts/interest-signal-collection-19-00-2026-06-03.md, raw/transcripts/interest-signal-collection-11-00-2026-06-03.md, raw/transcripts/interest-signal-collection-08-00-2026-06-03.md, raw/transcripts/interest-signal-collection-22-00-2026-06-02.md, raw/transcripts/interest-signal-collection-11-00-2026-06-02.md, raw/transcripts/interest-signal-collection-08-00-2026-06-02.md, raw/transcripts/interest-signal-collection-11-00-2026-05-31.md, raw/transcripts/interest-signal-collection-22-00-2026-05-31.md]
+sources: [raw/transcripts/interest-signal-collection-11-00-2026-06-05.md, raw/transcripts/interest-signal-collection-08-00-2026-06-05.md, raw/transcripts/interest-signal-collection-22-00-2026-06-04.md, raw/transcripts/interest-signal-note-22-00-2026-06-04.md, raw/transcripts/interest-signal-collection-19-00-2026-06-04.md, raw/transcripts/interest-signal-collection-11-00-2026-06-04.md, raw/transcripts/interest-signal-collection-08-00-2026-06-04.md, raw/transcripts/interest-signal-collection-22-00-2026-06-03.md, raw/transcripts/interest-signal-collection-19-00-2026-06-03.md, raw/transcripts/interest-signal-collection-11-00-2026-06-03.md, raw/transcripts/interest-signal-collection-08-00-2026-06-03.md, raw/transcripts/interest-signal-collection-22-00-2026-06-02.md, raw/transcripts/interest-signal-collection-11-00-2026-06-02.md, raw/transcripts/interest-signal-collection-08-00-2026-06-02.md, raw/transcripts/interest-signal-collection-11-00-2026-05-31.md, raw/transcripts/interest-signal-collection-22-00-2026-05-31.md]
 ---
 
 # Honcho
@@ -1531,6 +1531,26 @@ The morning run is **raw-only reinforcement**. It preserved fresh evidence from 
 
 ### Not routed as `append_existing` or `promote_to_wiki`
 - No source added a new platform primitive, repo/entity, or cross-surface pattern strong enough to update non-Honcho durable pages.
+- `index.md` remains unchanged because no new page was created.
+
+## 2026-06-05 11:00 new-target routing
+
+The official/new-target pass was routed as `append_existing` after comparison with the 2026-06-04 22:00/11:00 new-target baselines and recent cache URLs/titles.
+
+Reviewed file: `raw/transcripts/interest-signal-collection-11-00-2026-06-05.md`.
+
+### Routed as `append_existing`
+- Google Cloud `Scaling AI Agents: A Step-by-Step Guide to Deploying ADK on GKE Autopilot` (`https://cloud.google.com/blog/topics/developers-practitioners/scaling-ai-agents-a-step-by-step-guide-to-deploying-adk-on-gke-autopilot/`) was the cleanest fresh official row: it turns local ADK agents into GKE Autopilot + Workload Identity + Gateway API + Vertex AI deployments.
+- AWS PCS production-ready DLAMI (`https://aws.amazon.com/about-aws/whats-new/2026/06/aws-pcs-deep-learning-ami/`) strengthened [[ai-infra-operating-economics]] by making Slurm/GPU/HPC cluster setup a managed image with CUDA, EFA, Lustre, PCS Agent, updates, and observability.
+- Kubernetes `Running Agents on Kubernetes with Agent Sandbox` (`https://kubernetes.io/blog/2026/03/20/running-agents-on-kubernetes-with-agent-sandbox/`) and `Announcing the AI Gateway Working Group` (`https://kubernetes.io/blog/2026/03/09/announcing-ai-gateway-wg/`) were newly surfaced backfill in this track and sharpened the substrate/gateway-policy side of managed agents.
+- LangChain `Managed Deep Agents` (`https://www.langchain.com/blog/introducing-managed-deep-agents`) and Google Data Cloud / AWS HealthOmics workflow rows reinforced the same durable lane: sandboxes, durable execution, observability, data stores, strict workflow parsing, and agent logging.
+
+### Kept as `raw_only` / `discard`
+- Repeated OpenAI Codex, AWS AgentCore, Google MCP/storage, LangChain model-neutrality, Vercel, GitHub Changelog, and prior GitHub Trending rows stayed raw-only because they were already captured in the recent new-target baseline.
+- Low-signal product, policy, marketing, generic region/instance availability, and stale feed-rotation rows were preserved in raw evidence but excluded from durable interpretation.
+
+### Not routed as `promote_to_wiki`
+- No genuinely new durable concept emerged. The pass deepened existing [[managed-agents-practical-summary]] and [[ai-infra-operating-economics]] pages rather than creating a new page.
 - `index.md` remains unchanged because no new page was created.
 
 ## Related pages

@@ -1,10 +1,10 @@
 ---
 title: AI infra operating economics
 created: 2026-04-22
-updated: 2026-06-04
+updated: 2026-06-05
 type: concept
 tags: [infrastructure, gpu, storage, proxmox, agents, business, strategy]
-sources: [raw/transcripts/interest-signal-collection-11-00-2026-06-04.md, raw/transcripts/interest-signal-collection-22-00-2026-06-03.md, raw/transcripts/interest-signal-collection-11-00-2026-06-03.md, raw/transcripts/interest-signal-collection-22-00-2026-06-02.md, raw/transcripts/interest-signal-collection-11-00-2026-06-02.md, raw/transcripts/interest-signal-collection-22-00-2026-06-01.md, raw/transcripts/interest-signal-collection-11-00-2026-05-31.md, raw/transcripts/interest-signal-collection-22-00-2026-05-31.md, raw/transcripts/interest-signal-collection-08-00-2026-04-22.md, raw/transcripts/interest-signal-collection-19-00-2026-04-22.md]
+sources: [raw/transcripts/interest-signal-collection-11-00-2026-06-05.md, raw/transcripts/interest-signal-collection-11-00-2026-06-04.md, raw/transcripts/interest-signal-collection-22-00-2026-06-03.md, raw/transcripts/interest-signal-collection-11-00-2026-06-03.md, raw/transcripts/interest-signal-collection-22-00-2026-06-02.md, raw/transcripts/interest-signal-collection-11-00-2026-06-02.md, raw/transcripts/interest-signal-collection-22-00-2026-06-01.md, raw/transcripts/interest-signal-collection-11-00-2026-05-31.md, raw/transcripts/interest-signal-collection-22-00-2026-05-31.md, raw/transcripts/interest-signal-collection-08-00-2026-04-22.md, raw/transcripts/interest-signal-collection-19-00-2026-04-22.md]
 ---
 
 # AI infra operating economics
@@ -1086,6 +1086,21 @@ The 11:00 pass reinforced the AI-infra operating-economics thesis by turning yes
 
 ### Updated reading
 This remains **append_existing**. CK's durable thesis is sharper: production AI infra is not just model access or sandbox safety; it is the ability to turn storage, databases, workflow engines, local runtimes, model customization, resource inventory, and inference gateways into controllable agent operating surfaces.
+
+## 2026-06-05 new-target reinforcement
+
+Source: `raw/transcripts/interest-signal-collection-11-00-2026-06-05.md`
+
+The 11:00 pass reinforced the AI-infra operating-economics thesis by making the cost/control layer more substrate-specific: agents are moving onto Kubernetes, gateway policy, GPU/HPC cluster images, and managed workflow engines.
+
+### What looked fresh
+- **AWS PCS production-ready DLAMI** (`https://aws.amazon.com/about-aws/whats-new/2026/06/aws-pcs-deep-learning-ami/`) turns Slurm + GPU/HPC cluster setup into an AWS-maintained image with CUDA, EFA, Lustre, PCS Agent, Slurm for PCS, EFS utilities, managed updates, and observability.
+- **Google Cloud ADK on GKE Autopilot** (`https://cloud.google.com/blog/topics/developers-practitioners/scaling-ai-agents-a-step-by-step-guide-to-deploying-adk-on-gke-autopilot/`) shows the deployment economics of agents moving from local prototype to GKE Autopilot, Workload Identity, Gateway API, and Vertex AI.
+- **Kubernetes Agent Sandbox / AI Gateway / Node Readiness Controller** were newly captured as supporting backfill: agent workloads need safer long-running execution abstractions, AI-traffic gateways, and node readiness gates for GPU/storage/network dependencies.
+- **Google Data Cloud** (`https://cloud.google.com/blog/products/data-analytics/whats-new-with-google-data-cloud/`) and **AWS HealthOmics Nextflow 26.04** (`https://aws.amazon.com/about-aws/whats-new/2026/06/aws-healthomics-nextflow-version-26-04/`) kept the data/workflow side visible through agent-ready Bigtable/Firestore/Memorystore, AI troubleshooting, strict workflow parsing, structured outputs, and agent logging mode.
+
+### Updated reading
+This remains **append_existing**. CK's durable thesis is sharper: the economic edge is not only choosing a model or connector, but packaging the substrate where agents actually run—Kubernetes, gateway policy, identity, GPU/HPC images, readiness gates, data stores, and managed workflow logs—so reliability and cost controls become repeatable.
 
 ## Related pages
 
