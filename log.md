@@ -1578,3 +1578,10 @@
 - Newly visible rows were concentrated in Threads liked: Codex role plugins, Hermes skill-bloat critique, LazyCodex operator feedback, Meta AI account-recovery security failure, AI-native organization notes, Typeless voice input, and Kimchi-premium crypto context
 - YouTube, GitHub Stars, Google My Activity, ChatGPT, Claude, Threads API, and X were repeated, side-surface, navigation-only, or unavailable at the durable layer
 - Routed `raw_only`; updated `concepts/honcho.md` with the routing audit only and left `index.md` plus non-Honcho durable concept pages unchanged
+
+## [2026-06-06] ingest | Interest signal collection 11:00 new-target run
+- Saved raw source: `raw/transcripts/interest-signal-collection-11-00-2026-06-06.md`
+- Compared against the 2026-06-05 11:00/22:00 new-target baselines and recent new-target cache URLs/titles; social-signal surfaces were intentionally excluded
+- Freshest official/new-target rows came from AWS MCP Server cross-account/cross-role access, Bedrock AgentCore interactive shells, Google Colab CLI, Vercel Sandbox Drives, and LangChain/Docker side evidence around agent computers, sandboxes, and governance
+- Routed `append_existing`; updated `concepts/managed-agents-practical-summary.md` and `concepts/honcho.md`
+- Left `index.md` unchanged because no new durable page was created

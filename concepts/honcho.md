@@ -4,7 +4,7 @@ created: 2026-04-18
 updated: 2026-06-06
 type: concept
 tags: [agents, hermes, automation, assistant, workflows, protocols, browser-automation]
-sources: [raw/transcripts/interest-signal-collection-08-00-2026-06-06.md, raw/transcripts/interest-signal-collection-22-00-2026-06-05.md, raw/transcripts/interest-signal-note-22-00-2026-06-05.md, raw/transcripts/interest-signal-collection-19-00-2026-06-05.md, raw/transcripts/interest-signal-collection-11-00-2026-06-05.md, raw/transcripts/interest-signal-collection-08-00-2026-06-05.md, raw/transcripts/interest-signal-collection-22-00-2026-06-04.md, raw/transcripts/interest-signal-note-22-00-2026-06-04.md, raw/transcripts/interest-signal-collection-19-00-2026-06-04.md, raw/transcripts/interest-signal-collection-11-00-2026-06-04.md, raw/transcripts/interest-signal-collection-08-00-2026-06-04.md, raw/transcripts/interest-signal-collection-22-00-2026-06-03.md, raw/transcripts/interest-signal-collection-19-00-2026-06-03.md, raw/transcripts/interest-signal-collection-11-00-2026-06-03.md, raw/transcripts/interest-signal-collection-08-00-2026-06-03.md, raw/transcripts/interest-signal-collection-22-00-2026-06-02.md, raw/transcripts/interest-signal-collection-11-00-2026-06-02.md, raw/transcripts/interest-signal-collection-08-00-2026-06-02.md, raw/transcripts/interest-signal-collection-11-00-2026-05-31.md, raw/transcripts/interest-signal-collection-22-00-2026-05-31.md]
+sources: [raw/transcripts/interest-signal-collection-11-00-2026-06-06.md, raw/transcripts/interest-signal-collection-08-00-2026-06-06.md, raw/transcripts/interest-signal-collection-22-00-2026-06-05.md, raw/transcripts/interest-signal-note-22-00-2026-06-05.md, raw/transcripts/interest-signal-collection-19-00-2026-06-05.md, raw/transcripts/interest-signal-collection-11-00-2026-06-05.md, raw/transcripts/interest-signal-collection-08-00-2026-06-05.md, raw/transcripts/interest-signal-collection-22-00-2026-06-04.md, raw/transcripts/interest-signal-note-22-00-2026-06-04.md, raw/transcripts/interest-signal-collection-19-00-2026-06-04.md, raw/transcripts/interest-signal-collection-11-00-2026-06-04.md, raw/transcripts/interest-signal-collection-08-00-2026-06-04.md, raw/transcripts/interest-signal-collection-22-00-2026-06-03.md, raw/transcripts/interest-signal-collection-19-00-2026-06-03.md, raw/transcripts/interest-signal-collection-11-00-2026-06-03.md, raw/transcripts/interest-signal-collection-08-00-2026-06-03.md, raw/transcripts/interest-signal-collection-22-00-2026-06-02.md, raw/transcripts/interest-signal-collection-11-00-2026-06-02.md, raw/transcripts/interest-signal-collection-08-00-2026-06-02.md, raw/transcripts/interest-signal-collection-11-00-2026-05-31.md, raw/transcripts/interest-signal-collection-22-00-2026-05-31.md]
 ---
 
 # Honcho
@@ -1642,6 +1642,26 @@ The morning social/browser run is **raw-only reinforcement**. It surfaced newly 
 
 ### Not routed as `append_existing` or `promote_to_wiki`
 - No source added a new platform primitive, repository/entity, or cross-surface pattern strong enough to update non-Honcho durable pages.
+- `index.md` remains unchanged because no new page was created.
+
+## 2026-06-06 11:00 new-target routing
+
+Reviewed file: `raw/transcripts/interest-signal-collection-11-00-2026-06-06.md`.
+
+The 11:00 official/new-target run is **append_existing** after comparison with the 2026-06-05 11:00/22:00 new-target baselines and recent cache URLs/titles. It did not justify a new concept page, but it did add a clean platform-control cluster around the agent's execution environment.
+
+### Routed as `append_existing`
+- AWS MCP Server cross-account/cross-role support (`https://aws.amazon.com/about-aws/whats-new/2026/06/aws-mcp-server/`) lets coding agents such as Claude Code, Codex, and Kiro switch AWS profiles/roles inside one session without restarting the MCP server.
+- Bedrock AgentCore interactive shells (`https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-agentcore-runtime/`) add persistent PTY-backed terminal access into isolated microVM agent sessions, including reconnect/resume behavior.
+- Google Colab CLI (`https://developers.googleblog.com/introducing-the-google-colab-cli/`) turns remote GPU/TPU Colab runtimes into terminal-addressable execution targets for agents and ships agent-ready context/skill files.
+- Vercel Sandbox Drives (`https://vercel.com/changelog/drives-for-vercel-sandbox-in-private-beta`) add persistent attachable workspace storage for disposable sandboxes; LangChain's `Give your agent its own computer` (`https://www.langchain.com/blog/give-your-ai-agent-its-own-computer`) reinforces the same agent-computer substrate boundary.
+
+### Kept as `raw_only` / `manual_review`
+- Docker AI Governance, AWS Fargate 32 vCPU, GitHub model deprecation, `withastro/flue`, OpenAI Lockdown Mode, skills.sh API, GitHub enterprise-managed VS Code plugins, CodeQL, OpenSearch UI, and S3 Tables permission rows were preserved as raw/manual-review context but not promoted over the stronger AWS/Google/Vercel/LangChain control-plane cluster.
+- Repeated Google Cloud GCS MCP Server, SageMaker multi-turn RL, AgentCore Gateway, and prior Kubernetes/LangChain/GitHub rows stayed reinforcement after the recent 11:00/22:00 appends.
+
+### Not routed as `promote_to_wiki`
+- No genuinely new durable branch emerged. The right durable action is a scoped append to [[managed-agents-practical-summary]] plus this Honcho/log audit.
 - `index.md` remains unchanged because no new page was created.
 
 ## Related pages
