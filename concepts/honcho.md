@@ -1,10 +1,10 @@
 ---
 title: Honcho
 created: 2026-04-18
-updated: 2026-06-06
+updated: 2026-06-07
 type: concept
 tags: [agents, hermes, automation, assistant, workflows, protocols, browser-automation]
-sources: [raw/transcripts/interest-signal-collection-22-00-2026-06-06.md, raw/transcripts/interest-signal-note-22-00-2026-06-06.md, raw/transcripts/interest-signal-collection-19-00-2026-06-06.md, raw/transcripts/interest-signal-collection-11-00-2026-06-06.md, raw/transcripts/interest-signal-collection-08-00-2026-06-06.md, raw/transcripts/interest-signal-collection-22-00-2026-06-05.md, raw/transcripts/interest-signal-note-22-00-2026-06-05.md, raw/transcripts/interest-signal-collection-19-00-2026-06-05.md, raw/transcripts/interest-signal-collection-11-00-2026-06-05.md, raw/transcripts/interest-signal-collection-08-00-2026-06-05.md, raw/transcripts/interest-signal-collection-22-00-2026-06-04.md, raw/transcripts/interest-signal-note-22-00-2026-06-04.md, raw/transcripts/interest-signal-collection-19-00-2026-06-04.md, raw/transcripts/interest-signal-collection-11-00-2026-06-04.md, raw/transcripts/interest-signal-collection-08-00-2026-06-04.md, raw/transcripts/interest-signal-collection-22-00-2026-06-03.md, raw/transcripts/interest-signal-collection-19-00-2026-06-03.md, raw/transcripts/interest-signal-collection-11-00-2026-06-03.md, raw/transcripts/interest-signal-collection-08-00-2026-06-03.md, raw/transcripts/interest-signal-collection-22-00-2026-06-02.md, raw/transcripts/interest-signal-collection-11-00-2026-06-02.md, raw/transcripts/interest-signal-collection-08-00-2026-06-02.md, raw/transcripts/interest-signal-collection-11-00-2026-05-31.md, raw/transcripts/interest-signal-collection-22-00-2026-05-31.md]
+sources: [raw/transcripts/interest-signal-collection-08-00-2026-06-07.md, raw/transcripts/interest-signal-collection-22-00-2026-06-06.md, raw/transcripts/interest-signal-note-22-00-2026-06-06.md, raw/transcripts/interest-signal-collection-19-00-2026-06-06.md, raw/transcripts/interest-signal-collection-11-00-2026-06-06.md, raw/transcripts/interest-signal-collection-08-00-2026-06-06.md, raw/transcripts/interest-signal-collection-22-00-2026-06-05.md, raw/transcripts/interest-signal-note-22-00-2026-06-05.md, raw/transcripts/interest-signal-collection-19-00-2026-06-05.md, raw/transcripts/interest-signal-collection-11-00-2026-06-05.md, raw/transcripts/interest-signal-collection-08-00-2026-06-05.md, raw/transcripts/interest-signal-collection-22-00-2026-06-04.md, raw/transcripts/interest-signal-note-22-00-2026-06-04.md, raw/transcripts/interest-signal-collection-19-00-2026-06-04.md, raw/transcripts/interest-signal-collection-11-00-2026-06-04.md, raw/transcripts/interest-signal-collection-08-00-2026-06-04.md, raw/transcripts/interest-signal-collection-22-00-2026-06-03.md, raw/transcripts/interest-signal-collection-19-00-2026-06-03.md, raw/transcripts/interest-signal-collection-11-00-2026-06-03.md, raw/transcripts/interest-signal-collection-08-00-2026-06-03.md, raw/transcripts/interest-signal-collection-22-00-2026-06-02.md, raw/transcripts/interest-signal-collection-11-00-2026-06-02.md, raw/transcripts/interest-signal-collection-08-00-2026-06-02.md, raw/transcripts/interest-signal-collection-11-00-2026-05-31.md, raw/transcripts/interest-signal-collection-22-00-2026-05-31.md]
 ---
 
 # Honcho
@@ -1733,6 +1733,28 @@ The full day ended as **reinforcement-only at the 23:00 durable layer**. The 11:
 ### Why this matters
 - The day's durable story is not a new branch; it is a sharper version of the existing managed-agent operating thesis: agents need resumable computers, profile-aware tool access, persistent terminals/storage, sandboxed plugin execution, skills/workspace packaging, MCP gateways, and auditable security boundaries.
 - Same-day social rotations confirmed CK's continuing interest in Codex/Hermes/LazyCodex/AI-security and civic/political side signals, but the durable promotion threshold stayed strict.
+
+## 2026-06-07 08:00 social/browser routing
+
+Reviewed file: `raw/transcripts/interest-signal-collection-08-00-2026-06-07.md`.
+
+The morning social/browser run is **raw-only reinforcement** after comparison with the 2026-06-06 08:00 / 11:00 / 19:00 / 22:00 raw transcripts and the 23:00 same-day Honcho refinement. It preserved fresh evidence from Threads liked, but no non-Honcho concept page or index update was justified.
+
+### Routed as `raw_only`
+- Threads liked newly surfaced political/civic rows around `재선거`, 대구 반월당, 잠실, ballot-shortage/re-run coverage, Reuters/SBS visibility, and related public-mobilization examples, including `https://www.threads.com/@speedycheckj/post/DZPtGMGAUjE`, `https://www.threads.com/@h_ruby_haha/post/DZP6iHOEyf8`, `https://www.threads.com/@jeonhangil/post/DZP5oysE3Hu`, `https://www.threads.com/@__kms1212/post/DZPlVWYlPFk`, and `https://www.threads.com/@hangman_void/post/DZPuxbkAKa7`. These are newly visible this morning but continue the 2026-06-06 19:00 political/civic-rights rotation and remain single-surface, low-durability evidence for the AI/operator wiki.
+- A Threads liked K-AI/startup-accountability row (`https://www.threads.com/@realryunsu/post/DZPS1VAk4uN`) repeated the late-May/early-June K-문샷 / AsteroMorph / AI-startup accountability baseline, so it stayed raw evidence.
+- YouTube liked preserved repeated agentic-engineering, managed-agents, Cloudflare Queues, AI-infra/GPU, and AI-business rows; GitHub Stars repeated the agent-skills / Claude Code / Hermes / oh-my-agent set.
+- Google My Activity, ChatGPT, and Claude continued side-context rows around personal/life, Jensen/C++/stock, Hermes/provider, career/equity, AI-infra/AIOps, and product/business lanes.
+
+### Repeated, unavailable, or discard
+- Threads API `/threads` and `/replies` returned the same recent repost facades/replies; `/mentions` returned zero rows; keyword search returned older CK-authored rows or empty results.
+- YouTube subscriptions and Watch Later fresh targets were shell-like or blank; the hydrated liked playlist provided the usable evidence instead.
+- X still exposed a `This account doesn’t exist` shell and was not treated as negative evidence.
+- Sports/music/lifestyle rows and generic social noise stayed out of durable interpretation.
+
+### Not routed as `append_existing` or `promote_to_wiki`
+- No new durable platform primitive, repository/entity, or cross-surface pattern emerged after deduplication against the previous-day social/browser and new-target baselines.
+- The correct durable action set is raw transcript plus this Honcho/log audit only; `index.md` and non-Honcho concept pages remain unchanged.
 
 ## Related pages
 
