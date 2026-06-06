@@ -4,7 +4,7 @@ created: 2026-04-18
 updated: 2026-06-06
 type: concept
 tags: [agents, hermes, automation, assistant, workflows, protocols, browser-automation]
-sources: [raw/transcripts/interest-signal-collection-11-00-2026-06-06.md, raw/transcripts/interest-signal-collection-08-00-2026-06-06.md, raw/transcripts/interest-signal-collection-22-00-2026-06-05.md, raw/transcripts/interest-signal-note-22-00-2026-06-05.md, raw/transcripts/interest-signal-collection-19-00-2026-06-05.md, raw/transcripts/interest-signal-collection-11-00-2026-06-05.md, raw/transcripts/interest-signal-collection-08-00-2026-06-05.md, raw/transcripts/interest-signal-collection-22-00-2026-06-04.md, raw/transcripts/interest-signal-note-22-00-2026-06-04.md, raw/transcripts/interest-signal-collection-19-00-2026-06-04.md, raw/transcripts/interest-signal-collection-11-00-2026-06-04.md, raw/transcripts/interest-signal-collection-08-00-2026-06-04.md, raw/transcripts/interest-signal-collection-22-00-2026-06-03.md, raw/transcripts/interest-signal-collection-19-00-2026-06-03.md, raw/transcripts/interest-signal-collection-11-00-2026-06-03.md, raw/transcripts/interest-signal-collection-08-00-2026-06-03.md, raw/transcripts/interest-signal-collection-22-00-2026-06-02.md, raw/transcripts/interest-signal-collection-11-00-2026-06-02.md, raw/transcripts/interest-signal-collection-08-00-2026-06-02.md, raw/transcripts/interest-signal-collection-11-00-2026-05-31.md, raw/transcripts/interest-signal-collection-22-00-2026-05-31.md]
+sources: [raw/transcripts/interest-signal-collection-22-00-2026-06-06.md, raw/transcripts/interest-signal-note-22-00-2026-06-06.md, raw/transcripts/interest-signal-collection-11-00-2026-06-06.md, raw/transcripts/interest-signal-collection-08-00-2026-06-06.md, raw/transcripts/interest-signal-collection-22-00-2026-06-05.md, raw/transcripts/interest-signal-note-22-00-2026-06-05.md, raw/transcripts/interest-signal-collection-19-00-2026-06-05.md, raw/transcripts/interest-signal-collection-11-00-2026-06-05.md, raw/transcripts/interest-signal-collection-08-00-2026-06-05.md, raw/transcripts/interest-signal-collection-22-00-2026-06-04.md, raw/transcripts/interest-signal-note-22-00-2026-06-04.md, raw/transcripts/interest-signal-collection-19-00-2026-06-04.md, raw/transcripts/interest-signal-collection-11-00-2026-06-04.md, raw/transcripts/interest-signal-collection-08-00-2026-06-04.md, raw/transcripts/interest-signal-collection-22-00-2026-06-03.md, raw/transcripts/interest-signal-collection-19-00-2026-06-03.md, raw/transcripts/interest-signal-collection-11-00-2026-06-03.md, raw/transcripts/interest-signal-collection-08-00-2026-06-03.md, raw/transcripts/interest-signal-collection-22-00-2026-06-02.md, raw/transcripts/interest-signal-collection-11-00-2026-06-02.md, raw/transcripts/interest-signal-collection-08-00-2026-06-02.md, raw/transcripts/interest-signal-collection-11-00-2026-05-31.md, raw/transcripts/interest-signal-collection-22-00-2026-05-31.md]
 ---
 
 # Honcho
@@ -1683,6 +1683,27 @@ The afternoon social/browser run is **raw-only reinforcement with one new low-du
 ### Not routed as `append_existing` or `promote_to_wiki`
 - No new durable platform primitive, repository/entity, or cross-surface pattern emerged after deduplication against the morning social/browser and 11:00 new-target baselines.
 - The correct durable action set is raw transcript plus this Honcho/log audit only; `index.md` and non-Honcho concept pages remain unchanged.
+
+## 2026-06-06 22:00 new-target routing
+
+Reviewed file: `raw/transcripts/interest-signal-collection-22-00-2026-06-06.md`.
+
+The late new-target run is **append_existing** after comparison with the same-day 11:00 new-target append and recent 22:00/11:00 baselines. It did not create a new durable page; it added a narrower governed-execution layer on top of the 11:00 “agent computer” cluster.
+
+### Routed as `append_existing`
+- Simon Willison's MicroPython/WASM sandbox (`https://simonwillison.net/2026/Jun/6/micropython-in-a-sandbox/#atom-everything`) strengthens the sandboxed plugin/code-execution boundary for agent products.
+- Microsoft `azure-functions-skills` (`https://devblogs.microsoft.com/azure-sdk/introducing-azure-functions-skills-ai-era-workspace/`) turns Azure Functions development into a skill/MCP/hooks workspace for GitHub Copilot CLI, Claude Code, Codex CLI, and VS Code.
+- `IBM/mcp-context-forge` (`https://github.com/IBM/mcp-context-forge`, release `https://github.com/IBM/mcp-context-forge/releases/tag/v1.0.2`) adds an MCP/A2A/API gateway, registry, and proxy layer with discovery, guardrails, management, and plugin support.
+- `0x4m4/hexstrike-ai` (`https://github.com/0x4m4/hexstrike-ai`) shows MCP security agents bridging to offensive-security tooling, which reinforces the need for permission, audit, and sandbox boundaries.
+
+### Kept as `raw_only` / `manual_review`
+- Older Azure SDK MCP/agent posts were preserved as useful backfill from a newly checked engineering feed, but were not promoted above the fresher same-week evidence.
+- Repeated Google Cloud GCS/AlloyDB MCP, Kubernetes AI Gateway / Agent Sandbox, AWS AgentCore, Vercel Sandbox Drives, LangChain agent-computer, Docker governance, and GitHub Changelog rows stayed reinforcement after the 11:00 append.
+- `heygen-com/hyperframes` stayed raw-only and `cloudflare/vinext` stayed manual-review because both were single-surface GitHub Trending rows without enough durable context.
+
+### Not routed as `promote_to_wiki`
+- No genuinely new durable branch emerged. The right durable action is a scoped append to [[managed-agents-practical-summary]] plus this Honcho/log audit.
+- `index.md` remains unchanged because no new page was created.
 
 ## Related pages
 

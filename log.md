@@ -1592,3 +1592,11 @@
 - Newly surfaced rows were concentrated in Threads liked political/civic-rights rotation around 잠실, 송파, 과천선관위, 선거 시위 fact-checking, and 2030 turnout imagery; AI/agent Threads rows repeated the 08:00 raw transcript
 - YouTube Watch Later/Liked, Google My Activity, GitHub Stars, ChatGPT, Claude, Threads API keywords, and X were same-axis reinforcement, partial, unchanged, or unusable at the durable layer
 - Routed `raw_only`; updated `concepts/honcho.md` with the routing audit only and left `index.md` plus non-Honcho durable concept pages unchanged
+
+## [2026-06-06] ingest | Interest signal collection 22:00 new-target run
+- Saved raw source: `raw/transcripts/interest-signal-collection-22-00-2026-06-06.md`
+- Saved delivery note: `raw/transcripts/interest-signal-note-22-00-2026-06-06.md`
+- Compared against the same-day 11:00 new-target append, the 2026-06-05 22:00 new-target baseline, recent new-target caches, and prior raw transcript URLs/titles before judging novelty; social-signal surfaces were intentionally excluded
+- Freshest late rows came from Simon Willison's MicroPython/WASM sandbox, Microsoft `azure-functions-skills`, `IBM/mcp-context-forge`, and `0x4m4/hexstrike-ai`
+- Routed `append_existing`; updated `concepts/managed-agents-practical-summary.md` and `concepts/honcho.md`
+- Left `index.md` unchanged because no new durable page was created
