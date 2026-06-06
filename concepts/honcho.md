@@ -1664,6 +1664,26 @@ The 11:00 official/new-target run is **append_existing** after comparison with t
 - No genuinely new durable branch emerged. The right durable action is a scoped append to [[managed-agents-practical-summary]] plus this Honcho/log audit.
 - `index.md` remains unchanged because no new page was created.
 
+## 2026-06-06 19:00 social/browser routing
+
+Reviewed file: `raw/transcripts/interest-signal-collection-19-00-2026-06-06.md`.
+
+The afternoon social/browser run is **raw-only reinforcement with one new low-durability Threads rotation** after comparison with the same-day 08:00 social transcript, 11:00 new-target append, current log context, and this Honcho page. It preserved fresh evidence but did not justify a non-Honcho concept-page or index update.
+
+### Routed as `raw_only`
+- Threads liked newly surfaced a stronger political/civic-rights rotation around 잠실, 송파, 과천선관위, 선거 시위 fact-checking, and 2030 turnout imagery, including `https://www.threads.com/@thor.1225/post/DZNo90lAUuh`, `https://www.threads.com/@zebra.5026448/post/DZM7o-HiUh1`, `https://www.threads.com/@nari_tail/post/DZNX0HXlJIK`, `https://www.threads.com/@politics_crush/post/DZIDq-vD9hJ`, and `https://www.threads.com/@songpadaddy/post/DZJdWlok6iX`. These are grounded and new for the afternoon, but single-surface and low-durability for the existing AI/operator wiki.
+- YouTube Watch Later/Liked preserved repeated agent and infra rows around `CLI vs MCP`, KV cache, Claude Code skills, LiteParse, OpenAI Stargate, AI data-center boom, LangChain, AI-agent management, Karpathy agentic engineering, Cloudflare Queues, OpenAI harness engineering, Managed Agents, and GPU pricing.
+- Google My Activity added an `앤트로픽` search row, while ChatGPT and Claude recents continued the same Hermes/provider, accountable-harness, Claude SDK, AI-infra/AIOps, private-cloud, equity/career, and B2B/product lanes.
+
+### Repeated, unavailable, or discard
+- Threads AI liked rows around Codex role plugins, Hermes skill-bloat critique, LazyCodex, Meta AI account-recovery security failure, Codex Python SDK, and context bloat repeated the 08:00 social transcript.
+- GitHub Stars repeated the same agent-skills / Claude Code / Hermes / oh-my-agent star set; Threads API keyword searches returned older CK-authored rows; `/mentions` returned zero rows.
+- X still exposed a `This account doesn’t exist` shell; YouTube subscriptions/downloads were not reliable as distinct surfaces and were not treated as negative evidence.
+
+### Not routed as `append_existing` or `promote_to_wiki`
+- No new durable platform primitive, repository/entity, or cross-surface pattern emerged after deduplication against the morning social/browser and 11:00 new-target baselines.
+- The correct durable action set is raw transcript plus this Honcho/log audit only; `index.md` and non-Honcho concept pages remain unchanged.
+
 ## Related pages
 
 - [[interest-signal-sources]]

@@ -1585,3 +1585,10 @@
 - Freshest official/new-target rows came from AWS MCP Server cross-account/cross-role access, Bedrock AgentCore interactive shells, Google Colab CLI, Vercel Sandbox Drives, and LangChain/Docker side evidence around agent computers, sandboxes, and governance
 - Routed `append_existing`; updated `concepts/managed-agents-practical-summary.md` and `concepts/honcho.md`
 - Left `index.md` unchanged because no new durable page was created
+
+## [2026-06-06] ingest | Interest signal collection 19:00 social/browser run
+- Saved raw source: `raw/transcripts/interest-signal-collection-19-00-2026-06-06.md`
+- Compared against the same-day 08:00 social/browser transcript, 11:00 new-target append, current log context, and `concepts/honcho.md` before judging novelty
+- Newly surfaced rows were concentrated in Threads liked political/civic-rights rotation around 잠실, 송파, 과천선관위, 선거 시위 fact-checking, and 2030 turnout imagery; AI/agent Threads rows repeated the 08:00 raw transcript
+- YouTube Watch Later/Liked, Google My Activity, GitHub Stars, ChatGPT, Claude, Threads API keywords, and X were same-axis reinforcement, partial, unchanged, or unusable at the durable layer
+- Routed `raw_only`; updated `concepts/honcho.md` with the routing audit only and left `index.md` plus non-Honcho durable concept pages unchanged
