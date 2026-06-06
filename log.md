@@ -1600,3 +1600,9 @@
 - Freshest late rows came from Simon Willison's MicroPython/WASM sandbox, Microsoft `azure-functions-skills`, `IBM/mcp-context-forge`, and `0x4m4/hexstrike-ai`
 - Routed `append_existing`; updated `concepts/managed-agents-practical-summary.md` and `concepts/honcho.md`
 - Left `index.md` unchanged because no new durable page was created
+
+## [2026-06-06] refine | Interest signal same-day Honcho triage 23:00
+- Reviewed same-day raw files: `raw/transcripts/interest-signal-collection-08-00-2026-06-06.md`, `raw/transcripts/interest-signal-collection-11-00-2026-06-06.md`, `raw/transcripts/interest-signal-collection-19-00-2026-06-06.md`, `raw/transcripts/interest-signal-collection-22-00-2026-06-06.md`, and `raw/transcripts/interest-signal-note-22-00-2026-06-06.md`
+- Classified the day as reinforcement-only at the 23:00 durable layer: 08:00 and 19:00 social/browser evidence stayed `raw_only`; 11:00 and 22:00 new-target evidence remained `append_existing` but had already been absorbed during ingest-stage updates
+- Added the whole-day routing audit to `concepts/honcho.md`, including `append_existing`, `raw_only`, `manual_review`, `discard`, and no-`promote_to_wiki` decisions
+- Left raw evidence untouched and left `index.md` plus non-Honcho concept pages unchanged because no new durable page or duplicate concept-page append was justified

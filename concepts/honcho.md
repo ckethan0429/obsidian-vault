@@ -4,7 +4,7 @@ created: 2026-04-18
 updated: 2026-06-06
 type: concept
 tags: [agents, hermes, automation, assistant, workflows, protocols, browser-automation]
-sources: [raw/transcripts/interest-signal-collection-22-00-2026-06-06.md, raw/transcripts/interest-signal-note-22-00-2026-06-06.md, raw/transcripts/interest-signal-collection-11-00-2026-06-06.md, raw/transcripts/interest-signal-collection-08-00-2026-06-06.md, raw/transcripts/interest-signal-collection-22-00-2026-06-05.md, raw/transcripts/interest-signal-note-22-00-2026-06-05.md, raw/transcripts/interest-signal-collection-19-00-2026-06-05.md, raw/transcripts/interest-signal-collection-11-00-2026-06-05.md, raw/transcripts/interest-signal-collection-08-00-2026-06-05.md, raw/transcripts/interest-signal-collection-22-00-2026-06-04.md, raw/transcripts/interest-signal-note-22-00-2026-06-04.md, raw/transcripts/interest-signal-collection-19-00-2026-06-04.md, raw/transcripts/interest-signal-collection-11-00-2026-06-04.md, raw/transcripts/interest-signal-collection-08-00-2026-06-04.md, raw/transcripts/interest-signal-collection-22-00-2026-06-03.md, raw/transcripts/interest-signal-collection-19-00-2026-06-03.md, raw/transcripts/interest-signal-collection-11-00-2026-06-03.md, raw/transcripts/interest-signal-collection-08-00-2026-06-03.md, raw/transcripts/interest-signal-collection-22-00-2026-06-02.md, raw/transcripts/interest-signal-collection-11-00-2026-06-02.md, raw/transcripts/interest-signal-collection-08-00-2026-06-02.md, raw/transcripts/interest-signal-collection-11-00-2026-05-31.md, raw/transcripts/interest-signal-collection-22-00-2026-05-31.md]
+sources: [raw/transcripts/interest-signal-collection-22-00-2026-06-06.md, raw/transcripts/interest-signal-note-22-00-2026-06-06.md, raw/transcripts/interest-signal-collection-19-00-2026-06-06.md, raw/transcripts/interest-signal-collection-11-00-2026-06-06.md, raw/transcripts/interest-signal-collection-08-00-2026-06-06.md, raw/transcripts/interest-signal-collection-22-00-2026-06-05.md, raw/transcripts/interest-signal-note-22-00-2026-06-05.md, raw/transcripts/interest-signal-collection-19-00-2026-06-05.md, raw/transcripts/interest-signal-collection-11-00-2026-06-05.md, raw/transcripts/interest-signal-collection-08-00-2026-06-05.md, raw/transcripts/interest-signal-collection-22-00-2026-06-04.md, raw/transcripts/interest-signal-note-22-00-2026-06-04.md, raw/transcripts/interest-signal-collection-19-00-2026-06-04.md, raw/transcripts/interest-signal-collection-11-00-2026-06-04.md, raw/transcripts/interest-signal-collection-08-00-2026-06-04.md, raw/transcripts/interest-signal-collection-22-00-2026-06-03.md, raw/transcripts/interest-signal-collection-19-00-2026-06-03.md, raw/transcripts/interest-signal-collection-11-00-2026-06-03.md, raw/transcripts/interest-signal-collection-08-00-2026-06-03.md, raw/transcripts/interest-signal-collection-22-00-2026-06-02.md, raw/transcripts/interest-signal-collection-11-00-2026-06-02.md, raw/transcripts/interest-signal-collection-08-00-2026-06-02.md, raw/transcripts/interest-signal-collection-11-00-2026-05-31.md, raw/transcripts/interest-signal-collection-22-00-2026-05-31.md]
 ---
 
 # Honcho
@@ -1704,6 +1704,35 @@ The late new-target run is **append_existing** after comparison with the same-da
 ### Not routed as `promote_to_wiki`
 - No genuinely new durable branch emerged. The right durable action is a scoped append to [[managed-agents-practical-summary]] plus this Honcho/log audit.
 - `index.md` remains unchanged because no new page was created.
+
+## 2026-06-06 23:00 same-day refinement summary
+
+Reviewed files: `raw/transcripts/interest-signal-collection-08-00-2026-06-06.md`, `raw/transcripts/interest-signal-collection-11-00-2026-06-06.md`, `raw/transcripts/interest-signal-collection-19-00-2026-06-06.md`, `raw/transcripts/interest-signal-collection-22-00-2026-06-06.md`, and `raw/transcripts/interest-signal-note-22-00-2026-06-06.md`.
+
+The full day ended as **reinforcement-only at the 23:00 durable layer**. The 11:00 and 22:00 new-target runs already absorbed the only durable deltas into [[managed-agents-practical-summary]], while the 08:00 and 19:00 social/browser runs preserved evidence without requiring another concept-page append.
+
+### Routed as `append_existing`
+- 11:00 official/new-target evidence strengthened the existing managed-agent thesis with an **agent computer / control-plane substrate**: AWS MCP cross-account/cross-role access, Bedrock AgentCore interactive shells, Google Colab CLI, Vercel Sandbox Drives, and LangChain/Docker side evidence around agent computers and governance.
+- 22:00 official/new-target evidence narrowed that into a governed **execution membrane**: Simon Willison's MicroPython/WASM sandbox, Microsoft `azure-functions-skills`, `IBM/mcp-context-forge`, and `0x4m4/hexstrike-ai`.
+- Both appends were already applied during ingest-stage updates to [[managed-agents-practical-summary]], so the 23:00 refinement did not duplicate those sections.
+
+### Routed as `raw_only`
+- 08:00 social/browser evidence preserved Threads-liked rows around Codex role plugins, Hermes skill-bloat critique, LazyCodex feedback, Meta AI account-recovery security failure, AI-native organization notes, Typeless voice input, and crypto/Kimchi-premium context, but they remained single-surface feed rotation inside existing lanes.
+- 19:00 social/browser evidence preserved a stronger Threads political/civic-rights rotation around 잠실, 송파, 과천선관위, 선거 시위 fact-checking, and 2030 turnout imagery, but it stayed single-surface and low-durability for the current AI/operator concept map.
+- YouTube, GitHub Stars, Google My Activity, ChatGPT, Claude, Threads API, and X mostly reinforced existing managed-agent, AI-infra, Hermes/provider, career/equity, and operator-context lanes or remained unavailable/partial.
+
+### Routed as `manual_review` or `discard`
+- `cloudflare/vinext`, OpenSearch UI, CodeQL, S3 Tables permissions, and similar official-feed side rows stayed on the manual-review boundary because they were plausible but too weak to change the durable thesis.
+- Sports, entertainment, generic lifestyle, low-signal social chatter, and the unusable X shell stayed out of durable interpretation.
+
+### Not routed as `promote_to_wiki`
+- No genuinely new durable concept emerged after deduplicating the 08:00, 11:00, 19:00, and 22:00 raw transcripts plus the 22:00 note.
+- `index.md` remains unchanged because no new wiki page was created.
+- Raw evidence remains untouched; this refinement adds only the whole-day Honcho/log audit.
+
+### Why this matters
+- The day's durable story is not a new branch; it is a sharper version of the existing managed-agent operating thesis: agents need resumable computers, profile-aware tool access, persistent terminals/storage, sandboxed plugin execution, skills/workspace packaging, MCP gateways, and auditable security boundaries.
+- Same-day social rotations confirmed CK's continuing interest in Codex/Hermes/LazyCodex/AI-security and civic/political side signals, but the durable promotion threshold stayed strict.
 
 ## Related pages
 
