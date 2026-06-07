@@ -1620,3 +1620,10 @@
 - Fresh-to-cache rows were mostly stale Azure SDK/MCP backfill (`MCP Apps` fluent API, Azure AI Foundry / AI Agents April release, Azure MCP `.mcpb` bundle, `azd` AI-agent automation hooks) plus GitHub Trending `obra/superpowers` and `khoj-ai/khoj`
 - Routed `raw_only`; updated `concepts/honcho.md` with the routing audit only
 - Left `index.md` and non-Honcho durable concept pages unchanged because no genuinely time-fresh durable official row emerged after the 2026-06-06 22:00 baseline
+
+## [2026-06-07] ingest | Interest signal collection 19:00 social/browser run
+- Saved raw source: `raw/transcripts/interest-signal-collection-19-00-2026-06-07.md`
+- Compared against the same-day 08:00 social/browser transcript, same-day 11:00 new-target raw transcript, 2026-06-06 19:00 social baseline, current log context, and `concepts/honcho.md` before judging novelty
+- Newly grounded rows were limited to two Threads API repost facades recovered via CDP as civic/political posts, a top YouTube liked civic/political row, and ChatGPT/Claude sidebar shifts around Virton CTO roadmap, robotics, LPDDR5, reinforcement learning, career/equity, AI-infra/AIOps, SaaS/backend, and private-cloud lanes
+- Threads liked AI/agent rows, YouTube Watch Later, GitHub Stars, Google My Activity, Threads activity/replies, and X were repeated, same-axis reinforcement, shell-like, or unusable at the durable layer
+- Routed `raw_only`; updated `concepts/honcho.md` with the routing audit only and left `index.md` plus non-Honcho durable concept pages unchanged

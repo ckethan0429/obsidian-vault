@@ -4,7 +4,7 @@ created: 2026-04-18
 updated: 2026-06-07
 type: concept
 tags: [agents, hermes, automation, assistant, workflows, protocols, browser-automation]
-sources: [raw/transcripts/interest-signal-collection-11-00-2026-06-07.md, raw/transcripts/interest-signal-collection-08-00-2026-06-07.md, raw/transcripts/interest-signal-collection-22-00-2026-06-06.md, raw/transcripts/interest-signal-note-22-00-2026-06-06.md, raw/transcripts/interest-signal-collection-19-00-2026-06-06.md, raw/transcripts/interest-signal-collection-11-00-2026-06-06.md, raw/transcripts/interest-signal-collection-08-00-2026-06-06.md, raw/transcripts/interest-signal-collection-22-00-2026-06-05.md, raw/transcripts/interest-signal-note-22-00-2026-06-05.md, raw/transcripts/interest-signal-collection-19-00-2026-06-05.md, raw/transcripts/interest-signal-collection-11-00-2026-06-05.md, raw/transcripts/interest-signal-collection-08-00-2026-06-05.md, raw/transcripts/interest-signal-collection-22-00-2026-06-04.md, raw/transcripts/interest-signal-note-22-00-2026-06-04.md, raw/transcripts/interest-signal-collection-19-00-2026-06-04.md, raw/transcripts/interest-signal-collection-11-00-2026-06-04.md, raw/transcripts/interest-signal-collection-08-00-2026-06-04.md, raw/transcripts/interest-signal-collection-22-00-2026-06-03.md, raw/transcripts/interest-signal-collection-19-00-2026-06-03.md, raw/transcripts/interest-signal-collection-11-00-2026-06-03.md, raw/transcripts/interest-signal-collection-08-00-2026-06-03.md, raw/transcripts/interest-signal-collection-22-00-2026-06-02.md, raw/transcripts/interest-signal-collection-11-00-2026-06-02.md, raw/transcripts/interest-signal-collection-08-00-2026-06-02.md, raw/transcripts/interest-signal-collection-11-00-2026-05-31.md, raw/transcripts/interest-signal-collection-22-00-2026-05-31.md]
+sources: [raw/transcripts/interest-signal-collection-19-00-2026-06-07.md, raw/transcripts/interest-signal-collection-11-00-2026-06-07.md, raw/transcripts/interest-signal-collection-08-00-2026-06-07.md, raw/transcripts/interest-signal-collection-22-00-2026-06-06.md, raw/transcripts/interest-signal-note-22-00-2026-06-06.md, raw/transcripts/interest-signal-collection-19-00-2026-06-06.md, raw/transcripts/interest-signal-collection-11-00-2026-06-06.md, raw/transcripts/interest-signal-collection-08-00-2026-06-06.md, raw/transcripts/interest-signal-collection-22-00-2026-06-05.md, raw/transcripts/interest-signal-note-22-00-2026-06-05.md, raw/transcripts/interest-signal-collection-19-00-2026-06-05.md, raw/transcripts/interest-signal-collection-11-00-2026-06-05.md, raw/transcripts/interest-signal-collection-08-00-2026-06-05.md, raw/transcripts/interest-signal-collection-22-00-2026-06-04.md, raw/transcripts/interest-signal-note-22-00-2026-06-04.md, raw/transcripts/interest-signal-collection-19-00-2026-06-04.md, raw/transcripts/interest-signal-collection-11-00-2026-06-04.md, raw/transcripts/interest-signal-collection-08-00-2026-06-04.md, raw/transcripts/interest-signal-collection-22-00-2026-06-03.md, raw/transcripts/interest-signal-collection-19-00-2026-06-03.md, raw/transcripts/interest-signal-collection-11-00-2026-06-03.md, raw/transcripts/interest-signal-collection-08-00-2026-06-03.md, raw/transcripts/interest-signal-collection-22-00-2026-06-02.md, raw/transcripts/interest-signal-collection-11-00-2026-06-02.md, raw/transcripts/interest-signal-collection-08-00-2026-06-02.md, raw/transcripts/interest-signal-collection-11-00-2026-05-31.md, raw/transcripts/interest-signal-collection-22-00-2026-05-31.md]
 ---
 
 # Honcho
@@ -1771,6 +1771,28 @@ The 11:00 official/new-target run is **raw-only reinforcement/backfill** after c
 - No genuinely time-fresh official row emerged after the 2026-06-06 22:00 baseline.
 - The strongest evidence reinforces the existing managed-agent / MCP / skills / agent-control-plane thesis, but it is either stale backfill, previously absorbed, or single-surface GitHub Trending.
 - `index.md` and non-Honcho concept pages remain unchanged because no new durable page or concept-page append was justified.
+
+## 2026-06-07 19:00 social/browser routing
+
+Reviewed file: `raw/transcripts/interest-signal-collection-19-00-2026-06-07.md`.
+
+The afternoon social/browser run is **raw-only reinforcement** after comparison with the same-day 08:00 social run, same-day 11:00 new-target run, the 2026-06-06 19:00 social baseline, and current Honcho/log context. It preserved newly API-visible Threads repost evidence and sidebar/playlist rotations, but no non-Honcho concept page or index update was justified.
+
+### Routed as `raw_only`
+- Threads API `/threads` added two 2026-06-07 `REPOST_FACADE` rows. Direct CDP recovery resolved them to civic/political posts (`https://www.threads.com/@1215_jw/post/DZP2mCcD4EQ` and `https://www.threads.com/@dongwook0113/post/DZP4SMVmtDU`), so they continue the previous-day and morning political/civic rotation rather than opening a durable AI/operator branch.
+- Threads liked repeated the 2026-06-06 AI/agent rows: Codex role plugins, AI-native company framing, Hermes skill-bloat critique, LazyCodex operator feedback, Meta AI account-recovery failure, Codex Python SDK, context bloat, and AI-native organization notes.
+- YouTube liked added a top civic/political SBS row plus sports/music/entertainment rows, while Watch Later repeated the existing CLI vs MCP, KV Cache, State of the Claw, Claude Skills, LiteParse, Stargate, and data-center evidence.
+- ChatGPT recents newly foregrounded `CTO Virton 로드맵 설계`, `로보틱스 시작 방법`, `LPDDR5 설명`, and `강화학습 현재 상황`; Claude recents continued CTO/equity, career, AI-infra/AIOps, SaaS/backend, and private-cloud lanes. These are useful side evidence but remain single-surface sidebar signals.
+
+### Repeated, unavailable, or discard
+- GitHub Stars remained inside the known agent-skills / Claude Code / Hermes / Kubernetes/humanizer tooling lane with no material new repo/entity.
+- Google My Activity repeated the same 2026-06-07 / 2026-06-06 search-summary rows already seen in the morning baseline.
+- YouTube subscriptions/downloads were shell-like, and X still exposed a `This account doesn’t exist` page; neither was treated as negative evidence.
+- Sports, music, generic lifestyle, and low-signal civic/political feed rotation stayed out of durable interpretation.
+
+### Not routed as `append_existing` or `promote_to_wiki`
+- No new durable platform primitive, repository/entity, or cross-surface pattern emerged after deduplication against the morning and previous-day baselines.
+- The correct durable action set is raw transcript plus this Honcho/log audit only; `index.md` and non-Honcho concept pages remain unchanged.
 
 ## Related pages
 
