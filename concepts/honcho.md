@@ -4,7 +4,7 @@ created: 2026-04-18
 updated: 2026-06-07
 type: concept
 tags: [agents, hermes, automation, assistant, workflows, protocols, browser-automation]
-sources: [raw/transcripts/interest-signal-collection-08-00-2026-06-07.md, raw/transcripts/interest-signal-collection-22-00-2026-06-06.md, raw/transcripts/interest-signal-note-22-00-2026-06-06.md, raw/transcripts/interest-signal-collection-19-00-2026-06-06.md, raw/transcripts/interest-signal-collection-11-00-2026-06-06.md, raw/transcripts/interest-signal-collection-08-00-2026-06-06.md, raw/transcripts/interest-signal-collection-22-00-2026-06-05.md, raw/transcripts/interest-signal-note-22-00-2026-06-05.md, raw/transcripts/interest-signal-collection-19-00-2026-06-05.md, raw/transcripts/interest-signal-collection-11-00-2026-06-05.md, raw/transcripts/interest-signal-collection-08-00-2026-06-05.md, raw/transcripts/interest-signal-collection-22-00-2026-06-04.md, raw/transcripts/interest-signal-note-22-00-2026-06-04.md, raw/transcripts/interest-signal-collection-19-00-2026-06-04.md, raw/transcripts/interest-signal-collection-11-00-2026-06-04.md, raw/transcripts/interest-signal-collection-08-00-2026-06-04.md, raw/transcripts/interest-signal-collection-22-00-2026-06-03.md, raw/transcripts/interest-signal-collection-19-00-2026-06-03.md, raw/transcripts/interest-signal-collection-11-00-2026-06-03.md, raw/transcripts/interest-signal-collection-08-00-2026-06-03.md, raw/transcripts/interest-signal-collection-22-00-2026-06-02.md, raw/transcripts/interest-signal-collection-11-00-2026-06-02.md, raw/transcripts/interest-signal-collection-08-00-2026-06-02.md, raw/transcripts/interest-signal-collection-11-00-2026-05-31.md, raw/transcripts/interest-signal-collection-22-00-2026-05-31.md]
+sources: [raw/transcripts/interest-signal-collection-11-00-2026-06-07.md, raw/transcripts/interest-signal-collection-08-00-2026-06-07.md, raw/transcripts/interest-signal-collection-22-00-2026-06-06.md, raw/transcripts/interest-signal-note-22-00-2026-06-06.md, raw/transcripts/interest-signal-collection-19-00-2026-06-06.md, raw/transcripts/interest-signal-collection-11-00-2026-06-06.md, raw/transcripts/interest-signal-collection-08-00-2026-06-06.md, raw/transcripts/interest-signal-collection-22-00-2026-06-05.md, raw/transcripts/interest-signal-note-22-00-2026-06-05.md, raw/transcripts/interest-signal-collection-19-00-2026-06-05.md, raw/transcripts/interest-signal-collection-11-00-2026-06-05.md, raw/transcripts/interest-signal-collection-08-00-2026-06-05.md, raw/transcripts/interest-signal-collection-22-00-2026-06-04.md, raw/transcripts/interest-signal-note-22-00-2026-06-04.md, raw/transcripts/interest-signal-collection-19-00-2026-06-04.md, raw/transcripts/interest-signal-collection-11-00-2026-06-04.md, raw/transcripts/interest-signal-collection-08-00-2026-06-04.md, raw/transcripts/interest-signal-collection-22-00-2026-06-03.md, raw/transcripts/interest-signal-collection-19-00-2026-06-03.md, raw/transcripts/interest-signal-collection-11-00-2026-06-03.md, raw/transcripts/interest-signal-collection-08-00-2026-06-03.md, raw/transcripts/interest-signal-collection-22-00-2026-06-02.md, raw/transcripts/interest-signal-collection-11-00-2026-06-02.md, raw/transcripts/interest-signal-collection-08-00-2026-06-02.md, raw/transcripts/interest-signal-collection-11-00-2026-05-31.md, raw/transcripts/interest-signal-collection-22-00-2026-05-31.md]
 ---
 
 # Honcho
@@ -1755,6 +1755,22 @@ The morning social/browser run is **raw-only reinforcement** after comparison wi
 ### Not routed as `append_existing` or `promote_to_wiki`
 - No new durable platform primitive, repository/entity, or cross-surface pattern emerged after deduplication against the previous-day social/browser and new-target baselines.
 - The correct durable action set is raw transcript plus this Honcho/log audit only; `index.md` and non-Honcho concept pages remain unchanged.
+
+## 2026-06-07 11:00 new-target routing
+
+Reviewed file: `raw/transcripts/interest-signal-collection-11-00-2026-06-07.md`.
+
+The 11:00 official/new-target run is **raw-only reinforcement/backfill** after comparison with the 2026-06-06 11:00 and 22:00 new-target baselines. It preserved new-to-cache evidence from Azure SDK and GitHub Trending, but no non-Honcho concept-page or index update was justified.
+
+### Routed as `raw_only`
+- Azure SDK backfill added useful MCP/control-plane packaging details: MCP Apps fluent configuration (`https://devblogs.microsoft.com/azure-sdk/mcp-as-easy-as-1-2-3-introducing-the-fluent-api-for-mcp-apps/`), Azure AI Foundry / AI Agents April release changes (`https://devblogs.microsoft.com/azure-sdk/azure-sdk-release-april-2026/`), Azure MCP Server `.mcpb` bundles (`https://devblogs.microsoft.com/azure-sdk/azure-mcp-server-mcpb-support/`), and `azd` multi-language hooks / AI-agent automation support (`https://devblogs.microsoft.com/azure-sdk/azure-developer-cli-azd-april-2026/`). These clarify the same MCP app/bundle/automation lane, but they are April/May backfill rather than fresh durable signals.
+- GitHub Trending surfaced `obra/superpowers` (`https://github.com/obra/superpowers`) and `khoj-ai/khoj` (`https://github.com/khoj-ai/khoj`). `superpowers` has appeared in older managed-agent context, and `khoj` is a single-surface personal-AI/second-brain candidate, so both stay raw evidence rather than a new page.
+- Repeated AWS AgentCore Gateway policy/auth/security rows, AWS MCP cross-account access, Bedrock interactive shells, Azure Functions skills, Google Cloud GCS MCP, and related official-feed rows stayed reinforcement after the 2026-06-06 new-target appends.
+
+### Not routed as `append_existing` or `promote_to_wiki`
+- No genuinely time-fresh official row emerged after the 2026-06-06 22:00 baseline.
+- The strongest evidence reinforces the existing managed-agent / MCP / skills / agent-control-plane thesis, but it is either stale backfill, previously absorbed, or single-surface GitHub Trending.
+- `index.md` and non-Honcho concept pages remain unchanged because no new durable page or concept-page append was justified.
 
 ## Related pages
 

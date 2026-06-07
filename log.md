@@ -1613,3 +1613,10 @@
 - Newly visible rows were concentrated in Threads liked political/civic rotation around `재선거`, 대구 반월당, 잠실, ballot-shortage/re-run coverage, Reuters/SBS visibility, plus one repeated K-AI/startup-accountability row
 - YouTube liked, GitHub Stars, Google My Activity, ChatGPT, Claude, Threads API, and X were repeated, side-surface, blank/shell-like, or unavailable at the durable layer
 - Routed `raw_only`; updated `concepts/honcho.md` with the routing audit only and left `index.md` plus non-Honcho durable concept pages unchanged
+
+## [2026-06-07] ingest | Interest signal collection 11:00 new-target run
+- Saved raw source: `raw/transcripts/interest-signal-collection-11-00-2026-06-07.md`
+- Compared against the 2026-06-06 11:00 and 22:00 new-target baselines before judging novelty; social-signal surfaces were intentionally excluded
+- Fresh-to-cache rows were mostly stale Azure SDK/MCP backfill (`MCP Apps` fluent API, Azure AI Foundry / AI Agents April release, Azure MCP `.mcpb` bundle, `azd` AI-agent automation hooks) plus GitHub Trending `obra/superpowers` and `khoj-ai/khoj`
+- Routed `raw_only`; updated `concepts/honcho.md` with the routing audit only
+- Left `index.md` and non-Honcho durable concept pages unchanged because no genuinely time-fresh durable official row emerged after the 2026-06-06 22:00 baseline
