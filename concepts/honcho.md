@@ -4,7 +4,7 @@ created: 2026-04-18
 updated: 2026-06-07
 type: concept
 tags: [agents, hermes, automation, assistant, workflows, protocols, browser-automation]
-sources: [raw/transcripts/interest-signal-collection-19-00-2026-06-07.md, raw/transcripts/interest-signal-collection-11-00-2026-06-07.md, raw/transcripts/interest-signal-collection-08-00-2026-06-07.md, raw/transcripts/interest-signal-collection-22-00-2026-06-06.md, raw/transcripts/interest-signal-note-22-00-2026-06-06.md, raw/transcripts/interest-signal-collection-19-00-2026-06-06.md, raw/transcripts/interest-signal-collection-11-00-2026-06-06.md, raw/transcripts/interest-signal-collection-08-00-2026-06-06.md, raw/transcripts/interest-signal-collection-22-00-2026-06-05.md, raw/transcripts/interest-signal-note-22-00-2026-06-05.md, raw/transcripts/interest-signal-collection-19-00-2026-06-05.md, raw/transcripts/interest-signal-collection-11-00-2026-06-05.md, raw/transcripts/interest-signal-collection-08-00-2026-06-05.md, raw/transcripts/interest-signal-collection-22-00-2026-06-04.md, raw/transcripts/interest-signal-note-22-00-2026-06-04.md, raw/transcripts/interest-signal-collection-19-00-2026-06-04.md, raw/transcripts/interest-signal-collection-11-00-2026-06-04.md, raw/transcripts/interest-signal-collection-08-00-2026-06-04.md, raw/transcripts/interest-signal-collection-22-00-2026-06-03.md, raw/transcripts/interest-signal-collection-19-00-2026-06-03.md, raw/transcripts/interest-signal-collection-11-00-2026-06-03.md, raw/transcripts/interest-signal-collection-08-00-2026-06-03.md, raw/transcripts/interest-signal-collection-22-00-2026-06-02.md, raw/transcripts/interest-signal-collection-11-00-2026-06-02.md, raw/transcripts/interest-signal-collection-08-00-2026-06-02.md, raw/transcripts/interest-signal-collection-11-00-2026-05-31.md, raw/transcripts/interest-signal-collection-22-00-2026-05-31.md]
+sources: [raw/transcripts/interest-signal-collection-22-00-2026-06-07.md, raw/transcripts/interest-signal-note-22-00-2026-06-07.md, raw/transcripts/interest-signal-collection-19-00-2026-06-07.md, raw/transcripts/interest-signal-collection-11-00-2026-06-07.md, raw/transcripts/interest-signal-collection-08-00-2026-06-07.md, raw/transcripts/interest-signal-collection-22-00-2026-06-06.md, raw/transcripts/interest-signal-note-22-00-2026-06-06.md, raw/transcripts/interest-signal-collection-19-00-2026-06-06.md, raw/transcripts/interest-signal-collection-11-00-2026-06-06.md, raw/transcripts/interest-signal-collection-08-00-2026-06-06.md, raw/transcripts/interest-signal-collection-22-00-2026-06-05.md, raw/transcripts/interest-signal-note-22-00-2026-06-05.md, raw/transcripts/interest-signal-collection-19-00-2026-06-05.md, raw/transcripts/interest-signal-collection-11-00-2026-06-05.md, raw/transcripts/interest-signal-collection-08-00-2026-06-05.md, raw/transcripts/interest-signal-collection-22-00-2026-06-04.md, raw/transcripts/interest-signal-note-22-00-2026-06-04.md, raw/transcripts/interest-signal-collection-19-00-2026-06-04.md, raw/transcripts/interest-signal-collection-11-00-2026-06-04.md, raw/transcripts/interest-signal-collection-08-00-2026-06-04.md, raw/transcripts/interest-signal-collection-22-00-2026-06-03.md, raw/transcripts/interest-signal-collection-19-00-2026-06-03.md, raw/transcripts/interest-signal-collection-11-00-2026-06-03.md, raw/transcripts/interest-signal-collection-08-00-2026-06-03.md, raw/transcripts/interest-signal-collection-22-00-2026-06-02.md, raw/transcripts/interest-signal-collection-11-00-2026-06-02.md, raw/transcripts/interest-signal-collection-08-00-2026-06-02.md, raw/transcripts/interest-signal-collection-11-00-2026-05-31.md, raw/transcripts/interest-signal-collection-22-00-2026-05-31.md]
 ---
 
 # Honcho
@@ -1793,6 +1793,26 @@ The afternoon social/browser run is **raw-only reinforcement** after comparison 
 ### Not routed as `append_existing` or `promote_to_wiki`
 - No new durable platform primitive, repository/entity, or cross-surface pattern emerged after deduplication against the morning and previous-day baselines.
 - The correct durable action set is raw transcript plus this Honcho/log audit only; `index.md` and non-Honcho concept pages remain unchanged.
+
+## 2026-06-07 22:00 new-target routing
+
+Reviewed file: `raw/transcripts/interest-signal-collection-22-00-2026-06-07.md`.
+
+The late new-target run is **append_existing** after comparison with the same-day 11:00 new-target raw-only/backfill run, the 2026-06-06 22:00 new-target append, recent raw transcript searches, and current log context. Official feeds mostly repeated recent AgentCore / MCP / GKE / Azure / LangChain evidence, but GitHub Trending plus GitHub API/release checks added a fresh repo cluster around memory, durable execution, containment, and agent workflows.
+
+### Routed as `append_existing`
+- `MemPalace/mempalace` (`https://github.com/MemPalace/mempalace`, release `https://github.com/MemPalace/mempalace/releases/tag/v3.4.0`) and `moorcheh-ai/memanto` (`https://github.com/moorcheh-ai/memanto`, release `https://github.com/moorcheh-ai/memanto/releases/tag/integrations/langgraph/v0.1.0`) made long-term / semantic agent memory a repo-level substrate signal.
+- `microsoft/pg_durable` (`https://github.com/microsoft/pg_durable`) and `microsoft/mxc` (`https://github.com/microsoft/mxc`, release `https://github.com/microsoft/mxc/releases/tag/v0.6.1`) sharpened the durable-workflow and policy-driven-containment layer around autonomous execution.
+- `github/gh-aw` (`https://github.com/github/gh-aw`, release `https://github.com/github/gh-aw/releases/tag/v0.78.3`) and `nearai/ironclaw` (`https://github.com/nearai/ironclaw`, release `https://github.com/nearai/ironclaw/releases/tag/ironclaw-v0.29.1`) reinforced agent workflows / Agent OS packaging as operating surfaces for Claude Code, Codex, Copilot, privacy, security, and extensibility.
+
+### Kept as `raw_only` / `manual_review`
+- `aaif-goose/goose`, `RyanCodrai/turbovec`, and `refactoringhq/tolaria` were preserved as useful adjacent rows around extensible agents, vector/RAG substrate, and markdown knowledge tooling, but they remain single-surface GitHub Trending evidence.
+- Repeated `last30days-skill`, `taste-skill`, `hermes-agent`, `open-notebook`, `withastro/flue`, `Personal_AI_Infrastructure`, `Panniantong/Agent-Reach`, `CopilotKit`, and `cline` rows stayed reinforcement because they were already present in prior raw transcripts or durable context.
+- Official-feed rows around AWS AgentCore, SageMaker RL, Google Cloud ADK/GKE, Google Data Cloud, LangChain agent lifecycle, Docker sandboxes, Kubernetes Agent Sandbox / AI Gateway, Simon Willison MicroPython/WASM, and Azure Functions skills were high-signal but repeated from recent 11:00/22:00 baselines.
+
+### Not routed as `promote_to_wiki`
+- No genuinely new durable page was justified. The fresh rows strengthen [[managed-agents-practical-summary]] as an operating-stack thesis rather than creating a separate memory/repo/entity page.
+- `index.md` remains unchanged because no new page was created.
 
 ## Related pages
 

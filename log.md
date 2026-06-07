@@ -1627,3 +1627,11 @@
 - Newly grounded rows were limited to two Threads API repost facades recovered via CDP as civic/political posts, a top YouTube liked civic/political row, and ChatGPT/Claude sidebar shifts around Virton CTO roadmap, robotics, LPDDR5, reinforcement learning, career/equity, AI-infra/AIOps, SaaS/backend, and private-cloud lanes
 - Threads liked AI/agent rows, YouTube Watch Later, GitHub Stars, Google My Activity, Threads activity/replies, and X were repeated, same-axis reinforcement, shell-like, or unusable at the durable layer
 - Routed `raw_only`; updated `concepts/honcho.md` with the routing audit only and left `index.md` plus non-Honcho durable concept pages unchanged
+
+## [2026-06-07] ingest | Interest signal collection 22:00 new-target run
+- Saved raw source: `raw/transcripts/interest-signal-collection-22-00-2026-06-07.md`
+- Saved delivery note: `raw/transcripts/interest-signal-note-22-00-2026-06-07.md`
+- Compared against the same-day 11:00 new-target raw transcript, the 2026-06-06 22:00 new-target baseline, recent raw transcript searches, current log context, and `concepts/honcho.md`; social-signal surfaces were intentionally excluded
+- Official feeds mostly repeated recent AgentCore / MCP / GKE / Azure / LangChain rows, but GitHub Trending plus GitHub API/release checks added fresh high-signal rows: `MemPalace/mempalace`, `moorcheh-ai/memanto`, `microsoft/pg_durable`, `microsoft/mxc`, `nearai/ironclaw`, and `github/gh-aw`
+- Routed `append_existing`; updated `concepts/managed-agents-practical-summary.md` and `concepts/honcho.md` with the agent-memory / durable-execution / isolation / agent-workflow reinforcement
+- Left `index.md` unchanged because no new durable page was created
