@@ -1814,6 +1814,35 @@ The late new-target run is **append_existing** after comparison with the same-da
 - No genuinely new durable page was justified. The fresh rows strengthen [[managed-agents-practical-summary]] as an operating-stack thesis rather than creating a separate memory/repo/entity page.
 - `index.md` remains unchanged because no new page was created.
 
+## 2026-06-07 23:00 same-day refinement summary
+
+Reviewed files: `raw/transcripts/interest-signal-collection-08-00-2026-06-07.md`, `raw/transcripts/interest-signal-collection-11-00-2026-06-07.md`, `raw/transcripts/interest-signal-collection-19-00-2026-06-07.md`, `raw/transcripts/interest-signal-collection-22-00-2026-06-07.md`, and `raw/transcripts/interest-signal-note-22-00-2026-06-07.md`.
+
+The full day ended as **reinforcement-only at the 23:00 durable layer**. The 22:00 new-target run already absorbed the only durable `append_existing` delta into [[managed-agents-practical-summary]], while the 08:00 and 19:00 social/browser runs plus the 11:00 new-target backfill preserved useful evidence without justifying another concept-page append.
+
+### Routed as `append_existing`
+- 22:00 GitHub Trending + GitHub API/release checks added the strongest durable cluster: agent memory (`MemPalace/mempalace`, `moorcheh-ai/memanto`), durable execution / containment (`microsoft/pg_durable`, `microsoft/mxc`), and agent-workflow / Agent OS packaging (`github/gh-aw`, `nearai/ironclaw`).
+- This append was already applied during the 22:00 ingest-stage update to [[managed-agents-practical-summary]], so the 23:00 refinement did not duplicate that section.
+
+### Routed as `raw_only`
+- 08:00 social/browser evidence preserved fresh Threads-liked civic/political rotation around `재선거`, 대구 반월당, 잠실, ballot-shortage/re-run coverage, Reuters/SBS visibility, plus a repeated K-AI/startup-accountability row; after comparison with the 2026-06-06 19:00 and same-day 19:00 baselines it stayed single-surface feed rotation.
+- 11:00 new-target evidence preserved Azure SDK / MCP backfill (`MCP Apps`, Azure AI Foundry / AI Agents April release, Azure MCP `.mcpb`, `azd` AI-agent automation hooks) and GitHub Trending `obra/superpowers` / `khoj-ai/khoj`; these were useful but stale, recurring, or single-surface.
+- 19:00 social/browser evidence preserved two Threads API repost facades recovered as civic/political posts, repeated Threads-liked AI/agent rows, YouTube Watch Later AI/MCP/KV-cache/data-center repeats, and ChatGPT/Claude sidebar shifts around Virton CTO, robotics, LPDDR5, RL, career/equity, AI-infra/AIOps, SaaS/backend, and private-cloud lanes.
+- Repeated official-feed rows around AWS AgentCore, Google ADK/GKE/GCS MCP, LangChain agent lifecycle, Docker/Kubernetes isolation, Simon Willison MicroPython/WASM, and Azure Functions skills stayed high-signal reinforcement because they had already been captured in recent new-target baselines.
+
+### Routed as `manual_review` or `discard`
+- `aaif-goose/goose`, `RyanCodrai/turbovec`, and `refactoringhq/tolaria` stayed raw/manual-review adjacent: useful for extensible agents, vector/RAG substrate, and markdown knowledge tooling, but still too trend-driven or single-surface for separate durable promotion.
+- X remained an unusable shell; YouTube subscriptions/downloads were shell-like; sports, music, generic lifestyle, and low-signal civic/political feed noise stayed out of durable interpretation.
+
+### Not routed as `promote_to_wiki`
+- No genuinely new durable page emerged after deduplicating the four same-day raw transcripts and the 22:00 delivery note.
+- `index.md` remains unchanged because no new page was created and the only concept append had already landed at 22:00.
+- Raw evidence remains untouched; this refinement adds only the whole-day Honcho/log audit.
+
+### Why this matters
+- The durable story is still the existing managed-agent operating-stack thesis: memory, durable workflows, containment, agent workflow integration, skills/MCP/control-plane packaging, and sandboxed execution are becoming the layer around coding/agent systems.
+- The social/browser evidence confirms CK's continued attention to civic/political side signals and Virton/career/AI-infra sidebars, but those signals did not cross the promotion threshold today.
+
 ## Related pages
 
 - [[interest-signal-sources]]
