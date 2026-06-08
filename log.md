@@ -1668,3 +1668,10 @@
 - Classified the day as reinforcement-only at the 23:00 durable layer: the 11:00 `plastic-labs/honcho` `append_existing` update had already been absorbed, while the 19:00 Threads civic/political rows and 22:00 GitHub Trending agent-team/session/harness rows stayed `raw_only`
 - Kept `xerrors/Yuxi`, `mvanhorn/cli-printing-press`, `Ed1s0nZ/CyberStrikeAI`, and `SudoHopeX/KaliGPT` on the `manual_review`/`raw_only` boundary rather than promoting single-surface trend evidence
 - Added the whole-day routing audit to `concepts/honcho.md`; left raw evidence untouched and left `index.md` plus non-Honcho concept pages unchanged because no new durable page or duplicate concept-page append was justified
+
+## [2026-06-09] ingest | Interest signal collection 08:00 social/browser run
+- Saved raw source: `raw/transcripts/interest-signal-collection-08-00-2026-06-09.md`
+- Compared against the 2026-06-08 11:00 / 19:00 / 22:00 raw transcripts, the 2026-06-08 23:00 Honcho refinement, `concepts/honcho.md`, and `log.md` before judging novelty
+- Live Chrome CDP on `127.0.0.1:9222` was unavailable; browser-tool checks were logged out or challenge-blocked for Threads liked, YouTube, GitHub Stars, Google My Activity, ChatGPT, Claude, and X
+- Threads API remained available and surfaced two additional 2026-06-08 repost facades after the prior 19:00 capture; public browser recovery resolved them as civic/political election-statistics and foreigner-voting rows
+- Routed `raw_only`; updated `concepts/honcho.md` with the routing audit only and left `index.md` plus non-Honcho durable concept pages unchanged

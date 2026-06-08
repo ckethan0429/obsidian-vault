@@ -1,10 +1,10 @@
 ---
 title: Honcho
 created: 2026-04-18
-updated: 2026-06-08
+updated: 2026-06-09
 type: concept
 tags: [agents, hermes, automation, assistant, workflows, protocols, browser-automation]
-sources: [raw/transcripts/interest-signal-collection-22-00-2026-06-08.md, raw/transcripts/interest-signal-collection-19-00-2026-06-08.md, raw/transcripts/interest-signal-collection-11-00-2026-06-08.md, raw/transcripts/interest-signal-collection-22-00-2026-06-07.md, raw/transcripts/interest-signal-note-22-00-2026-06-07.md, raw/transcripts/interest-signal-collection-19-00-2026-06-07.md, raw/transcripts/interest-signal-collection-11-00-2026-06-07.md, raw/transcripts/interest-signal-collection-08-00-2026-06-07.md, raw/transcripts/interest-signal-collection-22-00-2026-06-06.md, raw/transcripts/interest-signal-note-22-00-2026-06-06.md, raw/transcripts/interest-signal-collection-19-00-2026-06-06.md, raw/transcripts/interest-signal-collection-11-00-2026-06-06.md, raw/transcripts/interest-signal-collection-08-00-2026-06-06.md, raw/transcripts/interest-signal-collection-22-00-2026-06-05.md, raw/transcripts/interest-signal-note-22-00-2026-06-05.md, raw/transcripts/interest-signal-collection-19-00-2026-06-05.md, raw/transcripts/interest-signal-collection-11-00-2026-06-05.md, raw/transcripts/interest-signal-collection-08-00-2026-06-05.md, raw/transcripts/interest-signal-collection-22-00-2026-06-04.md, raw/transcripts/interest-signal-note-22-00-2026-06-04.md, raw/transcripts/interest-signal-collection-19-00-2026-06-04.md, raw/transcripts/interest-signal-collection-11-00-2026-06-04.md, raw/transcripts/interest-signal-collection-08-00-2026-06-04.md, raw/transcripts/interest-signal-collection-22-00-2026-06-03.md, raw/transcripts/interest-signal-collection-19-00-2026-06-03.md, raw/transcripts/interest-signal-collection-11-00-2026-06-03.md, raw/transcripts/interest-signal-collection-08-00-2026-06-03.md, raw/transcripts/interest-signal-collection-22-00-2026-06-02.md, raw/transcripts/interest-signal-collection-11-00-2026-06-02.md, raw/transcripts/interest-signal-collection-08-00-2026-06-02.md, raw/transcripts/interest-signal-collection-11-00-2026-05-31.md, raw/transcripts/interest-signal-collection-22-00-2026-05-31.md]
+sources: [raw/transcripts/interest-signal-collection-08-00-2026-06-09.md, raw/transcripts/interest-signal-collection-22-00-2026-06-08.md, raw/transcripts/interest-signal-collection-19-00-2026-06-08.md, raw/transcripts/interest-signal-collection-11-00-2026-06-08.md, raw/transcripts/interest-signal-collection-22-00-2026-06-07.md, raw/transcripts/interest-signal-note-22-00-2026-06-07.md, raw/transcripts/interest-signal-collection-19-00-2026-06-07.md, raw/transcripts/interest-signal-collection-11-00-2026-06-07.md, raw/transcripts/interest-signal-collection-08-00-2026-06-07.md, raw/transcripts/interest-signal-collection-22-00-2026-06-06.md, raw/transcripts/interest-signal-note-22-00-2026-06-06.md, raw/transcripts/interest-signal-collection-19-00-2026-06-06.md, raw/transcripts/interest-signal-collection-11-00-2026-06-06.md, raw/transcripts/interest-signal-collection-08-00-2026-06-06.md, raw/transcripts/interest-signal-collection-22-00-2026-06-05.md, raw/transcripts/interest-signal-note-22-00-2026-06-05.md, raw/transcripts/interest-signal-collection-19-00-2026-06-05.md, raw/transcripts/interest-signal-collection-11-00-2026-06-05.md, raw/transcripts/interest-signal-collection-08-00-2026-06-05.md, raw/transcripts/interest-signal-collection-22-00-2026-06-04.md, raw/transcripts/interest-signal-note-22-00-2026-06-04.md, raw/transcripts/interest-signal-collection-19-00-2026-06-04.md, raw/transcripts/interest-signal-collection-11-00-2026-06-04.md, raw/transcripts/interest-signal-collection-08-00-2026-06-04.md, raw/transcripts/interest-signal-collection-22-00-2026-06-03.md, raw/transcripts/interest-signal-collection-19-00-2026-06-03.md, raw/transcripts/interest-signal-collection-11-00-2026-06-03.md, raw/transcripts/interest-signal-collection-08-00-2026-06-03.md, raw/transcripts/interest-signal-collection-22-00-2026-06-02.md, raw/transcripts/interest-signal-collection-11-00-2026-06-02.md, raw/transcripts/interest-signal-collection-08-00-2026-06-02.md, raw/transcripts/interest-signal-collection-11-00-2026-05-31.md, raw/transcripts/interest-signal-collection-22-00-2026-05-31.md]
 ---
 
 # Honcho
@@ -1933,6 +1933,25 @@ The full day ended as **reinforcement-only at the 23:00 durable layer**. The 11:
 ### Why this matters
 - 2026-06-08's useful durable signal is narrow: the agent operating stack now has a named external example for **stateful-agent memory as a library/product surface**, but CK's Honcho should still remain a strict triage/router between raw capture and durable wiki promotion.
 - Later same-day rotations strengthened the existing managed-agent operating-stack lane without crossing the threshold for another durable append.
+
+## 2026-06-09 08:00 social/browser routing
+
+Reviewed file: `raw/transcripts/interest-signal-collection-08-00-2026-06-09.md`.
+
+The morning social/browser run is **raw_only reinforcement** after comparison with the 2026-06-08 11:00 / 19:00 / 22:00 raw transcripts and the 2026-06-08 23:00 Honcho refinement. Live Chrome CDP was unavailable again, but Threads API remained usable and exposed two additional 2026-06-08 UTC repost facades after the prior 19:00 capture.
+
+### Routed as `raw_only`
+- Threads API `/threads` added two new `REPOST_FACADE` rows: `https://www.threads.com/@ethan13917/post/DZVSLOWkyQ6` and `https://www.threads.com/@ethan13917/post/DZVR2ayk2xv`. Browser public permalink recovery resolved them to civic/political posts: an election-statistics row from `jeonhangil` (`https://www.threads.com/@jeonhangil/post/DZU55HKk27r`) and a foreigner local-election voting row from `so.so._.atelier` (`https://www.threads.com/@so.so._.atelier/post/DZTdwZTkruz`).
+- Threads API `/replies` repeated the already-captured 2026-06-08 19:00 reply (`https://www.threads.com/@ethan13917/post/DZUfrWvkwf0`), `/mentions` returned 0 rows, and keyword searches returned older CK-authored agent/GPU/Ceph/Proxmox/memory rows or empty results.
+
+### Unavailable or not inferred
+- CDP at `http://127.0.0.1:9222` returned connection refused, so Threads liked/activity/reposts via authenticated CDP, YouTube authenticated feeds/playlists, GitHub Stars, Google My Activity, ChatGPT, Claude, and X could not be treated as authenticated browser evidence.
+- Browser-tool checks showed Threads liked login redirect, YouTube logged-out navigation, GitHub sign-in, Google My Activity sign-in/welcome page, ChatGPT/Claude Cloudflare challenges, and X logged-out signup/login shell. These are availability facts only, not negative evidence.
+
+### Not routed as `append_existing` or `promote_to_wiki`
+- The two new Threads rows continue the 2026-06-06 through 2026-06-08 civic/political rotation and do not change the AI-agent / Honcho / memory-routing / managed-agent durable map.
+- The correct durable action set is raw transcript plus this Honcho/log audit only; `index.md` and non-Honcho concept pages remain unchanged.
+
 
 ## Related pages
 
