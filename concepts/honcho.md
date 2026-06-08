@@ -1,10 +1,10 @@
 ---
 title: Honcho
 created: 2026-04-18
-updated: 2026-06-07
+updated: 2026-06-08
 type: concept
 tags: [agents, hermes, automation, assistant, workflows, protocols, browser-automation]
-sources: [raw/transcripts/interest-signal-collection-22-00-2026-06-07.md, raw/transcripts/interest-signal-note-22-00-2026-06-07.md, raw/transcripts/interest-signal-collection-19-00-2026-06-07.md, raw/transcripts/interest-signal-collection-11-00-2026-06-07.md, raw/transcripts/interest-signal-collection-08-00-2026-06-07.md, raw/transcripts/interest-signal-collection-22-00-2026-06-06.md, raw/transcripts/interest-signal-note-22-00-2026-06-06.md, raw/transcripts/interest-signal-collection-19-00-2026-06-06.md, raw/transcripts/interest-signal-collection-11-00-2026-06-06.md, raw/transcripts/interest-signal-collection-08-00-2026-06-06.md, raw/transcripts/interest-signal-collection-22-00-2026-06-05.md, raw/transcripts/interest-signal-note-22-00-2026-06-05.md, raw/transcripts/interest-signal-collection-19-00-2026-06-05.md, raw/transcripts/interest-signal-collection-11-00-2026-06-05.md, raw/transcripts/interest-signal-collection-08-00-2026-06-05.md, raw/transcripts/interest-signal-collection-22-00-2026-06-04.md, raw/transcripts/interest-signal-note-22-00-2026-06-04.md, raw/transcripts/interest-signal-collection-19-00-2026-06-04.md, raw/transcripts/interest-signal-collection-11-00-2026-06-04.md, raw/transcripts/interest-signal-collection-08-00-2026-06-04.md, raw/transcripts/interest-signal-collection-22-00-2026-06-03.md, raw/transcripts/interest-signal-collection-19-00-2026-06-03.md, raw/transcripts/interest-signal-collection-11-00-2026-06-03.md, raw/transcripts/interest-signal-collection-08-00-2026-06-03.md, raw/transcripts/interest-signal-collection-22-00-2026-06-02.md, raw/transcripts/interest-signal-collection-11-00-2026-06-02.md, raw/transcripts/interest-signal-collection-08-00-2026-06-02.md, raw/transcripts/interest-signal-collection-11-00-2026-05-31.md, raw/transcripts/interest-signal-collection-22-00-2026-05-31.md]
+sources: [raw/transcripts/interest-signal-collection-11-00-2026-06-08.md, raw/transcripts/interest-signal-collection-22-00-2026-06-07.md, raw/transcripts/interest-signal-note-22-00-2026-06-07.md, raw/transcripts/interest-signal-collection-19-00-2026-06-07.md, raw/transcripts/interest-signal-collection-11-00-2026-06-07.md, raw/transcripts/interest-signal-collection-08-00-2026-06-07.md, raw/transcripts/interest-signal-collection-22-00-2026-06-06.md, raw/transcripts/interest-signal-note-22-00-2026-06-06.md, raw/transcripts/interest-signal-collection-19-00-2026-06-06.md, raw/transcripts/interest-signal-collection-11-00-2026-06-06.md, raw/transcripts/interest-signal-collection-08-00-2026-06-06.md, raw/transcripts/interest-signal-collection-22-00-2026-06-05.md, raw/transcripts/interest-signal-note-22-00-2026-06-05.md, raw/transcripts/interest-signal-collection-19-00-2026-06-05.md, raw/transcripts/interest-signal-collection-11-00-2026-06-05.md, raw/transcripts/interest-signal-collection-08-00-2026-06-05.md, raw/transcripts/interest-signal-collection-22-00-2026-06-04.md, raw/transcripts/interest-signal-note-22-00-2026-06-04.md, raw/transcripts/interest-signal-collection-19-00-2026-06-04.md, raw/transcripts/interest-signal-collection-11-00-2026-06-04.md, raw/transcripts/interest-signal-collection-08-00-2026-06-04.md, raw/transcripts/interest-signal-collection-22-00-2026-06-03.md, raw/transcripts/interest-signal-collection-19-00-2026-06-03.md, raw/transcripts/interest-signal-collection-11-00-2026-06-03.md, raw/transcripts/interest-signal-collection-08-00-2026-06-03.md, raw/transcripts/interest-signal-collection-22-00-2026-06-02.md, raw/transcripts/interest-signal-collection-11-00-2026-06-02.md, raw/transcripts/interest-signal-collection-08-00-2026-06-02.md, raw/transcripts/interest-signal-collection-11-00-2026-05-31.md, raw/transcripts/interest-signal-collection-22-00-2026-05-31.md]
 ---
 
 # Honcho
@@ -1842,6 +1842,26 @@ The full day ended as **reinforcement-only at the 23:00 durable layer**. The 22:
 ### Why this matters
 - The durable story is still the existing managed-agent operating-stack thesis: memory, durable workflows, containment, agent workflow integration, skills/MCP/control-plane packaging, and sandboxed execution are becoming the layer around coding/agent systems.
 - The social/browser evidence confirms CK's continued attention to civic/political side signals and Virton/career/AI-infra sidebars, but those signals did not cross the promotion threshold today.
+
+## 2026-06-08 11:00 new-target routing
+
+Reviewed file: `raw/transcripts/interest-signal-collection-11-00-2026-06-08.md`.
+
+The 11:00 official/new-target run is **append_existing** after comparison with the 2026-06-07 22:00 new-target append, the 2026-06-07 11:00 raw-only/backfill run, and the recent 2026-06-06 new-target baselines. Official feeds mostly repeated already-absorbed AgentCore / MCP / sandbox / Vercel / Google ADK rows, while GitHub Trending plus API checks surfaced one exact-name external `Honcho` row that strengthens CK's Honcho/memory-routing interpretation.
+
+### Routed as `append_existing`
+- `plastic-labs/honcho` (`https://github.com/plastic-labs/honcho`) described itself as a “Memory library for building stateful agents,” with topics including `agent-memory`, `ai-memory`, `context-engineering`, `long-term-memory`, `personalization`, `rag`, `state-management`, and `vector-database`.
+- This is not the same as CK's Honcho policy layer, but it is useful external validation that **memory for stateful agents is becoming a product/library surface**. CK's Honcho note should keep the architecture split clear: raw capture and routing policy remain separate from memory-store/library implementations.
+- The correct durable action is a scoped append to this Honcho note plus [[managed-agents-practical-summary]], not a new concept page.
+
+### Kept as `raw_only` / `manual_review`
+- `InsForge/InsForge` (`https://github.com/InsForge/InsForge`) re-trended with an agentic-coding backend / AI-gateway description, but it was already captured in older May new-target evidence and durable AI-infra context.
+- `Ed1s0nZ/CyberStrikeAI` (`https://github.com/Ed1s0nZ/CyberStrikeAI`) and `SudoHopeX/KaliGPT` (`https://github.com/SudoHopeX/KaliGPT`) are relevant security-agent rows, but they remain single-surface GitHub Trending evidence and stay on the manual-review/raw-only boundary.
+- `QuantumNous/new-api` (`https://github.com/QuantumNous/new-api`) and `luongnv89/claude-howto` (`https://github.com/luongnv89/claude-howto`) reinforce model-gateway and Claude Code tutorial/documentation lanes without opening a new durable branch.
+
+### Not routed as `promote_to_wiki`
+- No high-signal official feed item in the selected set was newer than the 2026-06-07 22:00 new-target capture; Google ADK long-running agents, Vercel Conductor/Sandbox, AWS Quick VPC MCP, and InsForge were already present in earlier raw/concept context.
+- `index.md` remains unchanged because no new page was created.
 
 ## Related pages
 

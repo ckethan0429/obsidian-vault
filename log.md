@@ -1641,3 +1641,10 @@
 - Classified the day as reinforcement-only at the 23:00 durable layer: 08:00 and 19:00 social/browser evidence stayed `raw_only`; 11:00 new-target evidence stayed `raw_only`/backfill; 22:00 new-target evidence remained `append_existing` but had already been absorbed during the ingest-stage update
 - Added the whole-day routing audit to `concepts/honcho.md`, including `append_existing`, `raw_only`, `manual_review`, `discard`, and no-`promote_to_wiki` decisions
 - Left raw evidence untouched and left `index.md` plus non-Honcho concept pages unchanged because no new durable page or duplicate concept-page append was justified
+
+## [2026-06-08] ingest | Interest signal collection 11:00 new-target run
+- Saved raw source: `raw/transcripts/interest-signal-collection-11-00-2026-06-08.md`
+- Compared against the 2026-06-07 22:00 new-target append, the 2026-06-07 11:00 raw-only/backfill run, recent 2026-06-06 new-target baselines, `concepts/honcho.md`, and `log.md`; social-signal surfaces were intentionally excluded
+- Official feeds mostly repeated already-absorbed AgentCore / MCP / sandbox / Vercel / Google ADK rows; the strongest fresh row was GitHub Trending + API evidence for `plastic-labs/honcho` as a memory library for stateful agents
+- Routed `append_existing`; updated `concepts/honcho.md` and `concepts/managed-agents-practical-summary.md` with the Honcho/stateful-agent-memory reinforcement
+- Left `index.md` unchanged because no new durable page was created
