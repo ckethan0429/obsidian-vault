@@ -1648,3 +1648,10 @@
 - Official feeds mostly repeated already-absorbed AgentCore / MCP / sandbox / Vercel / Google ADK rows; the strongest fresh row was GitHub Trending + API evidence for `plastic-labs/honcho` as a memory library for stateful agents
 - Routed `append_existing`; updated `concepts/honcho.md` and `concepts/managed-agents-practical-summary.md` with the Honcho/stateful-agent-memory reinforcement
 - Left `index.md` unchanged because no new durable page was created
+
+## [2026-06-08] ingest | Interest signal collection 19:00 social/browser run
+- Saved raw source: `raw/transcripts/interest-signal-collection-19-00-2026-06-08.md`
+- Compared against the same-day 11:00 new-target append, the 2026-06-07 19:00 social/browser raw, the 2026-06-07 23:00 refinement, `concepts/honcho.md`, and `log.md` before judging novelty
+- Live Chrome CDP on `127.0.0.1:9222` was unavailable; browser-tool checks were logged out or challenge-blocked for Threads liked, YouTube, GitHub Stars, Google My Activity, ChatGPT, and Claude
+- Threads API remained available and surfaced new 2026-06-08 civic/political rows: two repost facades recovered as public permalinks plus one own reply; these continued the recent civic/political rotation rather than a durable AI/operator signal
+- Routed `raw_only`; updated `concepts/honcho.md` with the routing audit only and left `index.md` plus non-Honcho durable concept pages unchanged
