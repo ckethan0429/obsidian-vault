@@ -1662,3 +1662,9 @@
 - Official feeds added no high-signal post-11:00 durable row; the only post-cutoff feed item found was Hugging Face `Building Pakistan Notice Helper`, which stayed low-signal for CK's active AI/operator axis
 - GitHub Trending plus API/release checks surfaced fresh same-axis rows: `777genius/agent-teams-ai`, `asheshgoplani/agent-deck`, `xerrors/Yuxi`, and `mvanhorn/cli-printing-press`
 - Routed `raw_only`; updated `concepts/honcho.md` with the routing audit only and left `index.md` plus non-Honcho durable concept pages unchanged
+
+## [2026-06-08] refine | Interest signal same-day Honcho triage 23:00
+- Reviewed same-day raw files: `raw/transcripts/interest-signal-collection-11-00-2026-06-08.md`, `raw/transcripts/interest-signal-collection-19-00-2026-06-08.md`, and `raw/transcripts/interest-signal-collection-22-00-2026-06-08.md`
+- Classified the day as reinforcement-only at the 23:00 durable layer: the 11:00 `plastic-labs/honcho` `append_existing` update had already been absorbed, while the 19:00 Threads civic/political rows and 22:00 GitHub Trending agent-team/session/harness rows stayed `raw_only`
+- Kept `xerrors/Yuxi`, `mvanhorn/cli-printing-press`, `Ed1s0nZ/CyberStrikeAI`, and `SudoHopeX/KaliGPT` on the `manual_review`/`raw_only` boundary rather than promoting single-surface trend evidence
+- Added the whole-day routing audit to `concepts/honcho.md`; left raw evidence untouched and left `index.md` plus non-Honcho concept pages unchanged because no new durable page or duplicate concept-page append was justified

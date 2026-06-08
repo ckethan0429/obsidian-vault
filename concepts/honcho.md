@@ -1905,6 +1905,35 @@ The 22:00 official/new-target pass is **raw_only reinforcement** after compariso
 - The 22:00 GitHub Trending rows add useful evidence and URLs, but they do not materially change the managed-agent / Honcho / AI-infra operating-stack thesis.
 - `index.md` and non-Honcho durable concept pages remain unchanged because no new page or concept append was justified.
 
+## 2026-06-08 23:00 same-day refinement summary
+
+Reviewed files: `raw/transcripts/interest-signal-collection-11-00-2026-06-08.md`, `raw/transcripts/interest-signal-collection-19-00-2026-06-08.md`, and `raw/transcripts/interest-signal-collection-22-00-2026-06-08.md`.
+
+The full day ended as **reinforcement-only at the 23:00 durable layer**. The 11:00 new-target run already absorbed the only durable `append_existing` delta into this Honcho note and [[managed-agents-practical-summary]], while the 19:00 social/browser run and 22:00 new-target run preserved additional grounded rows without justifying another concept-page append.
+
+### Routed as `append_existing`
+- 11:00 GitHub Trending + API evidence for `plastic-labs/honcho` (`https://github.com/plastic-labs/honcho`) was the strongest durable signal: an external “Memory library for building stateful agents” with topics around agent memory, context engineering, long-term memory, personalization, RAG, state management, and vector databases.
+- This append was already applied during the ingest-stage update, so the 23:00 refinement does **not** duplicate it in [[managed-agents-practical-summary]]. The durable lesson remains the architecture split: CK's Honcho is the routing/policy layer; stateful-agent memory libraries are implementation/storage surfaces below or beside that layer.
+
+### Routed as `raw_only`
+- 19:00 Threads API evidence added two same-day `REPOST_FACADE` rows recovered as public civic/political permalinks (`https://www.threads.com/@dbwlszl160/post/DZURnF2kS14`, `https://www.threads.com/@stop_wony/post/DZRnBwLDa69`) plus one CK reply (`https://www.threads.com/@ethan13917/post/DZUfrWvkwf0`). These continued the 2026-06-06/07 civic-political rotation and did not affect the AI/operator concept map.
+- 22:00 GitHub Trending rows — `777genius/agent-teams-ai` (`https://github.com/777genius/agent-teams-ai`), `asheshgoplani/agent-deck` (`https://github.com/asheshgoplani/agent-deck`), `xerrors/Yuxi` (`https://github.com/xerrors/Yuxi`), and `mvanhorn/cli-printing-press` (`https://github.com/mvanhorn/cli-printing-press`) — reinforced multi-agent teams, terminal/session control, agent harnesses, knowledge/RAG tooling, and AI-agent-first CLI generation, but stayed same-axis GitHub rotation after the same-day Honcho append.
+- Repeated official rows around Google ADK long-running agents, Vercel Claude Managed Agents / Sandbox, LangChain fault tolerance, Docker AI governance, AWS SageMaker Data Agent conversation history, and Hugging Face's Pakistan Notice Helper were preserved as context or low-signal evidence rather than promoted.
+
+### Routed as `manual_review` or `discard`
+- `xerrors/Yuxi`, `mvanhorn/cli-printing-press`, `Ed1s0nZ/CyberStrikeAI`, and `SudoHopeX/KaliGPT` remain manual-review-adjacent because they touch agent harnesses, knowledge graphs, API-to-CLI generation, and security-agent workflows, but each is still single-surface or trend-driven evidence.
+- Browser/CDP unavailable states from 19:00 — Threads liked login redirect, YouTube logged-out page, GitHub sign-in, Google My Activity sign-in, ChatGPT/Claude challenge pages — were recorded as availability facts only, not as negative evidence.
+- Civic/political social rotation, generic feed backfill, sports/entertainment/lifestyle noise, and low-signal local-tool examples stayed out of durable promotion.
+
+### Not routed as `promote_to_wiki`
+- No genuinely new durable concept or entity emerged after deduplicating the three same-day raw transcripts against the 2026-06-07 23:00 refinement and current Honcho/managed-agent pages.
+- `index.md` remains unchanged because no new wiki page was created.
+- Raw evidence remains untouched; this refinement adds only the whole-day Honcho/log audit.
+
+### Why this matters
+- 2026-06-08's useful durable signal is narrow: the agent operating stack now has a named external example for **stateful-agent memory as a library/product surface**, but CK's Honcho should still remain a strict triage/router between raw capture and durable wiki promotion.
+- Later same-day rotations strengthened the existing managed-agent operating-stack lane without crossing the threshold for another durable append.
+
 ## Related pages
 
 - [[interest-signal-sources]]
