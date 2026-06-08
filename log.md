@@ -1655,3 +1655,10 @@
 - Live Chrome CDP on `127.0.0.1:9222` was unavailable; browser-tool checks were logged out or challenge-blocked for Threads liked, YouTube, GitHub Stars, Google My Activity, ChatGPT, and Claude
 - Threads API remained available and surfaced new 2026-06-08 civic/political rows: two repost facades recovered as public permalinks plus one own reply; these continued the recent civic/political rotation rather than a durable AI/operator signal
 - Routed `raw_only`; updated `concepts/honcho.md` with the routing audit only and left `index.md` plus non-Honcho durable concept pages unchanged
+
+## [2026-06-08] ingest | Interest signal collection 22:00 new-target run
+- Saved raw source: `raw/transcripts/interest-signal-collection-22-00-2026-06-08.md`
+- Compared against the same-day 11:00 new-target append, the 2026-06-07 22:00 new-target append, `log.md`, `concepts/honcho.md`, `concepts/managed-agents-practical-summary.md`, and `concepts/ai-infra-operating-economics.md`; social-signal surfaces were intentionally excluded
+- Official feeds added no high-signal post-11:00 durable row; the only post-cutoff feed item found was Hugging Face `Building Pakistan Notice Helper`, which stayed low-signal for CK's active AI/operator axis
+- GitHub Trending plus API/release checks surfaced fresh same-axis rows: `777genius/agent-teams-ai`, `asheshgoplani/agent-deck`, `xerrors/Yuxi`, and `mvanhorn/cli-printing-press`
+- Routed `raw_only`; updated `concepts/honcho.md` with the routing audit only and left `index.md` plus non-Honcho durable concept pages unchanged
