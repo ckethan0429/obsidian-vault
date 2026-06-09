@@ -1697,3 +1697,9 @@
 - Fresh official rows came from AWS Cost Explorer intelligent cost explanations with Amazon Q, Cloudflare frontier cyber model defense, and GitHub periodic code scanning for inactive repositories; GitHub Trending added supporting single-surface rows such as `Auto-claude-code-research-in-sleep`, `sem`, `claude-code-security-review`, and `bifrost`
 - Routed `append_existing`; updated `concepts/ai-infra-operating-economics.md` and `concepts/honcho.md` with the cost/security control-plane reinforcement
 - Left `index.md` unchanged because no new durable page was created
+
+## [2026-06-09] refine | Interest signal same-day Honcho triage 23:00
+- Reviewed same-day raw files: `raw/transcripts/interest-signal-collection-08-00-2026-06-09.md`, `raw/transcripts/interest-signal-collection-11-00-2026-06-09.md`, `raw/transcripts/interest-signal-collection-19-00-2026-06-09.md`, `raw/transcripts/interest-signal-collection-22-00-2026-06-09.md`, and `raw/transcripts/interest-signal-note-22-00-2026-06-09.md`
+- Classified the day as reinforcement-only at the 23:00 durable layer: the 11:00 managed-agent runtime `append_existing` update and the 22:00 cost/security control-plane `append_existing` update had already been absorbed during ingest-stage updates
+- Kept 08:00/19:00 Threads civic-political rows, the 19:00 Hermes/Claude-Code social reply, and 22:00 GitHub Trending agent/security rows as `raw_only` or `manual_review` single-surface evidence
+- Added the whole-day routing audit to `concepts/honcho.md`; left raw evidence untouched and left `index.md` plus non-Honcho concept pages unchanged because no new durable page or duplicate concept-page append was justified

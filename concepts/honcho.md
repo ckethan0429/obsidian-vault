@@ -2014,6 +2014,36 @@ The late official/new-target pass is **append_existing** after comparison with t
 - `index.md` remains unchanged because no new page was created.
 - Raw evidence remains intact in the transcript; this Honcho entry records the routing decision and durable scope.
 
+## 2026-06-09 23:00 same-day refinement summary
+
+Reviewed files: `raw/transcripts/interest-signal-collection-08-00-2026-06-09.md`, `raw/transcripts/interest-signal-collection-11-00-2026-06-09.md`, `raw/transcripts/interest-signal-collection-19-00-2026-06-09.md`, `raw/transcripts/interest-signal-collection-22-00-2026-06-09.md`, and `raw/transcripts/interest-signal-note-22-00-2026-06-09.md`.
+
+The full day ended as **reinforcement-only at the 23:00 durable layer**. The 11:00 new-target run had already applied the managed-agent runtime append to [[managed-agents-practical-summary]], and the 22:00 new-target run had already applied the cost/security control-plane append to [[ai-infra-operating-economics]]. The refinement pass therefore avoids re-applying those same deltas and records only the whole-day Honcho/log audit.
+
+### Routed as `append_existing`
+- 11:00 AWS Bedrock AgentCore hosted coding agents (`https://aws.amazon.com/blogs/machine-learning/its-safe-to-close-your-laptop-now-hosting-coding-agents-on-amazon-bedrock-agentcore/`) was the strongest managed-agent runtime row: isolated microVM sessions, persistent workspaces, Gateway tool access, observability, and parallel Claude Code / Codex / Kiro / Cursor execution. Supporting rows came from Nova Sonic test harnesses, Amazon Connect AI-agent traces, and `google/skills`.
+- 22:00 AWS Cost Explorer + Amazon Q (`https://aws.amazon.com/about-aws/whats-new/2026/06/aws-cost-explorer-intelligent-cost-explanations`), Cloudflare frontier cyber model defense (`https://blog.cloudflare.com/frontier-model-defense/`), and GitHub periodic code scanning (`https://github.blog/changelog/2026-06-09-periodic-code-scanning-of-inactive-repositories`) strengthened the AI-infra operating-economics axis around spend visibility, security architecture, and dormant-code maintenance.
+- Both append decisions were already absorbed during ingest-stage updates, so this 23:00 pass leaves [[managed-agents-practical-summary]] and [[ai-infra-operating-economics]] unchanged.
+
+### Routed as `raw_only`
+- 08:00 Threads API rows (`https://www.threads.com/@ethan13917/post/DZVSLOWkyQ6`, `https://www.threads.com/@ethan13917/post/DZVR2ayk2xv`) resolved to civic/political public posts (`https://www.threads.com/@jeonhangil/post/DZU55HKk27r`, `https://www.threads.com/@so.so._.atelier/post/DZTdwZTkruz`). They continued the recent civic/political rotation and did not alter the AI/operator map.
+- 19:00 Threads API added one more civic/political repost (`https://www.threads.com/@ethan13917/post/DZWE_m5k-tD`, recovered as `https://www.threads.com/@revie.woo/post/DZU5hJxCYJi`) plus a CK reply (`https://www.threads.com/@ethan13917/post/DZWMQdgk34M`) on an AI-factory / Hermes / Claude Code comparison post (`https://www.threads.com/@needsbuilder/post/DZV7Q4ek5_W`). The reply is relevant same-axis social evidence, but not enough to duplicate the 11:00 managed-agent append.
+- 22:00 Hugging Face Spaces chaining and GitHub Trending rows such as `wanshuiyin/Auto-claude-code-research-in-sleep`, `Ataraxy-Labs/sem`, `anthropics/claude-code-security-review`, `luongnv89/asm`, `wonderwhy-er/DesktopCommanderMCP`, `microsoft/playwright-cli`, and `maximhq/bifrost` stayed useful raw evidence because they were single-surface trend rotations after the official cost/security append.
+
+### Routed as `manual_review` or `discard`
+- Manual-review-adjacent rows include `Wei-Shaw/sub2api`, `santifer/career-ops`, `Ataraxy-Labs/sem`, `anthropics/claude-code-security-review`, and `maximhq/bifrost`: relevant to gateways, Claude Code workflows, semantic diffs, security review, and AI-gateway economics, but still not strong enough for separate promotion.
+- CDP/browser unavailable states from 08:00 and 19:00 — Threads liked login redirects, YouTube logged-out pages, GitHub sign-in, Google My Activity sign-in, ChatGPT/Claude challenge pages, and X logged-out shells — remain availability facts only. They are not negative evidence about CK's interests.
+- Generic stale feed rows, civic/political social rotation, and low-signal demos stayed out of durable promotion.
+
+### Not routed as `promote_to_wiki`
+- No new durable concept or entity emerged after deduplicating the same-day social/API and new-target transcripts against the 2026-06-08 refinement plus the current Honcho, managed-agent, and AI-infra pages.
+- `index.md` remains unchanged because no new page was created.
+- Raw evidence remains untouched; the 23:00 durable change is only this whole-day Honcho summary plus the log entry.
+
+### Why this matters
+- 2026-06-09 split cleanly into two already-absorbed durable appends: **managed-agent hosted runtime / observability** at 11:00 and **AI-infra cost/security control plane** at 22:00.
+- The social/API layer added grounded URLs but did not change the durable thesis, so Honcho's strict routing correctly prevented duplicate concept-page updates.
+
 ## Related pages
 
 - [[interest-signal-sources]]
