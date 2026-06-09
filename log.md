@@ -1682,3 +1682,10 @@
 - Freshest official/new-target rows came from AWS AgentCore hosted coding agents, Nova Sonic voice-agent test harnesses, Amazon Connect AI-agent traces, and GitHub Trending `google/skills` plus same-axis gateway/vector/runtime repos
 - Routed `append_existing`; updated `concepts/managed-agents-practical-summary.md` and `concepts/honcho.md` with the managed-agent runtime / observability / skills-packaging reinforcement
 - Left `index.md` unchanged because no new durable page was created
+
+## [2026-06-09] ingest | Interest signal collection 19:00 social/browser run
+- Saved raw source: `raw/transcripts/interest-signal-collection-19-00-2026-06-09.md`
+- Compared against the same-day 08:00 social/browser transcript, same-day 11:00 new-target append, 2026-06-08 23:00 Honcho refinement, `log.md`, and `concepts/honcho.md` before judging novelty
+- Live Chrome CDP on `127.0.0.1:9222` was unavailable; browser-tool checks were logged out or challenge-blocked for Threads liked, YouTube, GitHub Stars, Google My Activity, ChatGPT, Claude, and X
+- Threads API remained available and surfaced one new 2026-06-09 repost facade recovered as a civic/political election-statistics row, plus one new CK reply on a public AI-factory/Hermes/Claude-Code comparison post
+- Routed `raw_only`; updated `concepts/honcho.md` with the routing audit only and left `index.md` plus non-Honcho durable concept pages unchanged
