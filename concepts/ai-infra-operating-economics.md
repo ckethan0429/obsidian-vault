@@ -1,10 +1,10 @@
 ---
 title: AI infra operating economics
 created: 2026-04-22
-updated: 2026-06-05
+updated: 2026-06-09
 type: concept
 tags: [infrastructure, gpu, storage, proxmox, agents, business, strategy]
-sources: [raw/transcripts/interest-signal-collection-11-00-2026-06-05.md, raw/transcripts/interest-signal-collection-11-00-2026-06-04.md, raw/transcripts/interest-signal-collection-22-00-2026-06-03.md, raw/transcripts/interest-signal-collection-11-00-2026-06-03.md, raw/transcripts/interest-signal-collection-22-00-2026-06-02.md, raw/transcripts/interest-signal-collection-11-00-2026-06-02.md, raw/transcripts/interest-signal-collection-22-00-2026-06-01.md, raw/transcripts/interest-signal-collection-11-00-2026-05-31.md, raw/transcripts/interest-signal-collection-22-00-2026-05-31.md, raw/transcripts/interest-signal-collection-08-00-2026-04-22.md, raw/transcripts/interest-signal-collection-19-00-2026-04-22.md]
+sources: [raw/transcripts/interest-signal-collection-22-00-2026-06-09.md, raw/transcripts/interest-signal-collection-11-00-2026-06-05.md, raw/transcripts/interest-signal-collection-11-00-2026-06-04.md, raw/transcripts/interest-signal-collection-22-00-2026-06-03.md, raw/transcripts/interest-signal-collection-11-00-2026-06-03.md, raw/transcripts/interest-signal-collection-22-00-2026-06-02.md, raw/transcripts/interest-signal-collection-11-00-2026-06-02.md, raw/transcripts/interest-signal-collection-22-00-2026-06-01.md, raw/transcripts/interest-signal-collection-11-00-2026-05-31.md, raw/transcripts/interest-signal-collection-22-00-2026-05-31.md, raw/transcripts/interest-signal-collection-08-00-2026-04-22.md, raw/transcripts/interest-signal-collection-19-00-2026-04-22.md]
 ---
 
 # AI infra operating economics
@@ -1101,6 +1101,21 @@ The 11:00 pass reinforced the AI-infra operating-economics thesis by making the 
 
 ### Updated reading
 This remains **append_existing**. CK's durable thesis is sharper: the economic edge is not only choosing a model or connector, but packaging the substrate where agents actually run—Kubernetes, gateway policy, identity, GPU/HPC images, readiness gates, data stores, and managed workflow logs—so reliability and cost controls become repeatable.
+
+## 2026-06-09 late new-target reinforcement
+
+Source: `raw/transcripts/interest-signal-collection-22-00-2026-06-09.md`
+
+The 22:00 new-target pass strengthened the operating-economics thesis from the **cost/security control-plane** side, after the same-day 11:00 pass had already appended the managed-agent runtime / observability layer.
+
+### What looked fresh
+- **AWS Cost Explorer + Amazon Q** (`https://aws.amazon.com/about-aws/whats-new/2026/06/aws-cost-explorer-intelligent-cost-explanations`) turns cloud spend analysis into an AI-assisted operator workflow: cost trends, top drivers, anomalies, exact filters, time windows, and follow-up optimization questions move into the Cost Explorer chat surface.
+- **Cloudflare frontier cyber model defense** (`https://blog.cloudflare.com/frontier-model-defense/`) makes security architecture part of AI infra economics: the architecture around a vulnerability matters more than patch speed when frontier cyber models can exploit weak operating boundaries.
+- **GitHub periodic code scanning for inactive repositories** (`https://github.blog/changelog/2026-06-09-periodic-code-scanning-of-inactive-repositories`) adds another maintenance-control primitive: dormant repos still need scheduled security scans because agent/code ecosystems accumulate latent attack surface even when nobody is actively pushing code.
+- GitHub Trending added support rows such as `anthropics/claude-code-security-review`, `Ataraxy-Labs/sem`, `wanshuiyin/Auto-claude-code-research-in-sleep`, and `maximhq/bifrost`; they reinforce security review, semantic diffs, research skills, and AI gateways, but stay raw-only because they are single-surface trend evidence in this pass.
+
+### Updated reading
+This remains **append_existing**. CK's durable thesis is sharper: once managed agents are hosted, observable, and connected to tools, the next economic bottleneck is controlling spend, security posture, dormant-code risk, and gateway/review surfaces cheaply enough that agent productivity does not turn into invisible cloud or recovery cost.
 
 ## Related pages
 

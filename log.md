@@ -1689,3 +1689,11 @@
 - Live Chrome CDP on `127.0.0.1:9222` was unavailable; browser-tool checks were logged out or challenge-blocked for Threads liked, YouTube, GitHub Stars, Google My Activity, ChatGPT, Claude, and X
 - Threads API remained available and surfaced one new 2026-06-09 repost facade recovered as a civic/political election-statistics row, plus one new CK reply on a public AI-factory/Hermes/Claude-Code comparison post
 - Routed `raw_only`; updated `concepts/honcho.md` with the routing audit only and left `index.md` plus non-Honcho durable concept pages unchanged
+
+## [2026-06-09] ingest | Interest signal collection 22:00 new-target run
+- Saved raw source: `raw/transcripts/interest-signal-collection-22-00-2026-06-09.md`
+- Saved delivery note: `raw/transcripts/interest-signal-note-22-00-2026-06-09.md`
+- Compared against the same-day 11:00 new-target append, the 2026-06-08 22:00 new-target raw-only baseline, `log.md`, `concepts/honcho.md`, `concepts/managed-agents-practical-summary.md`, and `concepts/ai-infra-operating-economics.md`; social-signal surfaces were intentionally excluded
+- Fresh official rows came from AWS Cost Explorer intelligent cost explanations with Amazon Q, Cloudflare frontier cyber model defense, and GitHub periodic code scanning for inactive repositories; GitHub Trending added supporting single-surface rows such as `Auto-claude-code-research-in-sleep`, `sem`, `claude-code-security-review`, and `bifrost`
+- Routed `append_existing`; updated `concepts/ai-infra-operating-economics.md` and `concepts/honcho.md` with the cost/security control-plane reinforcement
+- Left `index.md` unchanged because no new durable page was created
