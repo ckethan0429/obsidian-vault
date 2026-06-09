@@ -1,10 +1,10 @@
 ---
 title: Honcho
 created: 2026-04-18
-updated: 2026-06-09
+updated: 2026-06-10
 type: concept
 tags: [agents, hermes, automation, assistant, workflows, protocols, browser-automation]
-sources: [raw/transcripts/interest-signal-collection-22-00-2026-06-09.md, raw/transcripts/interest-signal-note-22-00-2026-06-09.md, raw/transcripts/interest-signal-collection-19-00-2026-06-09.md, raw/transcripts/interest-signal-collection-11-00-2026-06-09.md, raw/transcripts/interest-signal-collection-08-00-2026-06-09.md, raw/transcripts/interest-signal-collection-22-00-2026-06-08.md, raw/transcripts/interest-signal-collection-19-00-2026-06-08.md, raw/transcripts/interest-signal-collection-11-00-2026-06-08.md, raw/transcripts/interest-signal-collection-22-00-2026-06-07.md, raw/transcripts/interest-signal-note-22-00-2026-06-07.md, raw/transcripts/interest-signal-collection-19-00-2026-06-07.md, raw/transcripts/interest-signal-collection-11-00-2026-06-07.md, raw/transcripts/interest-signal-collection-08-00-2026-06-07.md, raw/transcripts/interest-signal-collection-22-00-2026-06-06.md, raw/transcripts/interest-signal-note-22-00-2026-06-06.md, raw/transcripts/interest-signal-collection-19-00-2026-06-06.md, raw/transcripts/interest-signal-collection-11-00-2026-06-06.md, raw/transcripts/interest-signal-collection-08-00-2026-06-06.md, raw/transcripts/interest-signal-collection-22-00-2026-06-05.md, raw/transcripts/interest-signal-note-22-00-2026-06-05.md, raw/transcripts/interest-signal-collection-19-00-2026-06-05.md, raw/transcripts/interest-signal-collection-11-00-2026-06-05.md, raw/transcripts/interest-signal-collection-08-00-2026-06-05.md, raw/transcripts/interest-signal-collection-22-00-2026-06-04.md, raw/transcripts/interest-signal-note-22-00-2026-06-04.md, raw/transcripts/interest-signal-collection-19-00-2026-06-04.md, raw/transcripts/interest-signal-collection-11-00-2026-06-04.md, raw/transcripts/interest-signal-collection-08-00-2026-06-04.md, raw/transcripts/interest-signal-collection-22-00-2026-06-03.md, raw/transcripts/interest-signal-collection-19-00-2026-06-03.md, raw/transcripts/interest-signal-collection-11-00-2026-06-03.md, raw/transcripts/interest-signal-collection-08-00-2026-06-03.md, raw/transcripts/interest-signal-collection-22-00-2026-06-02.md, raw/transcripts/interest-signal-collection-11-00-2026-06-02.md, raw/transcripts/interest-signal-collection-08-00-2026-06-02.md, raw/transcripts/interest-signal-collection-11-00-2026-05-31.md, raw/transcripts/interest-signal-collection-22-00-2026-05-31.md]
+sources: [raw/transcripts/interest-signal-collection-08-00-2026-06-10.md, raw/transcripts/interest-signal-collection-22-00-2026-06-09.md, raw/transcripts/interest-signal-note-22-00-2026-06-09.md, raw/transcripts/interest-signal-collection-19-00-2026-06-09.md, raw/transcripts/interest-signal-collection-11-00-2026-06-09.md, raw/transcripts/interest-signal-collection-08-00-2026-06-09.md, raw/transcripts/interest-signal-collection-22-00-2026-06-08.md, raw/transcripts/interest-signal-collection-19-00-2026-06-08.md, raw/transcripts/interest-signal-collection-11-00-2026-06-08.md, raw/transcripts/interest-signal-collection-22-00-2026-06-07.md, raw/transcripts/interest-signal-note-22-00-2026-06-07.md, raw/transcripts/interest-signal-collection-19-00-2026-06-07.md, raw/transcripts/interest-signal-collection-11-00-2026-06-07.md, raw/transcripts/interest-signal-collection-08-00-2026-06-07.md, raw/transcripts/interest-signal-collection-22-00-2026-06-06.md, raw/transcripts/interest-signal-note-22-00-2026-06-06.md, raw/transcripts/interest-signal-collection-19-00-2026-06-06.md, raw/transcripts/interest-signal-collection-11-00-2026-06-06.md, raw/transcripts/interest-signal-collection-08-00-2026-06-06.md, raw/transcripts/interest-signal-collection-22-00-2026-06-05.md, raw/transcripts/interest-signal-note-22-00-2026-06-05.md, raw/transcripts/interest-signal-collection-19-00-2026-06-05.md, raw/transcripts/interest-signal-collection-11-00-2026-06-05.md, raw/transcripts/interest-signal-collection-08-00-2026-06-05.md, raw/transcripts/interest-signal-collection-22-00-2026-06-04.md, raw/transcripts/interest-signal-note-22-00-2026-06-04.md, raw/transcripts/interest-signal-collection-19-00-2026-06-04.md, raw/transcripts/interest-signal-collection-11-00-2026-06-04.md, raw/transcripts/interest-signal-collection-08-00-2026-06-04.md, raw/transcripts/interest-signal-collection-22-00-2026-06-03.md, raw/transcripts/interest-signal-collection-19-00-2026-06-03.md, raw/transcripts/interest-signal-collection-11-00-2026-06-03.md, raw/transcripts/interest-signal-collection-08-00-2026-06-03.md, raw/transcripts/interest-signal-collection-22-00-2026-06-02.md, raw/transcripts/interest-signal-collection-11-00-2026-06-02.md, raw/transcripts/interest-signal-collection-08-00-2026-06-02.md, raw/transcripts/interest-signal-collection-11-00-2026-05-31.md, raw/transcripts/interest-signal-collection-22-00-2026-05-31.md]
 ---
 
 # Honcho
@@ -2043,6 +2043,26 @@ The full day ended as **reinforcement-only at the 23:00 durable layer**. The 11:
 ### Why this matters
 - 2026-06-09 split cleanly into two already-absorbed durable appends: **managed-agent hosted runtime / observability** at 11:00 and **AI-infra cost/security control plane** at 22:00.
 - The social/API layer added grounded URLs but did not change the durable thesis, so Honcho's strict routing correctly prevented duplicate concept-page updates.
+
+
+## 2026-06-10 08:00 social/browser routing
+
+Reviewed file: `raw/transcripts/interest-signal-collection-08-00-2026-06-10.md`.
+
+The morning social/browser run is **raw_only / no-new-signal** after comparison with the 2026-06-09 19:00 social/browser transcript, 22:00 new-target append, and 23:00 Honcho refinement. Live Chrome CDP was unavailable again; Threads API remained the only authenticated source and repeated the previous newest rows.
+
+### Routed as `raw_only`
+- Threads API `/threads` newest row remained `https://www.threads.com/@ethan13917/post/DZWE_m5k-tD`, already captured in the 2026-06-09 19:00 run and recovered there as a civic/political election-statistics repost.
+- Threads API `/replies` newest row remained `https://www.threads.com/@ethan13917/post/DZWMQdgk34M`, already captured in the 2026-06-09 19:00 run as CK's reply on a Hermes / Claude Code / AI-factory comparison post.
+- `/mentions` returned 0 rows, while keyword searches for `agent`, `Claude Code`, `Codex`, `GPU`, `Ceph`, `Proxmox`, and `memory` returned older CK-authored rows; `Hermes`, `Honcho`, and `MCP` returned 0 rows.
+
+### Unavailable or not inferred
+- CDP at `http://127.0.0.1:9222` returned connection refused, so Threads liked/activity/reposts via authenticated CDP, YouTube authenticated feeds/playlists, GitHub Stars, Google My Activity, ChatGPT, Claude, and X could not be treated as authenticated browser evidence.
+- Browser-tool checks showed Threads liked login redirect, YouTube logged-out navigation, GitHub sign-in, Google My Activity sign-in/welcome page, ChatGPT/Claude Cloudflare challenges, and X logged-out/profile-unavailable shell. These are availability facts only, not negative evidence.
+
+### Not routed as `append_existing` or `promote_to_wiki`
+- No row was newer than the prior social/browser baseline and no durable AI-agent / Honcho / memory-routing / AI-infra signal changed.
+- The correct durable action set is raw transcript plus this Honcho/log audit only; `index.md` and non-Honcho concept pages remain unchanged.
 
 ## Related pages
 

@@ -1703,3 +1703,10 @@
 - Classified the day as reinforcement-only at the 23:00 durable layer: the 11:00 managed-agent runtime `append_existing` update and the 22:00 cost/security control-plane `append_existing` update had already been absorbed during ingest-stage updates
 - Kept 08:00/19:00 Threads civic-political rows, the 19:00 Hermes/Claude-Code social reply, and 22:00 GitHub Trending agent/security rows as `raw_only` or `manual_review` single-surface evidence
 - Added the whole-day routing audit to `concepts/honcho.md`; left raw evidence untouched and left `index.md` plus non-Honcho concept pages unchanged because no new durable page or duplicate concept-page append was justified
+
+## [2026-06-10] ingest | Interest signal collection 08:00 social/browser run
+- Saved raw source: `raw/transcripts/interest-signal-collection-08-00-2026-06-10.md`
+- Compared against the 2026-06-09 19:00 social/browser transcript, 22:00 new-target append, 23:00 Honcho refinement, `concepts/honcho.md`, and `log.md` before judging novelty
+- Live Chrome CDP on `127.0.0.1:9222` was unavailable; browser-tool checks were logged out or challenge-blocked for Threads liked, YouTube, GitHub Stars, Google My Activity, ChatGPT, Claude, and X
+- Threads API remained available but surfaced no rows newer than the 2026-06-09 19:00 `/threads` and `/replies` baseline; `/mentions` returned 0 rows and keyword searches repeated older CK-authored evidence or empty results
+- Routed `raw_only`; updated `concepts/honcho.md` with the routing audit only and left `index.md` plus non-Honcho durable concept pages unchanged
