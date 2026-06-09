@@ -1675,3 +1675,10 @@
 - Live Chrome CDP on `127.0.0.1:9222` was unavailable; browser-tool checks were logged out or challenge-blocked for Threads liked, YouTube, GitHub Stars, Google My Activity, ChatGPT, Claude, and X
 - Threads API remained available and surfaced two additional 2026-06-08 repost facades after the prior 19:00 capture; public browser recovery resolved them as civic/political election-statistics and foreigner-voting rows
 - Routed `raw_only`; updated `concepts/honcho.md` with the routing audit only and left `index.md` plus non-Honcho durable concept pages unchanged
+
+## [2026-06-09] ingest | Interest signal collection 11:00 new-target run
+- Saved raw source: `raw/transcripts/interest-signal-collection-11-00-2026-06-09.md`
+- Compared against the 2026-06-08 22:00 and 11:00 new-target baselines, `log.md`, `concepts/honcho.md`, `concepts/managed-agents-practical-summary.md`, and `concepts/ai-infra-operating-economics.md`; social-signal surfaces were intentionally excluded
+- Freshest official/new-target rows came from AWS AgentCore hosted coding agents, Nova Sonic voice-agent test harnesses, Amazon Connect AI-agent traces, and GitHub Trending `google/skills` plus same-axis gateway/vector/runtime repos
+- Routed `append_existing`; updated `concepts/managed-agents-practical-summary.md` and `concepts/honcho.md` with the managed-agent runtime / observability / skills-packaging reinforcement
+- Left `index.md` unchanged because no new durable page was created
