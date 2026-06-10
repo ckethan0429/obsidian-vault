@@ -1717,3 +1717,10 @@
 - Fresh official rows came from GKE Inference Gateway, Google Security Operations agents, AWS FinOps Agent, AWS agentic incident triage with New Relic MCP, AgentCore Browser Tool claims intake, and cross-cloud Claude Fable 5 availability
 - GitHub Trending added same-axis support such as `shareAI-lab/learn-claude-code`, `phuryn/pm-skills`, `x1xhlol/system-prompts-and-models-of-ai-tools`, and `danielmiessler/Personal_AI_Infrastructure`, but these stayed raw-only/manual-review-adjacent single-surface evidence
 - Routed `append_existing`; updated `concepts/ai-infra-operating-economics.md`, `concepts/managed-agents-practical-summary.md`, and `concepts/honcho.md`; left `index.md` unchanged because no new page was created
+
+## [2026-06-10] ingest | Interest signal collection 19:00 social/browser run
+- Saved raw source: `raw/transcripts/interest-signal-collection-19-00-2026-06-10.md`
+- Compared against the same-day 08:00 social/browser transcript, same-day 11:00 new-target append, 2026-06-09 19:00 social/browser baseline, 2026-06-09 23:00 Honcho refinement, `log.md`, and `concepts/honcho.md` before judging novelty
+- Live Chrome CDP on `127.0.0.1:9222` was unavailable; browser-tool checks were logged out, challenge-blocked, or unauthenticated for Threads liked, YouTube, GitHub Stars, Google My Activity, ChatGPT, Claude, and X
+- Threads API remained available and surfaced one new 2026-06-10 CK-authored civic/political post; `/replies`, `/mentions`, and keyword searches did not surface newer AI/agent/Honcho evidence than the existing baselines
+- Routed `raw_only`; updated `concepts/honcho.md` with the routing audit only and left `index.md` plus non-Honcho durable concept pages unchanged
