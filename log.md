@@ -1732,3 +1732,9 @@
 - Official-feed novelty was narrow but high-signal: GitHub Changelog added a post-11:00 Copilot CLI `/security-review` command for code-change security review
 - GitHub Trending and release checks added same-axis managed-agent/runtime support: `trpc-group/trpc-agent-go`, `comet-ml/opik`, `docker/docker-agent`, `activeloopai/hivemind`, `BerriAI/litellm`, and `code-yeongyu/oh-my-openagent`
 - Routed `append_existing`; updated `concepts/managed-agents-practical-summary.md` and `concepts/honcho.md`; left `index.md` unchanged because no new page was created
+
+## [2026-06-10] refine | Interest signal same-day Honcho triage 23:00
+- Reviewed same-day raw files: `raw/transcripts/interest-signal-collection-08-00-2026-06-10.md`, `raw/transcripts/interest-signal-collection-11-00-2026-06-10.md`, `raw/transcripts/interest-signal-collection-19-00-2026-06-10.md`, `raw/transcripts/interest-signal-collection-22-00-2026-06-10.md`, and `raw/transcripts/interest-signal-note-22-00-2026-06-10.md`
+- Classified the day as reinforcement-only at the 23:00 durable layer: the 11:00 production-inference/security/FinOps/MCP append and the 22:00 Copilot CLI `/security-review` managed-agent append had already been absorbed during ingest-stage updates
+- Kept 08:00 no-new-signal availability evidence and the 19:00 single-surface Threads civic/political row as `raw_only`; kept single-surface GitHub Trending runtime/security/workflow rows on the `manual_review`/`raw_only` boundary
+- Added the whole-day routing audit to `concepts/honcho.md`; left raw evidence untouched and left `index.md` plus non-Honcho concept pages unchanged because no new durable page or duplicate concept-page append was justified

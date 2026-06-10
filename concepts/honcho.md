@@ -2125,6 +2125,33 @@ The late official/new-target run is **append_existing** after comparison with th
 - The correct durable action was a scoped append to [[managed-agents-practical-summary]], plus this Honcho/log audit; `index.md` remains unchanged because no new page was created.
 - Raw evidence remains intact in the transcript; this Honcho entry records the route decision and durable scope.
 
+## 2026-06-10 same-day refinement summary
+
+Reviewed files: `raw/transcripts/interest-signal-collection-08-00-2026-06-10.md`, `raw/transcripts/interest-signal-collection-11-00-2026-06-10.md`, `raw/transcripts/interest-signal-collection-19-00-2026-06-10.md`, `raw/transcripts/interest-signal-collection-22-00-2026-06-10.md`, and `raw/transcripts/interest-signal-note-22-00-2026-06-10.md`.
+
+The full day is **reinforcement-only at the 23:00 durable layer**. The 11:00 official/new-target append and the 22:00 Copilot-CLI/security-review append were already absorbed earlier today into [[ai-infra-operating-economics]] and [[managed-agents-practical-summary]]. The social/API captures preserved useful availability and chronology evidence, but did not justify another durable concept-page update.
+
+### Routed as `append_existing`
+- The 11:00 new-target run strengthened [[ai-infra-operating-economics]] and [[managed-agents-practical-summary]] with official rows around GKE Inference Gateway, Google Security Operations agents, AWS FinOps Agent, AWS MCP-based incident triage, AgentCore Browser Tool, and cross-cloud Claude Fable 5 availability.
+- The 22:00 new-target run strengthened [[managed-agents-practical-summary]] with GitHub Copilot CLI `/security-review`, plus same-axis GitHub Trending/release support around production agent frameworks, observability/evaluation, AI gateways, Docker agent runtime, and local harness/shared-memory packaging.
+- These appends were already applied during the 11:00 and 22:00 ingest-stage updates, so the refinement pass does not duplicate the same content in those concept pages.
+
+### Routed as `raw_only`
+- The 08:00 social/browser run remained a no-new-signal availability audit: Threads API repeated the 2026-06-09 19:00 newest `/threads` and `/replies` rows, while CDP/browser-authenticated surfaces were unavailable, logged out, or challenge-blocked.
+- The 19:00 social/browser run added one fresh Threads API/public-permalink row, `https://www.threads.com/@ethan13917/post/DZZd_15k-FC`, but it was single-surface civic/political evidence rather than an AI-agent, Honcho, memory-routing, or AI-infra signal.
+- GitHub Trending rows from the 11:00 and 22:00 runs stayed supporting evidence unless already absorbed by the existing managed-agent / AI-infra pages.
+
+### Routed as `manual_review`
+- Single-surface GitHub Trending items such as `x1xhlol/system-prompts-and-models-of-ai-tools`, `cloud-hypervisor/cloud-hypervisor`, `kata-containers/kata-containers`, `argoproj/argo-workflows`, `activeloopai/hivemind`, and similar runtime/security/workflow rows remain potentially useful but too weak or broad for standalone promotion.
+
+### Routed as `discard` / not promoted
+- Logged-out/challenge pages, generic feed backfill, older keyword-search hits, model-availability repetition, and unrelated civic/political/social noise were not promoted.
+
+### Not routed as `promote_to_wiki`
+- No new durable concept or entity emerged after deduplicating the four same-day collection windows against the 2026-06-09 baselines and earlier same-day updates.
+- `index.md` remains unchanged because no page was created.
+- Raw evidence remains untouched; the 23:00 durable change is only this whole-day Honcho audit plus the log entry.
+
 ## Related pages
 
 - [[interest-signal-sources]]
