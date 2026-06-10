@@ -1,10 +1,10 @@
 ---
 title: AI infra operating economics
 created: 2026-04-22
-updated: 2026-06-09
+updated: 2026-06-10
 type: concept
 tags: [infrastructure, gpu, storage, proxmox, agents, business, strategy]
-sources: [raw/transcripts/interest-signal-collection-22-00-2026-06-09.md, raw/transcripts/interest-signal-collection-11-00-2026-06-05.md, raw/transcripts/interest-signal-collection-11-00-2026-06-04.md, raw/transcripts/interest-signal-collection-22-00-2026-06-03.md, raw/transcripts/interest-signal-collection-11-00-2026-06-03.md, raw/transcripts/interest-signal-collection-22-00-2026-06-02.md, raw/transcripts/interest-signal-collection-11-00-2026-06-02.md, raw/transcripts/interest-signal-collection-22-00-2026-06-01.md, raw/transcripts/interest-signal-collection-11-00-2026-05-31.md, raw/transcripts/interest-signal-collection-22-00-2026-05-31.md, raw/transcripts/interest-signal-collection-08-00-2026-04-22.md, raw/transcripts/interest-signal-collection-19-00-2026-04-22.md]
+sources: [raw/transcripts/interest-signal-collection-11-00-2026-06-10.md, raw/transcripts/interest-signal-collection-22-00-2026-06-09.md, raw/transcripts/interest-signal-collection-11-00-2026-06-05.md, raw/transcripts/interest-signal-collection-11-00-2026-06-04.md, raw/transcripts/interest-signal-collection-22-00-2026-06-03.md, raw/transcripts/interest-signal-collection-11-00-2026-06-03.md, raw/transcripts/interest-signal-collection-22-00-2026-06-02.md, raw/transcripts/interest-signal-collection-11-00-2026-06-02.md, raw/transcripts/interest-signal-collection-22-00-2026-06-01.md, raw/transcripts/interest-signal-collection-11-00-2026-05-31.md, raw/transcripts/interest-signal-collection-22-00-2026-05-31.md, raw/transcripts/interest-signal-collection-08-00-2026-04-22.md, raw/transcripts/interest-signal-collection-19-00-2026-04-22.md]
 ---
 
 # AI infra operating economics
@@ -1116,6 +1116,21 @@ The 22:00 new-target pass strengthened the operating-economics thesis from the *
 
 ### Updated reading
 This remains **append_existing**. CK's durable thesis is sharper: once managed agents are hosted, observable, and connected to tools, the next economic bottleneck is controlling spend, security posture, dormant-code risk, and gateway/review surfaces cheaply enough that agent productivity does not turn into invisible cloud or recovery cost.
+
+## 2026-06-10 new-target reinforcement
+
+Source: `raw/transcripts/interest-signal-collection-11-00-2026-06-10.md`
+
+The 11:00 new-target pass strengthened the operating-economics thesis from the **production inference and agent-control** side, after the prior 22:00 pass had already added cost/security governance evidence.
+
+### What looked fresh
+- **GKE Inference Gateway** (`https://cloud.google.com/blog/products/containers-kubernetes/gke-inference-gateway-prefix-caching-accelerates-ai-inference/`) made cache-aware inference routing an explicit margin lever: prefix caching, model-aware routing, accelerator utilization, and latency reduction are now first-class Kubernetes economics for LLM serving.
+- **Google Security Operations agents** (`https://cloud.google.com/blog/products/identity-security/detecting-and-containing-powered-threats-with-google-security-operations-agents/`) and **AWS FinOps Agent** (`https://aws.amazon.com/about-aws/whats-new/2026/06/aws-finops-agent-preview/`) put response automation and cloud-cost investigation into agent workflows rather than separate analyst chores.
+- **AWS agentic incident triage with New Relic MCP** (`https://aws.amazon.com/blogs/machine-learning/build-an-agentic-incident-triage-assistant-with-amazon-quick-and-new-relic/`) shows the same economics at incident time: an agent can gather RCA evidence through MCP and hand off tracked work, reducing manual triage latency.
+- **AgentCore Browser Tool for claims intake** (`https://aws.amazon.com/blogs/machine-learning/hands-free-first-notice-of-loss-using-strands-agents-and-amazon-bedrock-agentcore-browser-tool-for-intelligent-claims-intake/`) keeps browser automation in the production-control plane: agents need to operate live portals without collapsing security, auditability, or human-domain expertise.
+
+### Updated reading
+This remains **append_existing**. CK's durable thesis is sharper: production AI infra is becoming a routing-and-control economics problem across inference gateways, security agents, FinOps agents, MCP incident loops, and browser-tool execution. The edge is not only deploying agents, but making their latency, spend, incident response, and portal actions measurable enough to operate repeatedly.
 
 ## Related pages
 
