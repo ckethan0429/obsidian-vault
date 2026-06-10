@@ -1724,3 +1724,11 @@
 - Live Chrome CDP on `127.0.0.1:9222` was unavailable; browser-tool checks were logged out, challenge-blocked, or unauthenticated for Threads liked, YouTube, GitHub Stars, Google My Activity, ChatGPT, Claude, and X
 - Threads API remained available and surfaced one new 2026-06-10 CK-authored civic/political post; `/replies`, `/mentions`, and keyword searches did not surface newer AI/agent/Honcho evidence than the existing baselines
 - Routed `raw_only`; updated `concepts/honcho.md` with the routing audit only and left `index.md` plus non-Honcho durable concept pages unchanged
+
+## [2026-06-10] ingest | Interest signal collection 22:00 new-target run
+- Saved raw source: `raw/transcripts/interest-signal-collection-22-00-2026-06-10.md`
+- Saved delivery note: `raw/transcripts/interest-signal-note-22-00-2026-06-10.md`
+- Compared against the same-day 11:00 new-target append, the 2026-06-09 22:00 new-target append, `log.md`, `concepts/honcho.md`, `concepts/managed-agents-practical-summary.md`, and `concepts/ai-infra-operating-economics.md`; social-signal surfaces were intentionally excluded
+- Official-feed novelty was narrow but high-signal: GitHub Changelog added a post-11:00 Copilot CLI `/security-review` command for code-change security review
+- GitHub Trending and release checks added same-axis managed-agent/runtime support: `trpc-group/trpc-agent-go`, `comet-ml/opik`, `docker/docker-agent`, `activeloopai/hivemind`, `BerriAI/litellm`, and `code-yeongyu/oh-my-openagent`
+- Routed `append_existing`; updated `concepts/managed-agents-practical-summary.md` and `concepts/honcho.md`; left `index.md` unchanged because no new page was created
