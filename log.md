@@ -1738,3 +1738,10 @@
 - Classified the day as reinforcement-only at the 23:00 durable layer: the 11:00 production-inference/security/FinOps/MCP append and the 22:00 Copilot CLI `/security-review` managed-agent append had already been absorbed during ingest-stage updates
 - Kept 08:00 no-new-signal availability evidence and the 19:00 single-surface Threads civic/political row as `raw_only`; kept single-surface GitHub Trending runtime/security/workflow rows on the `manual_review`/`raw_only` boundary
 - Added the whole-day routing audit to `concepts/honcho.md`; left raw evidence untouched and left `index.md` plus non-Honcho concept pages unchanged because no new durable page or duplicate concept-page append was justified
+
+## [2026-06-11] ingest | Interest signal collection 08:00 social/browser run
+- Saved raw source: `raw/transcripts/interest-signal-collection-08-00-2026-06-11.md`
+- Compared against the 2026-06-10 19:00 social/browser transcript, 22:00 new-target append, 23:00 Honcho refinement, `concepts/honcho.md`, and `log.md` before judging novelty
+- Live Chrome CDP on `127.0.0.1:9222` was unavailable; browser-tool checks were logged out, challenge-blocked, or unauthenticated for Threads liked, YouTube, GitHub Stars, Google My Activity, ChatGPT, Claude, and X
+- Threads API remained available and surfaced one new URL-only reply, `https://www.threads.com/@ethan13917/post/DZaCwZ7E60n`, pointing back to the already captured civic/political Threads post; `/threads`, `/mentions`, and keyword searches did not surface newer AI/agent/Honcho evidence than the existing baselines
+- Routed `raw_only`; updated `concepts/honcho.md` with the routing audit only and left `index.md` plus non-Honcho durable concept pages unchanged
