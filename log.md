@@ -1773,3 +1773,10 @@
 - Classified the day as reinforcement-only at the 23:00 durable layer: the 11:00 AgentCore/Neuron/Copilot/LangChain/Spark/ECS/Oracle append and the 22:00 OpenSearch MCP Apps / Bedrock GPT-5.5 / Fable visibility / coding-agent telemetry append had already been absorbed during ingest-stage updates
 - Kept 08:00 URL-only civic/political reply evidence, 19:00 Fable 5 family/education Threads evidence, and 19:00 civic/political reply evidence as `raw_only`; marked the Fable family/education lane and runtime/skill-security support rows as watchlist/manual-review rather than page-promotion candidates
 - Added the whole-day routing audit to `concepts/honcho.md`; left raw evidence untouched and left `index.md` plus non-Honcho concept pages unchanged because no new durable page or duplicate concept-page append was justified
+
+## [2026-06-12] ingest | Interest signal collection 08:00 social/browser run
+- Saved raw source: `raw/transcripts/interest-signal-collection-08-00-2026-06-12.md`
+- Compared against the 2026-06-11 08:00/19:00 social/browser transcripts, 11:00/22:00 new-target appends, 23:00 Honcho refinement, `concepts/honcho.md`, and `log.md` before judging novelty
+- Live Chrome CDP on `127.0.0.1:9222` was unavailable; browser-tool checks were logged out, challenge-blocked, or unauthenticated for Threads liked, YouTube subscriptions/liked/Watch Later, GitHub Stars, Google My Activity, ChatGPT, Claude, and X
+- Threads API remained available and surfaced one new 2026-06-12 repost facade, `https://www.threads.com/@ethan13917/post/DZdK7-8Ex2O`; public recovery resolved it to the election-photo/civic-political post `https://www.threads.com/@nyearpromo/post/DZcSFpUGCU9`
+- Routed `raw_only`; updated `concepts/honcho.md` with the routing audit only and left `index.md` plus non-Honcho durable concept pages unchanged
