@@ -1767,3 +1767,9 @@
 - Fresh/newly observed official rows came from OpenSearch MCP Apps for agentic observability, OpenAI GPT-5.4/GPT-5.5 on Bedrock, Simon/Wired on visible Fable 5 safeguard fallback, and Docker Hardened Images + Aikido/VEX scanning
 - GitHub Trending/release checks added same-axis support such as `graykode/abtop`, `kenn-io/agentsview`, `NVIDIA/SkillSpector`, `mlflow/mlflow`, `QuantumNous/new-api`, and `hatchet-dev/hatchet`; most stayed raw-only or append-support single-surface evidence
 - Routed `append_existing`; updated `concepts/managed-agents-practical-summary.md` and `concepts/honcho.md`; left `index.md` unchanged because no new page was created
+
+## [2026-06-11] refine | Interest signal same-day Honcho triage 23:00
+- Reviewed same-day raw files: `raw/transcripts/interest-signal-collection-08-00-2026-06-11.md`, `raw/transcripts/interest-signal-collection-11-00-2026-06-11.md`, `raw/transcripts/interest-signal-collection-19-00-2026-06-11.md`, `raw/transcripts/interest-signal-collection-22-00-2026-06-11.md`, and `raw/transcripts/interest-signal-note-22-00-2026-06-11.md`
+- Classified the day as reinforcement-only at the 23:00 durable layer: the 11:00 AgentCore/Neuron/Copilot/LangChain/Spark/ECS/Oracle append and the 22:00 OpenSearch MCP Apps / Bedrock GPT-5.5 / Fable visibility / coding-agent telemetry append had already been absorbed during ingest-stage updates
+- Kept 08:00 URL-only civic/political reply evidence, 19:00 Fable 5 family/education Threads evidence, and 19:00 civic/political reply evidence as `raw_only`; marked the Fable family/education lane and runtime/skill-security support rows as watchlist/manual-review rather than page-promotion candidates
+- Added the whole-day routing audit to `concepts/honcho.md`; left raw evidence untouched and left `index.md` plus non-Honcho concept pages unchanged because no new durable page or duplicate concept-page append was justified

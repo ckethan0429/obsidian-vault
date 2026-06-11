@@ -2235,6 +2235,36 @@ The 22:00 official/new-target run is **append_existing** after comparison with t
 - The correct durable action is a scoped append to [[managed-agents-practical-summary]] plus this Honcho/log audit.
 - `index.md` remains unchanged because no new page was created.
 
+## 2026-06-11 same-day refinement summary
+
+Reviewed files: `raw/transcripts/interest-signal-collection-08-00-2026-06-11.md`, `raw/transcripts/interest-signal-collection-11-00-2026-06-11.md`, `raw/transcripts/interest-signal-collection-19-00-2026-06-11.md`, `raw/transcripts/interest-signal-collection-22-00-2026-06-11.md`, and `raw/transcripts/interest-signal-note-22-00-2026-06-11.md`.
+
+The full day is **reinforcement-only at the 23:00 durable layer**. The 11:00 and 22:00 new-target runs already absorbed the useful durable deltas into [[managed-agents-practical-summary]] and [[ai-infra-operating-economics]] during their ingest-stage updates. The social/API runs preserved fresh chronology and public URLs, but did not justify another concept-page append or a new page.
+
+### Routed as `append_existing`
+- The 11:00 official/new-target run already appended the strongest same-day delta: AgentCore field-workflow runtime, Neuron Agentic Development, Copilot agent-session visibility, LangChain client-side/verifier primitives, Spark unit economics, ECS daemonized observability/security agents, Oracle/Codex procurement, and compute-substrate support.
+- The 22:00 new-target run already appended the narrower managed-agent control-surface delta: OpenSearch MCP Apps for agentic observability, GPT-5.4/GPT-5.5 on Bedrock for long-running agent tasks, visible Fable 5 fallback/refusal state, coding-agent session telemetry via `abtop` and `agentsview`, and skill supply-chain scanning via `NVIDIA/SkillSpector`.
+- These were already applied to the existing concept pages, so this refinement pass does not duplicate those sections.
+
+### Routed as `raw_only`
+- The 08:00 Threads API row `https://www.threads.com/@ethan13917/post/DZaCwZ7E60n` is a URL-only reply pointing back to the already captured civic/political post `https://www.threads.com/@ethan13917/post/DZZd_15k-FC`; it remains chronology evidence only.
+- The 19:00 Threads/Fable social row (`https://www.threads.com/@ethan13917/post/DZbXd5GE70r`, resolved to `https://www.threads.com/@sw.never.sleep/post/DZZugkRGefI`, with app/repo links `https://space-for-kids.vercel.app/` and `https://github.com/hans2cloud9/space-for-kids`) is a useful single-surface signal for Claude/Fable-assisted family/education creation, but not strong enough for promotion today.
+- The 19:00 civic/political reply `https://www.threads.com/@ethan13917/post/DZcEx9GE1rQ` stays raw-only chronology and outside the durable AI-agent / Honcho / AI-infra map.
+- Docker Hardened Images + Aikido/VEX, Google Antigravity surface selection, and GitHub Trending rows such as `mlflow/mlflow`, `QuantumNous/new-api`, `hatchet-dev/hatchet`, `mksglu/context-mode`, `karpathy/autoresearch`, and `vllm-project/semantic-router` remain useful support evidence, but not new branches.
+
+### Routed as `manual_review`
+- The Fable 5 family/education signal is worth watching if it repeats across YouTube, GitHub stars, ChatGPT/Claude recents, or more Threads rows; a single public Threads repost/reply is not enough to create an AI-for-family/education concept page yet.
+- Docker/Aikido VEX and `NVIDIA/SkillSpector` should stay on the watchlist for agent skill/runtime supply-chain security, but today they are already adequately represented as support inside the managed-agent checklist.
+
+### Routed as `discard` / not promoted
+- Logged-out/challenge/unavailable browser states for Threads liked, YouTube, GitHub Stars, Google My Activity, ChatGPT, Claude, and X remain availability facts only; they are not evidence of changed interests.
+- Older keyword-search hits, stale feed backfill, generic cloud rows, and unrelated civic/political/social noise were not promoted.
+
+### Not routed as `promote_to_wiki`
+- No new durable concept or entity emerged after deduplicating the 08:00, 11:00, 19:00, and 22:00 files against same-day ingest updates and the recent 2026-06-10 baselines.
+- `index.md` remains unchanged because no new page was created.
+- Raw evidence remains untouched; the 23:00 durable change is only this whole-day Honcho audit plus the log entry.
+
 ## Related pages
 
 - [[interest-signal-sources]]
