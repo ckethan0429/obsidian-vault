@@ -1752,3 +1752,10 @@
 - Fresh official rows came from AWS Bedrock AgentCore repair assistant, AWS Neuron Agentic Development for Trainium optimization, GitHub Copilot Chat agent-session visibility, LangChain client-side tool/verifier posts, Google Cloud Lightning Engine Spark unit economics, ECS Managed Daemons, and OpenAI/Codex through Oracle Cloud
 - GitHub Trending/release checks added same-axis support such as `google-labs-code/design.md`, `junhoyeo/tokscale`, `dmtrKovalenko/fff`, `shimmy`, and release updates for `agent-skills`, `hivemind`, `opik`, and `docker-agent`, but these stayed raw-only/manual-review-adjacent single-surface evidence
 - Routed `append_existing`; updated `concepts/managed-agents-practical-summary.md`, `concepts/ai-infra-operating-economics.md`, and `concepts/honcho.md`; left `index.md` unchanged because no new page was created
+
+## [2026-06-11] ingest | Interest signal collection 19:00 social/browser run
+- Saved raw source: `raw/transcripts/interest-signal-collection-19-00-2026-06-11.md`
+- Compared against the same-day 08:00 social/browser raw transcript, same-day 11:00 new-target append, 2026-06-10 19:00/22:00 baselines, `concepts/honcho.md`, and `log.md` before judging novelty
+- Live Chrome CDP on `127.0.0.1:9222` was unavailable; browser-tool checks were logged out, challenge-blocked, or unauthenticated for Threads liked, YouTube subscriptions/liked/Watch Later, GitHub Stars, Google My Activity, ChatGPT, Claude, and X
+- Threads API remained available and surfaced a fresh Fable 5 / Claude AI repost+reply (`https://www.threads.com/@ethan13917/post/DZbXd5GE70r`, `https://www.threads.com/@ethan13917/post/DZbXfKDkxZR`) plus a later civic/political reply (`https://www.threads.com/@ethan13917/post/DZcEx9GE1rQ`); public recovery grounded the Fable 5 post at `https://www.threads.com/@sw.never.sleep/post/DZZugkRGefI`
+- Routed `raw_only`; updated `concepts/honcho.md` with the routing audit only and left `index.md` plus non-Honcho durable concept pages unchanged
