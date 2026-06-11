@@ -1745,3 +1745,10 @@
 - Live Chrome CDP on `127.0.0.1:9222` was unavailable; browser-tool checks were logged out, challenge-blocked, or unauthenticated for Threads liked, YouTube, GitHub Stars, Google My Activity, ChatGPT, Claude, and X
 - Threads API remained available and surfaced one new URL-only reply, `https://www.threads.com/@ethan13917/post/DZaCwZ7E60n`, pointing back to the already captured civic/political Threads post; `/threads`, `/mentions`, and keyword searches did not surface newer AI/agent/Honcho evidence than the existing baselines
 - Routed `raw_only`; updated `concepts/honcho.md` with the routing audit only and left `index.md` plus non-Honcho durable concept pages unchanged
+
+## [2026-06-11] ingest | Interest signal collection 11:00 new-target run
+- Saved raw source: `raw/transcripts/interest-signal-collection-11-00-2026-06-11.md`
+- Compared against the 2026-06-10 22:00 and 11:00 new-target baselines, same-day 08:00 social/browser run, `log.md`, `concepts/honcho.md`, `concepts/managed-agents-practical-summary.md`, and `concepts/ai-infra-operating-economics.md`; social-signal surfaces were intentionally excluded
+- Fresh official rows came from AWS Bedrock AgentCore repair assistant, AWS Neuron Agentic Development for Trainium optimization, GitHub Copilot Chat agent-session visibility, LangChain client-side tool/verifier posts, Google Cloud Lightning Engine Spark unit economics, ECS Managed Daemons, and OpenAI/Codex through Oracle Cloud
+- GitHub Trending/release checks added same-axis support such as `google-labs-code/design.md`, `junhoyeo/tokscale`, `dmtrKovalenko/fff`, `shimmy`, and release updates for `agent-skills`, `hivemind`, `opik`, and `docker-agent`, but these stayed raw-only/manual-review-adjacent single-surface evidence
+- Routed `append_existing`; updated `concepts/managed-agents-practical-summary.md`, `concepts/ai-infra-operating-economics.md`, and `concepts/honcho.md`; left `index.md` unchanged because no new page was created

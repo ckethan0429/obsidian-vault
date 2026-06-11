@@ -1,10 +1,10 @@
 ---
 title: AI infra operating economics
 created: 2026-04-22
-updated: 2026-06-10
+updated: 2026-06-11
 type: concept
 tags: [infrastructure, gpu, storage, proxmox, agents, business, strategy]
-sources: [raw/transcripts/interest-signal-collection-11-00-2026-06-10.md, raw/transcripts/interest-signal-collection-22-00-2026-06-09.md, raw/transcripts/interest-signal-collection-11-00-2026-06-05.md, raw/transcripts/interest-signal-collection-11-00-2026-06-04.md, raw/transcripts/interest-signal-collection-22-00-2026-06-03.md, raw/transcripts/interest-signal-collection-11-00-2026-06-03.md, raw/transcripts/interest-signal-collection-22-00-2026-06-02.md, raw/transcripts/interest-signal-collection-11-00-2026-06-02.md, raw/transcripts/interest-signal-collection-22-00-2026-06-01.md, raw/transcripts/interest-signal-collection-11-00-2026-05-31.md, raw/transcripts/interest-signal-collection-22-00-2026-05-31.md, raw/transcripts/interest-signal-collection-08-00-2026-04-22.md, raw/transcripts/interest-signal-collection-19-00-2026-04-22.md]
+sources: [raw/transcripts/interest-signal-collection-11-00-2026-06-11.md, raw/transcripts/interest-signal-collection-11-00-2026-06-10.md, raw/transcripts/interest-signal-collection-22-00-2026-06-09.md, raw/transcripts/interest-signal-collection-11-00-2026-06-05.md, raw/transcripts/interest-signal-collection-11-00-2026-06-04.md, raw/transcripts/interest-signal-collection-22-00-2026-06-03.md, raw/transcripts/interest-signal-collection-11-00-2026-06-03.md, raw/transcripts/interest-signal-collection-22-00-2026-06-02.md, raw/transcripts/interest-signal-collection-11-00-2026-06-02.md, raw/transcripts/interest-signal-collection-22-00-2026-06-01.md, raw/transcripts/interest-signal-collection-11-00-2026-05-31.md, raw/transcripts/interest-signal-collection-22-00-2026-05-31.md, raw/transcripts/interest-signal-collection-08-00-2026-04-22.md, raw/transcripts/interest-signal-collection-19-00-2026-04-22.md]
 ---
 
 # AI infra operating economics
@@ -1131,6 +1131,22 @@ The 11:00 new-target pass strengthened the operating-economics thesis from the *
 
 ### Updated reading
 This remains **append_existing**. CK's durable thesis is sharper: production AI infra is becoming a routing-and-control economics problem across inference gateways, security agents, FinOps agents, MCP incident loops, and browser-tool execution. The edge is not only deploying agents, but making their latency, spend, incident response, and portal actions measurable enough to operate repeatedly.
+
+## 2026-06-11 new-target reinforcement
+
+Source: `raw/transcripts/interest-signal-collection-11-00-2026-06-11.md`
+
+The 11:00 pass strengthened the operating-economics thesis from the **agentic runtime and unit-cost substrate** side. The freshest rows were not a new model story; they were about making agent workloads cheaper, governable, and observable where they actually run.
+
+### What looked fresh
+- **Google Cloud Lightning Engine for Apache Spark** (`https://cloud.google.com/blog/products/data-analytics/lighting-engine-for-apache-spark-performance-deep-dive/`) explicitly framed agentic workloads as thousands of concurrent, multi-hop queries whose Spark performance directly dictates unit economics.
+- **AWS ECS Managed Daemons PID/IPC modes** (`https://aws.amazon.com/about-aws/whats-new/2026/06/ecs-managed-daemons-pid-ipc-modes/`) made tracing, profiling, and security agents easier to run as process-aware managed daemons without embedding them as sidecars in every task definition.
+- **AWS EC2 M9g/M9gd** (`https://aws.amazon.com/about-aws/whats-new/2026/06/ec2-m9g-m9gd-instances-graviton5-processors-available`) and **P6-B200 GovCloud** (`https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-p6-b200-aws-govcloud/`) kept the compute substrate visible: agentic AI use cases, local NVMe/cache/scratch storage, Blackwell GPU memory, and regulated-region capacity are all operating-margin levers.
+- **OpenAI on Oracle Cloud** (`https://openai.com/index/openai-on-oracle-cloud`) added another enterprise procurement/governance path for OpenAI models and Codex through existing Oracle cloud commitments.
+- **Neuron Agentic Development** and **AgentCore repair assistant** connect infra economics back to managed agents: optimization, RAG/memory, and domain workflows are moving into reusable cloud primitives rather than bespoke scripts.
+
+### Updated reading
+This remains **append_existing**. CK's durable thesis is sharper: as agent workloads scale, the economic edge is in the substrate—query engines, daemonized observability/security agents, CPU/GPU instance economics, procurement commitments, accelerator optimization, and memory/RAG runtimes—not in isolated launch posts. The page does not need a new branch; it needs this as another concrete data point that agent operations are becoming cost-control infrastructure.
 
 ## Related pages
 
