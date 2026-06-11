@@ -1759,3 +1759,11 @@
 - Live Chrome CDP on `127.0.0.1:9222` was unavailable; browser-tool checks were logged out, challenge-blocked, or unauthenticated for Threads liked, YouTube subscriptions/liked/Watch Later, GitHub Stars, Google My Activity, ChatGPT, Claude, and X
 - Threads API remained available and surfaced a fresh Fable 5 / Claude AI repost+reply (`https://www.threads.com/@ethan13917/post/DZbXd5GE70r`, `https://www.threads.com/@ethan13917/post/DZbXfKDkxZR`) plus a later civic/political reply (`https://www.threads.com/@ethan13917/post/DZcEx9GE1rQ`); public recovery grounded the Fable 5 post at `https://www.threads.com/@sw.never.sleep/post/DZZugkRGefI`
 - Routed `raw_only`; updated `concepts/honcho.md` with the routing audit only and left `index.md` plus non-Honcho durable concept pages unchanged
+
+## [2026-06-11] ingest | Interest signal collection 22:00 new-target run
+- Saved raw source: `raw/transcripts/interest-signal-collection-22-00-2026-06-11.md`
+- Saved delivery note: `raw/transcripts/interest-signal-note-22-00-2026-06-11.md`
+- Compared against the same-day 11:00 new-target append, the 2026-06-10 22:00 new-target append, `log.md`, `concepts/honcho.md`, `concepts/managed-agents-practical-summary.md`, and `concepts/ai-infra-operating-economics.md`; social-signal surfaces were intentionally excluded
+- Fresh/newly observed official rows came from OpenSearch MCP Apps for agentic observability, OpenAI GPT-5.4/GPT-5.5 on Bedrock, Simon/Wired on visible Fable 5 safeguard fallback, and Docker Hardened Images + Aikido/VEX scanning
+- GitHub Trending/release checks added same-axis support such as `graykode/abtop`, `kenn-io/agentsview`, `NVIDIA/SkillSpector`, `mlflow/mlflow`, `QuantumNous/new-api`, and `hatchet-dev/hatchet`; most stayed raw-only or append-support single-surface evidence
+- Routed `append_existing`; updated `concepts/managed-agents-practical-summary.md` and `concepts/honcho.md`; left `index.md` unchanged because no new page was created
