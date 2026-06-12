@@ -1794,3 +1794,11 @@
 - Live Chrome CDP on `127.0.0.1:9222` was unavailable; browser-tool checks were logged out, challenge-blocked, or unauthenticated for Threads liked, YouTube subscriptions/liked/Watch Later, GitHub Stars, Google My Activity, ChatGPT, Claude, and X
 - Threads API remained available and surfaced one new 2026-06-12 reply, `https://www.threads.com/@ethan13917/post/DZeEotNk1vD`, about individual investors versus institutions/foreign investors; `/threads`, `/mentions`, and keyword searches did not add newer AI/agent/Honcho evidence than existing baselines
 - Routed `raw_only`; updated `concepts/honcho.md` with the routing audit only and left `index.md` plus non-Honcho durable concept pages unchanged
+
+## [2026-06-12] ingest | Interest signal collection 22:00 new-target run
+- Saved raw source: `raw/transcripts/interest-signal-collection-22-00-2026-06-12.md`
+- Saved delivery note: `raw/transcripts/interest-signal-note-22-00-2026-06-12.md`
+- Compared against the same-day 11:00 new-target append, the 2026-06-11 22:00 new-target append, `log.md`, `concepts/honcho.md`, `concepts/managed-agents-practical-summary.md`, and `concepts/ai-infra-operating-economics.md`; social-signal surfaces were intentionally excluded
+- Fresh official novelty was narrow: AWS ProServe's frontier-team transformation row was the only clearly post-11:00 official item, while Bedrock Data Automation, LangChain SmithDB, Vercel Okara, and GitHub Enterprise Server were newly observed support/backfill rows
+- GitHub Trending added new-to-baseline single-surface support such as `windmill-labs/windmill`, `LLMQuant/quant-mind`, `milvus-io/milvus`, and `onyx-dot-app/onyx`, while stronger agent/coding rows repeated the same-day 11:00 or prior Honcho baselines
+- Routed `raw_only`; updated `concepts/honcho.md` with the routing audit only and left `index.md` plus non-Honcho durable concept pages unchanged
