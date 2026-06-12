@@ -1787,3 +1787,10 @@
 - Fresh official rows came from GitHub Agentic Workflows public preview / no-PAT update, AWS Agent-EvalKit, Google Looker agents, Google Confidential AI, CloudWatch Application Signals context, and Simon Willison's Fable 5 proactive-agent note
 - GitHub Trending/release checks added same-axis support such as `googleapis/mcp-toolbox`, `always-further/nono`, `anthropics/claude-agent-sdk-python`, `coder/coder`, `hexo-ai/sia`, and `flyteorg/flyte`, but these stayed raw-only/manual-review-adjacent single-surface evidence
 - Routed `append_existing`; updated `concepts/managed-agents-practical-summary.md`, `concepts/ai-infra-operating-economics.md`, and `concepts/honcho.md`; left `index.md` unchanged because no new page was created
+
+## [2026-06-12] ingest | Interest signal collection 19:00 social/browser run
+- Saved raw source: `raw/transcripts/interest-signal-collection-19-00-2026-06-12.md`
+- Compared against the same-day 08:00 social/browser transcript, same-day 11:00 new-target append, 2026-06-11 19:00 social/browser baseline, `concepts/honcho.md`, and `log.md` before judging novelty
+- Live Chrome CDP on `127.0.0.1:9222` was unavailable; browser-tool checks were logged out, challenge-blocked, or unauthenticated for Threads liked, YouTube subscriptions/liked/Watch Later, GitHub Stars, Google My Activity, ChatGPT, Claude, and X
+- Threads API remained available and surfaced one new 2026-06-12 reply, `https://www.threads.com/@ethan13917/post/DZeEotNk1vD`, about individual investors versus institutions/foreign investors; `/threads`, `/mentions`, and keyword searches did not add newer AI/agent/Honcho evidence than existing baselines
+- Routed `raw_only`; updated `concepts/honcho.md` with the routing audit only and left `index.md` plus non-Honcho durable concept pages unchanged
