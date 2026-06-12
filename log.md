@@ -1808,3 +1808,10 @@
 - Classified the day as reinforcement-only at the 23:00 durable layer: the 11:00 GitHub Agentic Workflows / Agent-EvalKit / Looker agents / Confidential AI / Fable proactive-agent append had already been absorbed during ingest-stage updates
 - Kept 08:00 civic/political Threads repost evidence, 19:00 investing/social Threads reply evidence, and 22:00 AWS ProServe / Bedrock Data Automation / SmithDB / Vercel Okara / GitHub Trending rotations as `raw_only`; marked `LLMQuant/quant-mind` and AWS ProServe frontier-team as `manual_review` watchlist rather than promotion candidates
 - Added the whole-day routing audit to `concepts/honcho.md`; left raw evidence untouched and left `index.md` plus non-Honcho concept pages unchanged because no new durable page or duplicate concept-page append was justified
+
+## [2026-06-13] ingest | Interest signal collection 08:00 social/browser run
+- Saved raw source: `raw/transcripts/interest-signal-collection-08-00-2026-06-13.md`
+- Compared against the 2026-06-12 19:00 social/browser transcript, 22:00 new-target raw-only run, 23:00 Honcho refinement, `concepts/honcho.md`, and `log.md` before judging novelty
+- Live Chrome CDP on `127.0.0.1:9222` was unavailable; browser-tool checks were logged out, challenge-blocked, or unauthenticated for Threads liked, YouTube subscriptions/liked/Watch Later, GitHub Stars, Google My Activity, ChatGPT, Claude, and X
+- Threads API remained available and surfaced two new 2026-06-12 22:09-22:12 KST civic/political drone-defense rows: `https://www.threads.com/@ethan13917/post/DZfKsHBk3Ts` and `https://www.threads.com/@ethan13917/post/DZfLEOJE72M`; `/mentions` and keyword searches did not add newer AI/agent/Honcho evidence than existing baselines
+- Routed `raw_only`; updated `concepts/honcho.md` with the routing audit only and left `index.md` plus non-Honcho durable concept pages unchanged
