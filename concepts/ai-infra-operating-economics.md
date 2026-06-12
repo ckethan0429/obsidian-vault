@@ -1,10 +1,10 @@
 ---
 title: AI infra operating economics
 created: 2026-04-22
-updated: 2026-06-11
+updated: 2026-06-12
 type: concept
 tags: [infrastructure, gpu, storage, proxmox, agents, business, strategy]
-sources: [raw/transcripts/interest-signal-collection-11-00-2026-06-11.md, raw/transcripts/interest-signal-collection-11-00-2026-06-10.md, raw/transcripts/interest-signal-collection-22-00-2026-06-09.md, raw/transcripts/interest-signal-collection-11-00-2026-06-05.md, raw/transcripts/interest-signal-collection-11-00-2026-06-04.md, raw/transcripts/interest-signal-collection-22-00-2026-06-03.md, raw/transcripts/interest-signal-collection-11-00-2026-06-03.md, raw/transcripts/interest-signal-collection-22-00-2026-06-02.md, raw/transcripts/interest-signal-collection-11-00-2026-06-02.md, raw/transcripts/interest-signal-collection-22-00-2026-06-01.md, raw/transcripts/interest-signal-collection-11-00-2026-05-31.md, raw/transcripts/interest-signal-collection-22-00-2026-05-31.md, raw/transcripts/interest-signal-collection-08-00-2026-04-22.md, raw/transcripts/interest-signal-collection-19-00-2026-04-22.md]
+sources: [raw/transcripts/interest-signal-collection-11-00-2026-06-12.md, raw/transcripts/interest-signal-collection-11-00-2026-06-11.md, raw/transcripts/interest-signal-collection-11-00-2026-06-10.md, raw/transcripts/interest-signal-collection-22-00-2026-06-09.md, raw/transcripts/interest-signal-collection-11-00-2026-06-05.md, raw/transcripts/interest-signal-collection-11-00-2026-06-04.md, raw/transcripts/interest-signal-collection-22-00-2026-06-03.md, raw/transcripts/interest-signal-collection-11-00-2026-06-03.md, raw/transcripts/interest-signal-collection-22-00-2026-06-02.md, raw/transcripts/interest-signal-collection-11-00-2026-06-02.md, raw/transcripts/interest-signal-collection-22-00-2026-06-01.md, raw/transcripts/interest-signal-collection-11-00-2026-05-31.md, raw/transcripts/interest-signal-collection-22-00-2026-05-31.md, raw/transcripts/interest-signal-collection-08-00-2026-04-22.md, raw/transcripts/interest-signal-collection-19-00-2026-04-22.md]
 ---
 
 # AI infra operating economics
@@ -1147,6 +1147,22 @@ The 11:00 pass strengthened the operating-economics thesis from the **agentic ru
 
 ### Updated reading
 This remains **append_existing**. CK's durable thesis is sharper: as agent workloads scale, the economic edge is in the substrate—query engines, daemonized observability/security agents, CPU/GPU instance economics, procurement commitments, accelerator optimization, and memory/RAG runtimes—not in isolated launch posts. The page does not need a new branch; it needs this as another concrete data point that agent operations are becoming cost-control infrastructure.
+
+## 2026-06-12 new-target reinforcement
+
+Source: `raw/transcripts/interest-signal-collection-11-00-2026-06-12.md`
+
+The 11:00 pass strengthened the operating-economics thesis from the **secure runtime, governed data access, and workflow-cost control** side.
+
+### What looked fresh
+- **Confidential AI on Google Cloud** (`https://cloud.google.com/blog/products/identity-security/powering-the-next-era-of-confidential-ai/`) keeps secure/private GPU and inference infrastructure in the foreground: agent and AI workloads need stronger runtime privacy guarantees as they move into sensitive enterprise data.
+- **Looker agents** (`https://cloud.google.com/blog/products/business-intelligence/dashboard-agents-in-looker/`) turn dashboard follow-up into governed data-agent work, meaning the economic value is partly in keeping exploratory questions inside the approved BI/data layer.
+- **CloudWatch Application Signals context** (`https://aws.amazon.com/about-aws/whats-new/2026/06/cloudwatch-application-signals-supports infrastructure-logs-traces-context-for-faster troubleshooting/`) adds another operator-cost lever: faster troubleshooting comes from joining service health, infrastructure, logs, and traces in one workflow.
+- **AWS on-demand/batch Bedrock extraction** (`https://aws.amazon.com/blogs/machine-learning/extract-data-with-on-demand-and-batch-pipelines-dynamically/`) is supporting evidence that document-agent pipelines are being shaped by latency/cost trade-offs rather than model choice alone.
+- **Aurora PostgreSQL 18**, **MWAA Serverless EventBridge**, and **GitHub bot/agent workflow approval** are lower-durability support rows, but they all point at the same infrastructure economics: query performance, event-driven automation, and safe workflow execution determine whether agent workloads are affordable and operable.
+
+### Updated reading
+This remains **append_existing**. CK's durable thesis is sharper: production AI infra is not just hosted agents or model procurement; it is secure runtime substrate, governed data interfaces, observability context, event-driven workflow state, and approval boundaries that keep agent productivity from turning into security, debugging, or cloud-spend drag.
 
 ## Related pages
 

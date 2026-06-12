@@ -1780,3 +1780,10 @@
 - Live Chrome CDP on `127.0.0.1:9222` was unavailable; browser-tool checks were logged out, challenge-blocked, or unauthenticated for Threads liked, YouTube subscriptions/liked/Watch Later, GitHub Stars, Google My Activity, ChatGPT, Claude, and X
 - Threads API remained available and surfaced one new 2026-06-12 repost facade, `https://www.threads.com/@ethan13917/post/DZdK7-8Ex2O`; public recovery resolved it to the election-photo/civic-political post `https://www.threads.com/@nyearpromo/post/DZcSFpUGCU9`
 - Routed `raw_only`; updated `concepts/honcho.md` with the routing audit only and left `index.md` plus non-Honcho durable concept pages unchanged
+
+## [2026-06-12] ingest | Interest signal collection 11:00 new-target run
+- Saved raw source: `raw/transcripts/interest-signal-collection-11-00-2026-06-12.md`
+- Compared against the 2026-06-11 22:00 and 11:00 new-target baselines, same-day 08:00 social/browser run, `log.md`, `concepts/honcho.md`, `concepts/managed-agents-practical-summary.md`, and `concepts/ai-infra-operating-economics.md`; social-signal surfaces were intentionally excluded
+- Fresh official rows came from GitHub Agentic Workflows public preview / no-PAT update, AWS Agent-EvalKit, Google Looker agents, Google Confidential AI, CloudWatch Application Signals context, and Simon Willison's Fable 5 proactive-agent note
+- GitHub Trending/release checks added same-axis support such as `googleapis/mcp-toolbox`, `always-further/nono`, `anthropics/claude-agent-sdk-python`, `coder/coder`, `hexo-ai/sia`, and `flyteorg/flyte`, but these stayed raw-only/manual-review-adjacent single-surface evidence
+- Routed `append_existing`; updated `concepts/managed-agents-practical-summary.md`, `concepts/ai-infra-operating-economics.md`, and `concepts/honcho.md`; left `index.md` unchanged because no new page was created
