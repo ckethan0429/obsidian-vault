@@ -1802,3 +1802,9 @@
 - Fresh official novelty was narrow: AWS ProServe's frontier-team transformation row was the only clearly post-11:00 official item, while Bedrock Data Automation, LangChain SmithDB, Vercel Okara, and GitHub Enterprise Server were newly observed support/backfill rows
 - GitHub Trending added new-to-baseline single-surface support such as `windmill-labs/windmill`, `LLMQuant/quant-mind`, `milvus-io/milvus`, and `onyx-dot-app/onyx`, while stronger agent/coding rows repeated the same-day 11:00 or prior Honcho baselines
 - Routed `raw_only`; updated `concepts/honcho.md` with the routing audit only and left `index.md` plus non-Honcho durable concept pages unchanged
+
+## [2026-06-12] refine | Interest signal same-day Honcho triage 23:00
+- Reviewed same-day raw files: `raw/transcripts/interest-signal-collection-08-00-2026-06-12.md`, `raw/transcripts/interest-signal-collection-11-00-2026-06-12.md`, `raw/transcripts/interest-signal-collection-19-00-2026-06-12.md`, `raw/transcripts/interest-signal-collection-22-00-2026-06-12.md`, and `raw/transcripts/interest-signal-note-22-00-2026-06-12.md`
+- Classified the day as reinforcement-only at the 23:00 durable layer: the 11:00 GitHub Agentic Workflows / Agent-EvalKit / Looker agents / Confidential AI / Fable proactive-agent append had already been absorbed during ingest-stage updates
+- Kept 08:00 civic/political Threads repost evidence, 19:00 investing/social Threads reply evidence, and 22:00 AWS ProServe / Bedrock Data Automation / SmithDB / Vercel Okara / GitHub Trending rotations as `raw_only`; marked `LLMQuant/quant-mind` and AWS ProServe frontier-team as `manual_review` watchlist rather than promotion candidates
+- Added the whole-day routing audit to `concepts/honcho.md`; left raw evidence untouched and left `index.md` plus non-Honcho concept pages unchanged because no new durable page or duplicate concept-page append was justified
