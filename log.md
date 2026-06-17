@@ -1815,3 +1815,11 @@
 - Live Chrome CDP on `127.0.0.1:9222` was unavailable; browser-tool checks were logged out, challenge-blocked, or unauthenticated for Threads liked, YouTube subscriptions/liked/Watch Later, GitHub Stars, Google My Activity, ChatGPT, Claude, and X
 - Threads API remained available and surfaced two new 2026-06-12 22:09-22:12 KST civic/political drone-defense rows: `https://www.threads.com/@ethan13917/post/DZfKsHBk3Ts` and `https://www.threads.com/@ethan13917/post/DZfLEOJE72M`; `/mentions` and keyword searches did not add newer AI/agent/Honcho evidence than existing baselines
 - Routed `raw_only`; updated `concepts/honcho.md` with the routing audit only and left `index.md` plus non-Honcho durable concept pages unchanged
+
+## [2026-06-18] ingest | Interest signal collection 08:00 social/browser run
+- Saved raw source: `raw/transcripts/interest-signal-collection-08-00-2026-06-18.md`
+- Compared against the 2026-06-13 08:00 social/browser transcript, `concepts/honcho.md`, and `log.md` before judging novelty; no same-day 08:00 raw transcript existed before this run
+- Live Chrome CDP on `127.0.0.1:9222` was unavailable; browser-tool checks were logged out, challenge-blocked, unauthenticated, or sign-in-only for Threads liked, YouTube subscriptions/liked/Watch Later, GitHub Stars, Google My Activity, ChatGPT, Claude, and X
+- Threads API remained available and surfaced fresh 2026-06-15/17 rows: two repost facades around AI/semiconductor bets and Google OKF/LLM Wiki, plus a GPU/self-hosting build-vs-buy reply; low-context social replies stayed raw-only
+- Public GitHub Trending surfaced high-signal same-axis rows: `DeusData/codebase-memory-mcp`, `Panniantong/Agent-Reach`, `obra/superpowers`, `mattpocock/skills`, `continuedev/continue`, and `bytedance/UI-TARS-desktop`
+- Routed `append_existing` at the Honcho-routing layer; updated `concepts/honcho.md` with the routing audit only and left `index.md` plus non-Honcho durable concept pages unchanged
