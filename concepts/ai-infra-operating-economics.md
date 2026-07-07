@@ -1,10 +1,10 @@
 ---
 title: AI infra operating economics
 created: 2026-04-22
-updated: 2026-06-12
+updated: 2026-07-07
 type: concept
 tags: [infrastructure, gpu, storage, proxmox, agents, business, strategy]
-sources: [raw/transcripts/interest-signal-collection-11-00-2026-06-12.md, raw/transcripts/interest-signal-collection-11-00-2026-06-11.md, raw/transcripts/interest-signal-collection-11-00-2026-06-10.md, raw/transcripts/interest-signal-collection-22-00-2026-06-09.md, raw/transcripts/interest-signal-collection-11-00-2026-06-05.md, raw/transcripts/interest-signal-collection-11-00-2026-06-04.md, raw/transcripts/interest-signal-collection-22-00-2026-06-03.md, raw/transcripts/interest-signal-collection-11-00-2026-06-03.md, raw/transcripts/interest-signal-collection-22-00-2026-06-02.md, raw/transcripts/interest-signal-collection-11-00-2026-06-02.md, raw/transcripts/interest-signal-collection-22-00-2026-06-01.md, raw/transcripts/interest-signal-collection-11-00-2026-05-31.md, raw/transcripts/interest-signal-collection-22-00-2026-05-31.md, raw/transcripts/interest-signal-collection-08-00-2026-04-22.md, raw/transcripts/interest-signal-collection-19-00-2026-04-22.md]
+sources: [raw/transcripts/interest-signal-collection-22-00-2026-07-07.md, raw/transcripts/interest-signal-collection-11-00-2026-06-12.md, raw/transcripts/interest-signal-collection-11-00-2026-06-11.md, raw/transcripts/interest-signal-collection-11-00-2026-06-10.md, raw/transcripts/interest-signal-collection-22-00-2026-06-09.md, raw/transcripts/interest-signal-collection-11-00-2026-06-05.md, raw/transcripts/interest-signal-collection-11-00-2026-06-04.md, raw/transcripts/interest-signal-collection-22-00-2026-06-03.md, raw/transcripts/interest-signal-collection-11-00-2026-06-03.md, raw/transcripts/interest-signal-collection-22-00-2026-06-02.md, raw/transcripts/interest-signal-collection-11-00-2026-06-02.md, raw/transcripts/interest-signal-collection-22-00-2026-06-01.md, raw/transcripts/interest-signal-collection-11-00-2026-05-31.md, raw/transcripts/interest-signal-collection-22-00-2026-05-31.md, raw/transcripts/interest-signal-collection-08-00-2026-04-22.md, raw/transcripts/interest-signal-collection-19-00-2026-04-22.md]
 ---
 
 # AI infra operating economics
@@ -1163,6 +1163,29 @@ The 11:00 pass strengthened the operating-economics thesis from the **secure run
 
 ### Updated reading
 This remains **append_existing**. CK's durable thesis is sharper: production AI infra is not just hosted agents or model procurement; it is secure runtime substrate, governed data interfaces, observability context, event-driven workflow state, and approval boundaries that keep agent productivity from turning into security, debugging, or cloud-spend drag.
+
+## 2026-07-07 new-target reinforcement — agent sandbox-isolation as an infra primitive
+
+Source: `raw/transcripts/interest-signal-collection-22-00-2026-07-07.md` (first new-target pass since 2026-06-12)
+
+The strongest genuinely-new cluster in the July new-target sweep is **agent sandbox/isolation
+becoming a first-class infra primitive**, converging across three independent vendors plus a
+storage-at-scale post — all operating-economics levers rather than model-choice news.
+
+### What looked fresh
+- **Docker — "Why AI Agents Need Isolation"** (`https://www.docker.com/blog/why-ai-agents-need-isolation/`) frames per-agent isolation as a default operational requirement, not an optional hardening step.
+- **TencentCloud/CubeSandbox** (`https://github.com/TencentCloud/CubeSandbox`) — "Instant, Concurrent, Secure & Lightweight Sandbox for AI Agents" — is a purpose-built agent sandbox runtime trending on the same axis.
+- **Vercel Sandbox now supports FUSE-based filesystems** (`https://vercel.com/changelog`) plus **Agent Runs in Vercel MCP/CLI** push the same primitive into a managed platform: agents get isolated, mountable execution environments as a control-plane feature.
+- **Meta's AI Storage Blueprint at Scale** (`https://engineering.fb.com/2026/07/01/data-infrastructure/metas-ai-storage-blueprint-at-scale/`) reinforces the earlier "storage becomes the bottleneck after the model layer" thesis with a concrete hyperscaler storage-economics account.
+- Supporting rows: **SageMaker HyperPod disaggregated prefill/decode** (`https://aws.amazon.com/about-aws/whats-new/2026/7/amazon-sagemaker-hyperpod-dpd/`) and **CloudWatch Application Signals auto-capture** (`https://aws.amazon.com/about-aws/whats-new/2026/06/cloudwatch-service-events/`) keep serving-efficiency and observability-cost as the same operating-margin story.
+
+### Updated reading
+This remains **append_existing**. The durable thesis sharpens on one point: as agent workloads
+scale, **isolation/sandboxing is now a substrate primitive with its own cost and security economics**,
+sold and shipped alongside compute, storage, and observability. It is another concrete data point, not
+a new branch. GitHub changelog (Copilot agent session streaming, cost centers → AI credit pools) and
+Cloudflare's x402 Monetization Gateway / agentic-Internet posts stayed `raw_only` — adjacent but
+single-surface for now.
 
 ## Related pages
 
