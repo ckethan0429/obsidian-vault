@@ -1187,6 +1187,18 @@ a new branch. GitHub changelog (Copilot agent session streaming, cost centers �
 Cloudflare's x402 Monetization Gateway / agentic-Internet posts stayed `raw_only` — adjacent but
 single-surface for now.
 
+## 2026-07-08 new-target reinforcement — GPU-management fees and zero-egress storage as cost levers
+
+Source: `raw/transcripts/interest-signal-collection-11-00-2026-07-08.md` (one day after the 07-07 sandbox-isolation append)
+
+The 07-08 sweep added no new axis; it added fresh, concrete July data points on the same
+operating-economics thesis. Kept minimal to avoid duplicating the 07-07 reinforcement.
+
+- **AWS EKS Auto Mode and ECS Managed Instances cut GPU management fees by up to 60%** (`https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-eks-auto-mode-gpu-price`, `https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ecs-managed-instances-gpu-price/`) — the managed-orchestration layer itself is now a priced margin lever for GPU workloads, not just the instances.
+- **Hugging Face zero-egress storage with SkyPilot** (`https://huggingface.co/blog/skypilot-hf-storage`) — "run on any cloud, store on HF" turns egress into the tunable cost, reinforcing the storage-after-model economics point from Meta's storage-blueprint post.
+
+Still **append_existing**, deliberately small. Adjacent-but-single-surface rows stayed `raw_only`: GitHub Copilot app GA + Kimi K2.7 + per-user cost-center budgets, OpenAI enterprise (MUFG / Australian Payments Plus + Codex), and Vercel Chat SDK adapter expansion. **Vercel's acquisition of Better Auth** (`https://vercel.com/blog/vercel-acquires-better-auth`) is genuinely new but single-surface M&A → `manual_review`.
+
 ## Related pages
 
 - [[virton-career-and-business-profile]]

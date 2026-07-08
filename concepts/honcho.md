@@ -2443,3 +2443,22 @@ First new-target pass since 2026-06-12 (~3-week gap), so July official items are
 
 ### Not routed as `promote_to_wiki`
 - No genuinely new durable branch; the sandbox-isolation cluster strengthens an existing page. Durable action = raw transcript + this Honcho audit + one `append_existing` reinforcement. `index.md` unchanged.
+
+## 2026-07-08 new-target (11:00) routing
+
+Source: `raw/transcripts/interest-signal-collection-11-00-2026-07-08.md`
+
+One day after the dense 07-07 22:00 baseline. Collected via public RSS/Atom + HTML fetch over HTTPS; social surfaces intentionally excluded (owned by 08:00/19:00 jobs). Compared against the 07-07 transcript before judging novelty.
+
+### Routed as `append_existing`
+- **AWS EKS Auto Mode / ECS Managed Instances cut GPU management fees up to 60%** (`https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-eks-auto-mode-gpu-price`, `https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ecs-managed-instances-gpu-price/`) and **Hugging Face zero-egress storage with SkyPilot** (`https://huggingface.co/blog/skypilot-hf-storage`) are fresh July data points on the same AI-infra operating-economics axis. Absorbed as one deliberately-small reinforcement section in `concepts/ai-infra-operating-economics.md`; no new axis, no duplication of the 07-07 sandbox append.
+
+### Routed as `manual_review`
+- **Vercel acquires Better Auth** (`https://vercel.com/blog/vercel-acquires-better-auth`) — genuinely new open-source-auth M&A but single-surface; hold until it repeats or connects to a durable lane.
+
+### Routed as `raw_only`
+- GitHub changelog: Copilot app GA to all, Kimi K2.7 in Copilot Business/Enterprise, per-user cost-center budgets, secret-scanning metadata. Adjacent agent/cost-control evidence, single-surface.
+- OpenAI enterprise (MUFG AI-native, Australian Payments Plus + Codex), Vercel Chat SDK adapter expansion (eve/Connect/Photon/Dial) + Sandbox observability, Simon Willison sqlite-utils 4.0 GA + sqlite-migrate 0.2 (baseline had rc2), GitHub Trending fresh rows (Meetily, RuView, extracted-system-prompts, claude-video, pocket-tts). Reinforcement / low-durability.
+
+### Not routed as `promote_to_wiki`
+- No genuinely new durable branch. Durable action = raw transcript + this Honcho audit + one small `append_existing`. `index.md` unchanged.
