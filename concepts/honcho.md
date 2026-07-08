@@ -1,10 +1,10 @@
 ---
 title: Honcho
 created: 2026-04-18
-updated: 2026-07-07
+updated: 2026-07-08
 type: concept
 tags: [agents, hermes, automation, assistant, workflows, protocols, browser-automation]
-sources: [raw/transcripts/interest-signal-collection-22-00-2026-07-07.md, raw/transcripts/interest-signal-collection-08-00-2026-06-18.md, raw/transcripts/interest-signal-collection-22-00-2026-06-12.md, raw/transcripts/interest-signal-note-22-00-2026-06-12.md, raw/transcripts/interest-signal-collection-19-00-2026-06-12.md, raw/transcripts/interest-signal-collection-11-00-2026-06-12.md, raw/transcripts/interest-signal-collection-08-00-2026-06-12.md, raw/transcripts/interest-signal-collection-22-00-2026-06-11.md, raw/transcripts/interest-signal-note-22-00-2026-06-11.md, raw/transcripts/interest-signal-collection-19-00-2026-06-11.md, raw/transcripts/interest-signal-collection-11-00-2026-06-11.md, raw/transcripts/interest-signal-collection-08-00-2026-06-11.md, raw/transcripts/interest-signal-collection-22-00-2026-06-10.md, raw/transcripts/interest-signal-note-22-00-2026-06-10.md, raw/transcripts/interest-signal-collection-19-00-2026-06-10.md, raw/transcripts/interest-signal-collection-11-00-2026-06-10.md, raw/transcripts/interest-signal-collection-08-00-2026-06-10.md, raw/transcripts/interest-signal-collection-22-00-2026-06-09.md, raw/transcripts/interest-signal-note-22-00-2026-06-09.md, raw/transcripts/interest-signal-collection-19-00-2026-06-09.md, raw/transcripts/interest-signal-collection-11-00-2026-06-09.md, raw/transcripts/interest-signal-collection-08-00-2026-06-09.md, raw/transcripts/interest-signal-collection-22-00-2026-06-08.md, raw/transcripts/interest-signal-collection-19-00-2026-06-08.md, raw/transcripts/interest-signal-collection-11-00-2026-06-08.md, raw/transcripts/interest-signal-collection-22-00-2026-06-07.md, raw/transcripts/interest-signal-note-22-00-2026-06-07.md, raw/transcripts/interest-signal-collection-19-00-2026-06-07.md, raw/transcripts/interest-signal-collection-11-00-2026-06-07.md, raw/transcripts/interest-signal-collection-08-00-2026-06-07.md, raw/transcripts/interest-signal-collection-22-00-2026-06-06.md, raw/transcripts/interest-signal-note-22-00-2026-06-06.md, raw/transcripts/interest-signal-collection-19-00-2026-06-06.md, raw/transcripts/interest-signal-collection-11-00-2026-06-06.md, raw/transcripts/interest-signal-collection-08-00-2026-06-06.md, raw/transcripts/interest-signal-collection-22-00-2026-06-05.md, raw/transcripts/interest-signal-note-22-00-2026-06-05.md, raw/transcripts/interest-signal-collection-19-00-2026-06-05.md, raw/transcripts/interest-signal-collection-11-00-2026-06-05.md, raw/transcripts/interest-signal-collection-08-00-2026-06-05.md, raw/transcripts/interest-signal-collection-22-00-2026-06-04.md, raw/transcripts/interest-signal-note-22-00-2026-06-04.md, raw/transcripts/interest-signal-collection-19-00-2026-06-04.md, raw/transcripts/interest-signal-collection-11-00-2026-06-04.md, raw/transcripts/interest-signal-collection-08-00-2026-06-04.md, raw/transcripts/interest-signal-collection-22-00-2026-06-03.md, raw/transcripts/interest-signal-collection-19-00-2026-06-03.md, raw/transcripts/interest-signal-collection-11-00-2026-06-03.md, raw/transcripts/interest-signal-collection-08-00-2026-06-03.md, raw/transcripts/interest-signal-collection-22-00-2026-06-02.md, raw/transcripts/interest-signal-collection-11-00-2026-06-02.md, raw/transcripts/interest-signal-collection-08-00-2026-06-02.md, raw/transcripts/interest-signal-collection-11-00-2026-05-31.md, raw/transcripts/interest-signal-collection-22-00-2026-05-31.md, raw/transcripts/interest-signal-collection-08-00-2026-06-13.md]
+sources: [raw/transcripts/interest-signal-collection-11-00-2026-07-08.md, raw/transcripts/interest-signal-collection-19-00-2026-07-08.md, raw/transcripts/interest-signal-collection-22-00-2026-07-08.md, raw/transcripts/interest-signal-collection-22-00-2026-07-07.md, raw/transcripts/interest-signal-collection-08-00-2026-06-18.md, raw/transcripts/interest-signal-collection-22-00-2026-06-12.md, raw/transcripts/interest-signal-note-22-00-2026-06-12.md, raw/transcripts/interest-signal-collection-19-00-2026-06-12.md, raw/transcripts/interest-signal-collection-11-00-2026-06-12.md, raw/transcripts/interest-signal-collection-08-00-2026-06-12.md, raw/transcripts/interest-signal-collection-22-00-2026-06-11.md, raw/transcripts/interest-signal-note-22-00-2026-06-11.md, raw/transcripts/interest-signal-collection-19-00-2026-06-11.md, raw/transcripts/interest-signal-collection-11-00-2026-06-11.md, raw/transcripts/interest-signal-collection-08-00-2026-06-11.md, raw/transcripts/interest-signal-collection-22-00-2026-06-10.md, raw/transcripts/interest-signal-note-22-00-2026-06-10.md, raw/transcripts/interest-signal-collection-19-00-2026-06-10.md, raw/transcripts/interest-signal-collection-11-00-2026-06-10.md, raw/transcripts/interest-signal-collection-08-00-2026-06-10.md, raw/transcripts/interest-signal-collection-22-00-2026-06-09.md, raw/transcripts/interest-signal-note-22-00-2026-06-09.md, raw/transcripts/interest-signal-collection-19-00-2026-06-09.md, raw/transcripts/interest-signal-collection-11-00-2026-06-09.md, raw/transcripts/interest-signal-collection-08-00-2026-06-09.md, raw/transcripts/interest-signal-collection-22-00-2026-06-08.md, raw/transcripts/interest-signal-collection-19-00-2026-06-08.md, raw/transcripts/interest-signal-collection-11-00-2026-06-08.md, raw/transcripts/interest-signal-collection-22-00-2026-06-07.md, raw/transcripts/interest-signal-note-22-00-2026-06-07.md, raw/transcripts/interest-signal-collection-19-00-2026-06-07.md, raw/transcripts/interest-signal-collection-11-00-2026-06-07.md, raw/transcripts/interest-signal-collection-08-00-2026-06-07.md, raw/transcripts/interest-signal-collection-22-00-2026-06-06.md, raw/transcripts/interest-signal-note-22-00-2026-06-06.md, raw/transcripts/interest-signal-collection-19-00-2026-06-06.md, raw/transcripts/interest-signal-collection-11-00-2026-06-06.md, raw/transcripts/interest-signal-collection-08-00-2026-06-06.md, raw/transcripts/interest-signal-collection-22-00-2026-06-05.md, raw/transcripts/interest-signal-note-22-00-2026-06-05.md, raw/transcripts/interest-signal-collection-19-00-2026-06-05.md, raw/transcripts/interest-signal-collection-11-00-2026-06-05.md, raw/transcripts/interest-signal-collection-08-00-2026-06-05.md, raw/transcripts/interest-signal-collection-22-00-2026-06-04.md, raw/transcripts/interest-signal-note-22-00-2026-06-04.md, raw/transcripts/interest-signal-collection-19-00-2026-06-04.md, raw/transcripts/interest-signal-collection-11-00-2026-06-04.md, raw/transcripts/interest-signal-collection-08-00-2026-06-04.md, raw/transcripts/interest-signal-collection-22-00-2026-06-03.md, raw/transcripts/interest-signal-collection-19-00-2026-06-03.md, raw/transcripts/interest-signal-collection-11-00-2026-06-03.md, raw/transcripts/interest-signal-collection-08-00-2026-06-03.md, raw/transcripts/interest-signal-collection-22-00-2026-06-02.md, raw/transcripts/interest-signal-collection-11-00-2026-06-02.md, raw/transcripts/interest-signal-collection-08-00-2026-06-02.md, raw/transcripts/interest-signal-collection-11-00-2026-05-31.md, raw/transcripts/interest-signal-collection-22-00-2026-05-31.md, raw/transcripts/interest-signal-collection-08-00-2026-06-13.md]
 ---
 
 # Honcho
@@ -2495,3 +2495,53 @@ Second new-target pass of the day (11:00 + 22:00). The same-day 11:00 run alread
 
 ### Not routed as `append_existing` / `promote_to_wiki`
 - No new durable branch and no material change to any axis; the 11:00 run already absorbed the day's only durable delta. Durable action = raw transcript + this Honcho audit + log entry. `index.md` and non-Honcho concept pages left unchanged.
+
+## 2026-07-08 same-day refinement summary (23:00)
+
+Whole-day triage over the same-day raw transcripts. No recollection. Files reviewed:
+`raw/transcripts/interest-signal-collection-11-00-2026-07-08.md`,
+`raw/transcripts/interest-signal-collection-19-00-2026-07-08.md`, and
+`raw/transcripts/interest-signal-collection-22-00-2026-07-08.md`. (Today's 08:00 social
+job failed, so there is no same-day 08:00 raw transcript.) Baselines: 2026-07-07 22:00
+new-target, 2026-06-18 08:00 social, and existing durable pages.
+
+The day ended **reinforcement-only** at the durable layer. The only `append_existing` delta
+was already applied during the 11:00 ingest-stage run, so this refinement adds no concept-page
+edits and no `index.md` change — only this whole-day audit plus the `log.md` entry.
+
+### Routed as `append_existing` (already absorbed at ingest stage — not re-applied here)
+- 11:00 new-target: **AWS EKS Auto Mode / ECS Managed Instances GPU management-fee -60%**
+  (`https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-eks-auto-mode-gpu-price`,
+  `https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ecs-managed-instances-gpu-price/`)
+  and **Hugging Face zero-egress storage with SkyPilot**
+  (`https://huggingface.co/blog/skypilot-hf-storage`) — fresh July operating-economics data
+  points added as one deliberately-small reinforcement section to
+  `concepts/ai-infra-operating-economics.md` during the 11:00 run. Not duplicated tonight.
+
+### Routed as `raw_only`
+- 22:00 new-target: genuinely-new-since-11:00 rows were thin and single-surface — GitHub
+  usage-API review-cycle/time-to-adoption metrics
+  (`https://github.blog/changelog/2026-07-07-add-review-cycles-and-time-to-adoption-phases-in-the-usage-api`),
+  Vercel Flags SDK 10x faster
+  (`https://vercel.com/changelog/flags-sdk-now-evaluates-flags-10x-faster`), and GitHub
+  Trending `TencentCloud/TencentDB-Agent-Memory` / `alibaba/zvec` /
+  `wonderwhy-er/DesktopCommanderMCP` / `mvanhorn/last30days-skill` / `obra/superpowers`.
+  Same agent-memory/MCP/skills axis, no new branch.
+- 19:00 social (Threads API only; CDP unavailable): keyword-search `agent`/`Claude Code`/`Codex`
+  hits were all CK's OWN April–May managed-agents posts — reinforcement of an already-durable
+  axis (`concepts/managed-agents-practical-summary.md`), not new external discovery. Two empty
+  `REPOST_FACADE` rows plus a personal bitcoin-saving note and Apple/맥북 FOMO note kept as
+  single-surface evidence.
+
+### Routed as `manual_review`
+- Vercel→Better Auth open-source-auth acquisition (from 11:00, single-surface M&A) remains on
+  the watchlist — hold until it repeats or connects to a durable lane.
+
+### Routed as `discard`
+- 19:00 Threads `/replies`: all 홍명보/한국축구 전술·데이터분석 civic-sports debate. `/mentions` empty.
+
+### Not routed as `promote_to_wiki`
+- No genuinely new durable branch emerged across the day. The only durable delta (11:00 GPU
+  management-fee cuts + zero-egress storage) was already absorbed. Durable action tonight =
+  this whole-day Honcho audit + `log.md` entry; raw transcripts, `index.md`, and non-Honcho
+  concept pages left unchanged.
