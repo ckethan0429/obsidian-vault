@@ -2480,3 +2480,18 @@ Afternoon social run. Transport: **Threads API only** — live Chrome CDP on `12
 
 ### Not routed as `append_existing` / `promote_to_wiki`
 - No genuinely new external signal and no material change to any durable axis. The only AI-adjacent evidence was CK's own already-durable posts. Durable action = raw transcript + this Honcho audit + log entry. `index.md` and non-Honcho concept pages left unchanged.
+
+## 2026-07-08 new-target (22:00) routing
+
+Source: `raw/transcripts/interest-signal-collection-22-00-2026-07-08.md`
+
+Second new-target pass of the day (11:00 + 22:00). The same-day 11:00 run already absorbed the durable July delta (AWS EKS/ECS GPU management-fee -60% + HF zero-egress storage) into `concepts/ai-infra-operating-economics.md`. Against that ~11h-old baseline this pass is overwhelmingly repetition; the genuinely-new-since-11:00 rows are thin and single-surface. Collected via authenticated public RSS/Atom + HTML fetch (GitHub changelog, AWS What's New, OpenAI, Simon Willison, Hugging Face, Meta Eng, Vercel, Cloudflare, GitHub Trending); Docker feed returned empty this run (availability fact). Social surfaces excluded (owned by 08:00/19:00 jobs).
+
+### Routed as `raw_only`
+- GitHub changelog: `Add review cycles and time to adoption phases in the usage API` (`https://github.blog/changelog/2026-07-07-add-review-cycles-and-time-to-adoption-phases-in-the-usage-api`) — new dev-analytics row, single-surface.
+- Vercel: `Flags SDK now evaluates flags 10x faster` (`https://vercel.com/changelog/flags-sdk-now-evaluates-flags-10x-faster`) — minor perf, single-surface.
+- GitHub Trending new-since-11:00: `TencentCloud/TencentDB-Agent-Memory` (agent memory DB), `alibaba/zvec` (vector engine), `wonderwhy-er/DesktopCommanderMCP` (desktop automation MCP), `mvanhorn/last30days-skill` / `obra/superpowers` (agent skills). Same agent-memory/MCP/skills axis already durable; single-surface reinforcement.
+- AWS / Hugging Face / OpenAI / Cloudflare / Meta Eng: no items past the 11:00 baseline; all repeats.
+
+### Not routed as `append_existing` / `promote_to_wiki`
+- No new durable branch and no material change to any axis; the 11:00 run already absorbed the day's only durable delta. Durable action = raw transcript + this Honcho audit + log entry. `index.md` and non-Honcho concept pages left unchanged.
