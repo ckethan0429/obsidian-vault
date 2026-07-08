@@ -1858,3 +1858,11 @@
 - Classified the day as reinforcement-only at the 23:00 durable layer: the only `append_existing` delta (11:00 AWS EKS/ECS GPU management-fee -60% + HF zero-egress storage) was already absorbed into `concepts/ai-infra-operating-economics.md` during the 11:00 ingest-stage run, so no concept-page edit was re-applied tonight
 - Kept 22:00 GitHub usage-API / Vercel Flags SDK / GitHub Trending agent-memory·MCP·skills rows `raw_only`, 19:00 Threads-API keyword hits (CK's own April–May managed-agents posts) `raw_only` reinforcement, 19:00 civic-sports `/replies` `discard`, and Vercel→Better Auth acquisition `manual_review`
 - Added the whole-day routing audit to `concepts/honcho.md` and updated its frontmatter `updated`/`sources`; left raw evidence untouched and left `index.md` plus non-Honcho concept pages unchanged because no new durable page or duplicate concept-page append was justified
+
+## [2026-07-09] ingest | Interest signal collection 08:00 social/browser run
+- Saved raw source: `raw/transcripts/interest-signal-collection-08-00-2026-07-09.md`
+- Transport: **Threads API only**. Live Chrome CDP on `127.0.0.1:9222` was unavailable (connection refused, curl exit 7); Threads liked, YouTube (subscriptions/liked/Watch Later), GitHub Stars, Google My Activity, ChatGPT, Claude, and X could not be collected and are recorded as access facts, not `변화 없음`
+- No same-day 08:00 raw existed before this run (07-08 08:00 social job had failed); compared against the 2026-07-08 19:00 social baseline, `concepts/honcho.md`, `concepts/managed-agents-practical-summary.md`, and `log.md` before judging novelty
+- Threads long-lived token refreshed OK; `/v1.0/me` confirmed identity. Only genuinely-new own `/threads` row since the 19:00 baseline was one empty `REPOST_FACADE` (`DaiHwK9E-oR`, 07-08 13:12 UTC) whose content is not recoverable from JS-rendered public HTML without CDP; `/replies` were all 한국축구 civic-sports debate; `/mentions` empty
+- Keyword search (`agent`/`Claude Code`/`Codex`) returned only CK's own April–May managed-agents posts — reinforcement of an already-durable axis, not new signal
+- Routed `raw_only`/`discard` (reinforcement-only at the durable layer); updated `concepts/honcho.md` with the routing audit only and left `index.md` plus non-Honcho durable concept pages unchanged
