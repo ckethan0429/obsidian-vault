@@ -2462,3 +2462,21 @@ One day after the dense 07-07 22:00 baseline. Collected via public RSS/Atom + HT
 
 ### Not routed as `promote_to_wiki`
 - No genuinely new durable branch. Durable action = raw transcript + this Honcho audit + one small `append_existing`. `index.md` unchanged.
+
+## 2026-07-08 social (19:00) routing
+
+Source: `raw/transcripts/interest-signal-collection-19-00-2026-07-08.md`
+
+Afternoon social run. Transport: **Threads API only** — live Chrome CDP on `127.0.0.1:9222` was unavailable (connection refused), so all browser-authenticated surfaces (Threads liked, YouTube subscriptions/liked/Watch Later, GitHub Stars, Google My Activity, ChatGPT, Claude, X) could not be collected and are recorded as access facts, not `변화 없음`. Today's 08:00 social job failed, so there was no same-day 08:00 social baseline; compared against 2026-06-18 08:00 social, the 07-08 11:00 new-target run, and existing durable pages.
+
+### Routed as `raw_only`
+- Threads API `/threads`: newest rows are two `REPOST_FACADE` (07-06 22:48Z `DaeAEVik9gO`, 07-07 03:05Z `DaedgJDk8Kx`) with empty text and JS-rendered public HTML not recoverable without CDP; plus soccer/홍명보/태극기 own posts, a personal bitcoin-saving intent (`DaO-1ShE7lv`), and an Apple/맥북 FOMO note (`DaBBz93k0v8`). Single-surface civic-sports/personal noise, outside CK's durable AI/agent/infra map.
+- Threads API keyword search (`agent` / `Claude Code` / `Codex`): all hits are CK's OWN April–May managed-agents posts (session/harness/sandbox/vault runtime thesis), already fully captured in `concepts/managed-agents-practical-summary.md`. Reinforcement of an existing durable axis, not new external signal.
+- CDP-dependent browser surfaces: unavailable this run; kept as availability facts.
+
+### Routed as `discard`
+- Threads API `/replies`: all newest replies (07-05~07-07) are 홍명보/한국축구 전술·데이터분석 논쟁 — civic-sports noise.
+- Threads API `/mentions`: empty dataset.
+
+### Not routed as `append_existing` / `promote_to_wiki`
+- No genuinely new external signal and no material change to any durable axis. The only AI-adjacent evidence was CK's own already-durable posts. Durable action = raw transcript + this Honcho audit + log entry. `index.md` and non-Honcho concept pages left unchanged.
