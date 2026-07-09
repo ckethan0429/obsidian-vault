@@ -1,10 +1,10 @@
 ---
 title: AI infra operating economics
 created: 2026-04-22
-updated: 2026-07-07
+updated: 2026-07-09
 type: concept
 tags: [infrastructure, gpu, storage, proxmox, agents, business, strategy]
-sources: [raw/transcripts/interest-signal-collection-22-00-2026-07-07.md, raw/transcripts/interest-signal-collection-11-00-2026-06-12.md, raw/transcripts/interest-signal-collection-11-00-2026-06-11.md, raw/transcripts/interest-signal-collection-11-00-2026-06-10.md, raw/transcripts/interest-signal-collection-22-00-2026-06-09.md, raw/transcripts/interest-signal-collection-11-00-2026-06-05.md, raw/transcripts/interest-signal-collection-11-00-2026-06-04.md, raw/transcripts/interest-signal-collection-22-00-2026-06-03.md, raw/transcripts/interest-signal-collection-11-00-2026-06-03.md, raw/transcripts/interest-signal-collection-22-00-2026-06-02.md, raw/transcripts/interest-signal-collection-11-00-2026-06-02.md, raw/transcripts/interest-signal-collection-22-00-2026-06-01.md, raw/transcripts/interest-signal-collection-11-00-2026-05-31.md, raw/transcripts/interest-signal-collection-22-00-2026-05-31.md, raw/transcripts/interest-signal-collection-08-00-2026-04-22.md, raw/transcripts/interest-signal-collection-19-00-2026-04-22.md]
+sources: [raw/transcripts/interest-signal-collection-11-00-2026-07-09.md, raw/transcripts/interest-signal-collection-11-00-2026-07-08.md, raw/transcripts/interest-signal-collection-22-00-2026-07-07.md, raw/transcripts/interest-signal-collection-11-00-2026-06-12.md, raw/transcripts/interest-signal-collection-11-00-2026-06-11.md, raw/transcripts/interest-signal-collection-11-00-2026-06-10.md, raw/transcripts/interest-signal-collection-22-00-2026-06-09.md, raw/transcripts/interest-signal-collection-11-00-2026-06-05.md, raw/transcripts/interest-signal-collection-11-00-2026-06-04.md, raw/transcripts/interest-signal-collection-22-00-2026-06-03.md, raw/transcripts/interest-signal-collection-11-00-2026-06-03.md, raw/transcripts/interest-signal-collection-22-00-2026-06-02.md, raw/transcripts/interest-signal-collection-11-00-2026-06-02.md, raw/transcripts/interest-signal-collection-22-00-2026-06-01.md, raw/transcripts/interest-signal-collection-11-00-2026-05-31.md, raw/transcripts/interest-signal-collection-22-00-2026-05-31.md, raw/transcripts/interest-signal-collection-08-00-2026-04-22.md, raw/transcripts/interest-signal-collection-19-00-2026-04-22.md]
 ---
 
 # AI infra operating economics
@@ -1198,6 +1198,20 @@ operating-economics thesis. Kept minimal to avoid duplicating the 07-07 reinforc
 - **Hugging Face zero-egress storage with SkyPilot** (`https://huggingface.co/blog/skypilot-hf-storage`) — "run on any cloud, store on HF" turns egress into the tunable cost, reinforcing the storage-after-model economics point from Meta's storage-blueprint post.
 
 Still **append_existing**, deliberately small. Adjacent-but-single-surface rows stayed `raw_only`: GitHub Copilot app GA + Kimi K2.7 + per-user cost-center budgets, OpenAI enterprise (MUFG / Australian Payments Plus + Codex), and Vercel Chat SDK adapter expansion. **Vercel's acquisition of Better Auth** (`https://vercel.com/blog/vercel-acquires-better-auth`) is genuinely new but single-surface M&A → `manual_review`.
+
+## 2026-07-09 new-target reinforcement — agent-near-production, serving efficiency, agent observability/governance
+
+Source: `raw/transcripts/interest-signal-collection-11-00-2026-07-09.md` (one day after the 07-08 GPU-fee/zero-egress append)
+
+The 07-09 sweep added no new axis; it added fresh, concrete July data points that sharpen the
+same operable/observable/securable AI-infra thesis. Kept minimal.
+
+- **Vercel Agent — "an agent you can let near production"** (`https://vercel.com/blog/vercel-agent`) pushes the agent runtime from prototype toward production-grade operation with guardrails, the exact "prototype → running system" economics the page already tracks.
+- **Hugging Face native-speed vLLM transformers modeling backend** (`https://huggingface.co/blog/native-speed-vllm-transformers-backend`) is a direct serving-efficiency / operating-margin lever — closer-to-native inference throughput without a custom kernel port.
+- **GitHub enterprise-managed OpenTelemetry export for VS Code/CLI** (`https://github.blog/changelog/2026-07-08-enterprise-managed-opentelemetry-export-for-vs-code-and-cli`) plus **MDM-managed Copilot settings** (`https://github.blog/changelog/2026-07-08-deploy-managed-copilot-settings-via-mdm-in-vs-code-and-cli`) make agent observability and fleet governance first-class — the same "keep agent productivity from turning into debugging/security drag" point.
+
+### Updated reading
+Still **append_existing**, deliberately small. Adjacent-but-single-surface rows stayed `raw_only`: OpenAI GPT-Live + coding-eval methodology, HF NVIDIA "Data for Agents", Codex-as-agent-provider in JetBrains, AWS Aurora DSQL CDC GA / Security Hub network scanning / Builder Center sandbox, Cloudflare Meerkat global-consensus, and Docker "Your Laptop Is the New Production Environment". GitHub Trending was all repeats vs the 07-08 baselines (only `huxingyi/autoremesher`, off-axis 3D remesh, was new).
 
 ## Related pages
 
