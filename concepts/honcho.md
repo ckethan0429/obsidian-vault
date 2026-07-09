@@ -2574,3 +2574,18 @@ New-target pass (blogs/changelogs/releases/GitHub Trending). Social surfaces exc
 
 ### Not routed as `promote_to_wiki`
 - No genuinely new durable branch. Durable action = raw transcript + one minimal `ai-infra-operating-economics` append + this Honcho audit + `log.md` entry. `index.md` and non-Honcho concept pages left unchanged.
+
+## 2026-07-09 19:00 social run (Threads API only; CDP still unavailable)
+
+Afternoon social pass, after the same-day 08:00 social (Threads API only, CDP down) and 11:00 new-target (`append_existing`) runs. Live Chrome CDP on `127.0.0.1:9222` was still unavailable (connection refused, curl exit 7), so every browser-authenticated surface (Threads liked, YouTube subscriptions/liked/Watch Later, GitHub Stars, Google My Activity, ChatGPT, Claude, X) could not be collected — recorded as access facts, not `변화 없음`. Threads API was the only grounded source (token refreshed OK; `/v1.0/me` confirmed `ethan13917`). Baseline: same-day 08:00 + 11:00 transcripts plus existing durable pages. Raw: `raw/transcripts/interest-signal-collection-19-00-2026-07-09.md`.
+
+### Routed as `raw_only`
+- Threads `/threads`: two genuinely-new own rows since the 08:00 baseline — both empty `REPOST_FACADE` reposts (`DakUpdgE2cy`, 07-09 09:44 UTC, `https://www.threads.com/@ethan13917/post/DakUpdgE2cy`; `Daj1jPakxXo`, 07-09 05:12 UTC, `https://www.threads.com/@ethan13917/post/Daj1jPakxXo`). Public HTML is JS-rendered and content is not recoverable without CDP. Single-surface, low durability. All other own rows repeat the baselines (soccer, bitcoin-saving, Apple/맥북 FOMO).
+- Threads `keyword_search` (`agent`/`Claude Code`/`Codex`): all hits are CK's OWN April–May managed-agents posts — reinforcement of an already-durable axis (`concepts/managed-agents-practical-summary.md`), not new external discovery.
+- CDP-dependent browser surfaces: unavailable; recorded as access facts.
+
+### Routed as `discard`
+- Threads `/replies`: all 홍명보/한국축구 전술·데이터분석 civic-sports debate (same cluster as 08:00; no new rows). `/mentions` empty.
+
+### Not routed as `append_existing` / `promote_to_wiki`
+- No new durable branch and no material change to any axis. Durable action = raw transcript + this Honcho audit + `log.md` entry. `index.md` and non-Honcho concept pages left unchanged.
