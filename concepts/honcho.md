@@ -2605,3 +2605,36 @@ Same-day 22:00 new-target pass, after the 08:00 social (Threads API only), 11:00
 
 ### Not routed as `promote_to_wiki` (22:00)
 - No genuinely new durable branch. Durable action = raw transcript + one minimal `managed-agents-practical-summary` append + this Honcho audit + `log.md` entry. `index.md` and other concept pages left unchanged.
+
+## 2026-07-09 same-day refinement summary (23:00)
+
+Reviewed the four same-day raw transcripts only (no recollection):
+`raw/transcripts/interest-signal-collection-08-00-2026-07-09.md`,
+`raw/transcripts/interest-signal-collection-11-00-2026-07-09.md`,
+`raw/transcripts/interest-signal-collection-19-00-2026-07-09.md`, and
+`raw/transcripts/interest-signal-collection-22-00-2026-07-09.md`. The two ingest-stage
+`append_existing` deltas were already absorbed earlier in the day, so the 23:00 pass is a
+whole-day audit only — no concept-page text re-applied, `index.md` unchanged.
+
+### Routed as `append_existing` (already applied earlier today — not re-applied)
+- **11:00 → `concepts/ai-infra-operating-economics.md`**: Vercel Agent ("an agent you can let near production"), HF native-speed vLLM transformers modeling backend (serving efficiency), and GitHub enterprise-managed OpenTelemetry export + MDM-managed Copilot (agent observability + governance) — all on the operable/observable/securable AI-infra axis.
+- **22:00 → `concepts/managed-agents-practical-summary.md`**: Google "Expanding Managed Agents in Gemini API: background tasks, remote MCP and more" (2026-07-07). Cross-vendor convergence with Anthropic Managed Agents + Vercel Agent toward production-grade hosted agents on durable-session/background-task + remote-MCP primitives.
+
+### Routed as `raw_only`
+- Both social passes (08:00, 19:00) were **Threads API only** — live Chrome CDP on `127.0.0.1:9222` was unavailable all day (connection refused, curl exit 7), so Threads liked, YouTube, GitHub Stars, Google My Activity, ChatGPT, Claude, and X are recorded as **access facts, not `변화 없음`**.
+- The only genuinely-new own `/threads` rows across both social runs were three empty `REPOST_FACADE` reposts (`DaiHwK9E-oR` 07-08 13:12 UTC; `DakUpdgE2cy` 07-09 09:44 UTC; `Daj1jPakxXo` 07-09 05:12 UTC). All have empty text and JS-rendered public HTML — content not recoverable without CDP. Single-surface, low durability → `raw_only` (URL + timestamp preserved as evidence).
+- Keyword search (`agent`/`Claude Code`/`Codex`) again returned only CK's own April–May managed-agents posts → reinforcement of an already-durable axis, not new discovery.
+- New-target `raw_only` context (11:00/22:00): OpenAI GPT-Live / coding-eval, HF "Data for Agents", Codex-in-JetBrains, AWS Aurora DSQL CDC GA / Security Hub network scanning / Builder Center sandbox, Cloudflare Meerkat, Docker "laptop is the new production" — all reinforce existing infra lanes without a new branch. GitHub Trending all repeats or off-axis.
+
+### Routed as `discard`
+- Both social passes: `/replies` were all 홍명보/한국축구 전술·데이터분석 civic-sports debate; `/mentions` empty.
+- 22:00 new-target: Cloudflare RSS `The Quantum Menace` (`article:published_time` 2019-06-20 — old post resurfacing).
+
+### Routed as `manual_review`
+- None. The empty-facade reposts are low-durability rather than ambiguous-but-promising; no candidate strong enough to hold for review.
+
+### Not routed as `promote_to_wiki`
+- No stable new durable branch emerged. The day is **reinforcement-only** at the durable layer: the two earlier ingest-stage appends carry the entire durable delta, and the 23:00 refinement adds only this whole-day audit plus a `log.md` entry. Raw files, `index.md`, and non-Honcho concept pages left untouched.
+
+### Why this matters
+- CDP was down all day, so the social track collapsed to Threads-API-only reinforcement; the new-target track carried the only durable signal (cross-vendor managed-agents-toward-production + serving/observability levers), both already appended. Correct end-of-day reading: strict triage, no duplicated reinforcement, no new page.
