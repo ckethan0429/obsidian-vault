@@ -2685,3 +2685,18 @@ Source: `raw/transcripts/interest-signal-collection-19-00-2026-07-10.md`. Transp
 
 ### Not routed as `promote_to_wiki` / `manual_review` (19:00)
 - No durable new branch. Reinforcement-only at the durable layer. Durable action = raw transcript + this Honcho audit + `log.md` entry; `index.md` and non-Honcho concept pages left unchanged.
+
+## 2026-07-10 22:00 new-target run (RSS/Atom + HTML; CDP not used)
+
+Source: `raw/transcripts/interest-signal-collection-22-00-2026-07-10.md`. Collected via authenticated public RSS/Atom + HTML fetch (standalone script → `.cache/newtarget-2026-07-10-2200/` → parser). Baseline: same-day 11:00 new-target transcript (which already absorbed the durable append) + 07-09 11:00/22:00 new-target transcripts + `concepts/ai-infra-operating-economics.md`. Social surfaces excluded (owned by 08:00/19:00 jobs).
+
+### Routed as `raw_only`
+- New-since-11:00 rows are all minor/low-durability: OpenAI **Deutsche Telekom** enterprise PR (`https://openai.com/index/deutsche-telekom`); **GitHub Mobile** improved filters/sorting for Copilot sessions (`https://github.blog/changelog/2026-07-10-github-mobile-improved-filters-and-sorting-for-copilot-sessions`); Hugging Face **Profiling in PyTorch (Part 3)** tutorial (`https://huggingface.co/blog/torch-attention-profile`); Simon Willison **Quoting OpenAI** (`https://simonwillison.net/2026/Jul/10/openai/`).
+- GitHub Trending on-axis rows all repeat (`addyosmani/agent-skills`, `obra/superpowers`, `mattpocock/skills`, `TencentCloud/TencentDB-Agent-Memory`, `wonderwhy-er/DesktopCommanderMCP`, `davila7/claude-code-templates`). Only fresh-looking on-axis row `google-labs-code/stitch-skills` (`https://github.com/google-labs-code/stitch-skills`) is same-axis skills-packaging rotation, single-surface — not a new branch.
+- All other feeds returned only rows already in the 11:00 baseline (GPT-5.6 family + M365/GitHub/Vercel propagation, AWS MCP OAuth, Cloudflare ml-dsa, Google AlphaEvolve, Vercel redaction/Muse Spark). Anthropic RSS 404 (availability fact).
+
+### Routed as `discard`
+- OpenAI/Google enterprise-customer + sustainability/health PR, AWS region-availability/feature-store plumbing, Google photos/street-view/coffee-shop, generic/off-axis trending repos — no durable AI/agent/infra meaning.
+
+### Not routed as `append_existing` / `promote_to_wiki` / `manual_review` (22:00)
+- The day's only durable delta (GPT-5.6 frontier family + platform distribution + AWS MCP OAuth) was **already applied to `concepts/ai-infra-operating-economics.md` at 11:00**; the 22:00 pass does not re-apply it. Reinforcement-only at the durable layer. Durable action = raw transcript + this Honcho audit + `log.md` entry; `index.md` and all concept pages left unchanged.
