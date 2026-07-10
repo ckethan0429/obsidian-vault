@@ -1,10 +1,10 @@
 ---
 title: AI infra operating economics
 created: 2026-04-22
-updated: 2026-07-09
+updated: 2026-07-10
 type: concept
 tags: [infrastructure, gpu, storage, proxmox, agents, business, strategy]
-sources: [raw/transcripts/interest-signal-collection-11-00-2026-07-09.md, raw/transcripts/interest-signal-collection-11-00-2026-07-08.md, raw/transcripts/interest-signal-collection-22-00-2026-07-07.md, raw/transcripts/interest-signal-collection-11-00-2026-06-12.md, raw/transcripts/interest-signal-collection-11-00-2026-06-11.md, raw/transcripts/interest-signal-collection-11-00-2026-06-10.md, raw/transcripts/interest-signal-collection-22-00-2026-06-09.md, raw/transcripts/interest-signal-collection-11-00-2026-06-05.md, raw/transcripts/interest-signal-collection-11-00-2026-06-04.md, raw/transcripts/interest-signal-collection-22-00-2026-06-03.md, raw/transcripts/interest-signal-collection-11-00-2026-06-03.md, raw/transcripts/interest-signal-collection-22-00-2026-06-02.md, raw/transcripts/interest-signal-collection-11-00-2026-06-02.md, raw/transcripts/interest-signal-collection-22-00-2026-06-01.md, raw/transcripts/interest-signal-collection-11-00-2026-05-31.md, raw/transcripts/interest-signal-collection-22-00-2026-05-31.md, raw/transcripts/interest-signal-collection-08-00-2026-04-22.md, raw/transcripts/interest-signal-collection-19-00-2026-04-22.md]
+sources: [raw/transcripts/interest-signal-collection-11-00-2026-07-10.md, raw/transcripts/interest-signal-collection-11-00-2026-07-09.md, raw/transcripts/interest-signal-collection-11-00-2026-07-08.md, raw/transcripts/interest-signal-collection-22-00-2026-07-07.md, raw/transcripts/interest-signal-collection-11-00-2026-06-12.md, raw/transcripts/interest-signal-collection-11-00-2026-06-11.md, raw/transcripts/interest-signal-collection-11-00-2026-06-10.md, raw/transcripts/interest-signal-collection-22-00-2026-06-09.md, raw/transcripts/interest-signal-collection-11-00-2026-06-05.md, raw/transcripts/interest-signal-collection-11-00-2026-06-04.md, raw/transcripts/interest-signal-collection-22-00-2026-06-03.md, raw/transcripts/interest-signal-collection-11-00-2026-06-03.md, raw/transcripts/interest-signal-collection-22-00-2026-06-02.md, raw/transcripts/interest-signal-collection-11-00-2026-06-02.md, raw/transcripts/interest-signal-collection-22-00-2026-06-01.md, raw/transcripts/interest-signal-collection-11-00-2026-05-31.md, raw/transcripts/interest-signal-collection-22-00-2026-05-31.md, raw/transcripts/interest-signal-collection-08-00-2026-04-22.md, raw/transcripts/interest-signal-collection-19-00-2026-04-22.md]
 ---
 
 # AI infra operating economics
@@ -1212,6 +1212,24 @@ same operable/observable/securable AI-infra thesis. Kept minimal.
 
 ### Updated reading
 Still **append_existing**, deliberately small. Adjacent-but-single-surface rows stayed `raw_only`: OpenAI GPT-Live + coding-eval methodology, HF NVIDIA "Data for Agents", Codex-as-agent-provider in JetBrains, AWS Aurora DSQL CDC GA / Security Hub network scanning / Builder Center sandbox, Cloudflare Meerkat global-consensus, and Docker "Your Laptop Is the New Production Environment". GitHub Trending was all repeats vs the 07-08 baselines (only `huxingyi/autoremesher`, off-axis 3D remesh, was new).
+
+## 2026-07-10 new-target reinforcement — a frontier model family propagates across coding-agent platforms same-day, plus MCP-server OAuth
+
+Source: `raw/transcripts/interest-signal-collection-11-00-2026-07-10.md` (one day after the 07-09 agent-near-production / serving-efficiency / observability append)
+
+The 07-10 sweep added no new axis; it added the clearest single-day example yet of the
+**multi-model platform-distribution + model-lifecycle-routing** lever this page tracks. Kept minimal.
+
+- **OpenAI GPT-5.6 frontier family (Sol / Terra / Luna)** launched (`https://openai.com/index/gpt-5-6`) and propagated across coding-agent platforms **the same day**: it became the **preferred model in Microsoft 365 Copilot** (`https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot`), landed in **GitHub Copilot** (`https://github.blog/changelog/2026-07-09-openais-gpt-5-6-sol-terra-and-luna-are-now-available-in-github-copilot`), and went live on the **Vercel AI Gateway** (`https://vercel.com/changelog/gpt-5-6-now-available-on-ai-gateway`). The operating-economics point is not the benchmark: it is that a new frontier family now reaches every agent runtime through the same gateway/lifecycle plumbing within hours, so model choice is a routing/config decision, not a migration.
+- **AWS "OAuth support for the AWS MCP Server"** (`https://aws.amazon.com/about-aws/whats-new/2026/07/oauth-aws-mcp-server/`) makes agent tool access **securable** at the MCP boundary — the same operable/observable/securable axis, now at the tool-access layer.
+
+### Updated reading
+Still **append_existing**, deliberately small. Adjacent-but-single-surface rows stayed `raw_only`:
+Google AlphaEvolve rolling out widely on Google Cloud, Cloudflare post-quantum `ml-dsa` signatures,
+GitHub Copilot repo-overview + org-level Code Quality targeting, OpenAI ChatGPT-partner / Bio Bug
+Bounty, Vercel build-log secret redaction + Muse Spark 1.1, AWS SageMaker HyperPod deep health checks
+/ Timestream EventBridge / MSK Replicator, and Simon Willison's `llm 0.31.1` / `llm-meta-ai`. GitHub
+Trending was all repeats vs the 07-08/09 baselines; new rows were off-axis. Anthropic RSS 404 (availability fact).
 
 ## Related pages
 
