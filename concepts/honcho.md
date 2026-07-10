@@ -2669,3 +2669,19 @@ Source: `raw/transcripts/interest-signal-collection-11-00-2026-07-10.md`. Collec
 
 ### Not routed as `promote_to_wiki` / `manual_review` (11:00)
 - No durable new branch; Anthropic RSS 404 recorded as an availability fact. Durable action = raw transcript + this Honcho audit + `ai-infra-operating-economics.md` append + `log.md` entry; `index.md` and non-`ai-infra` concept pages left unchanged.
+
+## 2026-07-10 19:00 social run routing audit
+
+Source: `raw/transcripts/interest-signal-collection-19-00-2026-07-10.md`. Transport: **Threads API only** — live Chrome CDP on `127.0.0.1:9222` unavailable again (connection refused, curl exit 7), the **sixth consecutive social run** with CDP down. Baseline: same-day 08:00 social + 11:00 new-target transcripts, `concepts/honcho.md`, `concepts/managed-agents-practical-summary.md`, and `log.md`.
+
+### Routed as `raw_only`
+- Own `/threads`: **no new rows since the 08:00 baseline** (newest still `REPOST_FACADE` `DalhLj5E7Xd`, 07-09 20:52 UTC). All rows repeat prior baselines.
+- `/replies`: fresh 2026-07-10 rows appeared since the morning (08:00 had newest at 07-07), but they are overwhelmingly personal/soccer/military(7사단 GOP)/entertainment noise. The only mildly on-axis reply is one line — **"codex는 없나요?"** (`DamuCFrE8fG`, 07-10 08:04 UTC, https://www.threads.com/@ethan13917/post/DamuCFrE8fG) — a single-surface coding-agent mention. Kept as raw evidence: too thin to promote and reinforces CK's existing Codex/coding-agent interest rather than opening a new branch.
+- Keyword search (`agent`/`Claude Code`/`Codex`) again returned only CK's own April–May managed-agents posts → reinforcement of an already-durable axis, not new discovery.
+- CDP-authenticated surfaces (Threads liked, YouTube, GitHub Stars, Google My Activity, ChatGPT, Claude, X) recorded as **access facts, not `변화 없음`**.
+
+### Routed as `discard`
+- `/mentions` empty dataset. Soccer/military/entertainment/personal replies carry no durable AI/agent/infra meaning.
+
+### Not routed as `promote_to_wiki` / `manual_review` (19:00)
+- No durable new branch. Reinforcement-only at the durable layer. Durable action = raw transcript + this Honcho audit + `log.md` entry; `index.md` and non-Honcho concept pages left unchanged.
