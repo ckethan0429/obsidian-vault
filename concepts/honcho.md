@@ -2760,3 +2760,19 @@ Source: `raw/transcripts/interest-signal-collection-11-00-2026-07-11.md`. Collec
 
 ### Not routed as `promote_to_wiki` / `manual_review`
 - No new durable branch; the two `append_existing` rows extend an existing axis. Durable action = raw transcript + one minimal `ai-infra-operating-economics.md` append + this Honcho audit + `log.md` entry; `index.md` and non-`ai-infra` concept pages left unchanged.
+
+## 2026-07-11 19:00 social run — routing audit (reinforcement-only)
+
+Source: `raw/transcripts/interest-signal-collection-19-00-2026-07-11.md`. Transport: **Threads API only** — live Chrome CDP on `127.0.0.1:9222` still unavailable (curl exit 7, down all day). Baselined against the same-day 08:00 social + 11:00 new-target transcripts and the 07-10 19:00 social run.
+
+### Routed as `raw_only`
+- Own `/threads` gained **two genuinely-new empty `REPOST_FACADE` rows** since the 08:00 baseline: `DapQbi9k_Vk` (07-11 07:43 UTC, public og:title recovers reposted author **`@_joojinwoo`** — 주진우, Korean investigative journalist, **civic/political, OFF the AI axis**) and `Daonr3ekwwK` (07-11 01:47 UTC, og:title recovers author **`@sooneun1777`** — personal/lifestyle). Both have empty og:description, so the post text is not recoverable without CDP. Single-surface civic/personal feed rotation, low durability, off CK's durable AI/agent/infra axis — not a new branch.
+- `/replies` gained one new civic/police-commentary row (`DapS3RAE4dA`, 07-11 08:04 — noise) since 08:00; the on-axis "codex는 없나요?" was already captured 07-10 19:00.
+- Keyword search (`agent`/`Claude Code`/`Codex`) again returned only CK's own April–May managed-agents posts — reinforcement of an already-durable axis.
+- CDP-authenticated surfaces (Threads liked, YouTube, GitHub Stars, Google My Activity, ChatGPT, Claude, X) recorded as **access facts, not `변화 없음`**.
+
+### Routed as `discard`
+- `/mentions` empty dataset; entertainment/soccer/military/personal replies noise.
+
+### Not routed as `append_existing` / `promote_to_wiki` / `manual_review` (19:00)
+- The two new reposts are civic/political and personal by author, text-empty and single-surface — off the AI axis and too thin to promote or hold for review. Reinforcement-only at the durable layer. Durable action = raw transcript + this Honcho audit + `log.md` entry; `index.md` and non-Honcho concept pages left unchanged.

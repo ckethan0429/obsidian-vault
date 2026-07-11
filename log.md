@@ -1949,3 +1949,20 @@
 - Applied one minimal `append_existing` to `concepts/ai-infra-operating-economics.md`: **GitHub CodeQL 2.26.0 adds AI prompt-injection detection** (`https://github.blog/changelog/2026-07-10-codeql-2-26-0-adds-kotlin-2-4-0-support-and-ai-prompt-injection-detection`, securing AI/agent-generated code) and **AWS DMS Schema Conversion now supports AI-agent automation via an MCP Server** (`https://aws.amazon.com/about-aws/whats-new/2026/07/aws-dms-sc-ai-agent-automation-mcp-server/`, agent-tool-access reaching data-migration ops one day after AWS MCP Server OAuth) — a two-day "securable agent tooling at the MCP boundary" thread on the operable/observable/securable axis, no new branch
 - Kept `raw_only`: AWS EMR-on-EKS Spark troubleshooting agent, Cloudflare Smart Tiered Cache for public clouds, Vercel Traces Tree/Waterfall views + deploy-Lovable-apps, Gemini study notebooks, Simon Willison `Quoting Nilay Patel`, GitHub Trending rotation (Python: agent-governance-toolkit, LMCache, codex-lb, memtrace-public, agentscope, NVIDIA/skills). OpenAI Deutsche Telekom / GitHub Mobile Copilot-sessions / HF PyTorch-profiling already in 07-10 22:00 baseline
 - Added the routing audit to `concepts/honcho.md`, updated `ai-infra-operating-economics.md` frontmatter (`updated`/`sources`), and left `index.md` plus non-`ai-infra` concept pages unchanged
+
+## [2026-07-11] query | 15:00 personal insight curation pass
+- Oriented on README/index/log; scanned freshest raw new-target transcripts (07-11 11:00, 07-10 11:00, 07-07 22:00)
+- Selected 4 source-backed topics for CK's insight development (not a Threads draft, not for posting)
+- Topics: GPT-5.6 frontier family + same-day platform propagation; securable agent tooling at the MCP boundary (CodeQL AI prompt-injection + AWS DMS MCP + AWS MCP OAuth); agent isolation/sandbox as first-class infra primitive; cross-vendor managed-agents convergence
+- Delivered compact Korean note with 원문 링크 per topic; no wiki page created (query-only curation)
+
+## [2026-07-11] query | Threads curation draft — securable agent tooling at the MCP boundary
+- Oriented with SCHEMA/index/recent log; scanned freshest 07-11 11:00 new-target transcript plus 07-10 baselines
+- Selected the two-day "securable agent tooling at the MCP boundary" thread as today's strongest source-backed topic: GitHub CodeQL 2.26.0 AI prompt-injection detection + AWS DMS Schema Conversion MCP agent automation (one day after AWS MCP Server OAuth)
+- Materially different angle from prior curation drafts (2026-06-02 governed runtime economics, 2026-06-03 agent trust/eval infra)
+- Prepared one Korean Threads draft (main + 5 replies) for CK approval; draft only, not published; no durable page or index change
+
+## [2026-07-11] ingest | 19:00 social/browser collection run
+- Read README first; verified no same-day 19:00 raw existed → collected. Live Chrome CDP still unavailable (`/json/version` curl exit 7, down all day); **Threads API only**. Recorded browser-authenticated surfaces (Threads liked, YouTube, GitHub Stars, Google My Activity, ChatGPT, Claude, X) as access facts, not `변화 없음`.
+- Threads token refreshed; `/v1.0/me` confirmed `ethan13917`. Own `/threads` gained two new empty `REPOST_FACADE` rows since 08:00 — `DapQbi9k_Vk` (07-11 07:43 UTC, reposts `@_joojinwoo` 주진우 investigative journalist, civic/political off-axis) and `Daonr3ekwwK` (07-11 01:47 UTC, reposts `@sooneun1777` personal); og:title recovered both authors, og:description empty (text not recoverable without CDP). `/replies` gained one new civic/police-commentary row (`DapS3RAE4dA`); `/mentions` empty; keyword_search only CK's own managed-agents posts (reinforcement).
+- Route: **`raw_only` / reinforcement-only** — both new reposts civic/personal, off CK's durable AI/agent/infra axis. Saved `raw/transcripts/interest-signal-collection-19-00-2026-07-11.md` + Honcho audit in `concepts/honcho.md`; `index.md` and non-Honcho concept pages left unchanged.
