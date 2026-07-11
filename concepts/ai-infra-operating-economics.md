@@ -1,10 +1,10 @@
 ---
 title: AI infra operating economics
 created: 2026-04-22
-updated: 2026-07-10
+updated: 2026-07-11
 type: concept
 tags: [infrastructure, gpu, storage, proxmox, agents, business, strategy]
-sources: [raw/transcripts/interest-signal-collection-11-00-2026-07-10.md, raw/transcripts/interest-signal-collection-11-00-2026-07-09.md, raw/transcripts/interest-signal-collection-11-00-2026-07-08.md, raw/transcripts/interest-signal-collection-22-00-2026-07-07.md, raw/transcripts/interest-signal-collection-11-00-2026-06-12.md, raw/transcripts/interest-signal-collection-11-00-2026-06-11.md, raw/transcripts/interest-signal-collection-11-00-2026-06-10.md, raw/transcripts/interest-signal-collection-22-00-2026-06-09.md, raw/transcripts/interest-signal-collection-11-00-2026-06-05.md, raw/transcripts/interest-signal-collection-11-00-2026-06-04.md, raw/transcripts/interest-signal-collection-22-00-2026-06-03.md, raw/transcripts/interest-signal-collection-11-00-2026-06-03.md, raw/transcripts/interest-signal-collection-22-00-2026-06-02.md, raw/transcripts/interest-signal-collection-11-00-2026-06-02.md, raw/transcripts/interest-signal-collection-22-00-2026-06-01.md, raw/transcripts/interest-signal-collection-11-00-2026-05-31.md, raw/transcripts/interest-signal-collection-22-00-2026-05-31.md, raw/transcripts/interest-signal-collection-08-00-2026-04-22.md, raw/transcripts/interest-signal-collection-19-00-2026-04-22.md]
+sources: [raw/transcripts/interest-signal-collection-11-00-2026-07-11.md, raw/transcripts/interest-signal-collection-11-00-2026-07-10.md, raw/transcripts/interest-signal-collection-11-00-2026-07-09.md, raw/transcripts/interest-signal-collection-11-00-2026-07-08.md, raw/transcripts/interest-signal-collection-22-00-2026-07-07.md, raw/transcripts/interest-signal-collection-11-00-2026-06-12.md, raw/transcripts/interest-signal-collection-11-00-2026-06-11.md, raw/transcripts/interest-signal-collection-11-00-2026-06-10.md, raw/transcripts/interest-signal-collection-22-00-2026-06-09.md, raw/transcripts/interest-signal-collection-11-00-2026-06-05.md, raw/transcripts/interest-signal-collection-11-00-2026-06-04.md, raw/transcripts/interest-signal-collection-22-00-2026-06-03.md, raw/transcripts/interest-signal-collection-11-00-2026-06-03.md, raw/transcripts/interest-signal-collection-22-00-2026-06-02.md, raw/transcripts/interest-signal-collection-11-00-2026-06-02.md, raw/transcripts/interest-signal-collection-22-00-2026-06-01.md, raw/transcripts/interest-signal-collection-11-00-2026-05-31.md, raw/transcripts/interest-signal-collection-22-00-2026-05-31.md, raw/transcripts/interest-signal-collection-08-00-2026-04-22.md, raw/transcripts/interest-signal-collection-19-00-2026-04-22.md]
 ---
 
 # AI infra operating economics
@@ -1230,6 +1230,25 @@ GitHub Copilot repo-overview + org-level Code Quality targeting, OpenAI ChatGPT-
 Bounty, Vercel build-log secret redaction + Muse Spark 1.1, AWS SageMaker HyperPod deep health checks
 / Timestream EventBridge / MSK Replicator, and Simon Willison's `llm 0.31.1` / `llm-meta-ai`. GitHub
 Trending was all repeats vs the 07-08/09 baselines; new rows were off-axis. Anthropic RSS 404 (availability fact).
+
+## 2026-07-11 new-target reinforcement — securing AI-generated code + agent-tool automation reaches data-migration ops
+
+Source: `raw/transcripts/interest-signal-collection-11-00-2026-07-11.md` (one day after the 07-10 GPT-5.6 platform-propagation + AWS MCP Server OAuth append)
+
+The 07-11 sweep added no new axis; it added two concrete July data points that extend the same
+**securable / agent-tool-access** thread, forming a two-day sequence with the 07-10 AWS MCP OAuth append. Kept minimal.
+
+- **GitHub CodeQL 2.26.0 adds AI prompt-injection detection** (`https://github.blog/changelog/2026-07-10-codeql-2-26-0-adds-kotlin-2-4-0-support-and-ai-prompt-injection-detection`) — static analysis now targets the security of AI/agent-generated code itself, not just human code. As agents write more of the codebase, prompt-injection detection becomes part of the same operable/observable/**securable** operating layer.
+- **AWS DMS Schema Conversion now supports AI-agent automation via an MCP Server** (`https://aws.amazon.com/about-aws/whats-new/2026/07/aws-dms-sc-ai-agent-automation-mcp-server/`) — agent-tool-access reaches data-migration ops through the MCP boundary, one day after AWS shipped OAuth for the AWS MCP Server. The MCP boundary is becoming the standard, securable seam where agents get scoped access to concrete cloud operations.
+
+### Updated reading
+Still **append_existing**, deliberately small. Adjacent-but-single-surface rows stayed `raw_only`:
+AWS EMR-on-EKS Apache Spark troubleshooting agent, Cloudflare Smart Tiered Cache for public-cloud
+regions, Vercel Traces Tree/Waterfall views + deploy-Lovable-apps, Gemini study notebooks, Simon
+Willison `Quoting Nilay Patel`, and GitHub Trending rotation (Python: `microsoft/agent-governance-toolkit`,
+`LMCache/LMCache`, `Soju06/codex-lb`, `syncable-dev/memtrace-public`, `agentscope-ai/agentscope`,
+`NVIDIA/skills`). OpenAI Deutsche Telekom / GitHub Mobile Copilot-sessions / HF PyTorch-profiling were
+already in the 07-10 22:00 baseline. Anthropic RSS 404 (availability fact).
 
 ## Related pages
 
