@@ -2776,3 +2776,17 @@ Source: `raw/transcripts/interest-signal-collection-19-00-2026-07-11.md`. Transp
 
 ### Not routed as `append_existing` / `promote_to_wiki` / `manual_review` (19:00)
 - The two new reposts are civic/political and personal by author, text-empty and single-surface — off the AI axis and too thin to promote or hold for review. Reinforcement-only at the durable layer. Durable action = raw transcript + this Honcho audit + `log.md` entry; `index.md` and non-Honcho concept pages left unchanged.
+
+## 2026-07-11 22:00 new-target run — routing audit (reinforcement-only)
+
+Source: `raw/transcripts/interest-signal-collection-22-00-2026-07-11.md`. Collected via authenticated public RSS/Atom + HTML fetch (standalone Python → `.cache/newtarget-2026-07-11-2200/` → parser): OpenAI, GitHub changelog, AWS What's New, Hugging Face, Meta Engineering, Vercel, Cloudflare, Docker, Simon Willison, Google, GitHub Trending (daily + python). Anthropic RSS 404 (availability fact). Novelty judged primarily against the same-day 11:00 new-target transcript (which already absorbed the durable append) plus the 07-10 11:00/22:00 baselines. Social surfaces intentionally excluded (owned by 08:00/19:00 jobs).
+
+### Routed as `raw_only`
+- **No genuinely-new dated RSS/Atom row surfaced at 22:00.** Every feed's newest item is dated 2026-07-10 or earlier and already appears in the 11:00 baseline: OpenAI (Deutsche Telekom), GitHub changelog (CodeQL AI prompt-injection — already appended at 11:00), AWS What's New (EMR-on-EKS Spark agent / DMS SC MCP), Cloudflare (Smart Tiered Cache), Vercel (Traces Tree/Waterfall), Google (Gemini study notebooks), Simon Willison (Quoting Nilay Patel), HF (PyTorch Profiling Part 3), Docker (07-08), Meta Eng (07-01).
+- GitHub Trending rotated a few fresh on-axis repos: `openai/plugins`, `anthropics/claude-cookbooks`, `anthropics/claude-code`, `FoundationAgents/OpenManus`, `Skyvern-AI/skyvern`, `cognizant-ai-lab/neuro-san-studio`, `langflow-ai/langflow`, `DayuanJiang/next-ai-draw-io` — single-surface Trending rotation reinforcing existing agent-framework / skills / claude-code / browser-agent lanes, no new durable branch.
+
+### Routed as `discard`
+- AWS region/instance-availability rows (EC2 R8in/G7/I7ie, DocumentDB R8g), OpenAI/Google enterprise & health/sports PR (DeChambeau Google Health), off-axis/generic-infra trending repos.
+
+### Not routed as `append_existing` / `promote_to_wiki` / `manual_review` (22:00)
+- The day's only durable delta (CodeQL AI prompt-injection + AWS DMS MCP "securable agent tooling at the MCP boundary" thread) was already applied to `concepts/ai-infra-operating-economics.md` at 11:00; this 22:00 pass does not re-apply it. No new dated row and only single-surface Trending rotation → **reinforcement-only**. Durable action = raw transcript + this Honcho audit + `log.md` entry; `index.md` and all concept pages left unchanged. Anthropic RSS 404 recorded as an availability fact.
