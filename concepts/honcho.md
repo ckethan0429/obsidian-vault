@@ -2882,3 +2882,15 @@ Whole-day Honcho triage:
 - **`manual_review`: none.**
 
 **Verdict: reinforcement-only at the durable layer, and additionally a no-new-signal day on the social track (both Threads surfaces static all day).** This whole-day summary + a `log.md` entry are the only durable actions; raw files, `index.md`, and all non-Honcho concept pages left unchanged. Frontmatter `sources` refreshed to include the four 07-12 transcripts.
+
+## Routing audit — 2026-07-13 08:00 social run (both-static no-new-signal)
+Reviewed: `raw/transcripts/interest-signal-collection-08-00-2026-07-13.md`. Baseline = the prior social run (07-12 19:00), plus the 07-12 08:00 social baseline. Transport: **Threads API only** — live Chrome CDP on `127.0.0.1:9222` again unavailable (`/json/version` connection-refused).
+
+- `raw_only` — own `/threads` UNCHANGED since the 07-12 19:00/08:00 baseline (newest still `DapQbi9k_Vk`, 07-11 07:43 UTC, empty REPOST_FACADE reposting @_joojinwoo civic/political; then `Daonr3ekwwK` 07-11 01:47 UTC @sooneun1777 personal). No new own posts/reposts.
+- `raw_only` — `/replies` UNCHANGED since the 07-12 baseline (newest still `DapS3RAE4dA`, 07-11 08:04 UTC, civic/police-commentary noise). No new dated rows; the on-axis "codex는 없나요?" (07-10) reply is already-captured reinforcement.
+- `raw_only` — keyword_search (agent / Claude Code / Codex) again returns only CK's own April–May managed-agents posts (+ the 07-10 codex reply) — reinforcement of the already-durable `managed-agents-practical-summary` axis, not new discovery.
+- `raw_only` (access facts) — CDP-authenticated surfaces (Threads liked, YouTube subscriptions/liked/Watch Later, GitHub Stars, Google My Activity, ChatGPT, Claude, X) unavailable. Recorded as availability facts, **not `변화 없음`**.
+- `discard` — `/mentions` empty dataset.
+- `manual_review` / `promote_to_wiki` — none.
+
+**Verdict: both-static clean no-new-signal.** Both own `/threads` and `/replies` static since the 07-12 19:00 baseline; only grounded source (Threads API) shows pure reinforcement. Durable action = raw transcript + this audit + `log.md` entry; `index.md` and all non-Honcho concept pages left unchanged.
