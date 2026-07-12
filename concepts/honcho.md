@@ -2842,3 +2842,13 @@ Reviewed: `raw/transcripts/interest-signal-collection-11-00-2026-07-12.md`. Base
 - `manual_review` / `promote_to_wiki` — none.
 
 **Verdict: reinforcement-only.** The prior-day durable delta (CodeQL AI prompt-injection + AWS DMS MCP) was already absorbed at 07-11 11:00; durable action = raw transcript + this audit + `log.md` entry. `index.md` and all non-Honcho concept pages left unchanged.
+
+## Routing audit — 2026-07-12 19:00 social run (no-new-signal)
+Reviewed: `raw/transcripts/interest-signal-collection-19-00-2026-07-12.md`. Baseline = the same-day 08:00 social run and the prior social run (2026-07-11 19:00).
+
+- `raw_only` — Threads API (only grounded source; CDP down again all-day). Own `/threads` **unchanged** since the 08:00 baseline (newest still `DapQbi9k_Vk`, 07-11 07:43 UTC), and `/replies` **unchanged** (newest still `DapS3RAE4dA`, 07-11 08:04 UTC). Both surfaces static → clean both-static no-new-signal case. keyword_search (`agent`/`Claude Code`/`Codex`) again returned only CK's own April–May managed-agents posts + the 07-10 "codex는 없나요?" reply — reinforcement of the already-durable `managed-agents-practical-summary` axis, not fresh discovery.
+- `raw_only` (access facts) — CDP-authenticated surfaces (Threads liked, YouTube subscriptions/liked/Watch Later, GitHub Stars, Google My Activity, ChatGPT, Claude, X) unavailable (`127.0.0.1:9222` connection refused). Recorded as availability facts, **not `변화 없음`**.
+- `discard` — `/mentions` empty dataset.
+- `manual_review` / `promote_to_wiki` — none.
+
+**Verdict: no-new-signal / reinforcement-only.** Both Threads own-surfaces static since the 08:00 baseline and the 07-11 19:00 baseline; durable action = raw transcript + this audit + `log.md` entry. `index.md` and all non-Honcho concept pages left unchanged.

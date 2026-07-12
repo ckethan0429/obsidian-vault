@@ -1996,3 +1996,22 @@
 - **Only two genuinely-new dated rows, both single-surface low-durability `raw_only`:** Vercel AI Gateway added **Seedream 5.0 Pro** (07-11) and Simon Willison shipped **sqlite-utils 4.1** (07-11). Every other feed's newest item is 07-10 or earlier and already baselined; the prior-day durable delta (GitHub CodeQL AI prompt-injection + AWS DMS Schema Conversion MCP) was already applied at 07-11 11:00 and is not re-applied
 - `raw_only`: GitHub Trending rotation on existing agent-framework/skills/claude-code lanes (openai/plugins, claude-cookbooks, claude-code, OpenManus, Skyvern, neuro-san-studio, langflow) + minor new rows (openai/openai-python, volcengine/OpenViking, awesome-llm-apps, free-claude-code) — single-surface, no new branch. `discard`: AWS region/instance rows, OpenAI/Google enterprise & health/sports PR, Anthropic RSS 404. `manual_review`/`promote_to_wiki`: none
 - Added the routing audit to `concepts/honcho.md`; left `index.md` and all concept pages unchanged (reinforcement-only at the durable layer)
+
+## [2026-07-12] ingest | Interest signal collection 19:00 social run — no-new-signal
+- Saved raw source: `raw/transcripts/interest-signal-collection-19-00-2026-07-12.md`
+- Baselined against the same-day 08:00 social run and the prior social run (`raw/transcripts/interest-signal-collection-19-00-2026-07-11.md`); also cross-checked `concepts/managed-agents-practical-summary.md` and `concepts/honcho.md`
+- Transport: **Threads API only** — live Chrome CDP `127.0.0.1:9222` again unavailable (`/json/version` + `/json/list` connection-refused), so Threads liked, YouTube (subscriptions/liked/Watch Later), GitHub Stars, Google My Activity, ChatGPT, Claude, and X could not be collected; recorded as access facts, not `변화 없음`. Token refreshed OK; `/v1.0/me` confirmed `ethan13917`
+- **No new signal (both-static case).** Own `/threads` unchanged since the 08:00 baseline (newest still `DapQbi9k_Vk`, 07-11 07:43 UTC) and `/replies` unchanged (newest still `DapS3RAE4dA`, 07-11 08:04 UTC) — no new own posts or replies. keyword_search (`agent`/`Claude Code`/`Codex`) returned only CK's own April–May managed-agents posts + the 07-10 "codex는 없나요?" reply (reinforcement of an already-durable axis). `/mentions` empty
+- Added the routing audit to `concepts/honcho.md`; left `index.md` and all non-Honcho concept pages unchanged (no-new-signal / reinforcement-only)
+
+## [2026-07-12] query | 15:00 personal insight curation pass
+- Oriented on README/index/log; scanned freshest new-target transcripts (07-12 11:00, 07-11 11:00)
+- 07-12 fresh signal was thin (only Vercel Seedream 5.0 Pro on AI Gateway + Simon Willison sqlite-utils 4.1, both single-surface); anchored on strongest recent source-backed threads with clear original links
+- Topics: securable agent tooling at the MCP boundary (CodeQL AI prompt-injection + AWS DMS MCP + AWS MCP OAuth); GPT-5.6 Sol/Terra/Luna + same-day multi-platform propagation; Vercel AI Gateway as a model-propagation hub (Seedream 5.0 Pro); GitHub Trending durable agent/skills/claude-code lane concentration
+- Delivered compact Korean note with 원문 링크 per topic; query-only, no wiki page created, no index change
+
+## [2026-07-12] query | Threads curation draft — 프론티어 모델은 이제 라우팅 설정값이다
+- Oriented on README/SCHEMA/index/recent log; scanned freshest new-target transcripts (07-12 11:00, 07-11 11:00) + `concepts/ai-infra-operating-economics.md` (2026-07-10/07-11 appends)
+- Selected the strongest source-backed topic: GPT-5.6 (Sol/Terra/Luna) same-day propagation across M365 Copilot + GitHub Copilot + Vercel AI Gateway → model choice = routing/config decision, reinforced by 07-11 Vercel Seedream 5.0 Pro on AI Gateway (model-propagation-hub angle)
+- Materially different angle from the last Threads draft (2026-07-11 securable agent tooling at MCP boundary)
+- Prepared one Korean Threads draft (main + 4 replies, all ≤300 chars, 원문 links in last reply only) for CK approval; draft only, not published; no durable page or index change
