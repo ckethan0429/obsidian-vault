@@ -2831,3 +2831,14 @@ Reviewed: `raw/transcripts/interest-signal-collection-08-00-2026-07-12.md`. Base
 - `manual_review` / `promote_to_wiki` — none.
 
 **Verdict: no-new-signal / reinforcement-only.** Both Threads own-surfaces static since the 07-11 19:00 baseline; durable action = raw transcript + this audit + `log.md` entry. `index.md` and all non-Honcho concept pages left unchanged.
+
+## Routing audit — 2026-07-12 11:00 new-target run (reinforcement-only)
+Reviewed: `raw/transcripts/interest-signal-collection-11-00-2026-07-12.md`. Baseline = the 07-11 22:00 + 07-11 11:00 new-target transcripts and `concepts/ai-infra-operating-economics.md`.
+
+- `raw_only` — Two genuinely-new but single-surface low-durability dated rows: **Vercel AI Gateway added Seedream 5.0 Pro** (07-11, https://vercel.com/changelog/seedream-5-0-pro-is-now-available-on-ai-gateway) reinforcing the existing AI-Gateway model-propagation lane, and **Simon Willison sqlite-utils 4.1** (07-11, https://simonwillison.net/2026/Jul/11/sqlite-utils/) — an own-tool release. Neither opens a new durable branch.
+- `raw_only` — All other RSS/Atom feeds unchanged past the 07-10 baseline (OpenAI Deutsche Telekom, GitHub CodeQL AI prompt-injection — already appended 07-11 11:00, AWS EMR/DMS, Cloudflare Smart Tiered Cache, HF Profiling PyTorch Pt3, Docker laptop-production, Meta AI Storage Blueprint, Google Gemini notebooks).
+- `raw_only` — GitHub Trending rotation on existing agent-framework/skills/claude-code lanes (openai/plugins, claude-cookbooks, claude-code, OpenManus, Skyvern, neuro-san-studio, langflow) plus minor new rows (openai/openai-python, volcengine/OpenViking, awesome-llm-apps, free-claude-code) — single-surface, no new branch.
+- `discard` — AWS region/instance-availability rows; OpenAI/Google enterprise + health/sports PR. Anthropic RSS 404 = availability fact.
+- `manual_review` / `promote_to_wiki` — none.
+
+**Verdict: reinforcement-only.** The prior-day durable delta (CodeQL AI prompt-injection + AWS DMS MCP) was already absorbed at 07-11 11:00; durable action = raw transcript + this audit + `log.md` entry. `index.md` and all non-Honcho concept pages left unchanged.
