@@ -2852,3 +2852,13 @@ Reviewed: `raw/transcripts/interest-signal-collection-19-00-2026-07-12.md`. Base
 - `manual_review` / `promote_to_wiki` — none.
 
 **Verdict: no-new-signal / reinforcement-only.** Both Threads own-surfaces static since the 08:00 baseline and the 07-11 19:00 baseline; durable action = raw transcript + this audit + `log.md` entry. `index.md` and all non-Honcho concept pages left unchanged.
+
+## Routing audit — 2026-07-12 22:00 new-target run (reinforcement-only)
+Reviewed: `raw/transcripts/interest-signal-collection-22-00-2026-07-12.md`. Baseline = the same-day 11:00 new-target transcript plus the 07-11 22:00/11:00 baselines and `concepts/ai-infra-operating-economics.md`.
+
+- `raw_only` — **No new dated RSS/Atom row surfaced at 22:00.** Every feed's newest item is identical to the same-day 11:00 snapshot: Vercel newest still Seedream 5.0 Pro (07-11, https://vercel.com/changelog/seedream-5-0-pro-is-now-available-on-ai-gateway) and Simon Willison newest still sqlite-utils 4.1 (07-11, https://simonwillison.net/2026/Jul/11/sqlite-utils/), both already captured/routed at 11:00; every other feed (OpenAI Deutsche Telekom, GitHub CodeQL AI prompt-injection — absorbed 07-11 11:00, AWS EMR/DMS, Cloudflare Smart Tiered Cache, HF Profiling PyTorch Pt3, Docker laptop-production, Meta AI Storage Blueprint, Google Gemini notebooks) is 07-10 or earlier and already baselined.
+- `raw_only` — GitHub Trending rotated fresh on-axis repos (`Dicklesworthstone/destructive_command_guard`, `ColeMurray/background-agents`, `pydantic/pydantic-ai`, `MervinPraison/PraisonAI`, `ComposioHQ/awesome-claude-skills`, `teng-lin/notebooklm-py`, `HKUDS/Vibe-Trading`, `virattt/ai-hedge-fund`) — single-surface Trending rotation reinforcing existing agent-framework / claude-skills / AI-investing lanes, no new durable branch.
+- `discard` — AWS region/instance-availability rows; OpenAI/Google enterprise + health/sports PR. Anthropic RSS 404 = availability fact.
+- `manual_review` / `promote_to_wiki` — none.
+
+**Verdict: reinforcement-only.** No new dated feed row past the 11:00 snapshot; the day's only durable delta (CodeQL AI prompt-injection + AWS DMS MCP) was already absorbed at 07-11 11:00. Durable action = raw transcript + this audit + `log.md` entry. `index.md` and all non-Honcho concept pages left unchanged.
