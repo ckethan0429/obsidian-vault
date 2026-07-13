@@ -2066,3 +2066,10 @@
 - 07-13/07-14 fresh signal was reinforcement-only; anchored on durable concept-page synthesis with clear original links
 - Materially different from last two drafts (2026-07-11 MCP-boundary securable tooling, 2026-07-12 frontier models as routing config)
 - Prepared one Korean Threads draft (main + 5 replies, all ≤300 chars, 원문 links in last reply only) for CK approval; draft only, not published; no durable page or index change
+
+## [2026-07-14] ingest | 19:00 social run — reinforcement-only (Threads API only, CDP down)
+- Afternoon social collection. No same-day 19:00 (or 08:00) raw existed; last completed social run was 07-13 08:00, used as baseline. Live Chrome CDP unavailable (`/json/version` connection-refused, exit 7 — CDP down since 07-11); all browser-authenticated surfaces (Threads liked, YouTube, GitHub Stars, Google My Activity, ChatGPT, Claude, X) recorded as access facts, not `변화 없음`
+- Transport: **Threads API only** (standalone stdlib `python3` urllib script `/tmp/th_collect_1900_0714.py`, cron-mode fallback); token refreshed OK, `/me` confirmed `ethan13917`; raw JSON cached to `.cache/threads-api-collection-19-00-2026-07-14.json` (disposable)
+- own `/threads` UNCHANGED since 07-13 08:00 (newest still `DapQbi9k_Vk`, 07-11). `/replies` gained ONE new dated row — `Dato11Qk5Z4` (07-13 00:33 UTC) soccer opinion reply, off-axis noise → `raw_only` chronology evidence. keyword_search = CK's own April–May managed-agents posts + 07-10 "codex는 없나요?" reply (reinforcement). `/mentions` empty
+- `raw_only`: static `/threads`, one off-axis `/replies` row, keyword reinforcement, unavailable CDP surfaces. `discard`: `/mentions` empty, soccer/military/civic reply noise. `append_existing`/`promote_to_wiki`/`manual_review`: none
+- **Verdict: reinforcement-only.** Added routing audit to `concepts/honcho.md`; saved raw transcript; left `index.md` and all non-Honcho concept pages unchanged

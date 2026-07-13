@@ -2923,3 +2923,14 @@ Whole-day Honcho triage:
 - **`manual_review`: none.**
 
 **Verdict: reinforcement-only at the durable layer, and additionally a no-new-signal day on the social track (both Threads surfaces static). Only two of the day's four scheduled runs were produced (08:00 + 11:00).** This whole-day summary + a `log.md` entry are the only durable actions; raw files, `index.md`, and all non-Honcho concept pages left unchanged. Frontmatter `sources` refreshed to include the two 07-13 transcripts.
+
+## 2026-07-14 19:00 social run — routing audit (reinforcement-only)
+
+Afternoon social ingest run. Baseline = prior social run (2026-07-13 08:00, both-static no-new-signal). Live Chrome CDP (`127.0.0.1:9222`) again unavailable (`/json/version` connection-refused, exit 7 — CDP down since 07-11), so all browser-authenticated surfaces (Threads liked, YouTube subs/liked/Watch Later, GitHub Stars, Google My Activity, ChatGPT, Claude, X) could not be collected. Threads API was the only grounded authenticated source. File: `raw/transcripts/interest-signal-collection-19-00-2026-07-14.md`.
+
+- **`raw_only`:** own `/threads` UNCHANGED since the 07-13 08:00 baseline (newest still `DapQbi9k_Vk`, 07-11 07:43 UTC empty REPOST_FACADE). `/replies` gained **one new dated row** — `Dato11Qk5Z4` (2026-07-13 00:33 UTC), a soccer opinion reply ("축구가 무슨 자아니 에고니 따지면서하냐") — single-surface off-axis noise, kept as chronology evidence only (the `/replies` freshness asymmetry: CK replies more than he posts). keyword_search (`agent`/`Claude Code`/`Codex`) returned only CK's own April–May managed-agents posts + the 07-10 "codex는 없나요?" reply — reinforcement of the `managed-agents-practical-summary` axis, not fresh discovery.
+- **`raw_only` (access facts):** all CDP-authenticated surfaces unavailable (CDP down since 07-11); recorded as availability facts, **not `변화 없음`**.
+- **`discard`:** `/mentions` empty dataset; soccer/military/civic/personal reply noise.
+- **`append_existing` / `promote_to_wiki` / `manual_review`: none.**
+
+**Verdict: reinforcement-only.** The one genuinely-new row is off-axis soccer noise. Durable action = raw transcript + this audit + `log.md` entry; `index.md` and all non-Honcho concept pages left unchanged.
