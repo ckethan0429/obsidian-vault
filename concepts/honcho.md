@@ -2934,3 +2934,14 @@ Afternoon social ingest run. Baseline = prior social run (2026-07-13 08:00, both
 - **`append_existing` / `promote_to_wiki` / `manual_review`: none.**
 
 **Verdict: reinforcement-only.** The one genuinely-new row is off-axis soccer noise. Durable action = raw transcript + this audit + `log.md` entry; `index.md` and all non-Honcho concept pages left unchanged.
+
+## Routing audit — 2026-07-14 22:00 new-target run (reinforcement-only)
+Reviewed: `raw/transcripts/interest-signal-collection-22-00-2026-07-14.md`. Baseline = same-track 07-13 11:00 / 07-12 22:00 transcripts + `concepts/ai-infra-operating-economics.md`. Transport: public RSS/Atom + GitHub Trending HTML over HTTPS (stdlib urllib script `/tmp/newtarget_fetch_2200_0714.py`; cron-mode fallback, raw feeds cached to `.cache/newtarget-2026-07-14-2200/`). Live CDP not used for this track. Social surfaces excluded (owned by 08:00/19:00 jobs).
+
+- `raw_only` — **one genuinely-new dated row:** Cloudflare `[2026-07-13] Introducing Precursor: detecting agentic behavior with continuous client-side signals` (https://blog.cloudflare.com/introducing-precursor/) — a continuous client-side behavioral validation engine for bot management that turns session-level behavior into bot-detection signals to identify advanced automation ("agentic behavior"). On-axis-adjacent as the *defender-side* mirror of CK's agent-tooling axis, but a single-surface product launch — not a new durable branch, and no cross-surface reinforcement yet.
+- `raw_only` — every other RSS/Atom feed's newest item unchanged from the 07-13 11:00 snapshot: OpenAI Deutsche Telekom (07-10), GitHub CodeQL AI prompt-injection (07-10, absorbed 07-11 11:00), AWS EMR/DMS (07-10), Vercel Seedream 5.0 Pro (07-11), HF Profiling PyTorch Pt3 (07-10), Docker laptop-production (07-08), Meta AI Storage Blueprint (07-01), Simon Willison DRI/shot-scraper 1.11/Fable bump/sqlite-utils 4.1.1 (07-12, captured 07-13 11:00), Google Waze-Gemini 07-13 (noise) / DeChambeau + Gemini notebooks 07-10 (baselined). No new row.
+- `raw_only` — GitHub Trending rotated visible rows (moeru-ai/airi, github/spec-kit, TauricResearch/TradingAgents, TradingAgents-astock, p-e-w/heretic, Vexa-ai/vexa) but they reinforce existing agent-framework / AI-investing / claude-skills lanes — single-surface Trending rotation, no new durable branch.
+- `discard` — AWS EC2/Location/SageMaker HyperPod region-instance rows; OpenAI/Google enterprise + health/sports/product-UX PR (Deutsche Telekom, DeChambeau, Waze); Anthropic RSS 404 (availability fact).
+- `manual_review` / `append_existing` / `promote_to_wiki` — none.
+
+**Verdict: reinforcement-only.** The one genuinely-new dated row (Cloudflare Precursor) is a single-surface, on-axis-adjacent product launch held at `raw_only` pending cross-surface reinforcement. Durable action = raw transcript + this audit + `log.md` entry; `index.md` and all non-Honcho concept pages left unchanged.
