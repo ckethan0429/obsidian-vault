@@ -2945,3 +2945,14 @@ Reviewed: `raw/transcripts/interest-signal-collection-22-00-2026-07-14.md`. Base
 - `manual_review` / `append_existing` / `promote_to_wiki` — none.
 
 **Verdict: reinforcement-only.** The one genuinely-new dated row (Cloudflare Precursor) is a single-surface, on-axis-adjacent product launch held at `raw_only` pending cross-surface reinforcement. Durable action = raw transcript + this audit + `log.md` entry; `index.md` and all non-Honcho concept pages left unchanged.
+
+## 2026-07-14 08:00 social run — routing audit (no-new-signal / reinforcement-only)
+
+Morning social ingest run. Baseline = prior social run (2026-07-14 19:00, which itself baselined on 07-13 08:00). Live Chrome CDP (`127.0.0.1:9222`) again unavailable (`/json/version` connection-refused, exit 7 — CDP down since 07-11), so all browser-authenticated surfaces (Threads liked, YouTube subs/liked/Watch Later, GitHub Stars, Google My Activity, ChatGPT, Claude, X) could not be collected. Threads API was the only grounded authenticated source. File: `raw/transcripts/interest-signal-collection-08-00-2026-07-14.md`.
+
+- **`raw_only`:** clean **both-static** no-new-signal — own `/threads` newest row (`DapQbi9k_Vk`, 07-11 07:43 UTC empty REPOST_FACADE) AND `/replies` newest row (`Dato11Qk5Z4`, 2026-07-13 00:33 UTC soccer opinion reply) are BOTH identical to the 07-14 19:00 baseline. No deeper `/replies` digging needed. keyword_search (`agent`/`Claude Code`/`Codex`) returned only CK's own April–May managed-agents posts + the 07-10 "codex는 없나요?" reply — reinforcement of the `managed-agents-practical-summary` axis, not fresh discovery.
+- **`raw_only` (access facts):** all CDP-authenticated surfaces unavailable (CDP down since 07-11); recorded as availability facts, **not `변화 없음`**.
+- **`discard`:** `/mentions` empty dataset; soccer/military/civic/personal reply noise.
+- **`append_existing` / `promote_to_wiki` / `manual_review`: none.**
+
+**Verdict: no-new-signal / reinforcement-only.** Both Threads surfaces static since the prior social baseline; no novelty manufactured. Durable action = raw transcript + this audit + `log.md` entry; `index.md` and all non-Honcho concept pages left unchanged.
