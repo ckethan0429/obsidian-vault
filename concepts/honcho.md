@@ -2894,3 +2894,14 @@ Reviewed: `raw/transcripts/interest-signal-collection-08-00-2026-07-13.md`. Base
 - `manual_review` / `promote_to_wiki` — none.
 
 **Verdict: both-static clean no-new-signal.** Both own `/threads` and `/replies` static since the 07-12 19:00 baseline; only grounded source (Threads API) shows pure reinforcement. Durable action = raw transcript + this audit + `log.md` entry; `index.md` and all non-Honcho concept pages left unchanged.
+
+## Routing audit — 2026-07-13 11:00 new-target run (reinforcement-only)
+Reviewed: `raw/transcripts/interest-signal-collection-11-00-2026-07-13.md`. Baseline = same-track 07-12 22:00 / 07-12 11:00 transcripts + `concepts/ai-infra-operating-economics.md`. Transport: public RSS/Atom + GitHub Trending HTML over HTTPS (stdlib urllib script; cron-mode fallback). Live CDP not used for this track.
+
+- `raw_only` — Simon Willison surfaced four new 07-12 posts (Directly Responsible Individuals quip, shot-scraper 1.11, "Fable gets another bump", sqlite-utils 4.1.1) — single-surface own-tool releases + quips, low durability, reinforcing the existing own-tool-release lane. No durable delta.
+- `raw_only` — every other RSS/Atom feed's newest item unchanged from the 07-12 22:00 snapshot: OpenAI Deutsche Telekom (07-10), GitHub CodeQL AI prompt-injection (07-10, absorbed 07-11 11:00), AWS EMR/DMS (07-10), Vercel Seedream 5.0 Pro (07-11), Cloudflare Smart Tiered Cache (07-10), HF Profiling PyTorch Pt3 (07-10), Docker laptop-production (07-08), Meta AI Storage Blueprint (07-01), Google Gemini notebooks/DeChambeau (07-10). No new row.
+- `raw_only` — GitHub Trending repeats the 07-12 22:00 on-axis lanes (background-agents, destructive_command_guard, pydantic-ai, PraisonAI, awesome-claude-skills, Vibe-Trading, ai-hedge-fund, notebooklm-py, DesktopCommanderMCP, claude-cookbooks, OpenManus) — single-surface rotation, no new durable branch.
+- `discard` — AWS region/instance-availability rows; OpenAI/Google enterprise + health/sports PR; Anthropic RSS 404 (availability fact).
+- `manual_review` / `append_existing` / `promote_to_wiki` — none.
+
+**Verdict: reinforcement-only.** No genuinely-new durable delta; the only fresh rows are Simon Willison's single-surface own-tool releases. Durable action = raw transcript + this audit + `log.md` entry; `index.md` and all non-Honcho concept pages left unchanged.
