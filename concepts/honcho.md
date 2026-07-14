@@ -3003,3 +3003,16 @@ Nightly refinement pass over the full 2026-07-14 collection day. No recollection
 - **`manual_review` / `promote_to_wiki`: none.**
 
 **Verdict: reinforcement-only at the durable layer.** Four runs produced (08:00/19:00 social + 11:00/22:00 new-target). The day's single durable delta (Vercel production token-economics) was already absorbed by the 11:00 ingest-stage run, so the 23:00 refinement re-applies nothing. This whole-day summary + a `log.md` entry are the only durable actions; raw files, `index.md`, and all non-Honcho concept pages left unchanged.
+
+## 2026-07-15 08:00 social run — routing audit (reinforcement-only)
+
+Morning 07-15 08:00 social run. Baseline = `raw/transcripts/interest-signal-collection-19-00-2026-07-14-live.md` (the genuine on-time prior social run, mtime 19:06). Idempotency clear: no `interest-signal-collection-08-00-2026-07-15.md` existed. Live Chrome CDP (`127.0.0.1:9222`) UP (Chrome/147); CDP surfaces read via stdlib raw-socket WebSocket client. Threads via official Graph API (configured path); long-lived token refreshed OK, `/me` confirmed `ethan13917`; raw JSON cached to `.cache/threads_0800_0715.json` (disposable).
+
+- **`raw_only`** — own `/threads` gained a NEW top row `DayEcnUk9ZZ` (07-14 17:51 UTC, empty REPOST_FACADE); public-HTML recovery (`curl -L`, 259KB) found no `og:title`/`og:description` → content unrecoverable without CDP; single-surface off-axis repost rotation.
+- **`raw_only`** — `/replies` gained a NEW top row `DaxZrdok_zV` (07-14 11:38 UTC, "당연한걸 구구절절 설명해야하는 작금의 사태에 목소리 내주셔서 감사합니다" — civic/political "thanks for speaking up" reply, off CK's durable AI/agent/infra axis).
+- **`raw_only`** — keyword_search (`agent`/`Claude Code`/`Codex`) returned only CK's own April–May managed-agents posts + the 07-10 "codex는 없나요?" reply — reinforcement of the `managed-agents-practical-summary` axis.
+- **`raw_only` (access facts)** — YouTube subscriptions target hydrated as a blank nav shell (len=17, logged out), GitHub `/stars` redirected to `/login` (logged out); recorded as availability facts, not `변화 없음`. Google My Activity hydrated but "오늘" block is byte-identical to the 07-14 baseline (telegram/github + `youabout:blank` noise), no new AI row.
+- **`discard`** — `/mentions` empty dataset; Claude target was only the "Claude in Chrome" extension install page (no conversation content); soccer/military/civic reply noise.
+- **`append_existing` / `promote_to_wiki` / `manual_review`: none.**
+
+**Verdict: reinforcement-only.** Both new Threads rows are single-surface and off-axis; no new durable branch. Durable action = raw transcript + this audit + `log.md` entry; `index.md` and all non-Honcho concept pages left unchanged.
