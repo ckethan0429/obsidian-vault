@@ -1,7 +1,7 @@
 ---
 title: AI infra operating economics
 created: 2026-04-22
-updated: 2026-07-11
+updated: 2026-07-14
 type: concept
 tags: [infrastructure, gpu, storage, proxmox, agents, business, strategy]
 sources: [raw/transcripts/interest-signal-collection-11-00-2026-07-11.md, raw/transcripts/interest-signal-collection-11-00-2026-07-10.md, raw/transcripts/interest-signal-collection-11-00-2026-07-09.md, raw/transcripts/interest-signal-collection-11-00-2026-07-08.md, raw/transcripts/interest-signal-collection-22-00-2026-07-07.md, raw/transcripts/interest-signal-collection-11-00-2026-06-12.md, raw/transcripts/interest-signal-collection-11-00-2026-06-11.md, raw/transcripts/interest-signal-collection-11-00-2026-06-10.md, raw/transcripts/interest-signal-collection-22-00-2026-06-09.md, raw/transcripts/interest-signal-collection-11-00-2026-06-05.md, raw/transcripts/interest-signal-collection-11-00-2026-06-04.md, raw/transcripts/interest-signal-collection-22-00-2026-06-03.md, raw/transcripts/interest-signal-collection-11-00-2026-06-03.md, raw/transcripts/interest-signal-collection-22-00-2026-06-02.md, raw/transcripts/interest-signal-collection-11-00-2026-06-02.md, raw/transcripts/interest-signal-collection-22-00-2026-06-01.md, raw/transcripts/interest-signal-collection-11-00-2026-05-31.md, raw/transcripts/interest-signal-collection-22-00-2026-05-31.md, raw/transcripts/interest-signal-collection-08-00-2026-04-22.md, raw/transcripts/interest-signal-collection-19-00-2026-04-22.md]
@@ -1249,6 +1249,17 @@ Willison `Quoting Nilay Patel`, and GitHub Trending rotation (Python: `microsoft
 `LMCache/LMCache`, `Soju06/codex-lb`, `syncable-dev/memtrace-public`, `agentscope-ai/agentscope`,
 `NVIDIA/skills`). OpenAI Deutsche Telekom / GitHub Mobile Copilot-sessions / HF PyTorch-profiling were
 already in the 07-10 22:00 baseline. Anthropic RSS 404 (availability fact).
+
+## 2026-07-14 new-target reinforcement — production token-economics data point
+
+Source: `raw/transcripts/interest-signal-collection-11-00-2026-07-14.md` (11:00 new-target pass)
+
+The 07-14 11:00 sweep added no new axis, but Vercel published a concrete, recurring, production-grounded token-economics report that directly sharpens the operating-economics thesis. Kept minimal.
+
+- **Vercel AI Gateway Production Index — July 2026: "Open-weight models surge to 29% of volume, price per token flattens"** (`https://vercel.com/blog/ai-gateway-production-index-july-2026`) — measured across "tens of trillions of tokens routed between production applications and AI labs" each month. Two operator-relevant signals: (1) open-weight models are now ~29% of real production volume (self-hostable / cheaper-to-operate share is climbing, which matters for GPU/serving economics), and (2) price-per-token is flattening (the raw-inference commodity is compressing, pushing the durable margin further up the stack toward routing, orchestration, storage, and deployment — exactly the layer this page tracks).
+
+### Updated reading
+Still **append_existing**, deliberately small. On-axis but single-surface rows stayed `raw_only`: AWS "Amazon DocumentDB now available as a skill in the Agent Toolkit for AWS" (07-13, extends the agent-tool-access seam alongside the 07-10 AWS MCP OAuth / 07-11 DMS-SC MCP appends), OpenAI GPT-5.6 Sol/Terra/Luna GA on Amazon Bedrock (07-13, model-platform propagation), SageMaker JumpStart model adds (Gemma-4-E2B / Qwen3 embed-rerank / Voxtral-Mini-Realtime / OpenAI privacy-filter), Vercel deploy/agent-runtime changelog rows (Chat SDK X adapter, subagent activity on eve, Deployment Policies), GitHub Code Quality license-estimate preview, Meta ads kernel-scheduler, Simon Willison uvx-in-Actions / DOOMQL / datasette code-frequency, and GitHub Trending rotation. Cloudflare "Introducing Precursor" (07-13) was already captured 07-14 22:00. Anthropic RSS 404 (availability fact).
 
 ## Related pages
 
