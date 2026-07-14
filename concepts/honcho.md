@@ -2980,3 +2980,13 @@ Genuine on-time 07-14 19:00 social run. NOTE: `interest-signal-collection-19-00-
 - **`append_existing` / `promote_to_wiki` / `manual_review`: none.**
 
 **Verdict: reinforcement-only.** Both new Threads rows are single-surface and off-axis; no new durable branch. Durable action = raw transcript + this audit + `log.md` entry; `index.md` and all non-Honcho concept pages left unchanged.
+
+## Routing audit — 2026-07-14 22:00 new-target run (live/on-time) — reinforcement-only
+Reviewed: `raw/transcripts/interest-signal-collection-22-00-2026-07-14-live.md`. Baseline = same-track **07-14 11:00** transcript + `concepts/ai-infra-operating-economics.md`. NOTE: `interest-signal-collection-22-00-2026-07-14.md` (mtime 00:11) is the DELAYED 07-13 22:00 capture (fired just after midnight, today-datestamped) that the 11:00 run already baselined on; this genuine on-time 22:00 run is saved as `...-22-00-2026-07-14-live.md`. Transport: public RSS/Atom + GitHub Trending HTML over HTTPS (stdlib urllib script `/tmp/newtarget_fetch_2200_0714_live.py`; raw feeds cached to `.cache/newtarget-2026-07-14-2200-live/`). Live CDP not used for this track. Social surfaces excluded (owned by 08:00/19:00 jobs).
+
+- `raw_only` — **Docker `[2026-07-14] AI Engineer World's Fair 2026: The Runtime Is Where Agent Trust Is Won`** (https://www.docker.com/blog/ai-engineer-worlds-fair-2026-the-runtime-is-where-agent-trust-is-won/) — conference recap reinforcing Docker's existing agent-runtime/isolation lane ("Why AI Agents Need Isolation" 07-01); single-surface, no new durable branch.
+- `raw_only` — OpenAI academy Codex-for-work adoption guides (`how data science teams / sales teams use Codex`, 07-14, marketing/low durability); GitHub Trending rotated in more skills-lane / agent-training repos (mattpocock/skills, google/skills, kangarooking/cangjie-skill, PrimeIntellect-ai/verifiers, cactus-compute/needle, microsoft/markitdown) — reinforces agent/skills/AI-investing lanes, single-surface rotation.
+- `discard` — Google Gemini-in-Chrome UK expansion / Pelé lost-goal / Gemini SE Asia (07-14, product/PR noise); AWS region/instance rows; Anthropic RSS 404 (availability fact).
+- `manual_review` / `promote_to_wiki` — none. Every other feed (github-changelog, aws, hf, meta, vercel, cloudflare, simonwillison) newest unchanged from the 07-14 11:00 baseline.
+
+**Verdict: reinforcement-only.** All new dated rows single-surface reinforcement of existing lanes; the day's one durable delta (Vercel token-economics) was already absorbed at 11:00. Durable action = raw transcript + this audit + `log.md` entry; `index.md` and all concept pages left unchanged.
