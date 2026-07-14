@@ -2967,3 +2967,16 @@ Reviewed: `raw/transcripts/interest-signal-collection-11-00-2026-07-14.md`. Base
 - `manual_review` / `promote_to_wiki` — none.
 
 **Verdict: one small `append_existing` (Vercel production token-economics data point) + raw_only reinforcement.** Durable action = raw transcript + the concept-page append + this audit + `log.md` entry; `index.md` left unchanged.
+
+## 2026-07-14 19:00 social run (live/on-time, CDP back up) — routing audit (reinforcement-only)
+
+Genuine on-time 07-14 19:00 social run. NOTE: `interest-signal-collection-19-00-2026-07-14.md` (mtime 00:09) is the DELAYED prior-evening cron run (CDP-down, 07-13 baseline) mislabeled with today's date; this run is the real 07-14 evening collection, saved as `raw/transcripts/interest-signal-collection-19-00-2026-07-14-live.md`. Baseline = 07-14 08:00 social (both-static no-new-signal). Live Chrome CDP (`127.0.0.1:9222`) is BACK UP today (Chrome 147; CDP had been down since 07-11) — fresh targets created for YouTube/GitHub/Google. Threads via official API (configured path).
+
+- **`raw_only`** — own `/threads` gained a NEW top row `Dawp1bgkzKo` (07-14 04:40 UTC, empty REPOST_FACADE); public-HTML recovery found no `og:title`/`og:description` → content unrecoverable without CDP; single-surface off-axis repost rotation.
+- **`raw_only`** — `/replies` gained a NEW top row `DaxAh7CE5kv` (07-14 07:58 UTC, "Are you still in Korea? I hope you're doing well." — personal English well-wish, off CK's durable AI/agent/infra axis).
+- **`raw_only`** — keyword_search (`agent`/`Claude Code`/`Codex`) returned only CK's own April–May managed-agents posts + the 07-10 "codex는 없나요?" reply — reinforcement of the `managed-agents-practical-summary` axis.
+- **`raw_only` (access facts)** — CDP recovered but YouTube subscriptions target hydrated as a blank nav shell (len=17, logged out), GitHub `/stars` redirected to `/login` (logged out); recorded as availability facts, not `변화 없음`. Google My Activity hydrated but today = telegram/github search + `youabout:blank` noise, no new AI row.
+- **`discard`** — `/mentions` empty dataset; Claude target was only the "Claude in Chrome" extension install page (no conversation content); soccer/military/civic reply noise.
+- **`append_existing` / `promote_to_wiki` / `manual_review`: none.**
+
+**Verdict: reinforcement-only.** Both new Threads rows are single-surface and off-axis; no new durable branch. Durable action = raw transcript + this audit + `log.md` entry; `index.md` and all non-Honcho concept pages left unchanged.
