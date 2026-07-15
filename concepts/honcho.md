@@ -3016,3 +3016,14 @@ Morning 07-15 08:00 social run. Baseline = `raw/transcripts/interest-signal-coll
 - **`append_existing` / `promote_to_wiki` / `manual_review`: none.**
 
 **Verdict: reinforcement-only.** Both new Threads rows are single-surface and off-axis; no new durable branch. Durable action = raw transcript + this audit + `log.md` entry; `index.md` and all non-Honcho concept pages left unchanged.
+
+## 2026-07-15 11:00 new-target run — routing audit (append_existing)
+
+11:00 new-target pass (blogs / newsletters / changelogs / releases / GitHub Trending). Baseline = `raw/transcripts/interest-signal-collection-11-00-2026-07-14.md` + `concepts/ai-infra-operating-economics.md`. Collection via public RSS/Atom + HTML over HTTPS (stdlib script `/tmp/newtarget_fetch_1100_0715.py` → `.cache/newtarget-2026-07-15-1100/`); all feeds HTTP 200 except Anthropic RSS 404. Social surfaces excluded (other jobs own them).
+
+- **`append_existing`** — same-day cross-surface AI-security / agent-trust convergence at the runtime boundary → `concepts/ai-infra-operating-economics.md`. Four independent surfaces on one axis in one day: AWS `GuardDuty AI Protection for AWS AI workloads` + `Security Hub AI inventory` (07-14), GitHub `Code scanning shows AI security detections on pull requests` + `Security reviews in the Copilot app` (07-14), Docker `The Runtime Is Where Agent Trust Is Won` (07-14), and GitHub Trending `Dicklesworthstone/destructive_command_guard`. Multi-surface (not single-surface rotation); extends the 07-10 AWS MCP OAuth / 07-11 CodeQL AI prompt-injection appends.
+- **`raw_only`** — AWS Lambda one-click coding-agent setup + Managed Service for Flink AI Agent Skills (agent-tool-access lane); OpenAI "How to manage AI investments in the agentic era" + Codex-for-Work case studies; Vercel Plugin in VS Code / Copilot CLI + AgentMail/Endform marketplace + AI Gateway shareable leaderboard data; Cloudflare DNSSEC-NTA-EDE-33 (infra security off the agent axis); Simon Willison datasette 1.0a37 / pedalican / lobste.rs-on-SQLite; GitHub minor platform/admin rows; GitHub Trending rotation.
+- **`discard`** — Google Pixel Care+/Images-25th/The-Met-genAI consumer PR; AWS region/instance/WorkSpaces/Storage-Gateway rows; off-axis trending repos.
+- **`promote_to_wiki` / `manual_review`: none.** Anthropic RSS 404 (availability fact).
+
+**Verdict: one small `append_existing` (AI-security/agent-trust convergence), otherwise reinforcement-only.** Durable action = raw transcript + the concept append + this audit + `log.md` entry; `index.md` left unchanged.
