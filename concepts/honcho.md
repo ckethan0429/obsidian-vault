@@ -3077,3 +3077,15 @@ Live Chrome CDP DOWN (no `9222` listener, no chrome process) → YouTube / GitHu
 - **`promote_to_wiki` / `manual_review`: none.** Anthropic RSS 404 (availability fact).
 
 **Verdict: reinforcement-only at the durable layer (same-day 11:00 already absorbed the append).** Durable action = raw transcript + this audit + `log.md` entry; the duplicate 08-02 concept section was consolidated (no new durable delta); `index.md` and all non-Honcho concept pages left unchanged.
+
+## 2026-08-03 08:00 social run — routing audit (both-static no-new-signal)
+
+08:00 social pass for 2026-08-03. Baseline = the 2026-08-02 social runs (08:00 + 19:00). Live Chrome CDP `127.0.0.1:9222` DOWN again (no listener, no chrome process) → YouTube / GitHub Stars / Google My Activity / ChatGPT / Claude / X unavailable (access facts). Threads via official Graph API (stdlib `/tmp/th_collect_0800_0803.py` → `.cache/threads-2026-08-03-0800/`); long-lived token refreshed OK, `/me` confirmed `ethan13917`.
+
+- **`raw_only` (no-new-signal)** — BOTH-STATIC: own `/threads` top = `Dbc78KPk5Ve` (07-31 삼성 Galaxy Z Fold IMAGE) AND own `/replies` top = `Dbh3LZykysz` (08-02 07:19 을지로, personal) are both identical to the 08-02 baseline; no new dated rows on either surface since the prior social run.
+- **`raw_only`** — keyword_search (`agent`/`Codex`/`Claude Code`) returned ONLY CK's own posts (harness `DbC4jRwk5GN`, investing `DbFW_MMk2OM`, April–May managed-agents thread, 07-10 "codex는 없나요?" reply); `Hermes` = 0 → reinforcement of `managed-agents-practical-summary` axis, no external discovery.
+- **`raw_only` (access facts)** — YouTube / GitHub Stars / Google My Activity / ChatGPT / Claude / X unavailable (CDP down).
+- **`discard`** — `/mentions` empty dataset.
+- **`append_existing` / `promote_to_wiki` / `manual_review`: none.**
+
+**Verdict: no-new-signal / reinforcement-only.** Both Threads surfaces static vs the 08-02 baseline; all browser surfaces unavailable (CDP down); no new durable branch. Durable action = raw transcript + this audit + `log.md` entry; `index.md` and all non-Honcho concept pages left unchanged.
