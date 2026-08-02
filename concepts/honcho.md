@@ -3027,3 +3027,42 @@ Morning 07-15 08:00 social run. Baseline = `raw/transcripts/interest-signal-coll
 - **`promote_to_wiki` / `manual_review`: none.** Anthropic RSS 404 (availability fact).
 
 **Verdict: one small `append_existing` (AI-security/agent-trust convergence), otherwise reinforcement-only.** Durable action = raw transcript + the concept append + this audit + `log.md` entry; `index.md` left unchanged.
+
+## 2026-08-02 08:00 social run — routing audit (reinforcement-only, ~18-day baseline gap)
+
+08:00 social pass, delivered late by cron (actual capture ~23:55 KST 08-02). Idempotency clear (no `interest-signal-collection-08-00-2026-08-02.md`; no August transcript at all). Last successful baseline = `raw/transcripts/interest-signal-collection-08-00-2026-07-15.md` — the 07-16 08:00 run FAILED and captured nothing, so ~18 days of Threads rotation. **Live Chrome CDP `127.0.0.1:9222` DOWN** (`/json/version` + `/json/list` fail) → YouTube / GitHub / Google / ChatGPT / Claude / X all unavailable (access facts, not `변화 없음`). Threads via official Graph API; token refreshed OK (expires_in 5183974), `/me` = `ethan13917`.
+
+- **`raw_only`** — own `/threads` on-axis new rows are all CK's OWN posts: `DbC4jRwk5GN` (07-21, "국산 하네스 까지마라 … 프롬프팅/컨텍스트 엔지니어링/하네스" — a defense of Korean AI coding-agent harnesses, reinforcing the `managed-agents-practical-summary` / coding-agent-harness axis) and `DbFCPitE5gw` (07-22, "ai시대 … 나스닥 같은 효율적 시장도 혼란 … 중국 ai 오픈웨이트" — AI+open-weight+market opinion, reinforcing the `ai-infra-operating-economics` open-weight axis). Single-surface own posts; CDP down blocks cross-surface confirmation.
+- **`raw_only`** — 3 new `REPOST_FACADE` rows, text empty, authors recovered via public `og:title`: `DbT86Mkk5pH`=@choi.openai (AI-axis handle), `DbUlDcSk_tL`=@unclejobs.ai (엉클잡스, "Ai 시대, 돈이 되는 정보" AI-monetization creator), `Dbc3mYgE4qT`=@jangfolk (장청일, civic/political). Content unrecoverable without CDP; single-surface repost rotation.
+- **`raw_only`** — `DbFW_MMk2OM` (07-22 무한매수법/세븐스플릿 investing strategy) — CK's secondary investing axis; keyword_search (`agent`/`Claude Code`/`Codex`) returned only CK's own posts (07-21 harness, 07-22 investing, April–May managed-agents thread, 07-10 "codex는 없나요?") — reinforcement of already-durable axes.
+- **`discard`** — `Dbc78KPk5Ve` (07-31 Samsung Galaxy Z Fold consumer cheerleading); all new `/replies` personal noise (을지로/오타쿠/쿠팡파트너스/중3엄마/육아/파리지앵); `/mentions` empty; all CDP surfaces unavailable (access facts).
+- **`append_existing` / `promote_to_wiki` / `manual_review`: none.**
+
+**Verdict: reinforcement-only** despite the long gap. Every genuinely-new on-axis item is CK's own single-surface Threads post reinforcing an existing axis (harness/managed-agents, ai-infra open-weight, investing). Durable action = raw transcript + this audit + `log.md` entry; `index.md` and all non-Honcho concept pages left unchanged.
+
+## 2026-08-02 11:00 new-target run — routing audit (append_existing)
+
+11:00 new-target pass (blogs / newsletters / changelogs / releases / GitHub Trending), executed late (delayed cron; actual capture ~23:55 KST). Baseline = `raw/transcripts/interest-signal-collection-11-00-2026-07-15.md` (**18-day gap → partial re-baseline**) + `concepts/ai-infra-operating-economics.md`. Collection via public RSS/Atom + HTML over HTTPS (stdlib script `/tmp/newtarget_fetch_1100_0802.py` → `.cache/newtarget-2026-08-02-1100/`); all feeds HTTP 200 except Anthropic RSS 404. Social surfaces excluded (other jobs own them).
+
+- **`append_existing`** — the 07-15 "AI-security / agent-trust at the runtime boundary" axis intensified across two weeks and three surfaces → `concepts/ai-infra-operating-economics.md`. Docker's sustained series (`Coding Agent Horror Stories: The Agent That Deleted Production` 07-20, `Runtime Enforcement, Not Runtime Advice` 07-22, `Agentic AI Needs Guardrails, Not Guesswork` 07-24, `The 29 Million Secret Problem` 07-28, `Docker Joins Nvidia's Open Secure AI Alliance` 07-30); GitHub `Copilot code review: Agent skills and MCP now generally available` (07-29, GA); Hugging Face `Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident` (07-27) + security-incident disclosure (07-16). Multi-surface + multi-week reinforcement, not a new branch.
+- **`raw_only`** — Vercel AI Gateway team/project spend budgets + dedicated logs page + MCP 2026-07-28 spec + "Run multiple isolated agents in a single Sandbox" (cost-control + agent-isolation cluster); Hugging Face "GPU Management: Why Idle GPUs Are the New Grounded Aircraft" (idle-GPU cost lever); OpenAI GPT-5.6 price-performance frontier (07-30) + "Building abundant intelligence"; Simon Willison stateless-MCP tooling (mcp-explorer / llm-mcp-client / datasette-agent); GitHub minor rows (stacked PRs preview, GitHub Models retired, Gemini deprecations); Cloudflare post-quantum origin auth + privacy-proxy CLI; GitHub Trending rotation (incl. `NousResearch/hermes-agent`, agent-"skill" repos, `TencentDB-Agent-Memory`).
+- **`discard`** — Google consumer Gemini/Maps/Earth/Nano-Banana PR; AWS region/instance/RDS/Redshift/Direct-Connect rows; off-axis educational/media trending repos.
+- **`promote_to_wiki` / `manual_review`: none.** Anthropic RSS 404 (availability fact).
+
+**Verdict: one small `append_existing` (runtime-boundary agent-security axis intensifies), otherwise reinforcement-only.** Durable action = raw transcript + the concept append + this audit + `log.md` entry; `index.md` left unchanged.
+
+## 2026-08-02 19:00 social run (delayed) — routing audit (reinforcement-only)
+
+Afternoon 19:00 social run, executed very late (wall clock 2026-08-02 23:52 KST). The collection pipeline had been failing since mid-July — the two injected preceding cron outputs (07-15 19:00 discord, 07-16 08:00 discord) both FAILED, and the newest successful raw transcript on disk was `interest-signal-collection-11-00-2026-07-15.md`. No `interest-signal-collection-19-00-2026-08-02.md` existed → idempotency clear → collected. Saved as `raw/transcripts/interest-signal-collection-19-00-2026-08-02.md`. Baseline = last completed social run `interest-signal-collection-08-00-2026-07-15.md`.
+
+Live Chrome CDP DOWN (no `9222` listener, no chrome process) → YouTube / GitHub Stars / Google My Activity / ChatGPT / Claude / X all UNAVAILABLE (access facts, not `변화 없음`). Threads via official Graph API (configured path); long-lived token refreshed OK, `/me` confirmed `ethan13917`; raw JSON cached to `.cache/threads-2026-08-02-1900/` (disposable).
+
+- **`raw_only`** — own `/threads` gained genuinely-new dated rows since baseline, all single-surface reinforcement: on-axis OWN posts 07-21 국산-하네스/컨텍스트·하네스-엔지니어링 (`DbC4jRwk5GN`, tooling engineering), 07-22 라오어-무한매수법 + AI-agent 투자자동화 (`DbFW_MMk2OM`), 07-22 AI시대 오픈웨이트/효율적시장 (`DbFCPitE5gw`); off-axis 07-31 삼성 Galaxy Z Fold/Flip 사전구매 홍보 (`Dbc78KPk5Ve`); empty REPOST_FACADEs 07-31/07-28/07-27/07-21/07-20/07-19.
+- **`raw_only`** — REPOST_FACADE public-HTML og recovery (best-effort, CDP down): 07-28 `DbUlDcSk_tL` → reposts `@unclejobs.ai` ("AI 시대, 돈이 되는 정보 전달"), 07-27 `DbT86Mkk5pH` → reposts `@choi.openai`. Both og:description JS-rendered/empty (text unrecoverable without CDP); AI-adjacent handles but single-surface off-axis reposts.
+- **`raw_only`** — own `/replies` on-axis 07-20 "순정 plan + 깃 워크트리 + 구간별 테스트 툴만있으면 충분" (`DbAzEYDkw4v`, coding-agent tooling minimalism); newest 08-02 을지로 reply (`Dbh3LZykysz`, personal); rest personal/civic/entertainment noise.
+- **`raw_only`** — keyword_search (`agent`/`Codex`/`Claude Code`) returned ONLY CK's own April–May Managed Agents thread + 07-21 harness + 07-22 investing + 07-10 "codex는 없나요?" reply → reinforcement of `managed-agents-practical-summary` axis, not fresh discovery. `Hermes` = 0.
+- **`raw_only` (access facts)** — YouTube / GitHub Stars / Google My Activity / ChatGPT / Claude / X unavailable (CDP down).
+- **`discard`** — `/mentions` empty dataset; personal/commercial/soccer/civic Threads noise.
+- **`append_existing` / `promote_to_wiki` / `manual_review`: none.**
+
+**Verdict: reinforcement-only.** Every genuinely-new on-axis Threads row is CK's own post/reply reinforcing an existing durable lane; no cross-surface convergence, no new branch; all browser surfaces unavailable (CDP down). Durable action = raw transcript + this audit + `log.md` entry; `index.md` and all non-Honcho concept pages left unchanged.
