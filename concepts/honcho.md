@@ -3141,3 +3141,18 @@ Whole-day triage decisions (deduplicated across runs):
 Availability facts (not negative evidence): live Chrome CDP `127.0.0.1:9222` DOWN all day → YouTube / GitHub Stars / Google My Activity / ChatGPT / Claude / X uncollected on both social runs; Anthropic RSS 404 on both new-target runs.
 
 **Verdict: reinforcement-only at the 23:00 durable layer.** The sole durable delta (22:00 Cloudflare Agents Week + Docker governance `append_existing`) was already applied by its ingest run, so this refinement pass re-applies nothing. Durable action = this whole-day audit note + a `log.md` refinement entry only; raw transcripts, `index.md`, and all non-Honcho concept pages left unchanged.
+
+## [2026-08-04] ingest | 08:00 social run — reinforcement-only (two new empty REPOST_FACADEs, off-axis; CDP down, Threads API only)
+
+Reviewed `raw/transcripts/interest-signal-collection-08-00-2026-08-04.md` (social; CDP down, Threads API only).
+Baseline (by mtime, most-recent completed social transcript) = `interest-signal-collection-19-00-2026-08-03.md`.
+
+Triage decisions:
+- **`raw_only` — two new off-axis reposts.** Own `/threads` gained TWO new empty REPOST_FACADEs since the 19:00 baseline: `DblG8smExWc` (08-03 13:34 UTC, reposted **@david.crcl** DAVID, identity/axis unclear) + `DblTFNfE_Tr` (08-03 15:20 UTC, reposted **@voice.of.freeeedom** 자유의 목소리, civic/political). Public `og:title` recovered the author handles but `og:description` is empty (JS-rendered, no CDP) → post text unrecoverable. Both single-surface off CK's durable AI/agent/infra axis → feed rotation, not a new branch. Recovering the handle does not make the row on-axis; the reposted author's identity decides, and both are off-axis.
+- **`raw_only` — reinforcement.** Own `/replies` UNCHANGED (top still 6/6 → 1/6 of the 08-03 09:20 agent-security thread; no new replies). keyword_search agent(10)/Codex(4)/Claude Code(1) all CK's own posts, `Hermes`=0 — reinforcement, no external discovery.
+- **`discard`** — `/mentions` empty.
+- **`manual_review`** / **`promote_to_wiki`** — none.
+
+Availability facts (not negative evidence): live Chrome CDP `127.0.0.1:9222` DOWN → YouTube / GitHub Stars / Google My Activity / ChatGPT / Claude / X uncollected.
+
+**Verdict: reinforcement-only.** Two new off-axis reposts + otherwise static Threads surfaces; no new durable branch. Durable action = the raw transcript + this audit note + a `log.md` entry only; `index.md` and all concept pages left unchanged.
