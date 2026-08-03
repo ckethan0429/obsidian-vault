@@ -3100,3 +3100,14 @@ Live Chrome CDP DOWN (no `9222` listener, no chrome process) → YouTube / GitHu
 - **`append_existing` / `promote_to_wiki` / `manual_review`: none.** Anthropic RSS 404 (availability fact).
 
 **Verdict: reinforcement-only at the durable layer (one new watch item: Cloudflare Agents Week kickoff).** No new durable branch; the 08-02 runs already absorbed the agent-security append. Durable action = raw transcript + this audit + `log.md` entry; `index.md` and all non-Honcho concept pages left unchanged.
+
+## 2026-08-03 19:00 social run — routing audit (one new own thread, reinforcement-only)
+
+19:00 social pass. Baseline = same-day 08:00 social run (both-static no-new-signal) + 11:00 new-target run (Cloudflare Agents Week watch item) + `concepts/ai-infra-operating-economics.md` + `concepts/managed-agents-practical-summary.md`. Live Chrome CDP `127.0.0.1:9222` DOWN (curl exit 7, no chrome process) → YouTube / GitHub Stars / Google My Activity / ChatGPT / Claude / X UNAVAILABLE (access facts). Threads via official Graph API (stdlib `/tmp/th_collect_1900_0803.py`); token refreshed OK (expires_in 5115053), `/me` confirmed `ethan13917`; JSON cached to `.cache/threads-2026-08-03-1900/` (disposable).
+
+- **`raw_only` (one genuinely-new cluster, own single-surface)** — CK posted a NEW **6-part agent-security thread** at 2026-08-03 09:20 UTC: root `DbkpxynEyy9` "AI 에이전트 보안, 이제 '기능'이 아니라 '런타임 경계' 싸움이다" + replies 1/6→6/6 (`DbkpyZhExRC` / `Dbkp0H7kwhj` / `Dbkp1saE1eg` / `Dbkp4OOEy_p` / `Dbkp5S0E1N_` / `Dbkp6TPk-Pt`, the last citing the Docker "agent that deleted production" blog). This is CK's OWN synthesis of the exact agent-security / runtime-boundary cluster the 08-02 new-target runs already absorbed into `ai-infra-operating-economics.md` (Docker agent-safety series, HF agent-intrusion timeline, GitHub Copilot code-review agent-skills+MCP GA, Nvidia Open Secure AI Alliance, Simon Willison cybersecurity incidents). Per the own-posts-only-reinforcement rule, a fresh own single-surface post restating an already-durable axis is reinforcement, not a new durable branch.
+- **`raw_only` (reinforcement/off-axis)** — rest of `/threads` (07-31→07-21) unchanged vs baseline; off-axis new replies (04:44 fullstack-dev definition `DbkKRJyk8wn`, 05:00 self-PR quip `DbkMHHJk0YA`, 03:14 personal `Dbj_4znEwlI`); keyword_search agent(10)/Codex(4)/Claude Code(1) all CK's own posts (incl. today's thread), Hermes=0 — no external discovery.
+- **`discard`** — `/mentions` empty; all CDP browser surfaces unavailable (access facts, not 변화 없음).
+- **`append_existing` / `promote_to_wiki` / `manual_review`: none.**
+
+**Verdict: reinforcement-only at the durable layer (one new own agent-security thread since the 08:00 baseline).** No new durable branch; the agent-security axis was already absorbed 08-02. Durable action = raw transcript + this audit + `log.md` entry; `index.md` and all non-Honcho concept pages left unchanged.
