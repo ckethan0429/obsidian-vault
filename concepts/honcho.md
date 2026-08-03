@@ -3122,3 +3122,22 @@ Live Chrome CDP DOWN (no `9222` listener, no chrome process) → YouTube / GitHu
 - **`promote_to_wiki` / `manual_review`: none.** Anthropic RSS 404 (availability fact).
 
 **Verdict: one compact `append_existing` (Cloudflare Agents Week + Docker 08-03 governance) on `ai-infra-operating-economics.md`.** The 11:00 watch item resolved into substantive agent-runtime primitives on an already-tracked axis (not a new branch). Durable action = raw transcript + this audit + the append + `log.md` entry; `index.md` and all other concept pages left unchanged.
+
+## 2026-08-03 23:00 refinement — whole-day triage audit (reinforcement-only; 22:00 append already absorbed)
+
+Nightly refinement pass over the four same-day runs. **No recollection.** Reviewed:
+- `raw/transcripts/interest-signal-collection-08-00-2026-08-03.md` (social; both-static no-new-signal, CDP down, Threads API only)
+- `raw/transcripts/interest-signal-collection-11-00-2026-08-03.md` (new-target; reinforcement-only + one watch item: Cloudflare "Welcome to Agents Week" intro)
+- `raw/transcripts/interest-signal-collection-19-00-2026-08-03.md` (social; one new own 6-part agent-security thread, reinforcement-only, CDP down, Threads API only)
+- `raw/transcripts/interest-signal-collection-22-00-2026-08-03.md` (new-target; the one `append_existing` — Cloudflare Agents Week substantive posts + Docker 08-03 governance)
+
+Whole-day triage decisions (deduplicated across runs):
+- **`append_existing` — ALREADY ABSORBED at the ingest stage (do not re-apply).** The day's only durable delta is the 22:00 Cloudflare Agents Week landing (`@cloudflare/computer` agent runtime + Workers cross-language RPC + Kimi/GLM serving quantization + FOCUS-spec Billable Usage API + Workers TCP/gRPC) plus Docker 08-03 AI Governance audit-logs / agent-sandbox DX. The 22:00 ingest run already appended this to `ai-infra-operating-economics.md` (§ "2026-08-03 new-target reinforcement — Cloudflare 'Agents Week' ships agent-runtime primitives", ~line 1292, committed `69f2d41`). It is cross-surface productization of the already-tracked securable/agent-runtime operating layer, not a new branch. The 11:00 → 22:00 watch-item-to-landing arc is the day's single narrative thread. Refinement re-applies nothing.
+- **`raw_only` — reinforcement / own single-surface / no-new-signal.** (08:00) both Threads surfaces static vs the 08-02 baseline; (19:00) CK's own new 6-part agent-security thread `DbkpxynEyy9` (+ replies 1/6→6/6) is his own synthesis of the exact agent-security/runtime-boundary cluster already absorbed 08-02 → own-posts-only-reinforcement rule; (11:00 & 22:00) OpenAI/GitHub/AWS/HF/Meta/Vercel/Google/Simon Willison feeds byte-identical to the 08-02 baseline; GitHub Trending unchanged skills/agent/eval rotation (`hermes-agent`, `livekit/agents`, `free-claude-code`, `scientific-agent-skills`, `comet-ml/opik`, `Agent-Reach`, `TencentDB-Agent-Memory`); keyword_search hits 100% CK's own posts (`Hermes`=0). Note the 19:00 own thread and the 22:00 Cloudflare/Docker append are the *same* agent-security/runtime axis surfacing on two tracks — mutual cross-surface reinforcement, not two branches.
+- **`discard`** — `/mentions` empty (08:00, 19:00); HN frontpage off-axis both new-target runs (OSM / CP/M-386 / Karpathy Pelican art / isopolis map @ 11:00; jfrog hallucinated-SQLite-CVE LLM-slop / Qwen3.8-Max / Nightcrawler smartphone pentest / PISIGuard @ 22:00); AWS region/instance rows; Google consumer Gemini PR.
+- **`manual_review`** — none.
+- **`promote_to_wiki`** — none.
+
+Availability facts (not negative evidence): live Chrome CDP `127.0.0.1:9222` DOWN all day → YouTube / GitHub Stars / Google My Activity / ChatGPT / Claude / X uncollected on both social runs; Anthropic RSS 404 on both new-target runs.
+
+**Verdict: reinforcement-only at the 23:00 durable layer.** The sole durable delta (22:00 Cloudflare Agents Week + Docker governance `append_existing`) was already applied by its ingest run, so this refinement pass re-applies nothing. Durable action = this whole-day audit note + a `log.md` refinement entry only; raw transcripts, `index.md`, and all non-Honcho concept pages left unchanged.
