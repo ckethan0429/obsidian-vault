@@ -3156,3 +3156,19 @@ Triage decisions:
 Availability facts (not negative evidence): live Chrome CDP `127.0.0.1:9222` DOWN → YouTube / GitHub Stars / Google My Activity / ChatGPT / Claude / X uncollected.
 
 **Verdict: reinforcement-only.** Two new off-axis reposts + otherwise static Threads surfaces; no new durable branch. Durable action = the raw transcript + this audit note + a `log.md` entry only; `index.md` and all concept pages left unchanged.
+
+## [2026-08-04] ingest | 11:00 new-target run — reinforcement-only (fresh rows, but all reinforce the just-appended economics axis)
+
+Reviewed `raw/transcripts/interest-signal-collection-11-00-2026-08-04.md` (new-target; public RSS/Atom + HTML, no CDP needed).
+Baseline = most-recent same-track `interest-signal-collection-22-00-2026-08-03.md` (which absorbed the Cloudflare Agents Week + Docker governance cluster into one `append_existing` on `ai-infra-operating-economics.md`) + the 08-03 11:00 run + `concepts/ai-infra-operating-economics.md`.
+
+**Not byte-identical — several genuinely-new 08-03/08-04 rows surfaced — but every on-axis row is a scattered single-surface item reinforcing the operating-economics / model-serving axis appended just last night, with no new branch and no cross-surface convergence.** Route decisions:
+- **`raw_only` — genuinely-new on-axis, reinforcement.** AWS (08-03): OpenAI GPT-5.6 Sol/Terra/Luna 1M-token context on Bedrock (https://aws.amazon.com/about-aws/whats-new/2026/08/gpt-sol-terra-luna-long-context-bedrock) + SageMaker serverless full fine-tuning for 25+ open models incl gpt-oss/Gemma (https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-sagemaker-fft) — context/serving economics on the GPT-5.6 lane already tracked. Meta Eng (08-03): "GEM Training: How Meta Doubled the Efficiency of Its LLM-Scale Ads Foundation Model" (https://engineering.fb.com/2026/08/03/ml-applications/training-gem-at-llm-scale-meta-ads-recommendation-foundation-model/) — training-side infra economics, single-surface Meta-Ads research (watch if training-efficiency goes cross-surface).
+- **`raw_only` — low-durability new.** OpenAI GPT-Live continuous-voice + Circles telco case study (08-03); GitHub changelog GitLab→GitHub Importer GA + enterprise team specialization + triage-role issue bypass (08-03, enterprise-admin governance); Vercel WAF-for-Blob GA + Factory scaling case study + cross-team Container Registry (08-03); Simon Willison Steve Yegge/Gas Town + "meat proxy" + David Crawshaw nightly-rebase-cron prompt (08-03/08-04); Google 353,000-person vibe-coding-course recap (08-03).
+- **`raw_only` — already absorbed.** Cloudflare Agents Week (`@cloudflare/computer` etc.) + Docker AI-Governance audit-logs were appended by the 08-03 22:00 run → reinforcement. GitHub Trending daily+python unchanged skills/agent/eval rotation. HF/OpenAI/Meta older rows unchanged.
+- **`discard`** — HN frontpage off-axis/dup (LLMs-reward-expertise, MiniMax H3 in ComfyUI, Hoplite YC coding-agent deploy, Kimi/GLM = Cloudflare dup, retro/hobby). AWS region/instance/Lambda/Resilience-Hub/Organizations/GameLift availability rows. Google Sail-Tower office PR.
+- **`manual_review`** / **`promote_to_wiki`** — none.
+
+Availability facts (not negative evidence): Anthropic RSS 404 (`/rss.xml` + `/engineering/rss.xml`), consistent with 08-02/08-03.
+
+**Verdict: reinforcement-only at the durable layer.** Genuinely-new rows exist but all reinforce the operating-economics axis just appended (08-03 22:00) as single-surface items; no new durable branch. Durable action = the raw transcript + this audit note + a `log.md` entry only; `index.md` and all concept pages left unchanged.
