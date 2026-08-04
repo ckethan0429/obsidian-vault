@@ -3219,3 +3219,14 @@ No recollection. Reviewed all four same-day raw transcripts plus the earlier per
 **Availability facts (not negative evidence):** CDP down all day (curl `/json/version` exit 7, no chrome process) → both social runs on the Threads Graph API only; YouTube / GitHub /stars / Google My Activity / ChatGPT / Claude / X unavailable. Anthropic RSS 404 (`/rss.xml` + `/engineering/rss.xml`) on both new-target runs; GitHub-changelog + Hugging Face Atom returned no parseable `<entry>` at 22:00 (feed-format variance).
 
 **Verdict (23:00): reinforcement-only at the durable layer.** The only durable append (Cloudflare Agents Week Day 2) was already applied at the 22:00 ingest stage, so this refinement re-applies nothing. Durable action = this whole-day audit note + a `log.md` entry only; raw transcripts, `index.md`, and all non-Honcho concept pages left unchanged.
+
+## [2026-08-05] 08:00 social run — no-new-signal / reinforcement-only (both-static, CDP down)
+
+**Reviewed:** `raw/transcripts/interest-signal-collection-08-00-2026-08-05.md` (social) against baseline `interest-signal-collection-19-00-2026-08-04.md`.
+
+- **`raw_only` (whole run — BOTH-STATIC no-new-signal):** own `/threads` newest two rows (`DbnNVXGE6cn` 08-04 09:09 + `DbnH-ScE7Hs` 08-04 08:22 — CK's cost/원가-frontier thread) AND `/replies` newest rows (출처 `DbnNcN9E0fH` + 5/5..1/5 cost-thread chain) are byte-identical to the 08-04 19:00 baseline. No new own posts, no new reposts, no new replies since the 19:00 pass — CK simply did not post between the passes, so the Threads API surfaces are genuinely unchanged. keyword_search (agent 10 / Codex 4 / Claude Code 1 / Hermes 0) = 100% CK's own posts → reinforcement, no external discovery.
+- **`discard`:** Threads `/mentions` empty (`{"data": []}`).
+- **`manual_review` / `promote_to_wiki`:** none.
+- **Availability facts (not negative evidence):** Live Chrome CDP `127.0.0.1:9222` STILL DOWN (curl `/json/version` empty, no chrome process) → YouTube / GitHub /stars / Google My Activity / ChatGPT / Claude / X unavailable. Threads Graph API only; long-lived token refreshed OK (expires_in 5184000), `/me` = ethan13917.
+
+**Verdict (08:00): clean cross-day no-new-signal / reinforcement-only.** Both grounded Threads surfaces unchanged vs the 08-04 19:00 baseline. Durable action = the raw transcript + this Honcho audit note + a `log.md` entry only; `index.md` and all concept pages left unchanged.
