@@ -3172,3 +3172,18 @@ Baseline = most-recent same-track `interest-signal-collection-22-00-2026-08-03.m
 Availability facts (not negative evidence): Anthropic RSS 404 (`/rss.xml` + `/engineering/rss.xml`), consistent with 08-02/08-03.
 
 **Verdict: reinforcement-only at the durable layer.** Genuinely-new rows exist but all reinforce the operating-economics axis just appended (08-03 22:00) as single-surface items; no new durable branch. Durable action = the raw transcript + this audit note + a `log.md` entry only; `index.md` and all concept pages left unchanged.
+
+## [2026-08-04] 19:00 social run — routing audit
+
+Reviewed `raw/transcripts/interest-signal-collection-19-00-2026-08-04.md` (Threads official Graph API only; live Chrome CDP down — exit 7, no chrome process). Baseline = same-day 08:00 social run (two new off-axis REPOST_FACADEs @david.crcl/@voice.of.freeeedom) + 11:00 new-target run + the 08-04 11:00 curation-draft log entry.
+
+**CK published his own cost/원가-frontier thread — the 08-04 11:00 curation draft, now live.** Own `/threads` gained TWO new TEXT_POST roots since the 08:00 baseline: "AI 경쟁은 이미 '성능'이 아니라 '단가' 싸움이다" posted 08-04 08:22:26 UTC (`DbnH-ScE7Hs`) and again 09:09:16 UTC (`DbnNVXGE6cn`), each with a 1/5..5/5 reply chain (Meta GEM 2x training efficiency, GPT-5.6 1M-token on Bedrock, SageMaker serverless full fine-tuning of open weights, Cloudflare per-agent computer, 원가표-not-벤치마크표 synthesis). Route decisions:
+- **`raw_only` — genuinely-new own-post, reinforcement.** The cost/원가 thread + its reply chain are CK's OWN single-surface synthesis of the operating-economics / model-serving axis already absorbed 08-03 22:00 and reinforced 08-04 11:00 into `ai-infra-operating-economics.md` → own-posts-only-reinforcement rule. CDP being down did not freeze the API — CK posted between the 08:00 and 19:00 passes, so the tops legitimately moved; diffed against the same-day 08:00 transcript before classifying.
+- **`raw_only` — carry-over.** The two 08-03 REPOST_FACADEs (`DblTFNfE_Tr` @voice.of.freeeedom, `DblG8smExWc` @david.crcl) are now unchanged since the 08:00 baseline (no longer new).
+- **`raw_only`** — keyword_search agent(10)/Codex(4)/Claude Code(1) all @ethan13917's own posts; Hermes=0. Reinforcement.
+- **`discard`** — `/mentions` empty ({"data": []}).
+- **`manual_review`** / **`promote_to_wiki`** — none.
+
+Availability facts (not negative evidence): YouTube / GitHub /stars / Google My Activity / ChatGPT / Claude / X all unavailable — CDP down.
+
+**Verdict (19:00): reinforcement-only at the durable layer.** The only genuinely-new evidence is CK's own restatement of an already-durable axis → own-posts-only-reinforcement. Durable action = the raw transcript + this audit note + a `log.md` entry only; `index.md` and all concept pages left unchanged.
