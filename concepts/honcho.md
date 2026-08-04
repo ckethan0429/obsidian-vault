@@ -3187,3 +3187,17 @@ Reviewed `raw/transcripts/interest-signal-collection-19-00-2026-08-04.md` (Threa
 Availability facts (not negative evidence): YouTube / GitHub /stars / Google My Activity / ChatGPT / Claude / X all unavailable — CDP down.
 
 **Verdict (19:00): reinforcement-only at the durable layer.** The only genuinely-new evidence is CK's own restatement of an already-durable axis → own-posts-only-reinforcement. Durable action = the raw transcript + this audit note + a `log.md` entry only; `index.md` and all concept pages left unchanged.
+
+## [2026-08-04] 22:00 new-target run — routing audit
+
+Reviewed `raw/transcripts/interest-signal-collection-22-00-2026-08-04.md` (public RSS/Atom + HTML fetch; no CDP needed for this track). Baseline = same-day 11:00 new-target run (had only the Cloudflare Agents Week Day-1 08-03 batch, already appended 08-03 22:00) + the 08-03 22:00 run + `concepts/ai-infra-operating-economics.md`.
+
+**Cloudflare shipped "Agents Week" Day 2 on 08-04 — seven new posts not present at 11:00.** Route decisions:
+- **`append_existing` — Cloudflare Agents Week Day 2.** Widens the agent-runtime/operating-layer axis appended 08-03 22:00: agent lifecycle/observability as products (`Introducing: Cloudflare Agents` https://blog.cloudflare.com/agents-on-cloudflare/, ADL, `local tracing`), a NEW capability dimension in agent-native payments (`Cloudflare Wallets` / x402 https://blog.cloudflare.com/wallets/ — flagged to watch), and AI-enforced engineering governance (Cloudflare Codex https://blog.cloudflare.com/engineering-standards-enforcement/ + Astro software-factory subagents + CI/CD). Same vendor / same launch week / same axis → small append to `ai-infra-operating-economics.md`, not a new page.
+- **`raw_only`** — Vercel `Give your eve agent a browser` (08-04, single-surface agent-tooling); HN local-inference rows (Swiftlet 80B-in-4.3GB, DeepSeek V4 Flash on single MI300X, fine-tune-8B-on-4GB-GPU, Lilian Weng harness-engineering — all single-surface HN); GitHub Trending skills/agent rotation (obra/superpowers, browser-use/video-use, usestrix/strix, EveryInc/compound-engineering-plugin, alirezarezvani/claude-skills + repeats incl. NousResearch/hermes-agent); AWS/Meta/Docker/Simon Willison tops unchanged vs 11:00.
+- **`discard`** — OpenAI `Apple is getting this wrong` (corporate/legal PR); Google `The latest AI news we announced in July 2026` (monthly recap PR); AWS availability noise (ECR 200GB layers, Config +15 types, GameLift, Resilience Hub, Lambda SQS pollers); HN off-axis (Bradbury, Buckminster Fuller, Xbox outage).
+- **`manual_review`** / **`promote_to_wiki`** — none (Wallets/x402 tracked inside the append with an explicit watch flag, not promoted).
+
+Availability facts (not negative evidence): Anthropic RSS 404 (`/rss.xml` + `/engineering/rss.xml`), consistent with 08-02/08-03/08-04 11:00; GitHub-changelog + Hugging Face Atom returned no parseable `<entry>` this fetch (feed-format variance) — prior tops unchanged.
+
+**Verdict (22:00): one compact `append_existing` (Cloudflare Agents Week Day 2) on `ai-infra-operating-economics.md`.** Durable action = the raw transcript + this audit note + the concept append + a `log.md` entry; `index.md` left unchanged.
