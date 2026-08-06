@@ -3278,3 +3278,16 @@ Cross-run triage:
 - **Availability facts (not negative evidence):** CDP-recovery run — YouTube subscriptions + GitHub `/stars` came up logged-out shells (CDP up but unauthenticated); Anthropic RSS 404; OpenAI/GitHub-changelog/HF feeds unchanged since 08-05 11:00.
 
 **Verdict (23:00): reinforcement-only at the durable layer.** The only durable delta (Cloudflare Agents Week Day 3) was already absorbed by the 22:00 ingest run; the 23:00 refinement adds only this whole-day summary + a `log.md` entry. Raw transcripts untouched; `index.md` and all concept pages (including `ai-infra-operating-economics.md`) left unchanged.
+
+## [2026-08-07] 08:00 social run — no-new-signal / reinforcement-only
+
+08:00 social collection. Idempotency clear (no `interest-signal-collection-08-00-2026-08-07.md`). Baseline = most-recent completed social transcript = `raw/transcripts/interest-signal-collection-19-00-2026-08-06.md`. Live Chrome CDP `127.0.0.1:9222` UP (Chrome/147). Threads via official Graph API (long-lived token refreshed OK, `/me` = ethan13917). Reviewed:
+- `raw/transcripts/interest-signal-collection-08-00-2026-08-07.md`
+
+Triage:
+- **`raw_only` (no-new-signal / reinforcement):** own `/threads` top AND `/replies` top BOTH byte-identical to the 08-06 19:00 baseline (CK posted nothing between passes) — the both-static case. keyword_search agent(10)/Codex(4)/Claude Code(1) = 100% CK's own posts; Hermes=0. Google My Activity logged in but no 08-07 rows yet — freshest day is 08-06, whose on-axis rows (CUDA topic alert, hermes → Hermes Agent 한국어 문서 own-stack docs, 한컴독스/한글 웹) were already captured at the 19:00 run.
+- **`discard`:** Threads `/mentions` empty (`{"data": []}`).
+- **`manual_review` / `promote_to_wiki`:** none.
+- **Availability facts (not negative evidence):** YouTube subscriptions + GitHub `/stars` came up logged-out shells (CDP up but unauthenticated, both existing and fresh `PUT /json/new` targets); ChatGPT/Claude/X not collected (no hydrated logged-in tab).
+
+**Verdict (08:00): no-new-signal / reinforcement-only at the durable layer.** Durable action = raw transcript + this Honcho audit + a `log.md` entry only. `index.md` and all concept pages left unchanged.
