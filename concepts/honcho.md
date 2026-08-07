@@ -3348,3 +3348,13 @@ Whole-day triage:
 - **Availability facts (not negative evidence):** YouTube subscriptions + GitHub `/stars` logged-out shells both social passes (CDP up but unauthenticated); ChatGPT/Claude/X not collected (no hydrated logged-in tab); Anthropic RSS 404 (`/rss.xml` + `/engineering/rss.xml`, consistent with 08-02..08-07).
 
 **Verdict (23:00): reinforcement-only whole-day.** The only durable delta (Cloudflare Agents Week Day 4) was already absorbed at the 11:00 ingest; every other genuinely-new row across all four runs is single-surface reinforcement of an already-tracked lane. Durable action = this whole-day Honcho audit + a `log.md` entry only. Raw transcripts untouched; `index.md` and all concept pages (including `ai-infra-operating-economics.md`) left unchanged.
+
+## [2026-08-08] 08:00 social run — routing audit
+Reviewed: `raw/transcripts/interest-signal-collection-08-00-2026-08-08.md` (social).
+
+- **`raw_only` (no-new-signal / reinforcement):** Threads both-static — own `/threads` top (`DbnNVXGE6cn`, 08-04) AND `/replies` top (`DbsEtzrE39y`, 08-06) byte-identical to the 08-07 19:00 baseline (CK posted nothing between passes); `/mentions` empty; keyword_search agent(10)/Codex(4)/Claude Code(1)/Hermes(0) = 100% CK's own posts. Google My Activity logged in but no new 08-08 rows (freshest still the 08-07 오픈AI topic-alert + Outlook already captured).
+- **`discard`:** none new.
+- **`manual_review` / `promote_to_wiki` / `append_existing`:** none.
+- **Availability facts (not negative evidence):** YouTube subscriptions (blank nav shell, len 17) + GitHub `/stars` (login redirect) logged-out shells, CDP up but unauthenticated; ChatGPT/Claude/X not collected.
+
+**Verdict (08:00): no-new-signal / reinforcement-only.** Durable action = the raw transcript + this routing audit + a `log.md` entry only; `index.md` and all concept pages left unchanged.
