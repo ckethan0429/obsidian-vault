@@ -3291,3 +3291,17 @@ Triage:
 - **Availability facts (not negative evidence):** YouTube subscriptions + GitHub `/stars` came up logged-out shells (CDP up but unauthenticated, both existing and fresh `PUT /json/new` targets); ChatGPT/Claude/X not collected (no hydrated logged-in tab).
 
 **Verdict (08:00): no-new-signal / reinforcement-only at the durable layer.** Durable action = raw transcript + this Honcho audit + a `log.md` entry only. `index.md` and all concept pages left unchanged.
+
+## [2026-08-07] 11:00 new-target run — one `append_existing` (Cloudflare Agents Week Day 4)
+
+11:00 new-target collection (blogs/changelogs/releases/GitHub Trending; social surfaces excluded). Idempotency clear (no `interest-signal-collection-11-00-2026-08-07.md`). Baseline = most-recent completed same-track transcript = `raw/transcripts/interest-signal-collection-22-00-2026-08-06.md` + `concepts/ai-infra-operating-economics.md`. Public RSS/Atom + HTML over HTTPS (stdlib `/tmp/nt_fetch_1100_0807.py` → `.cache/newtarget-2026-08-07-1100/`). Reviewed:
+- `raw/transcripts/interest-signal-collection-11-00-2026-08-07.md`
+
+Triage:
+- **`append_existing` (applied at ingest):** ONE durable delta — Cloudflare shipped **"Agents Week" Day 4 (08-06)**, a six-post "agentic internet" batch (2026-08-06 13:00 GMT) NOT present at the 08-06 22:00 fetch: `Building an open Agentic Internet` (readable/discoverable/callable/payable) + `The next generation of MCP` (MCP v2, stateless core on Workers) + `Give any website a WebMCP interface` (dev preview) + `Introducing Kitesurf` (agent-first browser in V8 isolates on Workers) + `Cloudflare AI Search` + `From ranking to recommended` (AEO / Agent Readiness). Same vendor / same launch week / same operating-layer axis as Days 1-3 → one small dated subsection on `ai-infra-operating-economics.md` (the agent-facing web/discovery/browser/protocol layer), NOT a new page.
+- **`raw_only` (single-surface reinforcement):** Vercel Agent Plugins 1.0.0 + Marketplace provider-skills install + Ling 3.0 Tiny; AWS Bedrock AgentCore runtime instances GA + ECS fractional-GPU (G6f) + Lambda console-to-IDE Kiro/Cursor + Security-Agent email-MFA; GitHub Copilot Kimi K3; HF Baseten inference-provider; HN Inside-vLLM deep-dive + AMD-acquires-Taalas (inference-in-silicon) + Herdr YC; Simon Willison datasette 1.0a38/0.65.3; OpenAI GPT-5.6 Sol/Luna + ChatGPT-usage PR; Google WeatherNext 2; GitHub Trending skills/agent rotation (`cloudflare/computer` still trending = mild cross-surface confirmation of the Day-1 runtime axis).
+- **`discard`:** AWS region/availability/admin rows (EC2-G7-Spain, ElastiCache-Graviton4, Glue-Schema-Registry regions, Transform migrations, RDS storage-init, WorkSpaces observability, Marketplace net-payment-terms); Google Wallet-kids/tango/Ask-Maps consumer PR; GitHub code-scanning/Dependabot admin; HN off-axis (Sun instability, Mario/Pareto, HIBP Nepal, USB-C, HPV gum, steak, ProvenMetal); Cloudflare SASE/SSE Gartner Visionary PR.
+- **`manual_review` / `promote_to_wiki`:** none.
+- **Availability facts (not negative evidence):** Anthropic RSS 404 (`/rss.xml` + `/engineering/rss.xml`, consistent with 08-02..08-06); Meta Eng / Docker / github-changelog scanning rows unchanged since 08-05/08-06.
+
+**Verdict (11:00): one compact `append_existing` (Cloudflare Agents Week Day 4) on `ai-infra-operating-economics.md`.** Saved raw transcript; added this Honcho routing audit; left `index.md` unchanged.
