@@ -3318,3 +3318,16 @@ Triage:
 - **Availability facts (not negative evidence):** YouTube subscriptions + GitHub `/stars` logged-out shells (CDP up but unauthenticated, both targets each); ChatGPT/Claude/X not collected (no hydrated logged-in tab).
 
 **Verdict (19:00): reinforcement-only at the durable layer.** Durable action = raw transcript + this Honcho audit + a `log.md` entry only. `index.md` and all concept pages left unchanged.
+
+## [2026-08-07] 22:00 new-target run — reinforcement-only (no new durable delta since 11:00)
+
+22:00 new-target collection (public RSS/Atom + HTML fetch, stdlib only). Idempotency clear (no `interest-signal-collection-22-00-2026-08-07.md`). Baseline = same-day 11:00 new-target run (which absorbed the day's ONE durable delta — Cloudflare "Agents Week" Day 4 [08-06] — into an `append_existing` on `ai-infra-operating-economics.md`) + `concepts/ai-infra-operating-economics.md`. Reviewed:
+- `raw/transcripts/interest-signal-collection-22-00-2026-08-07.md`
+
+Triage:
+- **`raw_only` (single-surface reinforcement):** OpenAI "How HSP GRUPPE builds AI capabilities for tax advisory" (08-07 enterprise customer case-study PR, low durability); GitHub Trending skills/agent lane rotation fresh vs 11:00 (`PrimeIntellect-ai/prime-agent`, `google/skills`, `android/skills`, `anthropics/claude-plugins-official`, `wshobson/agents`, `semantica-agi/semantica`, `unclebob/swarm-forge`, `NVIDIA-NeMo/Speech` — same already-tracked lane, `cloudflare/computer` still trending = mild cross-surface confirmation of the Day-1 runtime axis). All high-signal surfaces (Cloudflare/Vercel/AWS/HF/github-changelog/Simon Willison/Google/Meta Eng/Docker) UNCHANGED vs the 11:00 baseline — still the 08-06 batch already captured.
+- **`discard`:** HN off-axis civic/ops (New Mexico court orders Meta $567m; US $1.2B German offshore-wind deal; GitHub Actions/Pages degraded-availability incident); HN generic (Taste Is All That's Left, Sun instability, HPV gum, urban forest, TypeStax, Piet quine). On-axis HN rows (AMD-Taalas, Inside-vLLM) already captured 11:00.
+- **`append_existing` / `manual_review` / `promote_to_wiki`:** none — the day's sole durable delta was already applied at 11:00 ingest.
+- **Availability facts (not negative evidence):** Anthropic RSS 404 (`/rss.xml` + `/engineering/rss.xml`, consistent with 08-02..08-07).
+
+**Verdict (22:00): reinforcement-only at the durable layer.** No new durable delta since 11:00. Durable action = raw transcript + this Honcho audit + a `log.md` entry only. `index.md` and all concept pages left unchanged.
