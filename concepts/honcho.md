@@ -3331,3 +3331,20 @@ Triage:
 - **Availability facts (not negative evidence):** Anthropic RSS 404 (`/rss.xml` + `/engineering/rss.xml`, consistent with 08-02..08-07).
 
 **Verdict (22:00): reinforcement-only at the durable layer.** No new durable delta since 11:00. Durable action = raw transcript + this Honcho audit + a `log.md` entry only. `index.md` and all concept pages left unchanged.
+
+## [2026-08-07] 23:00 refinement — whole-day triage (reinforcement-only; Cloudflare Agents Week Day 4 already absorbed at 11:00)
+
+Nightly refinement over the four same-day runs (no recollection). Reviewed:
+- `raw/transcripts/interest-signal-collection-08-00-2026-08-07.md` (social)
+- `raw/transcripts/interest-signal-collection-11-00-2026-08-07.md` (new-target)
+- `raw/transcripts/interest-signal-collection-19-00-2026-08-07.md` (social)
+- `raw/transcripts/interest-signal-collection-22-00-2026-08-07.md` (new-target)
+
+Whole-day triage:
+- **`append_existing` (already applied at ingest — not re-applied):** the day's ONE durable delta was Cloudflare **"Agents Week" Day 4** (08-06 six-post "agentic internet" batch — `the-agentic-internet`/AEO, `mcp-v2`, `webmcp`, `kitesurf`, `ai-search-easier`), absorbed at the 11:00 ingest into `concepts/ai-infra-operating-economics.md` (§2026-08-06, ~line 1330), extending the operating-layer arc outward to the agent-facing web/discovery/browser/protocol layer (runtime → lifecycle/payments/governance → identity/access/security+OS → agent-facing web). Verified landed; the 22:00 pass confirmed no new durable delta since. The 23:00 pass re-applies nothing.
+- **`raw_only` (single-surface reinforcement of already-tracked lanes):** Threads fully static both social passes (own `/threads` + `/replies` byte-identical to the 08:00 baseline all day; keyword_search agent/Codex/Claude Code = 100% CK's own posts); Google My Activity two low-durability 08-07 rows (오후 6:48 "오픈AI" topic-alert notification + 오후 12:16 "outlook" search → Outlook, off-axis); new-target single-surface rows — Vercel Agent Plugins 1.0.0 + Marketplace provider-skills + Ling 3.0 Tiny, AWS Bedrock AgentCore runtime GA + ECS fractional-GPU G6f + Lambda console-to-IDE Kiro/Cursor + Security-Agent MFA, GitHub Copilot Kimi K3, HF Baseten inference-provider, HN Inside-vLLM deep-dive + AMD-acquires-Taalas (inference-in-silicon), Simon Willison datasette 1.0a38/0.65.3, OpenAI GPT-5.6 Sol/Luna + HSP GRUPPE case study, Google WeatherNext 2, GitHub Trending skills/agent lane rotation (`cloudflare/computer` still trending = mild cross-surface confirmation of the Day-1 runtime axis; PrimeIntellect prime-agent, google/android skills, claude-plugins-official, wshobson/agents).
+- **`discard`:** Threads `/mentions` empty (`{"data": []}`); HN off-axis civic/ops (New Mexico court orders Meta $567m; US $1.2B German offshore-wind deal; GitHub Actions/Pages degraded-availability incident) + HN generic noise.
+- **`manual_review` / `promote_to_wiki`:** none.
+- **Availability facts (not negative evidence):** YouTube subscriptions + GitHub `/stars` logged-out shells both social passes (CDP up but unauthenticated); ChatGPT/Claude/X not collected (no hydrated logged-in tab); Anthropic RSS 404 (`/rss.xml` + `/engineering/rss.xml`, consistent with 08-02..08-07).
+
+**Verdict (23:00): reinforcement-only whole-day.** The only durable delta (Cloudflare Agents Week Day 4) was already absorbed at the 11:00 ingest; every other genuinely-new row across all four runs is single-surface reinforcement of an already-tracked lane. Durable action = this whole-day Honcho audit + a `log.md` entry only. Raw transcripts untouched; `index.md` and all concept pages (including `ai-infra-operating-economics.md`) left unchanged.
