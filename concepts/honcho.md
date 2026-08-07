@@ -3305,3 +3305,16 @@ Triage:
 - **Availability facts (not negative evidence):** Anthropic RSS 404 (`/rss.xml` + `/engineering/rss.xml`, consistent with 08-02..08-06); Meta Eng / Docker / github-changelog scanning rows unchanged since 08-05/08-06.
 
 **Verdict (11:00): one compact `append_existing` (Cloudflare Agents Week Day 4) on `ai-infra-operating-economics.md`.** Saved raw transcript; added this Honcho routing audit; left `index.md` unchanged.
+
+## [2026-08-07] 19:00 social run — reinforcement-only (Threads static; two low-durability Google rows)
+
+19:00 social collection (Threads API + live Chrome CDP). Idempotency clear (no `interest-signal-collection-19-00-2026-08-07.md`). Baseline = same-day 08:00 social + 11:00 new-target runs. Live CDP UP (Chrome/147); Threads via Graph API, token refreshed OK (expires_in 5184000), `/me` = ethan13917. Reviewed:
+- `raw/transcripts/interest-signal-collection-19-00-2026-08-07.md`
+
+Triage:
+- **`raw_only` (reinforcement):** Threads own `/threads` top AND `/replies` top BOTH byte-identical to the same-day 08:00 baseline (CK posted nothing between passes). keyword_search agent(10)/Codex(4)/Claude Code(1) = 100% CK's own posts; Hermes=0. Google My Activity logged in with TWO fresh 08-07 rows absent at 08:00 — a 오후 6:48 topic alert incl. "오픈AI" (OpenAI, single-surface topic-alert notification) + a 오후 12:16-12:17 "outlook" 검색 → Outlook 방문 (email/personal, off-axis). Neither opens a new on-axis durable branch → raw_only.
+- **`discard`:** Threads `/mentions` empty (`{"data": []}`).
+- **`manual_review` / `promote_to_wiki`:** none.
+- **Availability facts (not negative evidence):** YouTube subscriptions + GitHub `/stars` logged-out shells (CDP up but unauthenticated, both targets each); ChatGPT/Claude/X not collected (no hydrated logged-in tab).
+
+**Verdict (19:00): reinforcement-only at the durable layer.** Durable action = raw transcript + this Honcho audit + a `log.md` entry only. `index.md` and all concept pages left unchanged.
