@@ -3369,3 +3369,14 @@ Reviewed: `raw/transcripts/interest-signal-collection-11-00-2026-08-08.md` (new-
 - **Availability facts (not negative evidence):** Anthropic RSS 404 (`/rss.xml` + `/engineering/rss.xml`, consistent with 08-02..08-07). CDP up (Chrome/147) but not needed for the RSS/HTML track.
 
 **Verdict (11:00): one durable delta.** The cross-surface operating-cost cluster (+ control-plane consolidation + DOE open-models) was appended to `ai-infra-operating-economics.md` as §2026-08-08; everything else is single-surface reinforcement or noise. Durable action = the raw transcript + this routing audit + the concept append + a `log.md` entry; `index.md` left unchanged.
+
+## [2026-08-08] 19:00 social run — routing audit
+Reviewed: `raw/transcripts/interest-signal-collection-19-00-2026-08-08.md` (social). Baselines = same-day `interest-signal-collection-08-00-2026-08-08.md` (both-static no-new-signal) + `interest-signal-collection-11-00-2026-08-08.md` (one append_existing already absorbed on `ai-infra-operating-economics.md`).
+
+- **`raw_only` (single-surface own-post reinforcement):** ONE genuinely-new item — CK's own `/replies` top `Dbw8oWGE-2_` (08-08 12:55 KST, `https://www.threads.com/@ethan13917/post/Dbw8oWGE-2_`): "그냥 챗봇으로 쓴다는거지. 툴 콜링 루프 많이 돌리면서 실생활에 접목하려는 노력을 해야한다". On CK's durable agent/tool-use axis, but a single-surface own reply, not new external signal → own-posts-only-reinforcement.
+- **`raw_only` (static):** Threads own `/threads` top (`DbnNVXGE6cn`, 08-04) unchanged vs 08:00; `/replies` carry-over unchanged below the new row; `/mentions` empty; keyword_search 100% own posts (agent×10, Codex×4, Claude Code×1).
+- **변화 없음:** Google My Activity logged in but NO new 08-08 rows (freshest still the 08-07 오픈AI topic-alert + Outlook already in the 08:00 baseline).
+- **Availability facts (not negative evidence):** YouTube subscriptions target correct title but blank nav-only shell (len 17, logged out); GitHub `/stars` login redirect (logged out); ChatGPT/Claude/X not collected. CDP up (Chrome/147).
+- **`manual_review` / `append_existing` / `promote_to_wiki`:** none.
+
+**Verdict (19:00): reinforcement-only.** The single new own reply reinforces the existing agent/tool-use lane; no new external cross-surface signal. Durable action = the raw transcript + this routing audit + a `log.md` entry; `index.md` and all concept pages left unchanged.
