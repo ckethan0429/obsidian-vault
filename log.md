@@ -2347,3 +2347,11 @@
 - **`raw_only`:** Red Hat "The CPU is back" LLM-inference-economics (22:00, single-surface HN); CK's own `/replies` `Dbw8oWGE-2_` (19:00, tool-calling loops, own-posts-only-reinforcement); Threads `/threads` static all day; GitHub Trending agent/governance/security rotation; all high-signal new-target feeds unchanged 11:00→22:00
 - **변화 없음 / discard / availability facts:** Google My Activity no new 08-08 rows; HN off-axis 08-08 (WeatherNext dup, x86 backdoors, NYT Amazon pollution) discarded; YouTube/GitHub logged-out shells + Anthropic RSS 404 recorded as access facts (CDP up, Chrome/147)
 - **Verdict: reinforcement-only day.** Durable action = one whole-day Honcho audit in `concepts/honcho.md` + this log entry only. Raw transcripts, `index.md`, and all non-Honcho concept pages left unchanged. No `manual_review`/`promote_to_wiki`
+
+## [2026-08-09] 08:00 social — reinforcement-only
+- Morning social collection. Idempotency clear (no `interest-signal-collection-08-00-2026-08-09.md` existed). Baseline by mtime = `raw/transcripts/interest-signal-collection-19-00-2026-08-08.md` (reinforcement-only). Saved `raw/transcripts/interest-signal-collection-08-00-2026-08-09.md`
+- Threads via Graph API (stdlib `/tmp/th_collect_0800_0809.py`, token refreshed, `/me` = ethan13917). CDP up (Chrome/147); Google My Activity hydrated; YouTube/GitHub logged-out shells
+- **`raw_only` (new, off-axis):** Threads own `/threads` gained ONE new row — `DbyCIZXk9ee` (08-08 23:02 KST) REPOST_FACADE, empty text; og:title recovered reposted author `@kind_zino_tax` (손진호, 세무사, `https://www.threads.com/@ethan13917/post/DbyCIZXk9ee`), og:description empty → off CK's AI/agent/infra axis, single-surface feed rotation, not durable
+- **`raw_only` (static):** Threads `/replies` top unchanged (`Dbw8oWGE-2_`); keyword_search 100% own posts (agent×10, Codex×4, Claude Code×1)
+- **변화 없음 / availability facts:** Google My Activity no new 08-08/08-09 rows (freshest still 08-07 오픈AI alert + Outlook); YouTube subscriptions blank nav shell (logged out); GitHub `/stars` login redirect (logged out); `/mentions` empty
+- **Verdict: reinforcement-only.** Durable action = this raw transcript + a Honcho routing audit + this log entry only. `index.md` and all concept pages left unchanged

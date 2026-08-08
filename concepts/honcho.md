@@ -3405,3 +3405,14 @@ Reviewed (all four same-day runs, no recollection): `raw/transcripts/interest-si
 - **`manual_review` / `promote_to_wiki`:** none.
 
 **Verdict (23:00): reinforcement-only day.** The single durable delta (operating-cost/token-economics cluster) was already absorbed at the 11:00 ingest stage; the 23:00 refinement re-applies nothing. Durable action = this whole-day audit + a `log.md` entry only; raw transcripts, `index.md`, and all non-Honcho concept pages left unchanged.
+
+## [2026-08-09] 08:00 social — routing audit
+Reviewed: `raw/transcripts/interest-signal-collection-08-00-2026-08-09.md`. Baseline (by mtime) = `interest-signal-collection-19-00-2026-08-08.md` (reinforcement-only). CDP up (Chrome/147); Threads via Graph API.
+
+- **`raw_only` (new but off-axis):** Threads own `/threads` gained ONE new row — `DbyCIZXk9ee` (08-08 23:02 KST) REPOST_FACADE, empty text. Public og:title recovered the reposted author = `@kind_zino_tax` (손진호, "친(절)한 세무사" = tax accountant, `https://www.threads.com/@ethan13917/post/DbyCIZXk9ee`); og:description empty. Off CK's AI/agent/infra axis → single-surface off-axis feed rotation, not durable.
+- **`raw_only` (static):** Threads `/replies` top unchanged (`Dbw8oWGE-2_`); keyword_search 100% own posts (agent×10, Codex×4, Claude Code×1).
+- **변화 없음:** Google My Activity logged in but NO new 08-08/08-09 rows (freshest still the 08-07 오픈AI topic-alert + Outlook).
+- **Availability facts (not negative evidence):** YouTube subscriptions blank nav-only shell (len 17, logged out); GitHub `/stars` login redirect (logged out); `/mentions` empty.
+- **`manual_review` / `promote_to_wiki`:** none.
+
+**Verdict (08:00): reinforcement-only.** The only new item is an off-axis tax-accountant repost facade. Durable action = the raw transcript + this routing audit + a `log.md` entry; `index.md` and all concept pages left unchanged.
