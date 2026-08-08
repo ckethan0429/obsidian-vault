@@ -3380,3 +3380,15 @@ Reviewed: `raw/transcripts/interest-signal-collection-19-00-2026-08-08.md` (soci
 - **`manual_review` / `append_existing` / `promote_to_wiki`:** none.
 
 **Verdict (19:00): reinforcement-only.** The single new own reply reinforces the existing agent/tool-use lane; no new external cross-surface signal. Durable action = the raw transcript + this routing audit + a `log.md` entry; `index.md` and all concept pages left unchanged.
+
+## [2026-08-08] 22:00 new-target run — routing audit
+Reviewed: `raw/transcripts/interest-signal-collection-22-00-2026-08-08.md` (new-target). Baseline = same-day `interest-signal-collection-11-00-2026-08-08.md` (which absorbed the day's one durable delta — a cross-surface AI operating-cost / token-economics cluster — into an `append_existing` §2026-08-08 on `ai-infra-operating-economics.md`) + `concepts/ai-infra-operating-economics.md`.
+
+- **`raw_only` (strongest new, single-surface):** Red Hat "The CPU is back: Rethinking the CPU-GPU split for LLM inference" (08-08, `https://www.redhat.com/en/blog/cpu-back-rethinking-cpu-gpu-split-llm-inference`) — inference cost/hardware-economics on the `ai-infra-operating-economics.md` axis, but a single HN surface, not a new cross-surface cluster → raw_only.
+- **`raw_only` (GitHub Trending rotation):** same skills/agent/governance/security lane — `TauricResearch/TradingAgents`, `microsoft/agent-governance-toolkit`, `anthropics/claude-code-security-review`, `Universal-Commerce-Protocol/ucp` (agentic-commerce, echoes Cloudflare "payable" agentic-internet), `virgiliojr94/book-to-skill`. No new durable branch.
+- **`raw_only` (static):** Simon Willison / Cloudflare / Vercel / AWS-agent-rows / github-changelog / HF / Google (blog+research) / Meta Eng / Docker / OpenAI all unchanged vs 11:00 (still the 08-07/08-06 batch already captured).
+- **`discard`:** HN off-axis 08-08 (DeepMind WeatherNext cyclones = dup of the 08-06 Google PR; x86 hardware backdoors; NYT Amazon data-center pollution civic/energy; satellite wildfires; Voyager 2; Ancient Library); AWS region/admin/FedRAMP rows; Google consumer PR.
+- **Availability facts (not negative evidence):** Anthropic RSS 404 (`/rss.xml` + `/engineering/rss.xml`, consistent with 08-02..08-08). CDP up (Chrome/147) but not needed for the RSS/HTML track.
+- **`manual_review` / `append_existing` / `promote_to_wiki`:** none.
+
+**Verdict (22:00): reinforcement-only.** No new durable delta since 11:00; the day's sole durable delta (operating-cost/token-economics cluster) was already appended to `ai-infra-operating-economics.md`. Durable action = the raw transcript + this routing audit + a `log.md` entry; `index.md` and all concept pages left unchanged.
