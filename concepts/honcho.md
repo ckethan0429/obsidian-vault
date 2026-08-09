@@ -3449,3 +3449,23 @@ Reviewed: `raw/transcripts/interest-signal-collection-22-00-2026-08-09.md`. Base
 - **`manual_review` / `promote_to_wiki` / `append_existing`:** none. No cross-surface new durable cluster.
 
 **Verdict (22:00): reinforcement-only.** No new durable delta since the 11:00 baseline; movement is HN frontpage rotation (off-axis) + GitHub Trending same-lane rotation. Durable action = the raw transcript + this routing audit + a `log.md` entry; `index.md` and all concept pages left unchanged.
+
+## [2026-08-09] 23:00 whole-day refinement — routing audit
+Reviewed (no recollection): all four same-day raw transcripts + the same-day curation-draft log entry —
+- `raw/transcripts/interest-signal-collection-08-00-2026-08-09.md` (social, reinforcement-only)
+- `raw/transcripts/interest-signal-collection-11-00-2026-08-09.md` (new-target, reinforcement-only)
+- `raw/transcripts/interest-signal-collection-19-00-2026-08-09.md` (social, reinforcement-only)
+- `raw/transcripts/interest-signal-collection-22-00-2026-08-09.md` (new-target, reinforcement-only)
+- `log.md` `## [2026-08-09] query | Threads curation draft` (Claude Code auto-mode default; draft only, not published)
+
+Whole-day triage (each ingest-stage run already carries its own per-run audit above; this is the consolidated 23:00 roll-up):
+- **`append_existing`:** none today. The day's collections produced **no durable delta** — nothing was appended to any concept page across all four runs (contrast prior days where an 11:00/22:00 run absorbed a cross-surface cluster). The most-recent durable append remains `ai-infra-operating-economics.md` §2026-08-08 from the prior day.
+- **`raw_only` (strongest genuinely-new, single-surface):** Simon Willison "Auto mode is now the default in Claude Code for Pro, Max, and Team plans" (08-08 22:36, `https://simonwillison.net/2026/Aug/8/auto-mode/`) — Claude Code / human-in-the-loop-security lane; captured 11:00, unchanged at 22:00, and became the topic of today's Threads curation draft. Single-surface, reinforces an already-tracked axis → not promoted. Vercel "Grok Imagine Image 2.0 on AI Gateway" (08-08) — model availability, single-surface.
+- **`raw_only` (social feed rotation, off-axis):** two new Threads own `/threads` REPOST_FACADEs — `DbyCIZXk9ee` (@kind_zino_tax, tax accountant, 08:00 new row) and `DbzAP2CE_r7` (@bam.bam_2, community planner networking/self-improvement post, 19:00 new row). Both off CK's AI/agent/infra axis. `/replies` top `Dbw8oWGE-2_` static all day; keyword_search 100% own posts.
+- **`raw_only` (new-target rotation):** HN frontpage rotated 08-08→08-09 (all off durable axis: Shopify Redis→MySQL, reMarkable-over-SSH, magic hexagons, MS Word X64 port, Os8088, Alpha 21264, grid engineering, Canvas-vs-HTML, Atlantic AI-wearable op-ed); GitHub Trending same agent/skills/coding lane rotation (TradingAgents, book-to-skill, agent-governance-toolkit, claude-code-security-review, code-graph-rag, PraisonAI, dspy, BabelDOC) — no new durable branch.
+- **`raw_only` (static):** OpenAI / github-changelog / AWS / HuggingFace / Meta Eng / Cloudflare / Docker / Google (blog+research) all unchanged (08-07/08-06 batch). Google My Activity freshest still 08-07 (오픈AI alert + Outlook) → 변화 없음.
+- **`discard`:** HN retro/hardware/math/civil-engineering rows; AWS region/admin/FedRAMP; Google consumer PR; off-axis trending repos (authentik, weathernext, ComfyUI, AutoGPT).
+- **Availability facts (not negative evidence):** YouTube subscriptions blank shell + GitHub `/stars` login redirect (CDP up Chrome/147 but those surfaces logged out); Anthropic RSS 404. Consistent with 08-02..08-09.
+- **`manual_review` / `promote_to_wiki`:** none. No cross-surface new durable cluster all day.
+
+**Verdict (23:00 whole-day): reinforcement-only, no durable change.** All four ingest-stage runs were reinforcement-only and no concept page was updated today; the Claude Code auto-mode axis is the strongest signal but stayed single-surface (raw + curation-draft). This refinement re-applies nothing — durable action = this whole-day audit + a `log.md` entry only. Raw transcripts untouched; `index.md` and all concept pages left unchanged.
