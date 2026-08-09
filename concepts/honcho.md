@@ -3416,3 +3416,15 @@ Reviewed: `raw/transcripts/interest-signal-collection-08-00-2026-08-09.md`. Base
 - **`manual_review` / `promote_to_wiki`:** none.
 
 **Verdict (08:00): reinforcement-only.** The only new item is an off-axis tax-accountant repost facade. Durable action = the raw transcript + this routing audit + a `log.md` entry; `index.md` and all concept pages left unchanged.
+
+## [2026-08-09] 11:00 new-target — routing audit
+Reviewed: `raw/transcripts/interest-signal-collection-11-00-2026-08-09.md`. Baseline = most-recent new-target transcript `interest-signal-collection-22-00-2026-08-08.md` (reinforcement-only) + the same-day-prior `-11-00-2026-08-08` run that absorbed the day's sole durable delta (cross-surface operating-cost / token-economics cluster) into `ai-infra-operating-economics.md` §2026-08-08, cross-checked against `concepts/ai-infra-operating-economics.md`. Collection via public RSS/Atom + HTML (stdlib `/tmp/nt_fetch_1100_0809.py` → `.cache/newtarget-2026-08-09-1100/`).
+
+- **`raw_only` (strongest new, single-surface):** Simon Willison "Auto mode is now the default in Claude Code for Pro, Max, and Team plans" (08-08 22:36, `https://simonwillison.net/2026/Aug/8/auto-mode/`) — Claude Code / agent-workflow lane, reinforces an already-tracked axis but single-surface. Vercel "Grok Imagine Image 2.0 now available on Vercel AI Gateway" (08-08, `https://vercel.com/changelog/grok-imagine-image-2-0-preview-now-available-on-vercel-ai-gateway`) — model-availability, single-surface.
+- **`raw_only` (off-axis note / rotation):** HN "Shopify replaced Redis with MySQL for inventory reservations–and it scaled" (`https://shopify.engineering/scaling-inventory-reservations`) — infra/scaling, off the durable AI/agent axis; GitHub Trending same skills/agent/governance/security lane rotation (TauricResearch/TradingAgents, virgiliojr94/book-to-skill, microsoft/agent-governance-toolkit, anthropics/claude-code-security-review, Universal-Commerce-Protocol/ucp, kyutai-labs/pocket-tts). No new durable branch.
+- **`raw_only` (static):** OpenAI / github-changelog / AWS / HuggingFace / Cloudflare / Docker / Google (blog+research) / Meta Eng all unchanged vs the 08-08 baseline — still the 08-07/08-06 batch already captured. Note: the 08-08 Red Hat "The CPU is back" LLM-inference post (22:00's strongest) rotated OFF the HN frontpage.
+- **`discard`:** HN off-axis (server-is-a-phone, Fastmail EU region, Intel-vs-ARM perf/watt, for-sale DNS, eclipse map, retro OS, A* pathfinding); AWS region/admin/FedRAMP rows; Google consumer PR; off-axis trending repos.
+- **Availability facts (not negative evidence):** Anthropic RSS 404 (`/rss.xml` and `/engineering/rss.xml`), consistent with 08-02..08-08. All other feeds HTTP 200.
+- **`manual_review` / `promote_to_wiki` / `append_existing`:** none. No cross-surface new durable cluster.
+
+**Verdict (11:00): reinforcement-only.** No new durable delta since the 08-08 22:00 baseline; the only genuinely-new items are single-surface. Durable action = the raw transcript + this routing audit + a `log.md` entry; `index.md` and all concept pages left unchanged.
