@@ -3428,3 +3428,13 @@ Reviewed: `raw/transcripts/interest-signal-collection-11-00-2026-08-09.md`. Base
 - **`manual_review` / `promote_to_wiki` / `append_existing`:** none. No cross-surface new durable cluster.
 
 **Verdict (11:00): reinforcement-only.** No new durable delta since the 08-08 22:00 baseline; the only genuinely-new items are single-surface. Durable action = the raw transcript + this routing audit + a `log.md` entry; `index.md` and all concept pages left unchanged.
+
+## [2026-08-09] 19:00 social — routing audit
+Reviewed: `raw/transcripts/interest-signal-collection-19-00-2026-08-09.md`. Baselines = same-day `-08-00-2026-08-09` (social, reinforcement-only) + `-11-00-2026-08-09` (new-target, reinforcement-only). Threads via official Graph API (stdlib `/tmp/th_collect_1900_0809.py`, token refreshed OK); CDP up (Chrome/147) for Google/YouTube/GitHub reads (`/tmp/cdp_read_1900_0809.py`, raw-socket WS).
+
+- **`raw_only` (only new item, off-axis, single-surface):** Threads own `/threads` new top `DbzAP2CE_r7` (08-09 08:05 KST) REPOST_FACADE — og:title/og:description recovered reposted author `@bam.bam_2` (밤밤ㅣ커뮤니티 기획자, community planner) with a networking/self-improvement post ("제발 새로운 사람을 주기적으로 만나세요"). Off CK's AI/agent/infra axis → feed rotation. The 08:00 new row `DbyCIZXk9ee` (@kind_zino_tax, tax accountant) is now carry-over.
+- **`raw_only` (static/reinforcement):** `/replies` top `Dbw8oWGE-2_` unchanged vs 08:00; keyword_search (agent/Codex/Claude Code) 100% own posts; Google My Activity freshest still 08-07 (오픈AI alert + Outlook), no new rows → 변화 없음.
+- **Availability facts (not negative evidence):** YouTube subscriptions blank nav-only shell (len 17, logged out); GitHub `/stars` login redirect (logged out) — CDP up but those surfaces logged out.
+- **`/mentions`:** empty. **`manual_review` / `promote_to_wiki` / `append_existing`:** none.
+
+**Verdict (19:00): reinforcement-only.** The only new item is an off-axis community-planner repost facade. Durable action = the raw transcript + this routing audit + a `log.md` entry; `index.md` and all concept pages left unchanged.
