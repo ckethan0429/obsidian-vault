@@ -3438,3 +3438,14 @@ Reviewed: `raw/transcripts/interest-signal-collection-19-00-2026-08-09.md`. Base
 - **`/mentions`:** empty. **`manual_review` / `promote_to_wiki` / `append_existing`:** none.
 
 **Verdict (19:00): reinforcement-only.** The only new item is an off-axis community-planner repost facade. Durable action = the raw transcript + this routing audit + a `log.md` entry; `index.md` and all concept pages left unchanged.
+
+## [2026-08-09] 22:00 new-target — routing audit
+Reviewed: `raw/transcripts/interest-signal-collection-22-00-2026-08-09.md`. Baseline = same-day-prior `-11-00-2026-08-09` (new-target, reinforcement-only) + most-recent-before-that `-22-00-2026-08-08` (reinforcement-only) + `concepts/ai-infra-operating-economics.md`. Collection via public RSS/Atom + HTML over HTTPS (stdlib `/tmp/nt_fetch_2200_0809.py` → `.cache/newtarget-2026-08-09-2200/`, parsed `/tmp/nt_parse_2200_0809.py`). All feeds HTTP 200 except **Anthropic RSS 404** (availability fact, consistent with 08-02..08-09).
+
+- **`raw_only` (movement since 11:00, off durable axis):** Hacker News frontpage rotated to 08-09 items — all off CK's AI/agent axis: reMarkable-over-SSH, magic hexagons, MS Word 1.1a X64 port, Os8088 retro OS, Alpha 21264 CPU retro, grid engineering, Canvas-vs-HTML webapp; the one tangentially-AI row (Atlantic "Everything You Do Is Being Recorded", AI-wearable surveillance op-ed) is consumer-privacy commentary, not durable. GitHub Trending rotated within the same agent/skills/coding lane (`vitali87/code-graph-rag`, `msitarzewski/agency-agents`, `pingdotgg/t3code`, `MervinPraison/PraisonAI`, `stanfordnlp/dspy`, `funstory-ai/BabelDOC`) — no new durable branch.
+- **`raw_only` (static/reinforcement):** OpenAI / github-changelog / AWS / HuggingFace / Meta Eng / Vercel / Cloudflare / Docker / Simon Willison / Google (blog+research) all byte-identical to the 11:00 capture — still the 08-08/08-07/08-06 batch already captured. Simon Willison "Auto mode is now the default in Claude Code" (08-08 22:36) unchanged — already captured 11:00 and already the topic of the 08-09 Threads curation draft.
+- **`discard`:** HN retro/hardware/math/civil-engineering rows; AWS region/admin/FedRAMP rows; Google consumer PR; off-axis trending repos (authentik, weathernext, ComfyUI).
+- **Availability facts (not negative evidence):** Anthropic RSS 404 (`/rss.xml` and `/engineering/rss.xml`), consistent with 08-02..08-09.
+- **`manual_review` / `promote_to_wiki` / `append_existing`:** none. No cross-surface new durable cluster.
+
+**Verdict (22:00): reinforcement-only.** No new durable delta since the 11:00 baseline; movement is HN frontpage rotation (off-axis) + GitHub Trending same-lane rotation. Durable action = the raw transcript + this routing audit + a `log.md` entry; `index.md` and all concept pages left unchanged.
