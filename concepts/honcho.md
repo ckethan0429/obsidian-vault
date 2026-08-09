@@ -3469,3 +3469,12 @@ Whole-day triage (each ingest-stage run already carries its own per-run audit ab
 - **`manual_review` / `promote_to_wiki`:** none. No cross-surface new durable cluster all day.
 
 **Verdict (23:00 whole-day): reinforcement-only, no durable change.** All four ingest-stage runs were reinforcement-only and no concept page was updated today; the Claude Code auto-mode axis is the strongest signal but stayed single-surface (raw + curation-draft). This refinement re-applies nothing — durable action = this whole-day audit + a `log.md` entry only. Raw transcripts untouched; `index.md` and all concept pages left unchanged.
+
+## [2026-08-10] 08:00 interest-signal (social) routing audit
+Source raw: `raw/transcripts/interest-signal-collection-08-00-2026-08-10.md`. Baseline: `interest-signal-collection-19-00-2026-08-09.md` (most-recent completed social transcript by mtime). Transport: Threads Graph API + live Chrome CDP (Chrome/147). Route: **`raw_only` (no-new-signal / reinforcement-only)**.
+- **`raw_only` (both-static, no new item):** cross-day both-static — Threads own `/threads` top `DbzAP2CE_r7` (08-09 08:05 KST REPOST_FACADE, @bam.bam_2 community planner) AND `/replies` top `Dbw8oWGE-2_` (08-08 12:55 KST TEXT_POST) BOTH byte-identical to the 19:00 baseline tops. CK made no posts between passes. `/mentions` empty; keyword_search (agent/Codex/Claude Code) 100% own posts.
+- **`raw_only` (변화 없음):** Google My Activity newest rows unchanged (오픈AI alert 6:48 PM + Outlook 12:16-17 cluster, then CUDA/날씨, hermes, 8/5 클로드/쿠버네티스, 8/4 법원경매/양도세 carry-over) — only relative-date relabeling shifted, no new search rows.
+- **Availability facts (not negative evidence):** YouTube subscriptions blank nav-only shell (len 17, logged out) + GitHub `/stars` login redirect (logged out). CDP up but both surfaces logged out — consistent with 08-02..08-09.
+- **`manual_review` / `promote_to_wiki` / `append_existing`:** none. No genuinely-new item on any surface.
+
+**Verdict (08:00): no-new-signal / reinforcement-only.** Durable action = raw transcript + this Honcho audit + a `log.md` entry only. `index.md` and all concept pages left unchanged.
