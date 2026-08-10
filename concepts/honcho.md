@@ -3497,3 +3497,13 @@ Source raw: `raw/transcripts/interest-signal-collection-19-00-2026-08-10.md`. Ba
 - **`manual_review` / `promote_to_wiki` / `append_existing`:** none. No cross-surface new durable cluster.
 
 **Verdict (19:00): own-post-only reinforcement.** Durable action = raw transcript + this Honcho audit + a `log.md` entry only. `index.md` and all concept pages left unchanged.
+
+## [2026-08-10] 22:00 new-target routing audit
+Source raw: `raw/transcripts/interest-signal-collection-22-00-2026-08-10.md`. Baseline: same-day 11:00 new-target (`-11-00-2026-08-10`, reinforcement-only) + most-recent-before-that `-22-00-2026-08-09` (reinforcement-only) + `concepts/ai-infra-operating-economics.md`. Transport: public RSS/Atom + HTML over HTTPS (stdlib `/tmp/nt_fetch_2200_0810.py` → `.cache/newtarget-2026-08-10-2200/`, parsed `/tmp/nt_parse_2200_0810.py`). Route: **`append_existing` (one small durable delta)**.
+- **`append_existing` (cross-surface, on-axis):** **Meta Muse Glimmer** — open-weights ~30B local/agentic/multimodal coding model. Launch `https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model`, HF blog `https://huggingface.co/blog/muse-glimmer`, HN frontpage `https://news.ycombinator.com/item?id=49241679`. On the open-weight/model-lifecycle lane → appended a small section to `concepts/ai-infra-operating-economics.md`.
+- **`raw_only` (genuinely-new, single-surface):** HF `Making Knowledge Distillation Cheap Enough to Run at Scale` (MultiverseComputing, `https://huggingface.co/blog/MultiverseComputingCAI/efficient-knowledge-distillation`); HN `Docker Sandboxes` product page (`https://www.docker.com/products/docker-sandboxes/`, agent-sandbox lane already tracked); Vercel `Bun.serve entrypoint` (`https://vercel.com/changelog/bun-serve-entrypoint-for-vercel-functions`); Simon Willison `Quoting OpenClaw` (`https://simonwillison.net/2026/Aug/10/openclaw/`).
+- **`raw_only` (static):** OpenAI / AWS / Cloudflare / Docker(blog) / Google research / Meta Eng / GitHub Trending byte-identical or same-lane rotation vs the 11:00 baseline.
+- **`discard`:** GitHub `Custom thread subscriptions deprecated`; Google `Venmo on Google Play`; HN off-axis (languages-fail, tail-call, Smalltalk, Parametron, HackerOne, Klepton, Fourier, murder-mystery, pencils). **Availability facts:** Anthropic RSS 404 (consistent with 08-02..08-10).
+- **`manual_review` / `promote_to_wiki`:** none.
+
+**Verdict (22:00): one small durable delta (Muse Glimmer, append_existing); otherwise reinforcement.** Durable action = raw transcript + this Honcho audit + a small `append_existing` on `ai-infra-operating-economics.md` + a `log.md` entry. `index.md` and other concept pages left unchanged.
