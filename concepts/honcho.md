@@ -3520,3 +3520,13 @@ Reviewed the four same-day raw transcripts (no recollection): `raw/transcripts/i
 - **Availability facts (not negative evidence):** YouTube subscriptions blank nav-only shell (logged out) + GitHub `/stars` login redirect (logged out) on both social passes despite CDP up (Chrome/147); Anthropic RSS 404 on both new-target passes — all consistent with 08-02..08-10.
 
 **Verdict (23:00): reinforcement-only at the durable layer.** The only durable delta (Muse Glimmer) was already absorbed by the 22:00 ingest run, so the refinement pass re-applies nothing. Durable action = this whole-day Honcho audit + a `log.md` entry only. Raw transcripts, `index.md`, and all concept pages (including `ai-infra-operating-economics.md`) left unchanged.
+
+## [2026-08-11] 08:00 social ingest audit
+Reviewed the 08:00 social collection pass (`raw/transcripts/interest-signal-collection-08-00-2026-08-11.md`). Baseline = most-recent completed social transcript by mtime = 08-10 19:00 social.
+
+**Route classification:**
+- **`raw_only` (both-static, no-new-signal):** Threads own `/threads` top (`17889069084426720` = `Db12_2dE-e0`, 08-10 10:42 KST career-reflection TEXT_POST) AND `/replies` top (`18016230941866284` = `Dbw8oWGE-2_`, 08-08 12:55 KST) are both byte-identical to the 19:00 baseline — CK made no new posts between passes. `/mentions` empty; keyword_search 100% own posts. Google My Activity newest rows unchanged (오픈AI alert 오후 6:48 + Outlook 12:16-17) → 변화 없음.
+- **Availability facts (not negative evidence):** YouTube subscriptions blank nav-only shell (logged out) + GitHub `/stars` login redirect (logged out) despite CDP up (Chrome/147) — consistent with 08-02..08-10.
+- **`append_existing` / `promote_to_wiki` / `manual_review` / `discard`:** none.
+
+**Verdict (08:00): no-new-signal / reinforcement-only.** Durable action = this raw transcript + this Honcho audit + a `log.md` entry only. `index.md` and all concept pages left unchanged.
