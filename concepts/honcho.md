@@ -3478,3 +3478,13 @@ Source raw: `raw/transcripts/interest-signal-collection-08-00-2026-08-10.md`. Ba
 - **`manual_review` / `promote_to_wiki` / `append_existing`:** none. No genuinely-new item on any surface.
 
 **Verdict (08:00): no-new-signal / reinforcement-only.** Durable action = raw transcript + this Honcho audit + a `log.md` entry only. `index.md` and all concept pages left unchanged.
+
+## [2026-08-10] 11:00 new-target routing audit
+Source raw: `raw/transcripts/interest-signal-collection-11-00-2026-08-10.md`. Baseline: `interest-signal-collection-22-00-2026-08-09.md` (most-recent new-target transcript, reinforcement-only) + same-day-prior `-11-00-2026-08-09` + `concepts/ai-infra-operating-economics.md`. Transport: public RSS/Atom + HTML over HTTPS (stdlib). Route: **`raw_only` (reinforcement-only)**.
+- **`raw_only` (genuinely-new, single-surface):** three new Simon Willison posts since the 08-09 22:00 baseline — "Quoting Claude Opus 5 system prompt" (08-09 23:31, `https://simonwillison.net/2026/Aug/9/claude-opus-5-system-prompt/` — strongest, model/agent-tooling lane), "GitHub Models is now retired" (08-09 22:48, `https://simonwillison.net/2026/Aug/9/github-models-is-now-retired/`), "SQLite compressed text-history prototypes" (08-09 22:05, Simon's own project). All single-surface, no cross-surface pickup → not promoted.
+- **`raw_only` (new-target rotation):** HN frontpage rotated to 08-09/08-10 (mildly on-axis but off durable axis: "How I use LLMs to learn complex topics", Economist "tragedy of the commons AI edition", Snowflake CDC-into-Postgres data-infra); GitHub Trending same agent/skills/coding lane (prime-agent, code-graph-rag, agency-agents, agent-skills, daily_stock_analysis, PraisonAI, dspy, BabelDOC, book-to-skill, TradingAgents) — all repeats/off-axis, no new durable branch.
+- **`raw_only` (static):** OpenAI / github-changelog / AWS / HuggingFace / Meta Eng / Vercel / Cloudflare / Docker / Google (blog+research) all byte-identical to the 08-09 baseline (08-07/08-06/08-05 batch).
+- **`discard`:** HN retro/omens/music/health/cocktails/1998-URIs/Fermat rows; AWS region/admin/FedRAMP; Google consumer PR; off-axis repos (authentik, weathernext, ComfyUI, AutoGPT). **Availability facts:** Anthropic RSS 404 (consistent with 08-02..08-09).
+- **`manual_review` / `promote_to_wiki` / `append_existing`:** none. No cross-surface new durable cluster.
+
+**Verdict (11:00): reinforcement-only.** Durable action = raw transcript + this Honcho audit + a `log.md` entry only. `index.md` and all concept pages left unchanged.
