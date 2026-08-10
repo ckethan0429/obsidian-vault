@@ -3488,3 +3488,12 @@ Source raw: `raw/transcripts/interest-signal-collection-11-00-2026-08-10.md`. Ba
 - **`manual_review` / `promote_to_wiki` / `append_existing`:** none. No cross-surface new durable cluster.
 
 **Verdict (11:00): reinforcement-only.** Durable action = raw transcript + this Honcho audit + a `log.md` entry only. `index.md` and all concept pages left unchanged.
+
+## [2026-08-10] 19:00 social routing audit
+Source raw: `raw/transcripts/interest-signal-collection-19-00-2026-08-10.md`. Baseline: same-day 08:00 social (`-08-00-2026-08-10`, no-new-signal) + same-day 11:00 new-target (`-11-00-2026-08-10`, reinforcement-only). Transport: Threads Graph API (stdlib `/tmp/th_collect_1900_0810.py`) + live Chrome CDP (Chrome/147, raw-socket WS). Route: **`raw_only` (own-post-only reinforcement)**.
+- **`raw_only` (genuinely-new, single-surface, off-axis):** one new own Threads post since the 08:00 baseline — `Db12_2dE-e0` (2026-08-10 10:42 KST TEXT_POST, https://www.threads.com/@ethan13917/post/Db12_2dE-e0): personal career/work-frustration reflection ("주간 업무회의 논의가 작년 연말 회의록과 똑같다 → 이제 진짜 빠져야할 시기"). OFF CK's durable AI/agent/infra axis, single-surface own post → not promoted (own-posts-only-reinforcement rule).
+- **`raw_only` (static):** `/replies` top `Dbw8oWGE-2_` (08-08 12:55 KST) byte-identical to 08:00; `/mentions` empty; keyword_search (agent/Codex/Claude Code) 100% own posts. Google My Activity newest rows unchanged (오픈AI alert 오후 6:48 + Outlook 12:16-17) → 변화 없음.
+- **Availability facts (not negative evidence):** YouTube subscriptions blank nav-only shell (len 17, logged out) + GitHub `/stars` login redirect (logged out). CDP up but both surfaces logged out — consistent with 08-02..08-10.
+- **`manual_review` / `promote_to_wiki` / `append_existing`:** none. No cross-surface new durable cluster.
+
+**Verdict (19:00): own-post-only reinforcement.** Durable action = raw transcript + this Honcho audit + a `log.md` entry only. `index.md` and all concept pages left unchanged.
