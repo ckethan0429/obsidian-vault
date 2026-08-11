@@ -3530,3 +3530,18 @@ Reviewed the 08:00 social collection pass (`raw/transcripts/interest-signal-coll
 - **`append_existing` / `promote_to_wiki` / `manual_review` / `discard`:** none.
 
 **Verdict (08:00): no-new-signal / reinforcement-only.** Durable action = this raw transcript + this Honcho audit + a `log.md` entry only. `index.md` and all concept pages left unchanged.
+
+## [2026-08-11] 11:00 new-target ingest audit
+Reviewed the 11:00 new-target collection pass (`raw/transcripts/interest-signal-collection-11-00-2026-08-11.md`). Baseline = most-recent new-target transcript = 08-10 22:00 (one durable delta = Meta Muse Glimmer, already appended to `ai-infra-operating-economics.md`).
+
+**Route classification:**
+- **`raw_only` (genuinely-new since 22:00 baseline, single-surface or lane-reinforcement — kept as raw evidence, NOT promoted):**
+  - OpenAI defensive-cyber program: `Expanding Daybreak as the Cyber Defense Window Narrows` + `Putting frontier cyber models in more trusted hands` (both 08-10 10:00, cross-surface with HN `GPT 5.6 Cyber`) — strongest new cluster but extends the 08-07 "critical cyber capabilities" lane on a frontier-safety/national-security angle, not CK's operational agent-runtime-boundary axis → `raw_only`.
+  - Meta open-weight narrative reinforced across 3 surfaces (Simon Willison `Introducing Muse Glimmer` + HN/FT `Zuckerberg attacks closed AI rivals as Meta returns to open models` + AWS SageMaker JumpStart open-weight drops: Gemma-4-12B, GLM-5.2 FP8, Nemotron-Nano-12B-v2, Mellum2-12B, LightOnOCR/GLM-OCR) — reinforces the Muse Glimmer lane already absorbed 08-10 22:00 → `raw_only`, no re-append.
+  - Agent-sandbox lane: Vercel `A sandbox without a network boundary is only half a sandbox` (08-11 00:00) + `Vercel Sandbox on Managed Images`; HF `NVIDIA Magpie TTS open-weight voice agents`; HN singletons (Needle2 14MB on-device agentic LLM, danluu "best language for coding agents", Stoa Markets GPU/AI-server marketplace, sshh.io Claude/GPT knowledge-cutoffs). All single-surface → `raw_only`.
+- **`raw_only` (static / reinforcement):** Docker(blog) / Google research / Meta Eng byte-identical; Cloudflare `Everything we launched during Agents Week` (roundup of already-tracked Agents Week); GitHub Trending same agent/skills/coding lane rotation, no new durable branch.
+- **`discard`:** OpenAI finance/enterprise customer PR (Model ML, AI-native finance, ChatGPT Business/Work Zapier/Virgin Atlantic); Cloudflare FedRAMP Class D; GitHub India billing; Google state-fair/ads PR; AWS region/admin housekeeping; HN off-axis frontpage.
+- **`append_existing` / `promote_to_wiki` / `manual_review`:** none.
+- **Availability facts (not negative evidence):** Anthropic RSS 404 (consistent with 08-02..08-10).
+
+**Verdict (11:00): reinforcement-only.** Every genuinely-new row reinforces an already-durable lane (open-weight/model-lifecycle, agent-sandbox, cyber-capability) or is single-surface; no new cross-surface durable branch. Durable action = this raw transcript + this Honcho audit + a `log.md` entry only. `index.md` and all concept pages (including `ai-infra-operating-economics.md`) left unchanged.
