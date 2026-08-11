@@ -3558,3 +3558,19 @@ Reviewed the 19:00 social collection pass (`raw/transcripts/interest-signal-coll
 - **Availability facts (not negative evidence):** Google My Activity 변화 없음 (no new afternoon search rows); YouTube + GitHub recovered from 08:00 logged-out shells (CDP within-day recovery, access fact not durable novelty). `/mentions` empty; keyword_search 100% own posts.
 
 **Verdict (19:00): reinforcement-only at the durable layer.** Genuinely-new own Threads posts, but all are own-synthesis of the already-durable ai-infra-operating-economics axis or a single-surface personal-business side-quest off the concept map. CDP surfaces recovered but only reinforce existing lanes. Durable action = this raw transcript + this Honcho audit + a `log.md` entry only. `index.md` and all concept pages left unchanged.
+
+## [2026-08-11] 22:00 new-target ingest audit
+Reviewed the 22:00 new-target collection pass (`raw/transcripts/interest-signal-collection-22-00-2026-08-11.md`). Baseline = same-day 11:00 new-target transcript (`interest-signal-collection-11-00-2026-08-11.md`, reinforcement-only) + `concepts/honcho.md`. Collection via public RSS/Atom + HTML over HTTPS (stdlib `/tmp/nt_fetch_2200_0811.py` → `.cache/newtarget-2026-08-11-2200/`). All feeds HTTP 200 except Anthropic RSS 404.
+
+**Route classification:**
+- **`raw_only` (genuinely-new since 11:00, single-surface / lane-reinforcement):**
+  - Vercel `Vercel Connect now supports CLI setup for 100+ connectors` (08-11 19:00) — minor connector/DX changelog, single-surface.
+  - Google blog `Expanding the Google AI Professional Certificate with vibe coding` (08-11 13:00) — AI-education/vibe-coding PR, on-axis-adjacent but thin/single-surface.
+  - HN on-axis singletons: `H3-metal — Native MiniMax-H3 inference for Apple Silicon` (antirez, on-device/edge inference); `As AI eats the web, the internet's collective memory is disappearing` (AI-and-web commentary); `OpenAI's Only Ethicist Reportedly Left Last Month` (AI-governance/people); `How Claude marks AI-generated content` (Anthropic content-provenance doc, mild).
+  - GitHub Trending same coding-agent/skills/quant lane rotation with new-to-record repos (`anthropics/skills`, `harveyai/harvey-labs`, `HKUDS/DeepTutor`, `stablyai/orca`, `LLMQuant/quant-mind`, `AgriciDaniel/claude-obsidian`, `shiyu-coder/Kronos`, `cactus-compute/needle` cross-surface w/ HN Needle2) — reinforce the existing lane, no new durable branch.
+- **`raw_only` (static / reinforcement, unchanged vs 11:00):** OpenAI (Daybreak/cyber + finance PR), AWS SageMaker JumpStart open-weight drops, HF Magpie voice agents, Cloudflare Agents Week roundup, GitHub changelog, Simon Willison Muse Glimmer, Docker(blog), Meta Eng, Google Research — all byte-identical.
+- **`discard`:** Google state-fair/ads/Venmo PR; HN off-axis frontpage (France telemarketing, Chicken Scheme, Rubik, Truth Social data marketplace, Twain, Canario, C-ABI, Stowaway); off-axis trending repos (nvm, manim, transformers, awesome-mac, project-based-learning, MediaCrawler, weathernext).
+- **`append_existing` / `promote_to_wiki` / `manual_review`:** none.
+- **Availability facts (not negative evidence):** Anthropic RSS 404 (consistent with 08-02..08-11).
+
+**Verdict (22:00): reinforcement-only.** Only a handful of genuinely-new rows since 11:00, all minor or single-surface (Vercel Connect CLI, Google AI-cert vibe-coding, HN H3-metal + commentary, GitHub Trending rotation); each reinforces an already-durable lane (coding-agent/skills, on-device inference, AI-governance) or is thin — no new cross-surface durable branch. Durable action = this raw transcript + this Honcho audit + a `log.md` entry only. `index.md` and all concept pages (including `ai-infra-operating-economics.md`) left unchanged.
