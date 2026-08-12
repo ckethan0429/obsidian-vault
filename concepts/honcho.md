@@ -3638,3 +3638,12 @@ Nightly refinement over the four same-day raw transcripts (no recollection): `in
 - **변화 없음 / availability facts:** 08:00 social = cross-day both-static no-new-signal (Threads `/threads`+`/replies` tops byte-identical to 08-11 19:00 baseline); YouTube AI axis = same two weak rotational rows all day; GitHub `/stars` static at 89, no new star; Google My Activity unrefreshed / historical 어제 rows only; Threads `/mentions` empty all day; Anthropic RSS 404 (consistent with 08-02..08-12).
 - **`promote_to_wiki` / `manual_review`:** none.
 - **Verdict: reinforcement-only whole day.** The sole durable delta (Vercel Production Index — August 2026) was absorbed at the 11:00 ingest stage; the 23:00 refinement adds only this whole-day Honcho audit + a `log.md` entry. Raw transcripts, `index.md`, and all concept pages (incl. `ai-infra-operating-economics.md`) left unchanged.
+
+## [2026-08-13] 08:00 social run — reinforcement-only (cross-day both-static no-new-signal)
+- Morning social pass, on time. Idempotency clear (no `interest-signal-collection-08-00-2026-08-13` raw before this run). Baseline = most-recent-by-mtime completed social transcript = 08-12 19:00. Raw evidence: `raw/transcripts/interest-signal-collection-08-00-2026-08-13.md`.
+- **Threads (Graph API, configured path):** token refreshed OK, `/v1.0/me` OK. **Cross-day both-static no-new-signal** — own `/threads` top (`Db7oJdRE_q1` 무잉여 경매) AND `/replies` top (`Db7jIeRE-ZG` 6/6 AI token-economics) byte-identical to the 08-12 19:00 baseline; CK posted nothing between passes. `/mentions` empty.
+- **`raw_only`:** none new (every surface reinforced the baseline).
+- **변화 없음 / availability facts:** YouTube subscriptions = same two weak rotational AI rows ("2026 CSS 개발자 40%", "Stop telling freshers AI can't do DevOps" live) buried in 삼전닉스/코스피 반도체 급락 + 축구협회 정몽규 성접대 스캔들 noise; GitHub `/stars` static at 89 (top `pbakaus/impeccable`, no new star); Google My Activity "오늘" = 08-11 rows unchanged, "어제" = 08-12 rows already recorded in the baseline (no new 08-13 search); Live Chrome CDP `127.0.0.1:9222` UP (Chrome/147).
+- **`discard`:** YouTube 반도체/축구 스캔들/폭염/엔터 noise.
+- **`append_existing` / `promote_to_wiki` / `manual_review`:** none.
+- **Verdict: reinforcement-only.** Durable action = this raw transcript + this Honcho audit + a `log.md` entry only. `index.md` and all concept pages left unchanged.

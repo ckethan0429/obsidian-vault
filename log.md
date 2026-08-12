@@ -2497,3 +2497,10 @@
 - **변화 없음 / availability:** 08:00 cross-day both-static no-new-signal; YouTube AI axis static; GitHub /stars 89 (no new star); Google unrefreshed; Threads /mentions empty; Anthropic RSS 404.
 - **`promote_to_wiki` / `manual_review`:** none.
 - **Verdict: reinforcement-only whole day.** Durable action = this Honcho whole-day audit (`concepts/honcho.md`) + this log entry only. Raw transcripts, `index.md`, and all concept pages left unchanged.
+
+## [2026-08-13] collection | 08:00 social run — reinforcement-only (cross-day both-static no-new-signal)
+- Morning social pass, on time. Idempotency clear (no `interest-signal-collection-08-00-2026-08-13` raw before this run). Baseline = most-recent-by-mtime completed social transcript = 08-12 19:00. Raw: `raw/transcripts/interest-signal-collection-08-00-2026-08-13.md`. Live Chrome CDP `127.0.0.1:9222` UP (Chrome/147); Threads via official Graph API (configured path), token refreshed OK, `/v1.0/me` OK.
+- **Cross-day both-static no-new-signal:** own `/threads` top (`Db7oJdRE_q1` 무잉여 경매) AND `/replies` top (`Db7jIeRE-ZG` 6/6 AI token-economics) byte-identical to the 08-12 19:00 baseline; CK posted nothing between passes. `/mentions` empty.
+- **변화 없음 / availability:** YouTube = same two weak rotational AI rows in 삼전닉스/코스피/축구 스캔들 noise; GitHub /stars 89 (no new star, top `pbakaus/impeccable`); Google My Activity "오늘" = 08-11 rows, "어제" = 08-12 rows already in baseline (no new 08-13 search).
+- **`raw_only` / `append_existing` / `promote_to_wiki` / `manual_review`:** none new.
+- **Verdict: reinforcement-only.** Durable action = this raw transcript + a Honcho routing audit (`concepts/honcho.md`) + this log entry only. `index.md` and all concept pages left unchanged.
