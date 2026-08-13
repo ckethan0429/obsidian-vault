@@ -2540,3 +2540,9 @@
 - **변화 없음 / availability:** both social passes both-static (CK posted nothing all day); `/mentions` empty; YouTube AI axis static; GitHub /stars 89 (no new star); Google unrefreshed; Live CDP UP (Chrome/147); Anthropic RSS 404.
 - **`promote_to_wiki` / `manual_review`:** none.
 - **Verdict: reinforcement-only whole day, ZERO durable delta.** Durable action = this whole-day Honcho audit (`concepts/honcho.md`) + this log entry only. Raw transcripts, `index.md`, and all concept pages (incl. `ai-infra-operating-economics.md`) left unchanged.
+
+## [2026-08-14] 08:00 social run — reinforcement-only / no-new-signal (cross-day both-static)
+- Morning social pass, on time (~08:02 KST). Idempotency clear (no `interest-signal-collection-08-00-2026-08-14` raw before this run). Baseline = most-recent completed social transcript by mtime = `interest-signal-collection-19-00-2026-08-13.md` (reinforcement-only) + `-08-00-2026-08-13.md`. Raw: `raw/transcripts/interest-signal-collection-08-00-2026-08-14.md`. Live Chrome CDP `127.0.0.1:9222` UP; Threads via official Graph API (token refresh OK, `/v1.0/me` OK, ethan13917).
+- **변화 없음 (모든 surface):** Threads own `/threads` top (`Db7jAcME5yK` 08-12 미중 AI 모델 전쟁 ROOT) + 6-part `/replies` AI token-economics chain byte-identical to baseline (CK posted nothing between passes); `/mentions` empty. YouTube = same two weak rotational AI rows + 삼전닉스/축구협회 성접대/폭염/엔터 noise. GitHub `/stars` static 89 (top `pbakaus/impeccable` unchanged). Google My Activity unrefreshed (오픈AI 알림 6:48 + Outlook + 어제 CUDA/날씨/Hermes docs).
+- **`raw_only`:** whole run — no genuinely-new item on any surface. No `append_existing` / `promote_to_wiki` / `manual_review`.
+- **Verdict: reinforcement-only / no-new-signal.** Durable action = this raw transcript + a Honcho routing audit (`concepts/honcho.md`) + this log entry only. `index.md` and all concept pages left unchanged.
