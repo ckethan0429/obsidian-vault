@@ -2579,3 +2579,8 @@
 - **변화 없음 / availability:** both social passes both-static except the one 19:00 own reply; `/mentions` empty; YouTube AI axis static; GitHub `/stars` 89 (no new star); Google unrefreshed; Live CDP UP (Chrome/147); Anthropic RSS 404.
 - **`promote_to_wiki` / `manual_review`:** none.
 - **Verdict: reinforcement-only whole day, ZERO durable delta.** Durable action = this whole-day Honcho audit (`concepts/honcho.md`) + this log entry only. Raw transcripts, `index.md`, and all concept pages (incl. `ai-infra-operating-economics.md`) left unchanged.
+
+## [2026-08-15] ingest | 08:00 social run — cross-day both-static no-new-signal (raw_only)
+- Morning social pass, on time (~08:05 KST). Idempotency clear. Baseline = most-recent-by-mtime completed social transcript = 08-14 19:00. Threads via official Graph API (token refresh OK, `/v1.0/me` OK); YouTube/GitHub/Google via live Chrome CDP (`127.0.0.1:9222` UP, Chrome/147).
+- **Cross-day both-static no-new-signal:** own `/threads` top (`Db7jAcME5yK` 08-12 미중 AI 모델 전쟁 ROOT) AND `/replies` top (`DcAQnEjkyS6` 08-14 11:38 KST, already in the 08-14 19:00 baseline) BOTH byte-identical to the prior social baseline; CK posted nothing between passes; `/mentions` empty. YouTube AI axis = same two weak rotational rows (rest = 반도체/정몽규 성접대/폭염/정치/엔터 noise); GitHub `/stars` 89 (no new star, pbakaus/impeccable top); Google My Activity "오늘" unchanged (오픈AI 6:48 + Outlook 12:16-17; visible claude-code/cocoindex rows are 7월 deep-scroll history, not today).
+- **Route:** whole run `raw_only`. Durable action = the raw transcript + a Honcho audit + this log entry only. `index.md` and all concept pages left unchanged. `append_existing`/`promote_to_wiki`/`manual_review`/`discard`: none genuinely-new.
