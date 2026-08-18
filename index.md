@@ -39,7 +39,7 @@
 - [[overseas-marketing-gurus]] — User-curated list of foreign marketing figures worth studying directly.
 - [[proposal-and-closing-strategy]] — Proposal design, negotiation framing, and closing principles for B2B sales.
 - [[proxmox-bond-announce-script]] — 본드 페일오버 시 VM MAC을 RARP(announce_self)로 알리는 pve-bond-announce 스크립트 전문, systemd 유닛, 설치 절차.
-- [[proxmox-bond-failover-switch-notification]] — VMware Notify Switches를 Proxmox로 옮기면 bonding GARP + QEMU RARP(announce_self)로 분해된다는 정리; fail_over_mac 리스크, RARP/GARP 구분, 본드 페일오버 PoC 테스트 매트릭스 포함.
+- [[proxmox-bond-failover-switch-notification]] — VMware Notify Switches를 Proxmox로 옮기면 bonding GARP + QEMU RARP(announce_self)로 분해된다는 정리; fail_over_mac 리스크, RARP/GARP 구분, 본드 페일오버 PoC 테스트 매트릭스, OVS 전환·LACP 대안 포함.
 - [[regional-startup-ecosystem-korea]] — Regional institutions and ecosystem nodes relevant to Korean startups.
 - [[sales-discovery-and-objection-handling]] — Questioning, discovery, and objection-response mechanics for B2B selling.
 - [[site-observation-archive]] — Workflow for capturing visited sites, preserving context, and promoting durable takeaways.
