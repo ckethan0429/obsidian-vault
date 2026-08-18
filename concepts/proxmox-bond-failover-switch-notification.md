@@ -132,7 +132,61 @@ ping -D -i 0.2 <VM-IP>
 - 대조 실험: announce 스크립트 on/off로 동일 조건 블랙홀 시간 비교
 - 최소 세트: (케이블+수다쟁이), (수동 전환+침묵 VM 인바운드), (failback), (스크립트 on/off 대조)
 
-## 9. 한 줄 결론
+## 9. 보완 대안: OVS 전환과 LACP
+
+### OVS bond의 내장 알림 (수제 스크립트의 네이티브 대체)
+
+- OVS bond(active-backup 포함)는 활성 멤버 변경 시 `bond_send_learning_packets`로
+  **브리지 FDB에 학습된 모든 MAC**을 출발지로 하는 학습 패킷을 새 활성 포트로 자동 송출
+- 학습 패킷 포맷은 **RARP** (임의 프레임이 일부 스위치를 혼란시켜 RARP로 변경된 이력)
+  — VMware Notify Switches / QEMU announce_self와 동일 방식
+- 트리거가 "활성 멤버 변경" 자체라 **링크 이벤트 없는 전환에도 동작**하고,
+  FDB 기반이라 **LXC까지 커버** (tap/veth 구분 없음)
+
+| | Linux bridge + bonding | OVS bridge + OVS bond |
+|---|---|---|
+| bond 자기 MAC 알림 | GARP (num_grat_arp) | 학습 패킷에 포함 |
+| VM MAC 알림 | 없음 → 수제 스크립트 필요 | **내장 (FDB 전체 RARP)** |
+| LXC 커버 | 스크립트 미커버 | 커버 |
+
+```
+# /etc/network/interfaces (apt install openvswitch-switch)
+auto bond2
+iface bond2 inet manual
+    ovs_type OVSBond
+    ovs_bridge vmbr1
+    ovs_bonds eno1 eno2
+    ovs_options bond_mode=active-backup other_config:bond-miimon-interval=100
+
+auto vmbr1
+iface vmbr1 inet manual
+    ovs_type OVSBridge
+    ovs_ports bond2
+```
+
+- 미묘한 점: OVS는 FDB에 있는 MAC만 알림 → 에이징(기본 300초)으로 빠진 장기 침묵 VM은 제외.
+  단 그 경우 물리 스위치 엔트리도 같이 만료됐으므로 unknown unicast 플러딩으로 도달 →
+  낡은 엔트리가 존재하는 시간대의 MAC은 반드시 FDB에도 있어 **실질 빈틈 없음**
+
+### LACP (스위치 지원 시 문제의 근원 제거)
+
+- Linux bonding `802.3ad` 또는 OVS `balance-tcp`로 두 포트를 하나의 논리 포트(LAG)로 묶으면
+  스위치 MAC 테이블이 "MAC → LAG"를 가리킴 → 멤버가 죽어도 **포트 매핑 자체가 불변** →
+  재학습도 알림도 불필요. 대역폭 합산은 덤
+- 이중 스위치 구성이면 스위치 쪽 MLAG 지원 필요
+
+### 선택지 비교
+
+| 선택지 | 장점 | 비용/조건 |
+|---|---|---|
+| 현행 유지 (bridge + 스크립트) | 이미 동작, 추가 비용 없음 | LXC 미커버, 스크립트 유지보수 |
+| OVS 전환 | 알림 내장, 스크립트 제거, LXC 커버 | 패키지/설정 체계 변경, 운영 익숙함 |
+| LACP 전환 | 문제 근원 제거, 가장 깔끔 | 스위치 LACP 필요, 이중 스위치면 MLAG |
+
+- 전환 검증: §8의 (수동 전환 + 침묵 VM 인바운드) 테스트 + `tcpdump -e 'rarp'`로 OVS가 실제
+  RARP를 쏘는지 확인한 뒤 스크립트 제거
+
+## 10. 한 줄 결론
 
 VMware의 Notify Switches 체크박스 = Linux에서는 "bonding GARP(호스트 몫) + QEMU RARP(VM 몫,
 단 본드 페일오버 트리거는 수제)"로 분해되며, 모든 논점은 결국 **스위치 MAC 테이블의 포트 매핑을
