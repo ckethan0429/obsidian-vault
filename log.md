@@ -2733,3 +2733,5 @@
 - **Updated** `index.md` (Concepts section, total pages 60 → 61).
 ## 2026-08-18 — Data/search layer appended (manual note)
 - **Updated** `concepts/agent-runtime-vertical-integration.md`: Cloudflare AI Search(2026-08-06, Agents Week)를 근거로 데이터/검색 층 섹션 추가 — 크롤링→임베딩→하이브리드 검색→/search·/mcp 엔드포인트, "부품 5개 조립→명령어 한 줄"의 smooth 원칙 실물 사례, 검색의 MCP 툴화(웹서치+fetch 대체), Cloudflare-AI-Search 봇 아이덴티티, CK의 obsidian-vault 파이프라인 = 셀프호스팅 수동 버전 매핑. 연타 목록·sources에 AI Search 반영.
+## 2026-08-18 — AI Search lock-in asymmetry noted (manual note)
+- **Updated** `concepts/agent-runtime-vertical-integration.md` 데이터/검색 층 섹션 보강: 입구 닫힘(zone 한정 인덱싱, 자사 프리미티브, Workers AI 한정 무료 임베딩) vs 출구 개방(/search·/mcp)의 비대칭, "smooth = 락인과의 교환" 명제, 셀프호스팅 대안 조립도(Firecrawl+오픈웨이트 임베딩+Qdrant/pgvector+FastMCP)와 "Cloudflare급 매끄러움을 고객 인프라 안에서" 가치 제안.
