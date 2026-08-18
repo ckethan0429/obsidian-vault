@@ -99,6 +99,7 @@ modprobe 전역 설정(`options bonding fail_over_mac=1`) 또는 per-bond 설정
   - `qm list` 파싱은 VM 이름에 공백 있으면 오동작 가능
   - pvesh는 호출당 무거움 — 빈도 낮으니 실용상 OK, 필요시 QMP 소켓 직접 호출
 - 진가는 **링크 이벤트 없는 전환 + 침묵 VM** 조합에서 발휘 (그 외엔 flush/플러딩이 상당 부분 구제)
+- 스크립트 전문 + systemd 유닛 + 설치 절차: [[proxmox-bond-announce-script]]
 
 ## 8. 테스트 방법론
 
