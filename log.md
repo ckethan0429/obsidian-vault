@@ -2713,3 +2713,6 @@
 ## 2026-08-18 — Proxmox bond failover / switch notification (manual note)
 - **Added** `concepts/proxmox-bond-failover-switch-notification.md` from a 2026-08-18 conversation: VMware "Notify Switches" ↔ Proxmox/Linux mapping (bonding GARP for host MAC + QEMU RARP announce_self for VM MACs), fail_over_mac=active risks, RARP vs GARP, switch MAC aging (300s), miimon limits, failover test methodology (test traffic must not double as healing traffic), and review of the active_slave-watcher announce script.
 - **Updated** `index.md` (Concepts section, total pages 57 → 58).
+## 2026-08-18 — pve-bond-announce script embedded
+- **Added** `concepts/proxmox-bond-announce-script.md`: full user-provided pve-bond-announce.sh (active_slave watcher → per-VM announce_self), systemd unit, install steps, known limits. Split into its own page to respect the ~200-line page threshold; cross-linked from `proxmox-bond-failover-switch-notification.md` §7.
+- **Updated** `index.md` (Concepts section, total pages 58 → 59).
