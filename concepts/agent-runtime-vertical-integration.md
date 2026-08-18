@@ -4,7 +4,7 @@ created: 2026-08-18
 updated: 2026-08-18
 type: concept
 tags: [agents, infrastructure, ai, orchestration, comparison, prediction]
-sources: [https://x.ai/news/introducing-grok-bot, https://blog.cloudflare.com/cloudflare-computer/, https://blog.cloudflare.com/sandbox-ga/, https://www.infoworld.com/article/4149869/cloudflare-launches-dynamic-workers-for-ai-agent-execution.html]
+sources: [https://x.ai/news/introducing-grok-bot, https://blog.cloudflare.com/cloudflare-computer/, https://blog.cloudflare.com/sandbox-ga/, https://www.infoworld.com/article/4149869/cloudflare-launches-dynamic-workers-for-ai-agent-execution.html, https://blog.cloudflare.com/ai-search-easier/]
 ---
 
 # 에이전트 런타임 수직 통합 (Grok Bot vs Cloudflare computer)
@@ -29,6 +29,9 @@ sources: [https://x.ai/news/introducing-grok-bot, https://blog.cloudflare.com/cl
   과금은 활성 CPU에만 (LLM 응답 대기 중 idle은 무과금)
 - **@cloudflare/computer** (08월 Agents Week, early preview): isolate / 컨테이너 샌드박스 /
   브라우저 중 뭘 쓸지 플랫폼이 자동 라우팅. 목표는 "컨테이너가 필요한 작업 10% 미만"
+- **AI Search** (08월 Agents Week): 크롤링→임베딩→하이브리드 검색→/search·/mcp
+  엔드포인트를 명령어 한 줄로 제공. 기존엔 Workers AI/AI Gateway/Vectorize/R2/
+  Browser Run 5개 부품을 고객이 직접 조립하던 것을 제품이 흡수
 - 논거: 에이전트마다 컨테이너를 주면 전 세계 컴퓨트로도 수십억 동시 에이전트를 감당 불가
 
 ## 세대 구분: 게이트웨이 → 풀스택
@@ -130,6 +133,31 @@ sources: [https://x.ai/news/introducing-grok-bot, https://blog.cloudflare.com/cl
   **흡수하는 층**이지 노출하는 층이 아니다
 - Grok Bot이 "워크플로 빌더 없음"으로 이긴 것과 같은 원리: 인프라 선택지를
   고객에게 떠넘기지 않는 쪽이 이긴다
+
+## 데이터/검색 층: 에이전트의 자기 데이터 검색 엔진
+
+모델 게이트웨이 아래(또는 옆)에 층이 하나 더 있다: **에이전트가 자기 소유
+데이터를 검색하는 층**. Cloudflare AI Search(2026-08-06)가 이 층의 매니지드 구현.
+
+```
+컴퓨트   @cloudflare/computer (isolate/샌드박스/브라우저)
+모델     Workers AI + AI Gateway (오픈웨이트 + 프론티어)
+데이터   AI Search (크롤링→임베딩→하이브리드 검색→/mcp)
+```
+
+- 에이전트 루프에서의 위치: **지각**(자기 데이터에서 근거 찾기)과 **정리**(쌓은
+  지식을 검색 가능하게 만들기) 단계의 인프라
+- 검색을 **MCP 툴로 배달**: /mcp 엔드포인트를 에이전트에 물리면 "웹서치 후 전체
+  페이지 fetch"(느리고 토큰 과다, 낡은 소스 위험)를 한 번의 툴콜로 대체.
+  Cloudflare Dev Stack MCP가 자체 사례 (코딩 에이전트에 최신 문서 공급)
+- smooth 원칙의 실물 증거: "부품 5개 직접 조립 → 명령어 한 줄" + 기본 모델 사용
+  시 임베딩·리랭킹 무료(토큰 수 예측 걱정 제거). 복잡성을 흡수하는 층의 전형
+- 크롤러가 고유 봇 아이덴티티(Cloudflare-AI-Search)로 robots.txt 준수 — 에이전트
+  identity 논의와 연결. 커스텀 도메인 + Access로 사설 검색 인스턴스 가능
+- CK 매핑: obsidian-vault 수집→honcho 라우팅→위키 저장 파이프라인이 이 층의
+  셀프호스팅 수동 버전. 없는 조각은 위키 위의 /search 엔드포인트뿐 — MVP의
+  "직원 1명"에게 로컬 GPU 임베딩(오픈웨이트라 무료)으로 자기 위키 검색을 물려주면
+  같은 구조가 됨. 임베딩·리랭킹을 무료로 푼 것 자체가 이 층이 커모디티라는 방증
 
 ## CK 시사점
 
