@@ -96,6 +96,41 @@ sources: [https://x.ai/news/introducing-grok-bot, https://blog.cloudflare.com/cl
 - 1세대 오픈소스 게이트웨이(Hermes 등)의 남은 포지션은 셀프호스팅 + 모델 중립 +
   프라이버시. 다만 인프라 부품이 싸지면 개인이 2세대급을 조립하는 것도 가능해짐
 
+## 모델 게이트웨이 층: 오픈웨이트 GPU + 프론티어 결합
+
+수직 통합 스택의 마지막 퍼즐. 하네스/컴퓨트 아래에서 자체 GPU의 오픈웨이트
+서빙과 프론티어 API를 **하나의 엔드포인트**로 묶는 층이다.
+
+```
+하네스 + durable runtime
+  → 컴퓨트 (isolate/샌드박스/브라우저)
+    → 모델 게이트웨이
+       ├─ 자체 GPU: 오픈웨이트 (vLLM/SGLang)
+       └─ API: 프론티어 모델
+```
+
+- 기존 플레이어: Cloudflare는 여기서도 두 조각을 이미 보유 — Workers AI(자기 GPU
+  오픈웨이트 서빙) + AI Gateway(프론티어 라우팅/캐싱/폴백). 중립 호스티드는
+  OpenRouter, 셀프호스팅은 LiteLLM류 프록시
+- 라우팅 정책의 5개 축:
+  1. **능력**: 계획·복잡한 추론은 프론티어로, 요약·분류·추출·툴콜 포맷팅 같은
+     대량 반복 작업은 오픈웨이트로 (에이전트 토큰의 대부분은 후자)
+  2. **프라이버시**: 사내 문서·고객 데이터·크리덴셜 근처 작업은 로컬 GPU 밖으로
+     안 내보냄 — B2B에서는 기능이 아니라 계약 조건
+  3. **비용/스루풋**: 백그라운드 루틴·배치는 자체 GPU (always-on일수록 유휴 토큰이
+     많아 절감 폭이 큼)
+  4. **가용성 폴백**: 프로바이더 overload 시 오픈웨이트로 자동 강등
+  5. **캐스케이드**: 싼 모델 먼저 시도 → 자신 없으면 프론티어 에스컬레이션,
+     또는 오픈웨이트 초안 + 프론티어 검증
+
+### 핵심 설계 원칙: smooth AI infra experience
+- 고객 관점의 성공 기준은 라우팅의 정교함이 아니라 **매끄러움**이다. 어떤 모델/
+  GPU가 일했는지 몰라도 되고, 폴백·강등·에스컬레이션이 고객 눈에 보이면 안 됨
+- 단일 엔드포인트, 무중단 폴백, 일관된 응답 품질 — 게이트웨이는 복잡성을
+  **흡수하는 층**이지 노출하는 층이 아니다
+- Grok Bot이 "워크플로 빌더 없음"으로 이긴 것과 같은 원리: 인프라 선택지를
+  고객에게 떠넘기지 않는 쪽이 이긴다
+
 ## CK 시사점
 
 - 홈랩 Proxmox + VirtOn 조합은 **셀프호스팅판 에이전트 컴퓨트 층**의 재료
@@ -104,6 +139,10 @@ sources: [https://x.ai/news/introducing-grok-bot, https://blog.cloudflare.com/cl
   (밀도·효율). Cloudflare의 10% 목표는 셀프호스팅 설계에도 그대로 적용 가능
 - [[ai-infra-operating-economics]]의 harness routing / operator-margin 축에서 보면,
   이 발표들은 "누가 런타임을 쥐고 마진을 가져가는가" 경쟁의 가시화
+- 모델 게이트웨이는 VirtOn의 자연스러운 확장: GPU VM 프로비저닝(VirtOn) + vLLM +
+  LiteLLM 게이트웨이 = 셀프호스팅판 Workers AI + AI Gateway.
+  [[GPU_브로커리지_PLG_전략_단계별_설계_2026-03-05]]의 공급 사이드와 직결 —
+  매니지드 인퍼런스/게이트웨이가 브로커리지의 업셀 경로
 
 ## Related pages
 - [[managed-agents-architecture]]
@@ -112,4 +151,5 @@ sources: [https://x.ai/news/introducing-grok-bot, https://blog.cloudflare.com/cl
 - [[ai-infra-operating-economics]]
 - [[hermes-workspace]]
 - [[virton-career-and-business-profile]]
+- [[GPU_브로커리지_PLG_전략_단계별_설계_2026-03-05]]
 
