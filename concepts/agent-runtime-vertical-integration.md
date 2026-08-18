@@ -145,6 +145,7 @@ sources: [https://x.ai/news/introducing-grok-bot, https://blog.cloudflare.com/cl
   매니지드 인퍼런스/게이트웨이가 브로커리지의 업셀 경로
 
 ## Related pages
+- [[agent-process-lifecycle]]
 - [[managed-agents-architecture]]
 - [[managed-agents-practical-summary]]
 - [[agent-client-protocol-and-acpx]]
