@@ -2723,3 +2723,7 @@
 ## 2026-08-18 — Agent runtime vertical integration (manual note)
 - **Added** `concepts/agent-runtime-vertical-integration.md` from a 2026-08-18 conversation: Grok Bot(08-11 발표, 봇당 전용 클라우드 컴퓨터·always-on·메신저 UX) vs Cloudflare @cloudflare/computer(isolate/샌드박스/브라우저 자동 라우팅) 대비, 게이트웨이(Hermes/클로드봇) → 풀스택 수직 통합 세대 구분, durable runtime 정의, 상태 보존 "무식함 vs 효율" 비교, isolate-first 수렴 예측, VirtOn/Proxmox 시사점.
 - **Updated** `index.md` (Concepts section, total pages 59 → 60).
+## 2026-08-18 — Model gateway layer + GPU brokerage cross-link (manual note)
+- **Updated** `concepts/agent-runtime-vertical-integration.md`: 모델 게이트웨이 층 섹션 추가 — 오픈웨이트 GPU(vLLM/SGLang) + 프론티어 API를 단일 엔드포인트로 묶는 라우팅(능력/프라이버시/비용/폴백/캐스케이드 5축), 핵심 설계 원칙 "smooth AI infra experience"(게이트웨이는 복잡성을 흡수하는 층), CK 시사점에 VirtOn = 셀프호스팅판 Workers AI + AI Gateway 경로 추가.
+- **Updated** `02_Business/Strategy/GPU_브로커리지_PLG_전략_단계별_설계_2026-03-05.md`: 모델 게이트웨이 연계 섹션 추가(RFP 중개 → 매니지드 인퍼런스 → SLA 업셀 경로), [[agent-runtime-vertical-integration]] 크로스링크, updated 2026-08-18로 갱신.
+- **Updated** `index.md` (agent-runtime-vertical-integration 요약에 모델 게이트웨이 층 반영).
