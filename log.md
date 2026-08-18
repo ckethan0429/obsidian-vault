@@ -2727,3 +2727,7 @@
 - **Updated** `concepts/agent-runtime-vertical-integration.md`: 모델 게이트웨이 층 섹션 추가 — 오픈웨이트 GPU(vLLM/SGLang) + 프론티어 API를 단일 엔드포인트로 묶는 라우팅(능력/프라이버시/비용/폴백/캐스케이드 5축), 핵심 설계 원칙 "smooth AI infra experience"(게이트웨이는 복잡성을 흡수하는 층), CK 시사점에 VirtOn = 셀프호스팅판 Workers AI + AI Gateway 경로 추가.
 - **Updated** `02_Business/Strategy/GPU_브로커리지_PLG_전략_단계별_설계_2026-03-05.md`: 모델 게이트웨이 연계 섹션 추가(RFP 중개 → 매니지드 인퍼런스 → SLA 업셀 경로), [[agent-runtime-vertical-integration]] 크로스링크, updated 2026-08-18로 갱신.
 - **Updated** `index.md` (agent-runtime-vertical-integration 요약에 모델 게이트웨이 층 반영).
+## 2026-08-18 — Agent process & lifecycle page (manual note)
+- **Added** `concepts/agent-process-lifecycle.md` from a 2026-08-18 conversation: CK의 엔드유저 용도 3분류(일상 질문형=함수 / 업무 자동화형=프로세스 / 코딩 에이전트형=프로젝트)를 출발점으로, 완성형 에이전트의 런타임 루프(지각→트리아지→계획→실행→검증→에스컬레이션→납품→정리→수면), ADLC 라이프사이클(온보딩→수습→신뢰 사다리→성과→조직화→오프보딩), 운영 컨트롤 플레인 3축(OS=자원 효율, HR=성실도·에스컬레이션 빈도, 퀀트=분포로서의 신뢰·EV 위임·bandit 수습·포트폴리오 분산·세션로그 백테스트), "인간 판단 1회당 완결량" 핵심 지표 정리.
+- **Updated** `concepts/agent-runtime-vertical-integration.md`: Related pages에 크로스링크 추가.
+- **Updated** `index.md` (Concepts section, total pages 60 → 61).
