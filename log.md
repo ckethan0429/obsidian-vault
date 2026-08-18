@@ -2731,3 +2731,5 @@
 - **Added** `concepts/agent-process-lifecycle.md` from a 2026-08-18 conversation: CK의 엔드유저 용도 3분류(일상 질문형=함수 / 업무 자동화형=프로세스 / 코딩 에이전트형=프로젝트)를 출발점으로, 완성형 에이전트의 런타임 루프(지각→트리아지→계획→실행→검증→에스컬레이션→납품→정리→수면), ADLC 라이프사이클(온보딩→수습→신뢰 사다리→성과→조직화→오프보딩), 운영 컨트롤 플레인 3축(OS=자원 효율, HR=성실도·에스컬레이션 빈도, 퀀트=분포로서의 신뢰·EV 위임·bandit 수습·포트폴리오 분산·세션로그 백테스트), "인간 판단 1회당 완결량" 핵심 지표 정리.
 - **Updated** `concepts/agent-runtime-vertical-integration.md`: Related pages에 크로스링크 추가.
 - **Updated** `index.md` (Concepts section, total pages 60 → 61).
+## 2026-08-18 — Data/search layer appended (manual note)
+- **Updated** `concepts/agent-runtime-vertical-integration.md`: Cloudflare AI Search(2026-08-06, Agents Week)를 근거로 데이터/검색 층 섹션 추가 — 크롤링→임베딩→하이브리드 검색→/search·/mcp 엔드포인트, "부품 5개 조립→명령어 한 줄"의 smooth 원칙 실물 사례, 검색의 MCP 툴화(웹서치+fetch 대체), Cloudflare-AI-Search 봇 아이덴티티, CK의 obsidian-vault 파이프라인 = 셀프호스팅 수동 버전 매핑. 연타 목록·sources에 AI Search 반영.
