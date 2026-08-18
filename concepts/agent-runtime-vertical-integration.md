@@ -154,6 +154,14 @@ sources: [https://x.ai/news/introducing-grok-bot, https://blog.cloudflare.com/cl
   시 임베딩·리랭킹 무료(토큰 수 예측 걱정 제거). 복잡성을 흡수하는 층의 전형
 - 크롤러가 고유 봇 아이덴티티(Cloudflare-AI-Search)로 robots.txt 준수 — 에이전트
   identity 논의와 연결. 커스텀 도메인 + Access로 사설 검색 인스턴스 가능
+- 단, **입구는 닫혀 있고 출구만 열려 있다**: 인덱싱 대상은 현재 자기 Cloudflare
+  계정의 zone이어야 하고, 내부 부품(Vectorize/R2/Browser Run)과 무료 임베딩
+  (Workers AI 한정)도 자사 전용. 소비 측(/search HTTP, /mcp 표준)만 개방 —
+  인터페이스는 표준으로 열고 인프라는 닫는 하이퍼스케일러 고전 전략(S3 API 패턴)
+- smooth의 뒷면: "명령어 한 줄"의 매끄러움은 **락인과의 교환**. 데이터가 들어가는
+  순간 중력이 생긴다. 데이터 레지던시·규제 고객은 이 트레이드를 살 수 없으므로,
+  "Cloudflare급 매끄러움을 고객 인프라 안에서"(Firecrawl + 오픈웨이트 임베딩 +
+  Qdrant/pgvector + FastMCP 조립)가 셀프호스팅 진영의 가치 제안이 된다
 - CK 매핑: obsidian-vault 수집→honcho 라우팅→위키 저장 파이프라인이 이 층의
   셀프호스팅 수동 버전. 없는 조각은 위키 위의 /search 엔드포인트뿐 — MVP의
   "직원 1명"에게 로컬 GPU 임베딩(오픈웨이트라 무료)으로 자기 위키 검색을 물려주면
