@@ -2716,3 +2716,7 @@
 ## 2026-08-18 — pve-bond-announce script embedded
 - **Added** `concepts/proxmox-bond-announce-script.md`: full user-provided pve-bond-announce.sh (active_slave watcher → per-VM announce_self), systemd unit, install steps, known limits. Split into its own page to respect the ~200-line page threshold; cross-linked from `proxmox-bond-failover-switch-notification.md` §7.
 - **Updated** `index.md` (Concepts section, total pages 58 → 59).
+## 2026-08-18 — OVS / LACP alternatives appended
+- **Updated** `proxmox-bond-failover-switch-notification.md`: new §9 — OVS bond's built-in `bond_send_learning_packets` (RARP for all FDB MACs, covers LXC, works on event-less switchovers) as native replacement for the announce script; FDB-aging nuance; LACP/MLAG as root-cause removal; 3-option comparison.
+- **Updated** `proxmox-bond-announce-script.md`: limits section notes the script becomes unnecessary under OVS.
+- **Updated** `index.md` one-liner.
