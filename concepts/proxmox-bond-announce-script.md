@@ -194,4 +194,4 @@ journalctl -t pve-bond-announce -f
 - `qm list` 파싱: VM 이름에 공백 있으면 오동작 가능
 - `pvesh`는 호출당 무거움 — 페일오버 빈도가 낮아 실용상 OK, 필요시 QMP 소켓 직접 호출로 경량화
 - BOND/BRIDGE가 하드코딩 — 다중 본드/브리지 환경이면 확장 필요
-
+- **OVS 전환 시 이 스크립트는 불필요** — OVS bond는 페일오버 시 FDB 전체 MAC에 RARP 학습 패킷을 내장 송출 (본문 §9 참고)
