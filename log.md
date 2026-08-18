@@ -2720,3 +2720,6 @@
 - **Updated** `proxmox-bond-failover-switch-notification.md`: new §9 — OVS bond's built-in `bond_send_learning_packets` (RARP for all FDB MACs, covers LXC, works on event-less switchovers) as native replacement for the announce script; FDB-aging nuance; LACP/MLAG as root-cause removal; 3-option comparison.
 - **Updated** `proxmox-bond-announce-script.md`: limits section notes the script becomes unnecessary under OVS.
 - **Updated** `index.md` one-liner.
+## 2026-08-18 — Agent runtime vertical integration (manual note)
+- **Added** `concepts/agent-runtime-vertical-integration.md` from a 2026-08-18 conversation: Grok Bot(08-11 발표, 봇당 전용 클라우드 컴퓨터·always-on·메신저 UX) vs Cloudflare @cloudflare/computer(isolate/샌드박스/브라우저 자동 라우팅) 대비, 게이트웨이(Hermes/클로드봇) → 풀스택 수직 통합 세대 구분, durable runtime 정의, 상태 보존 "무식함 vs 효율" 비교, isolate-first 수렴 예측, VirtOn/Proxmox 시사점.
+- **Updated** `index.md` (Concepts section, total pages 59 → 60).
