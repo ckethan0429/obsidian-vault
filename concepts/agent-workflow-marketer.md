@@ -13,6 +13,8 @@ sources: [internal]
 
 > 에이전트에게 카피를 맡기는 것이 아니라, 검증 가능하고 되돌릴 수 있는 캠페인 프로세스를 맡긴다.
 
+같은 골격의 개발자 적용은 [[agent-workflow-developer]]다.
+
 ## 개발자 사이클과의 대응
 
 | 개발자 | 마케터 |
@@ -134,6 +136,7 @@ Human               → 브랜드 리스크와 지출 승인
 
 ## Related pages
 - [[agent-workflow-governance]]
+- [[agent-workflow-developer]]
 - [[agent-process-lifecycle]]
 - [[b2b-sales-and-negotiation-strategy]]
 - [[GPU_브로커리지_PLG_전략_단계별_설계_2026-03-05]]
