@@ -150,17 +150,23 @@ sources: [internal]
 
 이를 통해 결과를 재현하고, 사고 시 어느 게이트가 실패했는지 추적할 수 있다.
 
+## 마케터로의 확장
+
+같은 골격의 마케터 적용은 [[agent-workflow-marketer]]에 둔다. 개발자의 CI가 빌드와 테스트라면, 마케터의 CI는 클레임·트래킹·예산·채널 스펙이다. CD는 채널 게시와 지출이고, 롤백은 광고 중지와 정정이다.
+
 ## 일반화
 
 이 구조는 개발 외 업무에도 동일하게 적용된다.
 
 - 위키: 자료 수집 → 출처 검증 → 초안 → 독립 검토 → 게시 → 링크·로그 확인
+- 마케팅: 브리프 → 자산 검증 → 초안 → 독립 검토 → 소프트 런치 → 본 집행·관찰 ([[agent-workflow-marketer]])
 - 영업: 리드 수집 → 자격 검증 → 제안 → 법무·가격 승인 → 전송 → 후속 관찰
 - 인프라: 변경 계획 → 영향 분석 → 백업 → 스테이징 → 승인 → 적용 → 모니터링·롤백
 
 도메인마다 도구는 달라져도, 상태·증거·게이트·복구라는 골격은 같다.
 
 ## Related pages
+- [[agent-workflow-marketer]]
 - [[agent-process-lifecycle]]
 - [[agent-runtime-vertical-integration]]
 - [[managed-agents-architecture]]
