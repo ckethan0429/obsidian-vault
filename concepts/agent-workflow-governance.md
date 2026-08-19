@@ -80,8 +80,9 @@ sources: [internal]
 
 - 개발자: [[agent-workflow-developer]]
 - 마케터: [[agent-workflow-marketer]]
+- 영업: [[agent-workflow-sales]]
 
-개발자의 CI는 빌드와 테스트, 마케터의 CI는 클레임·트래킹·예산·채널 스펙이다. CD는 각각 스테이징/프로덕션 배포와 채널 게시·지출이다.
+개발자의 CI는 빌드와 테스트, 마케터의 CI는 클레임·트래킹·예산, 영업의 CI는 자격·가격 규칙·세금계산서다. CD는 각각 배포, 채널 게시, 사람 발송·미팅·계약이다.
 
 ## 증거 중심 운영
 
@@ -104,7 +105,7 @@ sources: [internal]
 - 위키: 자료 수집 → 출처 검증 → 초안 → 독립 검토 → 게시 → 링크·로그 확인
 - 개발: 온보딩 → 브랜치 → 커밋 → CI → 스테이징 → 프로덕션 ([[agent-workflow-developer]])
 - 마케팅: 브리프 → 자산 검증 → 초안 → 독립 검토 → 소프트 런치 → 본 집행·관찰 ([[agent-workflow-marketer]])
-- 영업: 리드 수집 → 자격 검증 → 제안 → 법무·가격 승인 → 전송 → 후속 관찰
+- 영업: 온보딩 → 리드 분기 → 문안 검토 → 자격 통화 → 유료 진단 → 챔피언 무장 ([[agent-workflow-sales]])
 - 인프라: 변경 계획 → 영향 분석 → 백업 → 스테이징 → 승인 → 적용 → 모니터링·롤백
 
 도메인마다 도구는 달라져도, 상태·증거·게이트·복구라는 골격은 같다.
@@ -112,6 +113,7 @@ sources: [internal]
 ## Related pages
 - [[agent-workflow-developer]]
 - [[agent-workflow-marketer]]
+- [[agent-workflow-sales]]
 - [[agent-process-lifecycle]]
 - [[agent-runtime-vertical-integration]]
 - [[managed-agents-architecture]]
