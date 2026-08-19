@@ -1,7 +1,7 @@
 ---
 title: 에이전트 프로세스와 라이프사이클 (엔드유저 용도 3분류 기준)
 created: 2026-08-18
-updated: 2026-08-18
+updated: 2026-08-19
 type: concept
 tags: [agents, infrastructure, quant, orchestration, workflow, prediction]
 sources: [internal]
@@ -118,6 +118,7 @@ sources: [internal]
   신세시스: 퀀트 축의 리스크 관리 프레임이 에이전트 운영의 미개척 부분
 
 ## Related pages
+- [[agent-workflow-governance]]
 - [[agent-runtime-vertical-integration]]
 - [[managed-agents-architecture]]
 - [[managed-agents-practical-summary]]
