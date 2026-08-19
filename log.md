@@ -2765,3 +2765,8 @@
 - Created `concepts/agent-workflow-governance.md`: state-transition work contracts, evidence and approval gates, Maker/Checker/Approver separation, multi-model review, risk-based approval, and the developer onboarding-to-production CI/CD cycle.
 - Updated `concepts/agent-process-lifecycle.md` with a backlink and bumped its updated date.
 - Updated `index.md`: added the concept and increased total pages from 61 to 62.
+
+## [2026-08-19] create | Agent workflow marketer example
+- Created `concepts/agent-workflow-marketer.md`: campaign cycle mapped onto gated delegation, claim/tracking CI, soft launch, spend approval, and VirtOn/GPU PLG example.
+- Updated `concepts/agent-workflow-governance.md` with a marketer extension section and backlink.
+- Updated `index.md`: added the concept and increased total pages from 62 to 63.
