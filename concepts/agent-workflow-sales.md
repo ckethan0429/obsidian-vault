@@ -129,4 +129,5 @@ Human            → 외부 발송과 가격 승인
 - [[b2b-sales-and-negotiation-strategy]]
 - [[sales-discovery-and-objection-handling]]
 - [[proposal-and-closing-strategy]]
+- [[graph-engineering-sales-copy]]
 
