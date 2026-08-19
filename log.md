@@ -2760,3 +2760,8 @@
 - **Threads 변화 없음:** own `/threads` top (`DcLEvAFk6xt`, 08-18 agentic-security thread) AND `/replies` top (08-18T07:26–07:27 6-part chain) BOTH byte-identical to the 19:00 baseline. CK made no posts between passes → genuinely static. `/mentions` empty; keyword_search = CK's own posts only (reinforcement).
 - **CDP surfaces 변화 없음:** GitHub stars static at **90** (top `piyushsachdeva/CKA-2024`, len 2781); YouTube subscriptions len 9469; Google My Activity len 5301 — all byte-identical to the 19:00 baseline.
 - **Routing:** whole run `raw_only`; no `append_existing` / `promote_to_wiki` / `manual_review`. Durable action = this raw transcript + a Honcho routing audit (`concepts/honcho.md`) + this log entry only. `index.md` and all concept pages left unchanged.
+
+## [2026-08-19] create | Agent workflow governance
+- Created `concepts/agent-workflow-governance.md`: state-transition work contracts, evidence and approval gates, Maker/Checker/Approver separation, multi-model review, risk-based approval, and the developer onboarding-to-production CI/CD cycle.
+- Updated `concepts/agent-process-lifecycle.md` with a backlink and bumped its updated date.
+- Updated `index.md`: added the concept and increased total pages from 61 to 62.
