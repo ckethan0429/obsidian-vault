@@ -2787,3 +2787,7 @@
 - Created `concepts/graph-engineering-developer-ci.md`: runnable Maker/Checker/Approver slice of the developer CI/PR gate.
 - Updated `index.md`: added both concepts and increased total pages from 65 to 67.
 - Updated `concepts/agent-workflow-sales.md` and `concepts/agent-workflow-developer.md` with backlinks.
+
+## [2026-08-19] create | Graph engineering common skeleton
+- Created `concepts/graph-engineering-common.md`: role-agnostic intake→make→check→ready/blocked graph with four shared gates (done-when, evidence, risk approval, rollback).
+- Updated `index.md`: added the concept and increased total pages from 67 to 68.
