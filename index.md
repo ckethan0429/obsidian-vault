@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with a one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-08-19 | Total pages: 65
+> Last updated: 2026-08-19 | Total pages: 67
 
 ## Entities
 <!-- Alphabetical within section -->
@@ -30,6 +30,8 @@
 - [[claude-code-subagents]] — Claude Code subagents for splitting work into specialized contexts.
 - [[ck-investing-and-life-profile]] — CK's investing interests, language goals, lifestyle themes, and parenting context.
 - [[ck-technology-engineering-profile]] — CK's infrastructure, DevOps, software, AI infra, IoT, and robotics profile.
+- [[graph-engineering-developer-ci]] — 개발자 워크플로의 구현→CI 검사→PR 게이트를 Maker/Checker/Approver 그래프로 실행한 기초 실습.
+- [[graph-engineering-sales-copy]] — 영업 문안 초안→금지 목록 검사→사람 발송 게이트를 Maker/Checker/Approver 그래프로 실행한 기초 실습.
 - [[graphs]] — Introductory graph-theory note covering nodes, edges, graph types, representations, and BFS/DFS as foundations for routing and dependency thinking.
 - [[honcho]] — Working name for the memory-routing layer that ranks signals before promotion into durable wiki knowledge; reinforced again on 2026-05-08 as the strict raw_only vs append_existing router for the new-target pass, plus a late-evening 22:00 example and a same-day 23:00 refinement summary that kept Anthropic/Cloudflare raw_only and appended Google/OpenAI/AWS/GitHub signals; reinforced again on 2026-05-09 by a late-evening 22:00 routing example that kept Google/GitHub Trending append_existing and left OpenAI/Anthropic/AWS/Cloudflare raw_only; reinforced again on 2026-05-10 by a late-evening new-target routing example that kept GenericAgent / omlx / everything-claude-code append_existing and AWS Marketplace tax-management raw_only; reinforced again on 2026-05-14 by a same-day refinement summary that kept fresh GitHub-star and Google-search rows raw_only while leaving the durable agent-runtime / sandbox / control-plane signals absorbed by existing pages.
 - [[interest-signal-sources]] — CK's preferred input sources for building an interest map across platforms.
