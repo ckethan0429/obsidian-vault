@@ -2776,3 +2776,8 @@
 - Updated `concepts/agent-workflow-governance.md` to keep only role links under 도메인 적용.
 - Updated `concepts/agent-workflow-marketer.md` with a backlink to the developer page.
 - Updated `index.md`: added the concept and increased total pages from 63 to 64.
+
+## [2026-08-19] create | Agent workflow sales example
+- Created `concepts/agent-workflow-sales.md` from the user B2B outreach and meetings playbooks: gated cycle for warm outreach, qualifying, paid diagnosis, champion-arming, plus hard gates (no spam, no free diagnosis, tax invoice).
+- Updated `concepts/agent-workflow-governance.md` to list sales as a third role page.
+- Updated `index.md`: added the concept and increased total pages from 64 to 65.
