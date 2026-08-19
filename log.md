@@ -2770,3 +2770,9 @@
 - Created `concepts/agent-workflow-marketer.md`: campaign cycle mapped onto gated delegation, claim/tracking CI, soft launch, spend approval, and VirtOn/GPU PLG example.
 - Updated `concepts/agent-workflow-governance.md` with a marketer extension section and backlink.
 - Updated `index.md`: added the concept and increased total pages from 62 to 63.
+
+## [2026-08-19] create | Agent workflow developer example
+- Created `concepts/agent-workflow-developer.md` by splitting the developer cycle out of the parent governance page.
+- Updated `concepts/agent-workflow-governance.md` to keep only role links under 도메인 적용.
+- Updated `concepts/agent-workflow-marketer.md` with a backlink to the developer page.
+- Updated `index.md`: added the concept and increased total pages from 63 to 64.
