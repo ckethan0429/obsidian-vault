@@ -2781,3 +2781,9 @@
 - Created `concepts/agent-workflow-sales.md` from the user B2B outreach and meetings playbooks: gated cycle for warm outreach, qualifying, paid diagnosis, champion-arming, plus hard gates (no spam, no free diagnosis, tax invoice).
 - Updated `concepts/agent-workflow-governance.md` to list sales as a third role page.
 - Updated `index.md`: added the concept and increased total pages from 64 to 65.
+
+## [2026-08-19] create | Graph engineering sales and developer examples
+- Created `concepts/graph-engineering-sales-copy.md`: runnable Maker/Checker/Approver slice of the sales copy gate.
+- Created `concepts/graph-engineering-developer-ci.md`: runnable Maker/Checker/Approver slice of the developer CI/PR gate.
+- Updated `index.md`: added both concepts and increased total pages from 65 to 67.
+- Updated `concepts/agent-workflow-sales.md` and `concepts/agent-workflow-developer.md` with backlinks.
