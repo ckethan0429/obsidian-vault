@@ -85,4 +85,5 @@ sources: [internal]
 - [[agent-process-lifecycle]]
 - [[managed-agents-architecture]]
 - [[claude-code-best-practice]]
+- [[graph-engineering-developer-ci]]
 
