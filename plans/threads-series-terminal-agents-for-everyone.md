@@ -25,7 +25,7 @@ sources: [concepts/agent-process-lifecycle.md, concepts/agent-workflow-marketer.
 | **1** | 설치하고 첫 명령 내리기 | Claude Code/Codex 설치, "무엇을 언제 어떤 형식으로" 지시법, 첫 실행 | 게시 완료 2026-08-30 https://www.threads.com/@ethan13917/post/Dcp54Vjk2L7 |
 | **2** | 사무직 — 파일 정리 자동화 | 파일명 통일, 날짜별 분류, 엑셀 여러 개 병합, 회의록에서 할 일 추출 | 게시 완료 2026-08-31 https://www.threads.com/@ethan13917/post/Dcs-73nE2Iq |
 | **3** | 영업 — 고객 관리와 제안서 | 고객 목록 정리, 팔로업 추리기, 회사별 맞춤 제안서, 반대의견 대응 정리 | 게시 완료 2026-09-02 https://www.threads.com/@ethan13917/post/DcxJ4bokzrY |
-| **4** | 마케터 — 카피와 소재 대량 생산 | 채널별 카피 여러 벌, 이미지 규격 변환, UTM 일괄 생성, 성과 카피 패턴 추출 | 예정 |
+| **4** | 마케터 — 카피와 소재 대량 생산 | 채널별 카피 여러 벌, 이미지 규격 변환, UTM 일괄 생성, 성과 카피 패턴 추출 | 게시 완료 2026-09-03 https://www.threads.com/@ethan13917/post/Dc0jyutEyVE |
 | **5** | 디자이너 — 바이브코딩 입문 | 시안→작동 웹페이지, 색·폰트 규칙을 코드로, 컴포넌트 자동 생성 | 예정 |
 | **6** | GitHub 개발 말고도 활용하기 | 문서 버전 관리, 자료 백업, 팀 협업, 간단한 홈페이지 무료 배포(GitHub Pages) | 예정 |
 | **7** | 매일 자동으로 돌리기 | 크론으로 반복 작업 무인화, "조용한 실패" 관리법 | 예정(선택) |
