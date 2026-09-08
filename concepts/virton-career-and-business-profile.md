@@ -1,7 +1,7 @@
 ---
 title: Virton Career and Business Profile
 created: 2026-04-14
-updated: 2026-05-17
+updated: 2026-09-08
 type: concept
 tags: [personal-knowledge, startup, infrastructure, private-cloud, career, product, gpu]
 sources: [raw/transcripts/ck-interest-map-business-life-2026-04-14.md, raw/transcripts/interest-signal-collection-08-00-2026-04-22.md, raw/transcripts/interest-signal-collection-08-00-2026-04-22-threads-liked-rerun.md, raw/transcripts/interest-signal-collection-19-00-2026-04-22.md, raw/transcripts/virton-equity-negotiation-baseline-2026-04-29.md, raw/transcripts/interest-signal-collection-08-00-2026-05-15.md]
@@ -111,6 +111,7 @@ The 19:00 live surfaces made the packaging thesis more concrete, but not more no
 ## Related pages
 - [[ck-technology-engineering-profile]]
 - [[ck-investing-and-life-profile]]
+- [[ck-micro-motives]]
 - [[ai-infra-operating-economics]]
 - [[gstack]]
 - [[virton-equity-negotiation-baseline]]
