@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with a one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-08-19 | Total pages: 68
+> Last updated: 2026-09-08 | Total pages: 69
 
 ## Entities
 <!-- Alphabetical within section -->
@@ -29,6 +29,7 @@
 - [[claude-code-skills]] — Claude Code Skills structure, scope, and preprocessing rules.
 - [[claude-code-subagents]] — Claude Code subagents for splitting work into specialized contexts.
 - [[ck-investing-and-life-profile]] — CK's investing interests, language goals, lifestyle themes, and parenting context.
+- [[ck-micro-motives]] — CK's frozen v1.0-final micro-motive spec: BDCEA ranking, Systems Builder identity, asset-constrained wedge, and Interest-is-not-Evidence.
 - [[ck-technology-engineering-profile]] — CK's infrastructure, DevOps, software, AI infra, IoT, and robotics profile.
 - [[graph-engineering-common]] — 직군 공통 최소 그래프. intake→make→check→ready/blocked. 완료 조건·증거·위험 승인·롤백 네 게이트.
 - [[graph-engineering-developer-ci]] — 개발자 워크플로의 구현→CI 검사→PR 게이트를 Maker/Checker/Approver 그래프로 실행한 기초 실습.
