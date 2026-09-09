@@ -4485,3 +4485,14 @@ Reviewed `raw/transcripts/interest-signal-collection-11-00-2026-09-09.md`. Basel
 - **`append_existing` / `promote_to_wiki`:** none. None opens a new durable branch.
 - **`discard`:** Google consumer/bio (AlphaGenome Atlas, Missouri AI education, electric semi trucks, small-business AI) + Google Research bio/neuro + AWS routine-infra batch (Timestream, SageMaker Feature Store, API Gateway mTLS, RDS versions, CloudFront image transform, Builder ID MFA, Nx Plugin) + HN off-axis (printer, DaVinci Resolve, WebGPU highlighter, LLM social biases) + Cloudflare PQ key-exchange (off durable axis) + off-axis trending repos. Anthropic RSS 404 = availability fact.
 - **Durable action:** raw transcript + this routing audit + a `log.md` entry only. `index.md` and all concept pages (incl. `ai-infra-operating-economics.md`, `nvidia-vera-rubin.md`) left unchanged. (11:00 new-target)
+
+## [2026-09-09] 19:00 social — routing audit (reinforcement-only)
+Reviewed `raw/transcripts/interest-signal-collection-19-00-2026-09-09.md`. Baseline = same-day 08:00 social transcript + 11:00 new-target transcript. Live Chrome CDP UP (Chrome/147); Threads via official Graph API (token refresh OK, expires_in 5097615; `/v1.0/me` OK `ethan13917`). GitHub stars via fresh `PUT /json/new` target; Google My Activity + YouTube subs via stdlib raw-socket WS CDP client.
+- **`raw_only` (whole run at the durable layer):**
+  - **Threads MOVED vs the 08:00 both-static baseline** but all new content is civic/social, OFF the AI/agent/infra axis: new own TEXT_POST `18124066465845729` (09-09 16:56 KST, 조코딩 AI 엑셀방송 논란 opinion — https://www.threads.com/@ethan13917/post/DdDxpzbk5Cd) + new empty REPOST_FACADE `18102024221624249` (14:10 KST) + a batch of new 09-09 replies (엑셀방송/여캠/'좌파 영포티' debate). Own-posts-only, single-surface social → `raw_only`.
+  - **Google My Activity** new afternoon rows, mild/single-surface: 디지털데일리 `'VM웨어 횡포'에서 벗어날 수 있다` 가상화/백업 기사 (오후 1:46 — mild infra/virtualization-escape adjacent, single passive read); 펜시브 / THE VC 기업정보(투자·매출·기업가치) startup-investing lookup (오후 12:29); passive news 알림 (오후 4:48). Nutanix/LG U+ carry from 08:00 → `raw_only`.
+  - **YouTube subs** feed rotation, mild on-axis: IBM Technology `Why won't AI agents just follow the rules?` (agent), `How To Start A YouTube Channel With Claude AI` (Claude applied), 테크몽 AI 안경 통역 — reinforce existing lanes → `raw_only`.
+  - keyword_search agent/Claude Code = CK's own older posts (reinforcement).
+- **`변화 없음`:** GitHub stars **94 UNCHANGED** from the 08:00 baseline (top still `simonw/llm`).
+- **`append_existing` / `promote_to_wiki` / `manual_review` / `discard`:** none durable. None opens a new durable branch.
+- **Durable action:** raw transcript + this routing audit + a `log.md` entry only. `index.md` and all concept pages left unchanged. (19:00 social)
