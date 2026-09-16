@@ -1,6 +1,7 @@
 ---
 title: NVIDIA Vera Rubin (차세대 GPU 아키텍처)
 created: 2026-09-08
+updated: 2026-09-16
 type: concept
 tags: [nvidia, gpu, vera-rubin, ai-infrastructure, hardware]
 sources:
@@ -8,6 +9,9 @@ sources:
   - https://www.tomshardware.com/pc-components/gpus/nvidias-vera-rubin-platform-in-depth-inside-nvidias-most-complex-ai-and-hpc-platform-to-date
   - https://www.nvidia.com/en-us/data-center/vera-rubin-nvl72/
   - https://www.nvidia.com/en-us/data-center/technologies/rubin/
+  - https://blogs.nvidia.com/blog/ai-infra-summit-vera-rubin-dsx-energy-efficiencies-tokens-per-watt-ai-factories/
+  - https://developer.nvidia.com/blog/how-nvidia-nvlink-6-delivers-multi-layer-resiliency-for-ai-factories/
+  - https://developer.nvidia.com/blog/how-nvidia-groq-3-lpx-deterministic-execution-drives-power-efficient-high-interactivity-inference-on-nvidia-vera-rubin/
 ---
 
 # NVIDIA Vera Rubin
@@ -194,6 +198,52 @@ Rubin 세대부터 **co-packaged optics** 도입 (Spectrum-X Ethernet / Quantum-
 - NVMe KV 캐시 오프로드 (50~60% 히트율)
 - NCCL 2.24 — 소메시지 지연 4배 감소
 - Nemotron 멀티모달 모델, NIM 마이크로서비스, AI Enterprise
+
+---
+
+## AI 팩토리 전력관리 · 토큰/와트 (2026-09 AI Infra Summit) *(출처: NVIDIA)*
+
+> 2026-09-15 산타클라라 **AI Infra Summit**(Ian Buck, VP hyperscale/HPC 발표,
+> 참석 8,000명+)에서 Vera Rubin 관련 신규 세부 사항 공개. 핵심 메시지는
+> "**성능 지표가 peak FLOPS → validated agentic tokens per megawatt(검증된
+> 에이전트 토큰/메가와트)로 이동**"하고 있고, 실리콘부터 전력망(grid)까지
+> 코디자인해야 한다는 것.
+
+### DSX 전력관리 제품군
+- **DSX MaxLPS** (팩토리 레벨): 워크로드 수요에 따라 랙 간 전력을 재배분해
+  stranded power(묶여있던 전력)를 회수 → **동일 site-power 예산 안에서 GPU 최대 40% 추가
+  프로비저닝 + 토큰 처리량 35%↑**. 팩토리 전체 전력 최적화로 **토큰/메가와트 최대 1.4배**.
+- **Intelligent Power Smoothing** (랙 레벨): NVL72 내 랙 레벨 커패시터 + state-of-charge
+  소프트웨어가 학습·추론의 버스티한 전력 스파이크를 흡수 → 팩토리를 최악peak가 아니라
+  지속(sustained) 수요 기준으로 설계 가능 → 메가와트당 배치 가능 컴퓨트↑.
+- **DSX Flex** (그리드 대응): 파트너 Emerald AI의 Conductor 소프트웨어로 실시간 전력망
+  신호(load-shedding·demand-response·가격)에 따라 워크로드 우선순위 계층 안에서 저우선
+  작업만 자동 스로틀 후 재개. 실리콘밸리파워 실증에서 성능 보호하며 수백 건 수요신호 대응.
+
+### Groq 3 LPX — 고인터랙티비티 추론 가속기
+- Vera Rubin 플랫폼의 **최고 인터랙티비티 티어**(저지연·긴 컨텍스트)용 저지연 가속기.
+- 랙당 **256 LPU** 결정론적(deterministic) 실행 스케줄 — 컴파일러가 클럭 사이클 단위로
+  각 데이터가 언제 어느 연산 유닛으로 이동할지 확정.
+- 사이클별 전류(current draw)를 예측 → **PEP / CPS** 기술로 voltage droop(전압 강하)에
+  대비하는 voltage guardband(전압 안전 마진)를 축소 → 희소한 전력을 워크로드에 더 많이 배분.
+
+### NVLink 6 다층 복원력(Multi-Layer Resiliency) *(출처: NVIDIA developer blog)*
+대규모 AI 팩토리에서는 transient 오류·링크 열화·노드 중단이 통계적으로 불가피 →
+NVLink 6은 **하드웨어·시스템설계·소프트웨어를 관통하는 다층 복원력 스택**으로 대응:
+- **물리/링크 계층 — 네이티브 무손실(lossless) 패브릭:** 경량 FEC + **PLR(Physical
+  Layer Retry)** + **UPHY(Universal Physical Layer) 복구** + **CBFC(credit-based flow
+  control)**로 패킷 드롭을 수학적으로 제거. 범용 이더넷의 무거운 FEC와 달리 tightly-coupled
+  워크로드에 맞춘 경량 구조.
+- **시스템 설계 — 무장애점(zero single point of failure):** 이중화 스위치 트레이,
+  분산 NMX 컨트롤러, 이중 out-of-band 관리 경로 → 개별 부품 손실에도 도메인 정상 운영.
+- **애플리케이션/소프트웨어 계층:** **Dynamo Shadow Engine Recovery**(사전 예열된 replica
+  프로세스로 near-instant 페일오버) + 애플리케이션 레벨 checkpoint/restore로 장기 작업 보존.
+- Vera Rubin NVL72 = 72 Rubin GPU를 단일 scale-up 도메인으로 연결하는 코어 랙스케일 엔진.
+
+> 정리: 이 절은 스펙(칩 성능/메모리) 로드맵이 아니라 **팩토리·랙 운영 계층**의 신규
+> 정보다. Rubin의 인프라 경제성(토큰당 비용) 논의에 **전력관리(토큰/와트)와 인터커넥트
+> 복원력**이라는 축을 추가한다. Rubin Ultra / Vera CPU / NVL576 / GTC 신규 스펙 아이템은
+> 이번 발표에 없었다.
 
 ---
 
