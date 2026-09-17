@@ -1,7 +1,7 @@
 ---
 title: NVIDIA Vera Rubin (차세대 GPU 아키텍처)
 created: 2026-09-08
-updated: 2026-09-16
+updated: 2026-09-17
 type: concept
 tags: [nvidia, gpu, vera-rubin, ai-infrastructure, hardware]
 sources:
@@ -12,6 +12,7 @@ sources:
   - https://blogs.nvidia.com/blog/ai-infra-summit-vera-rubin-dsx-energy-efficiencies-tokens-per-watt-ai-factories/
   - https://developer.nvidia.com/blog/how-nvidia-nvlink-6-delivers-multi-layer-resiliency-for-ai-factories/
   - https://developer.nvidia.com/blog/how-nvidia-groq-3-lpx-deterministic-execution-drives-power-efficient-high-interactivity-inference-on-nvidia-vera-rubin/
+  - https://blogs.nvidia.com/blog/vera-rubin-nvl72-mlperf-inference/
 ---
 
 # NVIDIA Vera Rubin
@@ -247,6 +248,42 @@ NVLink 6은 **하드웨어·시스템설계·소프트웨어를 관통하는 다
 
 ---
 
+## 실측 성능: MLPerf Inference v6.1 프리뷰 데뷔 (2026-09-16) *(출처: NVIDIA)*
+
+> 2026-09-16 공개된 **MLPerf Inference v6.1** 결과에서 **Vera Rubin NVL72가 첫
+> 프리뷰(preview) 제출**로 등장. 이전까지 Vera Rubin 정보는 스펙·로드맵·AI Infra
+> Summit 전력관리 세부였고, **이번이 첫 실측(measured) 성능 데이터**다.
+
+- **처리량:** Vera Rubin NVL72가 **Qwen3-VL에서 GB300 NVL72 대비 최대 3.7배**
+  (offline/server/interactive, vLLM + NVIDIA Dynamo), **DeepSeek-R1에서 최대 2.5배**
+  (TensorRT-LLM). 랙당 더 많은 토큰·유저·매출, 토큰당 비용↓.
+- **풀스택 코디자인:** 강화된 Tensor Core + Transformer Engine이 prefill·decode 양쪽
+  가속, **NVFP4** 정밀도로 weight·attention·KV 캐시 메모리 풋프린트 축소. **분해
+  서빙(disaggregated prefill/decode) + 대규모 expert parallelism**(MoE 레이어)을 적극 사용.
+- **에이전트 벤치마크:** 다단계 추론·계획·행동을 측정하는 **SemiAnalysis AgentX**에서
+  Vera Rubin NVL72가 프리뷰 기준 **GB300 NVL72 대비 30배**.
+- **스케일링 효율:** DeepSeek-R1을 1랙(72 GPU)→4랙(288 GPU)으로 확장 시 offline
+  시나리오 **99% 스케일링 효율** — GPU를 거의 2배 늘려도 처리량이 비례해서 증가.
+- **인터커넥트 근거:** NVL72 scale-up 도메인 = 6세대 NVLink + NVLink Switch로
+  범용 이더넷 대비 **패킷 레이트 10배 / 지연 3배 감소** → 랙 스케일에서 분해서빙·
+  expert parallelism이 효과적으로 동작하는 토대.
+- **파트너:** Nebius도 Vera Rubin NVL72 프리뷰 결과 제출. 총 19개 파트너(8곳은
+  멀티노드 Blackwell NVL72)가 참여.
+
+> 정리: 이 절은 **첫 실측 성능**이다. Blackwell(GB300) 대비 3.7배(Qwen3-VL)/2.5배
+> (DeepSeek-R1)/30배(AgentX 에이전트) 수치가 스펙 로드맵을 **측정값으로 뒷받침**하고,
+> NVFP4·분해서빙·expert parallelism이라는 소프트웨어 코디자인이 인프라 경제성(토큰당
+> 비용) 논의의 핵심 근거가 된다. 단 아직 **프리뷰 제출**(MLCommons 최종 검증 이후 수치
+> 변동 가능)임에 유의. *(출처: https://blogs.nvidia.com/blog/vera-rubin-nvl72-mlperf-inference/)*
+
+> **관련 워치(raw_only):** 2026-09-16 NVIDIA가 **Rust 네이티브 GPU 프로그래밍(CUDA
+> Rust)**을 공식 도입("Introducing CUDA Rust: Two Tracks for Writing GPU Kernels",
+> developer.nvidia.com + HN 프론트페이지 교차 노출). 차세대 GPU **아키텍처**가 아니라
+> 툴체인/언어 생태계 변화라 별도 페이지 승격은 보류, 워치로만 기록.
+> https://developer.nvidia.com/blog/introducing-cuda-rust-two-tracks-for-writing-gpu-kernels/
+
+---
+
 ## 로드맵 (2026~2027)
 
 | 시점 | 제품 | 상태 |
@@ -306,3 +343,5 @@ CPU, (4) **CPX 기반 추론 분해**, (5) CPO 광학으로 요약된다. 이 �
    https://www.nvidia.com/en-us/data-center/vera-rubin-nvl72/
 4. NVIDIA Rubin 기술 페이지 (JS 렌더링 — 참고용)
    https://www.nvidia.com/en-us/data-center/technologies/rubin/
+5. NVIDIA 블로그 — "NVIDIA Vera Rubin NVL72 Delivers Leading Performance in MLPerf Inference v6.1 Debut" (2026-09-16)
+   https://blogs.nvidia.com/blog/vera-rubin-nvl72-mlperf-inference/
