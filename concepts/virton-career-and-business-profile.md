@@ -1,10 +1,10 @@
 ---
 title: Virton Career and Business Profile
 created: 2026-04-14
-updated: 2026-09-08
+updated: 2026-09-21
 type: concept
 tags: [personal-knowledge, startup, infrastructure, private-cloud, career, product, gpu]
-sources: [raw/transcripts/ck-interest-map-business-life-2026-04-14.md, raw/transcripts/interest-signal-collection-08-00-2026-04-22.md, raw/transcripts/interest-signal-collection-08-00-2026-04-22-threads-liked-rerun.md, raw/transcripts/interest-signal-collection-19-00-2026-04-22.md, raw/transcripts/virton-equity-negotiation-baseline-2026-04-29.md, raw/transcripts/interest-signal-collection-08-00-2026-05-15.md]
+sources: [raw/transcripts/ck-interest-map-business-life-2026-04-14.md, raw/transcripts/interest-signal-collection-08-00-2026-04-22.md, raw/transcripts/interest-signal-collection-08-00-2026-04-22-threads-liked-rerun.md, raw/transcripts/interest-signal-collection-19-00-2026-04-22.md, raw/transcripts/virton-equity-negotiation-baseline-2026-04-29.md, raw/transcripts/interest-signal-collection-08-00-2026-05-15.md, raw/transcripts/interest-signal-collection-08-00-2026-09-21.md]
 ---
 
 # Virton Career and Business Profile
@@ -107,6 +107,31 @@ The 19:00 live surfaces made the packaging thesis more concrete, but not more no
 
 ### Why this matters
 - This is still **append_existing** rather than a new business branch: the core strategy remains infra capability wrapped as education, setup, and hosted workspace delivery.
+
+## 2026-09-21 — productized pipeline is now live (first capture of the sell surface)
+The 08:00 social run surfaced CK's own **seller/product tabs** for the first time on the collection surface. This is the concrete instantiation of the previously abstract Track B (premium GPU consulting) + productized-consulting + English-technical-blog goals — the strategy is now actual live listings, not just a thesis.
+
+### kmong (크몽) — 8 gigs submitted 2026-08-11 (still `승인 전` / pending approval)
+Seller `보송보송한첫눈5940`, https://kmong.com/my-gigs. The gig set maps directly to CK's engineering depth and the "productized consulting" thesis:
+- **AI 인프라용 GPU 서버를 구축해 드립니다** — 600,000원~ (headline GPU-consulting offer, the Track B core)
+- **사내 문서 기반 AI 챗봇을 구축해 드립니다** — 500,000원~
+- **VMware에서 Proxmox로 이관해 드립니다** — 400,000원~ (직접 관심축 [[ck-technology-engineering-profile]])
+- **서버 모니터링 대시보드를 구축해 드립니다** — 300,000원~ (InfluxDB/Grafana lane)
+- **파이썬 크롤링/엑셀 자동화 스크립트를 제작해 드립니다** — 30,000원~ (low-ticket funnel entry)
+- **GPU 서버 구축 실전 가이드 전자책** — 19,000원
+- **VMware 탈출 실전 가이드 전자책** — 19,000원
+- **부동산 경매 실전 체크리스트 전자책** — 19,000원 (부동산 경매 vertical, [[ck-investing-and-life-profile]])
+
+The pricing structure itself confirms the funnel thesis: 전자책 19,000원 as the low-ticket top-of-funnel, 스크립트 30,000원 as a small paid entry, then 인프라 구축 300k–600k원 as the high-ticket consulting conversion.
+
+### gumroad — English GPU PDF (the "AI infra authority" content engine, live)
+`The GPU Server Build Guide — Passthrough, vGPU/MIG, and an 8×H200 Case Study (PDF)`, seller `ethanverse784.gumroad.com`. A 14-page **English** field guide built around a real **8×H200 large-BAR / MMIO / UEFI boot-loop** troubleshooting case, positioned "written by an engineer who builds them for a living" and targeted at teams moving from cloud GPUs to owned hardware. This is the first concrete artifact of the English-technical-blog / AI-infra-authority goal — a paid English deliverable, not just a blog aspiration.
+
+### coupang partners — affiliate account (registered, zero activity)
+쿠팡 파트너스 (쿠팡 인플루언서), reports last updated 2026-08-11, all metrics ₩0. A secondary/passive monetization channel; noted for completeness, not a core lever.
+
+### Reading
+Still **append_existing**: same business thesis (infra capability packaged as productized consulting + education + English content authority), now grounded in live listings. The gap to watch is **execution/approval** — the kmong gigs have sat in `승인 전` since 2026-08-11, so the pipeline is built but not yet converting; the durable question shifts from "what to package" to "get the listings live and drive first sales."
 
 ## Related pages
 - [[ck-technology-engineering-profile]]
