@@ -5130,3 +5130,11 @@ Reviewed (no recollection): `raw/transcripts/interest-signal-collection-08-00-20
 - **NVIDIA:** NO new Vera Rubin / Rubin Ultra / Vera CPU / NVL144 / NVL576 / Hot Chips / GTC spec/roadmap ITEM all day. Vera Rubin NVL72 MLPerf v6.1 (09-16) already absorbed 09-17 into `nvidia-vera-rubin.md`.
 - **`discard`:** off-axis noise across surfaces (soccer/single-char Threads replies, OpenAI Ukraine-cyber + Grab-SE-Asia outreach, AWS billing-transfer + routine-infra, Google ads/org-outreach, NVIDIA DLSS-5/Clean-Energy/Egypt, HN FoxPro/FBI-hack/SAML/WordPress-RCE/ReBarUEFI/AMD-Ryzen, off-axis repos). Anthropic RSS 404 = availability fact (Opus 5.5 recovered cross-surface).
 - **Durable action:** this whole-day Honcho summary + a `log.md` entry only. Raw transcripts untouched; `index.md` and all concept pages (including the already-updated `ai-infra-operating-economics.md`) left unchanged. (23:00 refinement)
+
+## [2026-09-24] Honcho routing audit — 08:00 social run (clean cross-day no-new-signal)
+Reviewed: `raw/transcripts/interest-signal-collection-08-00-2026-09-24.md`. Baseline = most-recent-by-mtime completed transcript `interest-signal-collection-22-00-2026-09-23.md` + the 09-23 19:00/08:00 social transcripts. Live Chrome CDP `127.0.0.1:9222` UP (Chrome/147); Threads via Graph API (configured path).
+- **Verdict: clean cross-day NO-NEW-SIGNAL / reinforcement-only.** `promote_to_wiki` = none; `append_existing` = none.
+- **`raw_only` (whole run):** Threads `/threads` AND `/replies` tops byte-identical to the baseline (CK posted nothing overnight; the `ㅉ?` 09-23 reply already captured at 09-23 19:00); `/mentions` empty; keyword_search agent/Claude Code/Codex = all CK's OWN older posts (existing lanes). CDP surfaces byte-length-identical to baseline: GitHub stars 2807 / Google My Activity 5822 / YouTube subs 9487 → `변화 없음`.
+- **NVIDIA:** no new Vera Rubin / GTC spec ITEM on any social surface this run.
+- **`discard`:** off-axis carried Threads replies (soccer/single-char noise).
+- **Durable action:** this raw transcript + this Honcho routing audit + a `log.md` entry only; `index.md` and all concept pages left unchanged. (08:00 social)
